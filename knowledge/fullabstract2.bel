@@ -18,7 +18,9 @@ DEFINE NAMESPACE CHEBI AS URL \
 DEFINE NAMESPACE MESH AS URL \
 "http://resource.belframework.org/belframework/1.0/namespace/mesh-diseases.belns"
 
-DEFINE ANNOTATION location AS LIST {"GO:nucleus"}
+DEFINE ANNOTATION CellStructure AS URL "http://resource.belframework.org/belframework/1.0/annotation/mesh-cell-structure.belanno"
+##########################################################################################
+# Statements Section
 
 SET Citation = {"PubMed", "J Biol Chem 2004 Apr 2 279(14) 13659-67", "279(14)", "2002-01-01"}
 SET Evidence = "Werner's syndrome (WS) is an inherited disease\
@@ -40,8 +42,12 @@ SET Evidence = "To gain further insight on the function of WRN\
  helicase activity, and used affinity purification, immunoblot\
  analysis and mass spectroscopy to identify WRN-associated proteins."
 # No statements modeled from this line. 
-SET Evidence = "To this end, we identified three proteins that are stably associated with WRN in nuclear extracts. Two of these proteins, Ku70 and Ku80, were identified by immunoblot analysis. The third polypeptide, which was identified by mass spectrometry analysis, is identical to poly(ADP-ribose) polymerase-1(PARP-1), a 113-kDa enzyme that functions as a sensor of DNA damage."
-SET location = "GO:nucleus"
+SET Evidence = "To this end, we identified three proteins that are stably associated\
+ with WRN in nuclear extracts. Two of these proteins, Ku70 and Ku80, were identified \
+ by immunoblot analysis. The third polypeptide, which was identified by mass\
+ spectrometry analysis, is identical to poly(ADP-ribose) polymerase-1(PARP-1),\
+ a 113-kDa enzyme that functions as a sensor of DNA damage."
+SET CellStructure = "Cell Nucleus"
 complex(p(HGNC:XRCC5), p(HGNC:WRN))
 complex(p(HGNC:XRCC6), p(HGNC:WRN))
 complex(p(HGNC:PARP1), p(HGNC:WRN))
