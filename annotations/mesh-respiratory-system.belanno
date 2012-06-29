@@ -1,0 +1,72 @@
+[AnnotationDefinition]
+Keyword=RespiratorySystem
+TypeString=list
+DescriptionString=The Respiratory System [A04] sub-branch of the Medical Subject Headings (MeSH) Anatomy [A] branch.
+UsageString=Use this annotation to indicate the anatomical context of a statement. Use to annotate a statement that was demonstrated in an anatomical part of the Respiratory System or where the facts represented in the statement were shown to be relevant to such part.
+VersionString=20120202
+CreatedDateTime=2012-02-02T12:00:00
+
+[Author]
+NameString=Selventa
+CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
+ContactInfoString=belframework@selventa.com
+
+[Citation]
+NameString=MeSH
+DescriptionString=MeSH
+PublishedVersionString=20120202
+PublishedDate=2012-02-02
+ReferenceURL=http://www.ncbi.nlm.nih.gov/mesh
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+Adenoids|A04.623.557.500
+Arytenoid Cartilage|A04.329.591.085
+Blood-Air Barrier|A04.411.715.025
+Bronchi|A04.411.125
+Bronchioles|A04.411.125.500
+Cricoid Cartilage|A04.329.591.211
+Epiglottis|A04.329.591.411
+Esophageal Sphincter, Upper|A04.623.617.360
+Ethmoid Sinus|A04.531.621.267
+Frontal Sinus|A04.531.621.387
+Glottis|A04.329.364
+Goblet Cells|A04.531.520.320
+Hypopharynx|A04.623.490
+Laryngeal Cartilages|A04.329.591
+Laryngeal Mucosa|A04.329.597
+Laryngeal Muscles|A04.329.604
+Larynx|A04.329
+Lung|A04.411
+Maxillary Sinus|A04.531.621.578
+Nasal Bone|A04.531.378
+Nasal Cartilages|A04.531.413
+Nasal Cavity|A04.531.449
+Nasal Mucosa|A04.531.520
+Nasal Septum|A04.531.591
+Nasopharynx|A04.623.557
+Nose|A04.531
+Olfactory Mucosa|A04.760.600.640
+Olfactory Receptor Neurons|A04.760.600.640.640
+Oropharynx|A04.623.603
+Palatine Tonsil|A04.623.603.925
+Paranasal Sinuses|A04.531.621
+Pharyngeal Muscles|A04.623.617
+Pharynx|A04.623
+Pleura|A04.716
+Pneumocytes|A04.411.715.512
+Pulmonary Alveoli|A04.411.715
+Pyriform Sinus|A04.623.490.600
+Respiratory Mucosa|A04.760
+Respiratory System|A04
+Sphenoid Sinus|A04.531.621.827
+Thyroid Cartilage|A04.329.591.870
+Trachea|A04.889
+Turbinates|A04.531.898
+Velopharyngeal Sphincter|A04.623.617.680
+Vocal Cords|A04.329.364.737
+Vomer|A04.531.591.469

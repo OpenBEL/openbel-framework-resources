@@ -1,0 +1,155 @@
+[AnnotationDefinition]
+Keyword=CardiovascularSystem
+TypeString=list
+DescriptionString=The Cardiovascular System [A07] sub-branch of the Medical Subject Headings (MeSH) Anatomy [A] branch.
+UsageString=Use this annotation to indicate the anatomical context of a statement. Use to annotate a statement that was demonstrated in an anatomical part of the Cardiovascular System or where the facts represented in the statement were shown to be relevant to such part.
+VersionString=20120202
+CreatedDateTime=2012-02-02T12:00:00
+
+[Author]
+NameString=Selventa
+CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
+ContactInfoString=belframework@selventa.com
+
+[Citation]
+NameString=MeSH
+DescriptionString=MeSH
+PublishedVersionString=20120202
+PublishedDate=2012-02-02
+ReferenceURL=http://www.ncbi.nlm.nih.gov/mesh
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+Anterior Cerebral Artery|A07.231.114.228.100
+Aorta|A07.231.114.056
+Aorta, Abdominal|A07.231.114.056.205
+Aorta, Thoracic|A07.231.114.056.372
+Aortic Valve|A07.541.510.110
+Arteries|A07.231.114
+Arterioles|A07.231.114.060
+Arteriovenous Anastomosis|A07.231.461.085
+Atrial Appendage|A07.541.358.100
+Atrial Septum|A07.541.459.249
+Atrioventricular Node|A07.541.409.147
+Axillary Artery|A07.231.114.085
+Axillary Vein|A07.231.908.077
+Azygos Vein|A07.231.908.106
+Basilar Artery|A07.231.114.106
+Blood Vessels|A07.231
+Blood-Air Barrier|A07.025
+Blood-Aqueous Barrier|A07.030
+Blood-Brain Barrier|A07.035
+Blood-Nerve Barrier|A07.037
+Blood-Retinal Barrier|A07.040
+Blood-Testis Barrier|A07.045
+Brachial Artery|A07.231.114.139
+Brachiocephalic Trunk|A07.231.114.145
+Brachiocephalic Veins|A07.231.908.130
+Bronchial Arteries|A07.231.114.158
+Bundle of His|A07.541.409.273
+Capillaries|A07.231.461.165
+Cardiovascular System|A07
+Carotid Arteries|A07.231.114.186
+Carotid Artery, Common|A07.231.114.186.200
+Carotid Artery, External|A07.231.114.186.200.210
+Carotid Artery, Internal|A07.231.114.186.200.230
+Carotid Sinus|A07.231.114.186.456
+Cavernous Sinus|A07.231.908.224.334
+Celiac Artery|A07.231.114.207
+Cerebral Arteries|A07.231.114.228
+Cerebral Veins|A07.231.908.155
+Chordae Tendineae|A07.541.510.240
+Ciliary Arteries|A07.231.114.248
+Circle of Willis|A07.231.114.228.351
+Coronary Sinus|A07.231.908.194.500
+Coronary Vessels|A07.231.114.269
+Cranial Sinuses|A07.231.908.224
+Ductus Arteriosus|A07.541.278.395
+Endocardial Cushions|A07.541.459.374
+Endocardium|A07.541.207
+Endothelium, Vascular|A07.231.330
+Epigastric Arteries|A07.231.114.330
+Femoral Artery|A07.231.114.351
+Femoral Vein|A07.231.908.314
+Fetal Heart|A07.541.278
+Foramen Ovale|A07.541.459.500
+Gastroepiploic Artery|A07.231.114.379
+Glomerular Filtration Barrier|A07.500
+Heart|A07.541
+Heart Atria|A07.541.358
+Heart Conduction System|A07.541.409
+Heart Septum|A07.541.459
+Heart Valves|A07.541.510
+Heart Ventricles|A07.541.560
+Hepatic Artery|A07.231.114.407
+Hepatic Veins|A07.231.908.380
+Iliac Artery|A07.231.114.444
+Iliac Vein|A07.231.908.427
+Jugular Veins|A07.231.908.498
+Mammary Arteries|A07.231.114.891.525
+Maxillary Artery|A07.231.114.523
+Meningeal Arteries|A07.231.114.545
+Mesenteric Arteries|A07.231.114.565
+Mesenteric Artery, Inferior|A07.231.114.565.510
+Mesenteric Artery, Superior|A07.231.114.565.755
+Mesenteric Veins|A07.231.908.670.385
+Microvessels|A07.231.461
+Middle Cerebral Artery|A07.231.114.228.550
+Mitral Valve|A07.541.510.507
+Muscle, Smooth, Vascular|A07.231.491
+Myoblasts, Cardiac|A07.541.704.500
+Myocardium|A07.541.704
+Myocytes, Cardiac|A07.541.704.570
+Ophthalmic Artery|A07.231.114.622
+Papillary Muscles|A07.541.749
+Pericardium|A07.541.795
+Pericytes|A07.231.330.600
+Popliteal Artery|A07.231.114.681
+Popliteal Vein|A07.231.908.641
+Portal System|A07.231.908.670
+Portal Vein|A07.231.908.670.567
+Posterior Cerebral Artery|A07.231.114.228.700
+Pulmonary Artery|A07.231.114.715
+Pulmonary Valve|A07.541.510.738
+Pulmonary Veins|A07.231.908.713
+Purkinje Fibers|A07.541.409.683
+Radial Artery|A07.231.114.740
+Renal Artery|A07.231.114.745
+Renal Veins|A07.231.908.752
+Retinal Artery|A07.231.114.765
+Retinal Vein|A07.231.908.783
+Retinal Vessels|A07.231.611
+Saphenous Vein|A07.231.908.819
+Sinoatrial Node|A07.541.409.819
+Sinus of Valsalva|A07.231.114.056.847
+Splenic Artery|A07.231.114.814
+Splenic Vein|A07.231.908.670.730
+Subclavian Artery|A07.231.114.839
+Subclavian Vein|A07.231.908.877
+Superior Sagittal Sinus|A07.231.908.224.667
+Temporal Arteries|A07.231.114.228.868
+Thoracic Arteries|A07.231.114.891
+Tibial Arteries|A07.231.114.895
+Transverse Sinuses|A07.231.908.224.833
+Tricuspid Valve|A07.541.510.893
+Truncus Arteriosus|A07.541.278.930
+Tunica Intima|A07.231.700
+Tunica Media|A07.231.491.800
+Ulnar Artery|A07.231.114.920
+Umbilical Arteries|A07.231.114.929
+Umbilical Veins|A07.231.908.670.874
+Uterine Artery|A07.231.114.940
+Vasa Nervorum|A07.231.765
+Vasa Vasorum|A07.231.836
+Veins|A07.231.908
+Vena Cava, Inferior|A07.231.908.949.648
+Vena Cava, Superior|A07.231.908.949.815
+Venae Cavae|A07.231.908.949
+Venous Valves|A07.231.908.950
+Ventricular Septum|A07.541.459.750
+Venules|A07.231.908.952
+Vertebral Artery|A07.231.114.955

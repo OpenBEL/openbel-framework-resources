@@ -1,0 +1,247 @@
+[AnnotationDefinition]
+Keyword=CellStructure
+TypeString=list
+DescriptionString=The Cell Structures [A11.284] sub-branch of the Medical Subject Headings (MeSH) Anatomy [A] branch.
+UsageString=Use this annotation to indicate the cellular location context of a statement. Use to annotate a statement that was demonstrated in a given cellular location or where the facts represented in the statement were shown to be relevant to the cellular location.
+VersionString=20120202
+CreatedDateTime=2012-02-02T12:00:00
+
+[Author]
+NameString=Selventa
+CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
+ContactInfoString=belframework@selventa.com
+
+[Citation]
+NameString=MeSH
+DescriptionString=MeSH
+PublishedVersionString=20120202
+PublishedDate=2012-02-02
+ReferenceURL=http://www.ncbi.nlm.nih.gov/mesh
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+Acrosome|A11.284.430.214.190.875.190.550.040
+Actin Cytoskeleton|A11.284.430.214.190.750.050
+Adherens Junctions|A11.284.149.165.420.020
+Axoneme|A11.284.430.214.190.750.602.309
+Axons|A11.284.180.075
+Bacterial Chromatophores|A11.284.430.214.190.875.080
+COP-Coated Vesicles|A11.284.430.214.190.875.190.880.180.180
+Caveolae|A11.284.430.214.190.875.190.880.180.160
+Cell Membrane|A11.284.149
+Cell Membrane Structures|A11.284.149.165
+Cell Nucleolus|A11.284.430.106.279.345.175
+Cell Nucleus|A11.284.430.214.190.875.117
+Cell Nucleus Structures|A11.284.430.106.279
+Cell Surface Extensions|A11.284.180
+Cell Wall|A11.284.183
+Cell Wall Skeleton|A11.284.183.200
+Cell-Derived Microparticles|A11.284.149.165.082
+Cell-Free System|A11.284.835.168
+Cell-Matrix Junctions|A11.284.149.165.165
+Cellular Structures|A11.284
+Cellulosomes|A11.284.180.120
+Centrioles|A11.284.430.214.190.750.585.160.130
+Centromere|A11.284.430.106.279.345.190.160.165
+Centrosome|A11.284.430.214.190.750.585.160
+Chloroplasts|A11.284.430.214.190.875.700.140
+Chromaffin Granules|A11.284.430.214.190.875.190.190.207
+Chromatids|A11.284.430.106.279.345.190.160.175
+Chromatin|A11.284.430.106.279.345.190.160.180
+Chromosomal Puffs|A11.284.430.106.279.345.190.160.180.270.500
+Chromosome Structures|A11.284.430.106.279.345.190.160
+Chromosomes|A11.284.187
+Chromosomes, Archaeal|A11.284.187.167
+Chromosomes, Artificial|A11.284.187.178
+Chromosomes, Artificial, Bacterial|A11.284.187.178.170
+Chromosomes, Artificial, Human|A11.284.187.178.190.117
+Chromosomes, Artificial, Mammalian|A11.284.187.178.190
+Chromosomes, Artificial, P1 Bacteriophage|A11.284.187.178.195
+Chromosomes, Artificial, Yeast|A11.284.187.178.200
+Chromosomes, Bacterial|A11.284.187.190
+Chromosomes, Fungal|A11.284.187.360
+Chromosomes, Human|A11.284.187.520.300
+Chromosomes, Human, 1-3|A11.284.187.520.300.235
+Chromosomes, Human, 13-15|A11.284.187.520.300.370
+Chromosomes, Human, 16-18|A11.284.187.520.300.415
+Chromosomes, Human, 19-20|A11.284.187.520.300.460
+Chromosomes, Human, 21-22 and Y|A11.284.187.520.300.505
+Chromosomes, Human, 4-5|A11.284.187.520.300.280
+Chromosomes, Human, 6-12 and X|A11.284.187.520.300.325
+Chromosomes, Human, Pair 1|A11.284.187.520.300.235.240
+Chromosomes, Human, Pair 10|A11.284.187.520.300.325.350
+Chromosomes, Human, Pair 11|A11.284.187.520.300.325.355
+Chromosomes, Human, Pair 12|A11.284.187.520.300.325.360
+Chromosomes, Human, Pair 13|A11.284.187.520.300.370.375
+Chromosomes, Human, Pair 14|A11.284.187.520.300.370.380
+Chromosomes, Human, Pair 15|A11.284.187.520.300.370.385
+Chromosomes, Human, Pair 16|A11.284.187.520.300.415.420
+Chromosomes, Human, Pair 17|A11.284.187.520.300.415.425
+Chromosomes, Human, Pair 18|A11.284.187.520.300.415.430
+Chromosomes, Human, Pair 19|A11.284.187.520.300.460.465
+Chromosomes, Human, Pair 2|A11.284.187.520.300.235.245
+Chromosomes, Human, Pair 20|A11.284.187.520.300.460.470
+Chromosomes, Human, Pair 21|A11.284.187.520.300.505.510
+Chromosomes, Human, Pair 22|A11.284.187.520.300.505.515
+Chromosomes, Human, Pair 3|A11.284.187.520.300.235.250
+Chromosomes, Human, Pair 4|A11.284.187.520.300.280.285
+Chromosomes, Human, Pair 5|A11.284.187.520.300.280.290
+Chromosomes, Human, Pair 6|A11.284.187.520.300.325.330
+Chromosomes, Human, Pair 7|A11.284.187.520.300.325.335
+Chromosomes, Human, Pair 8|A11.284.187.520.300.325.340
+Chromosomes, Human, Pair 9|A11.284.187.520.300.325.345
+Chromosomes, Human, X|A11.284.187.520.300.325.680
+Chromosomes, Human, Y|A11.284.187.520.300.505.757
+Chromosomes, Insect|A11.284.187.440
+Chromosomes, Mammalian|A11.284.187.520
+Chromosomes, Plant|A11.284.187.560
+Cilia|A11.284.180.165
+Clathrin-Coated Vesicles|A11.284.430.214.190.875.190.880.180.170
+Coated Pits, Cell-Membrane|A11.284.149.165.175
+Coated Vesicles|A11.284.430.214.190.875.190.880.180
+Coiled Bodies|A11.284.430.106.279.345.195
+Costameres|A11.284.149.165.165.142
+Cytoplasm|A11.284.430.214
+Cytoplasmic Granules|A11.284.430.214.190.500
+Cytoplasmic Structures|A11.284.430.214.190
+Cytoplasmic Vesicles|A11.284.430.214.190.875.190
+Cytoskeleton|A11.284.430.214.190.750
+Cytosol|A11.284.430.429.200
+Dendrites|A11.284.180.225
+Dendritic Spines|A11.284.180.225.169
+Desmosomes|A11.284.149.165.420.297
+Electrical Synapses|A11.284.149.165.420.471.180
+Endoplasmic Reticulum|A11.284.430.214.190.875.248
+Endoplasmic Reticulum, Rough|A11.284.430.214.190.875.811.740.300
+Endoplasmic Reticulum, Smooth|A11.284.430.214.190.875.248.310
+Endosomes|A11.284.430.214.190.875.190.880.337
+Erythrocyte Inclusions|A11.284.420.204
+Erythrocyte Membrane|A11.284.149.356
+Euchromatin|A11.284.430.106.279.345.190.160.180.270
+Exosomes|A11.284.430.214.190.875.190.880.495
+Extracellular Fluid|A11.284.295.260
+Extracellular Matrix|A11.284.295.310
+Extracellular Space|A11.284.295
+Fimbriae, Bacterial|A11.284.180.285
+Flagella|A11.284.180.290
+Focal Adhesions|A11.284.149.165.165.285
+Gap Junctions|A11.284.149.165.420.471
+Gemini of Coiled Bodies|A11.284.430.106.279.345.447
+Glomerular Basement Membrane|A11.284.295.310.279
+Glycocalyx|A11.284.149.165.355
+Glyoxysomes|A11.284.430.214.190.875.190.190.755.250
+Golgi Apparatus|A11.284.430.214.190.875.336
+Growth Cones|A11.284.180.075.249
+Heinz Bodies|A11.284.420.204.335
+Hemidesmosomes|A11.284.149.165.165.360
+Heterochromatin|A11.284.430.106.279.345.190.160.180.383
+Immunological Synapses|A11.284.149.165.420.548
+Inclusion Bodies|A11.284.420
+Inclusion Bodies, Viral|A11.284.420.390
+Intercellular Junctions|A11.284.149.165.420
+Intermediate Filaments|A11.284.430.214.190.750.410
+Intracellular Fluid|A11.284.430.429
+Intracellular Membranes|A11.284.835.514
+Intracellular Space|A11.284.430
+Intranuclear Inclusion Bodies|A11.284.420.400
+Intranuclear Space|A11.284.430.106.279.345
+Isochromosomes|A11.284.187.570
+Kinetochores|A11.284.430.106.279.345.190.160.165.500
+Lewy Bodies|A11.284.420.460
+Lysosomes|A11.284.430.214.190.875.190.550
+Macronucleus|A11.284.430.106.550
+Magnetosomes|A11.284.430.214.190.875.450
+Mallory Bodies|A11.284.420.500
+Melanosomes|A11.284.430.214.190.500.560
+Membrane Microdomains|A11.284.149.165.570
+Microbodies|A11.284.430.214.190.500.585
+Microfibrils|A11.284.295.310.560
+Micronuclei, Chromosome-Defective|A11.284.430.214.190.875.117.570
+Micronucleus, Germline|A11.284.430.214.190.875.117.575
+Microsomes|A11.284.835.540
+Microsomes, Liver|A11.284.835.540.541
+Microtubule-Organizing Center|A11.284.430.214.190.750.585
+Microtubules|A11.284.430.214.190.750.602
+Microvilli|A11.284.180.565
+Mitochondria|A11.284.430.214.190.875.564
+Mitochondria, Heart|A11.284.430.214.190.875.564.627.603
+Mitochondria, Liver|A11.284.430.214.190.875.564.461
+Mitochondria, Muscle|A11.284.430.214.190.875.564.627
+Mitochondrial Membranes|A11.284.149.450.349
+Mitotic Spindle Apparatus|A11.284.430.214.190.750.610
+Motor Endplate|A11.284.149.165.420.780.550.550.500
+Multivesicular Bodies|A11.284.430.214.190.875.190.880.337.500
+Myelin Sheath|A11.284.149.165.600
+Myofibrils|A11.284.430.214.190.750.620
+Neurites|A11.284.180.610
+Neuroeffector Junction|A11.284.149.165.420.780.550
+Neurofibrillary Tangles|A11.284.430.214.190.750.640.520
+Neurofibrils|A11.284.430.214.190.750.640
+Neuromuscular Junction|A11.284.149.165.420.780.550.550
+Neuropil Threads|A11.284.430.214.190.750.602.620
+Nissl Bodies|A11.284.430.214.190.875.811.740.300.610
+Nuclear Envelope|A11.284.835.514.700
+Nuclear Lamina|A11.284.430.106.279.345.700.700
+Nuclear Matrix|A11.284.430.106.279.345.700
+Nuclear Pore|A11.284.430.106.279.692.630
+Nucleolus Organizer Region|A11.284.430.106.279.345.190.160.650
+Nucleosomes|A11.284.430.106.279.345.190.160.180.625
+Organelles|A11.284.430.214.190.875
+Periplasm|A11.284.295.680
+Peroxisomes|A11.284.430.214.190.875.190.190.755.600
+Phagosomes|A11.284.430.214.190.875.190.700
+Philadelphia Chromosome|A11.284.187.520.300.325.345.500
+Phycobilisomes|A11.284.149.165.695
+Pili, Sex|A11.284.180.690
+Plasmodesmata|A11.284.149.165.420.625
+Plastids|A11.284.430.214.190.875.700
+Polyribosomes|A11.284.430.214.190.875.811.740
+Polytene Chromosome|A11.284.430.106.279.345.190.580
+Post-Synaptic Density|A11.284.149.165.420.780.800.500
+Presynaptic Terminals|A11.284.149.165.420.780.700
+Pseudopodia|A11.284.180.700
+Purple Membrane|A11.284.149.648
+Ranvier's Nodes|A11.284.149.165.760
+Ribosome Subunits|A11.284.430.214.190.875.811.870
+Ribosome Subunits, Large|A11.284.430.214.190.875.811.870.700
+Ribosome Subunits, Large, Archaeal|A11.284.430.214.190.875.811.870.700.349
+Ribosome Subunits, Large, Bacterial|A11.284.430.214.190.875.811.870.700.700
+Ribosome Subunits, Large, Eukaryotic|A11.284.430.214.190.875.811.870.700.750
+Ribosome Subunits, Small|A11.284.430.214.190.875.811.870.750
+Ribosome Subunits, Small, Archaeal|A11.284.430.214.190.875.811.870.750.349
+Ribosome Subunits, Small, Bacterial|A11.284.430.214.190.875.811.870.750.700
+Ribosome Subunits, Small, Eukaryotic|A11.284.430.214.190.875.811.870.750.750
+Ribosomes|A11.284.430.214.190.875.811
+Ring Chromosomes|A11.284.187.788
+Sarcolemma|A11.284.149.707
+Sarcomeres|A11.284.430.214.190.875.820
+Sarcoplasmic Reticulum|A11.284.430.214.190.875.248.310.800
+Secretory Vesicles|A11.284.430.214.190.875.190.880.810
+Sex Chromatin|A11.284.187.865.800
+Sex Chromosomes|A11.284.187.865
+Sperm Tail|A11.284.180.290.835
+Spliceosomes|A11.284.430.106.279.345.850
+Stereocilia|A11.284.180.800
+Stress Fibers|A11.284.430.214.190.750.050.830
+Subcellular Fractions|A11.284.835
+Submitochondrial Particles|A11.284.835.626.882
+Synapses|A11.284.149.165.420.780
+Synaptic Membranes|A11.284.149.165.420.780.800
+Synaptic Vesicles|A11.284.430.214.190.875.190.880.830
+Synaptonemal Complex|A11.284.430.106.279.345.190.160.830
+Synaptosomes|A11.284.835.859
+Telomere|A11.284.430.106.279.345.190.160.845
+Thylakoids|A11.284.430.214.190.875.700.140.800
+Tight Junctions|A11.284.149.165.420.820
+Transport Vesicles|A11.284.430.214.190.875.190.880
+Vacuoles|A11.284.430.214.190.875.190.920
+Vault Ribonucleoprotein Particles|A11.284.430.214.190.875.930
+Weibel-Palade Bodies|A11.284.430.214.190.875.190.190.950
+X Chromosome|A11.284.187.865.982
+Y Chromosome|A11.284.187.865.983
+Zona Pellucida|A11.284.295.310.990
+trans-Golgi Network|A11.284.430.214.190.875.336.850

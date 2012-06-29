@@ -1,0 +1,107 @@
+[AnnotationDefinition]
+Keyword=StomatognathicSystem
+TypeString=list
+DescriptionString=The Stomatognathic System [A14] sub-branch of the Medical Subject Headings (MeSH) Anatomy [A] branch.
+UsageString=Use this annotation to indicate the anatomical context of a statement. Use to annotate a statement that was demonstrated in an anatomical part of the Stomatognathic System or where the facts represented in the statement were shown to be relevant to such part.
+VersionString=20120202
+CreatedDateTime=2012-02-02T12:00:00
+
+[Author]
+NameString=Selventa
+CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
+ContactInfoString=belframework@selventa.com
+
+[Citation]
+NameString=MeSH
+DescriptionString=MeSH
+PublishedVersionString=20120202
+PublishedDate=2012-02-02
+ReferenceURL=http://www.ncbi.nlm.nih.gov/mesh
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+Adenoids|A14.724.557.500
+Alveolar Process|A14.549.167.646.094
+Bicuspid|A14.549.167.860.150
+Cheek|A14.194
+Chin|A14.521.632.300
+Cuspid|A14.549.167.860.200
+Dental Arch|A14.521.320
+Dental Cementum|A14.549.167.900.250
+Dental Enamel|A14.549.167.900.255
+Dental Papilla|A14.549.167.900.720.250
+Dental Pellicle|A14.549.167.900.255.500
+Dental Pulp|A14.549.167.900.260
+Dental Pulp Cavity|A14.549.167.900.265
+Dental Sac|A14.549.167.900.720.255
+Dentin|A14.549.167.900.280
+Dentin, Secondary|A14.549.167.900.280.280
+Dentition|A14.549.167
+Dentition, Mixed|A14.549.167.229
+Dentition, Permanent|A14.549.167.237
+Dentition, Primary|A14.549.167.245
+Diastema|A14.549.167.333
+Enamel Organ|A14.549.167.900.720.265
+Epithelial Attachment|A14.549.167.646.374
+Esophageal Sphincter, Upper|A14.724.617.360
+Facial Muscles|A14.363
+Gingiva|A14.549.167.646.480
+Hypopharynx|A14.724.490
+Incisor|A14.549.167.860.425
+Jaw|A14.521
+Labial Frenum|A14.549.336.505
+Lingual Frenum|A14.549.885.431
+Lip|A14.549.336
+Mandible|A14.521.632
+Mandibular Condyle|A14.521.632.600
+Masseter Muscle|A14.530.630
+Masticatory Muscles|A14.530
+Maxilla|A14.521.645
+Molar|A14.549.167.860.525
+Molar, Third|A14.549.167.860.525.500
+Mouth|A14.549
+Mouth Floor|A14.549.441
+Mouth Mucosa|A14.549.512
+Nasopharynx|A14.724.557
+Natal Teeth|A14.549.167.860.700.500
+Oropharynx|A14.724.603
+Palatal Muscles|A14.549.617.623
+Palate|A14.549.617
+Palate, Hard|A14.549.617.660
+Palate, Soft|A14.549.617.780
+Palatine Tonsil|A14.724.603.925
+Parotid Gland|A14.549.760.464
+Periapical Tissue|A14.549.167.646.700
+Periodontal Ligament|A14.549.167.646.771
+Periodontium|A14.549.167.646
+Pharyngeal Muscles|A14.724.617
+Pharynx|A14.724
+Pterygoid Muscles|A14.530.790
+Salivary Ducts|A14.549.760.640
+Salivary Glands|A14.549.760
+Salivary Glands, Minor|A14.549.760.650
+Stomatognathic System|A14
+Sublingual Gland|A14.549.760.687
+Submandibular Gland|A14.549.760.812
+Taste Buds|A14.549.885.779
+Temporal Muscle|A14.530.940
+Temporomandibular Joint|A14.907
+Temporomandibular Joint Disc|A14.907.900
+Tongue|A14.549.885
+Tooth|A14.549.167.860
+Tooth Apex|A14.549.167.900.750.700
+Tooth Cervix|A14.549.167.900.700
+Tooth Components|A14.549.167.900
+Tooth Crown|A14.549.167.900.710
+Tooth Germ|A14.549.167.900.720
+Tooth Root|A14.549.167.900.750
+Tooth Socket|A14.549.167.646.094.800
+Tooth, Deciduous|A14.549.167.860.700
+Tooth, Unerupted|A14.549.167.860.715
+Uvula|A14.549.617.780.729
+Velopharyngeal Sphincter|A14.724.617.680
+von Ebner Glands|A14.549.760.906

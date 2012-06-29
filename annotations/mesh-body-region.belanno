@@ -1,0 +1,109 @@
+[AnnotationDefinition]
+Keyword=BodyRegion
+TypeString=list
+DescriptionString=The Body Regions [A01] sub-branch of the Medical Subject Headings (MeSH) Anatomy [A] branch.
+UsageString=Use this annotation to indicate the anatomical context of a statement. Use to annotate a statement that was demonstrated in the body region or where the facts represented in the statement were shown to be relevant to the body region.
+VersionString=20120202
+CreatedDateTime=2012-02-02T12:00:00
+
+[Author]
+NameString=Selventa
+CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
+ContactInfoString=belframework@selventa.com
+
+[Citation]
+NameString=MeSH
+DescriptionString=MeSH
+PublishedVersionString=20120202
+PublishedDate=2012-02-02
+ReferenceURL=http://www.ncbi.nlm.nih.gov/mesh
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+Abdomen|A01.923.047
+Abdominal Cavity|A01.923.047.025
+Abdominal Wall|A01.923.047.050
+Amputation Stumps|A01.378.100
+Anatomic Landmarks|A01.111
+Ankle|A01.378.610.250.149
+Arm|A01.378.800.075
+Axilla|A01.378.800.090
+Back|A01.923.176
+Body Regions|A01
+Breast|A01.236
+Buttocks|A01.378.610.100
+Cheek|A01.456.505.173
+Chin|A01.456.505.259
+Cranial Fossa, Anterior|A01.456.830.150
+Cranial Fossa, Middle|A01.456.830.165
+Cranial Fossa, Posterior|A01.456.830.200
+Douglas' Pouch|A01.923.047.025.600.225
+Ear|A01.456.313
+Elbow|A01.378.800.420
+Extremities|A01.378
+Eye|A01.456.505.420
+Eyebrows|A01.456.505.420.338
+Eyelashes|A01.456.505.420.504.421
+Eyelids|A01.456.505.420.504
+Face|A01.456.505
+Fingers|A01.378.800.667.430
+Foot|A01.378.610.250
+Forearm|A01.378.800.585
+Forefoot, Human|A01.378.610.250.300
+Forehead|A01.456.505.580
+Groin|A01.923.047.365
+Hallux|A01.378.610.250.300.792.380
+Hand|A01.378.800.667
+Head|A01.456
+Heel|A01.378.610.250.510
+Hip|A01.378.610.400
+Inguinal Canal|A01.923.047.412
+Knee|A01.378.610.450
+Leg|A01.378.610.500
+Lesser Pelvis|A01.923.600.500
+Lip|A01.456.505.631.515
+Lower Extremity|A01.378.610
+Lumbosacral Region|A01.923.176.519
+Mammary Glands, Human|A01.236.249
+Mediastinum|A01.923.761.800.500
+Mesentery|A01.923.047.025.600.451
+Mesocolon|A01.923.047.025.600.451.535
+Metacarpus|A01.378.800.667.572
+Metatarsus|A01.378.610.250.300.480
+Mouth|A01.456.505.631
+Nasolabial Fold|A01.456.505.682
+Neck|A01.598
+Nipples|A01.236.500
+Nose|A01.456.505.733
+Omentum|A01.923.047.025.600.573
+Organs at Risk|A01.635
+Parotid Region|A01.456.505.750
+Pelvic Floor|A01.923.600.600
+Pelvis|A01.923.600
+Perineum|A01.719
+Peritoneal Cavity|A01.923.047.025.600.678
+Peritoneal Stomata|A01.923.047.025.600.700
+Peritoneum|A01.923.047.025.600
+Pleural Cavity|A01.923.761.800.650
+Retroperitoneal Space|A01.923.047.025.750
+Sacrococcygeal Region|A01.923.176.780
+Scalp|A01.456.810
+Shoulder|A01.378.800.750
+Skull Base|A01.456.830
+Thigh|A01.378.610.750
+Thoracic Cavity|A01.923.761.800
+Thoracic Wall|A01.923.761.850
+Thorax|A01.923.761
+Thumb|A01.378.800.667.430.705
+Toes|A01.378.610.250.300.792
+Torso|A01.923
+Transplant Donor Site|A01.935
+Trigger Points|A01.947
+Umbilicus|A01.923.047.849
+Upper Extremity|A01.378.800
+Viscera|A01.960
+Wrist|A01.378.800.667.715

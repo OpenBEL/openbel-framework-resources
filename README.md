@@ -1,2 +1,2 @@
-openbel-framework-resources-new
-===============================
+openbel-framework-resources
+===========================

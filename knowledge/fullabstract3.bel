@@ -1,0 +1,103 @@
+##################################################################################
+# Document Properties Section
+
+SET DOCUMENT Name = "Full Abstract - Example 3"
+SET DOCUMENT Description = "Full Abstract - Example 3"
+SET DOCUMENT Version = "1.0"
+SET DOCUMENT Copyright = "Copyright (c) 2011-2012, Selventa. All Rights Reserved."
+SET DOCUMENT Authors = "Selventa"
+SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported License"
+SET DOCUMENT ContactInfo = "support@belframework.org"
+
+##################################################################################
+# Definitions Section
+DEFINE NAMESPACE HGNC AS URL \
+"http://resource.belframework.org/belframework/1.0/namespace/hgnc-approved-symbols.belns"
+DEFINE NAMESPACE MGI AS URL \
+"http://resource.belframework.org/belframework/1.0/namespace/mgi-approved-symbols.belns"
+DEFINE NAMESPACE MESH AS URL \
+"http://resource.belframework.org/belframework/1.0/namespace/mesh-biological-processes.belns"
+DEFINE NAMESPACE GO AS URL \
+"http://resource.belframework.org/belframework/1.0/namespace/go-biological-processes-names.belns"
+DEFINE NAMESPACE PF AS URL \
+"http://resource.belframework.org/belframework/1.0/namespace/selventa-named-human-protein-families.belns"
+
+DEFINE ANNOTATION cellLine AS URL "http://resource.belframework.org/belframework/1.0/annotation/atcc-cell-line.belanno"
+DEFINE ANNOTATION disease AS URL "http://resource.belframework.org/belframework/1.0/annotation/mesh-disease.belanno"
+DEFINE ANNOTATION species AS URL "http://resource.belframework.org/belframework/1.0/annotation/species-taxonomy-id.belanno"
+
+SET Citation = {"PubMed", "Carcinogenesis 2006 Nov 27(11) 2190-200", "16679305", "2002-01-05"}
+SET Evidence = "Different mutant amino acids in the Ras proteins lead to\
+ distinct transforming capacities and different aggressiveness in human tumors."
+# no statements modeled from this line
+SET Evidence = "K-Ras Asp12 (K12D) is more prevalent in benign than in\
+ malignant human colorectal tumors, whereas K-Ras Val12 (K12V) associates\
+ with more advanced and metastatic carcinomas, higher recurrence and\
+ decreased survival."
+SET species = "9606"
+SET disease = "Colorectal Neoplasms"
+p(HGNC:KRAS, sub(G, 12, V)) prognosticBiomarkerFor path(MESH:"Neoplasm Metastasis")
+p(HGNC:KRAS, sub(G, 12, V)) prognosticBiomarkerFor path(MESH:"Recurrence")
+p(HGNC:KRAS, sub(G, 12, V)) prognosticBiomarkerFor path(MESH:"Fatal Outcome")
+SET Evidence = "Here, we tested, in a nude mouse xenograft model, whether\
+ different human K-Ras oncogenes mutated at codon 12 to Val, Asp or Cys\
+ would confer NIH3T3 fibroblasts distinct oncogenic phenotypes. We studied\
+ tumor histology and growth, apoptotic and mitotic rates, activation of\
+ signal transduction pathways downstream of Ras and regulation of the cell\
+ cycle and apoptotic proteins in tumors derived from the implanted transformants."
+# disease "Colorectal Neoplasms" does not apply to this evidence text;\
+# need to clear disease annotation
+UNSET disease
+# note that experiment is expression of human genes in mouse tissue;\
+# set species annotation to mouse and cell line to NIH3T3
+SET species = "10090"
+SET cellLine = "NIH3T3"
+# no statements modeled from this line
+SET Evidence = "We found that the K12V oncogene induces a more aggressive\
+ tumorigenic phenotype than the K12D oncogene, whereas K12C does not induce\
+ tumors in this model."
+# disambiguation K12V is KRAS G12 V substitution
+# evidence text indicates that both G12V and G12D qualitatively induce tumors;\
+# BEL V1.2.0 does not capture magnitude of the effect
+p(HGNC:KRAS, sub(G, 12, V)) -> path(MESH:Neoplasms)
+p(HGNC:KRAS, sub(G, 12, D)) -> path(MESH:Neoplasms)
+p(HGNC:KRAS, sub(G, 12, C)) causesNoChange path(MESH:Neoplasms)
+SET Evidence = "Thus, K12V mutant tumors proliferate about seven times\
+ faster, and have higher cellularity and mitotic rates than the K12D\
+ mutant tumors."
+# no statements modeled from this line
+SET Evidence = "A molecular analysis of the induced tumors shows that\
+ the K12V mutant protein interacts with Raf-1 and transduces signals\
+ mainly through the Erk pathway."
+# it is preferable to avoid using modified or mutant proteins within\
+# other functions, and instead model the effect of the modification or mutation\
+# on the activity of the normal protein. The relationship is self-referential,\
+# and thus direct
+p(HGNC:KRAS, sub(G, 12, V)) => complex(p(HGNC:KRAS), p(MGI:RAF1)) 
+# ERK pathway likely refers to MAPK1 and MAPK3 kinase activity
+p(HGNC:KRAS, sub(G, 12, V)) -> kin(p(MGI:MAPK1))
+p(HGNC:KRAS, sub(G, 12, V)) -> kin(p(MGI:MAPK3))
+SET Evidence = "Unexpectedly, in tumors induced by the K12D oncogene,\
+ the K-Ras mutant protein does not interact with Raf-1 nor activates\
+ the Erk canonical pathway."
+p(HGNC:KRAS, sub(G, 12, D)) causesNoChange complex(p(HGNC:KRAS), p(MGI:RAF1)) 
+p(HGNC:KRAS, sub(G, 12, D)) causesNoChange kin(p(MGI:MAPK1))
+p(HGNC:KRAS, sub(G, 12, D)) causesNoChange kin(p(MGI:MAPK3))
+SET Evidence = "Instead, it transduces signals through the PI3K/Akt, JNK, p38 and FAK pathways."
+# "it" refers to KRAS G12D
+p(HGNC:KRAS, sub(G, 12, D)) -> kin(PF:PI3K)
+p(HGNC:KRAS, sub(G, 12, D)) -> kin(PF:AKT)
+p(HGNC:KRAS, sub(G, 12, D)) -> kin(PF:"JNK MAPK")
+p(HGNC:KRAS, sub(G, 12, D)) -> kin(PF:"p38 MAPK")
+# disambiguation FAK = PTK2
+p(HGNC:KRAS, sub(G, 12, D)) -> kin(MGI:PTK2)
+SET Evidence = "Finally, the higher growth rate of the K12V tumors associates\
+ with enhanced Rb phosphorylation, and PCNA and cyclin B upregulation, consistent\
+ with faster G1/S and G2/M transitions, without alteration of apoptotic\
+ regulation."
+p(HGNC:KRAS, sub(G, 12, V)) -> p(HGNC:RB1, pmod(P))
+p(HGNC:KRAS, sub(G, 12, V)) -> p(HGNC:PCNA)
+p(HGNC:KRAS, sub(G, 12, V)) -> p(HGNC:CCNB1)
+p(HGNC:KRAS, sub(G, 12, V)) -> bp(GO:"G1/S transition of mitotic cell cycle")
+p(HGNC:KRAS, sub(G, 12, V)) -> bp(GO:"G2/M transition of mitotic cell cycle")
+p(HGNC:KRAS, sub(G, 12, V)) causesNoChange bp(GO:"regulation of apoptosis")

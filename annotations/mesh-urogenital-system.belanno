@@ -1,0 +1,109 @@
+[AnnotationDefinition]
+Keyword=UrogenitalSystem
+TypeString=list
+DescriptionString=The Urogenital System [A05] sub-branch of the Medical Subject Headings (MeSH) Anatomy [A] branch.
+UsageString=Use this annotation to indicate the anatomical context of a statement. Use to annotate a statement that was demonstrated in an anatomical part of the Urogenital System or where the facts represented in the statement were shown to be relevant to such part.
+VersionString=20120202
+CreatedDateTime=2012-02-02T12:00:00
+
+[Author]
+NameString=Selventa
+CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
+ContactInfoString=belframework@selventa.com
+
+[Citation]
+NameString=MeSH
+DescriptionString=MeSH
+PublishedVersionString=20120202
+PublishedDate=2012-02-02
+ReferenceURL=http://www.ncbi.nlm.nih.gov/mesh
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+Acrosome|A05.360.490.890.820.100
+Adnexa Uteri|A05.360.319.114
+Bartholin's Glands|A05.360.319.887.220
+Blood-Testis Barrier|A05.360.444.849.700.349
+Bowman Capsule|A05.810.453.736.560.254
+Broad Ligament|A05.360.319.114.170
+Bulbourethral Glands|A05.360.444.123
+Cervix Uteri|A05.360.319.679.256
+Clitoris|A05.360.319.887.436
+Corpus Luteum|A05.360.319.114.630.278
+Cumulus Cells|A05.360.319.114.630.535.200.500
+Decidua|A05.360.319.679.490.373
+Deciduoma|A05.360.319.679.490.373.500
+Ejaculatory Ducts|A05.360.444.251
+Endometrium|A05.360.319.679.490
+Epididymis|A05.360.444.371
+Fallopian Tubes|A05.360.319.114.373
+Follicular Fluid|A05.360.319.114.630.535.150
+Foreskin|A05.360.444.492.362
+Genitalia|A05.360
+Genitalia, Female|A05.360.319
+Genitalia, Male|A05.360.444
+Germ Cells|A05.360.490
+Glomerular Basement Membrane|A05.810.453.324.359.372.400
+Glomerular Filtration Barrier|A05.810.453.324.359.372
+Glomerular Mesangium|A05.810.453.736.520.620.500
+Gonads|A05.360.576
+Granulosa Cells|A05.360.319.114.630.535.200
+Hymen|A05.360.319.779.479
+Juxtaglomerular Apparatus|A05.810.453.324.359.520
+Kidney|A05.810.453
+Kidney Calices|A05.810.453.537.503
+Kidney Cortex|A05.810.453.324
+Kidney Glomerulus|A05.810.453.736.520
+Kidney Medulla|A05.810.453.466
+Kidney Pelvis|A05.810.453.537
+Kidney Tubules|A05.810.453.736.560
+Kidney Tubules, Collecting|A05.810.453.736.560.510
+Kidney Tubules, Distal|A05.810.453.736.560.540
+Kidney Tubules, Proximal|A05.810.453.736.560.570
+Leydig Cells|A05.360.444.849.513
+Loop of Henle|A05.810.453.736.560.610
+Luteal Cells|A05.360.319.114.630.278.400
+Mesangial Cells|A05.810.453.736.520.620
+Myometrium|A05.360.319.679.690
+Nephrons|A05.810.453.736
+Oocytes|A05.360.490.690.680
+Oogonia|A05.360.490.690.700
+Ovarian Follicle|A05.360.319.114.630.535
+Ovary|A05.360.576.497
+Ovum|A05.360.490.690
+Penis|A05.360.444.492
+Podocytes|A05.810.453.324.359.372.650
+Polar Bodies|A05.360.490.690.680.500
+Prostate|A05.360.444.575
+Rete Testis|A05.360.444.849.600
+Round Ligament|A05.360.319.114.803
+Scrotum|A05.360.444.661
+Seminal Vesicles|A05.360.444.713
+Seminiferous Epithelium|A05.360.444.849.700.700
+Seminiferous Tubules|A05.360.444.849.700
+Sertoli Cells|A05.360.444.849.789
+Sperm Head|A05.360.490.890.820
+Sperm Midpiece|A05.360.490.890.830
+Sperm Tail|A05.360.490.890.840
+Spermatic Cord|A05.360.444.777
+Spermatids|A05.360.490.890.860
+Spermatocytes|A05.360.490.890.880
+Spermatogonia|A05.360.490.890.900
+Spermatozoa|A05.360.490.890
+Testis|A05.360.444.849
+Theca Cells|A05.360.319.114.630.535.400
+Ureter|A05.810.776
+Urethra|A05.810.876
+Urinary Bladder|A05.810.890
+Urinary Tract|A05.810
+Urogenital System|A05
+Uterus|A05.360.319.679
+Vagina|A05.360.319.779
+Vas Deferens|A05.360.444.930
+Vulva|A05.360.319.887
+Zona Pellucida|A05.360.490.690.950
+Zygote|A05.360.490.690.970
