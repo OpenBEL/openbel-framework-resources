@@ -2428,8 +2428,8 @@ molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA3),proteinAbundance
 molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA2),proteinAbundance(HGNC:ITGB1))) causesNoChange complexAbundance(proteinAbundance(HGNC:SHC1),proteinAbundance(HGNC:GRB2))
 molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA3),proteinAbundance(HGNC:ITGB1))) causesNoChange proteinAbundance(HGNC:SHC1,proteinModification(P,Y))
 molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA2),proteinAbundance(HGNC:ITGB1))) increases proteinAbundance(HGNC:SHC1,proteinModification(P,Y))
-complexAbundance(proteinAbundance(PFH:"LAM Family"),complexAbundance(proteinAbundance(HGNC:ITGA3),proteinAbundance(HGNC:ITGB1)))
-complexAbundance(proteinAbundance(PFH:"LAM Family"),complexAbundance(proteinAbundance(HGNC:ITGA2),proteinAbundance(HGNC:ITGB1)))
+# complexAbundance(proteinAbundance(PFH:"LAM Family"),complexAbundance(proteinAbundance(HGNC:ITGA3),proteinAbundance(HGNC:ITGB1)))
+# complexAbundance(proteinAbundance(PFH:"LAM Family"),complexAbundance(proteinAbundance(HGNC:ITGA2),proteinAbundance(HGNC:ITGB1)))
 
 SET CellLine = "HeLa"
 SET Evidence = "While the stimulation of Erk by α6β4 was suppressed by dominant-negative Shc, Ras
