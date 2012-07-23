@@ -3,7 +3,7 @@
 
 SET DOCUMENT Name = "BEL Framework Small Corpus Document"
 SET DOCUMENT Description = "Approximately 2000 hand curated statements drawn from 57 PubMeds."
-SET DOCUMENT Version = "1.6"
+SET DOCUMENT Version = "1.5"
 SET DOCUMENT Copyright = "Copyright (c) 2011-2012, Selventa. All Rights Reserved."
 SET DOCUMENT Authors = "Selventa"
 SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported License"
@@ -595,7 +595,7 @@ through Ras, the dual-specificity p38MAPK kinases (MKK3 and MKK6) and the JNK ki
 (MKK4 and MKK7) phosphorylate p38MAPK and JNK, respectively. 72-76"
 
 gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases kinaseActivity(proteinAbundance(PFH:"RAF Family"))
-gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
+gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases kinaseActivity(proteinAbundance(PFH:"PIK3 Family"))
 gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases gtpBoundActivity(proteinAbundance(PFH:"RAC Family"))
 gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases gtpBoundActivity(proteinAbundance(PFH:"RHO Family"))
 gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases kinaseActivity(proteinAbundance(PFH:"MAPK JNK Family"))
@@ -653,7 +653,7 @@ stimulation of B-Raf by cyclic adenosine monophosphate (cAMP) phosphorylates
 ERK, whereas stimulation of C-Raf inhibits ERK phosphorylation.115"
 
 abundance(CHEBI:"3',5'-cyclic AMP") increases gtpBoundActivity(proteinAbundance(HGNC:RAP1A))
-gtpBoundActivity(proteinAbundance(HGNC:RAP1A)) increases (kinaseActivity(proteinAbundance(HGNC:BRAF)) increases proteinAbundance(PFH:"MAPK Erk1/3 Family",proteinModification(P)))
+gtpBoundActivity(proteinAbundance(HGNC:RAP1A)) increases (kinaseActivity(proteinAbundance(HGNC:BRAF)) increases proteinAbundance(PFH:"MAPK Erk Family",proteinModification(P)))
 gtpBoundActivity(proteinAbundance(HGNC:RAP1A)) decreases kinaseActivity(proteinAbundance(HGNC:RAF1)) //The effect of RAP1A on RAF1 (c-RAF) does not appear to be stimulating
 
 SET Evidence = "With regard to differences in signaling between the Raf isoforms, A-Raf is a weaker
@@ -676,7 +676,7 @@ phosphatase 2A.126"
 complexAbundance(proteinAbundance(HGNC:RAF1),proteinAbundance(HGNC:HSP90AA1),proteinAbundance(PFH:"14-3-3 Family"))
 complexAbundance(proteinAbundance(PFH:"RAS Family"),proteinAbundance(HGNC:RAF1)) directlyDecreases complexAbundance(proteinAbundance(HGNC:RAF1),proteinAbundance(PFH:"14-3-3 Family"))
 proteinAbundance(PFH:"14-3-3 Family") directlyDecreases kinaseActivity(proteinAbundance(HGNC:RAF1))
-phosphataseActivity(complexAbundance(NCH:"PP2A Complex")) directlyDecreases proteinAbundance(HGNC:RAF1,proteinModification(P,S))
+phosphataseActivity(proteinAbundance(PFH:"PPP2 Family")) directlyDecreases proteinAbundance(HGNC:RAF1,proteinModification(P,S))
 
 SET Evidence = "The effector domain of GTP-bound Ras binds to C-Raf through the RBD and CRD in the
 CR1. Although binding to both sites is required for Raf activation, the most critical
@@ -749,7 +749,7 @@ proteinAbundance(HGNC:RAF1,proteinModification(P,S,259)) directlyIncreases compl
 proteinAbundance(HGNC:RAF1,proteinModification(P,S,259)) directlyDecreases kinaseActivity(proteinAbundance(HGNC:RAF1))
 proteinAbundance(HGNC:RAF1,proteinModification(P,S,621)) directlyDecreases kinaseActivity(proteinAbundance(HGNC:RAF1))
 proteinAbundance(HGNC:RAF1,proteinModification(P,S,621)) directlyIncreases complexAbundance(proteinAbundance(HGNC:RAF1),proteinAbundance(PFH:"14-3-3 Family"))
-phosphataseActivity(complexAbundance(NCH:"PP2A Complex")) directlyDecreases proteinAbundance(HGNC:RAF1,proteinModification(P,S,259))
+phosphataseActivity(proteinAbundance(PFH:"PPP2 Family")) directlyDecreases proteinAbundance(HGNC:RAF1,proteinModification(P,S,259))
 kinaseActivity(proteinAbundance(PFH:"AKT Family")) directlyIncreases proteinAbundance(HGNC:RAF1,proteinModification(P,S,259))
 kinaseActivity(proteinAbundance(PFH:"PRKA Family")) directlyIncreases proteinAbundance(HGNC:RAF1,proteinModification(P,S,259))
 kinaseActivity(proteinAbundance(HGNC:SGK1)) directlyIncreases proteinAbundance(HGNC:RAF1,proteinModification(P,S,259))
@@ -923,14 +923,14 @@ SET Evidence = "The third subdomain of the catalytic unit of all PDE4 subfamilie
 PDE4A, contains a single, ERK consensus motif (Pro-Xaa-Ser-Pro). The serine residue
 in this site can be phosphorylated, both in vitro and in vivo , by ERK [49,70,71]."
 
-kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")) directlyIncreases proteinAbundance(HGNC:PDE4B,proteinModification(P,S))
-kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")) directlyIncreases proteinAbundance(HGNC:PDE4C,proteinModification(P,S))
-kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")) directlyIncreases proteinAbundance(HGNC:PDE4D,proteinModification(P,S))
+kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")) directlyIncreases proteinAbundance(HGNC:PDE4B,proteinModification(P,S))
+kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")) directlyIncreases proteinAbundance(HGNC:PDE4C,proteinModification(P,S))
+kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")) directlyIncreases proteinAbundance(HGNC:PDE4D,proteinModification(P,S))
 
 SET Evidence = "ERK phosphorylation of PDE4 long isoforms leads to inhibition under conditions where
 the serine target is the sole residue phosphorylated [49,70,71]."
 
-kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")) directlyDecreases catalyticActivity(proteinAbundance(PFH:"PDE4 Long No A Family"))
+kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")) directlyDecreases catalyticActivity(proteinAbundance(PFH:"PDE4 Long No A Family"))
 
 SET CardiovascularSystem = "Aorta"
 SET Tissue = "Muscle, Smooth"
@@ -939,8 +939,8 @@ activation of PKA2 and the production of arachidonic acid. Thus the rapidly
 generated PGE2 stimulates adenylate cyclase, increasing cAMP levels,"
 SET Species = "9606"
 
-kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")) increases abundance(CHEBI:"prostaglandin E2")
-kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")) increases catalyticActivity(proteinAbundance(PFH:"PLA2 Family"))
+kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")) increases abundance(CHEBI:"prostaglandin E2")
+kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")) increases catalyticActivity(proteinAbundance(PFH:"PLA2 Family"))
 catalyticActivity(proteinAbundance(PFH:"PLA2 Family")) increases abundance(CHEBI:"arachidonic acid")
 abundance(CHEBI:"prostaglandin E2") increases catalyticActivity(proteinAbundance(PFH:"ADCY Family"))
 
@@ -952,7 +952,7 @@ to be seen."
 
 proteinAbundance(HGNC:IL3) increases catalyticActivity(proteinAbundance(PFH:"PDE4 Family"))
 proteinAbundance(HGNC:IL4) increases catalyticActivity(proteinAbundance(PFH:"PDE4 Family"))
-kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")) directlyIncreases catalyticActivity(proteinAbundance(PFH:"PDE4 Short Family"))
+kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")) directlyIncreases catalyticActivity(proteinAbundance(PFH:"PDE4 Short Family"))
 
 SET Evidence = "PA causes a marked (0.7-3-fold) activation of various long PDE4 isoforms, but fails
 to affect short and super-short isoforms [87,91]. Similar activation was seen
@@ -1609,10 +1609,10 @@ integrin-mediated binding to fibronectin are required for the recruitment and
 activation of PKC alpha."
 
 complexAbundance(proteinAbundance(HGNC:FLT1),proteinAbundance(PFH:"PIK3R Class IA Family"))
-proteinAbundance(HGNC:VEGFA) increases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
-kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex")) increases biologicalProcess(GO:"cell-matrix adhesion")
-kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex")) increases biologicalProcess(GO:"cell migration")
-kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex")) increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
+proteinAbundance(HGNC:VEGFA) increases kinaseActivity(proteinAbundance(PFH:"PIK3 Family"))
+kinaseActivity(proteinAbundance(PFH:"PIK3 Family")) increases biologicalProcess(GO:"cell-matrix adhesion")
+kinaseActivity(proteinAbundance(PFH:"PIK3 Family")) increases biologicalProcess(GO:"cell migration")
+kinaseActivity(proteinAbundance(PFH:"PIK3 Family")) increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
 biologicalProcess(GO:"cell-matrix adhesion") increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
 molecularActivity(proteinAbundance(HGNC:ITGB1)) increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
 
@@ -1710,7 +1710,7 @@ as a substrate. As shown in Fig. 5d, VEGF induced peak activation (6-fold) of PI
 3-kinase activity at 5 min."
 
 proteinAbundance(HGNC:VEGFA) increases proteinAbundance(PFH:"PIK3R Class IA Family",proteinModification(P,Y))
-proteinAbundance(HGNC:VEGFA) increases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
+proteinAbundance(HGNC:VEGFA) increases kinaseActivity(proteinAbundance(PFH:"PIK3 Family"))
 
 SET Evidence = "When PI 3-kinase activation in MM cells seeded on fibronectin was inhibited by LY294002,
 PKCα recruitment to the plasma membrane was also abrogated (Fig. 6). These
@@ -1718,7 +1718,7 @@ results indicate that VEGF-induced PI 3-kinase activation along with β1 integri
 binding to fibronectin activate PKCα."
 
 abundance(SCHEM:"LY 294002") decreases translocation(proteinAbundance(HGNC:PRKCA),MESHCL:"Intracellular Space",MESHCL:"Cell Membrane")
-kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex")) increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
+kinaseActivity(proteinAbundance(PFH:"PIK3 Family")) increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
 complexAbundance(proteinAbundance(HGNC:ITGB1),proteinAbundance(HGNC:FN1)) increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
 
 SET Evidence = "As seen in Fig. 7a, VEGF added to the conditioned medium in the lower chamber induced
@@ -1827,7 +1827,7 @@ fluorescence decreased linearly with a mean net export rate of -0.71 ± 0.07%/mi
 (Fig. 9 A, 13 nuclei from 5 fibers)."
 
 abundance(SCHEM:"Calyculin A") directlyDecreases phosphataseActivity(proteinAbundance(PFM:"Ppp1c Family"))
-abundance(SCHEM:"Calyculin A") directlyDecreases phosphataseActivity(complexAbundance(NCM:"PP2A Complex"))
+abundance(SCHEM:"Calyculin A") directlyDecreases phosphataseActivity(proteinAbundance(PFM:"Ppp2 Family"))
 abundance(SCHEM:"Calyculin A") increases translocation(proteinAbundance(MGI:Hdac4),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
 abundance(SCHEM:"Calyculin A") causesNoChange phosphataseActivity(proteinAbundance(PFM:"Ppp3 Family"))
 
@@ -1858,14 +1858,14 @@ compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng
 compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases abundance(CHEBI:superoxide)
 compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases abundance(CHEBI:"nitric oxide")
 compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases abundance(CHEBI:"3-nitro-L-tyrosine")
-compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases phosphataseActivity(complexAbundance(NCM:"PP2A Complex"))
+compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases phosphataseActivity(proteinAbundance(PFM:"Ppp2 Family"))
 abundance(SCHEM:Tripterine) decreases (compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases biologicalProcess(MESHPP:"Capillary Permeability"))
 abundance(SCHEM:Tripterine) decreases (compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases proteinAbundance(MGI:Nos2))
 abundance(SCHEM:Tripterine) decreases (compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases proteinAbundance(MGI:Nox1))
 abundance(SCHEM:Tripterine) decreases (compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases abundance(CHEBI:superoxide))
 abundance(SCHEM:Tripterine) decreases (compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases abundance(CHEBI:"nitric oxide"))
 abundance(SCHEM:Tripterine) decreases (compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases abundance(CHEBI:"3-nitro-L-tyrosine"))
-abundance(SCHEM:Tripterine) decreases (compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases phosphataseActivity(complexAbundance(NCM:"PP2A Complex")))
+abundance(SCHEM:Tripterine) decreases (compositeAbundance(abundance(SCHEM:Lipopolysaccharide),proteinAbundance(MGI:Ifng)) increases phosphataseActivity(proteinAbundance(PFM:"Ppp2 Family")))
 
 SET Evidence = "Further, LPS + IFNγ -induced expression of iNOS and Nox1 was attenuated by the mitogen-activated
 protein kinase kinase 1/2 (MEK1/2) inhibitor PD98059, the JNK inhibitor
@@ -1889,7 +1889,7 @@ abundance(SCHEM:"Benzyloxycarbonylleucyl-leucyl-leucine aldehyde") decreases (co
 abundance(SCHEM:"Benzyloxycarbonylleucyl-leucyl-leucine aldehyde") decreases (compositeAbundance(proteinAbundance(MGI:Ifng),abundance(SCHEM:Lipopolysaccharide)) increases proteinAbundance(MGI:Nox1))
 abundance(SCHEM:"SB-203580") directlyDecreases kinaseActivity(proteinAbundance(PFM:"Mapk p38 Family"))
 abundance(SCHEM:Tripterine) decreases proteinAbundance(MGI:Jak2,proteinModification(P))
-compositeAbundance(proteinAbundance(MGI:Ifng),abundance(SCHEM:Lipopolysaccharide)) increases proteinAbundance(PFM:"MAPK Erk1/3 Family",proteinModification(P))
+compositeAbundance(proteinAbundance(MGI:Ifng),abundance(SCHEM:Lipopolysaccharide)) increases proteinAbundance(PFM:"Mapk Erk Family",proteinModification(P))
 compositeAbundance(proteinAbundance(MGI:Ifng),abundance(SCHEM:Lipopolysaccharide)) increases proteinAbundance(PFM:"Mapk JNK Family",proteinModification(P))
 compositeAbundance(proteinAbundance(MGI:Ifng),abundance(SCHEM:Lipopolysaccharide)) increases proteinAbundance(MGI:Jak2,proteinModification(P))
 compositeAbundance(proteinAbundance(MGI:Ifng),abundance(SCHEM:Lipopolysaccharide)) increases degradation(proteinAbundance(MGI:Nfkbia))
@@ -1958,8 +1958,8 @@ SET Evidence = "Increased production of peroxynitrite is associated with the act
 causes an increase in the permeability of the endothelial cell monolayer (Wu
 and Wilson, 2009)."
 
-abundance(CHEBI:peroxynitrite) increases phosphataseActivity(complexAbundance(NCM:"PP2A Complex"))
-phosphataseActivity(complexAbundance(NCM:"PP2A Complex")) increases biologicalProcess(MESHPP:"Capillary Permeability")
+abundance(CHEBI:peroxynitrite) increases phosphataseActivity(proteinAbundance(PFM:"Ppp2 Family"))
+phosphataseActivity(proteinAbundance(PFM:"Ppp2 Family")) increases biologicalProcess(MESHPP:"Capillary Permeability")
 
 UNSET STATEMENT_GROUP
 
@@ -2069,14 +2069,14 @@ abundance(SCHEM:"LY 294002") decreases proteinAbundance(PFH:"AKT Family",protein
 abundance(SCHEM:"LY 294002") decreases proteinAbundance(PFH:"AKT Family",proteinModification(P,S,473))
 abundance(CHEBI:wortmannin) decreases proteinAbundance(PFH:"AKT Family",proteinModification(P,T,308))
 abundance(CHEBI:wortmannin) decreases proteinAbundance(PFH:"AKT Family",proteinModification(P,S,473))
-abundance(CHEBI:wortmannin) directlyDecreases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
-abundance(SCHEM:"LY 294002") directlyDecreases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
+abundance(CHEBI:wortmannin) directlyDecreases kinaseActivity(proteinAbundance(PFH:"PIK3 Family"))
+abundance(SCHEM:"LY 294002") directlyDecreases kinaseActivity(proteinAbundance(PFH:"PIK3 Family"))
 
 SET Evidence = "These data demonstrate that Akt/PKB phosphorylation in the three positive cell lines
 is PI3-K-dependent, making it unlikely that other kinases are directly involved
 in activating Akt/PKB."
 
-kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex")) increases proteinAbundance(PFH:"AKT Family",proteinModification(P))
+kinaseActivity(proteinAbundance(PFH:"PIK3 Family")) increases proteinAbundance(PFH:"AKT Family",proteinModification(P))
 
 SET Evidence = "Fig. 5A shows that in the three cell lines with high Akt/PKB activity, basal levels
 of apoptosis were potentiated 6–16-fold by LY294002 (Lanes 1)."
@@ -2415,7 +2415,7 @@ SET Species = "9606"
 molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases proteinAbundance(HGNC:SHC1,proteinModification(P,Y))
 molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases complexAbundance(proteinAbundance(HGNC:SHC1),proteinAbundance(HGNC:GRB2))
 complexAbundance(proteinAbundance(HGNC:SHC1),proteinAbundance(HGNC:GRB2)) increases gtpBoundActivity(proteinAbundance(PFH:"RAS Family"))
-gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family"))
+gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family"))
 gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases kinaseActivity(proteinAbundance(PFH:"MAPK JNK Family"))
 molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases gtpBoundActivity(proteinAbundance(PFH:"RAS Family"))
 
@@ -2436,13 +2436,13 @@ SET Evidence = "While the stimulation of Erk by α6β4 was suppressed by dominan
 and RhoA, the activation of Jnk was inhibited by dominant-negative Ras and Rac1
 and by the phosphoinositide 3-kinase inhibitor Wortmannin."
 
-molecularActivity(proteinAbundance(HGNC:SHC1)) increases (molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")))
-gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases (molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")))
-gtpBoundActivity(proteinAbundance(HGNC:RHOA)) increases (molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")))
+molecularActivity(proteinAbundance(HGNC:SHC1)) increases (molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")))
+gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases (molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")))
+gtpBoundActivity(proteinAbundance(HGNC:RHOA)) increases (molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")))
 gtpBoundActivity(proteinAbundance(PFH:"RAS Family")) increases (molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases kinaseActivity(proteinAbundance(PFH:"MAPK JNK Family")))
 gtpBoundActivity(proteinAbundance(HGNC:RAC1)) increases (molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases kinaseActivity(proteinAbundance(PFH:"MAPK JNK Family")))
-kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex")) increases (molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases kinaseActivity(proteinAbundance(PFH:"MAPK JNK Family")))
-abundance(SCHEM:Wortmannin) directlyDecreases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
+kinaseActivity(proteinAbundance(PFH:"PIK3 Family")) increases (molecularActivity(complexAbundance(proteinAbundance(HGNC:ITGA6),proteinAbundance(HGNC:ITGB4))) increases kinaseActivity(proteinAbundance(PFH:"MAPK JNK Family")))
+abundance(SCHEM:Wortmannin) directlyDecreases kinaseActivity(proteinAbundance(PFH:"PIK3 Family"))
 
 SET Evidence = "Adhesion mediated by α6β4 induced transcription from the Fos serum response element
 and promoted cell cycle progression in response to mitogens."
@@ -2478,6 +2478,10 @@ SET Citation = {"PubMed","Nature reviews. Cancer","18432252","","Klaus A|Birchme
 
 proteinAbundance(HGNC:NDP) increases biologicalProcess(GO:"Wnt receptor signaling pathway")
 proteinAbundance(HGNC:RSPO1) increases biologicalProcess(GO:"Wnt receptor signaling pathway")
+complexAbundance(proteinAbundance(HGNC:NDP),proteinAbundance(PFH:"LRP Family")) increases biologicalProcess(GO:"Wnt receptor signaling pathway")
+complexAbundance(proteinAbundance(HGNC:RSPO1),proteinAbundance(PFH:"LRP Family")) increases biologicalProcess(GO:"Wnt receptor signaling pathway")
+proteinAbundance(HGNC:NDP) directlyIncreases molecularActivity(proteinAbundance(PFH:"LRP Family"))
+proteinAbundance(HGNC:RSPO1) directlyIncreases molecularActivity(proteinAbundance(PFH:"LRP Family"))
 
 SET TextLocation = "Results"
 SET Evidence = "Following phosphorylation, β-catenin is targeted for proteasome-dependent degradation
@@ -2530,6 +2534,7 @@ SET Species = "10090"
 proteinAbundance(MGI:Dkk1) decreases biologicalProcess(GO:"Wnt receptor signaling pathway")
 complexAbundance(proteinAbundance(MGI:Kremen1),proteinAbundance(MGI:Dkk1))
 proteinAbundance(MGI:Kremen1) decreases biologicalProcess(GO:"Wnt receptor signaling pathway")
+molecularActivity(proteinAbundance(MGI:Kremen1)) increases translocation(proteinAbundance(PFM:"Lrp Family"),MESHCL:"Cell Membrane",MESHCL:Cytoplasm)
 
 SET DigestiveSystem = "Colon"
 SET Evidence = "axin1 and axin2 loss-of-function mutations have also been detected in rare cases of
@@ -3280,7 +3285,7 @@ kinaseActivity(proteinAbundance(HGNC:RPS6KB2)) directlyIncreases proteinAbundanc
 
 SET Evidence = "One of the well-known downstream targets of MAPK is p90 RSK (ribosomal S6 kinase)."
 
-kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family")) directlyIncreases proteinAbundance(PFH:"RPS6KA Family",proteinModification(P))
+kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family")) directlyIncreases proteinAbundance(PFH:"RPS6KA Family",proteinModification(P))
 
 SET Evidence = "Fetal brown adipocytes primary cultures offer an excellent cell model to study the
 molecular mechanisms of insulin/IGF-I-mediated differentiation processes. In these
@@ -3359,7 +3364,7 @@ protein serine/threonine phosphatase 1 (IC50=10-15 nM) and protein serine/threon
 phosphatase 2A (IC50=0.1 nM) without any inhibitory effect on the activity of
 tyrosine phosphatases."
 
-abundance(CHEBI:"okadaic acid") directlyDecreases phosphataseActivity(complexAbundance(NCH:"PP2A Complex"))
+abundance(CHEBI:"okadaic acid") directlyDecreases phosphataseActivity(proteinAbundance(PFH:"PPP2 Family"))
 
 SET Evidence = "Primary brown adipocytes pretreated with this compound before insulin stimulation
 showed a marked increase in IRS-1/2 serine phosphorylation with a concomitant decrease
@@ -3386,7 +3391,7 @@ not inhibit a number of other kinase activities both in vitro and in cultured
 cells. These include Raf kinase, PKC, cyclic AMP-dependent kinase, vsrc kinase,
 PDGF receptor tyrosine kinase and PI 3-kinase"
 
-abundance(SCHEM:"PD 98,059") directlyDecreases kinaseActivity(proteinAbundance(PFH:"MEK1/2 Family"))
+abundance(SCHEM:"PD 98,059") directlyDecreases kinaseActivity(proteinAbundance(PFH:"MAP2K Family"))
 abundance(SCHEM:"PD 98,059") causesNoChange kinaseActivity(proteinAbundance(HGNC:RAF1))
 abundance(SCHEM:"PD 98,059") causesNoChange kinaseActivity(proteinAbundance(PFH:"PRKC Family"))
 abundance(SCHEM:"PD 98,059") causesNoChange kinaseActivity(proteinAbundance(PFH:"PRKA Family"))
@@ -3471,7 +3476,7 @@ SET Evidence = "Moreover, the loss of insulin-induced PI 3- kinase activity in I
 was accompanied by a decrease in the phosphorylation of PKB/Akt, without
 changes in the phospho-70s6k content"
 
-proteinAbundance(MGI:Irs1) increases (proteinAbundance(PFM:"Ins Family") increases kinaseActivity(complexAbundance(NCM:"p85/p110 PI3Kinase Complex")))
+proteinAbundance(MGI:Irs1) increases (proteinAbundance(PFM:"Ins Family") increases kinaseActivity(proteinAbundance(PFM:"PI3K Class IA Family")))
 proteinAbundance(MGI:Irs1) increases proteinAbundance(MGI:Akt1,proteinModification(P))
 proteinAbundance(MGI:Irs1) causesNoChange proteinAbundance(MGI:Rps6kb2,proteinModification(P))
 
@@ -4029,7 +4034,7 @@ SET Species = "9606"
 
 molecularActivity(proteinAbundance(HGNC:TNFRSF1A)) increases kinaseActivity(proteinAbundance(HGNC:MAP2K7))
 molecularActivity(proteinAbundance(HGNC:TNFRSF1A)) increases kinaseActivity(proteinAbundance(PFH:"MAPK JNK Family"))
-molecularActivity(proteinAbundance(HGNC:TNFRSF1A)) increases transcriptionalActivity(complexAbundance(NCH:"AP-1 Complex"))
+molecularActivity(proteinAbundance(HGNC:TNFRSF1A)) increases transcriptionalActivity(complexAbundance(NCH:"AP 1 Complex"))
 kinaseActivity(proteinAbundance(PFH:"MAPK JNK Family")) positiveCorrelation pathology(MESHD:"Carcinoma, Squamous Cell")
 
 SET TextLocation = "Results"
@@ -4091,9 +4096,9 @@ significantly higher levels of AP1 activity in primary human keratinocytes
 than either one alone (Supplementary Fig. S5), indicating that Ras and MKK7 act
 in synergy to induce downstream signaling."
 
-kinaseActivity(proteinAbundance(HGNC:MAP2K7)) increases transcriptionalActivity(complexAbundance(NCH:"AP-1 Complex"))
-gtpBoundActivity(proteinAbundance(HGNC:HRAS)) increases transcriptionalActivity(complexAbundance(NCH:"AP-1 Complex"))
-compositeAbundance(proteinAbundance(HGNC:HRAS),proteinAbundance(HGNC:MAP2K7)) increases transcriptionalActivity(complexAbundance(NCH:"AP-1 Complex"))
+kinaseActivity(proteinAbundance(HGNC:MAP2K7)) increases transcriptionalActivity(complexAbundance(NCH:"AP 1 Complex"))
+gtpBoundActivity(proteinAbundance(HGNC:HRAS)) increases transcriptionalActivity(complexAbundance(NCH:"AP 1 Complex"))
+compositeAbundance(proteinAbundance(HGNC:HRAS),proteinAbundance(HGNC:MAP2K7)) increases transcriptionalActivity(complexAbundance(NCH:"AP 1 Complex"))
 
 SET Cell = "Keratinocytes"
 SET Evidence = "Oncogenic Ras alone induces growth arrest in primary human keratinocytes in the G1
@@ -4308,7 +4313,7 @@ of Rin1 from A549 cells resulted in at least a 2-fold decrease in pERK levels
 (Fig. 2, C and D), but not total ERK levels (supplemental Fig. 2), indicating
 that the decrease in cell proliferation correlated with a decrease in EGF signaling."
 
-proteinAbundance(HGNC:RIN1) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family"))
+proteinAbundance(HGNC:RIN1) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family"))
 
 SET Evidence = "Rin1 depletion resulted in a decrease in cell proliferation as measured by the percent
 change in proliferation between 24 and 72 h (Fig. 3). This decrease in cell
@@ -4357,7 +4362,7 @@ Similar to the results with Rin1 depletion, expression of GFP-dnRab5 resulted
 in a ~2-fold decrease in pERK levels when compared with control cells expressing
 GFP alone."
 
-gtpBoundActivity(proteinAbundance(HGNC:RAB5A)) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk1/3 Family"))
+gtpBoundActivity(proteinAbundance(HGNC:RAB5A)) increases kinaseActivity(proteinAbundance(PFH:"MAPK Erk Family"))
 
 SET Evidence = "Finally, to confirm that dnRab5 and dn-dynamin expression impacted cell proliferation
 in a manner similar to Rin1 depletion, A549 cells transiently transfected with
@@ -4427,9 +4432,9 @@ in both human pancreatic islets and RIN β-cells."
 SET Species = "9606"
 
 kinaseActivity(proteinAbundance(HGNC:INSR)) increases (abundance(CHEBI:glucose) increases proteinAbundance(HGNC:INS))
-kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex")) increases (abundance(CHEBI:glucose) increases proteinAbundance(HGNC:INS))
+kinaseActivity(proteinAbundance(PFH:"PIK3 Family")) increases (abundance(CHEBI:glucose) increases proteinAbundance(HGNC:INS))
 kinaseActivity(proteinAbundance(HGNC:MTOR)) increases (abundance(CHEBI:glucose) increases proteinAbundance(HGNC:INS))
-abundance(CHEBI:wortmannin) directlyDecreases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
+abundance(CHEBI:wortmannin) directlyDecreases kinaseActivity(proteinAbundance(PFH:"PIK3 Family"))
 abundance(CHEBI:rapamycin) directlyDecreases kinaseActivity(proteinAbundance(HGNC:MTOR))
 
 SET Evidence = "As shown in Fig. 3A, exposure of the cells to high glucose concentrations resulted
@@ -4443,7 +4448,7 @@ SET Evidence = "insulin-stimulated PI 3-kinase activity associated with IRS-1 wa
 RIN β-cells exposed to high glucose concentrations as compared with control RIN
 β-cells (Fig. 3B)."
 
-abundance(CHEBI:glucose) decreases (proteinAbundance(PFR:"Ins Family") increases kinaseActivity(complexAbundance(NCR:"p85/p110 PI3Kinase Complex")))
+abundance(CHEBI:glucose) decreases (proteinAbundance(PFR:"Ins Family") increases kinaseActivity(proteinAbundance(PFR:"PIK3 Family")))
 
 SET Evidence = "exposure of the cells to glucosamine resulted in a 38% reduction of insulin-stimulated
 tyrosine phosphorylation of IRS-1 as compared with control RIN β-cells."
@@ -4454,7 +4459,7 @@ SET Evidence = "Insulin-stimulated PI 3-kinase activity associated with IRS-1 wa
 RIN β-cells exposed to glucosamine as compared with control RIN β-cells (Fig.
 3B)"
 
-abundance(CHEBI:glucosamine) decreases (proteinAbundance(PFR:"Ins Family") increases kinaseActivity(complexAbundance(NCR:"p85/p110 PI3Kinase Complex")))
+abundance(CHEBI:glucosamine) decreases (proteinAbundance(PFR:"Ins Family") increases kinaseActivity(proteinAbundance(PFR:"PIK3 Family")))
 
 SET Evidence = "As shown in Fig. 4, insulin-stimulated Tyr608 and Tyr628 phosphorylation of IRS-1
 was decreased by 30 and 46%, respectively, in RIN β-cells exposed to glucosamine
@@ -5344,7 +5349,7 @@ kinaseActivity(proteinAbundance(HGNC:KDR)) directlyIncreases proteinAbundance(HG
 proteinAbundance(PFH:"VEGF Family") directlyIncreases proteinAbundance(HGNC:KDR,proteinModification(P,Y,1054))
 proteinAbundance(PFH:"VEGF Family") directlyIncreases proteinAbundance(HGNC:KDR,proteinModification(P,Y,1059))
 kinaseActivity(proteinAbundance(HGNC:KDR)) directlyIncreases kinaseActivity(proteinAbundance(HGNC:SRC))
-kinaseActivity(proteinAbundance(HGNC:KDR)) directlyIncreases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
+kinaseActivity(proteinAbundance(HGNC:KDR)) directlyIncreases kinaseActivity(proteinAbundance(PFH:"PI3K Class IA Family"))
 kinaseActivity(proteinAbundance(HGNC:KDR)) directlyIncreases kinaseActivity(proteinAbundance(PFH:"AKT Family"))
 
 SET Evidence = "Several PTPs, including SHP-1, SHP-2, and LMW-PTP (HCPTPA), inducibly associate with
@@ -5975,8 +5980,8 @@ muscle: the Ras-ERK pathway and the phosphoinositide-3 kinase pathway."
 
 proteinAbundance(RGD:Igf1) increases biologicalProcess(GO:"skeletal muscle hypertrophy")
 gtpBoundActivity(proteinAbundance(PFR:"Ras Family")) increases biologicalProcess(GO:"skeletal muscle hypertrophy")
-kinaseActivity(proteinAbundance(PFR:"MAPK Erk1/3 Family")) increases biologicalProcess(GO:"skeletal muscle hypertrophy")
-kinaseActivity(complexAbundance(NCR:"p85/p110 PI3Kinase Complex")) increases biologicalProcess(GO:"skeletal muscle hypertrophy")
+kinaseActivity(proteinAbundance(PFR:"Mapk Erk Family")) increases biologicalProcess(GO:"skeletal muscle hypertrophy")
+kinaseActivity(proteinAbundance(PFR:"PI3K Class IA Family")) increases biologicalProcess(GO:"skeletal muscle hypertrophy")
 
 SET Cell = "Cell Line"
 SET Evidence = "In vitro, the Ras pathway appears to regulate the mitogenic effects of IGF-I signaling,
@@ -5984,9 +5989,9 @@ whereas the phosphoinositide-3 kinase pathway is associated with cellular
 differentiation."
 
 gtpBoundActivity(proteinAbundance(PFR:"Ras Family")) increases biologicalProcess(GO:"cell proliferation")
-kinaseActivity(complexAbundance(NCR:"p85/p110 PI3Kinase Complex")) increases biologicalProcess(GO:"cell differentiation")
+kinaseActivity(proteinAbundance(PFR:"PI3K Class IA Family")) increases biologicalProcess(GO:"cell differentiation")
 proteinAbundance(RGD:Igf1) increases gtpBoundActivity(proteinAbundance(PFR:"Ras Family"))
-proteinAbundance(RGD:Igf1) increases kinaseActivity(complexAbundance(NCR:"p85/p110 PI3Kinase Complex"))
+proteinAbundance(RGD:Igf1) increases kinaseActivity(proteinAbundance(PFR:"PI3K Class IA Family"))
 
 SET Evidence = "Our results show that 14 days of coinfusion of MAPK/ERK kinase inhibitor PD-098059
 (PD) limited the phosphorylation of ERK and prevented IGF-I induced increases
@@ -5994,7 +5999,7 @@ in protein (18%, P < 0.05 vs. 7%, not significant) or myofibrillar protein (23%,
 P < 0.01 vs. 5%, not significant)."
 
 abundance(SCHEM:"PD 98,059") decreases (proteinAbundance(RGD:Igf1) increases biologicalProcess(GO:"skeletal muscle hypertrophy"))
-abundance(SCHEM:"PD 98,059") decreases kinaseActivity(proteinAbundance(PFR:"MAPK Erk1/3 Family"))
+abundance(SCHEM:"PD 98,059") decreases kinaseActivity(proteinAbundance(PFR:"Mapk Erk Family"))
 
 SET Evidence = "The most notable impact on IGF-I signaling was a significant blunting of IGF-I induced
 increase in S6K1 phosphorylation by PD-98059 coinfusion (~ 5-fold, P < 0.001
@@ -6045,8 +6050,8 @@ of S6K1 was increased fivefold in the IGF and 2.8-fold in the IGF+PD
 muscles (Fig. 5). The infusion protocols did not impact the total amount of S6K1
 (data not shown)."
 
-proteinAbundance(RGD:Igf1) increases kinaseActivity(proteinAbundance(PFR:"MAPK Erk1/3 Family"))
-abundance(SCHEM:"PD 98,059") decreases (proteinAbundance(RGD:Igf1) increases kinaseActivity(proteinAbundance(PFR:"MAPK Erk1/3 Family")))
+proteinAbundance(RGD:Igf1) increases kinaseActivity(proteinAbundance(PFR:"Mapk Erk Family"))
+abundance(SCHEM:"PD 98,059") decreases (proteinAbundance(RGD:Igf1) increases kinaseActivity(proteinAbundance(PFR:"Mapk Erk Family")))
 proteinAbundance(RGD:Igf1) increases kinaseActivity(proteinAbundance(PFR:"Rps6kb Family"))
 
 SET Evidence = "IGF-I-related mRNA. IGF-I infusion resulted in a 48 and 63% increase in IGFBP-5 mRNA
@@ -6095,7 +6100,7 @@ and the RAF→MEK→ERK signaling pathways and repression of p27Kip1
 expression (Fig. 3A)."
 
 proteinAbundance(PFM:"Pdgf Family") increases kinaseActivity(proteinAbundance(MGI:Akt1))
-proteinAbundance(PFM:"Pdgf Family") increases kinaseActivity(proteinAbundance(PFM:"MAPK Erk1/3 Family"))
+proteinAbundance(PFM:"Pdgf Family") increases kinaseActivity(proteinAbundance(PFM:"Mapk Erk Family"))
 proteinAbundance(PFM:"Pdgf Family") decreases proteinAbundance(MGI:Cdkn1b)
 
 SET Evidence = "Consistent with observations described above, PDGF repressed KIP1 mRNA by ~60%."
@@ -6160,7 +6165,7 @@ abundance(SCHEM:U0126) causesNoChange kinaseActivity(proteinAbundance(HGNC:AKT1)
 
 SET Evidence = "both the PI3'-kinase and the MEK inhibitors led to accumulation of p27Kip1 expression."
 
-abundance(SCHEM:"LY 294002") directlyDecreases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
+abundance(SCHEM:"LY 294002") directlyDecreases kinaseActivity(proteinAbundance(PFH:"PIK3 Family"))
 abundance(SCHEM:"PD 98,059") decreases kinaseActivity(proteinAbundance(HGNC:MAPK1))
 abundance(SCHEM:"PD 98,059") decreases kinaseActivity(proteinAbundance(HGNC:MAPK3))
 abundance(SCHEM:"LY 294002") increases proteinAbundance(HGNC:CDKN1B)
@@ -6281,7 +6286,7 @@ complexAbundance(proteinAbundance(HGNC:SH3RF1),proteinAbundance(HGNC:AKT2))
 SET Evidence = "In addition, we show that the association of MLK3 with POSH is increased upon inhibition
 of the endogenous phosphatidylinositol 3-kinase/Akt signaling pathway."
 
-kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex")) decreases complexAbundance(proteinAbundance(HGNC:SH3RF1),proteinAbundance(HGNC:MAP3K11))
+kinaseActivity(proteinAbundance(PFH:"PI3K Class IA Family")) decreases complexAbundance(proteinAbundance(HGNC:SH3RF1),proteinAbundance(HGNC:MAP3K11))
 
 SET Evidence = "Akt2 binds to a POSH-MLK-MKK-JNK complex and phosphorylates MLK3"
 
@@ -6993,12 +6998,12 @@ were not altered by inhibition of PI3K activity with wortmannin or LY294002 (Fig
 activation of PI3K."
 SET Species = "10090"
 
-abundance(CHEBIID:50864) increases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
+abundance(CHEBIID:50864) increases kinaseActivity(proteinAbundance(PFH:"PIK3 Family"))
 
 SET CellLine = "Rat1-R12"
 SET Species = "10116"
 
-proteinAbundance(HGNC:IGF1) increases kinaseActivity(complexAbundance(NCH:"p85/p110 PI3Kinase Complex"))
+proteinAbundance(HGNC:IGF1) increases kinaseActivity(proteinAbundance(PFH:"PIK3 Family"))
 
 SET CellLine = "NIH/3T3"
 SET Species = "10090"
