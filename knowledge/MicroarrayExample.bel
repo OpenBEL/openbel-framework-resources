@@ -1,0 +1,75 @@
+﻿##################################################################################
+# Document Properties Section
+
+SET DOCUMENT Name = "Gene Expression Profiling Example"
+SET DOCUMENT Description = "Example document for using Affymetrix probe set namespace; knowledge curated from PMID 16923961 gene expression profiling data"
+SET DOCUMENT Version = "1.0"
+SET DOCUMENT Copyright = "Copyright (c) 2012, Selventa. All Rights Reserved."
+SET DOCUMENT ContactInfo = "support@belframework.org"
+SET DOCUMENT Authors = "Selventa"
+SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported License"
+
+##################################################################################
+# Definitions Section
+
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/1.0/namespace/mgi-approved-symbols.belns"
+DEFINE NAMESPACE MGU74ABC AS URL "http://resource.belframework.org/belframework/1.0/namespace/affy-mg-u74abc.belns"
+
+DEFINE ANNOTATION NervousSystem AS  URL "http://resource.belframework.org/belframework/1.0/annotation/mesh-nervous-system.belanno"
+DEFINE ANNOTATION Species AS  URL "http://resource.belframework.org/belframework/1.0/annotation/species-taxonomy-id.belanno"
+##################################################################################
+
+SET Citation= {"PubMed","Mol Cell Biol.","16923961","","Lyu YL|Lin CP|Azarova AM|Cai L|Wang JC|Liu LF",""}
+SET Evidence= "Tab.S2. Probe sets differentially expressed (≥1.7 fold, p-value ≤0.01) in the brain of E14.5 top2βΔ2/Δ2 embryos."
+SET Species= "10090"
+SET NervousSystem = "Brain"
+
+p(MGI:Top2b) increases r(MGU74ABC:93896_at)
+p(MGI:Top2b) increases r(MGU74ABC:99462_at)
+p(MGI:Top2b) increases r(MGU74ABC:104743_at)
+p(MGI:Top2b) increases r(MGU74ABC:92346_at)
+p(MGI:Top2b) increases r(MGU74ABC:92535_at)
+p(MGI:Top2b) increases r(MGU74ABC:102573_at)
+p(MGI:Top2b) increases r(MGU74ABC:97862_s_at)
+p(MGI:Top2b) increases r(MGU74ABC:101883_s_at)
+p(MGI:Top2b) increases r(MGU74ABC:98863_at)
+p(MGI:Top2b) increases r(MGU74ABC:103675_at)
+p(MGI:Top2b) increases r(MGU74ABC:98300_at)
+p(MGI:Top2b) increases r(MGU74ABC:101701_at)
+p(MGI:Top2b) increases r(MGU74ABC:92227_s_at)
+p(MGI:Top2b) increases r(MGU74ABC:161318_f_at)
+p(MGI:Top2b) increases r(MGU74ABC:104510_at)
+p(MGI:Top2b) increases r(MGU74ABC:95436_at)
+p(MGI:Top2b) increases r(MGU74ABC:103666_at)
+p(MGI:Top2b) increases r(MGU74ABC:96496_g_at)
+p(MGI:Top2b) increases r(MGU74ABC:92521_at)
+p(MGI:Top2b) increases r(MGU74ABC:92358_at)
+p(MGI:Top2b) increases r(MGU74ABC:160172_at)
+p(MGI:Top2b) increases r(MGU74ABC:96580_at)
+p(MGI:Top2b) increases r(MGU74ABC:92228_at)
+p(MGI:Top2b) increases r(MGU74ABC:93005_at)
+p(MGI:Top2b) increases r(MGU74ABC:92389_at)
+p(MGI:Top2b) increases r(MGU74ABC:103086_at)
+p(MGI:Top2b) increases r(MGU74ABC:99893_at)
+p(MGI:Top2b) increases r(MGU74ABC:93485_at)
+p(MGI:Top2b) increases r(MGU74ABC:104407_at)
+p(MGI:Top2b) increases r(MGU74ABC:103742_at)
+p(MGI:Top2b) increases r(MGU74ABC:93615_at)
+p(MGI:Top2b) increases r(MGU74ABC:99856_r_at)
+p(MGI:Top2b) increases r(MGU74ABC:99339_r_at)
+p(MGI:Top2b) increases r(MGU74ABC:92500_at)
+p(MGI:Top2b) increases r(MGU74ABC:93616_g_at)
+p(MGI:Top2b) increases r(MGU74ABC:103223_at)
+p(MGI:Top2b) increases r(MGU74ABC:98476_at)
+p(MGI:Top2b) increases r(MGU74ABC:96591_at)
+p(MGI:Top2b) increases r(MGU74ABC:98524_f_at)
+p(MGI:Top2b) increases r(MGU74ABC:161054_at)
+p(MGI:Top2b) increases r(MGU74ABC:98149_s_at)
+p(MGI:Top2b) increases r(MGU74ABC:96833_at)
+
+p(MGI:Top2b) decreases r(MGU74ABC:98423_at)
+p(MGI:Top2b) decreases r(MGU74ABC:95350_at)
+p(MGI:Top2b) decreases r(MGU74ABC:98133_at)
+p(MGI:Top2b) decreases r(MGU74ABC:93372_at)
+
+
