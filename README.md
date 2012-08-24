@@ -1,7 +1,11 @@
 openbel-framework-resources
 ===========================
 
-Resources for the [OpenBEL Framework](https://github.com/OpenBEL/openbel-framework/) including:
+This repository contains file resources for the [BEL Framework](https://github.com/OpenBEL/openbel-framework/).
+
+The contents of this repository are mirrored to http://resource.belframework.org/belframework/ for all versions.
+
+The content consists of:
 
 * [BEL Namespaces](https://github.com/OpenBEL/openbel-framework-resources/tree/experimental/namespace)
   * Captures the domain of a single ontology (SwissProt, EntrezGene, ChEBI, etc.).
