@@ -1,4 +1,4 @@
-﻿###################################################################################
+###################################################################################
 # Document Properties Section
 SET DOCUMENT Name = "BEL Framework Example 2 Document"
 SET DOCUMENT Description = "Example of modeling a full abstract taken from the BEL V1.0 Language Overview."
