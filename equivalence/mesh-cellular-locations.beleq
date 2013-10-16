@@ -1,248 +1,246 @@
 [Equivalence]
-NameString=MeSH Cell Locations Equivalence
-DescriptionString=MeSH Cell Locations Equivalence
-VersionString=20120202
-CreatedDateTime=2012-02-02T12:00:00
+NameString=MeSH Cellular Location (Name) Equivalences
+DescriptionString=MeSH  equivalences were obtained by string match of MeSH headings and synonyms to GO Cellular Component names.
+VersionString=2013-10-11
+CreatedDateTime=2013-10-11
 
 [NamespaceReference]
-NameString=MeSH Cell Locations (Names)
-VersionString=20120202
+NameString=MeSH Cellular Locations (Names)
+VersionString=20131011
 
 [Author]
-NameString=Selventa
-CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
-ContactInfoString=belframework@selventa.com
+NameString=OpenBEL
+CopyrightString=Copyright © 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=info@openbel.org
 
 [Citation]
-NameString=Medical Subject Headings
-DescriptionString=The Medical Subject Headings (MeSH) names for the cellular location [branch A] of this ontology. MeSH is the National Library of Medicine's controlled vocabulary thesaurus. It consists of sets of terms naming descriptors in a hierarchical structure that permits searching at various levels of specificity.
-PublishedDate=2012-02-02
-ReferenceURL=http://www.ncbi.nlm.nih.gov/mesh
+NameString=N/A
+DescriptionString=N/A
 
 [Processing]
-CaseSensitiveFlag=yes
+CaseSensistiveFlag=yes
 DelimiterString=|
 CacheableFlag=yes
 
 [Values]
-Acrosome|546dc129-935c-44b8-aba4-b54c15b37d5a
-Actin Cytoskeleton|31b341c8-f867-4753-99c4-e19eec82b1a2
-Adherens Junctions|231fa858-de36-43d8-933e-db6631b1294b
-Axoneme|afd24e08-ccd8-4232-ae42-3cd74687de9e
-Axons|33c6843b-d3ce-4c4c-b734-c860fa330f43
-Bacterial Chromatophores|a3bdee28-2529-4124-ae39-3824cd8d162e
-COP-Coated Vesicles|61f6348b-a547-4197-a82f-0ceb246b60fd
-Caveolae|96c67beb-6421-4a87-8a88-25ef54af43a9
-Cell Membrane|8587015d-4074-4f6e-baef-c5e5989b6f80
-Cell Membrane Structures|07750398-8474-426e-8812-268315268fdf
-Cell Nucleolus|f07fbed0-5589-4906-9be4-e1534e11da54
-Cell Nucleus|8b848d52-73ba-4107-abc0-0002e58bed7e
-Cell Nucleus Structures|c722cb09-c656-401e-b336-9721af7fcd0d
-Cell Surface Extensions|1deefcfb-9093-461f-a28e-ed0cc455a1e4
-Cell Wall|c9e744c4-ebc3-48f3-b6a4-cb7d55cb8201
-Cell Wall Skeleton|e96c0dfd-2772-41ba-9b28-4da9fa8c65a4
-Cell-Derived Microparticles|4bbf2c79-348a-4632-85ae-c398da4e01ac
-Cell-Free System|c8ba0978-dcd3-4d4e-a556-6dd9bbaa8af6
-Cell-Matrix Junctions|6833c234-7886-45ba-9300-36da6e1d9e7d
-Cellular Structures|ca219a89-9ded-4bde-bbd6-ef22230d1f19
-Cellulosomes|898977ae-0c8a-4fa6-aea0-c0d2d7142dbe
-Centrioles|1e6f259d-be32-4219-9f1e-48bf86cd7703
-Centromere|f0419db0-8938-495b-9420-6e8d0fd6b131
-Centrosome|f574f94b-7c6e-46d7-9c23-f3704bd3f9f0
-Chloroplasts|f5034eda-b983-40db-9eb7-68b79d9c35dc
-Chromaffin Granules|91da51c3-83b6-4a9a-9a1a-3eb4aa67e19a
-Chromatids|7ab1bd96-af50-4d25-bf2f-0ed8a902f93a
-Chromatin|f4203d2d-1215-4edb-b7d0-58550bf4b7bc
-Chromosomal Puffs|778882c7-921f-4776-99af-23e112820255
-Chromosome Structures|74f28135-0a49-449a-980b-733628fa4613
-Chromosomes|91e6efd9-dbbd-4212-bab8-220f1675c828
-Chromosomes, Archaeal|4e1bcfbb-2c28-4300-8ed3-67dc9a56e75e
-Chromosomes, Artificial|676cac08-9cb0-48ac-a179-293445f62d82
-Chromosomes, Artificial, Bacterial|c653c9b0-13e4-4ee8-92c7-7e628c75a394
-Chromosomes, Artificial, Human|1ff500fb-8f62-4c49-9bdf-f50c8afc26d8
-Chromosomes, Artificial, Mammalian|476e5d8e-d7c9-4ffe-9567-5053fdf4c743
-Chromosomes, Artificial, P1 Bacteriophage|de197e74-5eb8-46ee-8a50-328ffe81e649
-Chromosomes, Artificial, Yeast|8dae9a4c-53d0-4ab1-8141-dad9a5346d44
-Chromosomes, Bacterial|a0d403d9-097e-431a-b0ad-605da9d10652
-Chromosomes, Fungal|0357fc70-e2a5-46e8-a35a-d43c53d8a7ab
-Chromosomes, Human|296cf14f-c473-4f71-a60b-b0faeb92c553
-Chromosomes, Human, 1-3|4e2686e1-4f94-4a2d-bc6c-9b3781d9c106
-Chromosomes, Human, 13-15|d977ac46-2007-448f-9987-e2d477baa8d7
-Chromosomes, Human, 16-18|57d71928-74c1-488a-85e9-744ad215c5fc
-Chromosomes, Human, 19-20|972ba3da-125c-47cb-9777-c3a326e80fae
-Chromosomes, Human, 21-22 and Y|fe02a361-bcab-4cd6-9d0e-3f9f6b86934b
-Chromosomes, Human, 4-5|ba8950b1-cac7-47cf-941a-d0e08c125f67
-Chromosomes, Human, 6-12 and X|1302a0a8-ca1e-4519-80fe-3ca7f94d0137
-Chromosomes, Human, Pair 1|8c1a31a2-bbdb-4d72-a828-f6c7aa9518dd
-Chromosomes, Human, Pair 10|3bd03c92-4db7-4517-b5bc-9c6bedc49857
-Chromosomes, Human, Pair 11|56f1a3bf-9f02-49b5-ad39-19ae3d57a1a3
-Chromosomes, Human, Pair 12|bb347cfa-d960-4778-a76c-57753856c3d8
-Chromosomes, Human, Pair 13|41c167e0-dcaf-4d45-937e-3db80238aeee
-Chromosomes, Human, Pair 14|6b888fb6-2dbf-4c70-9732-ebfb3bae8c9c
-Chromosomes, Human, Pair 15|5ec88018-693b-41fa-a3df-13e95b8ab7ea
-Chromosomes, Human, Pair 16|eafa2e32-cec4-4d25-8edc-9e14ddd5e9fb
-Chromosomes, Human, Pair 17|1278ac21-f3e9-4e3a-96c8-311a2bd626a1
-Chromosomes, Human, Pair 18|74afcf07-68b3-4355-b88a-fb437f376f12
-Chromosomes, Human, Pair 19|3c47e035-e0a7-4c67-8c20-0caa36fc46f1
-Chromosomes, Human, Pair 2|12c4819e-eb84-4e63-b7df-cadf845faff3
-Chromosomes, Human, Pair 20|db760b76-d2a4-46f7-8610-110bcc85107b
-Chromosomes, Human, Pair 21|394fb3e2-ce40-4e40-bebf-8b06f77c2d2c
-Chromosomes, Human, Pair 22|6936643a-467e-4927-8bd2-d040d1e5042e
-Chromosomes, Human, Pair 3|ed8c5849-97d0-4e2f-b61a-bbebdeaee5d1
-Chromosomes, Human, Pair 4|ae2ab397-eea6-45b6-b659-6f973435cbd8
-Chromosomes, Human, Pair 5|5e33e2ed-ec6f-4fc7-80b8-5262ec1fee57
-Chromosomes, Human, Pair 6|6dad514a-1d21-4f01-a142-43d1f21eedaa
-Chromosomes, Human, Pair 7|b197756b-64a3-48a4-b0d4-56c07f747958
-Chromosomes, Human, Pair 8|63e9fb58-0e2f-437d-a88c-ab4f149f5c06
-Chromosomes, Human, Pair 9|502b6e7a-ea2e-4978-a068-a24006a7cf77
-Chromosomes, Human, X|b11c875b-bfdc-4451-92f4-c8db51f7bf75
-Chromosomes, Human, Y|af78f872-c286-43a3-9d63-44df658b3c44
-Chromosomes, Insect|8b2ba099-21d4-4d3c-95a0-8812beabf622
-Chromosomes, Mammalian|df7a80fb-1f10-4b29-b1e6-9995b8a28947
-Chromosomes, Plant|9f528dbc-b255-4781-b64b-d126375af34a
-Cilia|8d9b60d8-399d-48cd-a904-2a5a0616aa2d
-Clathrin-Coated Vesicles|338132b0-dda8-4921-a92a-c377416e3887
-Coated Pits, Cell-Membrane|d9351b59-8571-4476-a2e8-800097303e9a
-Coated Vesicles|7fc6f2b1-708a-4f61-b01d-add51b8a8537
-Coiled Bodies|9e5c5e9f-f156-4022-ae87-609e7a6147c5
-Costameres|fe650fc4-c5c2-4a01-b378-8b96758706a4
-Cytoplasm|5fd9b558-e1a8-4598-8198-1d7aa583e221
-Cytoplasmic Granules|e1689604-31c2-4cf0-8785-83f2c3150fb7
-Cytoplasmic Structures|35e2e5b3-35f6-438e-a2c2-4375ae076e4f
-Cytoplasmic Vesicles|f6b98f07-dde4-4db1-a778-eacc97a8aede
-Cytoskeleton|57ed79f5-b241-41e1-a661-55a111a2ee1e
-Cytosol|1a2b8d20-c3c0-4146-baa5-e4eb6280b6a6
-Dendrites|a5adcb8d-1812-4cba-8ec1-384d1cdc896f
-Dendritic Spines|c8e3ca87-6649-4386-ada2-fa0001bc7f1d
-Desmosomes|6b660892-69dc-489b-b4b2-a8f04592d61c
-Electrical Synapses|53e4ad80-1a5d-428e-a5d6-398f290679ae
-Endoplasmic Reticulum|c2a41c33-75f9-467a-b1c6-28eb47d34689
-Endoplasmic Reticulum, Rough|0e5a2088-5003-419f-9d7a-eb880dfa353f
-Endoplasmic Reticulum, Smooth|1c5c7df6-95a3-4952-8f24-94a793586f02
-Endosomes|52394e3d-502e-4acb-b400-3af5bd26f8d8
-Erythrocyte Inclusions|4268aa3c-6ade-44b5-90fc-8f4264b7d3b6
-Erythrocyte Membrane|2e61a706-442e-4e74-ae7c-3fbe9c5a2de7
-Euchromatin|2daee7db-456b-4e91-bffd-66c7fe942c25
-Exosomes|6df0ff63-dd09-4b5b-b3d6-2063d548319d
-Extracellular Fluid|237d621d-d850-4d3d-9cd2-b4f4f2bfc0a7
-Extracellular Matrix|bfe8582e-6f96-44b9-82e4-448e278a1667
-Extracellular Space|9a510e8d-a550-4614-bfac-09c2480d2fca
-Fimbriae, Bacterial|59497ab7-a238-4f9c-8a60-4d2c43804130
-Flagella|8ef2a2af-d561-45e2-a4b6-dd334a86f0d0
-Focal Adhesions|d7575858-2687-4a8c-b598-30c0ad3204d6
-Gap Junctions|51f28d73-560f-4a5d-ad0b-beadca96fb22
-Gemini of Coiled Bodies|92f80702-7458-4321-8cde-a87ce49d9cc3
-Glomerular Basement Membrane|9f0509e8-54aa-4fd9-ba50-c4b0e122904c
-Glycocalyx|fde47201-c60c-406a-9b4f-c5cad19e7b08
-Glyoxysomes|4ba407ba-a022-4343-b827-967ac5866264
-Golgi Apparatus|be54fac2-caf5-4ed2-95c9-4bd5ed5c582a
-Growth Cones|8d2cd73d-9b5f-4c9b-ae51-3664907ab584
-Heinz Bodies|645189f8-f9db-4424-afcb-49ebbc70b693
-Hemidesmosomes|183b985e-97be-45f2-8f3b-e4f6a6bb145c
-Heterochromatin|3805f781-3417-48fc-8e87-3fe29f51c41e
-Immunological Synapses|4944659c-47cf-4556-b519-0fd61afa8155
-Inclusion Bodies|891ad424-d05a-4b4d-ae5f-4efee70159b7
-Inclusion Bodies, Viral|2589ca14-8fb1-4eb7-983b-f9126f3f477c
-Intercellular Junctions|cef561ed-cc77-4419-8ad2-8b63c1f9ff11
-Intermediate Filaments|452c4d2d-98c3-4be5-82d7-96976b596942
-Intracellular Fluid|54e8861d-05a3-455a-afd4-925214cdbe07
-Intracellular Membranes|9991e21c-0dad-4bbd-b6de-632d10b7f197
-Intracellular Space|92408faa-0f12-4e37-ad9e-cca89e9e5688
-Intranuclear Inclusion Bodies|1fd99edf-1f22-4da4-a35e-418f57a56f58
-Intranuclear Space|10a30756-36fd-4cf0-b30f-947fa2171839
-Isochromosomes|48e3b2f4-eccb-4916-b156-530b622f23d6
-Kinetochores|451bb821-0574-4a4a-9787-2212e82ab27b
-Lewy Bodies|f4096c9d-d607-406f-b86b-b1849899fd5e
-Lysosomes|14c02f8a-2650-49e7-8d0c-d9aa9b04cc90
-Macronucleus|b58f0035-5a84-4442-84da-3a3462ac5c0f
-Magnetosomes|09fa5d66-ec4a-4ce5-bde0-defcfff740ce
-Mallory Bodies|636b25ad-7255-4759-8823-a3f40b0e8f9a
-Melanosomes|8687e2db-9596-4458-bae9-a97c8a8b1623
-Membrane Microdomains|f15427dd-fd36-4116-8d10-2f998c0e20c1
-Microbodies|561d5c9f-4a66-47e5-991c-890e061aaa1d
-Microfibrils|1c6d8026-206a-43d4-963b-336402b8e3de
-Micronuclei, Chromosome-Defective|8ba7c916-beed-431e-af55-2148c321e03e
-Micronucleus, Germline|3eeaee50-4873-4441-b33c-94c75a307853
-Microsomes|d7d804c4-0725-4119-8cbe-6ed643789bb7
-Microsomes, Liver|e3294b9a-bc44-4676-85d2-7862d31efe8e
-Microtubule-Organizing Center|b987d240-c707-4763-ba02-ca3e9e04944a
-Microtubules|17776aaa-baf6-457c-8f97-1f630ad0b207
-Microvilli|2c7d8f55-dd41-4436-a9eb-784a33ce8151
-Mitochondria|615065e5-6e35-441b-a40f-a407d702f7fe
-Mitochondria, Heart|9215c2cf-8e1e-42ab-b62a-a78537e71ae9
-Mitochondria, Liver|f7a6141f-3adb-4554-9a36-59e766d59a23
-Mitochondria, Muscle|6cf96cf7-8ae5-4c6f-8f72-540c19b5d134
-Mitochondrial Membranes|99f95d7d-2fcd-43a2-9f8e-8ca66ca6d172
-Mitotic Spindle Apparatus|1a3c78f3-3d16-413a-86e6-fca5290c1fdb
-Motor Endplate|4da8246b-d00a-40fc-a680-0921f4d6c4ef
-Multivesicular Bodies|e8114273-5974-4bc6-9fef-3d75fdcca3c6
-Myelin Sheath|675b7142-f0ca-46a1-a093-d104c063a976
-Myofibrils|8100f797-6c1b-49c8-a74c-8365b7e0ddb8
-Neurites|42c27856-1e6b-464e-ab1c-2c8c95b2329f
-Neuroeffector Junction|015c4ed4-1ae6-4ab2-9b99-0e110bdac014
-Neurofibrillary Tangles|1479717b-027b-4047-af63-8c5d5a0b7bd0
-Neurofibrils|a9851b98-a412-45b8-b8f7-d476596e3709
-Neuromuscular Junction|232e1ab8-6370-4988-b3b1-ae5a2df53009
-Neuropil Threads|f5ecde26-4784-48f1-a0d7-e9bb1faf6efd
-Nissl Bodies|4daf868a-3a84-4c8c-8e7f-eb012fac0ed7
-Nuclear Envelope|b53080f9-874d-43ca-a490-e6ae3930a6dc
-Nuclear Lamina|a4acf369-4968-410c-abae-c62c76007a95
-Nuclear Matrix|cfc87003-f9a9-4597-a9cf-aebe39e7c1f7
-Nuclear Pore|db8bee7d-acca-48d7-a2ee-cc3bc52db32b
-Nucleolus Organizer Region|c68eefcd-9e9f-4010-a7ce-37fc062d609f
-Nucleosomes|3ae13289-a0ed-48ab-afde-eada1d01b786
-Organelles|d331fb44-3891-40bc-a3f6-0359dbe07613
-Periplasm|c8f79b4c-582a-44f9-b357-ccf40ba7b8e2
-Peroxisomes|f1f51e52-ed49-4f24-b68f-3a57007712e7
-Phagosomes|302cf732-1af0-48dc-a0ba-d04d80e12cd4
-Philadelphia Chromosome|75e5541a-f700-40dd-a6f3-2d2b284f08d5
-Phycobilisomes|fab5ad06-6d98-4712-84cc-9d26aa0b0fe2
-Pili, Sex|7e287985-73ee-4e5a-a4e2-f687289fab80
-Plasmodesmata|0d22db4b-27ff-4e00-98ba-c85628c90dc2
-Plastids|5cf4f362-a6f7-4756-a594-a970548149a1
-Polyribosomes|9a9fc4e7-6c7b-4c6e-992f-871f5bcba997
-Polytene Chromosome|1d15d383-79b7-4bf9-b949-a9ae69f3d399
-Post-Synaptic Density|f2ffa022-be0a-4ccc-ba2a-47071891fddc
-Presynaptic Terminals|39bd4c72-5273-4fa7-b890-d2e2dd679b47
-Pseudopodia|fda52e98-1ed6-44ff-b9c6-e4c59d657b91
-Purple Membrane|71ae1633-701e-4c10-adee-da7ec8a12c1d
-Ranvier's Nodes|eee3eacf-dc5a-47a8-899b-e722cfafeae2
-Ribosome Subunits|5a3ab196-1e55-4c0a-b16c-e28916aab9db
-Ribosome Subunits, Large|6f287185-4f28-49a3-9c08-5dd472870506
-Ribosome Subunits, Large, Archaeal|193c95d6-090c-41cc-89e5-6bf82001584f
-Ribosome Subunits, Large, Bacterial|846ae054-bf5e-4c37-b3fb-ffb26381f5f6
-Ribosome Subunits, Large, Eukaryotic|53307697-1b99-4f41-afaa-d37b765a1594
-Ribosome Subunits, Small|075e6adc-ed72-4a69-bf5c-ff7c336b4e40
-Ribosome Subunits, Small, Archaeal|5e094a50-b114-43a7-88a7-32a0df56e367
-Ribosome Subunits, Small, Bacterial|14fc41e6-a738-40be-9f80-c9d7bfdfa433
-Ribosome Subunits, Small, Eukaryotic|59121355-89e8-4452-9a7e-46eeb26150a6
-Ribosomes|3bdd5bb8-1af3-4afb-ab19-9414b6ae9f0b
-Ring Chromosomes|0a1c97ae-8712-4edb-a142-761785a731e0
-Sarcolemma|99d2686d-440e-44ed-b050-8d3cc44fc6df
-Sarcomeres|e35664a7-e5ac-47ae-96d8-a3f4186f7ea0
-Sarcoplasmic Reticulum|42fe1417-4b32-42c3-9c88-09e7296311e7
-Secretory Vesicles|652cdbe5-b87f-464c-9b11-2d7f0fd5ed74
-Sex Chromatin|f38d589b-3344-48c3-96c4-68e155c4c104
-Sex Chromosomes|5c6b9e0f-74ed-4a93-af71-6493c56982c5
-Sperm Tail|dec7f339-7f8f-4d95-b757-a14fff9318ee
-Spliceosomes|b16b3ae6-3d7a-4ed6-b6c2-0cea1f3ccdf4
-Stereocilia|e028d9e3-b054-489f-bdf1-7658b7023918
-Stress Fibers|68433323-9962-45b7-a619-140a41b5566f
-Subcellular Fractions|bc9a4e78-d776-463d-828d-771c3d63f7d9
-Submitochondrial Particles|1158d94b-a5c7-45c9-8d86-b1b35f1e5fe6
-Synapses|09c8139b-b227-4501-be8d-0d7d62301030
-Synaptic Membranes|a3706ef6-04b0-42e1-8fb7-5e2bec8c0008
-Synaptic Vesicles|9d505cc0-f91c-41a2-b425-e570035c66b7
-Synaptonemal Complex|43ecb39f-55b5-4412-b813-bb6c0f8a89bb
-Synaptosomes|92640b5a-71fe-41b1-bbda-731eac676751
-Telomere|97bbd7b0-7fbf-4327-ba96-0ad9ade37914
-Thylakoids|6ec7f13f-95c5-4784-bbe5-867beb73ceb0
-Tight Junctions|33110345-d5b3-4331-8da7-0943313260ba
-Transport Vesicles|5dc9d12c-36fd-4917-be1d-387c6f5647d2
-Vacuoles|383ee9ce-9d67-49ed-8e7e-fc83003d2e40
-Vault Ribonucleoprotein Particles|447d1831-2638-4a4e-914e-f779ef3b080f
-Weibel-Palade Bodies|799d528c-fbe2-4a2f-a67c-b3374fb5414f
-X Chromosome|dd6c2945-feac-468a-b880-411d723373e3
-Y Chromosome|e2253715-dc64-416f-87f7-ae07d2e59ce2
-Zona Pellucida|a47b59fe-486f-4642-93eb-fa8f9066f4c5
-trans-Golgi Network|f3677f78-fd68-42b4-bc61-a75e686a59bc
+Acrosome|71460d77-107b-44f4-9924-8765a68dc196
+Actin Cytoskeleton|759d54e4-2a34-4b96-bba0-b2ffadd65e0b
+Adherens Junctions|f9d45ac2-f517-49c0-ae53-e1189f56abb1
+Axoneme|16042a69-2b3c-4c9e-9a14-d16ece1b7fee
+Axons|64556d0d-b232-43be-a2f5-7a3db8905c34
+Bacterial Chromatophores|7b665b47-1f6f-4833-b4f3-e962d1b2b574
+COP-Coated Vesicles|c37a8202-e3a1-4b98-927f-47bced5f449d
+Caveolae|514ec446-811e-41fd-8869-82c347e0542e
+Cell Membrane|5c958483-5ee5-4696-848e-763599bb9db2
+Cell Membrane Structures|2e04c426-6880-4dc3-8096-a5114bd8ced4
+Cell Nucleolus|fc0b7f46-3248-4864-9d5e-d627c6001ee0
+Cell Nucleus|145618b7-cc32-4e9e-8e01-fb18e303a256
+Cell Nucleus Structures|8000f9eb-b0f4-446b-975d-9d83f93cc339
+Cell Surface Extensions|6ae2b449-335b-4d2d-99ad-a9933d640f47
+Cell Wall|a97d2507-f5c8-45cc-af90-1258b4d2e8b9
+Cell Wall Skeleton|52f2a40d-340a-4515-b877-99ceb52bc51d
+Cell-Derived Microparticles|cef52c69-87f5-400f-9b9f-8f3e8533788e
+Cell-Free System|e7c9c073-c70c-407e-b47e-2b9a0d85a29b
+Cell-Matrix Junctions|233a79d4-a60b-4b4f-9ada-353ef75b37ff
+Cellular Structures|6295435b-489f-4f9f-b7b3-6c6a5e24fdd0
+Cellulosomes|28a5fb94-8ff1-4251-a839-18466ea78704
+Centrioles|b70370fe-9b81-40a2-88df-e243724807b8
+Centromere|ec49ef6f-b711-4ff6-b440-ef2de84ad003
+Centrosome|57285c61-33b4-46b6-997c-f6c42a2b917c
+Chloroplasts|16a79629-b807-4dcf-a049-3a8282b0e9ca
+Chromaffin Granules|88d88a75-0bd2-438f-8334-1f381a64e5e6
+Chromatids|20e73fd6-1b44-4a0e-bd6e-89a7ebea1fff
+Chromatin|ef4f312d-23c9-4ca6-91e0-fb79a9a0bb1d
+Chromosomal Puffs|725df9a1-b1fc-493b-8b83-0c21677b99ce
+Chromosome Structures|a9cf3001-07f4-4c60-9c86-bcda8ae3ab6c
+Chromosomes|c2d46cff-cae6-4872-a2e5-29b639e76db8
+Chromosomes, Archaeal|dc3260a3-1604-4248-9756-e3448f8f123b
+Chromosomes, Artificial|beda51c5-dc4d-4b3e-93ac-47ae1a9510ea
+Chromosomes, Artificial, Bacterial|2f6c8f5b-155e-4d0b-8b0b-97f1897bde6c
+Chromosomes, Artificial, Human|ad4e376d-b349-4b06-b940-a4e7e4ecfe79
+Chromosomes, Artificial, Mammalian|694c69bd-7979-4cc3-bc34-409e80e01e32
+Chromosomes, Artificial, P1 Bacteriophage|8ccdf8d6-d242-4b8e-b485-6cc6056529aa
+Chromosomes, Artificial, Yeast|f2776270-b61c-4f5d-a947-72f015da4c38
+Chromosomes, Bacterial|201eb635-19ba-444d-9ae5-788e5c1eb50c
+Chromosomes, Fungal|abccb772-7260-4603-9c62-ae73b3ec199e
+Chromosomes, Human|0d9ac278-4b5e-44f5-8218-7348a669d75c
+Chromosomes, Human, 1-3|a2798c8a-c47d-4020-8042-c8e8318b9e45
+Chromosomes, Human, 13-15|9c71c7e8-e1a0-47f0-82c1-eb9b569b1b5b
+Chromosomes, Human, 16-18|1e1c5344-e2aa-45e5-8fd5-5af091070ac1
+Chromosomes, Human, 19-20|234afa83-4187-47d6-8283-659c7ebcbb8a
+Chromosomes, Human, 21-22 and Y|580c13ba-1eb4-4612-9b3f-7637bd4c5747
+Chromosomes, Human, 4-5|c040f7b9-5f67-4044-8da1-2540999f45fd
+Chromosomes, Human, 6-12 and X|dc90f284-09a3-4569-8409-09a8e8ef9f92
+Chromosomes, Human, Pair 1|b90fea69-d78e-409d-a012-5f4596418563
+Chromosomes, Human, Pair 10|cd9131f1-4f6d-4cb1-8ac8-2f098aeb5a97
+Chromosomes, Human, Pair 11|2b786d08-56f3-42d5-a296-eeb8742f495c
+Chromosomes, Human, Pair 12|2e4e6e47-fd8e-4121-a681-4f964bbc1512
+Chromosomes, Human, Pair 13|6e681d58-0fac-4f5f-b8a6-54befa823c19
+Chromosomes, Human, Pair 14|a872ee8a-9d7e-441f-8092-aa15986e0617
+Chromosomes, Human, Pair 15|0db7a884-ddcb-4f64-b865-b1e6c173c3c9
+Chromosomes, Human, Pair 16|9f16431e-db5e-49c6-83ef-42d57739e3fd
+Chromosomes, Human, Pair 17|bebf75fa-3773-478f-8609-2f06360b15dc
+Chromosomes, Human, Pair 18|acbf8e23-554c-4406-9101-a2d99766e70a
+Chromosomes, Human, Pair 19|76711a9b-fbac-4eeb-97a2-3883627f21e8
+Chromosomes, Human, Pair 2|c8b51d6e-ea79-4877-a0ee-9fb25e6e0ddd
+Chromosomes, Human, Pair 20|5c6c5523-915f-4129-9d60-07ae660a49d9
+Chromosomes, Human, Pair 21|f8dfff36-b7c6-44bf-ade7-0b4ac2314976
+Chromosomes, Human, Pair 22|eec025e8-c444-4193-b5c0-89797ce1633a
+Chromosomes, Human, Pair 3|5b386e3f-8eeb-4fc1-aa0e-7c3e39d93c46
+Chromosomes, Human, Pair 4|862b14dc-372e-49c8-bdb4-94fd3976e38d
+Chromosomes, Human, Pair 5|e2a4a021-128e-4b89-b6ea-70fa2380cb15
+Chromosomes, Human, Pair 6|300d3bc2-821e-440b-84a2-9a89c594638b
+Chromosomes, Human, Pair 7|2e7dbb78-06ed-40b2-9fb5-1e879aa8ca81
+Chromosomes, Human, Pair 8|087448bb-6281-4c91-9112-052ae6402a7c
+Chromosomes, Human, Pair 9|24536667-2ee3-43d2-bdcf-257f78f7d46a
+Chromosomes, Human, X|1b1a2ca6-5d9f-4106-87e5-8660eedc0f37
+Chromosomes, Human, Y|827d8524-7056-4d53-8f01-fb5e456b92bb
+Chromosomes, Insect|6821c52f-e5c5-41e2-9a54-fb5abe2ea795
+Chromosomes, Mammalian|a36737a8-3b7e-4ab4-875f-afd6b22eb6fb
+Chromosomes, Plant|0b79f63f-6e55-43d9-aac0-aaae13c16d83
+Cilia|2ccdfd92-ee76-4d17-affc-7040890c2520
+Clathrin-Coated Vesicles|8b607677-20b8-4c8a-9f7e-ffc5528e7108
+Coated Pits, Cell-Membrane|74f5280c-f228-4159-8383-76c3233a34f5
+Coated Vesicles|682f4c81-39ab-484e-b89c-4eb4e2533769
+Coiled Bodies|b6edc4e5-19b6-489f-bfa3-4e296b224f0a
+Costameres|b4b37bb1-d84b-4a77-9e96-6c86928a9807
+Cytoplasm|ae8b40c6-4c2d-4a5e-99f7-b5ecabf5523f
+Cytoplasmic Granules|5dae0808-06cf-4c3f-ba7d-4b58aaa82d0e
+Cytoplasmic Structures|6f06d60e-e5e4-4ee8-aa3f-5113b7d43870
+Cytoplasmic Vesicles|134cc091-c3a5-4dcc-941c-d03d78901e82
+Cytoskeleton|d5ede368-251a-4a02-a117-1cef91c932bf
+Cytosol|7de700ed-af41-4e0f-af83-d2ca88bcd59b
+Dendrites|23840b0b-f596-404b-b4f2-d2791369ecb9
+Dendritic Spines|b7b7753c-95c7-4809-8aad-d0eea65ba5bf
+Desmosomes|d4eeae37-e324-4d46-89d1-2f9bd03ead89
+Electrical Synapses|35043525-a6dc-4f62-9dad-1455d210fd6f
+Endoplasmic Reticulum|ee78fdc2-aca6-4881-9e7d-ac2b86df6113
+Endoplasmic Reticulum, Rough|e6f2578c-2362-40c4-801a-5130b9dff800
+Endoplasmic Reticulum, Smooth|6a199dec-b846-4816-ab33-68a8270b804c
+Endosomes|c7ffd2f2-c57e-4bb5-be87-1b7e768efd3b
+Erythrocyte Inclusions|a9f5e3a5-2455-4758-875a-f9ad39977b1e
+Erythrocyte Membrane|8ae83cb6-2514-43a4-a475-9fce93cfc012
+Euchromatin|21fc7347-7daa-4693-a736-26e5048ab8c7
+Exosomes|760bc484-3cde-4ab2-9598-1e053d00d6b8
+Extracellular Fluid|2782ddc1-015e-48e4-88f7-b391cee7eec8
+Extracellular Matrix|978a7bd5-f149-4901-b4cd-469c60fd19ef
+Extracellular Space|c7c360b7-c344-4ac0-a0c0-43a5b7720896
+Fimbriae, Bacterial|b547f0de-0866-4497-a956-85b62a787a64
+Flagella|f0bff342-d8aa-41b4-9ede-04d79e3d1cfb
+Focal Adhesions|b4d4763b-a778-491d-a967-bfc8ff5d471c
+Gap Junctions|e514aee2-c322-4303-bcf3-911ed628d580
+Gemini of Coiled Bodies|1f20d038-80f8-470b-adf3-7f647355b89b
+Glomerular Basement Membrane|6d829a03-6b45-4869-ab45-15af3843fc75
+Glycocalyx|b6a7cd3b-c463-4f7c-8cdd-86e56ed69414
+Glyoxysomes|e78cbe0b-46d6-40fa-aab9-c37512787d6a
+Golgi Apparatus|59bbe60b-6171-4166-8e2c-190ff6a1fe88
+Growth Cones|5f8dca36-3cec-49c5-bbad-c7b956d2c86c
+Heinz Bodies|850e8076-6633-4131-9f30-1f1e4021fe55
+Hemidesmosomes|8ee58186-c13b-45ec-b167-ae7f4e515c92
+Heterochromatin|98506d86-ea78-4624-9fb1-047ed55ddf1a
+Immunological Synapses|a44eae43-2e49-4258-9432-8e1bc9dbbbf0
+Inclusion Bodies|840a2343-7610-4a25-b205-6a515f95b969
+Inclusion Bodies, Viral|5006d513-a6e0-45a7-8b94-4d8a565482d5
+Intercellular Junctions|f3a2dd63-404b-42ca-975b-5a09d70eeee8
+Intermediate Filaments|baf862aa-16ee-493f-a005-cdfddea3c4b9
+Intracellular Fluid|752d8021-ef59-438a-a075-85785d981d82
+Intracellular Membranes|7a250e3f-731b-467a-8206-589b408e4ad9
+Intracellular Space|7a5175cb-6324-4044-a42a-9441e677c348
+Intranuclear Inclusion Bodies|c52ae3cf-855b-42b8-aba1-9c499b854a1f
+Intranuclear Space|5ed4b5cf-bcde-4ffa-9b6f-5696d4f012c5
+Isochromosomes|562a61e6-b44e-4b6b-965b-946409c049dc
+Kinetochores|26530e38-72c1-4b75-a202-d063b5830080
+Lewy Bodies|ba48a8fb-9708-4bb9-9de5-9ea22744ebbf
+Lysosomes|7404a78f-fcda-46b3-8778-f2cc9da36f68
+Macronucleus|508dcc64-3632-4082-8d98-e021e4f55cec
+Magnetosomes|11ba9f3a-3074-4add-897f-eb6cc86b84cf
+Mallory Bodies|63c4e08b-9648-4977-b57d-315d7a3fff6a
+Melanosomes|d393966d-60ba-4553-8e91-bd535e358148
+Membrane Microdomains|36ad6448-82c8-409e-b5d1-66e01c86ac6d
+Microbodies|761af689-75e0-492d-b6fb-2c31b4e9ec80
+Microfibrils|35bf2e1d-8b1d-4ecd-93f4-122da379d54e
+Micronuclei, Chromosome-Defective|8cd7ebea-9438-4eb1-a927-3acc37b55e34
+Micronucleus, Germline|920db971-6515-415d-b8f0-6298b048e2e8
+Microsomes|427e15c0-8dd1-426c-94f0-746218713651
+Microsomes, Liver|2520eb50-fb8b-4356-8df9-4d563369e100
+Microtubule-Organizing Center|5a433d70-cf35-499a-9956-4826e7fb6ed0
+Microtubules|ca397dd4-2c7d-4c67-8a59-e646d5f65de6
+Microvilli|c39225f4-3bf2-45af-bb1d-e39003d7f371
+Mitochondria|c82b7102-878f-4bc4-8e2b-5fdcb97db6f1
+Mitochondria, Heart|8eb0795f-f3f7-479e-837e-1e05d26f0fa6
+Mitochondria, Liver|f1b59795-5bfc-45cd-8ef1-6bed5a82fb10
+Mitochondria, Muscle|5333a48c-0dfd-4e87-b1a9-e910e6bc6998
+Mitochondrial Membranes|42a6e6f6-b567-444d-bfbb-047bb4ecd8cd
+Mitotic Spindle Apparatus|2acf901b-f575-4c7b-a40f-6276fa9178ac
+Motor Endplate|54debd5d-e7b2-41ac-9f18-1af9a8043ee6
+Multivesicular Bodies|addd1ab2-e947-4a99-b380-4546252e3506
+Myelin Sheath|1558744b-7ece-4e5e-9b6c-be62280d316d
+Myofibrils|7c03579d-7435-463f-bdbd-598eb58a3a39
+Neurites|4304c756-6f5d-481a-aa4a-f4c47a9696cf
+Neuroeffector Junction|745ba7c6-7b4e-4f40-a3bd-4d2996302362
+Neurofibrillary Tangles|34d9e04e-eecb-4623-9005-430a9788e450
+Neurofibrils|8cd8ab46-b5d0-4f18-a72d-3619b9ebf936
+Neuromuscular Junction|63cbbd13-985f-4dd2-82ae-d7e3963f19e9
+Neuropil Threads|4f139ded-09df-4966-8bd1-70487e20651b
+Nissl Bodies|df73b805-48a8-468c-915f-3232456ee053
+Nuclear Envelope|be0b87ec-dd61-4a7f-8b37-ee062fe82a83
+Nuclear Lamina|207ee467-48e5-469e-951a-ee4b82c0443b
+Nuclear Matrix|5a40bd43-e0b8-42b8-a69b-d1dd810b51f8
+Nuclear Pore|f0ec4434-8b22-4e19-a18e-1843ccf706f3
+Nucleolus Organizer Region|b1d82b79-3253-4361-8bfc-912db51178e9
+Nucleosomes|d2155817-66b8-4ba1-8f40-0b4132edc5ca
+Organelles|e2330abf-2a80-4f82-8e9d-d9eb8b7312b8
+Periplasm|f79bfdf1-a138-4ed1-9528-2c2b2722e4db
+Peroxisomes|c90c22ac-96f2-4cba-bcbf-aee98a3932bb
+Phagosomes|09bb600e-fee2-45f3-b0c8-d6e76f36ab34
+Philadelphia Chromosome|f0dea96f-5370-4a09-81a3-68dd0a5fed60
+Phycobilisomes|fc1163ed-b77d-4205-a756-9fa8927c7a1d
+Pili, Sex|7dd0d461-1b50-4a0e-833d-ba8575241316
+Plasmodesmata|3e012a26-c2b3-4aa0-81f4-ad711e8480dd
+Plastids|834adada-1269-4327-bc6d-c27034bbe7e8
+Polyribosomes|3573d2d9-2e1c-402c-ab2e-a1e1ffa6be78
+Polytene Chromosomes|b9f0ed25-eee7-47e4-be30-62ea6e3d5e3d
+Post-Synaptic Density|35b7804a-76e7-41dc-95dc-9a4ce74d2f15
+Presynaptic Terminals|4db275ad-b04b-437e-88d6-d810ed9f2b91
+Pseudopodia|4472c8f5-c66b-4132-aa32-af07d8214cd1
+Purple Membrane|3b72b976-5033-4f1e-8eb8-2190e83b4ebc
+Ranvier's Nodes|a4c59f3d-5f79-4db4-b685-38f829508a63
+Ribosome Subunits|2930d6ec-d0cc-41dc-bd56-5039db41e250
+Ribosome Subunits, Large|1fb2352f-3266-4201-bd9d-50e92bbf7a17
+Ribosome Subunits, Large, Archaeal|98159573-618c-4870-8785-0453415c6e3c
+Ribosome Subunits, Large, Bacterial|488f038a-6ee7-4ead-8e11-70810fb1d1c5
+Ribosome Subunits, Large, Eukaryotic|218f08c6-00e7-437b-898f-738ff5eb9baf
+Ribosome Subunits, Small|83248fec-856b-4819-ac43-402cbfbd1d45
+Ribosome Subunits, Small, Archaeal|8732e437-e618-42c5-9df1-987a5e095a7c
+Ribosome Subunits, Small, Bacterial|18207dc8-682e-428a-a6a1-01a3503b3bc2
+Ribosome Subunits, Small, Eukaryotic|866bfd8e-6103-427c-a5ec-565d80b6a628
+Ribosomes|88a5e5bd-b5dd-42ac-a3cf-a0782a7bc381
+Ring Chromosomes|dfb65d83-615b-477c-9a1b-5924b9c3aebe
+Sarcolemma|e87b077d-ab6b-4042-b474-4d072f378f07
+Sarcomeres|eeccbb94-7e18-44f2-af5c-a8afbfd8a8cd
+Sarcoplasmic Reticulum|e3da71cc-17fd-4294-808c-d1115ade3b45
+Secretory Vesicles|b0fadf18-9eea-4818-ab65-e387b09524de
+Sex Chromatin|cc396e5c-c43e-4003-9569-97cbc9f3796f
+Sex Chromosomes|1fcaf7c3-efc5-4ef1-84a6-5b821475bb78
+Sperm Tail|29f3a5f1-c5db-439c-ac34-45b07af61a5d
+Spliceosomes|6144f178-dbe8-4fc6-8560-639a96475ddd
+Stereocilia|5064ec22-8e31-4240-b0ee-cf49aec3aea4
+Stress Fibers|1cc831d0-25b2-42e6-b654-ca8edfbfaa1a
+Subcellular Fractions|7b6173f9-6a63-4cf0-a09c-69f0e1496b9d
+Submitochondrial Particles|ad368250-016c-41de-88da-b06957e29a8b
+Synapses|717ebfb5-8ef3-45c8-bc30-f790a8d30bfb
+Synaptic Membranes|a858164d-a6fe-4174-a6c4-b60801e3ea8e
+Synaptic Vesicles|4ce803d1-800f-4f4f-ad12-93fd4dd615bb
+Synaptonemal Complex|e1fd0d1e-80a2-49f4-9fcb-e124ae9de936
+Synaptosomes|da20a0fd-3d36-4d69-89f1-b920005a9870
+Telomere|b03d2095-8300-4cc6-918d-207ac22f2cb1
+Thylakoids|af2d6c38-5e6b-4ba6-acad-3098f45c1dd4
+Tight Junctions|afa5af0c-ad60-4e8e-b9a1-f0a2ef909e93
+Transport Vesicles|dc8f3988-76ba-4834-8d77-25bf2a579bc4
+Vacuoles|92288a40-7f22-48da-9d32-5997681f75d8
+Vault Ribonucleoprotein Particles|dfc967b5-1007-4a29-9c52-dd42174beda7
+Weibel-Palade Bodies|68cdbc51-3747-41cb-a92d-2d3ee801b3bc
+X Chromosome|f1a332d2-6c2e-4016-9b5c-2d6e83ec79c4
+Y Chromosome|0819645a-92ad-4b35-b1f4-50c47728724a
+Zona Pellucida|b61e3f84-6d7b-417e-ba95-b1c56e13a04c
+trans-Golgi Network|06808729-950d-45a6-9f92-af07b3300474

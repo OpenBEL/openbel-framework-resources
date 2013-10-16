@@ -1,0 +1,2967 @@
+[Equivalence]
+NameString=Selventa Legacy Chemical Name Equivalences
+DescriptionString=Selventa Legacy Chemical equivalences were assigned based on string match to ChEBI synonyms.
+VersionString=2013-10-11
+CreatedDateTime=2013-10-11
+
+[NamespaceReference]
+NameString=Selventa Legacy Chemical Names
+VersionString=20131011
+
+[Author]
+NameString=OpenBEL
+CopyrightString=Copyright © 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=info@openbel.org
+
+[Citation]
+NameString=N/A
+DescriptionString=N/A
+ReferenceURL=N/A
+
+[Processing]
+CaseSensistiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+( -)-Ibuprofen|89d26168-1b8f-49d0-813c-a1e03a6b48fa
+(-)-Catechin|81f25ea7-ef54-4106-9194-25525cd108aa
+(14)C-9,10-dihydroxystearic acid|14066b2a-ccd8-4450-a434-a0e84a7d800e
+(14)C-cis-9,10-epoxystearic acid|01473a11-4bd3-45dc-8356-5b06b4cbcf5b
+(2E,4E,6Z)-7-(2-alkoxy-3,5-dialkylbenzene)-3-methylocta-2,4,6-trienoic acid|87468e0b-b06f-4798-a3c3-b562c550a3c3
+(2R)-2-Hydroxy-3-(phosphonooxy)-propanal|394c1fc3-f451-4cdc-a80e-0a633d425259
+(3,4-Dihydroxyphenylamino)-2-imidazoline|719bdef5-05b0-425f-9b88-98b9d4f9f0ad
+(5alpha)-7,8-Didehydro-4,5-epoxy-3-hydroxymorphinan-6-one|2bc680c5-bb5d-4d8a-bb39-3444313b57c3
+(6-(4-(2-piperidin-1-ylethoxy)phenyl))-3-pyridin-4-ylpyrazolo(1,5-a)pyrimidine|984c7528-36a4-4cc8-90ca-b0eeb1176803
+(R)-3-Hydroxybutyric acid|8b27dabc-f7bc-4f02-8581-55d571a090be
+(R)-5-Diphosphomevalonate|5f159b3b-c86c-48fc-9b59-84aca7506d00
+(R)-5-Phosphomevalonate|b3b1a85a-8874-4988-b2a5-01bb0401e893
+(S)-2,3-Epoxysqualene|54e3acd0-9ecb-49bb-8800-11536333c6b4
+(S)-3-Hydroxy-3-methylglutaryl-CoA|2cb8e656-7351-4f54-9d4d-ce139349bfef
+(S)-3-Hydroxybutanoyl-CoA|e46c6ca1-81ec-4453-abc3-1d00ede6bc10
+(S)-3-Hydroxydodecanoyl-CoA|995698cd-bb78-4212-8e6a-3921b85626d5
+(S)-3-Hydroxyhexadecanoyl-CoA|171c2f03-a792-401d-93b2-3cdb4afde6f3
+(S)-3-Hydroxytetradecanoyl-CoA|255fb670-6ed4-4981-ab00-ad3ef8af8c4f
+(S)-Hydroxydecanoyl-CoA|8ccede36-1004-4342-bbfa-d89635861d86
+(S)-Hydroxyhexanoyl-CoA|19eb797d-61d1-4da5-b20a-655dc0b7fc00
+(S)-Hydroxyoctanoyl-CoA|ed0d350b-6251-4e4e-a70e-3e28e0836f02
+(S)-Malate|08556697-7bb2-4f84-9db5-26b6f7e95641
+(S,R)-3-(4-hydroxyphenyl)-4,5-dihydro-5-isoxazole acetic acid methyl ester|e4530f9f-4a0d-47df-9d9b-10765b15a192
+(Z,Z,Z)-Icosatri-8,11,14-enoic acid|cdb53a2a-a0be-4a9d-934d-9e703dd873ed
+05141 Cathepsin S inhibitor|359f513d-64e7-497b-a13a-75a4bc88907d
+1,10-Bis(carboxymethylthiodecane)|1967c1cf-3c3b-434a-b55e-41fc6f7f46fd
+1,10-Phenanthroline|4a71b444-fd64-4f9f-9a10-cd0f184e1e4c
+1,2,3-Propanetricarboxylic acid, 2-hydroxy-, ion(3-)|06e7002c-d324-4265-bdcd-3b5f2aa55f96
+1,2-Bis(2-aminophenoxy)ethane N,N,N',N'-tetraacetic acid acetoxymethyl ester|c2d2aba7-9d68-47ec-9d15-7e373e97419b
+1,2-Bis(2-aminophenoxy)ethane-N,N,N',N'-tetraacetic acid|007ba827-898f-49e5-80b8-af29669adf82
+1,2-Dipalmitoylphosphatidylcholine|774e4a30-8808-46be-93a3-914c1b09a7bf
+1,2-Dithiol-3-thione|12b3ba70-4f37-4a1a-8179-4ea8126c70d8
+1,25-Dihydroxy-previtamin D(3)|f3cc4378-1b58-417a-9dd7-acca94a6bdf4
+1,25-Dihydroxyvitamin D|91728f00-2b6e-427e-9f19-cd84e4380d4a
+1,3-Bisphospho-D-glycerate|e68d10ca-ccee-4a86-8df7-58d4d02ce3ee
+1,3-Cyclopentanedicarboxylic acid|db064a11-1e85-4d59-983c-26280f0228aa
+1,3-Dimethylthiourea|059477c8-e5ae-47ba-bfdd-0fb5c1d9c6a2
+1,3-Disubstituted Urea|459a552c-016a-4709-8ff3-c7b714ecc26f
+1,3-diphenyl-2-oxiranyl propanone|08bf513f-6d04-49b7-ae25-b4b405f20e19
+1,4-Benzodiazepine|8fbec6d3-c413-428a-b480-3eccd4eb6aaf
+1,4-Bis(2-(3,5-dichloropyridyloxy))benzene|21eb057b-7803-4342-bf4a-17b85ff0e5cd
+1,5-Dihydro-fad|41e3c8fa-1acc-42d4-b8b1-40244d2b1a8e
+1,6-Bismaleimidohexane|50d0d699-65bd-463a-811e-fc82f72ac3aa
+1,7-Dimethylxanthine|959c7cba-6441-434f-a860-f86cfddb479b
+1,7-Phenanthroline|ed02fc6e-084b-45af-bcc5-7daea0bf8b8a
+1-(3-C-Ethynyl-beta-D-ribo-pentofuranosyl)cytosine|1ec797ae-4549-4b63-bab1-7cbd7874d118
+1-(5-Isoquinolinesulfonyl)-2-methylpiperazine|96b91a73-7bbf-403f-b4ab-fd443641dba7
+1-(Carboxymethylthio)tetradecane|7bf8818f-c77b-4fa2-a1a1-6389ccadbf58
+1-Acyl-2-oleoyl-sn-glycero-3-phosphocholine|91b12533-3f6b-43a5-9ced-92d03229c434
+1-Alkyl-2-acetyl-sn-glycero-3-phosphocholine|b9581de7-8a54-4cfc-8e0b-889a7ecd680b
+1-Aminomethylphosphonic acid|53dc9ace-edcd-4fd8-9678-b38f32a6cfa6
+1-Benzylimidazole|cf6f500e-b5bd-41a6-88c3-b4cc34d55b97
+1-Butanol|1da37efc-5b6a-42db-91a7-736b08c897df
+1-Deoxynojirimycin|240d0bd8-abab-4c5a-9b52-c6a66b030137
+1-Hexadecyl-2-acetyl-glycero-3-phosphocholine|de7ba1c5-231f-46d5-ad08-35088c1e3bc3
+1-Methyl-3-isobutylxanthine|88edb017-5115-4e58-8771-b7665fd27606
+1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine|8eb48bbd-db4c-4871-a330-e97e647b5683
+1-Methyl-4-phenylpyridinium|c4db8157-7991-49cf-87e9-24e3ca239327
+1-Methyl-delta(1)-pyrrolinium|33c8e74e-b725-4c7d-840e-d12d3c6c8d71
+1-Methylimidazol-3-ylacetaldehyde|a92c0fb4-f81e-46c5-af63-f7870142f6e7
+1-Nitropyrene|2e639cbe-1a81-4605-9558-869ec4e9f025
+1-Nitroso-1-(2-hydroxypropyl)-3-(2-chloroethyl)urea|a22e9ec0-9d7c-4ac0-986e-cbd93e1bc05e
+1-O-Hexadecyl-2-arachidonyl-sn-glycero-3-phosphocholine|3a9420ce-b10b-4354-96c8-bdf41e63c035
+1-Oleoyl-2-acetylglycerol|a2e5289c-8bca-4e4e-9488-62112352824b
+1-Organyl-2-lyso-sn-glycero-3-phosphocholine|ae8dd120-5c3c-4f3f-9e94-2ac75965fb23
+1-Phosphatidyl-1D-myo-inositol 3,4-bisphosphate|dd1585a6-8c43-42a5-ac6d-26f2ab378239
+1-Phosphatidyl-D-myo-inositol|f542a0b3-9281-4709-bfde-5098d56f0281
+1-Phosphatidyl-D-myo-inositol 4,5-bisphosphate|52b001dc-69c1-4c5a-a781-ae1eeaf8b607
+1-Propene-1,2,3-tricarboxylic acid, (1Z)-|35a192f7-9e8a-48d2-9981-ff66b597e583
+1-hexanediol|51d2f9c3-d4c9-41db-90a3-ecacee0d0b04
+10-Formyltetrahydrofolylpolyglutamate|bd53a343-567e-487f-be27-b409625d31fa
+11,12-Epoxy-5,8,14-eicosatrienoic acid|dea3f515-adea-4f6e-af56-0ca3e35625ae
+11-Deoxy-16-phenoxy-17,18,19,20-tetranorprostaglandin E1|2950d1e9-3ec1-44d1-a973-f23842f88e73
+11-deoxycorticosterone|52fd95a5-7624-4af9-9268-7dca2b0738d9
+11-deoxycortisol|775e85ca-6d53-415b-be12-8435a81b58b6
+12-Hpete|ed53b3e2-6c1a-4a64-83da-e4171b48263f
+12-Hydroxy-5,8,10,14-eicosatetraenoic acid|bee54b65-4558-4309-b6c3-07be64d933ad
+12-Hydroxy-5,8,14-eicosatrienoic acid|c3ea8682-4c18-46f6-b28f-643e8cb9f7e8
+12-O-Tetradeca-2,4,6,8-tetranoylphorbol-13-acetate|ca73ec78-2dbd-481c-a047-58a9e24095bd
+13-Hydroperoxy-9,11-octadecadienoic acid|10248836-7d3c-4851-af77-2e8a01af3590
+13-Hydroxy-9,11-octadecadienoic acid|8ffcc331-1ab1-4709-b8d9-c54cfb070452
+14,15-Epoxy-5,8,11-eicosatrienoic acid|79eef21a-453f-44d7-9362-6aa23ccd1c99
+15-Hydroperoxy-5,8,11,13-eicosatetraenoic acid|b4092878-12d0-480e-a684-886388806d00
+15-Hydroxy-5,8,11,13,17-eicosapentaenoic acid|15d81cca-7d27-4f10-bd39-e2981cf427b5
+15-Hydroxy-5,8,11,13-eicosatetraenoic acid|1d471a86-31b5-4eec-b4c5-6df758189856
+15-deoxy-D12,14-prostaglandin J2|249e4132-00d2-4c7d-96b5-d9cebf56ed00
+17, 21-Dihydroxypregnenolone|1cb613a6-7fdc-4643-b523-8b7a7c2d8a8a
+17alpha-hydroxypregnenolone|a284ccf7-ae06-490a-96c9-cf9f48488e2f
+17alpha-hydroxyprogesterone|32eff446-183f-4405-b28d-c82860fc898e
+18-Hydroxycorticosterone|5915cc39-f6f3-4964-9990-93e1cc6c4db5
+18-alpha-Olean-12-en-30-oic acid, 3-beta-hydroxy-11-oxo-|0f7e9b55-59da-45a1-a470-4d2dbd4b72f8
+19-Norprogesterone|1d6a0467-ce2b-45f5-93b4-ef1fd35d353d
+19-Oxo-11-deoxycorticosterone acetate|901d5c9d-c8f1-43a9-9342-f8a7f02b2ad7
+1D-myo-Inositol 1,3,4,5-tetrakisphosphate|5d36fa58-6950-4a6f-b994-1165e3875bbc
+1H-Imidazole-4-acetaldehyde|2c0c5ef1-4654-4f38-a090-105435d0da55
+1H-Pyrazole-1-carboxamide, 3(or 5)-methyl-|b5e47989-6eae-40c2-9ffc-3e779a6d8d00
+1S,2S trans methylstyrene oxide|30693cf2-dfb9-4028-8254-87f12873d6ad
+1alpha,24-Dihydroxyvitamin D3|1f7cc517-aeb7-4dd8-84d0-df677454d595
+2',3'-Dideoxycytidine monophosphate|95d41f6b-0f8b-404a-8fa6-a4ebbe720027
+2',5'-Dideoxyadenosine|319fce6c-98dc-4652-b77d-8da8e5d12332
+2'-Deoxy-5'-adenosine monophosphate|7bddcf37-96eb-4eee-8aab-741bd1e30d26
+2'-Deoxyadenosine|1ab7ea37-026b-4744-974f-68cc17725a4e
+2'-Deoxyadenosine triphosphate|c9c82e22-e20a-4502-9066-5067e0ab6af1
+2'-Deoxycytidine 5'-triphosphate|ced5559b-5bf2-4934-976c-ad7149ce2a7e
+2'-Deoxyguanosine 5'-phosphate|3109459c-6e66-463f-9eb9-9447d436fa89
+2,2'-Dipyridyl|f7a3788b-0d52-4ba8-94d9-44d8bac83c22
+2,2,6,6-Tetramethyl-4-piperidinol-N-oxyl|6f285e9b-7d69-4156-bf3f-e1a3ce948f96
+2,2-Bis(4-glycidyloxyphenyl)propane|02f28480-ceca-4ee0-a31c-a6987546e65d
+2,3,3',4,4'-Pentachlorobiphenyl|bb0a6532-6ee7-4a4f-9135-1a1aab69c9c7
+2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)|bb791662-50b7-40b9-b03f-26365e8606f5
+2,3-Bis(palmitoyloxy)-2-propyl-1-palmitoylcysteine|e619d116-04ad-4ce9-ac61-5d64b17c8a39
+2,3-Dimethoxy-1,4-naphthoquinone|17a68707-a324-4cfd-b5a3-3b39ced1d611
+2,4(1H,3H)-Pyridinedione, 3,3-diethyl-1-(methylpiperazine)-|18c0acc2-1ab5-4693-8e92-5100d3a3f1ec
+2,4,6-Trichlorophenyl 4-nitrophenyl ether|39e04766-6681-4a24-8e88-fd3041d51b3c
+2,4-Decadienoyl-coenzyme A|d9b8d0c9-afc7-444f-a229-618315d7f3b8
+2,5-Di-tert-butylhydroquinone|82c3cd2b-13ff-4a2c-a350-f1553d7841f6
+2-(2,3-Dicarboxycyclopropyl)glycine|bb8ffcf2-1942-4378-b7f6-8e9129f5dd3a
+2-(2-Aminoethyl)thiazole|807014a3-fdc1-4e62-b9f7-99402be1809f
+2-(4-benzylpiperazin-1-yl)-N-[(2-hydroxy-3-prop- 2-enyl-phenyl)methylideneamino]acetamide|ad97bfc3-ae71-46c2-bf78-7dbcf5aa5486
+2-(Allylthio)pyrazine|246fa2ca-4955-40ce-bc1d-63bf046102d6
+2-(Ethylthio)ethanol|25320476-86f8-45d0-be6f-1b0d93c60a2e
+2-(alpha-Hydroxyethyl)thiamine diphosphate|36c4468f-23db-451a-a815-dd66919291b2
+2-Acetylaminofluorene|28f1d7b0-4741-4d05-af84-8f6512aaa767
+2-Acylglycerol|13cb5aa3-3c2b-4a34-b7c0-3c5e7c1fd340
+2-Amino-1-methyl-6-phenylimidazo(4,5-b)pyridine|3518a143-d507-4480-8beb-96b4e55cdd19
+2-Amino-4,5-diphenyloxazole|9c5e29d8-0cc2-4119-8b84-997b93b33be4
+2-Aminobicyclo(2,2,1)heptane-2-carboxylic acid|9a59433c-2eb5-4b8a-91b8-772b3d42e396
+2-Aminoisobutyric acid|42792072-1af9-4ad4-86d2-b54b67af4b6c
+2-Arachidonoylglycerol|06b52194-06db-4ba4-9362-08eb87736cd4
+2-Benzoquinone|fdefaed2-4de3-49e3-8942-cbe3149f7fe9
+2-Butenedioic acid (E)-, ion(2-)|1e5c5e70-64ea-49e9-b605-7ecb17915611
+2-Chloroethyl ethyl sulfide|a453a90f-70b8-42f5-a6c1-beaa6f20dd7b
+2-Chloroethylene oxide|435f35e2-2f7a-49ef-aaf7-7dbb50076e5f
+2-Deoxy-D-ribose 1-phosphate|fe689d05-3bb6-4924-a222-470c0d1dd469
+2-Ethylhexanoic acid|4712016b-4734-4bc2-a904-f576608d4f1a
+2-Formyl-5-(hydroxymethyl)pyrrole-1-norleucine|313e368e-8f7c-45b4-beb7-268f52d4b4f3
+2-Hydroxybutyric acid|5b53f029-5cce-4e3d-bb5c-601390487dec
+2-Hydroxyoctanoic acid|78ad8547-df09-4145-9717-74c626bf3e99
+2-Methoxyestradiol|420931f3-73f0-41f4-b8ff-1e414d9d4d00
+2-Methylcitric acid|87b7fa66-fd6d-4bf7-b5f6-5400d17cda32
+2-Nitrotoluene|264b775e-8b4a-4270-9858-e17a4f3a5c55
+2-Nonenal, 4-hydroxy-|d2a1bcb2-df0e-439c-b754-2f0fa93a4c28
+2-Oxoarginine|6cbc48ed-9c30-41ff-aa9e-34cabc96cb8a
+2-Oxoglutarate|c43fcedc-9fa3-4478-97f1-2ca8f2bb8b92
+2-Phenyl-4,4,5,5-tetramethylimidazoline-1-oxyl-3-oxide|2c913995-4ff2-4898-9037-83bc2a4fada1
+2-Phenylbutyric acid|68592645-527a-4689-a16c-3b7a00583386
+2-Phospho-D-glycerate|b9770ed2-886f-4873-b959-44886bdfb2d9
+2-Phosphoglycolate|87c62fdc-f2bf-476a-a4d6-03f838148624
+2-dimethylthioethanol|3f5a6409-6065-42ba-ab9d-47b06d9769bf
+2-hydroxy-3-methylacyl CoA|f9b58343-f217-4c39-9993-0aa41179aa62
+2-hydroxyethyl sulfide|6f66d627-8dd7-4eb8-bf1a-2de5a4542bb7
+2-methyl Branched chain fatty acid|3cf63c6a-80f7-4a2d-8c35-aab8e6e20dfc
+2-methyl fatty aldehyde|77a283e2-acbe-499a-a316-fe3db4ca283a
+2-methylthioethylamine|a6c5b563-6956-45eb-ac18-b7ecc98d2c42
+2-tert-Butylhydroquinone|7a9be65f-a8bc-4308-aa31-1ce9089f0bfa
+2-trans-Dodecenoyl-CoA|e3661feb-5a82-4417-8c63-5242616e9619
+20-Hydroxycholesterol|6d495302-1959-4be6-88fc-79e6ec915fd9
+20alpha,22beta dihydroxycholesterol|d6020fc0-e647-4a16-b44a-a88aabd820ed
+22(R)-Hydroxycholesterol|d23946d5-7d95-43b0-88da-439f41feb147
+22-Hydroxycholesterol|0f2e6555-d6e4-4935-8312-4481effcb4af
+22beta-Hydroxycholesterol|a3294a60-e84a-44b1-9f02-6f74c5936974
+24,25-Epoxycholesterol|9f1f7a1f-1579-4975-b8e6-252c905cb9e4
+24-Hydroxycholesterol|8c112e0a-ee36-4112-b390-1d5f4073f07c
+25-Hydroxycholesterol|1ecb425b-1cd2-4e07-ba5d-b7d00e1b9eb0
+27-Hydroxycholesterol|559856f9-5b37-43e7-9cab-01366ccacb36
+27-hydroxylated 7-ketocholesterol|8869245d-d1e3-4c0a-9874-6df25bf4760b
+2H-1-Benzopyran-3,5,7-triol, 2-(3,4-dihydroxyphenyl)-3,4-dihydro-, (2R-cis)- (9CI)|3f352234-f49d-4e03-a540-d78a7bc46a9e
+3',3'',5',5''-Tetrabromophenolphthalein|32c493f4-a3a7-42f0-bcc3-da7485539c0d
+3',5'-Cyclic dAMP|0a5bb7c6-7b51-4bc5-845c-a037beaa527d
+3'-methoxy-4'-nitroflavone|43dd0722-289d-4609-b673-cd17bfde1108
+3,3'-Diindolylmethane|6908555f-db72-4637-bf2c-00c1f33ca562
+3,3-Dimethylallyl pyrophosphate|0892e349-e121-49a4-a284-fdcb4e186417
+3,4,3',4'-Tetrachlorobiphenyl|dfdbbf39-6886-4100-9dfe-3f6b68e9a273
+3,4-Dihydroxymandelaldehyde|e346e9cf-7f5c-404e-9bd3-5cbb2e609f0e
+3,4-Dihydroxymandelic acid|64c59277-7cc2-45c8-ba0b-b96e55746997
+3,4-Dihydroxyphenylacetaldehyde|0e640c4c-6b44-4f1f-b955-fa921b1ab12b
+3,4-Dihydroxyphenylacetic acid|540c9564-7ddc-4878-97f5-e8a4afc043d7
+3,4-methylenedioxy-benzyl-amino-6-methoxyquinazoline|a2feeac5-5332-4fcf-96b2-c02d7266c0da
+3,5,9-Trioxo-4-phosphaheptacosan-1-aminium, 7-(acetyloxy)-4-hydroxy-N,N,N-trimethyl-, hydroxide, inner salt, 4-oxide, (R)-|b8306377-ccff-4bd9-9528-83d51ad38ab8
+3,5-Dihydroxyphenylglycine|036bd59f-c27d-4ef0-94a3-1f1ff8496d2b
+3,6-diaziridinyl-1,4-benzoquinone|63301da7-7596-4363-abb0-166568de1fc7
+3,9-Bis((ethylthio)methyl)-K-252a|45c91770-f601-49ff-abea-6ec1755265b6
+3-(1-Deoxyribofuranosyl)benzamide|e613d7d7-bc22-4a5b-878a-727c3ba4102e
+3-(4-methylphenylsulfonyl)-2-propenenitrile|9110c009-def2-406b-ba91-363c4e5ee311
+3-(Cyclopentyloxy)-N-(3,5-dichloro-4-pyridyl)-4-methoxybenzamide|1c790fbf-e4e1-43ce-80d4-9e640b337716
+3-Aminobenzamide|fceabe5f-feee-49ef-9758-76869c3a4bc3
+3-Aminobenzoic acid|38a45956-98ee-4e2c-9205-0df04af00463
+3-Aminopropionaldehyde|c4e2679d-c989-435f-83e9-eccce0737c11
+3-Carboxy-1-hydroxypropyl-ThPP|5266a9c3-73e8-4b42-a2db-a92e3459d69f
+3-Chloropropionyl-coenzyme A|c041422a-85ee-4a59-a689-5c95e41f5d83
+3-Chlorotyrosine|6e942224-0b41-4c44-a4d7-aa6758f15261
+3-Deazaadenosine|23ced0d4-5b8b-4c4d-81c9-0088b05b0028
+3-Deoxy-2-octulosonic acid(2)-lipid IV(A)|63716f79-8685-4ec7-bff8-f6acc4e63e27
+3-Deoxyglucosone|6d1a93f9-99b1-4703-88cb-0e0f19d0e7c1
+3-Glucosido-chenodeoxycholic acid|43e5cacd-fb16-425c-bba8-1368675a341a
+3-Hydroxy-5-cholestenoic acid|ecdefa0b-d47b-4a5d-8724-f4bbf832f38c
+3-Hydroxy-N6,N6,N6-trimethyl-L-lysine|2e497586-c215-4bd2-a225-ae532082ba3e
+3-Hydroxyacyl-CoA|d54469a3-f98f-4773-9b30-121b80768eca
+3-Hydroxybutyric acid|d119e08d-6458-4257-817d-700673044c4d
+3-Hydroxydecanoyl-coenzyme A|8ccede36-1004-4342-bbfa-d89635861d86
+3-Hydroxyflavone|6f04d2de-e0a8-4456-83ed-986ed86ae6d8
+3-Hydroxyisobutyric acid|9e7ed6c5-49df-436d-9ca0-86cceb96aa50
+3-Hydroxykynurenamine|fc9ae6b2-9bf7-4c79-90a2-8dc68aea3fb4
+3-Hydroxyoctanoic acid|00f6f79b-5f5c-4c1a-9710-726766a15764
+3-Hydroxyproline|46101dd6-2bb0-4ef7-b795-8b96b5b2d176
+3-Ketoacyl CoA|565f97f9-9039-4800-aa63-b9e785853d4b
+3-Ketohexanoyl-coenzyme A|53ce7d46-98c6-4936-b425-008e69e7fa8c
+3-Methoxy-4-hydroxyphenylacetaldehyde|ff22e533-da48-4554-aa21-14d8303c91c7
+3-Methoxy-4-hydroxyphenylglycolaldehyde|6f152edb-0e66-4b95-992f-2a330641b75e
+3-Methoxytyramine|e8a124dd-f950-4df1-a4ce-476bef594b74
+3-Methyladenine|4a3baf48-bc41-4855-9713-51d582b15ac1
+3-Methylcholanthrene-1-one|1ca4bf5b-e55e-4fe9-9c6c-48bccee40a18
+3-Methyleneindolenine|7387e413-817b-41d0-acb5-f3ddfd53d0e4
+3-Methylhistidine|179f37f8-d334-492a-b208-593bfeacb822
+3-Morpholinosydnonimine|9a9bc25f-3bc9-4a98-a10a-5dda26b9e7b4
+3-Nitropropionic acid|9a857678-d09f-4ce0-939a-d5e6ed878b94
+3-Nitrotyrosine|2b777823-dcfa-4877-b9a8-8b822e37f1b2
+3-Oxocholan-24-oic acid|4e094c29-7b95-47e1-beef-e3f3e030caad
+3-Oxodecanoyl-CoA|42353ed8-3de4-4fc7-9f34-80808bcd55bf
+3-Oxododecanoyl-CoA|e529346e-5c18-4bf5-924c-3902d6fe6d98
+3-Oxooctanoyl-CoA|bc6b6b37-ae6d-424a-a09b-96d039fe4387
+3-Oxopalmitoyl-CoA|87aec604-e641-4be5-8f69-422d64a1218f
+3-Oxotetradecanoyl-CoA|81c513d5-32e3-417b-b710-a9984eb8c4ff
+3-Phospho-D-glycerate|730268fc-e82e-4804-a5df-fdb1b901990e
+3-Phospho-D-glyceroyl phosphate|e68d10ca-ccee-4a86-8df7-58d4d02ce3ee
+3-Phosphoglycerate|3934b3d5-fd87-4537-b635-66c9a14a6e1c
+3-Ureidoisobutyrate|055f0256-9b0d-4de3-93b7-246cc10459f3
+3-[3-butylsulfanyl-1-[(4-chlorophenyl)methyl]-5-propan-2-ylindol-2-yl]- 2,2-dimethylpropanoic acid|22c1d049-7682-4b87-9124-2257f0841120
+3-keto-4-hexenoyl-CoA|409f76ed-6a5e-44cd-8fa0-b62d0e0ba82c
+3-ketosphinganine|e0772ccf-8bfa-46c4-b940-b094fe19fa2e
+3-methyl Branched chain fatty acid|5f680ca8-05a4-4060-9a17-1edf829422e6
+3-methylacyl CoA|55767397-4908-4838-8cde-56a88a543d37
+3-methylindole|b299971b-282d-4725-b1a5-8ae4e0e9008e
+3-trans-decenoyl-CoA|37598021-0c5d-4890-b837-ba162ba1db33
+3H-1,2-Dithiole-3-thione, 5-(1,1-dimethylethyl)-|e225935e-867f-4f67-827f-e68f85e3ece3
+4'-Benzyloxy-3'-methoxy-7,8-benzoflavone|4a2df893-5738-40a9-a316-3a683beb8c8c
+4,17beta-Dihydroxy-4-androstene-3-one|af5479de-e68d-47c4-bb83-c03d8a3469cc
+4,4-dimethylcholesta-8(9),14,24-trien-3beta-ol|fa08a729-58fb-4341-8809-425c4fe896ec
+4,4-dimethylcholesta-8(9),24-dien-3beta-ol|10ea45a5-dc9b-4d82-99a3-2bcd5076c11c
+4,4prime dihydroxy 3,3prime,5,5prime tetramethylbiphenyl|447a130c-5f58-42c1-8856-4b29ab993069
+4,5-Dimethoxy-2-nitrobenzyl-8-bromo-camp|3cfa9ab0-9ce3-4bb8-b4b3-e030856f78cf
+4,6-Dihydroxyquinoline|ab3317e1-940f-488f-9ed6-987ac7a87ff2
+4,6-Ethylidene glucose streptozotocin|80d00283-f672-49f3-a925-2a65b112d7fa
+4,8-Dihydroxyquinoline|fca5cb5e-0c4a-4156-a540-c5b1d9906ffe
+4-(2-Aminoethyl)benzenesulfonylfluoride|9f0f832e-6b53-4ac0-b49e-d875d2f87989
+4-(Methylnitrosamino)-1-(3-pyridyl)-1-butanone|ba1d7c73-5da8-4117-8347-b7a0e7f79cd8
+4-(Methylnitrosamino)-4-(3-pyridyl)butanal|9e1c710c-e908-4824-8ab8-4063e909b54a
+4-Amino-1,8-naphthalimide|99be772a-eddb-4138-b5b6-60b4ec253e68
+4-Aminobiphenyl|3377caec-6f73-4b3c-9880-00cb829610ca
+4-Aminobutyraldehyde|f5e24818-767d-4192-9b2e-1d25e99f482e
+4-Aminophenylmercuriacetate|5b58734a-7cf8-4b5c-af43-570566c95daf
+4-Aminopyrazolo(3,4-d)pyrimidine|8162cf58-568e-4740-bbe1-ee018bb034db
+4-Androstene-3, 17-dione|8a0ecdaa-2391-4240-a575-1975a9a579da
+4-Biphenylamine|3377caec-6f73-4b3c-9880-00cb829610ca
+4-Bromophenacyl bromide|7793ffea-5ac3-4ab8-8555-366cab706a59
+4-Coumaric acid|64131bb3-f9f3-44d5-8bf7-94ab84f8db58
+4-Decenoyl-coenzyme A|e34b2875-1e14-4dac-a0ef-7fbfe5d85464
+4-Hydroxy-2-nonenal|7c801bc3-cc1b-459f-a7cd-5cd69415a025
+4-Hydroxycyclophosphamide|d69c66a7-39bd-40d6-ae64-e35c83a548fd
+4-Hydroxyestradiol-17beta|c505e4e7-2124-43d1-a03b-4a21c6541482
+4-Hydroxymercuribenzoate|8c91a679-e8b4-4f14-9d1d-b206b7751bfd
+4-Hydroxyphenylacetaldehyde|b7f7413c-d2ac-4a1c-918d-6bcad3917c21
+4-Hydroxytamoxifen|3e619c46-c67e-4b4c-89d8-0feb726fe53b
+4-Methylaminobutanal|05855a91-0ac9-43bd-b352-2e69c5c2edd5
+4-Methylnicotinamide|67588698-2d89-4a7a-b7f9-3116f42e6b48
+4-Nitrobenzylthioinosine|e7e8b798-76f5-43f0-93ec-aa6c4b12a49d
+4-Nitroquinoline-1-oxide|c4fd3c3f-e9e1-440c-b146-989a97dd51b7
+4-O-Methyl-12-O-tetradecanoylphorbol 13-acetate|0fbae4bc-8159-4e0b-bd1a-d2ac095e383b
+4-Phenylazophenylmaleimide|bae50883-6046-4a9c-95ad-366cd26e3bbd
+4-Phenylbutyric acid|52200bf0-72be-47ce-bb63-ac178b623cbe
+4-Trimethylammoniobutanal|a98a4ff6-cd6e-46cc-8bee-dce2ccd795fa
+4-Trimethylammoniobutanoate|13869236-6140-4ef8-9cbc-3d74eb8d6928
+4-amidinoindan-1-one2prime-aminohydrazone|fd619377-3d38-46d8-813b-b6e046a53552
+4-carboxycholesta-8(9),24-dien-3beta-ol|d3eee685-0172-461c-b3aa-ff40a2aa48c8
+4-hydroxydebrisoquine|af685aec-ad9d-4354-8180-31164781dd68
+4-hydroxyphenytoin|096dc852-5dfb-41f3-a0c3-f0f114043f1a
+4-hydroxytolbutamide|9e54c36d-6120-4574-87e3-1fdf9033596e
+4-methyl,4-carboxycholesta-8(9),24-dien-3beta-ol|58a3ce88-e9ed-41fa-ab43-908f151e2901
+4-methylcholesta-8(9),24-dien-3-one|4011b50d-2956-4e82-b9b1-576df675bf88
+4-methylcholesta-8(9),24-dien-3beta-ol|12b1148a-3042-4706-842d-141549ed92d3
+5'-Amino-5'-deoxyadenosine|faae4fee-82c2-4d1e-9ee2-ecbb8a3e1da6
+5'-Guanylic acid|d85ce586-b0cb-4c67-b05f-2c665781e5db
+5'-Methylthioadenosine|faf24879-99cc-49df-8629-98997b391a51
+5,10-Methylenetetrahydrofolate|182c584b-78bf-4ddf-a7e0-fdc10e0abfc0
+5,10-Methylenetetrahydrofolate polyglutamate|a1b3723d-7196-451b-a79e-fb3c3cf8da5f
+5,10-methenyltetrahydrofolate polyglutamate|0fd42752-6019-439c-b1cd-7fb2aaa211b5
+5,6,7,8-Tetrahydrobiopterin|e35e7fdd-b319-49a1-b92b-65808b1461c0
+5,6-Dichloro-1-beta-D-ribofuranosylbenzimidazole-3',5'-monophosphorothioate|ce0d2d0d-553c-42c4-86e0-094c41e9d509
+5,6-Dihydrothymine|b2915e0f-f766-4adf-b451-9366d7d18113
+5,6-dichloro-1-beta-D-ribofuranosyl benzimidazole 3prime,5prime-cyclic monophosphate|82dd4dcd-3ff4-4331-b54d-ada73d5662a5
+5,8,11,14-Eicosatetraynoic acid|64ac6bfa-9afe-41a2-8af0-90091088a3f8
+5-Aminoimidazole-4-carboxamide-1-ribofuranosyl triphosphate|8ee8c320-4092-49ac-ab48-8bbe16441e1a
+5-Aminopentanal|2b976773-55a1-4913-8010-c5a8ca6ed425
+5-Aza-2'-deoxycytidine-5'-monophosphate|01cfc661-97c9-4a75-993e-eb4471ed49bf
+5-Azacytosine|8e8cd083-a101-4add-90bc-6a40b6a92f64
+5-Benzyloxy-2-thiocyanatomethyl-4-pyranone|5f3fe0f1-b81d-4704-91b9-199dbc437287
+5-Carboxamidotryptamine|e30ef442-977c-4c8d-b3f2-b424d7709f45
+5-Fluoromethylornithine|6f34136a-d924-4484-9cab-ec160913596b
+5-HETE|bb60245d-fff4-43d2-85ec-b8d0b6c568f5
+5-Heptenoic acid, 7-((1S,2R,4R,5S)-3-((1E,3S)-3-hydroxy-1-octenyl)-6-thiabicyclo(3.1.1)hept-2-yl)-, (5Z)-|16f26bce-2e14-414a-888e-3e8912da9ae0
+5-Hydroxy-6,8,11,14-eicosatetraenoic acid|094a86a1-4f5c-431e-b8eb-b024651b3044
+5-Hydroxyindoleacetaldehyde|c3e5f75c-648c-4310-9fcb-43372b222ace
+5-Hydroxykynuramine|c1c80925-633d-49b5-8d8e-06efa84b4c0f
+5-L-gamma-glutamyl amino acid|28ff2ec2-8f8b-4f00-abf5-97fa4334d9c9
+5-Methylnicotinamide|2cc62420-7ea1-454a-be13-cb1b14cdf143
+5-Methyltetrahydrofolate|aab914d5-426c-43fa-86e6-9b14ded203f1
+5-alpha-Androstane-3-alpha,17-beta-diol|8145215c-7a7e-4d16-a9a7-54c5d05f13e8
+5-beta-cholestanoic acid|52b7134f-af99-4562-b1a3-58ff0dd118bf
+5-fluorouracil|a0f7d3cb-7e6b-492c-b553-35163100e406
+5-hydroxyomeprazole|379fa207-3d8e-45e7-bc0d-fb45f1fd8367
+5-methyltetrahydrofolate polyglutamate|11a90bd8-f697-4ce6-a646-6b9f8a834c82
+6,9-Dioxa-3,12-diazatetradecanedioic acid, 3,12-bis(carboxymethyl)-, disodium salt|c93cae43-a575-4959-b726-20e6be34c74f
+6-(Bromomethylene)tetrahydro-3-(1-naphthaleneyl)-2H-pyran-2-one|021d6ec6-f618-489d-a218-5f5902862a00
+6-Aminonicotinamide|ad798dc2-5013-472e-807c-82fadaffd3f6
+6-Diazo-5-oxo-L-norleucine|626cdfc3-a48d-420d-b0d8-17d6d0e795b9
+6-Hydroxychlorzoxazone|7ac23a71-e64b-466c-8438-64f792e74e5b
+6-Hydroxydopa|d0b71ef5-2336-45d6-9117-8ecc9f0ce3bc
+6-Ketoprostaglandin F1alpha|5cc9a694-f3c1-4cb2-9ea5-2f5ec6365414
+6-Mercaptopurine|f188e60f-e0d3-4ce9-92dc-11aed50fd22f
+6-Methyl-1,3,8-trichlorodibenzofuran|ffa88126-d952-4b78-a4e7-f349bc1cbdc4
+6-Phosphonoglucono-delta-lactone|71ae28bc-9594-4c15-8433-dced32ae5280
+6-bromoindirubin-3'-oxime|68f46ad4-d603-4ab5-bf6c-868b35d1dc6d
+6-formylindolo[3,2-b]carbazole|32da186b-6caa-4214-8858-22b905817e13
+6-hydroxypaclitaxel|e0a17780-7b88-4ffe-8cf9-2ad1f3bb0cf7
+6beta-Hydroxytestosterone|b3553658-2565-4505-9d2a-f071f6ed292e
+7,12-Dihydroxymethylbenz(a)anthracene|7d7296e3-cb4e-4010-9a53-ee0157132420
+7,14-Diazadibenzo(a,h)pyrene|cc2f0af7-c130-4f8c-a464-94fd31e56d1a
+7,25-Dihydroxycholesterol|307d723a-4ef6-46a5-9164-7651fb09331a
+7-(3-(3-Hydroxy-4-(4'-iodophenoxy)-1-butenyl)-7-oxabicyclo(2.2.1)heptan-2-yl)-5-heptenoic acid|0a41a3fb-4156-46ad-8297-711e3dc58b39
+7-Dehydrocholesterol|b932c9d7-139a-4a20-9741-0de9f8387e47
+7-Ketocholesterol|88039864-0ac3-4228-a9ed-dc068f6d3156
+7-hydroxyperoxy-cholesterol|ecb2e65f-28ba-44a2-bb7a-6abdad4048ee
+8,11,14,17-Eicosatetraenoic|a56e704e-299e-491f-88c4-dd11ba21f8a6
+8-((4-Chlorophenyl)thio)cyclic-3',5'-amp|1757d789-8d6c-48ba-b08b-94463371b481
+8-(4-chloro-phenylthio)-2'-O-methyladenosine-3'-5'-cyclic monophosphate|3d6d4014-0bb4-4153-b789-1c92d229968f
+8-4-Chlorophenylthioguanosine-3prime,5prime-cyclic monophosphorothioate|c64ba6b9-9c86-47c3-932c-edb1019dec17
+8-Bromo cyclic adenosine monophosphate|1dc2d86c-e87e-4b74-9f6b-e4c371097ca4
+8-Bromo-beta-phenyl-1,N(2)-ethenoguanosine 3',5'-cyclic monophosphorothioate|80f2ecd7-9a92-4918-81c6-8b57c3800900
+8-Bromocyclic GMP|4eb6ea02-7131-43c9-9ae4-201a8513761d
+8-Hydroxy-2-(di-n-propylamino)tetralin|e5a1b33e-6b73-426c-a8f5-4b3a00409455
+8-Hydroxydeoxyguanosine 5'-monophosphate|239d9b50-8b48-4756-bc67-e5850a6e74eb
+8-Hydroxyguanine|91f52aa4-23bf-4566-987b-f7ea4e8ef6e5
+8-Isoprostane|8b36836d-c258-4ceb-bbf5-e94e71ef2990
+8-Methyl-IQX|310c37a0-bd20-4502-b363-b73c726c91b0
+8-Oxo-7,8-dihydrodeoxyguanine|bbe0214d-dd4e-4227-8f4f-5928b8e70e32
+8-Oxo-7-hydrodeoxyguanosine|5e8d883b-dfd6-416d-afa0-faba287d2383
+8-Oxodeoxyguanosine triphosphate|fae3be3e-3647-4d2e-b9b7-9670b7ecba52
+8-Oxoguanosine 2'-phosphate|aa20d9a0-9f20-4890-96cf-fdb91fafdba4
+8-iso-Prostaglandin F2|582705c5-f614-48b7-a2ed-24b10b5e493f
+8-methoxymethyl-3-isobutyl-1-methylxanthine|05147a80-7115-4b15-9a92-cacf8a79bdc7
+8-oxo-7,8-dihydro-2'-deoxyguanosine|5e8d883b-dfd6-416d-afa0-faba287d2383
+8S-hydroxyeicosatetraenoic acid|6dd583e2-7c1c-490b-bf2e-b333e13f15fd
+9,10-Dimethyl-1,2-benzanthracene|b8252a2d-1c52-4281-a609-41208e13066d
+9,10-Epoxystearic acid|56418883-4b03-4a19-9ea9-375e4203b92b
+9,11-Linoleic acid|52720c7e-599a-40e8-8893-51422df3e3bd
+9,12-Octadecadienoic acid (Z,Z)-, ion(1-)|2beb5f9c-7db6-4a63-bf5f-f5c51c52f2c8
+9,13-Retinoic acid|8df55199-aa09-4077-9fe0-a9849a3a3481
+9-Deoxy-9,10-didehydro-12,13-didehydro-13,14-dihydroprostaglandin D2|94347fce-f621-4caf-abea-826b2b39cbec
+9-Deoxy-delta-9,12-prostaglandin D2|99c478fa-bed8-44e0-81fd-3563f0917805
+9-Deoxy-delta-9-prostaglandin D2|656c0a36-538e-4bee-aeba-c5361368b813
+9-Ethyladenine|d84eae59-29e8-4056-bacf-bf7a669880d9
+9-Hydroxy-10,12-octadecadienoic acid|4ddc97aa-b071-47e6-ae5b-ff4777a0adde
+9-Octadecenoic acid (Z)-, ion(1-)|a1712dfc-4b81-4015-8e69-d7fc49e9b2bc
+9-cis,11-trans-Octadecadienoate|664839b2-1abd-4a75-a613-56b6833d5329
+9-cis-Retinal|dcd38f9b-0e64-4063-93aa-8f8a1fc42b95
+9-hydroxyoctadecadienoic acid|64e157f7-317f-40ae-9e26-87426410b41e
+A-Norpregn-20-yne-2,17-diol, 2-ethynyl-, (2-beta,5-alpha,17-alpha)- (9CI)|3cdb66dd-df75-490c-ae73-5f9c4b7e7124
+A291077|fd7c0fee-5ea0-40de-a6eb-5089193aa622
+A304000|3fe567aa-1d9c-4422-b1dd-43cc4365e079
+ABT-263|e51f0d6b-b729-4235-a2b9-d1e743638a9f
+ACER1|f1bb4e06-ae63-4617-ab65-fd7426d4f57c
+ADAM10 inhibitor|dc47a751-80a5-4f76-a156-51d4a3b45ce2
+ADP|7dfcc257-9a80-45cf-9d82-d09a7e8eed5c
+ADP-D-ribosyl-acceptor|d8f4c156-896f-4a79-8f15-d31bbbbc0e98
+AG 879|77f6afa7-edcd-47dc-bb95-926e394e21e9
+AG-490|3a6318a0-4ca9-460c-8e9b-0f237fff43fc
+AGN 194204|16bcd180-ae24-4140-a509-922db6158a4d
+AH 6809|285fda6e-694a-4dd9-8c29-7bc33ce51306
+ALT-711|c334b110-0fa3-4273-b2b5-c662d81fe98f
+AMP|e0828c1e-8fb8-41d2-9103-eb98acf2cfff
+AMPK inhibitor|aae78507-06a9-4ebc-a452-9ef922678df9
+APPC|ea1884c2-dc56-42fd-a12f-5a30448e1493
+APT|c795e65a-7685-4f85-acea-6eefe3985ad3
+ATM inhibitor|29c6bf55-1287-4b03-b994-5cb277c7e4f2
+ATP|734c0728-f795-400b-b81c-938581d232ab
+AZ703|e859cb9a-d442-4f54-b77b-36beabeadfb8
+AZD0530|306bbdac-443a-4711-b4ee-b91393a0b32c
+Abciximab|6ca39ec3-0b69-4a8d-9cf2-ef6dafad747a
+Ac-DEVD-CHO|03033d5b-5854-4f83-a7f9-affa369efadb
+Acadesine|cdee9520-0067-4b0f-9023-1fefe1c8bf78
+Acarbose|5419638d-b818-43c8-9f95-5fa3c702ae24
+Aceneuramic acid|701d3761-b45e-4807-add6-54229fb63977
+Acetaldehyde|3864d1d9-fbbf-4531-859f-22d81b579769
+Acetaminophen|7e59ef68-e76f-4c73-86e4-eeb04dbcb9e2
+Acetaminophen (TN TYLENOL)|49e931f5-55c2-42e8-a483-28398c276231
+Acetanilide|175ba89e-452c-4bb8-9789-68a2b4f258be
+Acetazolamide|d702bca0-f46e-4863-a725-52cf21e056d1
+Acetic acid|58a047a6-c69d-4acb-82a7-c60be8d52307
+Acetic acid, 2-(o-(((4-isopropyl-2-methyl-5-oxo-1-phenyl-3-pyrazolin-3-yl)methyl)carbamoyl)phenyl)-|48294a59-6783-4fa1-ae2b-3399650d143f
+Acetic acid, ion(1-)|bb1c127b-373a-4e19-8a3b-7e519ecfacb8
+Acetoacetic acid|f6c75471-513f-4596-b787-86bca68b9fb1
+Acetoacetyl coa|157c6175-5a7b-484c-91cc-16134b6e8748
+Acetovanillone|a2707303-ee18-4623-8851-4cad29306205
+Acetyl coenzyme A|837bc8bd-9c80-4ebe-9a6c-0b9bd22e4adc
+Acetyl-CoA|837bc8bd-9c80-4ebe-9a6c-0b9bd22e4adc
+Acetylcarnitine|e47c2ae4-4517-4bb2-acca-2aba906ae8c2
+Acetylcholine|eb7cc4e5-63d5-4a55-a892-8bc30c07fe75
+Acetylcysteine|9a1f3119-1e41-4409-bf45-baec9366a9b7
+Acetylglucosamine|133240c3-f605-45a2-aed8-3ea65e914be6
+Acetylhydrazine|9a4f4908-d779-4919-84f1-ecc7490c5339
+Acetylleucyl-leucyl-norleucinal|060e3eb1-83d8-4a5e-992e-66c5be8f3d2a
+Acetylmuramyl-alanyl-isoglutamine|05f8de71-eaf3-4e6b-af0e-274369a015a1
+Acivicin|c85fd040-981a-45f9-9da6-8f656f9f68d7
+Acrolein|d37a4859-8ac3-449e-a9ff-8d4979673289
+Actarit|5389c3a9-cf8f-4e6f-8a2e-165e6820f4b5
+Actinomycin|38070eef-3adf-467d-b718-34329ce93138
+Actinomycin D1|089f3f67-6708-4dc1-96ad-35e895999320
+Activin|5c4b66da-2dc1-4f2a-b08d-4287e3333151
+Activin receptor|069f2bd5-220c-4d4c-9ad1-91779134d0de
+Acyclovir|987a7827-5fa5-48db-ab2a-4894a9487f7c
+Acyl-CoA|5bd700e5-f0c9-416a-8230-da2f660478ce
+Acyl-CoA synthase|c71d6c0a-369f-48c7-a048-d582dc56833c
+Adenine|b37f353d-b650-4116-9767-b8a2a4ecb5d1
+Adenosine|4d022bf0-2933-42b4-8d64-bbf08484a4ed
+Adenosine 3'-phosphate-5'-phosphate|099f7ef9-6801-4dc1-94b0-75b507cc4284
+Adenosine 5'-(tetrahydrogen triphosphate), magnesium salt|75c3831f-e1ae-4c3f-9deb-c033d72e61b3
+Adenosine 5'-O-(3-thiotriphosphate)|28c8bfd7-ea05-47c3-a78d-b1e099aa7265
+Adenosine dialdehyde|a69c2bd8-3c16-4d91-aa74-277d818fe097
+Adenosine diphosphate|93ad68a7-0b5a-4c77-9199-506bf4b60598
+Adenosine diphosphate ribose|2cf3d449-f027-45e8-930d-17b0b2b0fede
+Adenosine phosphate|f78673cd-4b40-405b-b1e0-a19e93ff0f96
+Adenosine triphosphate|734c0728-f795-400b-b81c-938581d232ab
+Adenosine-5'-(N-ethylcarboxamide)|a280380a-eca8-4b11-bc78-f6a51f6b93e3
+Adrenomedullin|086a63d7-1989-4982-8e32-8bf00aa675ab
+Adriamycin 14-octanoate, hydrochloride|3cc87568-a73a-4bbf-9fe7-1afd29f69426
+Advanced Glycation End Product|cdc5b9e4-d8e0-4545-9834-e2a9da38bc4e
+Aflatoxin B1|587efd1a-2f20-4d8a-ae4f-8b3b7073fcbf
+Aflatoxin exo-8,9-oxide|b8349fb9-6d21-4273-a2ec-94691ca35aec
+Agm 1470|1b9b9e1a-6374-46cb-8e28-50abc3bdb504
+Agmatine|1189ba95-6c32-4f75-97e1-2805c1c216ad
+Aica ribonucleotide|436f8420-3207-4fbf-b45d-1f1954c1f7cc
+Ajoene|46ebf630-0ce5-4967-970d-eeebc141adda
+Alanine|875218e0-7320-48bd-b01d-b61d68376577
+Alanine, 3-(2-aminoethoxy)-, L-|e61f3ef8-0e05-4665-88be-e3d6f959d693
+Albumins|35537cc2-f6d1-4933-81c6-d3954dbc5bff
+Albuterol|3a32e2dd-3857-4d12-8ea2-aa7a51a43e1a
+Alcohol|e98a1a27-8e50-49fe-bdb2-d5f8d79a22dd
+Aldehydes, C9-11|e3435555-e4f7-42b1-9099-08c29cc5d94b
+Aldosterone|5b691d54-7dd6-44c6-9c1d-12224f4dc49d
+Alendronate sodium|f56a71d9-4a41-4e3c-b643-351bef51921b
+Aliskiren|a34c668b-b87c-4590-af95-d96af4f8c8bb
+Alitretinoin|f982552e-db8c-4e56-87a6-cb577b20a75b
+Allergens|be0230d1-4016-4368-a38f-2babe12dfdf6
+Allicin|cfc43da3-7bf0-4987-af05-98fafdd809e3
+Allopurinol|9eef9fd4-e839-4036-bd7a-135007097dd4
+Alloxan|49818630-f466-462a-a164-9e5507fd3190
+Allyl sulfide|8a0115f5-2911-4f2a-810b-682bcc9a9a96
+Allylamine|02d53991-1d07-40cd-93f0-77684f1be979
+Alprostadil|a34025b0-6ae3-4cab-9473-cdd0533000ac
+Alum|0c6f93c1-9d8b-4547-84e1-5431b3fe1538
+Aluminum|0a075f24-c7c6-46fd-84eb-4846ca6675cc
+Am 580|a1d265b0-83d5-4a9d-bd1b-f89345db9b1a
+Amantadine|e00ec460-ddf0-4fec-a832-fe6838c9ea21
+Amide|a517e086-807a-43f4-ba4f-e8cecb3694ac
+Amiloride|e9196f3a-7b77-4147-b6a3-a875d9ae0aca
+Aminoacetone|2a22fb01-76a5-4e73-a7c6-eaf655c90f6e
+Aminoglutethimide|b44d4b8a-a6ec-43be-ba06-5ec12dc3d79b
+Aminohippuric acid|5b83beee-59c8-4bae-a9e8-647b95eef2fb
+Aminorex|cc43a64d-ffef-41c7-9d4b-e229872799e3
+Aminotransferase, alanine|310be9ad-c699-4bb1-964c-2c6a52b1da02
+Aminotransferase, aspartate|6b356705-4988-4130-ba0f-e8f3bc81bbad
+Amiodarone|ee298306-1890-49fb-b0cd-3c6ff6ec6e06
+Amitrole|567b8883-f935-4857-bce3-fe8baca72708
+Ammonia|8b832d5c-9ecd-4b88-9f2e-4014066ad935
+Ammonium chloride|3be5defd-c362-4bf9-ae26-d649e9e7cac8
+Amphetamine|a88ea776-d2b1-4d72-8355-733d2c9317c0
+Amphiregulin|b6454741-2b72-480c-abf5-74375af91399
+Amphotericin B-deoxycholate|dd6abc3b-d10b-47b7-bf99-67bd4c064e47
+Amrinone|e711d0c0-b46c-4ca8-8e56-66f0aaf5941f
+Amygdalin|12e7a261-d9a2-4810-8679-212a3542d48f
+Amylin|874b09aa-13aa-4edb-a4eb-5bde198bddba
+Amyloid beta-protein (17-42)|744de96b-c23e-426c-a904-328602f17c92
+Anabasine, 1-nitroso-|3447c865-ddb8-407e-b6ad-a41ae3719d5b
+Anandamide|b847ea1b-2556-4d64-9b4a-8628c15b0eb4
+Anastrozole|88b9aed7-2958-4dc1-8380-bef8e9370528
+Anatoxin-A(S)|bf8513c1-24a5-4a58-8131-ee25ae83e5f4
+Androgen|1e5a737f-7a9e-41ee-8a0d-aee3d22d8cc2
+Androstan-3-one, 17-hydroxy-, (5-beta,17-beta)- (9CI)|13b3fc1e-6ac0-49cb-9f44-ca6bd4c9162a
+Androstenedione|4f7d5dee-4baa-4188-b523-b3764e41320c
+Androstenol|cca8657c-c271-4fe6-a57e-e72ffbfeb937
+Androsterone|ab4e2878-b0e8-4abb-9192-e28bde12607c
+Angiogenin|5de5992d-b539-4962-9fcf-53ddd4531bfa
+Angiostatin|0cc9ac24-1b93-4649-8a14-17a696e92552
+Angiotensin|01dd12b1-a496-4b92-8a7f-f46a6b115597
+Angiotensin I|3ca13e3a-67ee-441e-abf0-76a1fe55cc1c
+Angiotensin II (1-7)|24b6af43-9ba0-438a-b215-0bd8de719ad0
+Angiotensin III|53fa61af-99b4-46f0-9532-69ca543f7d23
+Angiotensin ii|88d82333-0d0b-45c7-8c14-f8d0bb3a7526
+Angiotensinogen|ab078ffe-9a28-4fb9-99ab-2c2fa55cb1a9
+Anisomycin|7b0317e4-855f-4d96-873d-f238ba9d0600
+Anthracycline|4508d2d5-e2e8-4317-9bbe-6d56b6117f28
+Anthranilic acid|e4fb9ed7-acc7-476a-a16c-fbba4dfb9db0
+Anthrax|9c60cd4d-4820-4b6f-8030-327ba1d146b3
+Anti-EGFR mAb Clone 225|e8b79052-3f36-4085-85e2-81ffee1a97ee
+Antigens|b5d6dc9b-3ec0-4f59-a777-40307cdb9264
+Antimycin A|ada4bf48-becf-444a-82c9-cdbe51afa79f
+Antimycin A1|ada4bf48-becf-444a-82c9-cdbe51afa79f
+Apafant|2bffb1ca-6310-42c9-8074-ffd42202d409
+Apamin|8ab6de66-dad9-4269-aa8a-8592e316015c
+Aphidicolin|002e9a4d-e3eb-48c2-aa52-b4ad2598b883
+Apigenin|60c413b6-288d-4e84-98ca-a90f0273147e
+Aprotinin|72e1917f-23a8-4b3c-80f7-1fd26233acd1
+Arachidic acid|4ae56638-fd1b-490d-8ef2-73da7ddc210a
+Arachidonic acid|65a29d3f-b58f-474c-ac42-84cfb26f9ff9
+Arachidonic acid 5-hydroperoxide|51078692-9ad8-4b5f-9a51-ef89e821ef45
+Arachidonyl-3-ketoacyl-CoA|14597131-90ed-4260-a3d6-ffb809660b74
+Arachidonyl-coenzyme A|f407da77-75aa-42e6-9d40-6f7031f66728
+Arecoline|4c9be768-54a8-4027-b484-8cfe5d4f7fa0
+Argatroban|2eabe420-2238-41a1-9555-0b71259cc150
+Arginase|51f8674a-a6cf-405a-848b-8f90995a7bf2
+Arginine|45d9fd0a-6a76-4ce6-aa95-ae8f55cf562d
+Argininic acid|8618a5e0-dfb5-45a6-ac3c-65bd69884fc9
+Argininosuccinic acid|36c226de-7db0-4635-8940-1496beb45195
+Arginyl-glycyl-aspartyl-serine|be0c7ca9-c5db-4f9e-8f61-27d93c91d20a
+Aroclor 1242|fe0f4312-5fa6-412a-9b19-d064f0ddbe88
+Arsenic|afefed81-333f-4b69-a421-81aef3fb454d
+Arsenic oxide|dc3c600c-3d63-4016-888c-9a2daabf53ad
+Arsenic trioxide|39b5db3a-748d-4203-8dad-303b697d00e9
+Arsenite|aeabc56b-fd5f-47ca-b3e8-41f40890cfb6
+Artemisinin|bee09cc0-5914-4ad8-8cc2-487d51901fcd
+Arzoxifene|a3118933-ad28-40d0-872a-ca6e6e8be5d3
+Asbestos|3aeddc8d-1ea6-4280-9ff7-1af52474c40d
+Ascomycin|b6c61c68-221b-4d0b-a877-3fa84c61ca2b
+Ascorbic acid|a8e99c09-2f24-4854-a711-c142ad003857
+Asparagine|bf4ee7d7-15ed-4369-95df-0824e079ee6d
+Aspartic acid D-form|23df52a3-ac96-46f2-a004-cc0cb0219797
+Aspergillus fumigatus Ag extract|b1fcaa81-5a64-45a0-8470-173ed2003717
+Aspirin|d82d502a-477c-4021-bb27-e318fd13bb8b
+Astaxanthine|0adb45fa-f7fe-4209-9965-2487a503e094
+Astressin|c3b4d263-9f02-4620-8781-19c6d82aca49
+Atazanavir|1638c59e-a439-424a-9131-ba04db0f198e
+Atenolol|7eac5ee3-e5f9-43d8-b96c-89eff2dc8df1
+Atorvastatin|eaf2158b-aa7a-41b6-9e78-ce77dc98bc7e
+Atrial natriuretic factor|4f6e3fac-7dc6-488e-be93-0a2f7470cb18
+Atropine|488ce150-f4ec-465d-a3cd-0c431b22d084
+Aurintricarboxylic acid|8a2961ec-8f37-4045-8a4a-30dfa7e2c451
+Aurothioglucose|f168b501-21de-4d0d-beed-16b52ed16deb
+Azacitidine|f1539c65-20f5-4763-a932-3cebb3936d85
+Azaserine|cc4599ed-58c0-4615-a724-366040835a1f
+Azastreptonigrin, isopropylidene- (7CI)|66aa6680-6419-4b5e-aab5-b74cbb2655be
+Azathioprine|0e76b424-d960-4ad8-930a-5dbc25f485b5
+Azetidine|db237034-68fe-4d56-b0bc-62a4b4507242
+Azetidyl-2-carboxylic acid|5af385d9-67c5-43b3-be29-3e6d563b8590
+Azide|d8e3d3fd-0990-44ce-afee-8799fc5bf3d4
+Azithromycin|5a1cd633-399d-49a4-a34e-f380912ae231
+Aztreonam|80bffa25-ba6d-44c0-85ec-7cb65e2f8272
+BAY 11-7085|98a868b7-62ba-4625-bfd9-dd8696c0cd30
+BAY 43-9006|cc5338c8-09cd-49c2-a7d6-f88c9d040b84
+BEZ235|3227d44e-2603-469c-a137-4dd446cdd1c9
+BIP|a836c7d0-a628-45bf-a9ee-81343efcdb32
+BM-17.0744|48c853a4-f54a-4042-bfc7-5f451516fbd5
+BMS-690514|39c0235f-4710-4f44-b0bd-a37c0ae7bd04
+BN 50730|d7983e98-46eb-4182-ae94-447882c4e4a1
+BN 52205|1c8f2b29-9ae5-459b-bdc8-986a66c992c5
+BQ 123|d316910d-f47c-4230-b5bf-a237726b4157
+BQ 485|c501a594-eaf9-41aa-8e04-ae2372699453
+BQ-788|b26cff52-8631-4504-98d1-ab47ffdb005c
+BVT.2733|aefe8ebb-4ce3-4b11-aeb2-32235f61bdfa
+BXT 51072|6cb909d4-7f72-4c25-8c1a-56a15e21bf4d
+Bacitracin|35b4220e-5d7e-46fd-a78e-de88f6e4ced3
+Bafilomycin A|5606b0ca-d6b9-4cd9-876a-2450c8a40700
+Bafilomycin A1|e4a57682-6529-4a0a-8fa2-347b91a0fef6
+Baicalein|20f7602a-47f4-402b-9a4d-8d9a716b9656
+Baicalin|4ca4814f-a42d-4563-bcbb-caac256374b5
+Barium|5b7ccbb8-dc53-4b64-9c31-c0df9e101d25
+Batimastat|3b20f513-aadb-4c6c-b70e-2ab565c95c88
+Bay X 1005|322686b2-8164-4aee-9a6f-36dd0e468c98
+Bay-K-8644|565215e0-6da8-49a4-aab9-84bbf8d845d1
+Beclomethasone|889dc15a-3127-474f-a250-4f002687c296
+Benafentrine|bbd77cb7-c1ef-4132-bbaa-11783eba65e0
+Benfotiamine|7e631862-2fca-4937-b466-ec24f7bfb339
+Benomyl|698474c8-9e1d-4736-ae71-d377b10776d0
+Benz(a)anthracene, dimethyl-|f6ef1d34-965c-4c87-ace4-f044782fd405
+Benzbromarone|d9cfbc80-f100-48ea-86f7-7e65f488b7f0
+Benzene|c4feac4c-32ba-4946-90a2-3b1582a4ba50
+Benzene oxide|e30309c5-68ff-4dcb-bf5c-d3da59348af3
+Benzo(a)perylene|d0a3beff-a80b-4ef8-968f-2d6cf05ebd1b
+Benzo(a)pyrene|cf3af9a1-725a-436e-8495-2845f0362924
+Benzo(a)pyrene diolepoxide I|2e49c538-6bcf-4fe3-a332-aba7eb269bf6
+Benzobarbital|30d7b305-9516-4236-9e24-b92be85e65f4
+Benzoic acid, 2-hydroxy-, ion(1-) (9CI)|0075a1d0-9ea2-4260-b5ed-4647e5053938
+Benzopyrene|311f1b06-19a6-4f64-a277-24f75f13a4ce
+Benzoquinone|a129ebca-84c3-4d29-9544-e39c27b1f933
+Benzoyl peroxide|21118074-9d70-4c5f-95da-73df3ca17cb8
+Benzyloxycarbonylleucyl-leucyl-leucine aldehyde|4c15541e-308c-49b2-a9d8-c8bfe609c784
+Beraprost|4d7d9739-e24e-4d07-b037-ac37332b5954
+Berberine|f9972913-fe45-40d7-83ad-b5a5a8d183cf
+Betaine|2bba8d6f-c268-4147-84e8-3da2829381be
+Betamethasone|e060cba3-78ed-4486-98d2-affe2fba4ac0
+Betamethasone valerate|49ddc1ce-24a9-4e63-af30-171fb47b06af
+Bevacizumab|d8457d67-091f-4ef5-8dbf-7358683018e0
+Bexarotene|a09ece02-7a7f-4bf8-9d6d-322a72f0706e
+Bezafibrate|b013500f-48d6-4c71-b840-a2290423aee8
+Bicalutamide|d9a48e1c-627e-468e-833d-0ce86e1b77b1
+Bicuculline|2e630205-0884-4b2e-b0ee-69f96d5868ac
+Biglycan|380a2ea5-b0c5-4c55-a39a-20c90a32fb5e
+Bile acid-derived 2-trans-enoyl CoA|7b947056-ccc6-497f-ad6b-92c23f487777
+Bile acid-derived 3-ketoacyl CoA|af54b1d0-55a6-4b63-ae7e-c441d3f8fcf9
+Bile acid-derived D-3-hydroxyacyl CoA|d15ab8c4-a80c-4d7e-8031-cd1afa94606f
+Bile acid-derived acyl CoA|c73afe1f-747b-4e20-8766-629831fb1812
+Bile acid-derived acyl CoA (-C2)|5458b98d-c984-4518-be82-1922fac17557
+Bile salt|19a20b83-81b0-416e-b822-5121a4466634
+Bilirubin|adc9005b-765b-45b0-9b67-e47fabb9ac29
+Biliverdine|6db822d4-c8d8-4684-9edd-310300c47c12
+Biotin|feea561b-7a77-45f3-af9e-cf5f6af7d184
+Bis(4-nitrophenyl)phosphate|9de198fb-a203-47e6-a440-a2baeda58338
+Bisindolylmaleimide|51146b7a-ef6c-4f4c-8e65-c90b3c439cfd
+Bisphenol A|6f94e943-b55a-4e9f-9f6c-351da36e0166
+Bivalirudin|42b40588-d9a4-417c-a853-7eba3035be62
+Black currant oil|a8c30976-1174-427d-893f-9d19481b2e00
+Bleomycin|db991993-6ea8-4cf8-b714-79bb8638eb69
+Bombesin|33c5640a-ea6f-4f29-9003-f11e5efbea19
+Bongkrekic acid|499a146c-49fd-4c99-aab3-80f9119e4a8a
+Bortezomib|f4d1e112-fc81-4f3f-bb78-804e629dd04b
+Bosentan|c4a2e495-c9bb-4619-8415-2ecea2a1d04c
+Botrocetin|3282c7ed-5dca-425f-a18b-4b70da54a962
+Bradykinin|0aa4f87d-03d2-4095-ad59-45d593ed6974
+Branched chain fatty acid|48b3fe43-5d24-48d4-b303-c56986cb4cd1
+Brefeldin A|fad0105a-dfcc-4559-b136-98bc7ae01a46
+Brl 37344|e09efcee-4889-4131-a92e-8bad6ecb466e
+Bromelains|4e25b446-9ceb-43b0-8e8e-9fda6b49409d
+Bromocriptine|ef20271a-c601-4471-b48a-778346d1ef9c
+Bropirimine|ad627c68-62e8-43e0-860c-4fa62f51ba82
+Bryostatin 1|621cae69-603c-48d8-9502-f0fe3950dcb1
+Bucladesine|1e858049-f2ba-4cf1-81e4-de446d7a0799
+Budesonide|231e5734-823d-4e84-8451-ab8402c8be34
+Bumetanide|55eb75ae-c6a4-4701-8701-376823f9010c
+Bungarotoxin|4819433e-89a2-46ab-bb47-41501f5750ed
+Bupivacaine|5a2b986b-8bab-46d8-afe1-be90f1ddc294
+Butanedioic acid, hydroxy-, ion(2)-|be16ac55-7e26-4750-b6dc-96fd0fffad37
+Butanedioic acid, ion(2-)|856054e7-708d-451b-8f7d-c6c102b36fb1
+Butanoyl-CoA|7bed2d91-7258-4806-a129-e4db711e6262
+Butaprost|4d1ac120-04ec-494f-a933-b703bb6ffee8
+Buthionine sulfoximine|7d941089-d800-40ab-954c-d37e73a26a1d
+Butylated hydroxyanisole|198f0b7f-237c-4775-bcee-e3b83f0d3126
+Butylated hydroxytoluene|642da82a-3eea-41fe-a8ae-02c3f1fd3b2a
+Butyric acid|edb6c3be-9019-498b-b5d3-488655d3dbda
+Butyrolactone I|532a4fb3-ed01-4989-bb6f-1611bdb664b6
+C-Reactive protein|592b364a-8a7f-4af1-baa8-c71dec40983c
+C75|f789472d-4296-441c-a39d-ea6c13a4fc8d
+CD40L|5e4921eb-ef2c-4119-a509-2df5a01a69fd
+CD437|2ec016d9-c081-4f44-9a4c-07428b731454
+CDK inhibitor|58fc6285-192f-48a9-bef3-d6c0f6825870
+CGP 53716|4a292ba7-8237-4051-bfee-26f435272c7d
+CI-1018|26be2dd4-0a9c-47e5-8151-d7a6a09a0e08
+CL316,243|dd0ce8aa-5984-41ff-9ae4-0a07912c9e13
+CO2|8a6c7848-ab7f-4849-a26b-c65c692e00d5
+COP|7f38406b-4c32-4b0a-8e8e-5f400ee2bea0
+COX2 inhibitor|36ab0dc3-ce70-4f61-8866-b95411b8c800
+CP-24879|5f0ebcaa-2551-4202-bd66-eaf133975d64
+CPG-oligonucleotide|0aa2fb86-d30d-4e13-abc8-84416ddc3b82
+CRA-024781|cc2a06ef-4dbe-4312-995d-00d8c1506925
+CV 3988|463db516-abe7-420f-9f00-c4ecc0cca26e
+Cadaverine|3c519778-b6aa-4ad6-932f-6073e4b4a19c
+Cadmium|921d8ded-2584-45a1-9608-a6a06dc0a590
+Cadmium chloride|dfb36eeb-ae92-4a4e-835d-732d88fdc984
+Caffeic acid phenethyl ester|c0310d41-245a-4f36-8836-eb5eaeeef665
+Caffeine|e320734e-37f1-4217-8b4e-824c39dcff86
+Calcidiol|509929ed-f439-486d-a81e-593699674c59
+Calcifediol anhydrous|509929ed-f439-486d-a81e-593699674c59
+Calcimycin|f9b738d3-539b-447a-9a83-539a843beebc
+Calcipotriene|ecd8bf29-9dc1-4291-8a94-3a0b60a33948
+Calcitonin|c7d788fd-7648-409c-a864-03892284cf5a
+Calcitriol|a31c939c-013b-4798-bebe-3da91fac1e53
+Calcitroic acid|a6937c5b-9035-4396-ad4e-507ccf6ea69d
+Calcium|efd6a90b-a3cc-42db-b0fc-d5c560783ab7
+Calcium chloride|07b3ca0d-d516-4b02-9470-94eceb7fbad0
+Calcium ionophore A23187|105c8981-b5d6-45d2-abe0-075d69d77926
+Calpain|1b4e74fb-16a2-4958-8f7a-d27053b2d82d
+Calpeptin|ce503a9d-768f-4acd-aa4d-2ec92dd60b5e
+Calphostin C|6a49dd69-402c-434e-9989-c02dd1abe7ed
+Calyculin A|55d1b0ff-32e1-4b88-afd0-7f86a5a58b50
+Camptothecin|193875a0-4fbb-4b81-804f-772db404d381
+Canaline|2d682f68-98f5-4674-b96c-f8b57345b1bb
+Candesartan|f44f5eeb-f453-4141-b829-e7d67ba0f67a
+Candoxatril|2cfcfd8d-d9e0-416b-b02a-006d331863c0
+Canertinib dihydrochloride|e4c9e9ae-ab9e-469b-bc2f-646a08def4c0
+Cannabinolic acid|18841243-c943-42c3-a231-a9f0edcb71bb
+Cantharidin|d857c5a0-c44e-4038-959b-5f6084e6702e
+Capecitabine|a1abf98a-67ec-42fb-92d1-2e612d12ded1
+Caproic acid|f3d43482-955b-431a-9e24-a356fc25730d
+Capsaicin|5fee6251-cc89-4f1b-882a-1cc1ce6ba6ca
+Captopril|18473ab8-54aa-4aac-878c-db41821286fa
+Carbachol|197891d4-a119-495b-a49d-cb3b08818bad
+Carbamazepine|1fc6c626-3ab7-41bd-bda1-a7596e4169e4
+Carbamic acid, ion(1-)|832bacc1-0a02-40eb-bb42-3773dc1f22fe
+Carbenoxolone|b866ea88-7ad9-41d4-8f42-a6abb27c0ef4
+Carbenoxolone sodium|716af2ed-4ba1-4d97-b131-041e8b3efff1
+Carbocysteine-lysine|ad736f43-5fbd-4457-8e12-2017651b7ebb
+Carbofuran|0ae0dbff-65b8-4af7-8216-51cd4df900e3
+Carbon Dioxide|8a6c7848-ab7f-4849-a26b-c65c692e00d5
+Carbon black|adab15c2-02af-40c1-a33f-bcca94544e01
+Carbon monoxide|845aab67-9217-4c4f-aeab-1e51be02deb1
+Carbon tetrachloride|e92b03d3-595c-46e5-b6eb-eda59ef2dfd9
+Carbonate, hydrogen|30a41177-24fa-49f6-95c9-c20ad177fbfc
+Carbonyl cyanide m-chlorophenyl hydrazone|280665cc-de66-4e14-bd09-744e2da2a722
+Carbonyl cyanide p-trifluoromethoxyphenylhydrazone|c7ea47e7-1fd4-4c14-a04d-ae4330c97a15
+Carboplatin|358b7d5f-8970-48b1-9426-a77164fd671b
+Carboprostacyclin|a1fe65a8-7fab-4e9c-890b-b46bb7e043e2
+Carboxyhemoglobin|528f4284-8acc-4fea-bfe9-e3ffcc93134d
+Cardenolide|4165bc1e-09a8-4a2a-8020-c72f8eec93f9
+Cardiolipin|be97fe92-affc-40ce-b768-95b13c1d27f0
+Cardiotoxin|4aa9559f-a8e8-4163-82a8-2fa1033f246b
+Cariporide|75646b52-fbaf-4659-92cd-4be2f6d30049
+Carmustine|863851eb-ac49-43d7-9c4e-d9e98aed8c29
+Carnitine|7d26e106-f5d4-4933-9d74-0095f20b0302
+Carnosol|c611dd64-6613-410f-ace6-1d00ed01ae25
+Carrageenan|58853486-8b8e-444b-9043-7f6ca114eba1
+Casein|02bf311e-3eff-4cb5-a4af-d87a7ed068e9
+Caspase 1 inhibitor|af7b7b4a-73a0-41cf-9e9e-a0ddf2fdf9c3
+Caspase 2 inhibitor|b98eabfb-279c-4661-81f8-1907ebd4f0de
+Caspase 3 activator|70681b12-2f19-4e0c-99d2-a4a999b6cbc5
+Caspase 3 inhibitor|64638547-b6a0-4016-bd5d-17d0ecb29dce
+Caspase 7 inhibitor|0957e12c-2fe6-4dcb-b786-d5ce067e2c6d
+Caspase inhibitor|fa207c91-cc60-4458-944b-f9f06576f601
+Castanospermine|fd241c80-55ee-4490-af1e-b2589b2d8805
+Catalase|8f476634-5d1e-4ab9-8c74-cd3bb278a267
+Catechol|ddfdab86-e938-4353-9378-8f853c4f2bac
+Cci 779|50ef4f9a-49ad-41b6-b413-eb72564dda73
+Cd 437|08258577-2bb3-456a-a021-e05e07e04307
+Cdc25 protein|e15fde48-8dd9-419d-bb0c-368b8c24251b
+Cecekin vitrum|72068dec-827e-468a-aa75-698620114415
+Celecoxib|1f4691ad-da88-429d-be65-d9294020ac39
+Celiprolol|b1e3a15d-d7b8-4695-b6ca-430cd2ebf2b4
+Cell-derived microparticle|1c233258-5cac-4096-83d1-c70d589998ae
+Cephaloridine|82ec4b8e-9d98-44a0-8712-232e7afa89d4
+Ceramide|ab579550-0b49-404d-adac-b5617eb5d0a4
+Ceramide 1-phosphate|92028221-6339-4bf7-9007-1fd91f83c53b
+Cerium chloride|7cf220dd-c631-414c-aa87-03b5a4527f11
+Cerivastatin|b2456686-c36b-475d-a233-351300d19a0a
+Cerulein 7|e6b9f439-a52d-40d2-aa39-cdef0144c610
+Cerulenin|9ff66a45-528e-4d23-96cb-3e489a56e079
+Ceruletide|cabf09e1-5d50-48eb-b04a-9fed3450198a
+Cesium|aad38ec1-4fd7-42d1-af35-4555242f74e9
+Cetuximab|525aafdb-7d4f-4faf-b443-ec933f615908
+Cgs 15943|a14a1da2-bc01-44bf-a01f-6f7dc44de90d
+Cgs 21680|4ad498ba-e046-45e4-b95b-0552972e1179
+Charybdotoxin|ebe3be4f-97aa-449a-a7c2-fde5d9af04d6
+Chelerythrine|b0845429-fd64-43c6-ac86-d637eca4718f
+Chemotactic tetrapeptide|e42da9b9-a3a3-4f32-b06e-b4e46c01fbb3
+Chenodeoxycholate|05a4fc37-9777-4daa-a0c2-fab37e9016d9
+Chenodiol|5da0d281-8bb9-402e-985d-393cd9e776fd
+Chitin|fb09d2f4-9c29-4f42-aecf-f8b65ac8a1a4
+Chloramphenicol|3aacbec3-bd71-4252-a6e8-da240b6e820b
+Chlordecone|b8f4c85a-4ac7-4f9a-87fa-8caec0466e35
+Chloride|447d1df3-13d8-429e-8746-908508f88421
+Chloride(1-)|447d1df3-13d8-429e-8746-908508f88421
+Chlorinated dioxins|9d416931-d9c7-4e93-bfeb-e16f5e690f1d
+Chloroethyl nitrosoureas|1ed9640a-6db7-4169-ba4f-018d85e90812
+Chloroquine|3edab97a-81d4-4901-bacd-ca34071a750a
+Chlorothiazide|74dffc24-d574-48d6-8d91-4386bc99b291
+Chlorpheniramine|96c1d7aa-8cee-4122-b501-8bf7d0fced2b
+Chlorpheniramine maleate|ab953acb-ffb6-4cd1-a69f-d090ebac6599
+Chlorpromazine|ab6ebdc3-4e62-4fd6-9974-27f455eed940
+Chlorpyrifos|024dfdbc-e21e-4454-b52c-464a07fdb542
+Cholecalciferol|68d4f88c-da72-41e9-98df-efce3a05fdcc
+Cholera toxin|e8ef3a2f-df33-4471-a80f-b581eb6f00a1
+Cholest-5-en-3beta,7alpha-diol|449a5852-0798-44ec-8574-2ccd156c8161
+Cholest-6-en-3-beta-ol, 5-alpha-hydroperoxide|cc8ce9f8-88f0-4145-8bf3-2352cee61439
+Cholesta-5,7,24-trien-3beta-ol|5616da44-3f2e-4090-a62c-a0b0291af184
+Cholesta-7,24-dien-3-ol|9d30ded4-9135-455e-bf34-e39d916092c2
+Cholesterol|229702c0-5e2d-4087-a4cc-09fe6e92c282
+Cholesterol 7-hydroperoxide|2936efdd-f782-4b28-bad1-4b08cf24418e
+Cholesterol ester|069283ff-b843-491f-87f2-02f4bf63260a
+Cholestyramine|35c5c5c7-b85a-448b-9959-a0d3c78e7a6a
+Cholic acid|2df3bad8-dcf4-4861-9844-765c192ecf40
+Choline|691a17db-c2fc-4bb4-b822-da8fbe57aa27
+Choline alfoscerate|d0044f31-41c4-4552-92e3-59b5ce19f496
+Chondroitin|abf70793-fd7a-4718-96da-5cf9cf1c45c6
+Chondroitin 6-sulfate|406e25be-a4bb-45d8-ba8c-d2a4f933936b
+Chondroitin sulfate A|27d07fc3-e77a-4fa7-914b-6a4a7fea4fe1
+Chondroitin sulfate D|2af25470-97e1-47f9-b061-452eab7c2857
+Chondroitin sulfates|76789e46-bf46-4ba4-929d-a2d28b07c66d
+Chromium|ba9bf3a6-e6e5-4ada-b6b7-ab9d8033e14a
+Chromium hexavalent ion|643e5192-89a5-47d4-bed0-891e9ef1baeb
+Chrysarobin|882da4a4-5f85-440b-985a-b310374afea3
+Chrysin|62ac74a1-62fa-4c2e-86e1-b5e27e8c82a0
+Chylomicron Remnant|3c670659-ea85-4c48-a490-d7720c1cfb90
+Chymostatin|49aca3ca-01d8-4b77-a062-3f468c07dee3
+Ciglitazone|38d2eee1-531b-41b3-a6df-c2c2824c3b75
+Cilazapril|5d1116cb-0610-4029-80e5-655367701770
+Cilomilast|d1d9071f-ea34-4914-b59a-c6fd4b80b4f6
+Cilostamide|75e3618f-789a-46fc-9b47-299fdb749802
+Cilostazol|cf920549-440c-4e49-9c80-2fc7c71037aa
+Cimetidine|62adf883-a3ea-49be-b23e-bf54820ed2de
+Cinnamaldehyde|811a4fa5-4141-4ffe-92f4-6f69b60ce281
+Cinnamaldehyde, o-hydroxy-|0f335134-4af6-40c6-9fa8-fb6cda47f4b2
+Ciprofibrate|18251548-75b4-44de-9a43-1828ba5ae4cc
+Ciprofloxacin|d4d822d4-f46a-4a3d-99a8-d867bf8881ce
+Cisplatin|b89c8168-79d4-4526-9f47-d825baa656a9
+Citrate|e59f329d-1c9d-4b3d-ba90-13b2aafdbb36
+Citric acid|f40e868d-cf1f-4835-a73f-6d57704f3f25
+Citrulline|c815c624-7939-4e78-a0af-31d4ae48a137
+Cl-|447d1df3-13d8-429e-8746-908508f88421
+Clarithromycin|3aba69cb-b433-492d-8bb4-52d05feac114
+Clenbuterol|f946e9fc-162d-4c48-b49c-8885ba0a7418
+Clofibrate|050e5e2f-0876-4604-909d-44b61c43eba4
+Clofibric acid|7b34a0c4-4e91-4a04-aad1-36cd160b02a1
+Clofilium|0c1b7c9e-03f5-40ae-9446-197dac955b95
+Clomipramine|7d51695b-e1f2-43fe-ab66-a82267bddf35
+Clonidine|3d955160-532f-4d1d-b113-69774ea36d12
+Clorgiline|0b966e69-645d-40b8-b089-74ef16292ac4
+Clozapine|edc70987-4dd7-4d3d-a041-0feb298db86f
+CoA-SH|54b2f53c-47ca-46ac-a872-714b26d14083
+Coagulation Factor XIIa|cf060ce0-8e5e-48ee-91e5-1e8298f1273e
+Coal dust|11b8697d-cdfd-4905-a7fc-374da36b42bd
+Cobalt|62cc6269-d9f1-4cbd-b185-76e5b645f16f
+Cobalt chloride|bab9e0df-2838-4bd9-9a10-64afe2c2908f
+Cobaltous chloride|bab9e0df-2838-4bd9-9a10-64afe2c2908f
+Cocaine|45ce9d3f-4924-452d-971f-2ad321b949ec
+Cocarboxylase|71518ace-1de0-46cc-8a71-ae2bd3324979
+Cocoa, ext.|2d73100b-d8bd-4e69-bc34-b80501f2f148
+Coenzyme A|54b2f53c-47ca-46ac-a872-714b26d14083
+Colchicine|8385d410-606a-41da-a0f1-a3da5279d320
+Colforsin|81311b59-39ed-4e05-a908-eee83ad64919
+Collagen I, alpha chain (98-110)|21b0032c-ced2-4ac9-9dca-fc85cbcd7235
+Collagenase|0616b47a-17a8-4ca5-b176-420da35fc869
+Comfrey extract|6ace58d1-784b-486d-9d5a-74e25312cbb6
+Complement 4a|75f49081-c531-4be9-82cb-0d1efe94906b
+Complement 4b|9f417418-51e7-4a93-86e3-a8c5be91da9e
+Complement 5a|7ba4cd5c-9591-4231-a356-36ce048f5021
+Compound 401|999209f6-b17a-4343-8db8-33ad3b8107de
+Concanavalin A|f38ac1bb-babe-47a9-a3a1-b10be968c8a5
+Convulxin|4b412bc6-df20-483f-85e0-c3786924cc80
+Copper|4bfb3f58-8aa4-4365-9c05-acc7c51c0870
+Corticosteroids|03385130-629e-4e9a-bc93-4a66c0edead0
+Corticosterone|33acef21-ddf7-448b-b3b0-c50ec3455264
+Corticotropin|003259f0-a8ae-4ed1-ae17-547557cf9b30
+Corticotropin-releasing hormone|880f2bd5-e124-43da-9e5a-d2029c87da59
+Cortisol|e07192e6-fc34-4138-9844-b1596c811157
+Cortisone|8acb842b-9f58-4576-929c-95e556a78c93
+Cortodoxone|775e85ca-6d53-415b-be12-8435a81b58b6
+Cotinine|5848af6d-84db-44e9-9955-c19c71ee7330
+Coumarin|26d3ef3d-69cd-43a2-a1b0-6f2eaaeaeb8f
+Coumestrol|52ea97c5-3d7e-4493-825d-29934c3eee62
+Creatine|a951f13a-fb51-4bc6-a9e5-f8fec72f3b94
+Creatinine|b674457b-c37a-4179-bfdd-eadeced66ae8
+Crm197|815349d5-ae79-49f2-acda-4878f660eb7e
+Cromakalim|1d2b37c4-e1d3-4062-b4f7-d9e1dba048ee
+Cromolyn|227b8490-3bdd-46c4-8127-eeb8a1285837
+Crotonoyl-CoA|77f4a14a-5f36-4f0b-952e-46ebd70c55c1
+Cupric chloride anhydrous|09bde721-e932-4b94-8792-8fdc4a0ad300
+Curcumin|138c0909-caf1-4a25-b069-c528a2e5e534
+Cyanide|0e48268a-addc-4545-a3ba-8ddb8f2244fc
+Cyanoginosin LR|1f6cdab8-0bc6-474e-8558-33410344bc4b
+Cyclase adenylate|1f79e31c-4756-4bf5-961d-6675b1c338a9
+Cyclic ADP-ribose|d48821b0-7c25-4228-807e-6b154dda5c4c
+Cyclic GMP|8e919bb8-9c64-414d-847f-1633ec07d4c7
+Cyclin D1|65032399-2b3a-403a-9a68-3684f137398f
+Cyclodextrin|64dc494e-40be-404f-beb4-2a9af786b66d
+Cycloheximide|8f01c57e-ce38-44ba-96bf-cc3b2de942aa
+Cyclohexylamine|dd49033b-6940-455c-9c1b-c1e02e004845
+Cycloleucine|463ee95a-3afa-4362-8f03-c913f6220b94
+Cyclolinteinone|f5660dff-23f1-41a2-9486-5292f3a402af
+Cyclopamine|ba5bfd86-7245-4066-a64b-c21a8f3fae50
+Cyclophosphamide|78c4f60f-9c4b-47b7-9e4f-8f2d37e257c8
+Cyclopiazonic acid|815c8682-1bf0-4dac-bd87-10ada4ea258d
+Cycloserine|b1aa5881-d1b3-4f2a-91d1-93053908ce37
+Cyclosporin|fd749e09-b456-4954-9647-9de5581299d0
+Cyclosporin A, 4-(2-butenyl)-4,4,N-trimethylthreonine(1)-|3914bb98-bcd2-48c9-a14a-af45ca10e9b3
+Cyclosporin H|c7149153-2006-4f80-b650-75ffb0bd6461
+Cyclosporine|886827c0-fd6a-48d2-93ee-bde27ecef2bb
+Cyclothiazide|18ab86be-8eef-4e23-98db-ad8ccaae697a
+Cyfluthrin|3450a1e0-394c-4e5a-89c7-56e762b15b44
+Cyproterone acetate|85b38e97-3d65-40b4-bf6c-54f17eda3034
+Cystamine|fb710511-4695-4ec3-b659-b9efef99df3c
+Cysteamine|8a84abf1-dade-4a52-a474-44b989d6e5f1
+Cysteine|7ee704a0-fe1f-41d1-8722-a7561469d225
+Cytarabine|81fe2198-f70e-466c-9109-12753afd467a
+Cytidine monophosphate|50532309-f363-4691-bc2c-44a7ec3baabd
+Cytidine triphosphate|b9aafaa0-1cc1-4e65-885d-05d22a8f6339
+Cytochalasin B|737f7676-5eca-4200-9a91-94772a63cede
+Cytochalasin D|1d8ee2fe-e348-4a02-b5e7-1ba423af8c1a
+Cytochalasin H|4cb09db3-2417-4381-930d-c01bb9d19058
+Cytochrome C|16d0dbc6-d440-4738-bb32-04e3b0fd5406
+Cytochrome P 450 monooxygenase|67e77dbf-f2f9-4d43-ab24-b94986cefe59
+Cytochrome P-450|645b2c6e-8f50-4ccf-a37c-2c4292539ae8
+Cytochrome b|172ff622-5ce9-42e8-8753-ca1e23ab6f3e
+Cytochrome b558|637d60b4-b05c-44cf-9b16-1e7bbb37026d
+Cytolipin H|fd53997f-2272-4a05-99f8-0e64c7409c00
+Cytosine|e9eff7b7-75bb-4d2c-8178-3e260fa8d6b0
+Cytotoxic necrotizing factor type 1|845559cc-b100-4f99-a228-850520eeb719
+D 609|af377132-aace-4790-9271-c15c6385dcc2
+D-Fructose|9446ff01-def8-4082-85e9-ef9eb2ba32a0
+D-Fructose 1,6-bisphosphate|667b4a07-359f-417c-930a-f4a03f13d5eb
+D-Fructose 2,6-bisphosphate|75687cfe-6520-42f7-8b73-028179dc68ca
+D-Fructose 6-phosphate|263afe1f-a77b-4109-a1a2-a41ea0949a7c
+D-Galactose|d6451e05-e73a-43aa-aa51-c12a12eeee30
+D-Glucose, anhydrous|40abdd46-9deb-4f33-9c24-9dad0202a882
+D-Glyceraldehyde 3-phosphate|48e1d603-b041-4e12-93e2-186cf562b43f
+D-Lactic acid|795c9963-257e-4fbb-bdf9-b19575c0803e
+D-Ribose 1-phosphate|34a303df-cd41-4055-b4e0-14d9e244c5b3
+D-Tagatose|fee1f76b-6c51-454d-8324-c701586880dc
+D-Xylulose 5-phosphate|7188e8d2-f658-45cc-96d5-78da42a63727
+D-arabino-Hexopyranose, 2-deoxy-|3723f0f1-3c6d-4239-b864-c80f472783d9
+DAPM|e8a0fd93-5960-40a0-b852-e24223db0410
+DC101|8f37f009-d39a-4259-803e-6e6eedbcd842
+DDT|125beeec-273e-48c5-96c2-cbadc42c6b42
+DEM|f56a4c81-6174-4d69-9013-82478c890778
+DIDS|a36acbfe-6ca9-4dea-95d8-13e524093986
+DMPPO|fb0facc1-994c-42ad-bf2d-17523b588960
+DNA-PK inhibitor|6d5ae4c8-3132-4af6-9eff-fda439a75cbc
+Dactinomycin|4dd446db-5e7f-43c0-9bb1-73ac0e40a951
+Daidzein|29193f2e-571c-4e3a-b6df-e249daa1ead6
+Damage Associated Molecular Patterns|ac9f2a21-4b14-43c9-b197-fa8a95ae4f2d
+Dantrolene|91d8b080-cc95-407e-9935-f8c7f8a20c0f
+Daunorubicin|4d2675f2-3918-4eab-ac78-60bf59b70461
+Debrisoquine|819d28bd-b6c8-419d-8e08-8a5f07ce7595
+Decanoyl-coenzyme A|8d35b736-4b68-4b00-a371-9770b929fbd3
+Decitabine|92c7b730-975d-42b5-ae14-68b91be6ba6c
+Defensins|a5531433-e420-4d5e-a230-fee5a04a52c1
+Deferoxamine|af9dc4a5-0544-4b52-9842-34220bd8db71
+Deferoxamine mesylate|abe8407c-0c9d-4bba-b1af-dd18701091e6
+Deflazacort|ee97b294-8744-450b-a4de-866e4fce864a
+Deguelin|b4a1f87b-7eb9-46b9-84b0-a8ee723aca40
+Dehydroepiandrosterone|f49263aa-6b5a-4113-a4cc-5e39e9cbc755
+Dehydroepiandrosterone sulfate|d9d823cb-a0b8-4e29-b863-423bbbac22b1
+Dehydrogenase, glucose 6-phosphate|5a0c5a39-01a9-46a9-b614-10689faa5178
+Deltamethrin|7d75054c-53e1-49b5-8991-48625adc58a3
+Denbufylline|12862590-ae63-43ef-8717-5fd333ab6edc
+Deoxycholic acid|e8f5d915-4ca1-4d68-aee1-8e6107783304
+Deoxycytidine|d51b5fae-dd41-4339-8cb0-16b49598624b
+Deoxycytidine monophosphate|c81daef8-dc63-4fef-b58e-478d0519e3cc
+Deoxyglucose|5e281009-c2f9-4d34-9ee8-f04deb09b544
+Deoxyguanosine|0ad0bd2d-ba34-4725-b451-6a606c942a60
+Deoxyguanosine triphosphate|27610e51-6b87-415a-a4b5-83cd9fe29a22
+Deoxyinosine|f35be2a0-cd2a-4bf6-a013-63c43bfb55dc
+Deoxymannojirimycin|e0568691-58f0-4c70-80cf-49d749539960
+Deoxypyridinoline|f6b84f5f-f91a-4fb8-976d-b189e8cc6fbe
+Deoxyuridine|01a7197a-098a-4278-b301-71e41b62ef56
+Deoxyuridine triphosphate|2740cf4f-3124-4186-9ed7-bb8aaf14c7e9
+Depsipeptide|77f5bde5-47ba-4767-b99b-4440ff484495
+Dequalinium|0d2015c2-a908-4190-8812-d29690cead33
+Dermatan|7faddde8-2077-488d-8477-e72b2c6f555c
+Dermatan sulfate|1f161902-761b-4190-bc69-f4a895231940
+Desferrioxamine B-succinyl-phenylalanine(1)-octreotide|08442c2d-797a-43ed-a6ab-e3ff357adcf6
+Desipramine|0a787656-2e02-488a-95a7-4bc44a39af3d
+Desmosine|8e221279-d145-448e-bc6e-9fafad0c5300
+Desmosterol|59b0299b-d0a3-4ba8-ac76-b0a3d2c01bd7
+Desoxycorticosterone|52fd95a5-7624-4af9-9268-7dca2b0738d9
+Desoxycorticosterone acetate|66bb552e-3194-418f-9b02-ba1316ee830f
+Dexamethasone|4a554b9e-b54a-487d-b605-3362dac4f098
+Dextran 40|544e6134-73b8-4b39-8cd1-eadac4bd2feb
+Dextrorphan|5fe25685-3321-4851-ac84-b180d650faa4
+Dextrose|74c566ab-8d7c-4d74-860e-283b17bcb0b6
+Diacerein|243cfd08-05ae-483e-96fe-63e553866911
+Diacylglycerol|117af191-892c-42e3-ae17-65b5c3a0e6bf
+Diallyl trisulfide|3e73f8b8-da86-4084-8627-33af719c3009
+Diamide|002e3588-4171-456f-960a-02fe32da27bd
+Diazepam|fefc56fe-f596-4edf-bf97-e382a011ffd9
+Diazinon|14edaeff-48a9-46e9-9514-2241ba4ea8e7
+Diazoxide|32eb6493-9c4a-4a09-82b6-b1a4d8f9ebe8
+Dibenzoylmethane|a75e918e-a59d-4334-b6e5-75d295ee3c67
+Dibutyryl cyclic-3',5'-cytidine monophosphate|00398230-8339-46c7-8371-a20eb66f96a3
+Dichlororibofuranosylbenzimidazole|e19b4c33-0220-4e7b-945c-59e1574e9b43
+Diclofenac|d8367ada-e841-4407-8e9d-16be197cc395
+Dicumarol|20cf7be2-912d-4af3-b9c0-f48bf029360d
+Diepoxyeicosadienoate|0494e72a-fa84-472a-8507-e65586f752bc
+Diepoxyoctadecanoate|c44f2cc2-9cb6-4b0c-abad-4bcdeb79729b
+Diesel exhaust|33243ec1-a659-4205-a8c0-406f8cc45371
+Diesel exhaust extract|4267d11a-bf26-4d73-897e-e341134af63f
+Diesel exhaust particles|6f1469f7-c7bb-4a51-899a-3be4e5b1d3f5
+Dietary Cholesterol|364240a7-ae38-465a-bdd0-9c0ccd6c492b
+Dietary Lipid|64a22daf-0ae2-4e6f-bef6-f517dedb3a07
+Diethyl maleate|7218b760-cfec-47b3-ac74-4941ec2536c4
+Diethyl pyrocarbonate|e8fecc23-e81b-440a-ba6d-659215e90c96
+Diethyl sulfide|8cba7e0b-29c7-4423-a415-33172b714f61
+Diethylene glycol|12b09a84-15da-4f77-9364-855cf6b78e00
+Diethylhexyl phthalate|d9b48e53-b6a8-476b-a69e-860eedc4ab5e
+Diethylnitrosamine|7dd36f81-0b49-4e83-90d7-1fd9ed0786cf
+Diethylstilbestrol|151b6959-3577-4f65-90e2-94e5aa1bcab9
+Diglycidyl ether|19182a46-379a-4a9e-915c-70bc06b62dd8
+Digoxin|6156098f-6c42-4499-9857-f9f645d4f72b
+Dihydro-beta-erythroidine|9aa7c282-1c4a-4e6f-9f3c-9804019f8a49
+Dihydrocapsaicin|f4f8a32b-6784-4721-8046-4c75bfd15b8c
+Dihydrofolate|3ad376c8-4723-4077-a88f-2aebdea85d4a
+Dihydrolipoamide|cc00ee87-39a5-456c-91b3-8ac8cea2a226
+Dihydrosphingosine 1-phosphate|0e3bb540-6667-4a8d-bead-40058f0a7431
+Dihydrouracil|52a06ec4-5660-4978-b9cf-fac566d56eea
+Dihydroxyacetone phosphate|a8c99cf3-2b3c-4cc4-a677-b6e441987035
+Dihydroxyeicosatrienoate|cc6a7590-eca3-4c4f-a67c-e7a054d23b6b
+Dihydroxyphenylethylene glycol|5e235934-ee71-4b78-917b-e1549e6960e5
+Dimaprit|f5c9273c-da30-4ad6-8ab6-d943f5225048
+Dimethyl n-propyl sulfide|3ddad7b9-c93b-426c-922c-910590b1c93a
+Dimethyl succinate|e53a882f-87de-4c19-babd-c0e40ba36def
+Dimethyl sulfide|53b996f7-d31b-45ae-a76c-ce847da31eed
+Dimethyl sulfoxide|05e63249-9994-49d3-8d95-bae46a2ee340
+Dimethylformamide|ad813ad7-385b-421d-982f-e0979421602f
+Dimethylglycine|d837beae-4c21-4c63-a1e1-dd9ca63e222a
+Dimethylnitrosamine|4ddad983-71e9-4d5f-9842-ef8c31256d78
+Dimethyltelluride|087cf91c-6d20-48c3-8f12-019e5cf3f4ff
+Dinitrochlorobenzene|d6be41f2-a023-4a77-a556-99a9105be61d
+Dinitrosyl iron complex|fbea38a4-8f9c-45ad-8453-761cd8a2aab7
+Dinoprost|0c96bf37-9a08-43fb-93b1-2825afe97d68
+Dinoprostone|712f4ed4-511c-45c7-a778-6fcdcb6827c7
+Diosgenin|82986700-7b5f-4f52-b642-89ec420bdda9
+Diphenhydramine|67fcd149-d3c3-435e-8d92-c5da5effb95a
+Diphenylamine-2,2'-dicarboxylic acid|c7f46aee-9909-4afa-9510-09bbc8d732fc
+Diphenyleneiodonium|5ab57232-4c38-4672-9a7f-bf8e12849c77
+Diphenylguanidine|025d447d-f0f0-4c12-89f0-71302ca7821e
+Diphenyliodonium|070c28e2-d6d3-43c6-a801-9fa04f0b5f21
+Diphosphate|ae9ae3ad-d2a6-40d1-811b-e8eed3f1e20e
+Dipyridamole|90b229a9-3a1f-4b69-9906-11cb018d5049
+Diquat|d4d8c0ae-4b75-4a08-91dc-f39773542131
+Discodermolide|7313e925-e1d9-4ce3-b34f-6e2e2ec5fa41
+Discoidal-HDL|55c6a1bf-4df1-43bc-86a3-eb418af91ccb
+Disulfiram|5cbde01f-166f-4cce-9505-a98034dfcd46
+Dithiothreitol|afab8213-ae1c-4781-9e69-8b94223a0c5d
+Dizocilpine|9fd1dff4-3fb0-46b6-8c22-e577a49035e9
+Dizocilpine maleate|30f0dc8b-8a79-4de6-ba0c-c4fdb2884c75
+Dobutamine|e6e0d620-00c5-4ade-b857-02a43a3a46ce
+Docebenone|0483cfd9-eb85-450e-a1a7-14c74f8ac734
+Docetaxel|2bae94f8-493d-4156-9a57-1132422048ed
+Docosahexaenoic acid|1625a56e-5026-455d-9673-3afbac24eaf6
+Dolichol|1b2f1aab-6ee2-4cb8-b6cb-1193fc244487
+Dopamine|83bcf44b-0ca8-4871-9fd5-4e18f3234710
+Dopamine quinone|d8dbd4ca-66cf-4d87-8754-f321393c793f
+Dorzolamide|104431fd-3370-4f9f-8192-d78db45e5658
+Doxazosin|6c3477f5-65f4-4cc6-9040-178015c650ca
+Doxorubicin|6fb51874-4390-4f97-8e17-a4baec077a22
+Doxycycline|4eb3e7b3-1486-4a30-9e0d-7c11852bc641
+Droloxifene|df90ddbc-6324-44c0-bf41-86c6c926a9ec
+Dronabinol|aa608fbf-7bc6-41ec-9e75-6bb06897640b
+Dutasteride|c52d6711-74b0-47e4-b03b-284936f5850f
+Dynactin|a208f55b-0aa6-46f9-95a1-00affdfc7cbe
+Dynorphins|6d03ca97-52eb-4cfa-ad39-797be8338d46
+E 64|cda1662a-4667-4f71-ab2d-da091d559907
+EB 1089|ad3cbdf8-7978-4409-96e4-6e7ed04b3eed
+EGFR inhibitor|76758779-f1a2-4d41-aa08-ce7bf5e33682
+EPTC|1f275ca6-7752-41c7-9674-6bf7feaa34db
+EUK 134|74e579dd-6062-40af-97ed-c3054117227e
+Ebselen|27de3831-c667-4c9b-b108-b53ad4bcfeb3
+Echistatin|be75381b-d008-4cbc-a93d-387d3136037b
+Eckol|d41bdb04-28a5-41b8-a382-afa9eac66d23
+Ecteinascidin 743|928fb27c-8afe-487c-962a-738ecf78f73b
+Edetic acid|aa29285e-f430-4251-9e54-4e9f8ae5da2f
+Efaroxan|29a7dcf6-5569-4375-85ed-fbc043686095
+Eflornithine|ee4fb630-340d-47b7-a67a-903020fdc623
+Efrapeptin|bb25ab67-9bc9-4213-ac87-ace8cde94caa
+Eicosanoid|3e55e26d-b51d-4160-b540-a7ec1521ca5b
+Eicosapentaenoic acid|a6e3b84d-14c0-4f7f-a17f-666212e39c39
+Eicosapentaenoyl-3-ketoacyl-CoA|10a78a0e-7d2a-43cc-9722-ca7ca271ad55
+Eicosapentaenoyl-CoA|4afbd680-2dd9-41d4-87b2-d6e5cdb66879
+Eicosatetraenoic acid, 12-hydroxy-|b420cf9c-b096-42b8-b907-2a2309a390d8
+Eicosatetraenoic acid, 15-hydroxy-|aa1cd775-b15f-4dc2-9dfd-7e8313fd43e8
+Eicosatetraynoic acid|768bebcb-f4fa-4310-8fc9-708fe9ae8f42
+Eicosatrienoic Acid|2d1b4baa-c05a-4e12-9562-a4fcb5c9328a
+Elastase|77dcdb88-c526-4839-90a3-60dfec3b3462
+Elastin|cc651f53-4917-4044-8a4d-f51477ef9763
+Elastin, hydrolyzed|659a30d6-e8df-4a15-a9d0-64da04c4833d
+Ellipticine|c2bb3066-1090-4c48-9475-f84645bb00c8
+Emetine|210327ad-c791-4429-81c7-2c09e204cdd0
+Emodin|c646bd01-aa95-4fe6-9df6-e576d5234a95
+Enalapril|bb2bb0c4-a9a4-4de3-bd46-537b3aa185c1
+Enalaprilat|84817144-3c21-4239-af78-3c1756d493eb
+Endostatin|36ff9adb-b3ef-4a12-b32d-428ba298174e
+Endothelin|35bfaff1-07af-487c-92d4-5cbf84018b8c
+Endothelin-1|e40cfb2b-f287-4657-b7a2-9a80bedca0af
+Endotoxin|59fc0f97-22bf-40d6-b872-406d2528f589
+Enkephalin, ala(2)-mephe(4)-gly(5)-|8f6a6563-a5e6-4dde-bd85-980f3e33397f
+Entacapone|33517cb1-a7a9-4a1f-a475-5915012ac41e
+Enterotoxin|b9b277ee-70c8-4399-8e0b-31abd2eba50c
+Enterotoxin B, staphylococcal|42cc48b2-1d81-46db-b8d8-f3a34e02d974
+Enzastaurin Hydrochloride|1c3c97b4-fcff-4b2e-a858-d77f898b8868
+Eosine I bluish|21a0b615-99d4-4d86-897e-7749f2cf5415
+Epalrestat|a9abb3b0-8baf-4370-95b8-e6101cfc78eb
+Epicatechin gallate|68bfc52a-8780-4ff8-b4f3-a72faf401e1e
+Epigallocatechin gallate|a822aa02-afb4-48ed-ae9a-4cdf596a5b19
+Epinephrine|09714b7d-9b36-4ba2-a632-8199ded90b97
+Epirubicin|02eebe4a-23da-487e-acff-b3d712957ecb
+Epoprostenol|119fb15b-78d0-436b-8eab-79977781cab5
+Epoxomicin|26786e70-a384-4462-97e6-10d64ee26ce7
+Epoxyeicosatrienoate|1b3cbcfd-6cae-46c9-8a13-fbaa4d9fd84e
+Epstein-Barr Virus|19014be6-8ee2-4fa0-9c46-5c61b1cb059d
+Eptifibatide|164d988e-413f-4f47-a608-6a9e5b325fc5
+Equilin sulfate|93d2caeb-a832-4ce9-a122-8ee18255485b
+Erdosteine|eced42c5-9a29-47a5-88a4-c7bfc603d5b0
+Ergocalciferol|7e379e45-dbf1-4564-980e-284dd6d25b53
+Ergosterol|951d094a-322a-48be-8294-56d43396e011
+Erlotinib|3474194c-4afd-4cbf-be39-75b2158aad10
+Erythromycin|f4b10cca-a8ba-4e69-9588-8e5b6fa816da
+Erythropoietin|665162e7-9e4d-41f7-8a84-48467fed0395
+Escherichia coli lipopolysaccharide|40b56fc2-23e2-40e4-b73d-0d58e16bb0ec
+Esterified Pseudolaric acid B|23b06667-a74f-4e60-9571-dcd788185ba1
+Estra-1,3,5(10)-trien-17-one, 3,16-dihydroxy-, (16alpha)-|1e6008b7-d38c-4b05-9d3f-0845f16d356d
+Estradiol|3f76d4ad-ef0f-4480-9508-1ae2457ae329
+Estradiol benzoate|e07e702d-9b43-4a76-8bf5-f5e91462cd7f
+Estradiol dipropionate|1c4c9f40-4795-42e8-a3b2-4c34ad4f77c3
+Estradiol sulfate|89330501-f651-4195-80ff-8a97f7f2d254
+Estradiol-17beta|3f76d4ad-ef0f-4480-9508-1ae2457ae329
+Estradiol-17beta-glucuronide|03854f68-556f-4fb4-9782-e4acc4a9adcc
+Estriol|024b84b7-9df4-401e-91ea-c8afa52cbb43
+Estrogens|89db3da2-228d-436d-b3de-503d86622e9a
+Estrone|b20620a0-1dfc-4b03-a229-23abeaf179a4
+Estrone 3-sulfate|56041016-8780-4700-80e2-8e13113339d3
+Estrone estrone hydrogen sulfate|df69a6d2-e59a-4458-8adc-218ca99d13b3
+Ethacrynic acid|38a4b953-3265-4618-80a6-0124e5efb110
+Ethane|3388acc9-3044-4368-953b-f0494aed2724
+Ethanol|1a4bdb2c-85d2-4616-82a3-0d9cc7624eb8
+Ethinyl estradiol|fb2e5f71-5311-412a-b09c-85634ddb9ee3
+Ethoxyquin|679c5bed-b3cb-45ae-81b1-24f5a5b6e52a
+Ethyl 4-isothiocyanatobutanoate|7317332c-ed6e-49b3-a619-be8b55ff6d58
+Ethyl pyruvate|a1b637da-cf1e-4f9d-97ee-ab234e57345e
+Ethyl vinyl sulfide|3566893f-bcc2-4f73-8300-2c93cf0b067c
+Ethyl-2-hydroxyamino-5-nitro-3-hexeneamide|e7c66d2f-3f4f-4b04-8167-e63ab0deae24
+Ethylene|bb276033-7508-46ac-ac80-4aebccbd4b6e
+Ethylene glycol|5da3f897-021d-4830-a158-4fec33b58e4f
+Ethylene oxide|4faf7ca2-1d1e-4477-984e-db438e3a3b13
+Ethylisopropylamiloride|147172db-d2c3-4904-8cf7-4d934a4935ca
+Ethylmaleimide|1b33264b-f6a6-4b21-abe8-3770fdab1997
+Ethylnitrosourea|ca484160-8ff7-42de-bd4d-b6c7204c6524
+Ethylphenylpropiolate|73c1c4d1-0cba-4c60-9a53-af95af9c142d
+Etidronate Disodium|2bcb163f-eff1-44e8-82a0-9ba1bbe06c6c
+Etodolac|96068e03-2ec6-4d67-9642-b8310806b1df
+Etomoxir|f3457c54-e997-48ee-8206-a7608a1db6b9
+Etoposide|da86bb36-1c1b-475e-84fc-5bdfa8111166
+Etoricoxib|dfe8d763-d781-486d-8ae5-ea6ede4e0f01
+Etretinate|a56e6d62-d37a-40e7-a6e9-c5ec399cd2b7
+Eugenol|f99cebfa-99d8-4ebc-b165-1502354e5f2b
+Everolimus|e46c7449-7770-443d-b9d3-cc35bd8905af
+Exemestane|ae52825d-d146-48a9-a091-ad7eb91a83bc
+Exendin-4|037e1a41-44e7-413f-a528-c442da901a25
+Exisulind|2061a611-44d1-4db5-86ab-853fb88f9087
+Exotoxin-A|7ed9de52-abf4-4849-9389-c82aa2629cf3
+Extract of grape leaf|935fafab-be91-4196-b761-c888bc2801d2
+F 11782|b153b638-af5b-4f16-b25b-f3e318c0681e
+F2 isoprostane|516154a2-bc9d-46a7-849c-c3beb88ac63e
+FG 9041|dc8e992b-54a1-4f48-a923-84ebf3710f9d
+FK 706|87baafab-8171-44c9-88fd-c2d7ff623685
+FK 838|778810e4-1e9e-43d3-8895-848e72fcfc57
+FMLP|3ac28cbf-4c55-46a6-a530-fa12e672f80e
+FMN|032a59aa-0d0c-4b48-a753-e18d1ba6b2b0
+FR 901228|ef8205dd-b8f0-4e7c-bf10-6d64aa8bf2cf
+FSH|04fea5f1-724d-44ee-b597-7ddec8602980
+Factor X|5661ed18-d1ef-4a40-8983-2c22c831741e
+Factor XIII|c0c9b167-f6e2-4d80-85a9-cbfd695faf0a
+Factor iia|99acdc04-a1c1-454c-8d4c-babb948a3f89
+Fadrozole|42e59a4c-bf46-4c9e-aa44-79ee3e0db13b
+Famotidine|24a2ea34-a71c-462c-a562-7f7b291dad8e
+Farnesol|84cd4e5c-aece-46d9-bff8-4a10bcd08079
+Farnesyl pyrophosphate|7e510355-c437-444a-bff5-30f3444ef9cc
+Fatty acids|e40032b9-49f1-4b61-890c-4aa946654fb3
+Fatty acids, castor-oil, caustic-oxidized, distn. residues, compdswith amides from C18-unsatd. fatty acid dimers and polyhexamethylenepolyamines|f4114c48-af5d-405b-95e1-f95378965966
+Fatty acids, dehydrated castor-oil, polymers with isophthalic acid,Me methacrylate, phthalic anhydride, styrene, tall-oil fatty acids and trimethylolethane|8f4ddd9a-d038-4d66-834f-cb07b65940c5
+Fatty acids, olive-oil, oleyl esters|00ba10aa-11e4-43c7-acbd-d07a0e629183
+Fatty acyl CoA|a15cfad0-d05a-4a28-91ca-33686674efbc
+Fenclonine|90397a2c-d5ba-45e2-8494-c9ba990b1e0c
+Fenfluramine|eef2d19b-ed5f-4ac6-8c71-e09d0cd4d239
+Fenofibrate|175ce545-8bdf-4aef-9c29-c9d5fbfa620a
+Fenofibrate ester|4488bb07-31c0-416f-934b-2e9ec3da3d68
+Fenofibric acid|4ec58efa-050c-4555-b9f5-da16fd481b2b
+Fenoldopam|17bd4903-a264-4124-a670-8c1d87cd6a0a
+Fenoldopam mesylate|fe8a91ba-2e57-4f31-ba62-f0ff39f22d8e
+Fenretinide|28a0a79d-e472-442a-9bfb-436689047a38
+Ferric ammonium citrate|089a536c-139f-4427-b58b-547f8c105d11
+Ferric sulfate|bf904271-5af4-44fd-934a-a6022b2b072f
+Ferric-N-(3-phenylglutaryl)desferrioxamine B|3ef1e06a-e481-4e60-b033-3a10887e9a8c
+Ferritin|d15c3e1e-9f1a-4aff-ac9d-9f40cb84c7b7
+Fetuins|6265a64d-83ef-4374-94d3-c2fbba8f64c8
+Fibrin|f6dc7b21-7606-46da-9191-f8e20cc35c0a
+Fibrinogen|3640c47a-e426-4c7d-9a2c-c4907b2ddac8
+Fibrinolysin (human)|4d1f08c1-96cd-42cc-aa1f-1f6877c6e43b
+Fibrinopeptide A|adb7350a-758f-4cb0-a26d-70d0e5b89e82
+Fibrinopeptide B|71111219-8ad3-421a-aefb-3c62e1d58cfc
+Fibroblast growth factor|ebcbdbdb-cfef-4d9c-97f4-543ee8f9e8ce
+Fibronectin (human protein moiety reduced)|2d62eb4d-be53-4095-bded-2b82669265e0
+Fibronectins|80d1b6aa-7bc0-4ded-b961-58912bf8f465
+Filipin|cb7514ae-c1a7-41d3-ab47-6aa1ae140be9
+Finasteride|19300156-c2f6-4d11-b7d2-4711abb1da93
+Fisetin|48342913-296d-4abd-bf75-470ec903a8bd
+Flagellin|ce855768-3cef-4148-9c47-189e48ddb434
+Flavin adenin dinucleotide|8028e5b6-32d0-4d00-9004-766b41521c53
+Flavonoid|07a1656e-379e-4f2d-b530-714fc803685b
+Flavopiridol|1a7bf474-465c-437c-9376-f5ccaee5077d
+Flavoprotein|5d2d6118-99c4-47b2-8c3b-c8c7603d5ecc
+Floxuridine|61f63cf4-e4b7-419a-a1bc-219e3e15b56f
+Flt4 protein|338f3ed2-1c96-4257-a826-66bdfd1877e0
+Fluasterone|38e40616-87c7-48d1-a25f-02e0b1e07b2c
+Fluconazole|6d87144e-40e0-4152-a460-4053cd3b06e4
+Fludarabine|e0e42709-ad72-4469-8d0e-e5fb8971fe93
+Fluocinolone acetonide|89c9bb89-0c40-45c9-9b02-4e9c891e231e
+Fluoride|aba3ee94-e495-493e-a900-777ec8a62a44
+Fluorouracil|a0f7d3cb-7e6b-492c-b553-35163100e406
+Fluoxetine|7fb379d0-87c5-4a5f-81d5-54a275d85e01
+Flurbiprofen|84083a02-be6e-4b6c-b2aa-2492e4fe5fc7
+Flurithromycin|34731607-6198-4f73-90b8-e1f3bd60928c
+Flutamide|1b7ed2b0-da48-4a1a-8add-898da67cb036
+Fluticasone|c7996742-587d-41cf-a408-658fb7fa17a0
+Fluticasone propionate|7d613fd9-39e4-4ee9-a1eb-f689c5ba5ae3
+Fluvastatin|5c4d6b40-5621-4f07-87a5-91380b55d829
+Folic acid|6e16c4df-f676-472d-88a0-7a585dca9d72
+Formaldehyde|eebc441e-bd61-4cb1-8133-58b8faa3fda7
+Formate|5a2c37fb-79d7-4179-9fb0-d5e254e09fc2
+Formestane|de3df1b8-a4d8-441f-9d12-7e6fdf202278
+Formic acid, ion(1-)|5a2c37fb-79d7-4179-9fb0-d5e254e09fc2
+Formoterol|7ebda972-c30d-4b73-b9cd-f41f8744d28e
+Formycin B|95efb438-0451-4820-9959-3ebdcc3b8188
+Formyl-L-methionyl peptide|725ae5aa-b068-4964-abdc-12e19afb9668
+Formyl-coenzyme A|1fceb0e4-1a14-44f5-b784-7b5315f9f620
+Freund's adjuvant|53cb8faa-fdb9-43f9-84a6-1a15bd181399
+Fructosamine|648660f1-f3aa-42e1-80ad-0b805965aea7
+Fructose|6b76db93-a6ed-423f-a8e9-57805ca3e394
+Fructose 2,6-diphosphate|28fc8ac0-5d46-47d5-bc21-7e5e8b0ad44a
+Fructose-1-phosphate|9162231f-ff18-435a-ba30-1d4f5b6b0700
+Fructose-6-phosphate|263afe1f-a77b-4109-a1a2-a41ea0949a7c
+Fty 720|cd114c93-e261-4f22-ba52-7aee4d2eeab9
+Fucoidan|7ceb4e52-5b10-46ea-bb72-a8a465503fb5
+Fucose|f874b8d3-ee3b-4fb4-8db4-805e23b8be1e
+Fulvestrant|a134c16f-5e72-4528-8b81-27e4ed168c7d
+Fumagillin|ca64bc50-945d-4f67-859e-45e7e660398c
+Fumonisin B1|05f90f2f-be10-4c5f-8a41-83aed511696c
+Furosemide|acda9868-2307-4d85-b1bb-73e0151b7c84
+G1254023X|a3015e18-f34e-4294-8571-f33afaf16801
+GDP|8b40d6aa-0a1d-4149-b0ac-244fa456a703
+GDPmannose|1d968908-0e57-4176-b11a-329eb8eeeb99
+GF 109203X|8b94f260-79f1-4256-aeb3-eedaff2cdea3
+GF248|6daf7f0c-f339-4e00-b946-ae9826a3ed63
+GGTI 298|8aa7ecd0-900b-4e30-9c64-62497e1248d9
+GLUT4 storage vesicle|c899b509-c610-494c-9c9c-873aa3fc4f8e
+GM3|638e519f-7a16-41be-8f7b-3513ee6b98c4
+GP 1-515|4413c8e0-d0d2-414f-a139-b9d99ed1aaff
+GR 79236|6b510d93-ed9e-4199-8eb0-7aee9f54a47f
+GSK3 inhibitor|922bb05d-7002-4f39-b396-763a0fd60306
+GSK4716|e1c54474-eee0-48c0-8ea8-f8f109422ba0
+GTP|ab0a6947-1a39-44d2-85be-e8d3c7c819c8
+GW 2433|f4bb4213-1b4b-4217-a5c2-ad30945a3a52
+GW0742|d9469c66-cb8c-4f3a-a30c-aa0ccee4197c
+GW2331|a6949363-f27a-4e8c-9170-87d63a4c973a
+GW3965|b4e8fc61-3c1f-4992-95ec-c30ae1f33d2e
+GW4064|b50f8c3e-bfce-4004-b508-4671e927fe4e
+GW501516|7ead7e27-56cb-45fb-bb0a-63a073340c80
+GW7845|b3c5808d-13c9-4a9e-b08d-c20335b46f5c
+Gabapentin|f36f05c9-0ecd-421b-ac7e-70f43bf4d6d2
+Gadolinium|5b67cfe7-a86f-4c36-a5ca-9b90d7566e70
+Galactosamine|591194fb-5f3e-4698-b2c4-cf13c6fec538
+Galactosamine 1-phosphate|c5ee4a03-891f-4c16-966f-e42e6195028b
+Galactose|40fec7a3-9897-4758-ae04-c3b672ebf986
+Galactose-1-phosphate|6bc36009-2430-4c1a-93d6-d8d77d1a6904
+Galactosylceramide|a4c614a7-e179-43e9-b229-ed2211ef7b27
+Galacturonic acid|de2fcf80-9509-41a0-832e-d63464e47721
+Galangin|36372614-0497-4fe7-88b1-1f8998c4b701
+Gallium nitrate|75ba8eae-3484-4481-8833-48f0dd717da2
+Gamma-aminobutyric acid|cc3e0119-47f8-4036-923e-f8f04297ba7a
+Gamolenic acid|3f5a6637-aed9-47ae-a24d-c99a5a3e3cba
+Ganciclovir|c26668d4-ae11-4ce3-91fc-caca6e2e4a60
+Ganglioside|caa8ccef-283e-4629-a9cb-92365c73febb
+Ganglioside, GD3|250a3b23-3515-469e-a3ff-f753a740c158
+Garcinol|0d0f755c-c066-4552-8108-2ce7e662d082
+Gastrin|1b6595bf-0d18-4465-9cd5-c6b2daa2d11d
+Gefitinib|7d38cbe9-e2dc-43c1-9b99-617510ee2b46
+Gelatin|6fc2f009-aa51-4da2-99f1-187ba7a9a30e
+Geldanamycin|8eeccbbf-d6e2-41e1-8a04-26cfb3386662
+Gemcitabine|65873c68-0cf9-4256-af0e-c7c78e4c26cf
+Gemfibrozil|563a572b-17e6-472c-a1ca-2edebf93debf
+Genistein|f1c56818-aa57-4ec8-86b6-a0aab1d10daa
+Gentamicin|3ae1d85d-33d6-4519-9a8e-9492f90c43c7
+Geraniol|0cf8cd0b-1976-4a68-959e-b34e7332566b
+Geranyl diphosphate|2eefc81a-6c9d-45d4-9d9d-1659a29a5f4e
+Geranylgeraniol|00f10674-50d2-4d74-a503-a5a2086a67b5
+Geranylgeranyl pyrophosphate|884c5166-36a4-4b57-a5ee-0375d7fe5e9f
+Geranylgeranylacetone|c9829d2f-1e91-4afb-9feb-eea58a32c5b3
+Geranylgeranylcysteine|d48727d7-f315-4048-9661-9d7070978de3
+Gestodene|3571967b-e281-4ff8-aab3-ccdc7754f7fb
+Ginkgolide B|1d803ea1-9412-48ab-aa5d-53abe938d391
+Ginsenoside|31ed7d3b-94e4-4a35-85e2-ca8fc3bc7d0b
+Glatiramer acetate|d8041002-c60f-402d-aded-ae6934cc4e98
+Glaucine|ed6ec22f-97e5-4b86-a83a-888c625d9e05
+Gliadin|ebe1212a-040f-4bd8-ba73-f97fa5438da6
+Gliotoxin|51ad4a1a-d397-4df4-afde-609eca7d2b29
+Globulins, blood plasma|de20c38b-716a-4e4d-8578-9a67ac68466b
+Globulins, gamma-|fd900228-c300-411d-8c30-906935d8645f
+Glucagon|0c7e6611-9101-430e-b0da-991bbdcbee4a
+Glucagon-like peptide 1|d26a3f03-eb92-404f-9a19-24b9e1e2b8d3
+Glucan|d83bd323-fca7-4993-897e-778e45fdbe18
+Glucocorticoid|2dfda9f6-cf19-4a0d-a745-fcf0eb39dd50
+Glucosamine|be8497c2-85d1-4ea2-b15a-673b6ddfa564
+Glucosamine 6-phosphate|97a384ac-8902-400a-8ee6-989f08b8e31f
+Glucose-1,6-bisphosphate|943078f0-8ca4-4120-8565-e4aaa405425a
+Glucose-6-phosphate|7fe3cb04-a20a-4aa6-b0f0-eb560c1ad3ce
+Glucuronic acid|ccc32b4e-058e-4168-a158-e2203e1ec4ad
+Glut4 vesicle fusion|ad121339-6ba7-4fed-ba17-ce44c92c38e3
+Glutamine|55019157-375b-4e0a-bc2c-9326c08b60b6
+Glutaric acid|1a87a3db-986e-4df3-956b-7805a0f21ef6
+Glutathione|b2372b26-5b52-4ead-8b0e-1f6592c4edbb
+Glutathione diethyl ester|d8db2541-19b1-4009-8532-62729211d0bd
+Glyburide|2794919c-88dd-455f-b757-40266cb99263
+Glycated Low Density Lipoprotein|53b6dc13-0521-46d0-a1c5-f7b6a1ea8c0f
+Glyceraldehyde|c49431c8-1d8a-429f-a1b0-d547c81a95c0
+Glyceraldehyde 3-phosphate|271bca8e-7f9d-45d2-9fc4-f5fc2d7cefe1
+Glycerate 1,3-biphosphate|851237f6-dd4f-415f-8871-87bdcfd51f79
+Glyceride|1df292dd-1bfa-4746-be1b-0a610b9bd02b
+Glycerin|0ea4fc47-5d04-4d38-955e-3e6548d0760f
+Glycerol|0ea4fc47-5d04-4d38-955e-3e6548d0760f
+Glycerol-3-phosphate|8c0a17c2-3bb1-4b81-a60f-1d273c12ed9f
+Glycerophosphoinositol 4,5-bisphosphate|2ac54ef7-0610-42b3-a267-5ba2896d219a
+Glycerophosphoric acid|8c0a17c2-3bb1-4b81-a60f-1d273c12ed9f
+Glyceryl monooleate|075b3504-8ff8-406b-b87c-0d4956aa58ba
+Glycine|66e72667-5618-4d0b-b037-f557cc27d32e
+Glycochenodeoxycholic acid|8abd32de-9ad5-4cda-887e-249e0fcfb878
+Glycocholic acid|37210d7f-6406-40fe-893a-f4057a29f704
+Glycocyamine|5acde3ab-af4a-4222-934e-55f572459fcd
+Glycodeoxycholate|bda2c141-52ad-42b8-868a-9b1f9d7a1ff9
+Glycogen|d5da3266-22c5-4a78-ab32-7a208dbf1921
+Glycosaminoglycan|02d8454b-aabc-4b8a-ae7e-fce014378de5
+Glycylsarcosine|48159169-8214-43a7-b954-1119d89b4215
+Glycyrrhizin|eccc29a5-553f-4b56-aea1-521460b91a5f
+Go 6976|5b8397c3-6154-45cc-9bb0-56b1ddf9ebc9
+Gold|58f77734-f462-4e22-aa5e-71631349d900
+Gonadotropin, chorionic|c2b55736-2202-47bb-8c3c-9d337e0cebde
+Gonadotropin, serum|b5641afb-993d-4b35-b605-143c4042aeae
+Goserelin|889e2258-03a9-4fb8-94ad-6baa6c6b9959
+Gts 21|38fa38d5-facf-44bd-a310-627ef7d28150
+Guanidine|6ca545f9-af88-442f-8000-4581607ef110
+Guanidine, monohydrochloride|9e4b9587-8d78-4f98-8eda-d6b3c6b54e3d
+Guanine|24bfd1fb-02c2-4dcb-8320-6c62867bd08a
+Guanine-nucleotide-releasing factor|e9250d2e-1216-41ee-b69c-a228475e78bd
+Guanosine|01a967a2-3d48-4e38-ac00-b66b92adc34b
+Guanosine 3',5'-bis(diphosphate)|8b5e3080-975f-4b32-8e81-b1bfb2919da5
+Guanosine diphosphate|aa3d4bf4-15ad-411c-8e5b-84b657cf28ec
+Guanosine triphosphate|ab0a6947-1a39-44d2-85be-e8d3c7c819c8
+Guanosine-3',5'-cyclic phosphorothioate|b5d67a20-0e75-462f-adaa-728d79ad7053
+Gulonic acid|0b29da70-c011-43cc-b5d7-4429b1b68a4a
+Gyki 52466|728edc33-18e8-4bce-9a52-418e283400c6
+H 89|ca408932-51b5-4b04-9af9-9312e1be7022
+H+|8b2d86ee-5664-4c00-86f4-f09cb388dc8a
+H2O|77905259-d2ff-46a9-93f0-9f36c3e956ee
+HDL2|5d329387-086d-422a-8b94-6a7882222090
+HDL3|09faf7bc-bbb3-48e9-be1a-b7bdbd555a48
+HIV-1|c5231a0b-bf12-4774-8fda-55fb48534180
+HK654|238f270d-7d20-4e7e-92db-89d6816c82cc
+HPV-16|c2cd6af3-1164-45ba-aea1-217558b2fb18
+Halide|37f3f57a-4f42-480c-9695-7f19c4a436f3
+Halofuginone|04e21d01-5176-4df1-91fe-b395139f5901
+Haloperidol|1173022e-c6b2-4b4c-814b-0d47838f93fe
+Halothane|8644897a-cba7-4b22-bdba-96af1876e7e8
+Harringtonine|91c5178a-c3b0-4ed6-a89b-4b622816756d
+Helenalin|77c92ec7-046a-4d2a-bd66-eebee86410ea
+Helicobacter pylori infection|c4f4d898-2e70-4c66-bb97-18e79846d6b0
+Hematin|da28e1b3-6cbc-46ae-ace5-4d7c2f35e03c
+Heme|64fc2707-39d7-4d43-bc80-817bf98b6782
+Heme arginate|c0378a38-d4f6-48a5-a7a1-94680e921423
+Hemin|0e90b855-d4fe-493f-a6bb-015b19c4484f
+Hemoglobin|e64ed61c-8057-4941-9da4-e43b5d9a4cbc
+Hemoglobin A|af249cc2-467f-4c32-8b79-1af5fc1a35c8
+Hemolysins O, Streptococcus group A|6077753b-0b8d-4f93-a852-877394536302
+Hemosiderin|49d5e602-f483-42cb-95b9-41e64f341eb2
+Heparin|6495b8df-ec02-4052-8984-8d7bb94284b4
+Heparitin sulfate|0a9ae1d6-ec9f-48e3-ac26-5d61d879679e
+Hepatocyte growth factor|13619ca9-3119-4d93-be4a-5f5bcb5e240e
+Hepatopoietin|b3391b7e-afba-47ba-a1fd-6c1c4fb57fe5
+Heptanamide, 7-((aminoiminomethyl)amino)-N-((1S)-2-((4-((3-aminopropyl)amino)butyl)amino)-1-hydroxy-2-oxoethyl)-|dac1128b-868c-47bc-a80c-1e762ee48e89
+Heptanol|d72a1e9a-b183-4c08-8bb8-143109913638
+Herbimycin|70562a76-46d6-4027-bd2e-7703b40b9c74
+Heregulin beta1|5ed24c79-e614-48dd-81e0-9a605268ef7b
+Herpes simplex virus type 1 protein UL9|a0aa4b87-b415-450f-80ad-7a81b4cb0797
+Hesperetin|5fc12fa3-5ff7-457a-bffc-fa91a38c7379
+Hexadecanal|606d3672-df55-4412-a6b1-10b43d21e96b
+Hexamethonium|2cf58dd2-5cf6-412e-bfa2-456a52a3edc9
+Hexamethonium bromide|e2d5d66b-1d7f-4c9d-9c97-476bb42730c6
+Hexamethylene bisacetamide|0e16bd14-cdd2-4a18-b076-8be0b293cccf
+Hexamethylene glycol|1575ea0a-0ab5-4191-ac48-25854dff4643
+Hexanoyl-coenzyme A|be6dbd23-8901-47b0-a84a-8ed71bcc56ed
+Hg2+|f5e81da6-f534-4d88-8a3d-11fb7e7c913f
+Higenamine|4f27e2cd-fe5e-4787-b2d7-7cc5d1e05a9b
+High Density Lipoprotein|f396cf77-10bc-4bb7-95f6-072b187201d9
+Hippuric acid|6b9b0816-8f4b-4159-8475-6cf9f246fe9f
+Hirudin|7e8882a3-2608-4965-892d-1d75842910ec
+Hispidin|ccf0ea71-c27e-4de4-9110-3876aac1fd13
+Histamine|b07fd6fb-89c0-4ba4-b3fb-f4e6475f16d8
+Histidine|11b5904f-d388-4ddc-9887-5fe04940fdbd
+Histone Deacetylase Inhibitor|80b8e034-a8f1-457f-b707-8a51117b34b0
+Hla-drb1|ff2efec0-b5d7-4304-b068-0484d72aec03
+Homocysteic acid|ce14712e-b260-43d4-a791-8a363953bd8a
+Homocysteine|9903dd23-b971-4cee-a9a1-18263047e61a
+Homocysteine thiolactone|db31fe9f-efb6-4ca0-9126-e6fd60e9eee4
+Homoharringtonine|b42d921c-fcfb-4e01-9458-b47ce7b23898
+Humic acids|20baf131-c5c8-42ea-b98f-e9312bf1a0b9
+Hyaluronic acid|5467b532-e7c9-4b73-acca-f10efada830c
+Hyaluronidase|8ac83f3e-b835-4c5e-87a5-b7207ab57cc9
+Hydracrylic acid|26b3cb8c-8099-493b-b24e-a75a9260414d
+Hydralazine|fdb50d6b-e5d5-4b5b-a74d-90908d4ec175
+Hydrazine|af2fb7b9-254a-47bb-9944-85de22d010ff
+Hydrochloric acid|40cc14c4-d339-4578-86fe-0b748370f2b2
+Hydrocortisone|e07192e6-fc34-4138-9844-b1596c811157
+Hydrogen|bf1a3af6-ac51-4753-9408-37d15b4dbe6e
+Hydrogen bromide|255d5b61-ecc4-4f65-9d62-459f2c0eeede
+Hydrogen peroxide|3c6e4b27-e22c-4c6c-8b61-0ba418fa7971
+Hydrogen sulfide|5f7a7d79-2002-4290-acbf-c7e5d9be9278
+Hydroquinone|e8fe2ce0-21bc-42ca-b0b0-4dfbd03f2458
+Hydroxide ion|c395b5bb-dd1d-4842-b826-a49b3bfc7028
+Hydroxocobalamin|bf6998ad-73bb-42e3-a056-ce687a103ff7
+Hydroxybutyrate|8c76ed92-642a-47a2-9d60-53e732b77e7c
+Hydroxycitric acid|1052b68d-1005-4865-9036-86d823d630ee
+Hydroxycoumarin|aee65db4-36b3-4490-abcf-6140bd0e18ba
+Hydroxyflutamide|598f839b-4e44-44ed-84bb-9093d97f7b5b
+Hydroxyl radical|89ef0563-7e47-4c4d-b7b2-6c8038950339
+Hydroxylamine, N,N-di-tert-butyl-, hydrochloride|8bd4e68c-77e3-4d47-bfc0-da8a1a4ff911
+Hydroxymethylbilane|d5eb7d3e-b068-46c6-a29a-ee056503dc47
+Hydroxyprogesterone|32eff446-183f-4405-b28d-c82860fc898e
+Hydroxyproline|5810aa7d-7f5a-423b-9949-d292c3075814
+Hydroxyurea|c40c3dfc-8908-47c8-b607-c8f4c62777d8
+Hyperforin|8fe6a5c2-7b92-4777-8efc-9f92e49816f6
+Hypochlorous acid|27f41557-375a-4361-86a4-c12c2b4d7e6c
+Hypoxanthine|735c8229-1317-43a5-a9b1-ce70aba7d799
+IBMQ|e683752c-56e4-4532-9d71-4f85c00a0f55
+IC542|d81c0f7f-c605-4f76-9078-a8404f30c040
+IC87114|731a499f-9100-44ac-a0d7-42084386c0bd
+ICG-001|b1a7bdaa-e50e-41a9-9959-ef0bc43bf60f
+ICI D1694|61a1c9d5-1176-46cc-b5b1-3a1861c3e000
+IDN-6556|1b7f06d3-3d83-4eae-827d-73cddf14b57a
+IKK2 inhibitor|516c9fe2-98d2-45c7-af7d-b7c4994b44e3
+INCB3619|5553b28a-863a-4c54-9f97-e3fb25faacec
+INCB4298|ef1d50c6-bef8-4fd6-8466-dd99abc1b98f
+INCB8765|14de2472-6630-46a0-a202-0a7838050255
+IP 10|489bafda-ab6f-4a28-9aa0-66e52c73c686
+IQ|609d0a87-886b-435e-a40f-1226d1de63d7
+Iberiotoxin|8b77441c-d336-4257-a025-03a1e6eed898
+Ibrolipim|e5bc773b-5575-4a60-b796-a6a7ef59257d
+Icatibant|285f4d8c-0a16-45fa-bf10-a27aa3141aa1
+Ici 118551|ff96034e-cb36-4092-bf3c-6718aef0b780
+Ici 153110|978c8c2c-4bd7-4507-b6b0-192703b36ca7
+Ici 164384|96eeedc6-42ba-47a7-84d8-d7fd1acf018d
+Icosapent|b2c63e1b-e509-4a41-afb7-25b7d3d8400c
+IgE|34cdd6cc-0ada-43cf-9147-df2e2ae0469b
+Illudin S|f0324bdc-a5b6-4499-81dc-ab55c195e0db
+Ilomastat|0eeaefc5-588b-4c63-b740-fcd87e66d8fd
+Iloprost|6be785f2-2f4c-46dd-ab96-98ac284bf504
+Imatinib|c7571bca-9f2a-4939-9e75-90e24e29a668
+Imatinib mesylate|8990f39f-faad-4e5a-bf3c-5ba8bfdd8e2a
+Imidaprilat|616993cd-7711-4c3e-8e43-cdd098caecba
+Imipramine|09c5e427-4ed5-4942-877e-6d6868784460
+Imiquimod|709d8494-59ed-4337-8395-4b927cfa7450
+Immucillin-H|427879b7-3cfe-4011-8326-84be10d95d16
+Immunoglobulin A|551931e7-86b6-4b73-b8fe-62bf6bdfbdb1
+Immunoglobulin G (285-292)|dd61f165-ffa5-49dc-bbdc-b4ccbf19c752
+Immunoglobulins|378abf0c-2131-4ae0-a6e7-90d76eea48dc
+Immunoglobulins, G|4cc16c50-2483-4d93-85d8-fceab9642f32
+Impact|a67cb116-640d-4851-8d03-dfe8fd32efb5
+Importin|79f57b95-ea29-4abf-9fd2-7208d53399f9
+Indeno(1,2,3-cd)pyrene|10de1833-5775-4870-8e76-d7f3f5342b9c
+Indigo|894acd87-6e2b-4f52-9563-870309b78322
+Indinavir|8e65faf4-2daf-4b14-acca-90ed32986a93
+Indirubin|f5c7945e-77ad-4f92-94d6-f7da78b20491
+Indole-3-carbinol|697981d6-831e-4888-8bdf-273d506fe8e6
+Indoleacetaldehyde|420e9c55-a24a-4eb4-b9c3-44a6e9a4966d
+Indolidan|85bc8ab2-d371-4dab-babd-23b5e180c7de
+Indomethacin|a66a7106-0787-4c7e-a47b-300f46894102
+Infliximab|48fa0504-2d0c-4d5d-8aaf-beca48e033cc
+Inhibin|ccb56255-3a99-493b-8cd0-cbe8b213653b
+Inogatran|8c694176-81a0-4231-ba92-c90ef8db0638
+Inosine|ca764c11-1d03-4433-bbe7-9c2d22a6fa76
+Inosine monophosphate|f2b229c1-04b4-4a63-b2bd-3020fbe6e25d
+Inositol|44fcf090-43e6-4fd0-a0a1-172947b9a0ef
+Inositol 1,4,5-triphosphorothioate|d76818e3-2f0d-4607-8993-aa02c4fffe2e
+Inositol 1,4,5-trisphosphate|6f0c97af-12ab-4fc8-bbd6-fd71a59fd6e7
+Inositol 1,4-bis(phosphate)|f8f28e39-ea5a-4159-a4e0-81dca65b4475
+Inositol 2-monophosphate|5cc6728f-33af-402c-928a-3b9ce96bec65
+Inositol 3,4-bisphosphate|57955d8c-24e2-4912-b232-267a5d5b930e
+Inositol 4,5-bisphosphate|1347b0e6-031d-4147-9aa6-e12a75a1e96e
+Inositol hexasulfate|1f9d3753-e5be-4306-b203-82ebfe6acf5d
+Inositol pentaphosphate|a9b91075-9acc-4324-881a-d2cd1ecb98f3
+Inositol-1,3,4,5-tetrakisphosphate|e904f987-c2e7-4f2f-9450-3cb26598a4bb
+Inositol-1,4,5,6-tetrakisphosphate|4e4a3464-0710-458c-baea-3e82c78a79a0
+Inositol-3,4,5,6-tetrakisphosphate|f08ad040-850f-42ef-a4fb-d633eee5ad6b
+Insulin|f0e474c7-bbd7-43ff-a3bc-a4ec27abaf5c
+Insulin-like growth factor I|86352f38-6abc-4f3c-8977-d1819bc7286f
+Interferon|6fe0e8b4-183f-49a8-8398-a3410be98149
+Interferon alfa-2a|fa4be69e-7fb7-46a8-b3ba-81c1a74cafbf
+Interferon gamma, cys(-3), tyr(-2), cys(-1)-|d0f7f96c-f50e-4dc8-9842-6fcfc5e59176
+Interferon-alpha|8a9d3c5e-4a6a-46f2-a226-0afe7329301e
+Interleukin 1|9c72a039-9c35-4a0f-82c6-977ae93483bc
+Interleukin-12|141a0c11-2e2b-4783-8eb1-2d9cf721a9aa
+Interleukin-2|fbdda8a6-6768-45ab-a325-13b640e88134
+Intermediate Density Lipoprotein|ba0d3b11-a317-45d1-a40c-8ed36db60b59
+Involucrin|500e1f53-1591-482e-a4d7-2a9256021789
+Iodine|5fdd338c-70bd-4791-9e47-e75dfd9a1995
+Iodoacetamide|a1ccb1b1-d4b0-415b-a375-cdb9dc7d2afb
+Iodocyanopindolol|2bcf020e-cb48-49a6-83dc-d97538434a59
+Iodotyrosine|cfa288d0-a8d6-4019-863b-4c3d4d318b52
+Ionomycin|b0a76c4a-0cda-47fd-a756-154facecdf24
+Irbesartan|52be4380-73b0-4eb8-9e8d-56ca730bde9b
+Irinotecan|5f0dbdd2-5a30-48f8-9587-58b0691b928b
+Iron|e89bcfdb-9402-4915-94db-90c4c87b9b3c
+Iron, ion (Fe3+)|137ec0b6-7a43-41d2-a9a2-03efacfed798
+Iron, ion(Fe 2+)|347b4195-733c-49e6-8804-490a2f0b065a
+Isethionic acid|1e03c837-2980-4386-a4fc-f5048c01a2cf
+Isis 5132|5dfdb748-3182-449f-9e49-b001a63edd8a
+Isocaproic aldehyde|9f8af1b3-2ed8-44f9-9547-302f8cead5c7
+Isocitric acid|eaac9758-7411-4023-be44-c2d5b1b9acac
+Isoflavone|b8da949c-0d8c-4e25-84fa-85430d2dfb86
+Isoflurane|3388acc9-3044-4368-953b-f0494aed2724
+Isoflurophate|686c83ca-7ede-45eb-92ed-f8a889889ddf
+Isoleucine|68237aeb-3774-4b77-9ded-1258b82732ec
+Isomazole|f5d9bbbd-2093-4ca9-947d-bac34adf0821
+Isopentenyl pyrophosphate|ff57b604-74da-4cdc-bd3d-1e93be0521d2
+Isopropyl alcohol|ce3cd99e-eda4-4499-843a-48a786853ed7
+Isopropyl sulfide|25c95a24-ca69-4f45-a451-dbceb0027d7b
+Isoproterenol|3d9892f6-1cb1-4d87-b084-0e93e54b9673
+Isosorbide dinitrate|95bceed6-d026-4d4f-8b8c-23f78ddc4858
+Isotretinoin|b6fd6238-168a-48ad-934d-f8faad24074c
+Itavastatin|2f1ad2b8-7c9b-4c1b-b40e-5320aec93fb0
+JNK inhibitor|da39e9fd-5695-4c9e-8b01-becbe352c73c
+JP 8 jet fuel|edd5450a-1876-45ea-9c9e-298155865fcf
+KN 62|618eaaab-111b-4960-bf63-b71f4860c487
+KN 93|3f84562a-9b9c-4288-a4af-587bcb05615e
+KT 5720|967a32af-0435-4c8e-b0ca-bdf0b79cf082
+KU-55933|8dfb3593-ac44-4f4a-8a2c-74f321c7de5a
+KU0058948|2a508446-a75a-44c7-92b6-f99366bb3b7b
+Kainic acid|23fa6e14-7c9f-448c-85c9-7f3601c9e5c3
+Kallidin|2839e896-1eb5-44e2-b37f-d3f5062e0d5f
+Kaolin|79e6198d-abaa-4bea-a6b5-c9d3b45aa74b
+Kempferol|39747210-86b2-4b13-9d01-aaa1f35eb7ef
+Keratan sulfate|73678bff-f9af-4c07-9f2d-c2c1a3eebc3a
+Keratin|689338b2-e5fc-4f63-8963-bc90fb13bb36
+Ketamine|af352eb3-8b7b-489b-b8e5-045b09536cbe
+Ketanserin|4804ec29-338f-494f-baa3-e9f7089bcc15
+Ketone Body|db67d23f-6e53-4d8d-a7fc-ec706f7e8c47
+Ketotifen|7896d419-6f10-4811-89bf-a300ea1e291c
+Kifunensine|1fbefba0-1d4e-4668-914f-dc514c8e36d1
+Kininogen|bb3a8d15-e9e8-49e3-ad57-dfc2cd7dfe8d
+Kip1 protein|30ce3755-ea5e-42a5-bbf7-6823aac628bc
+Klebsiella pneumoniae, lysate|cca1b034-6b8e-4586-ab7d-6b6697951318
+Kojic acid|14e5d758-7d38-49a3-a8f8-c8900ba6b734
+Kynurenine|e66b7593-a9ce-4f8a-91d7-1d3b35f5023d
+L 651582|f2ec72a0-407c-4ad1-9855-2124eaf24674
+L 659989|34e969bd-1348-4608-b238-9601bb11a1ff
+L 663536|1a8cb1b9-bce3-4054-b33d-44584b4f7002
+L-3-Amino-isobutanoate|bb15be5d-4565-4195-9779-cdc71a753790
+L-Arabinose|df97a86a-7a13-4431-9933-5bc95b6134ca
+L-Arginine|45d9fd0a-6a76-4ce6-aa95-ae8f55cf562d
+L-Asparagine|0e5dea2e-d5cb-42df-b1be-314f364b7bc5
+L-Aspartate|6bec3286-75af-478f-b8e0-e80acb61d9b1
+L-Aspartic acid|c5d3e6bd-e9fd-40b2-9edc-61c91c145fa8
+L-Aspartic acid, monosodium salt|ad861abe-601d-4df9-8c1a-d0e8970bdd72
+L-Citrulline|c815c624-7939-4e78-a0af-31d4ae48a137
+L-Cysteine|e579a4f9-4145-4c21-8ec1-8e5457a1c884
+L-Cystine, N,N'-bis((5-chloro-3,4-dihydro-3-methyl-1-oxo-1H-2-benzopyran-7-yl)carbonyl)-|705ba646-9440-4826-b694-b073e0b96824
+L-Glutamate|fb40180b-3c5f-4ee5-a3ae-5e8d746f26ab
+L-Glutamic acid|50c2a215-bbb0-48d9-92e2-9ac71f04662e
+L-Glutamic acid, ion(1-)|fb40180b-3c5f-4ee5-a3ae-5e8d746f26ab
+L-Glutamine|d3b9ae4b-c130-4898-a202-4aa74fdda1d8
+L-Lactic acid|3e215f1c-047f-4f3a-a612-2dfe1a8996fc
+L-Metanephrine|e39c134b-4236-44a6-a610-a024e86661d8
+L-Normetanephrine|35252384-d23c-479c-b1cd-a0190026dafa
+L-Sulforaphane|7d902455-f777-49fa-989f-1debc4fe5f35
+L-glutamine-p-nitroaniline|2074db58-4ccf-4217-bc28-c936ff10c6c8
+L-glutaminyl-2-napthylamide|8b65dede-b2bb-4f9b-bd36-4d4291cb128d
+L-glutaminyl-4-methylcourmarinylamide|f45b2443-f827-4fb9-8e6b-f248a4f1f4bb
+L-serine|3fff0652-803a-4841-813e-cb71b0a4d306
+L165041|cc41a8e9-0094-44a6-a838-b19fe812d008
+L826141|e3cfeccd-c7e2-4e21-b6b8-20004bca5f5e
+LASS3|769647a1-d449-49fa-b74c-a00511b0f585
+LDL aggregates|df1a44db-eaa4-4648-a32b-43ba1750bfc1
+LDL(-)|1f7ebaf8-6cf3-4ce6-9399-3fad5a512e32
+LG 268|8891da9d-791e-4c7b-a538-648817febd62
+LH|0c3f7ee1-ffb0-4c20-a921-6ada38f847a7
+LH-RH|bf1d84ba-c459-4c09-9066-68775c7f2e52
+LY 223982|803869f3-fc23-4c08-9fdb-ac4c48dee4ea
+LY 255283|f3d707e7-2f1d-49f1-838c-0dfd1bccba13
+LY 294002|e36d6c2c-6af6-41a4-82a8-279ea2031408
+LY293111|e7b0967c-0697-494b-bf95-7cf35cae05e2
+LY465608|29b3e38c-bb61-4374-abe8-38295d386601
+Lacidipine|94fad056-1412-43a9-8943-88c7e27430d4
+Lactacystin|e46a50f9-e4da-4558-a817-8ad028586818
+Lactate dehydrogenase|f0d01b36-38a5-47d5-84b3-41e6d80942ef
+Lactic acid|3a78253e-9fe6-4ab5-97bb-af246356013b
+Lactose|18e5c2e4-1e2b-4d8f-bc3d-221b5cba5900
+Lactotriaosylceramide|adbbf074-430b-4024-a3ca-c454641790a5
+Lamellipodiae|33e716d3-34c5-4f15-98d9-c4b0ea104500
+Lanosterol|13659de4-9648-436b-994f-b980914e3b14
+Lapatinib|5c69e3f5-6d7e-4e51-a284-c60f217d0ab4
+Latrunculin B|b3f15dfe-ea72-4fda-9d87-008d400dcd80
+Lauric acid|e5e119ba-c0f0-4da1-8848-df0796125690
+Lauroyl-coenzyme A|925b8117-bc2d-4b22-9d20-2b1e87de23c1
+Lazabemide|e9019e16-94c3-4217-8a5d-0230e1478364
+Lead|684d4eb1-dbfe-470b-87eb-2ca4ad249168
+Lecithin|df7d3988-9c76-4458-bb9d-43982adc551b
+Lectin|14ded598-a065-4c27-b051-72ff397355f6
+Leflunomide|e4cac273-a006-4191-9c5d-f880c9639a4e
+Lentinan|2aced290-136c-441e-b9a2-24eb27990ea1
+Leptin|9dbacadb-09dd-464c-bc2f-606d2e5ed4d5
+Leptomycin B|74b55409-d499-44a1-b025-8475b868ac21
+Letrozole|6e213e0d-90ac-494f-ab9f-1a191e6604c3
+Leucine|c90cb182-a106-4d24-980c-703f625b8cd2
+Leucovorin|ad17931a-f375-4112-83b8-b888c6b2e1a8
+Leukotriene|b58e980c-897c-4df6-975b-101d1fd7f4e4
+Leukotriene A4|a9938186-bc25-48e1-8edf-3cc165b330d3
+Leukotriene B4|f1e729a6-71e2-4ca1-ac95-4057df72f1dc
+Leukotriene C4|d4e1e413-b4be-4609-a6f3-0ca896fda3d8
+Leukotriene D4|85f4ba52-cc3c-41cd-93d5-bfb278627333
+Leukotriene E4|31282a84-aa91-4114-b901-ea0ba18af854
+Leupeptin|f64b5718-4201-4d23-a7bc-d085531e0dbc
+Leuprolide|9f4a1336-5c73-4269-b77a-9fec4615fe27
+Levetiracetam|a2498260-390b-4c2c-9e30-1659167bec43
+Levisoprenaline|832257e9-22ee-4fe8-b444-c6125ffe2b50
+Levocarnitine|7d26e106-f5d4-4933-9d74-0095f20b0302
+Levodopa|58eba0c2-b8a1-4710-9ef5-d0ce065741bd
+Levothyroxine|116dc24a-41ee-413e-ad51-323853429b4a
+Lexacalcitol|2f09df07-16d7-4ada-9950-8d8cb9750566
+Lexipafant|7173d83c-7f9d-429f-9e9a-758c634a0f33
+Liarozole|189fca78-0810-40c7-8813-4dc6242a4158
+Licoisoflavone A|b17e636b-bcb6-4d71-a152-a99800a166dd
+Linoleic acid|728699b4-1cea-4394-a6f5-a28b3e648792
+Linoleic acid hydroperoxide|a22cdb1a-9d0c-4f1c-bb85-675d319b35ff
+Linolenic acid|d6216052-02c7-4282-883a-295d5dcede5e
+Linoleoyl-coenzyme A|a1afe260-fec1-4ea2-9c9d-66e1b3a4107b
+Linoleoylcarnitine|ae6ceaa5-46ad-43f3-af4e-355fdb714d7b
+Liothyronine|df84b994-74d2-46bb-b015-a53b310cba00
+Lipid hydroperoxide|06a650e1-1d19-4888-ad6c-9c99ef075f9b
+Lipids|88ce0b0e-2c35-45a4-be79-f10c9c22badc
+Lipoamide|ae04438f-18a7-46f9-ab58-3544a2edf923
+Lipopolysaccharide|cd715706-2965-4d8e-8327-b0b44d782e31
+Lipopolysaccharide, from A. fumigatus|3c26a799-7ef4-48f7-9618-b2b27ebfd6e6
+Lipoprotein Particle|782d0e33-ff66-4ec4-99ec-8519be25ae5f
+Lipoteichoic acid|bfb1c0cb-0f7e-444b-875a-da0810cc78cb
+Lipoxin|6222d9f9-fea4-4423-821b-e415c4b40968
+Lipoxin A4|d460dae6-7996-40dd-ab1a-0aa52200bba9
+Liraglutide|b7c56884-2b20-446c-9f83-41de615ba102
+Lisofylline|f8510daf-ad27-4dcd-bc81-63af4e71d3d3
+Lithium|c41724a8-a897-42cf-a44f-911b41bab10a
+Lithium chloride|f962b4c7-d5b6-40a3-b880-3d1398282acb
+Lithium chloride (6LiCl)|08325c88-da4a-4590-a544-cb5697587a62
+Lithocholic acid|60ed772b-3e3e-41b1-a7a9-1b1ccb636d39
+Liver-specific transcription factor LF-B1|b950a9eb-5143-480e-a7c9-9aeb47aae03a
+Lixazinone|6bf225d8-f4d7-44d1-8a2d-b83a5dbced03
+Lonafarnib|8a4121fb-051d-4e91-b527-54f4a6ec0070
+Long-chain 2-trans-enoyl CoA|c49216ea-c9f2-4573-bbfd-3776ba29ddc7
+Long-chain 3-ketoacyl CoA|bb2ac8c8-3dba-4d06-ab7f-c6989cb1cb6d
+Long-chain L-3-hydroxyacyl CoA|17384af4-9ecb-4d19-a6b0-bb96ba9a96f8
+Long-chain acyl CoA|adbe90d5-aa11-4f64-b75b-5969d3bb138e
+Long-chain aldehyde|82a04748-f230-4a7a-838a-df4cdf4e1709
+Long-chain dicarboxylic 2-trans-enoyl CoA|440fe4ef-4b2f-4cfa-9cbc-118c76fe6878
+Long-chain dicarboxylic 3-ketoacyl CoA|39d0ba0e-6c74-43e2-97bf-59f47e2c17ba
+Long-chain dicarboxylic L-3-hydroxyacyl CoA|7b9b8125-bb30-4204-bc3d-c99999fc0e23
+Long-chain dicarboxylic fatty acid|cc1a1268-489c-48ba-a1c6-d8fbdf017e80
+Long-chain dicarboxylic fatty acyl CoA|2da33f27-c863-4b4e-ad39-cb1b40173de9
+Long-chain fatty acid|6c58ee77-c5a7-4a50-8dd7-26aed1e952a4
+Long-chain fatty acyl CoA|cd500df9-bb1c-4bf2-aeb4-e0fec8501b59
+Long-chain fatty acyl CoA (-C2)|2c5d3cc5-1633-4f10-8c32-74bb8e670989
+Long-chain thioester|e4f59cc4-e593-4b3c-becf-8447723232ec
+Lonidamine|dec59298-f951-40a1-acae-2ff31f619fdb
+Loperamide|fea138ca-76d6-464f-9585-6099f50d896c
+Losartan|59aff0d1-b9bc-4a29-8a26-3e24581d05cc
+Losartan potassium|038e3ff3-8ab8-4e7c-bb7c-8a88d340aa58
+Lovastatin|acc9b1a3-3498-4c26-93fb-91229313ee76
+Low Density Lipoprotein|d3fbdd70-260b-4862-aab4-60cbc2401ede
+Loxapine|97953e97-adbc-48d0-8025-38d5bbd28cd6
+Loxoribine|ae1cc97f-a3af-4858-acda-32541c740e33
+Lumiliximab|e87902e6-fa3b-4826-a884-9cc648e547b4
+Luteinizing hormone (human)|c724dc3c-f61b-464b-b7e5-e722272baba9
+Luteolin|498bce44-4d5e-4674-95c0-0cad43b7274c
+Lyase, heparin|792f604c-a7f1-401c-9d7e-7c9d720601c8
+Lycopene|bdcc2fa8-a62c-460c-99d3-e12f85705285
+Lysine|4066798f-1193-4e05-a8cd-e9a4052ebe32
+Lysophosphatidylcholines|9bcf29b5-cc94-486b-92f0-c4182b7a16ee
+Lysophosphatidylethanolamines, C16-18|a6a63a29-555c-4695-8fb4-f5c59289767d
+Lysophosphatidylserine|8a6f8dd4-17ca-4789-8901-7ced7a1eb76b
+Lysophospholipid|873e223a-cf3c-49a7-a605-a312053d933a
+Lysozyme chloride|af013cfe-cd6f-4158-9a77-3e9607d3d3b8
+MAK|1cd15c25-4ed9-44b2-b9d9-8613904bb45d
+MEK inhibitor|7dc870ed-c07a-436b-865f-61acd28c4f4e
+MEN 10755|17222fed-d91c-4868-a69d-69e434b07267
+MG115|db337366-77a1-447d-a116-79d27c948147
+MJ 33|2222e3ef-f1ac-4d46-9f9e-fef581018113
+ML 7|e48c231b-4498-471f-91f2-7a42eb412617
+ML 9|1e5b8db8-290a-4976-9bed-0ca2b8a542f0
+ML120B|5d32ff19-68a8-4a6f-898a-15ec05544e3a
+MME|a55379ca-ca70-4bbd-b09d-00cbfab6e0f4
+Magnesium|31c60a7a-05e9-4ff2-9e58-a6cb49cd29b5
+Maitotoxin|cb680d05-22a8-4070-bb21-7340d9cd0688
+Malathion|e85e1a86-ca50-4256-a8e2-cc28c4a3d513
+Malic acid|e88714fa-17a3-4509-b99b-ec0b25bccc4e
+Malondialdehyde|4b4efe50-601a-47af-9fe9-2734f57bc11e
+Malonyl coenzyme A|1227bf6c-b94d-4bfc-a211-792d429aedb4
+Maltose|3a2d30f0-b88e-4917-add2-3c370c3690f9
+Manganese|238c0948-01f0-4eb0-8f4a-db3865978a7d
+Manidipine|b083bf24-aa45-4672-9e90-8ba6a622433c
+Mannitol|50dcbdce-db7e-4f7c-bf8a-0c43918d5ad5
+Mannose|860c8f89-447e-4586-954f-634ed70002c2
+Mannosyl-oligosaccharide Glc3Man9GlcNAc2|cb05eb64-ae45-42d9-9788-32114ad3c1cd
+Manumycin|06e39885-b168-4e61-a34f-9f72959a6e21
+Mapatumumab|3006ad1c-bff1-4016-a302-d51852f8e2cd
+Marimastat|42eb071f-c1cc-4ac9-8c44-30ce17b5a4df
+Mastoparan|bf808e9e-617c-40fe-b71e-ca42ee4d1e85
+Mdm2 protein|ceaf197c-49b8-46db-b2f8-5224f1ddd508
+Mecamylamine|b4cf07ae-eaab-4bab-8957-398c19f43283
+Medium High Density Lipoprotein|3f3beaab-7858-48dd-8963-99348004e831
+Medium-chain 2-trans-enoyl CoA|6c25cc23-59c0-4e6f-a4d4-00b6433395b5
+Medium-chain 3-ketoacyl CoA|cf8c34f4-85a1-4a8e-afac-4867f92ec173
+Medium-chain L-3-hydroxyacyl CoA|15b8b544-41d0-4005-9f26-4433e1a6fd91
+Medium-chain fatty acid|4531c0a6-76fa-4e37-9e68-b0bbf9e755c9
+Medium-chain fatty acyl CoA|afe713e2-eb8b-4c75-8f9e-aacde845beb2
+Medium-chain fatty acyl CoA (-C2)|b2ba2a04-8f67-467b-a95c-d9975c3ade7a
+Medroxyprogesterone|5bfa9c02-6fc4-4588-ba7b-689b296e77f6
+Medroxyprogesterone acetate|37f7126e-60cf-419f-a313-8921af3514aa
+Megestrol acetate|c1223670-47b5-4d34-8e7b-244af1eaa29d
+Melagatran|a0fe02eb-a55e-49ee-81f8-6fb0f176c846
+Melanins|65f830cb-d20d-4d1d-b57e-e990d13a717a
+Melatonin|fd3906ff-4ef8-462e-a424-b9ef9a541060
+Melittin|8421585e-0075-4ff1-83bc-73ea717bf628
+Meloxicam|8da3a0e9-ead3-4b5f-816f-cdafd69e5fc6
+Memantine|44b58e5e-a6a6-4079-90ea-d6fd8832188b
+Menadione|7445e390-6d5f-4c1a-8789-24bbf742ab00
+Mercaptoethanol|008cae2e-92a0-43ac-a83d-6d6634ff7bb4
+Mercuric chloride|5e2d17dd-0efb-4abc-8ecf-e50de325c2e2
+Mercury|f1fe390c-31e9-4b3f-b8ff-e28584b7e5c8
+Mersalyl|5d37ea75-804f-47ea-b22c-bb296b90728a
+Metallothionein|9117ada3-6cdc-4cbc-96a8-fdf6271d60b8
+Metformin|e7c3650d-db84-4f36-b5ae-9614e67ab5be
+Methamphetamine|806a50b0-aa08-4f10-8497-e17ed98e4aef
+Methanesulfonate|d597e400-4137-4781-ae1d-aeaa2909e39e
+Methionine|1b46e6ba-10a5-4069-865f-1e514a2e7338
+Methionine sulfoxide|2c81eebf-cdf3-49cb-b4fc-6c1f6de786f9
+Methionine sulfoximine|a1e10377-bc60-48b8-b71e-ef505df26d9d
+Methionine-R-sulfoxide|4cf24835-22df-4ad3-86f9-7506ed8b18d7
+Methotrexate|babe5442-217c-4212-aefd-5e17762b0df3
+Methoxysuccinyl-alanyl-alanyl-prolyl-valine chloromethyl ketone|5af88b3d-d4d3-4e43-9329-57a78b421051
+Methyl 2-(1H-indole-3-carbonyl)-1,3-thiazole-4-carboxylate|99d19dd1-3440-4f39-844e-a6461c4f07c2
+Methyl 9,10-12,3-diepoxystearate|d4d71924-0344-48cd-9248-275344bf5489
+Methyl N5-(imino(nitroamino)methyl)-L-ornithine monohydrochloride|7baa8098-47f3-4649-9620-73fae92d20bf
+Methyl alcohol|64b7fc5d-e898-476c-b4dc-244ba4aa3ccb
+Methyl methanesulfonate|a1fd5805-de9f-44e0-b58b-c5b8e0413ce7
+Methyl n-propyl sulfide|f8c9aa15-ecb6-42d8-bfe8-31a39cc4dbbc
+Methyl palmitate|65146069-1936-434b-88e3-36f5bd30becd
+Methyl-branched carboxylic 2-trans-enoyl CoA|4b4d517a-e1ca-4cc5-abe5-a1cc6f85fdd8
+Methyl-branched carboxylic 3-ketoacyl CoA|4d015d23-cdee-4640-bfb5-bae123bb2789
+Methyl-branched carboxylic D-3-hydroxyacyl CoA|00b50b97-2014-43b0-b2b4-80b3a651f752
+Methyl-branched carboxylic fatty acid|6b475cff-e3b1-4535-b62a-6b6b95cd2bf7
+Methyl-branched carboxylic fatty acyl CoA|3b142e07-ae38-4052-b889-18fe91c5e6fe
+Methylallyl aconitine|3f002089-f9d6-48f0-a26e-62d9e7439654
+Methylamine|c7633c63-ff2e-489e-98c5-a4702947a93a
+Methylchlor|21489c1b-bbb1-4259-b5a2-1950dcab4aee
+Methylcholanthrene|54dd49a7-6732-4034-9642-eb83a5cb4395
+Methyldopa anhydrous|0875754d-2849-4114-af7b-f1a5221d5b45
+Methyleugenol|ac010055-7f2a-4a12-921d-37530573431d
+Methyllycaconitine|f72d3136-9efa-4210-a91e-2d922c9c6d86
+Methylmercury II|0663470c-6fe8-4912-88f4-7296f4f2e1f3
+Methylnaltrexone|e916a086-6630-42d8-bfb3-386e11b78081
+Methylnitronitrosoguanidine|4de267f6-8b06-4a36-924a-c7a45e93bdea
+Methylnitrosourea|846d7416-9f4c-4320-8e8c-21ad7b839b85
+Methylphenazonium methosulfate|b433d1b8-2de1-41c0-84ff-217951c99b7e
+Methylphenidate|d56542a5-d901-46a0-aa36-8e3408b6ee6a
+Methylprednisolone|01c1304b-2f5c-42ac-b774-5f805514b237
+Methylselenic acid|0d6eb445-1a3f-42c8-a690-47a30008bd48
+Methyltestosterone|cb6d36df-54ff-4b0b-8e27-72c4c860b302
+Methylthioethanol|e657a5be-b660-44a9-b754-18d3174f34f0
+Metiprenaline|0779c22e-9e00-414e-bf19-a24920bd15fb
+Metribolone|fd177d48-e624-4028-829d-d1d247fd679b
+Metronidazole|9aaada57-b450-4490-af55-027fdd47729e
+Metyrapone|69437aa7-7830-4a16-8f4b-d89fcb0effa3
+Mevalonate|93b007b6-38f9-44ec-8093-ee07a1aa8d38
+Mevalonic acid|c3031372-4e89-4628-a9a0-466ccb421057
+Mevastatin|a04d0c8e-2af6-4232-9eba-773bf2c8d241
+Mezerein|29584b97-f6f5-4c96-b865-893b34f66b2e
+Miconazole|25800d60-167b-4b20-b078-4ac62b545f68
+Mifepristone|29bc7d51-6774-4869-8a32-c61b55e6d770
+Milrinone|f5d19dbb-19cc-4fe1-820d-0048cbee8ac6
+Minocycline|a6f59c5b-a2b5-4261-9b87-fac04804e953
+Minoxidil|c04b1da7-50d2-406c-bcce-b4ee1b6e8f86
+Misoprostol|4ab7f36d-007d-409e-bb23-953c4f221886
+Mithramycin A|e689890c-ad05-46c9-9930-8dc458e006de
+Mitomycin|e355481c-5f60-4456-9d2b-9c9504cd55cf
+Mitomycin C, 7-N-(p-aminophenyl)-|c941d294-373d-4847-856b-f4aa453c9435
+Mitoxantrone|bd3cbd09-191a-49b3-a720-fffc74588885
+Mizoribine|0553e946-60eb-446f-8de3-37d2e15c66da
+Mocimycin (trivial name)|7ac99239-fbeb-43e4-9a39-02355dcaa18e
+Moclobemide|bc4be30c-513a-4d32-8cdb-dfee2cc57e9e
+Molybdate|5a3f88e9-b2d7-4af7-b596-1d77f557cf5f
+Molybdenum|a535c382-b662-4647-9a63-82015bd52532
+Molybdenum cofactor|4edc6ec9-20fa-40ef-aa54-7882c5d0bf4f
+Mono(2-ethylhexyl) terephthalate|235260b2-6fa0-42ef-873b-38f23b11ff16
+Mono-(2-ethylhexyl)phthalate|18d077d5-67c8-4f07-aff6-93e5d8108e9b
+Mono-benzyl phthalate|4efc9f67-8698-43de-8f13-f3c0f507fc40
+Monoacylglycerol|6d4e8258-e40f-4aae-a09b-182c9111e740
+Monocrotaline|96d3f17b-a16d-4bb2-9e12-a8c1629ac851
+Monohydroxyeicosatetraenoate|8df2f6eb-e5b0-4cb3-9ee2-b8eb15897a54
+Monorden|6b2f9699-43e3-45dd-a813-e583ce67f26e
+Montelukast|5d753270-f1ec-48e4-85d4-85076043f442
+Morin|a63d7e99-e36e-4ef3-9d65-981da412fd43
+Morphine|165c3b4b-7be8-4b0a-a8fa-cc370b658565
+Motexafin gadolinium|349a2f9d-314a-4711-80ae-813690062488
+Motorcycle exhaust particles|11175069-41db-49db-8f4b-63fdf565e0ce
+Moxonidine|caf65a61-8da9-4637-b0e2-5f2891f92fcc
+Msh, 4-nle-7-phe-alpha-|84d1d1d5-503e-40b5-99bb-68b478dbbf28
+Mucopolysaccharide|2312e46d-cd19-4bee-b8a2-d9b84e1ec59d
+Muricholic acid|30745749-c060-4fc2-9398-64c2537416fc
+Muromonab-CD3|0157e564-480e-4a4f-b78c-a8df142fc232
+Mycobacterium tuberculosis, ext.|019c6c1f-b122-4a0f-ba4c-3716e707f538
+Mycophenolic acid|aec25ef3-7ba3-44de-af31-31bd936f66b7
+Myosin Heavy Chain|2de9bf76-86b2-4e39-a128-37538ef8d7d0
+Myosin light chain|96e4341d-bb1c-434a-bfd7-af63025f328f
+Myricetin|9eebea90-929d-4cd1-af91-6f7eb0cb0b7d
+Myristic acid|52d7b6ca-fba1-44a2-9cf2-a8f1319e56cc
+Myxothiazol|a3d9a3f9-c1e3-4c2b-87c9-e6f2103a492a
+N'-Nitrosonornicotine|310a8569-06b0-4f51-a602-8d242b5dec78
+N(6)-Benzoyl-cyclic amp|794bb646-cb09-488d-8ea1-f0bbb9c9061a
+N(6)-Cyclopentyladenosine|7b9c6985-32bf-4551-9077-a8edd7f988fc
+N,N'-Dimethylarginine|9d3e1c72-3f3c-405a-b517-84fcf5c60223
+N,N,N',N'-Tetrakis(2-pyridylmethyl)ethylenediamine|5f59789b-25d9-4e65-9285-d0adc2f00b7b
+N,N-Dimethylarginine|44b2f65b-84d7-42a1-bf58-d605ef638d26
+N,N-Dimethylsphingosine|09561200-e9f0-4221-85ee-a579909a27c3
+N-(3-Aminopropyl)cyclohexylamine|9dd99b36-c559-4136-8712-3014b6bd5c29
+N-2-bromocinnamylamino-ethyl-5-isoquinolinesulphonamide|3ab4d8c5-a835-4edb-84fa-c64427d4c940
+N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-|5666b23a-9f17-4cba-ad85-a2330a70afee
+N-Acetyl-D-glucosamine 6-phosphate|8620c5fd-0c80-4267-bb9e-b4da040043ed
+N-Acetyl-Leu-Leu-Nle-CHO|3115f63e-7943-43d8-9670-378168c08a97
+N-Acetylasparagine|c15e2986-e385-4b1e-a0fc-629cd04b7dec
+N-Acetylaspartate|de15b2dd-6380-4f25-9693-dc2df0f7333d
+N-Acetylbenzoquinoneimine|3ff0a98c-fef3-43db-b97e-bad50378c30d
+N-Acetylgalactosamine 4,6-bisulfate|da6a2489-3de8-4c18-9c65-ad3fc5270494
+N-Acetylgalactosamine 4-sulfate|a8ad4124-78e8-47f9-903e-6ebce3c22518
+N-Acetylgalactosaminyl-1-4-N-acetylglucosamine|92324804-863a-44b8-8814-4a91e53f8ce6
+N-Acetylglucosaminono-1,5-lactone O-(phenylcarbamoyl)oxime|42803122-e21a-4de0-91b0-9787aaa7005d
+N-Acetylglutamate|859425e6-5096-41ef-ac47-7123121108fb
+N-Acetylmannosamine|7358548d-021a-4557-865d-b733a40ce9b7
+N-Acetylputrescine|35c20339-7654-4cd3-aaad-d0c8dc7ac53d
+N-Carbamoyl-beta-alanine|5882998e-4c50-4576-b184-1ca50868393b
+N-Formyl-methionyl-leucyl-phenylalanyl-phenylalanine|7411c39f-a8e3-4e60-92e0-9f5eda49476f
+N-Formylmethionine leucyl-phenylalanine|3ac28cbf-4c55-46a6-a530-fa12e672f80e
+N-Hydroxy-4-aminobiphenyl|527774ec-2644-47c5-be34-3e59f7378601
+N-Methylaspartate|3a12cb75-7254-4139-ab08-471fd98cf73c
+N-Methylhistamine|1532ccb0-e4fa-4348-a5e5-33ce540c5d2b
+N-Methylnicotinamide|fcd0eaa7-1b4c-41ae-88b2-86f16ad00f0b
+N-Methylputrescine|073a2f1f-e2df-47f9-858c-c02e8a15adfb
+N-Nitrosonornicotine|740606f7-05ff-4e2c-82ab-58b218e30acd
+N-acetyl-d-galactosamine|dadbea7c-8090-4492-94dc-3d36db7b220a
+N-acetylsphingosine|d4c062f2-6ff6-49cb-8977-02acb4ec4b56
+N-demethylated loperaminde|a6c75fab-884a-4b1b-a3da-a42468c7d710
+N-methylquinine|46358162-bb85-4600-9726-b7219ee8c9a6
+N-n-butyl-1,3-diaminopropane|a2b3d565-36cd-4cf2-a88f-13e4b78de506
+N1-Acetylspermidine|b460fc9a-f634-4a21-86f2-82076b04d1d9
+N1-Acetylspermine|e284b5a3-4cea-47a0-9fa0-c60efb36ba64
+N4-Acetylaminobutanal|a2b769f9-9e8a-48ef-953c-dc8e242bdf30
+N6,N6,N6-Trimethyl-L-lysine|445ef1a3-02c5-4f2e-9e60-aaf33b4c607a
+NAADP|936517be-2907-46ac-8ef9-c384c5065b6c
+NAD|e337937c-3b96-4456-95ef-995882f6c24f
+NAD+|70a1b4bf-c4a5-41cb-a3e4-d471c175f3cb
+NADH|9e5a086e-cabc-4889-aaeb-d228ed430ef2
+NADP|790a4545-f250-4249-a905-a84bbe9164da
+NADP+|9a79207c-94f9-45c3-ae46-4ae4e5cb5b20
+NADPH|738ed49b-6a18-44f7-b4d3-19c4fac0501e
+NBD peptide|49d36a7c-71d6-4b7f-ba18-dc188182925f
+NC-2100|e2fcd58a-3384-4a6b-becd-da1b660a4679
+NCS 613|85a33ed1-38c7-4e03-bef6-97e1354c9ee0
+NFKB inhibitor|c7273f3f-5df8-474c-8438-810c524557bb
+NG-Nitroarginine methyl ester|8526e7d7-a0f7-40b0-a000-fca22a8d0d1a
+NH4+|891c304f-4ccd-4164-b819-eeae4d672913
+NMB|1fe77657-b14c-4fc2-977d-ce995db4921a
+NNK|09fe69ae-b6ca-445f-a8a4-33525dcca602
+NNK (carcinogen)|ba1d7c73-5da8-4117-8347-b7a0e7f79cd8
+NS 398|651f8a86-165f-471b-a04f-eb8982378608
+NSC 330507|4dc03088-cfff-4e13-a740-d25036ae4d6d
+NSC 336628|82650ea2-7110-4f65-848d-2283d2cd454f
+Nadide|70a1b4bf-c4a5-41cb-a3e4-d471c175f3cb
+Nafenopin|2c0e941f-ba31-4dd0-b6a4-7e89a33081ad
+Naltrindole|cf7ceada-36d9-4930-849a-4169bea71b7f
+Nanterinone|34a00324-e7f7-4350-8783-0d016cd467c6
+Naphthalene|9b7dbb61-55ea-44c1-9d4c-13fe8728bd7b
+Napsagatran|6725e39a-31eb-4411-a381-0cae262c0754
+Naringenin|979e63f9-51e8-42d7-8180-187515ef9324
+Natriuretic peptide, C-type|04c3d5e9-c611-41f4-b028-5f20597f9e7b
+Natriuretic peptide, brain|79984767-1e27-4335-9c36-fcaa105bf558
+Nedaplatin|4d646d1f-8854-43cc-b82b-c4619d581232
+Nelfinavir|1429acf4-3d8b-4fbd-bbd5-7ae2643c083d
+Nemalite|dd74afdf-6067-48d9-acac-128086cc1c72
+Neomycin|6553e742-93d4-41c6-8fb4-65659254e6fa
+Nerve growth factor|141799bc-5e4e-41a6-9cb6-0caff61e7359
+Neurotensin|f3655cf2-3c79-4326-b7e7-c25761b35fcf
+Neurotoxic Drug|38f1e8ed-91c6-4eae-9ff4-f5b7077000a2
+Neurotoxin, Clostridium botulinum|aed88e8a-1aca-45e5-9b3b-5cfdfc2b2010
+Neurotrophin-3|8321fcb2-e13e-4e08-b832-af5fd56b0ca4
+Ngamma-Nitro-L-arginine methyl ester|81dd9f99-3490-4e90-a29b-7e6dc5209e4e
+Niacin|c5551343-fbf5-4d7c-a23d-65d793fa8451
+Niacinamide|8cd5f6ea-2472-4049-af0c-8f183ebd15c7
+Nickel|8db0780e-87c7-47f4-918a-d30db5de3694
+Nicorandil|db5a49d9-f546-4fc8-8ce4-305a8f110148
+Nicotine|3f7634b8-415f-4f41-b0fa-fd47aacd92aa
+Nicotinic acid adenine dinucleotide|5fcface6-fa32-4d3d-a327-0a2b6b3a5401
+Nifedipine|cea4fd08-7ed4-4961-8e98-7361a2984335
+Niflumic acid|188c7a7e-c7eb-448c-b830-daffcb536384
+Nigericin|d6876ee2-c587-41ee-b353-0a6dfc727baa
+Nimesulide|76df60f0-7eb5-43a5-b179-52e52f7d8d74
+Nimodipine|f98d49e6-5f61-480a-9fa8-8433b46e63fe
+Nitecapone|75dffe00-b95e-4363-b23d-c7f5eb51b8c1
+Nitrate compounds|d17cf447-9784-4f82-acd3-9297390d2aee
+Nitrate(1-)|8c6aaf1d-0d48-491c-8423-83ffe03be479
+Nitric oxide|f6ee3689-2f08-4ecd-bb56-b99e49afe23b
+Nitrite(1-)|f5bdbb16-6808-429c-a2e3-d71c70e924b6
+Nitroarginine|3908baae-71fe-417d-a7e4-df15411fbce8
+Nitrofen|c35c9811-6ffb-4394-bd98-003cf87b8d70
+Nitroflurbiprofen|0241bd13-8911-42a9-9b09-7de0ed49f038
+Nitrogen|87d73a15-a7dd-4de5-b718-579e5b610d88
+Nitrogen dioxide|79e2e52d-9a48-44b9-b01f-ef41c5d0d806
+Nitrogen oxides|131d30ec-9a0c-4f1c-a10e-4faa82108f63
+Nitroglycerin|954f2116-94e3-4d40-b000-c0ac391d9e46
+Nitrosamines|dda2c3d3-9b11-437e-b9e6-e3c63dff3721
+Nitrous oxide|fc86d06c-36bf-4f30-8d2c-a34f3ecb7a87
+Nocodazole|4354c201-c760-4bb5-b977-19461d6f1427
+Nodularin|b7589650-d0d7-4801-b123-80d5e41cfcf9
+Nonactin|13fbe97e-c2b0-44b6-b045-cefbcc414ec5
+Nonanal|608bc3bf-2aa9-4ac5-b184-4cb115cf1c67
+Nonivamide|63500eeb-fbe4-482d-91fa-c5f41e0d8464
+Nordihydroguaiaretic acid|95aa9772-8b23-44e7-acb8-903ab9bfa28d
+Norepinephrine|58616fea-6e02-482d-b3eb-30891e2c5a43
+Norethindrone|c3f5929b-2532-4122-8789-4180aa361eb8
+Norethynodrel|bd14fb2f-6bd6-4cb7-b5ea-869a792b4cbb
+Nornicotine|ab188fa5-03a3-45cc-b3db-74b5a7166b26
+Noscapine hydrochloride|dddff770-a38d-4e9d-a6ef-12e6fa916458
+Notexin|f00e1def-3bc5-4abe-9ae3-6399d21bcfb9
+Novobiocin|8e93c5d6-a5c3-4319-b2e1-1355b28f7fb7
+Nucleotide|9ac499ff-fe12-467a-8e7e-2274a5ce462b
+Nutlin 3|f4cc3118-807f-4526-8293-ff44218bd329
+O(6)-Benzylguanine|1eb2a77a-dac0-4f82-93ab-fdc172b8e5f1
+O-(4-Ethoxybutyl)berbamine|027f29f2-50e9-451c-b14d-2739bc8931c0
+O-Acylcarnitine|eff43309-2c9a-4266-9c54-6b95bc26c86c
+OP|8ef9f017-2f6f-4be2-8db6-963f9c1a2095
+ORG34116|704d7cc0-9849-4f9b-bd10-2e6346870c18
+ORG34517|425966a6-79e1-4f75-ba88-47c62ee32bd3
+ORG34850|2a784e80-ad7e-4aa8-96a3-a8de2bd512b0
+Oblimersen sodium|2ab3b40b-981c-4886-b645-0dd6995442a2
+Ochratoxin A|28fd45b8-f3ee-416c-a324-b8dbb76697ef
+Octadecadienoic acid|a5757d8d-a011-4a77-a9ce-0a346e9fb4a5
+Octadecanoic acid, ion(1-)|678b235d-c171-43df-a8c6-655a1ae7933e
+Octanoic acid, ion(1-)|62050ed2-69d6-48da-9be2-08dc537defa8
+Octanoyl-coenzyme A|9e3d3378-a1e7-4df1-b1d9-f42f3275dc42
+Octreotide|52bcfee2-42f1-45c7-b245-e9b0ba7d6e7f
+Okadaic acid|82bf5618-ea0c-4cf9-a287-adb911dd5e8e
+Olanzapine|fb0a09ae-cc46-4ef3-8490-a9d20bb104a3
+Oleic acid|4d60d03e-fdc4-4565-996f-3014bc78bcf2
+Oleoyl-CoA|89aefcfd-3e65-446c-9e8b-ea8664d1717d
+Oleoyl-coenzyme A|89aefcfd-3e65-446c-9e8b-ea8664d1717d
+Oligomycin|4a88fb83-b5a5-456f-b0f4-350ad5027e78
+Oligosaccharide|615819b1-3334-413c-a4a3-d9e43cc502b7
+Oltipraz|03d24f5a-bd86-4bff-83e6-fb6ab260f198
+Omeprazole|c0adb665-1869-4f47-bf43-7f263b25952c
+Onapristone|ce9f2169-2521-443b-a6dc-cf7c6bf6fbf3
+Oncostatin M|44124efd-7059-4653-8e0d-47fb6732e239
+Org 30029|c53fde44-23fc-4ce5-99f7-fc8c0cd2cfb7
+Org 9935|5920eb99-e370-4079-972e-4c53608b92de
+Organic anion|55d3cdba-fba8-4ccb-ac65-bff5948e8a91
+Oridonin|25258a6e-19e9-4b04-b647-8f1a3ced4072
+Orlistat|1b1dc736-52cb-41d7-b19c-bde3a945c13e
+Ornithine|0fabd0fd-82d9-4b80-8120-17a394e10f57
+Oroxylin A|8138321c-d2c8-4c17-978a-7d01e460227f
+Orthocresol|4aae3d7d-e823-4f22-997d-32dc93b5a25a
+Orthophosphate|11571459-a7f4-4710-a5fe-dc4ab7c7a46a
+Osmolite|470ab491-0fd0-4449-a00e-b58476198967
+Ossamycin|0f691fbc-d5bf-45f4-a6be-8576ff2a91b8
+Osteopontin|46b7aaac-44e0-408d-bd7a-323e5c24441b
+Ouabain|22df43d4-8102-4511-8c67-ea9bdade69bd
+Ovalbumin|92817a99-c27e-47b3-b697-0738056a61a5
+Oxalacetic acid|093e4b0b-9449-4bc0-9b01-81417cd0f30e
+Oxalic acid|321d0388-9223-47f7-bf85-3d5548c3147a
+Oxaliplatin|a1e980ed-ac13-4d9e-9375-920dbcad58c8
+Oxaloacetate|4b7b2972-10b3-4ab3-98f7-fc2797d4f274
+Oxandrolone|0c3e55e0-23b1-4c59-857c-3c3ad2db35a3
+Oxazepam|e1462ffa-e6c0-4fc8-b0bc-445fb4299ce2
+Oxazolone|97bf815b-ebde-4a24-87f1-568082e9bef3
+Oxidase, xanthine|57199d4c-06b5-403d-8e07-a09cf46cc152
+Oxidized High Density Lipoprotein|c596d15c-127f-4a8b-924b-4e8bb5cdfd24
+Oxidized Low Density Lipoprotein|5ac0ecd7-f299-4446-9d34-db5f05950502
+Oxidized-Prostaglandin|287f5680-227d-4dc1-b97c-6d8779323be1
+Oxidopamine|15dd6e93-663f-4d3b-ba37-eee33e81656a
+Oxiglutatione|a06d6a3c-4fbb-43a6-87b3-f23057ef4e97
+Oxitropium bromide|ffb92808-2766-47d3-8fed-4e8f49eb8420
+Oxotremorine M|04c36434-e397-4579-b4f9-f0fa29f0282f
+Oxygen|2e822131-d9ef-4ed2-b0f0-b1ac6a1941a2
+Oxyhemoglobin|e6a9ea9b-01db-4d40-91ce-e0d773bbf636
+Oxypurinol|f217babf-75c1-4c54-9db3-fbb1dff810f9
+Oxysterol|3a48a434-87bb-4082-bf05-5cfc84417f3d
+Oxytetracycline|924ef472-f455-4259-a9ea-6a850eff189c
+Oxytocin|9c62645d-0792-4836-befa-83da886b5e40
+Ozone|122ad57b-40b7-43cc-9ec6-4237715e4a61
+PARP inhibitor|2b2a0c10-42f6-461c-bf8b-2211df0012af
+PC-SPES|43c861bb-38d0-420a-a56e-dc47af70d16d
+PD 0183812|bd1b60f2-f328-4212-a6cf-70d65d1edd68
+PD 116948|efc51739-a130-4786-b392-9278b136aa75
+PD 117519|34443b1c-8dd1-43cc-adab-c6d5e775c5d5
+PD 123319|342c5c68-9dc8-45cc-a1fa-f076d3d518ca
+PD 98,059|a6e91b68-d185-4f0b-bfdd-fea99c21a628
+PD-168393|a2747529-3c00-4c2b-b488-f2141afc6fe9
+PD0325901|8a06e0f8-61c2-42e2-8bc4-fa1d24225d8d
+PD153035|940f2b85-218f-4e47-b25c-6e2eec0ca50a
+PD180|16d74b68-ea10-4bd7-acf9-5d8f600cde70
+PD590089|e90bbb9b-27b1-4b70-afd9-e3af747cd429
+PHA665752|8156857f-23ff-49ff-a391-e7df994202ba
+PKF242-484|7aa76d36-e9a1-41b0-9a29-7c58944fe8cf
+PKI166|8ca10029-b88a-4824-8211-4c95ec14efee
+POVPC|e9cea6b4-6068-4c14-8147-c5eca7b14889
+PP1 tyrosine kinase inhibitor|68a36894-59df-4f17-830a-c16d33c912e3
+PP2 tyrosine kinase inhibitor|4b5ddf5d-8ff9-42fd-9b91-968dff10dbde
+PPAR Delta agonist|85e4fdca-5cd3-4330-b945-dd27f0f475e5
+PPAR Gamma inhibitor|2104cea4-5b40-4eda-ab18-4804e8f9dd8f
+PQIP|850a9833-5885-4fe9-b0a8-0d38d769bf81
+PS-1145|88d3f46b-1287-4cc3-bfbf-8f8aab81085f
+PTK787|9af319d7-ebed-4658-b394-2d671747b7dc
+Paclitaxel|e44269bc-b81e-4557-ae17-20d97e94840a
+Paeonia lactiflora Pall., extract|2eab0bf0-d756-430f-9eb6-b71d143940eb
+Pak 104P|7fafd490-1967-4e5a-97a2-59dbf795d15c
+Palmitate|2fde7f4a-5b9b-4856-b9bd-0f3a0945cf3a
+Palmitic acid|152f0598-7931-4a3e-b2ab-f5707066e924
+Palmitoleic acid|de5471d6-1149-4eeb-8468-a19097195632
+Palmitoleoyl-CoA|8be8b67b-2043-451b-914d-c90fc6f21fa8
+Palmitoyl coenzyme A|4c9e9f6e-525d-4321-a59c-8c0ca38392c4
+Palmitoyl-CoA|4c9e9f6e-525d-4321-a59c-8c0ca38392c4
+Palmitoylcarnitine|bbd26fae-9922-4da2-b807-9cf3225f7f4c
+Pancreastatin|31a769af-a080-4d38-a1a6-c5346b3decaf
+Panobinostat|8f9d75dd-77ec-4d4b-b1e3-3f2572e23217
+Paraoxon|7f68e552-e76e-407b-8741-85df3bd6ccef
+Paraquat|26456924-4721-4ad6-9737-db8428206737
+Parathyroid|4e204342-9c2c-4099-92ee-f06d4e34a4e1
+Parecoxib|5f29bfc3-062d-4631-8a9e-c9288c1a38dc
+Pargyline|37b0cc34-4166-40e4-b9aa-00051558e62c
+Paricalcitol|7767cdcf-b2dc-4a4f-b93d-dc1e751c48b3
+Paroxetine|d2a59066-3d32-42a0-afe2-30da0783a87b
+Parthenolide|bd89268b-f8d4-467a-b2a1-c9ecd3ec03d8
+Particulate Matter|31f40f26-c30b-4bef-b6be-cf320261315a
+Pathogen Associated Molecular Patterns|3a0eadd3-55c9-430a-b75a-6177a262a94e
+Paxilline|5154db87-18e6-4777-9f29-5e4726b9d84a
+Peldesine|7251bee7-c99b-49f1-88db-afa893479cbf
+Pentagastrin|f27ce05b-8dc5-427d-a973-fbf1c948f9df
+Pentane|ba7c363b-60aa-4d32-9b83-f3d84e6e79d9
+Pentanedioic acid, 2-oxo-, ion(2-)|583da08d-d260-47d6-8630-de11ae1012bf
+Pentobarbital|54bf9ace-55ab-43e9-867a-5cba7f13e451
+Pentostatin|3bd57cd4-aca1-42af-af57-d9c9411d8c21
+Pentoxifylline|bfe53dee-98ed-4135-8e19-4b81877435bc
+Pentylenetetrazol|658e57f7-0b6e-4801-9f77-53bfc5854803
+Pepstatin|d4069566-315e-43d1-9988-f4a5e64caa9f
+Peptide|bf7df7b3-33d6-4dde-9a21-2ea3363b8a91
+Peptidoglycan|d6314fb6-6e1e-4d20-ba2c-e0e6ddd6aa12
+Perfluorodecanoic acid|af41237e-8f2e-42a4-b8b4-2d0ec8813aef
+Perfluorooctane sulfonic acid|87d12347-e469-4f46-9746-08758d5b27be
+Perfluorooctanoic acid|2a790acc-1879-4bc4-b781-8f579d810faf
+Perforin|39c5a0b0-a24e-4747-a457-a8ab434cf2f7
+Perindopril|9af8603e-7b0a-40a6-95b5-edf3481ca3e0
+Perlecan|3e37694f-c5ba-4b7a-ad8f-c4195473c285
+Peroxide (O2(2-))|c370f791-1265-4ea7-b2ea-6b396225c5e3
+Peroxynitrite|0473a37b-91e4-4baa-8e38-8f57b599c63f
+Pertussis toxins|f2ae5ec6-5e85-4baf-805e-ed6db9394526
+Pertuzumab|c7877084-6918-4148-9f2b-bc71f61c222d
+Phenacetin|0a5139ea-3a4b-43ed-9c63-bb8e2abdb290
+Phenelzine|6d68dcd3-4037-4cfc-b3b2-82f485d10602
+Phenethyl isothiocyanate|17d36a02-45db-409c-813e-579462d8d54b
+Phenethylamine|ecd5ed07-1951-4552-a104-71186c189721
+Phenformin|e47aa590-1544-40ac-be33-a0de93a33107
+Phenobarbital|b152e85b-af56-4080-9f05-98fb97be2046
+Phenol|5e9958f7-8dcc-4002-a391-8fb6026a8c09
+Phenol, 4-(1-(4-(2-(dimethylamino)ethoxy)phenyl)-2-phenyl-1-butenyl)-, (E)-|5f22bace-04f2-4733-9280-694bfe045548
+Phenol, 4-(1-(4-(2-(dimethylamino)ethoxy)phenyl)-2-phenyl-1-butenyl)-, (Z)-|b7f8ae0b-3ce6-4697-b54a-7ae6cc00eb16
+Phenolphthalein|e0e441e2-e367-4a9f-9428-a9f441215e80
+Phenyl acetate|9535f61e-a027-4980-baed-b994221f0948
+Phenyl-N-tert-butylnitrone|1b9c85f5-b25e-4752-9e31-4b6a784ad27a
+Phenylacetaldehyde|e65a98ce-5b2f-4e5a-a654-e95c313fb646
+Phenylacetic acid|1b01a920-5774-4d3e-8d15-feb6cf5d212c
+Phenylalanine|4e33eacb-ab2e-4190-a5c4-c9a65cbbebd4
+Phenyldichloroarsine|914acc56-4ba8-4e56-a256-ec3ec85c0787
+Phenylephrine|e55865f3-6005-444e-8f84-85a4248e98e5
+Phenylhydrazine|b8381807-b98a-4d67-b2bc-1c42c1370b52
+Phenylmethylsulfonyl fluoride|186725e7-f006-4e2b-a685-2d7056b71901
+Phenylpyrazole|bc68e7eb-620f-4e26-a873-5ed3c00bced9
+Phenytoin|42a195ef-4079-46df-a83c-2d07d2210fae
+Phlorhizin|7ae9c5cf-6405-4d4f-964c-b7abde2a2134
+Phorbol|bc40ed08-9170-4697-ba39-c2db4084e522
+Phorbol 12,13-dibutyrate|ab4b3c4b-da53-46e0-9cb7-8ab434f57441
+Phorbolol myristate acetate|52545c97-78b5-47ba-900c-821f18e670f6
+Phorone|0b20e5f5-d348-4b39-bcca-06306d8bfe7a
+Phosphatase|2dc8c614-4905-4d1a-af1c-c7000dbf5147
+Phosphate|11571459-a7f4-4710-a5fe-dc4ab7c7a46a
+Phosphatidate|5e431e38-4421-448c-9fee-50397daac38c
+Phosphatidic acid|8cc5846c-c6c4-4e80-9945-140bf0cebc09
+Phosphatidyl choline|2875719c-90ad-4ad6-a231-f74869c4627c
+Phosphatidylethanolamine|a2870830-fb1e-4137-9611-9aab003a6e3b
+Phosphatidylinositol 3-phosphate|8242851a-cbdf-4b54-b0ca-8211bd0b5ead
+Phosphatidylinositol-3,4,5-trisphosphate|c24d4365-7ab2-4e72-aaf6-8f25ca4b555c
+Phosphoadenosine phosphosulfate|ad6c7415-a8ef-4a64-bd8b-c15d1d63cc94
+Phosphocreatine|73ac8e04-dd5a-46e9-8f36-ce709bd1fc88
+Phosphodiesterase|1e9e5a7b-b7ac-4318-8357-3ec4556c899b
+Phosphoenolpyruvate|e26cbd35-c9e6-458f-b92e-8cd65ca47da0
+Phospholipase|ad09c22a-0651-4eca-a3e9-3f640e9aa6d1
+Phospholipase A2|6c4bea11-b68e-43cc-91a2-2856717f52dc
+Phospholipase C|2851b051-64a7-4403-9a10-b6539dc051b7
+Phospholipid|14523862-4528-4e6b-bef8-4cd280cfb807
+Phosphoramidon|ed44cc22-00e5-4858-a8d9-068c63fd4010
+Phosphorylase b|b159829b-e1ab-4cc4-909e-19b87c5c1633
+Phosphorylethanolamine|157d2d3a-3d17-4bf4-9f30-74763ee93f99
+Phosphoserine|9aa0bf28-4d0f-4dae-9ff6-a285b154ae5c
+Phthalic acid|91d5df51-ba81-42ee-8be5-8853dabc9998
+Phthalic acid, mono-sec-butyl ester|e2d9265e-c4bf-437b-a2b7-f8722b9c76f0
+Phytanic acid|b3baeed6-c41c-4013-9459-ec4db2b55ba7
+Phytic acid|60cbd94c-7eb2-44da-85b3-6549b00603bc
+Phytohemagglutinin|45a2f05f-12b0-4aca-9963-19d4b4aedf83
+Phytosphingosine|c5b34a08-582b-4614-ada5-6f91d15ab19e
+Piceatannol|382eb993-fc9e-4b7b-a3c1-94ab8b5c484b
+Picibanil|6827282e-342a-405e-9f09-c80af6f76365
+Picolinic acid|a261f3ba-91fa-4b9f-ac6a-c0b8a12b3495
+Pilocarpine|ace05b37-6187-45c4-8ca5-fb0d0712bc4e
+Pimagedine|3cb3797d-e20b-436a-a128-3e772a0cb846
+Pinacidil|dd35fcad-a746-415f-a749-2138232b8601
+Pioglitazone|6314b1e3-5850-4c25-9a6a-662b84ef7da6
+Piperazine|94d9d544-2827-4bbc-940f-6bfd8423f50b
+Piperine|28e47b47-7bc6-4ae4-9c7f-dde7cfd55abe
+Piperonyl butoxide|5f7147e7-ee02-42b0-9d5b-82a3bdfdb45d
+Pirinixic acid|424b1cbf-8ac0-4a94-b7d6-5b4c93b9f94f
+Piroxicam|bdb07de2-ebc6-47cc-82b4-f3720fe8eb47
+Pituitary adenylate cyclase-activating peptide|92c93c2e-3621-4cd3-b2c3-b8fe92b26430
+Pituitary hormones|c1ac02f0-c15f-41f5-b36b-efdaddf62f6e
+Plasminogen|280e7a5c-248a-4e52-8b62-4bcf63da5bc2
+Platelet activating factor phosphatidate|d24d60ef-b264-4eb0-b6bf-b208a266729f
+Pleiotrophin|55828d92-5792-4b2a-9c76-6d01185a6686
+Plicamycin|ad322075-ae24-4ec6-8079-8a73d3819ab7
+Plumbagin|fff7619b-e028-466a-b0ca-271dd54c425e
+Polaprezinc|90eb724a-5bc2-4ada-9ba6-83c4d8c3291a
+Policosanol|7718ff73-2033-4fde-9371-8da20c9c056e
+Poly I-C|e7289e76-21bb-4f20-b15b-263f435a7180
+Poly IC-polylysine carboxymethyl dextran|29138e63-1924-46c0-b7ef-da5d904e4746
+Poly(imino(1-(4-aminobutyl)-2-oxo-1,2-ethanediyl)), (S)- (9CI)|be1ab8c0-6099-4e4f-bfbd-27d565e183d6
+Polyamine|a8636c75-d84e-4f9b-85ca-cf479ec5cf30
+Polychlorinated biphenyls|7d73692c-9136-4351-8ca2-497a320c537f
+Polycyclic Aromatic Hydrocarbons|ee8d55d1-e853-490f-a3eb-290937398f04
+Polyethylene glycol|0dd5ebbd-95a1-4d45-a847-f4b245f0c6b0
+Polyglutamine|c1715ba7-0ab4-486c-8bcc-f47f716f5122
+Polymyxin|9ca73267-f067-4920-a86d-8391d6f5145b
+Polymyxin B|8972c1c3-fcc6-4dd6-8f03-3f6029054766
+Polypeptide|7c62d1e2-eca9-4440-ae5a-0bc5e99ef6b5
+Polyphenylalanine|df4f2c29-68ef-4ebc-9ee8-0d7fcaed2e81
+Polyunsaturated fatty acid|e6bfc9d6-23ea-4a9d-91a0-f18a423a3748
+Pomegranate, ext.|739b229e-0340-45d7-8a34-ccc8ba1a48bd
+Ponasterone A|5fe538e3-bade-4a3a-913b-ce6303d7a878
+Porcine pancreatic elastase|008f9b34-723c-4a18-ba98-49a41aa32831
+Potassium|f6031016-9f8e-44cc-9fcc-a9b2eb455065
+Potassium chloride|c43791d3-20d1-495e-abfa-3cf9cccd37f3
+Potassium iodide|deeab32e-93e4-44b1-ad27-cc407b3729c1
+Potassium superoxide|bceef08d-bcfe-44ab-9903-8125864c61a4
+Pramipexole|e2b83952-0891-417b-8f8d-b33804f00e54
+Pranlukast|a1e4d231-1bda-4762-9c57-f27bff6769fc
+Prasterone|f49263aa-6b5a-4113-a4cc-5e39e9cbc755
+Pravastatin|5048894b-049c-47c7-8273-17873c6f5f5b
+Prazosin|195a26af-b9dc-45f6-9a61-d36794dc9398
+Pre-tRNA_Sec|f9ecc02b-20d6-4b7c-8b81-4c5b9ecf322b
+Prednisolone|d1edc577-9a8d-4c5a-9f7f-bc2cb37563b1
+Pregabalin|6d0a0642-7296-47bb-a269-e09e714059d9
+Pregn-5-ene-3,20-dione|c624ad4b-19c9-4619-a040-f0362c407a6c
+Pregnenolone|51f6e0db-50c3-4b15-9de5-5f55fa4e529c
+Pregnenolone carbonitrile|1e9f7c79-6aba-49c0-9f89-53105509a98a
+Preprogastrin|8799645a-0641-4f89-8003-5d0a8ff91c42
+Presqualene pyrophosphate|9d6a894f-ceb7-46a2-93b1-32d9d06f6b44
+Previtamin D(3)|8bde4ee1-f60e-4873-9a62-a0dad1f567ea
+Pristanic acid|2827e647-e04f-4716-975c-08c65667a932
+Pristanoyl-CoA|eb550faa-3f40-4dae-bcb8-b8d83cc7438e
+Probenecid|2894f11c-1c45-49c8-acee-fa32ad0ec6ea
+Probucol|208649d2-b207-4244-8d05-11cf84d884c9
+Procainamide|f7ce9088-bf71-4682-bdd8-7aaa86928eba
+Procolipase|e7c8c55d-74b8-4081-aa5d-d7be06f45f17
+Progesterone|312d60eb-7f41-42d1-b017-d29a65de66e3
+Progestins|522a906d-cb8d-4f5e-901e-634bea3e7bc8
+Proglumide|37c0d83f-52eb-425a-ad51-fea0bc551abb
+Proinsulin C-peptide|85e68d91-d6fe-4c1e-8247-b99ddc79d0d7
+Prolactin|97258835-008d-4b48-955d-a78e1cd98a90
+Proliferin|91820a1e-db5e-4071-83eb-c400677b5a31
+Proline|d08700c4-8b4e-4856-ab8d-8c0859f20c54
+Prolinedithiocarbamate|159440c7-1788-493c-9a54-4b27c2113442
+Promega|eccfce74-31db-4084-8f82-a5b264a3155a
+Promegestone|ce293236-d8e0-4c5a-a9e6-8ce80079dcd7
+Propanoic acid, 2-oxo-, ion(1-)|46a11fd6-e471-4fb3-8bec-5c89972e06c4
+Propargylglycine|04f17957-fdcf-4a15-b78c-70a640133497
+Propentofylline|8f4e622b-9d58-4c5c-a2d2-5f481465f963
+Properdin|36bf8fb4-5dde-4d7b-8e24-2480d4274d58
+Propionic acid|7236e6c6-aa22-46f5-9f2b-47bc6219a677
+Propionyl-coenzyme A|860443ec-8bda-4971-9e06-370690adc313
+Propofol|6165e241-a3b0-430c-98d2-66a10a4c615c
+Propranolol|ec58aa0a-4a93-4073-a133-32efcc6401b7
+Propylthiouracil|91ae44f8-51d5-46e8-a382-030a1896382a
+Prostaglandin A1|e7ee253d-0460-4751-9691-74c50cabbd70
+Prostaglandin A2|ac40e787-55b9-4ce1-8f1c-33875ed9f9cb
+Prostaglandin D2|4ab963ab-95b6-4d61-99e5-6efa6b0a7b71
+Prostaglandin E2 methyl ester|f6cfdc54-15da-4339-9be4-4a370dd8e2a3
+Prostaglandin E3|3343d300-1007-48e0-aecc-2f008d3cc9e0
+Prostaglandin F1|fce937e4-c47b-4eca-a6ca-e769cc744ff9
+Prostaglandin F3alpha|d1667b32-6360-41da-9eb2-ae7912acdf4b
+Prostaglandin G2|20dc2bd8-1522-49d1-8ccb-d2523b88aa3a
+Prostaglandin H2|36c543e9-048d-4518-a34d-2fb5a80326f9
+Prostaglandin I2 methyl ester|bbb3388c-9285-48be-9e86-96361aedc77f
+Prostaglandin-derived 2-trans-enoyl CoA|87722a17-7813-4b43-abd1-661d783e8917
+Prostaglandin-derived 3-ketoacyl CoA|6be314e5-74f6-47ef-baae-6e785600c5d3
+Prostaglandin-derived L-3-hydroxyacyl CoA|377661e0-b8d3-4e61-b356-70d5c089df49
+Prostaglandin-derived acyl CoA|ca58620e-5081-4323-b54a-b81247ac7abb
+Prostaglandins|ef67307a-295e-4fc9-b646-182f0706817a
+Prostratin|ffd35861-18d9-4ae3-95fb-f11707e0ae9c
+Proteasome inhibitor|40766a68-c9d7-4814-939a-103c3dadec7c
+Protein glutamate|5662dbd2-2e20-4bce-a3ec-54f9d2a7ecfc
+Protein, whey|ec6ddc03-6ba0-4280-80ae-a8422001916a
+Proteinase, metallo-|fd505c01-bd69-41f8-b956-f2ecc5752111
+Proteoglycan|8a362393-5e40-4100-b859-9b8ca64c5c8e
+Prothrombin|a123aa7a-db1e-4f7f-8f4a-62bcc1e4975b
+Prothrombin fragment 1|09b6c508-2f05-4be6-a70d-ed70ecf5dac8
+Prothrombin fragment 2|1ebfbb90-bfdd-4d58-bdc0-101cea687151
+Protocatechuic acid|2dc53a4a-d272-4e3e-afbe-c824617d78ff
+Proton|322ce9a0-1f0e-4adc-8508-b898c1f826e7
+Pseudoisocyanine|44e9bea4-35cc-4f8d-b856-fff2dbcc5d72
+Pseudolaric acid B|6de96fc6-1bd8-4f99-baa0-33524dca3df5
+Psychosine|8fea572b-f07e-47fc-92d0-7c95a2b4ac32
+Puromycin|f4e4308e-add0-4e68-8ab9-68d59c1e3134
+Puromycin aminonucleoside|27ee0b06-8f04-4d84-995c-8645c53e9e04
+Putrescine|cc6198cb-bff9-424c-9861-634630cb419e
+Pyocyanine|2fe84aa0-b5d2-4adb-b95c-95b99798c8e0
+Pyrazole|afeac48d-3c22-4b6d-9482-6dc3e924d27a
+Pyrene|bebc8a19-2258-4544-bf6a-c15716b63099
+Pyridine|480a8a04-9fd5-4930-b5c1-89fc077634ce
+Pyridine, dihydro-|7ba6734f-4d40-4ba4-8431-3f2893fcef12
+Pyridinoline|33b18d8f-7088-4fbe-9ac2-facf4f33c270
+Pyridone 6|074cc0b7-a20a-4183-b852-13b190cea8e4
+Pyridoxal phosphate|cfb53a3d-1fae-429c-97d8-6d0c7c396489
+Pyridoxine|8045ca4f-2dfc-4646-af7a-305ccdd02f34
+Pyrilamine|475772b1-af20-428c-9411-9a80ab97ea4a
+Pyrimidine, dimer|9a669ed1-dd49-4b0c-bebe-720262d8a9fc
+Pyrogallol|96544fd9-d03f-43ac-be46-83bf5e5f0686
+Pyrrolidine dithiocarbamic acid|35c00120-c433-4091-8024-1ec128e96c0d
+Pyruvaldehyde|fdfc6991-cba9-4a87-95fd-bbd7d9de2895
+Pyruvate|302ec10e-a0ea-4f1a-8c8d-81a1262be72c
+Pyruvic acid|29353971-72ea-46e0-a1e2-2f671c4f0640
+Quartz|94b05875-fa65-4c00-9492-5315caa85553
+Quercetagetin|9a5c6fff-8644-4570-b0b1-043327e041d3
+Quercetin|0c6976e8-b0fe-4fd9-ad12-949f042ccb76
+Quinacrine|a89605d4-1ae3-4a61-a6e9-b5a41155fdaa
+Quinidine|c8c3d6d9-16ba-4780-a70a-550e02373605
+Quinolinic acid|8ff6dbff-0654-4e72-b315-a60d21c37efc
+Quinpirole|eeee2eea-6611-4fba-878c-7e4d5a8183f2
+R 59949|4c64c58f-3b7d-46d8-8cd1-9b1508b3d3ed
+RC 3095|27389a7a-1c2c-431c-af77-67741b4960b3
+RNA, Transfer|55f69108-2299-446d-87ac-35c17d6b4fce
+ROCK inhibitor|ec8301a1-f45a-4ade-8292-721bfaf6f5fd
+Raffinose|2e472602-10bc-4f64-b1fd-2b51623844a2
+Raloxifene|a8d87216-3abb-438e-bc3a-7e57b935c393
+Ramipril|4af18ae3-e202-408d-9d63-bdd2024b0db7
+Ramiprilat|dd96132a-d190-463e-8377-a2ff53fd9f0f
+Ranitidine|baa43f28-67ec-4290-b906-0dd91db58da0
+Rbp-jkappa protein|5e5c96e6-2946-489b-ac4a-915107493f3f
+Reactive Nitrogen Species|b427b9a1-5e2b-4a05-bde7-e97cb770994c
+Reactive Oxygen Species|7580d2c7-57d5-4a35-b303-f1373edb2c89
+Realgar (AsS)|74c4db21-e92a-47e8-bb2f-fae56ccb0554
+Rebamipide|5eec6eb4-7069-4030-bdf6-5dc6ca394e6d
+Recombinant human growth hormone, JR-8810|683a4a48-f6d2-4915-87da-889da83b874d
+Relaxin|222d0627-afa7-44b3-af11-c74fd4f4e044
+Remnant lipoprotein|a3bd4874-faa5-4cca-aead-12482635596a
+Renin|c34ae912-3798-435e-b8ad-cca6ae61a0a4
+Repaglinide|07a88834-1ad1-443a-afe5-63210ad4ca67
+Resveratrol|3e6b8697-7925-4187-903e-a7a86fb91ce6
+Retinaldehyde|14dc222c-4090-4358-8c62-2794c3cb25db
+Retinamide|4ca461b2-a67d-4b6a-a868-0143b9afd867
+Retinoic acid, 4,5-didehydro-5,6-dihydro-|e05fb594-501d-4f9b-bdbf-2842db2bfffc
+Retinol acetate|5b3cc7fb-e6fc-4657-baf2-07c3adbe72ee
+Rev 5901|05291c6b-cbbd-4bf7-bdeb-0809f5899544
+Rhein|8dd390bf-f717-4ff7-8f77-0d599bfa3ada
+Riboflavin|4844bdae-0527-494c-a5fd-f52b565dd96d
+Ribonuclease|1c035443-409d-42b6-91d0-e90195a640e0
+Riboprine|3604d81a-f21d-49e7-883f-7587db8d314d
+Ribose-5-phosphoric acid|3684f405-bcdb-49ec-a31c-91e7d4f71105
+Ribulose 5-phosphate|ffda213d-7936-403b-8207-537ead0b0823
+Riddelline|8a654587-5dbe-41ad-8ad9-5b4bc98c3475
+Rifampicin N-oxide|d1f5f3a1-5997-46c9-83a2-3eb0101e3902
+Rifampin|da27660e-32b5-40ca-aa80-dbca93ac3125
+Rifamycin|5a6076e2-08d5-4598-a92f-befb6e38779a
+Riluzole|61c39ea8-a6e6-413b-9a57-8b0f38297180
+Ritonavir|7af6f6fc-37f3-4624-b3b0-36ae095cc04d
+Rituximab|75fa1a01-409d-4387-aacb-f2cdfb45d8c9
+Rmi 12330A|45382ed7-56b8-4f6f-a4a6-4c2d62426100
+Rmi 14514|acd8ecd3-5c50-4947-ae58-20b916235569
+Ro 13-7410|f8eaf942-dda8-4aae-86f6-56315bc9233f
+Ro 20-1724|a2d2baca-2ae0-4d54-83e8-3c637226876a
+Ro 31-7549|afc1665e-ec1b-4c4b-8162-37ac3d4dc791
+Ro 31-8220|bbd7dbde-bcf3-45eb-a6be-4fe75e2fb314
+Ro 31-8425|d8e389cf-ef41-4e8f-8629-c0aaa7375e4e
+Roflumilast|0142c0e7-e2da-44fa-8ebd-5f6a73b10931
+Rolipram|1ec20857-f933-463c-9975-fb58f756bae9
+Rooperol|c6f3f777-f032-4ca8-b9c5-538c46a1b1b3
+Ropivacaine|d2150d4c-da53-4006-a4fa-c7cf8d3ee98f
+Roquinimex|bf5b9e28-e686-4177-bba9-9ce11b46ac63
+Rosiglitazone|cf5780eb-6b56-4b9f-bb8c-3b9a0b2ddf6c
+Rosuvastatin|0f2c6d16-3aec-4bcb-8a90-acb667e6d729
+Rotenone|cd7569dc-537b-42ba-ac24-7a739bfb8855
+Rottlerin|64520fbf-4d22-4848-911e-ff928b530b7b
+Roxatidine|25dbb189-b7a3-48a7-9651-ff6f698d3255
+Roxithromycin|264f6f85-4ebe-4626-b023-231b1ef76d3a
+Ruthenium red|5116a4cb-e63e-49f1-9030-aca8490c3575
+Ryanodine|357f0a78-4e3a-457c-9147-cdffab82c9ce
+S-(1,1,2,2-Tetrafluoroethyl)cysteine|226e65ff-5366-406c-a0fb-9c4fe5dcc1db
+S-(1,2-Dichlorovinyl)cysteine|15962a02-513f-4c2f-8ee0-cdd742f039d2
+S-(2,4-Dinitrophenyl)glutathione|5521e6ba-520f-4aae-9def-e6880a696540
+S-2-Hydroxybutanedioic acid|c3010f6c-9e18-440a-9e48-0eed1852467c
+S-4-Bromobenzylglutathione cyclopentyl diester|87e83f50-ff80-4c4d-84fb-100b59fd3bb7
+S-Acetyldihydrolipoamide|9050f49f-888c-4927-b290-960f887c998a
+S-Acrylyl-N-acetylcysteamine|5f520da0-2ab0-4646-a203-78280d4a209d
+S-Adenosylhomocysteine|01438669-7fa6-4398-bbd7-fe6fb09e7b1e
+S-Adenosylmethioninamine|0473036d-aa0d-4237-ba6f-231cb6e7ce60
+S-Adenosylmethionine|a93977be-e963-459e-a79e-84dec9512d01
+S-Farnesylcysteine|863b0f5b-70a0-4eb6-8653-9250788e9e3c
+S-Nitroso-N-acetylpenicillamine|60c8c675-b3eb-40f8-baf8-baa2afa39de6
+S-Nitrosoglutathione|39c2e4fe-6c23-4849-b07c-9238cca0c36b
+S-Succinyldihydrolipoamide|5b50feb9-1359-4b85-8197-822746469601
+S-Tetradecanoyl-coenzyme A|1a67661d-e30d-4eff-a1e9-efc23009f515
+S-methyl N-butylthiocarbamate|572b814f-b60d-4ebf-9d92-48b00461d310
+S-methyl N-butylthiocarbamate sulfoxide|b4f062d4-9a55-428f-a742-4ce5dbe8dd02
+SB 201146|2eaa5f95-498f-4a19-ad7d-35e54754e779
+SB 202129|e98ee8fd-b38f-4686-a0ce-60d1e5eceaa3
+SB 209670|bbe704c5-01ff-44e0-9baa-2318bc6bd30b
+SB-202190|4d08db7e-3895-4975-ba96-807cde919c71
+SB-203580|14e1f694-d123-419b-b729-401f7feb716e
+SB-216763|306c23bb-5ab9-4635-85f6-c8d212e09a74
+SB-559457|05c7194c-c6f5-4385-8e69-2baa935d2090
+SC 514|7221eb08-3d68-4cd1-8b4e-d23ef93fe985
+SC 58125|bb2dba92-747d-4823-801e-fd2ccc7cd165
+SC58236|3144a5e0-0969-4101-91db-8462c7bc4e21
+SD-208|f0b6d857-83a0-4239-8667-e55cfc1c55fd
+SF 2370|a297665f-e6db-4d87-9278-a6e75cc828fa
+SK&F 82958|aaf9aea4-6e82-4da6-8e42-8f0dc79ac06a
+SK&F 91488|3b16fbf4-b876-4a77-beb2-059046a2c075
+SK&F 95654|e58c8306-a825-4c4c-9268-606027a506b6
+SK&F 96365|e19bea0d-5cd6-44ab-bb9a-da23310f8ac2
+SK&F-38393|82df7588-a57e-42e2-ae73-deb4fdd64a0b
+SKF L-94901|57007b12-61d6-4228-8b01-f1c03657bc36
+SM 11044|1b667255-0a23-4819-81a7-659c317cdf28
+SN 38|d957ce85-1b67-41dd-858a-d962c0a6f0ca
+SN50|ddbe03ee-75d9-4eae-bbad-7913ef0c633b
+SP600125|c4639c7f-1842-4411-8c2f-6841894e65d5
+SQ 22536|7e0f0642-557c-45d7-8cab-e32145460595
+SQ 29548|c4dc899a-a94f-4f48-8339-feb0323ae33d
+SR 11237|3ba72561-2ac6-4c60-a65e-fad8626e2a87
+SREBP Cleavage Hs|fc604af6-43eb-489b-b07c-b2e9d33dc9d1
+SREBP Cleavage Mm|54e4f75f-c2d5-4b78-8c88-5393ec16ffc0
+ST 638|2044702a-c3be-4392-88af-552df4bef1e6
+SU 11274|5958c995-01dc-4f89-b4c4-377650c6905c
+SU 5416|543c6108-8ded-49d0-a2ac-2fce1b4d07c4
+SU 6656|92968cee-4fac-40f4-96c5-47dfd0fb9923
+SU 6668|d87ebabe-decb-4605-8257-354ea5c86dd5
+SU6656|9dbdcbc1-785c-4d9d-8e06-42d3c4ca86d5
+Safingol|98a4bcc7-c0a1-41a8-83d0-9c6e0132686c
+Salbutamol|3a32e2dd-3857-4d12-8ea2-aa7a51a43e1a
+Salmeterol|b65c9bfd-8f56-4751-b281-948899b79397
+Salubrinal|6a87d323-44d1-4938-95e0-b3c197f9e8d3
+San 58035|a67b8dbe-e3b8-48b7-aaf4-689d4825f4f3
+Sapropterin|900790b9-1900-4963-8366-55c8f8e26f2f
+Saquinavir|089897db-b3dd-4b28-8ddb-4cd7261bcf1c
+Sarcosine|c5d28272-fe88-4c0b-b19f-4bf10f1b7170
+Sarin|c2d9c357-4d7d-4b53-9cd0-217a9b460811
+Saturated fatty acid|f86e59a6-6977-42ce-a7a1-c6a08ba20190
+Sch-23390|963daf6d-c2bc-4007-98c4-98c7f88b81d6
+Secalciferol|dc772674-2460-4cb4-9bf9-0613fe26296a
+Selegiline|877c008a-563b-4674-9de9-da72082f6e67
+Selenite|99baee36-d0d5-4603-bc8e-6136599329af
+Selenium|bb7762eb-6609-4b44-8927-6a1f9a55e54b
+Selenocysteine|32189be3-08b0-4749-81b5-3fdd1e4d26c7
+Semaxanib|3c01f607-c53f-4846-b21d-fc92d4be82b9
+Sepiapterin|c80017ec-f477-423a-bdb6-ba665b5853b8
+Serine|5b695f4e-386b-4a9c-82b9-d6f5b4ad2dad
+Serine D-form|19d5d824-69a1-406b-a707-27ca521659ae
+Serotonin|b121ea3e-ccc7-4cd0-98b0-44790a02d6ed
+Sertraline|2a86771d-bf60-4a37-b905-84577ce8a5f8
+Serum Glucagon|418ca4a0-5345-4cc3-89df-0d75f23216fa
+Sesame oil|10bd5618-0d02-4cc3-83f1-ca3db55a8b58
+Sesamin|6667e2fe-2ee8-41e5-88a5-b4bb81e08cd0
+Severin|d903a62a-470f-4942-af78-b04ff0de1cef
+Shikonin|53511f61-6293-4d4d-a226-3a152e727143
+Short-chain 2-trans-enoyl CoA|929e1faa-ec72-431f-9c6c-df7cbcb74a76
+Short-chain 3-ketoacyl CoA|9d6104cd-a8ab-47bf-a846-2d1160a83209
+Short-chain L-3-hydroxyacyl CoA|0ce36803-5fb0-4ba7-a551-cc27195ec0c1
+Short-chain fatty acid|422c539a-f83a-41ca-9ede-91e23b0628fd
+Short-chain fatty acyl CoA|ffc933c1-b3e5-43eb-b251-a292f9e172f5
+Short-chain fatty acyl CoA (-C2)|9d75187d-ad8c-401d-8418-024a8dc60ce0
+Shortened Acyl-CoA|f668b5dd-07c8-4856-832c-95d6abbcdfbd
+Siguazodan|5ea1896c-2daf-4644-b192-39777ca8dfea
+Sildenafil|2600232e-ec80-459d-8add-079c4abda478
+Silibinin|b7966657-1dbf-4ca0-bbc9-30d7f57f38d1
+Siliceous earth, purified|c9b079a9-c637-4c00-b587-04becdcf4a08
+Silver|fa2d927a-34a0-4b70-88d7-9f3b2415cee1
+Silymarin|b7966657-1dbf-4ca0-bbc9-30d7f57f38d1
+Simvastatin|88990ce8-1ba9-4d8d-8c8e-4a87b97e16e7
+Singlet oxygen|548e95ca-7e3c-48f6-a353-e4154fcd1925
+Siomycin|bca59eb0-1b48-4a01-82d2-3e11a2cbef8c
+Sirolimus|bce1f257-ef80-477a-a3aa-90fe47788afb
+Sirtinol|f1ebfe1e-e67b-4ea4-81f3-09af0fa67883
+Sitosterol|080c120a-fa21-41d0-846d-6c8ea771dc13
+Small High Density Lipoprotein|153902bb-9a28-4dbe-bb61-d46d2ab5c4d1
+Smoke condensate|3a3179d0-e9b2-442f-bdff-31fb740622cd
+Smoke condensate, cigar|18b24e38-b2f3-49d0-a9e2-fc316fc80a63
+Smoke condensate, cigarette|e232b0e4-88ce-4194-ad70-8edcb7e72b08
+Smoke condensate, cigarette (heated)|3f7c64c0-4e00-47e3-8581-a44e7a6f1869
+Smoke extract, cigarette|0073e07a-389c-43e0-8444-36df63016b35
+Smoke, cigarette|736463f2-701b-4a35-84f0-dc5cf3cdd8ed
+Smoke, cigarette (past exposure)|b880ea75-7579-462e-aa41-19cf02eb16f3
+Sodium|f12ebfca-cf68-46c8-a80a-7ecd17a0b306
+Sodium Hydroxide|330af8f0-dce9-4c7a-97af-7b4ab81af7aa
+Sodium Lauryl Sulfate|8fc9d45e-31fe-4318-af77-23609caabac1
+Sodium Salicylate|7c85a2db-b1a5-4ff4-ac70-9294737471d4
+Sodium arsenate|bf390c17-ce06-4b18-a900-e9c5247a458c
+Sodium arsenite|7bae12e3-a659-4b02-bcde-27e2609ca268
+Sodium azide|49987b76-0260-4164-8807-0434f589d41c
+Sodium bisulfate|958674ca-63f3-47a3-8486-d2ccc287e9ab
+Sodium bisulfide|4676a877-95e0-426a-b880-54a62606ccaf
+Sodium butyrate|1a9fa1f9-de09-4a7e-a303-6a957188737b
+Sodium chloride|c380a3e7-5383-436e-af17-cd9b3587c996
+Sodium dextran sulfate|2847f066-e0e7-4906-a170-fc2571ec657f
+Sodium fluoride|386ee524-56ab-4eca-8442-cd1373f4891f
+Sodium glutamate|eb41f0f6-e245-44fe-af9c-a3c08379b97a
+Sodium nitroprusside|9d1f52a5-44b5-469c-872b-9234dc1fde7b
+Sodium phenylbutyrate|d2c0d2cc-9ba8-4e38-b627-5adc672582a2
+Sodium selenite|3c6c4f2c-da10-4539-b6b4-9d782cdef024
+Sofalcone|c78536c9-1771-467c-aacd-dd879ce1c8f6
+Soman|06e4d6cd-e61d-4fee-91c3-265cb7b5a818
+Somatostatin|479d6d37-fab7-4b35-bca2-7042aa11701e
+Somatotropin|3daee4d0-276c-461f-93c5-05f0627bbb7d
+Soot|7c264e28-d2ff-40f1-b4c3-803a27ed28c3
+Sorafenib Tosylate|8414785d-762a-4e68-b130-082420aec202
+Sorbic acid|1d54e342-3b4a-42ce-b323-2c4f5b875b87
+Sorbinil|43d4b8f2-7bab-4f16-bcaf-a10e4fdc1e90
+Sorbitol|a6328513-8677-4919-a3b8-f1f99d121905
+Sorboyl-CoA|bf5edc42-062f-4a25-b29f-04b0dedf3c43
+Sp-cAMP|ff895693-5c92-48da-9a52-76c52fdb28ee
+Sparfosic acid|cb952a21-2d72-486b-a96d-8ffca2cf0e0d
+Spermidine|11c8011c-3547-4e46-b70a-7a1595139e6a
+Spermine|6ae6aeb1-66e2-4deb-b193-baa26e991425
+Sphingomyelins|62362e4d-8828-4250-a26a-aad04b95139f
+Sphingosine|5ace5fb3-e2b6-4dbb-a7b2-fa925d5cf5ef
+Sphingosine 1-phosphate|a3a11e2f-0076-4b01-8e6f-599bdd27cd61
+Sphingosine-1-phosphate|4f61cc7b-cb14-4b8a-85ce-65a38f3ccf83
+Sphingosyl-phosphocholine|bb7b95b6-6f48-4f3e-bf4b-a0bdb1e66b20
+Spironolactone|c6bd4c63-b431-4891-95ea-1dca2336dc40
+Splitomicin|5ec85c85-fd0b-4251-8fd5-410756bb3a46
+Sq 32709|e60a3a4c-eea0-4713-9a0f-9bf6c613fe4e
+Squalamine|78c3fe38-f210-49a0-ac23-5e2f07167486
+Squalene|57d53eef-2de7-4152-a3a9-5b6ac5539b44
+Squalestatin 1|0288e6e1-2567-48b8-a41a-dffd9e7816e4
+Src-like kinase inhibitor|ab3c43da-37ca-4d82-84d8-5107001ab604
+Stannous chloride|b5752ea1-e91a-4a20-9705-eaf474a223c9
+Stanolone|44aa4a2f-5c62-4228-a27f-2d64b874a91c
+Staurosporine|c8a53b2e-a940-45bb-b317-e1d34111fdb9
+Stearic acid|65550b1c-dd22-47ac-a049-9d1660158324
+Stearidonic acid|4368b595-1729-4a32-822a-562a70770e28
+Stearoyl-coenzyme A|40ca14c2-a9b7-47eb-85cc-72d5dd697590
+Steroid|b4c2f524-25b5-4fcf-86eb-90988748db48
+Steroidal estrogens|b79f8c96-43d2-4087-9305-902ccbdc8f62
+Sterol|800c1ae3-8a25-48d3-8516-0b84d53c49e5
+Stigmasterol|690f12cb-b147-4b68-9b1c-9e92a07c46cf
+Stigmatellin|25a53551-e541-4f5c-84cf-d8cd2ffd6b94
+Straight-chain 2-trans-enoyl CoA|4f390b07-b2f4-4aef-80d3-74d56a27dc52
+Straight-chain 3-ketoacyl CoA|71b15678-89fc-421d-9d57-a82ec9f468a5
+Straight-chain L-3-hydroxyacyl CoA|a7c90b0e-8f66-4fba-9ff9-29416e0bd006
+Straight-chain fatty acid|3dc66c94-82b6-45c4-a038-0620bb71154c
+Straight-chain fatty acyl CoA|203f3798-4500-4b95-961a-305532d95ceb
+Streptomycin|879598af-8e6b-49cb-a033-f0678d589c8d
+Streptozocin|7f9cf001-bbc3-4076-beea-e4f3b6c79631
+Strontium|35e74c9e-564e-4ddd-9152-54fbc1be6c5a
+Suberoylanilide hydroxamic acid|4d32f0ff-009e-4b74-a8ec-de97d8d88082
+Suberylglycine|77d4805b-e2fa-4a16-9f6e-1c35467aba05
+Substance P|963865cb-5ce3-4946-b079-9aaf5a1dec44
+Succinate|0d809c23-de2a-4306-b0ec-016f95701efe
+Succinic acid|dd27ff89-d3c8-4dda-9cb3-b6227a1c3fa0
+Succinyl-CoA|13b716b2-3ace-4038-a8eb-cfff1b8b5e21
+Succinyl-alanyl-alanyl-prolyl-valine chloromethyl ketone|a9a63f7f-a46b-49f6-a285-e849b137ae90
+Succinyl-coenzyme A|13b716b2-3ace-4038-a8eb-cfff1b8b5e21
+Succinylacetone|03260419-2e4f-47df-8a95-fc99c799e7ab
+Sucrose|fe5d3999-bcc9-4d2b-b0f5-e33faac45d8a
+Sufentanil|9ed60d0e-d3d8-43dd-9bbc-1354d27caf77
+Sugar phosphate|acf9e5bd-5bad-4624-b9ec-161bb7cf2f28
+Sulfamethazine|071e85f3-824d-49a2-8f12-443321f95250
+Sulfasalazine|3c2cd366-e615-464d-9a20-3073f40b1403
+Sulfobromophthalein|cec1f394-8cd1-4626-bb7f-9820977fc8ac
+Sulforafan|6b57ef0a-b6fe-42a0-9f15-41dd6a8bf47d
+Sulindac|a7b0cd7b-2445-4d16-b08a-b444ed18a38d
+Sulindac sulfide|bc84c5b8-084f-449a-b4ae-4eb44ffba72b
+Sulindac sulfone|2061a611-44d1-4db5-86ab-853fb88f9087
+Sulpiride|f8b6d0c0-106b-438a-b46d-1ee22573b54a
+Sulprostone|aaf713fe-665e-451d-af6c-a75d6c2316ec
+Sumatriptan|520c2aca-cc40-4e41-b221-bca72e8a552c
+Sunitinib|d24b362e-8cbd-42e6-bea7-e731a00c1321
+Superoxide dismutase|ef9e60e7-fddd-4996-bcd7-e9d8040d09af
+Superoxides|1473f434-aab6-4c68-a80d-05f570d7ba0b
+Suramin|ce3e777f-7101-4c12-ad26-7f1654fc3686
+Swainsonine|5a3e38d7-643c-42ef-8241-b133935aac86
+Syntaxin|705b41ef-2aba-4d21-83f6-2b7a44addb91
+T-butyl sulfide|f0d79206-458f-4cb5-a3f8-0970d07bcd12
+T0901317|6c80b4df-ce67-4229-9ac5-80e6571f82b0
+TAPI (inhibitor)|3b81d823-6120-41ae-8c6a-7ea84a962a74
+TAS-103|9493633b-3fcb-4316-92d0-713162fa06a7
+TEMPO|f2f6d01c-85af-434f-b8bd-1f8d85dc09d3
+TES|a29a4b64-c158-47ea-9b47-daf957cd6cac
+TGFBR1 inhibitor|d33e526a-f6fc-4825-bb87-f4dc3bf1bdf2
+TPCA-1|08255b61-ab07-4727-84c3-5765507e21a8
+Tacalcitol|dfbb3d9f-ece1-4c89-af70-9ef6982b3ca9
+Tacrine|595d86da-3b2b-41d2-9d10-4539e7e30997
+Tacrolimus|1832bca5-6687-4c1d-986b-db20d850f467
+Tadalafil|501a05ea-0b25-4aa0-bb3b-6aaad023339b
+Tamoxifen|d4d48644-ba34-4b73-a56a-565852afe752
+Tannic acid|73306f46-4bb8-4ac5-88f7-d99b783671d4
+Taurine|9faf86d2-f36d-4bc9-953b-be96f810e28d
+Taurochenodeoxycholic acid|c684c9eb-2eaa-4829-b118-b8df6b3a3b32
+Taurocholic acid|dc21841c-c774-4885-aeee-329db1ea8264
+Taurolidine|1d83d259-fb14-4fb9-9f4c-d282f129f3a8
+Taurolithocholic acid 3-sulfate|f4c3eb4b-e1f2-415b-8627-ea958ceb3f80
+Tauroursodeoxycholic acid|bf8ed10b-3320-46e9-bbdc-45ebee7ddf94
+Tautomycin|19b676ad-16e2-40e6-b78a-66e46defe277
+Taxane|676eb42b-64b4-4a5f-8d5a-8333ab9c2edd
+Tazarotene|85614b90-5231-4161-adba-75485acfa3d9
+Telmisartan|68ca9c0c-3c02-4af5-affd-5fa0046a5017
+Telomerase|33fa3b66-dcef-4cd2-8332-f45535bf0325
+Telomestatin|7511cfcc-50bc-4f29-914e-1d9c708b7568
+Temocapril|89d2facc-85f3-493d-9178-74e6a4727810
+Teniposide|3624b378-ed42-4bf9-ad72-6ca2748a912e
+Terazosin|33731018-2b29-45da-bbaa-5d36970d186f
+Testosterone|4e1404e9-f224-4f03-ba6a-600461e5a4d8
+Testosterone propionate|40859f86-a84e-46d6-b0d8-6032b2a861de
+Tetracaine|093bf547-a610-4c10-bc05-f040fb63f867
+Tetrachlorodibenzo-p-dioxin|7c83b13b-1ade-42b7-bbc6-f88831da11bf
+Tetrachlorodibenzodioxin|74a97b05-b360-4fff-9c5b-135f2718763b
+Tetracycline|b11e381c-2fe3-44e5-8bc6-00305537898f
+Tetradecanoylphorbol acetate|990d751d-dd85-492d-85d0-970c50931058
+Tetraethylammonium|7efb44bb-d17a-4213-8a61-97ef015e7c32
+Tetrahydrocorticosterone|1f410ffb-ba04-433c-b3c5-d63c53997002
+Tetrahydrocortisol|8f7ebb35-5fef-427d-bd68-a910473e49f7
+Tetrahydrodeoxycorticosterone|bc0566f5-2123-404f-b9d6-d3fe04264b65
+Tetrahydrofolic acid|71a3ac64-9356-4c4c-a90c-91cae1c2660f
+Tetrahydrofolyl-[Glu](n)|81bfa5e5-26fe-429f-beaf-6dd2d5dd028f
+Tetrahydrofurandiol|c7ac89fd-21f4-4d79-811e-94ec3a403065
+Tetrahydrogestrinone|9e3d481f-a97d-4a82-9ab7-13df3a49b01c
+Tetramethylthiourea|d173e920-8f17-4eae-92af-128998473f15
+Tetrandrine|6219d28d-d2cd-4424-8722-4182664d9dca
+Tetrodotoxin|d2e79e1a-e5ec-4a44-be24-efb3a498107f
+Thalidomide|cdaa53b3-7e56-48e3-b417-3bfb9e6317c2
+Thapsigargicin|503a4abb-03b9-4746-91bf-14dbdaf77481
+Thapsigargin|d3051a05-b978-4b8f-ae63-bef2367ea440
+Thenoyltrifluoroacetone|3871ab7f-8b45-4f42-8057-e12ba3f06a1f
+Theobromine|e9305907-e06a-4a81-a7a2-c3f04359e852
+Theophylline|bbb73341-94ee-4ba2-a9ad-32ad57ee2250
+Thiabendazole|673ba0c0-921f-4e23-b09d-7c8d636c470d
+Thiamine|732a2de8-4a55-479e-8c0f-841130d53e50
+Thiazolidine|c464beda-dce4-493d-bc23-8f03a610f2b6
+Thiazolidinedione|f7e17edc-ff37-49fb-8286-e36bdbfe58f3
+Thioacetamide|d01d125d-e152-4e5d-89fe-e8781b818bad
+Thioctic acid|aab35df9-73da-40ba-86b8-1c12a0cb8e83
+Thiocyanate|79cc056d-cf69-4afe-90ad-8a3a941bc64d
+Thiodigalactoside|0cba33d2-9144-4323-bed1-28c7e0e93f44
+Thiodiglycol|957cbc18-e4f0-473a-ba79-0054c3c9c742
+Thioguanine|2efb3c56-b2e7-4a3c-9ec1-e0f80a52826c
+Thiomalic acid|24892ee7-196f-4f6a-90b1-a072616c08d2
+Thiophane|88f629b6-3a12-4361-a2c5-d886ee62316b
+Thioredoxin|3890b327-b2b6-4b61-b013-8eb46dab3974
+Thiorphan|f8e456ad-34e5-4b0d-839e-80f06ea1e3c8
+Threonine|5ceaf428-49ca-4f44-abc8-83f58a467836
+Thrombin receptor peptide sfllrnp|3ec75198-e652-4ff5-b1c4-9d8697d5859b
+Thrombopoietin|e72db1df-9590-4404-8802-1e038e3dea51
+Thromboxane|98467c62-7a07-48a8-9a91-64b22e9587d1
+Thromboxane A2|6b11611d-f855-46d5-aa5a-b57e2a0182f7
+Thromboxane A2, carbocyclic|432e743a-0002-4a64-bf51-79c34a3f5d10
+Thromboxane B2|55fafe8b-6a75-43de-b1bc-91ca20321752
+Thymeleatoxin|cea3ed0a-4eb0-4b64-9297-283a95e7374a
+Thymidine|d39e8fc6-4219-498a-8ba7-c4fce0fc2ff2
+Thymidine 5'-triphosphate|3bb9725c-4fea-4b9f-b6a7-abde3318913b
+Thymine|cd4dea16-2d90-4172-91e6-785548f60b15
+Thymosin beta(1)|7704e3eb-dab0-4f17-ac55-15931772cbdf
+Thymosin beta(4)|36012d26-2408-4619-a602-f9eef84e33e0
+Thyroid|1c3d4b13-aa84-4bdc-8221-b4679ef12ebb
+Thyroid hormones|e1e635d9-11af-4e62-a12b-a49672efe727
+Thyrotropin|5cf373f4-7b02-416b-9edf-7e51d0496843
+Tinzaparin sodium|99d0bf21-f684-496d-a7f1-f4350edbdd7d
+Tipifarnib[USAN]|a560af5a-de7e-41ea-94fa-e3283f4be895
+Tirapazamine|592d59ff-6b81-49d5-9207-c5e8628b2f52
+Tiron|4603ee12-2edf-4b05-9e95-c5d175d9b6a3
+Titanium|8deebdea-6382-44e6-acb5-edfa3464a155
+Titanium dioxide|61f347b9-898f-4728-b17d-49c384038e79
+Tobacco smoke|aa625012-700e-4284-a70d-71250b1b01b4
+Tobacco, smokeless, aqueous extract|bfb0c8a0-8545-4cac-8b08-bbac55a5520a
+Tocladesine|976cd257-c7a8-41d2-9915-8aad3860c899
+Tolbutamide|9cf27629-ab0b-4ccd-ad3c-bd837c5e0ac1
+Tolcapone|4f5fbadb-4a40-4576-99ef-bce86fc308ac
+Toluene|d9b1f1a4-ea49-429c-a431-c3563e8f9469
+Topotecan|a2f08344-fe00-4782-8970-6b50be3d1695
+Toremifene|e37e2969-fcce-46fc-bfd4-566060c88242
+Tosufloxacin|5dd5fa79-34bf-497f-b517-1552f049d67b
+Tosyllysine chloromethyl ketone|d17f05ea-b0de-41f8-8a81-2203791729b5
+Tosylphenylalanyl chloromethyl ketone|44425c5e-a5a0-4cf2-b113-7259f0fe8216
+Toxin B, Clostridium difficile|a7b52a57-f421-4a1f-a89d-19278e2e51fd
+Tranilast|d0daeb5e-aef1-47f8-877b-d5b66e2bde19
+Trans-resveratrol|731248f7-8fbb-4454-bec8-87f530683527
+Transferrin|6d4dc0c1-f49d-4345-b1b4-09e5a8360f22
+Tranylcypromine|703bdae0-a920-4144-a4cd-ec12b8036a82
+Trapoxin A|3467d093-7447-4bbb-8592-c7da23e857ee
+Trastuzumab|6c0f3eeb-732a-4f4f-bea4-140b98866b7f
+Trazodone|0b349110-1428-4814-b759-d4b832976d3b
+Trehalose|f122f3a2-37de-4280-96b8-7b83ee3c0782
+Trequinsin|c3dc3e8e-ca79-492f-b412-e82bcb070cc2
+Tretinoin|6109011c-15a5-4109-9a92-c36bc2081a48
+Tretinoin tocoferil|6cfa1d9c-4d57-4c1f-ae96-d94d5e197ba4
+Triacsin C|25effb34-eb55-4d78-a72b-286b46711174
+Triacylglycerol|eea3aa33-2401-447d-9be0-3a5ce260a932
+Triamcinolone|aabdd4c4-dac5-4954-b9a4-d1daee95c56c
+Triazole|b38acdef-cea3-4ca5-8896-41080120e57d
+Tributyrin|7d60d650-2479-4d62-a2c2-751eca7f551f
+Trichloroepoxypropane|41a6b929-cbbd-42ad-9664-4910079dabe2
+Trichloromethyl radical|18fe6094-2572-45aa-b30e-122413202256
+Trichostatin A|78bf5899-6725-4db6-8f7a-075ab87270da
+Triclosan|4e277113-19ae-4132-9247-4bfa79ab5802
+Triethylsulfonium|48fba508-342e-42c1-8f34-866b8e2dab00
+Trifluoperazine|5f6ebb09-8f4d-4183-a2ab-01fefdbc3199
+Trifluoroacetylchloride|539f3d4a-a9a1-4606-9b49-4425c617c33c
+Trilostane|88f2afe2-1c23-4e1e-ab73-d6d09eeee941
+Trimethyl telluride|1be260b0-b146-4695-9e05-bf070ef2fc29
+Trimethylenediamine|0985d42a-d764-4ed3-b1b4-0b23724c3534
+Trimethyloxamine|f61eb178-4671-4ed6-84eb-d90ade6c13cb
+Trimethylsulfonium|c9f40cbf-fc61-4440-93f2-aa48604bbc3d
+Trinitrobenzenesulfonic acid|b0fabcab-31af-4efc-97d9-2b170e527bf4
+Trinitrobenzoylated polylysine|95f6ec43-4bd6-40ad-b3d4-8a8dd49c0b6b
+Triolein|c3785acb-0843-4f03-879e-7d9902fd00d1
+Tripterine|ea6fb329-00c0-4073-8a3a-99fd76d81546
+Triptolide|6f1c095f-6320-4ef2-9c81-7e1b77fa4912
+Triptorelin|e0a571c7-3acc-4fed-a9dd-11b2a0531fdb
+Tristearin|df366352-35a8-4895-a96a-0a980220a1f2
+Triterpenoid|eeff8835-b259-4ade-a8eb-dfeec7b3a118
+Tritylnucleoside|dc2d9ab3-60f4-4d5a-9fe9-7097590a7dc5
+Troglitazone|d6362531-16d4-4fde-8790-4d42c21807bf
+Trolox C|95d31c9e-9a56-40bd-b457-fb9ac4e09659
+Troponin I|354e16da-32cd-4f7b-83ea-2b464613152a
+Trovafloxacin|042e8236-c35b-4dbb-9986-051c4c5b7207
+Trypsin, pancreatic, type V-S|5df587a3-446a-4459-a3bb-b9554f207cc3
+Tryptamine|e2c50d30-ceaa-4b81-a8c0-7f845793434a
+Tryptophan|56afcfda-ef59-4803-8e4e-f9db10b9fe0a
+Tubocurarine|4cdcb2fd-1a13-46d0-a7bf-b89a1fe0ec0d
+Tungsten|3c6ce026-3faf-49d9-98ba-6976a69bf2f8
+Tunicamycin|513e39c2-8581-42a9-a898-72a61a7dc9c7
+Turmeric extract|8d089047-cc2a-4f91-975c-6655c7705609
+Tyramine|99902931-6f47-4cfc-bfcb-c72f8a2b6486
+Tyrosine|99689a80-2128-47c8-b6e3-933f8295911c
+Tyrosine kinase inhibitor|30967354-970c-4cf3-8d7d-af102a63b398
+Tyrphostin AG 1478|b321056d-6b7a-4f10-8717-5bd6ad53762c
+Tyrphostin AG 825|a459a861-3a3f-4903-963c-b154e77fd44f
+Tyrphostin AG1295|0d21e093-3fcc-44ed-9040-764f91164d13
+Tyrphostin AG17|3a7c774a-a91f-437d-af12-b564f30843c3
+U 46,619|9a41eeb2-a9f8-4994-86a1-cc62293d8909
+U 73122|c0cf43f3-c235-4a26-8d65-b35b20a65a50
+U 75302|0bed181e-a773-467f-921c-aa7ed148e042
+U0126|5a7dc898-0689-4c37-b90a-533458714612
+UDP 4|278b9a91-078e-4742-ae6c-04393c8175fe
+UDP-D-galactose|4c924e7f-3de2-4e7e-a615-0f08b7e0d5dd
+UDP-N-acetyl-D-galactosamine|cf61bf1a-fcda-42ec-ac7c-a85d77a98704
+UDPglucose|2fedc7ca-6723-43d3-af59-0e223c0948af
+UDPglucuronate|9180a24a-9147-4ce8-83c9-bdfe8efe5e11
+Ubidecarenone|aeb6e58f-dc62-4d0e-8291-a7b170f7ad2c
+Ubiquinol-10|d26eb727-d256-4320-a3eb-13229efd3c60
+Ubiquinone|aeb6e58f-dc62-4d0e-8291-a7b170f7ad2c
+Ubiquinone 9|4b42159a-039a-476d-8dbd-7c3e9503596a
+Ucn 01|8f5b1823-5248-4733-8430-74dab9f231a2
+Ultraviolet B radiation|d0d53e69-e911-4ab6-97e8-be52a5157eab
+Uracil|867ef198-5000-4dcf-939d-78ba210dd7d5
+Uranyl acetate|50e22c5e-425f-4e65-b3ec-c70f81400212
+Urea|b5f7afc0-813e-491b-9c47-4bea0645d80a
+Urea, N,N''-sulfonylbis-|6fa761ba-b547-44b8-bb6d-b5f7e82d08a5
+Urethane|97aea0c5-46a0-4e3b-871a-d3ff8a15be04
+Uric acid|193aa44e-ec5b-44db-b632-add7f4be214b
+Uridine|13b49dd2-2df2-404b-91dd-e3543c7b9af7
+Uridine diphosphate|d5f1e6ea-6842-4c9c-b624-e747ef2f6085
+Uridine diphosphate N-acetylglucosamine|a5169c80-e87e-4b76-9855-08dfccafc8a6
+Uridine diphosphate glucuronic acid|9180a24a-9147-4ce8-83c9-bdfe8efe5e11
+Uridine monophosphate|f083d0c9-a291-4f46-a365-33e4f4ffc42b
+Uridine triphosphate|1dd127c4-db2f-483b-9b10-3952072a54b6
+Urokinase|81437421-3317-41d0-8259-ed1213e13ec3
+Uroporphyrin I|8b4b56fe-3282-4ba8-bfb1-eb5ee50b0c78
+Ursodiol|3970e14b-d278-4c32-8016-524b927e84ce
+Ursolic acid|5602b666-e316-423c-a97e-188e7d70c007
+Usnic acid|37010c3a-d8b3-4225-9475-100db21ce794
+Valdecoxib|463dd12b-a77a-478f-92c0-9f691f32eb26
+Valine|b5b82071-1733-42d8-a342-3d56dd5053a1
+Valproate Sodium|e38a6c17-dfc6-45d7-9cb1-a9d5784d5447
+Valproic acid|cd4bdaac-2df8-4744-ac36-45c81643f8de
+Valsartan|56fea878-6507-491c-bfb4-d208b99f840a
+Vanadate|a4f2c192-d1b2-47e2-8de1-112ae4464833
+Vanadate (VO43-), trisodium, (T-4)-|234bce76-efd3-4d9f-a52b-d7542137c5d1
+Vanadate(2-), oxodiperoxy(2-pyridinecarboxylato-N1,O2)-, dipotassium|fccf413d-11f3-4c04-b207-2a1e3678fc18
+Vanadium|51d543e7-6777-4209-a9cb-77299fb3d96f
+Vanadyl sulfate|5c4fc6b1-6a2b-434a-92a7-1e01ca5e1148
+Vasoactive intestinal peptide|af1d8209-3ce8-42a2-8bc1-64c84440412c
+Vasopressin|f47f5ffb-648f-471f-8495-4925fe18c21c
+Vasopressin (arginine form)|65998756-27d6-40a9-a056-92129695aa95
+Verapamil|ed6b1f94-a705-4d50-80fc-62b2f44d5635
+Verlukast|928476f5-d61d-4092-afbf-23acafbee195
+Very Low Density Lipoprotein|f9bdf61a-bc17-4cd0-a11c-91840432cae1
+Very long-chain 2-trans-enoyl CoA|e396c36a-6345-4169-8486-eec5ffbeb82a
+Very long-chain 3-ketoacyl CoA|89940654-f187-4035-824a-b06ab8d97dca
+Very long-chain D-3-hydroxyacyl CoA|19197afe-4a5d-4ffc-b33c-8aad3c9e5eb7
+Very long-chain fatty acid|14d68987-f403-4926-b4c5-a92c3f1c25e8
+Very long-chain fatty acyl CoA|d8b433f0-531c-4d6a-8970-ff31d565b7b8
+Vigabatrin|89cd1ffd-8d12-4f47-93c7-b0fcbed5e20a
+Vinblastine|27c4c628-0071-4c40-9cf6-84c16e837eda
+Vincristine|c94d247a-9348-4ab2-9a72-5c21f18441b9
+Vinorelbine|5fb8e3a3-35c6-4945-a057-82cad41505db
+Vinpocetine|2656be32-6719-43de-be99-8787f27f21b7
+Vinyl carbamate|fcebaddc-2c01-4eb0-b0ae-36d0f1b30866
+Vinyl chloride|ea5f82e8-fb5f-4015-8183-405f6e151faa
+Vitamin A|3253f64a-c8cf-4f73-b807-def1c4ef6dc9
+Vitamin B12|0e2da4f4-5c39-4476-8b3c-756564ca6c88
+Vitamin D|a773b620-1e7d-4765-be8f-b5f22d8b0f9a
+Vitamin D3|68d4f88c-da72-41e9-98df-efce3a05fdcc
+Vitamin D3 butyrate|ff3e973d-fa8b-4cc9-af9e-711929d3f579
+Vitamin E|67299e83-3d5b-4e9b-aba0-a230877c2359
+Vitamin E hemisuccinate|a2213786-7013-4ee9-b4d6-f30f0a91cec7
+Vitamin E succinate|c03f3fe1-3598-48a5-8bdb-6f26a9d06001
+Vitamin K|b2f30b59-d37e-45a7-8375-f45f4c304e04
+Vitamin K2|dbfc1941-dd2f-454d-9bf3-7a1919990c44
+Vitaxin|8b24e3c4-f0bc-48bb-ada5-7d1c48fdbb49
+Vitronectin|1881508e-ce85-48b8-a2a4-8a9c89b1cd47
+Voriconazole|c3fe09fc-8763-45bf-a162-fc0a62161e57
+Vorozole|abe01cc6-9567-48b6-aa12-c23689daf49b
+WIN 62586|f8554624-a293-4c0f-86bd-a4de602b8539
+WMC-79|5a40e79e-2767-4119-9d90-4786027c458c
+WR 1065|f0e25467-65f5-4338-b928-be2512126745
+Warfarin|20e52fb6-5f35-4965-a5f7-4ef183896e75
+Water|bfd552e3-489c-4746-a8d6-3be3ecca1dff
+Wax ester|fd8ae915-5fd8-41c2-90b3-04b91c99ee67
+Wnt-3A protein|50085bec-e1a2-4bee-94c7-5ed5a7237806
+Wogonin|df3ca9ef-ef35-48e8-a4d0-7bf647b4e954
+Wood dust|7f35b245-5cf4-4eb8-a950-78db133531f3
+Wortmannin|7405d8f5-869d-4a47-a596-878ee011a847
+Xanthine|e913beb1-8f24-4ebd-92ed-147f9f4316ca
+Xanthophyll|fdf83b9e-dd19-411d-9d92-6e77e4a0f464
+Xanthosine|b44c1fb4-095d-4d68-a470-2a9bf518496e
+Xanthosine monophosphate|c64fd63d-92e2-4bfc-9d20-d147cf1cd6cb
+Ximelagatran|c87eaf85-43ab-4fb4-bd03-ee32bc009bb3
+Xylene|72a32752-f865-42fc-a122-fd2208fb2168
+Xylitol|cb8fef17-abcb-4256-859c-fe99165fe018
+Xylulose|bd779adc-adbc-4215-a764-f097a857f79f
+Y 27632|f84d17a4-c7e4-4bc8-97dc-8494a312dc7b
+Y-27632|f84d17a4-c7e4-4bc8-97dc-8494a312dc7b
+YC 1|c113cac2-7c45-472f-b91a-f9332883b252
+YM155|49820537-3b5c-4749-9b3e-c5efbebf4964
+Z-VAD-FMK|ec75ca00-5b5a-47f9-a041-0cb696bbe172
+ZD0892|c0e0779e-6aab-4340-85df-405155aaf31f
+ZD6474|fe2a803f-d6e4-470e-9486-6e2179239249
+ZM 241385|2b826107-fbe2-42b3-bc75-22cb05a17bba
+Zalcitabine|bfb94871-e963-4ba8-9be6-56ff4f505532
+Zaprinast|428ea375-48fc-483c-a1f5-fa216094c3eb
+Zardaverine|fdce2de3-60ec-48fb-a8db-319c3b129c71
+Zebularine|c38dd87d-37bf-41c5-a5a8-169ccbf0331c
+Zidovudine|518f1f31-16f0-43be-b92f-7bbacdda6cb4
+Zinc|c7524164-e6b3-48d1-b9f8-c334ea28e9e7
+Zinc chloride|7fa952cd-67ad-4060-93ea-e4609e2fb3a1
+Zinc protoporphyrin|82a50c50-f0fc-4dcf-898c-a78b05de57a1
+Zinc sulfate|68d8ca0f-43a0-4c6f-9aff-cc349514e151
+Zinc, ion (Zn2+)|0ee3e2d2-8705-48c3-925d-a4d140d73962
+Zinostatin|7501469d-72fb-40d0-aee2-f7a8c4a8f88b
+Zn++|5f5018c0-ea34-4ca6-a8da-69dbe3822dba
+Zymosan|1a5ba56b-87d0-4a7b-8182-f2f3e7b206cb
+Zymostenol|61d2c8d7-a1ae-48f1-aeee-9b6a76c54ca4
+Zymosterol|e3742164-77a6-4ba9-a78d-844339835aa3
+Zymosterone|42b35500-deb2-45f2-ade8-8390a8c8fec5
+[2,3-d]pyridopyrimidine|e11988a4-fcea-4892-9064-29c17c2e9134
+acetoacetate|7e591752-0e30-4186-9d9a-9ecc768d09a8
+acetoacetyl-CoA|f6bc3e22-48d0-470c-b8ea-6e10e04c1872
+acetylated-LDL|e5004f11-9881-44e5-a866-ecc1832e2306
+adhesion molecule|81928995-9742-451f-95f9-8529e4274a52
+alpha-1,6 mannose|c521d235-78cf-4c1e-a4be-0d86be53acbb
+alpha-Amanitin|fa041bb9-3238-4e40-9010-9179052d41bb
+alpha-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid|905b9ca1-cf1e-42af-9b36-75cc5403a052
+alpha-Bungarotoxin|b64932db-b612-439a-a470-c126c00f73e8
+alpha-Carotene|98c19a4e-197d-462d-9c92-62056d400c3a
+alpha-Cobratoxin|6d7a2218-fde0-4441-8f7c-227a533d5d72
+alpha-D-Glucose|69fd15a6-6bb6-4c35-b7cf-bd94dfb8dfb0
+alpha-D-glucose 6-phosphate|4aa39673-bf38-4251-b7ef-9466b9ac24d8
+alpha-Estradiol|78c61909-3e44-4e57-bc9f-81057e9c7066
+alpha-Ketobutyric acid|494b0761-0413-4f4a-a843-419f83c83104
+alpha-Ketoglutaric acid|e7cc1b44-c569-45d5-b085-0d81e8c9e40f
+alpha-Lactalbumin (cattle reduced)|64b77932-7553-4ea3-98ff-0dfd1efb2fd8
+alpha-Linoleate|8cf30fe2-f1da-4389-bafa-23079983b465
+alpha-Naphthoflavone|230316f6-1280-4f8f-bf53-d005fe21362e
+alpha-Tocopherol phosphate|7fe821b9-8d23-4cfe-ab57-20e7ef569a1d
+amino acid|a5a38442-ec0c-4bbf-827c-523f1e86fcc4
+antioxidant|17ac5a16-37cc-4bd2-9ca7-ff767791e44a
+apo-10'-lycopenoic acid|0fb1a5df-eafc-4bb8-963e-bd2c652a8c87
+apoptolidin|3d48692b-3a51-431b-9e8a-ea3557edee74
+beta Catenin|8f9c310a-0b8b-41d7-b26c-00862e984da0
+beta carotene|9eae6318-66b4-45aa-a17a-3853f2d49509
+beta-Alanine|46ebe4c0-03fd-4c85-9bc1-e29d891c45ed
+beta-Aminopropion aldehyde|370daa1c-e093-4d5b-bbda-1870dffb7323
+beta-Aminopropionitrile fumarate|012d1ca0-b57b-415d-ba45-aaea61f736d1
+beta-Cyclodextrin, methyl ethers|73fe7abc-d181-4b6f-8472-0caa23f35b27
+beta-D-Galactose|e24eae27-2446-42cd-8568-866ace9b647c
+beta-D-Galactoside|c3c8817b-8da0-44aa-b03b-9fe7daddda11
+beta-Elemene|2d35893d-bc11-4630-8e7e-21da32686ce2
+beta-HIVS|7450560a-ce2f-4483-a136-acbb5c7dc34b
+beta-Hydroxy-beta-methylglutaryl coenzyme A (HMG CoA)|1878d423-7f53-4ad5-9c7e-76b45ab9e757
+beta-Lactoglobulin B (cattle reduced) 162|e271dfac-dd04-4a22-b4d2-d7c3b4a4d2b0
+beta-Monopalmitin|0beec648-5734-4b29-b0c7-62621f21e6b6
+beta-Naphthoflavone|7f1ed098-0002-4dee-8aa8-be73041311b0
+beta-Neuroprotectin|316f5f5b-d237-48e6-8748-cc4b87545d8d
+beta-VLDL|8c61f49e-ef4b-4f07-b197-8119af529ae0
+bisimidazoacridone|31c6dee1-7c5c-454a-8b4f-a5ecdb5b10a5
+carbamylated-HDL|905e5a63-0eee-40ac-8d94-c6d6fb569a27
+carbamylated-LDL|83ee69de-1c7a-49bf-b98a-47b3c15cfc03
+catecholamine|370a6113-2355-4ef9-91da-8f31f4ea0b77
+cationized LDL|d20aee2d-5f34-4d26-9a91-f4d8a0dd061a
+cerulein|cabf09e1-5d50-48eb-b04a-9fed3450198a
+chemokine|293a7f8a-fe81-4e86-b9dd-18e99084003d
+cholesta-8(9),24-dien-3-one|a9906bc0-4d19-4d30-9a5a-a27091b99c87
+cholesterol sulfate|c5ae7d80-4533-402b-ac01-b9e051cceab5
+cis,cis-3,6-Dodecadienoyl-CoA|48a8a4b5-419c-4d02-a67d-7129eddefe1c
+clasto lactacystin beta lactone|9135f333-e9e1-4eb5-a7a7-990c11547f00
+copper Ox-LDL|50b23844-bbb1-4565-95c0-284b4d16579d
+cyclic AMP|0711a48d-bcb9-4bb9-855d-47692314b369
+cytokine|38e9b254-af18-4db5-adb9-e7c4ac0e5702
+delta-Aminolevulinic acid|281efa76-010d-40ed-9691-6e79499511af
+delta8,24-carboxymethylsterol|59b40fca-f259-4f59-9abb-55140b213c85
+delta8,24-monomethylsterone|e29af8d5-8705-4353-b0e3-5c7c05cbea41
+diacylglycerols|117af191-892c-42e3-ae17-65b5c3a0e6bf
+diglycidyl ether of 1,6-hexanediol|265aeb0c-9849-4f6f-a781-3b52a586550e
+diglycidyl ether of 1-hexanediol|314c4326-98ed-4443-8c4d-5013e69d5a48
+diglycidyl ether of 4,4prime dihydroxy 3,3prime,5,5prime tetramethylbiphenyl|a36dc3f5-9952-4ae2-86ec-bd58dec3aaf6
+diglycidyl ether of o-Cresol|f45ffe7a-84af-4e3c-a191-c34fd69dc4d1
+dihydroceramide|368dfe57-4a08-4871-96d1-03d93e520bcb
+dimethyloxalylglycine|36dcccf7-6c0b-4225-af3b-a8d98df9112a
+dolichol-linked Man7GlcNAc2|1cf8417a-143f-4565-8403-4e5e2b763b1d
+double-stranded DNA break|43a2f0e2-f3c3-45ef-a1d2-bbd7f00395da
+double-stranded RNA|26ed3641-65d6-4281-950b-32dd518d5b3b
+erythro-9-2-hydroxy-3-nonyl-adenine|24deb675-72b5-4a17-a36b-959b3622f8e6
+extracellular region|7e6b47d3-595a-4332-a4ab-1ef12613d23c
+fibrate|e27db316-d5b3-4948-8670-7a2befb3db8c
+free radical|a608cbb1-df4b-4655-8c2f-f567f5b3e2f6
+gamma-Glutaminyl-S-(4-chlorobenzyl)cysteinyl-phenylglycine|234af509-d06a-4687-b7cb-dd7db8b9891e
+gamma-Glutamylcysteine|25721cff-880d-4235-8b80-1c8ffd325321
+gamma-Linoleate|b1a107e6-34d4-4a88-b619-d85d6f4c3ff9
+gamma-Radiation and X-radiation|01b80e55-5b3d-4c23-a565-711434a487dd
+gamma-Tocopherol|f1d9bbdf-1e1f-4b00-a196-da777ef45fe7
+glycoprotein|fe45a70a-582d-4bf4-b0b9-9513282641c2
+heavy metal|cf33989a-5dcd-41e4-ba8d-8b6a5d54051b
+heparan sulfate proteoglycan|a740309b-1686-4db3-a83c-f6f59914b2ac
+heparin sulfate proteoglycan|c0d0d6cf-f95f-48e0-a6db-02ab1a117e83
+hexadec-2-enal|1fe9cccf-76c4-4eb3-bd10-6114756b2f5b
+hydroperoxyeicosatetraenoic acid|f0a60358-51c9-401c-b6cb-0d95fb504deb
+hydroperoxyfatty acid|6f20b2a7-fe8e-45e4-8407-95b076db680f
+hydroperoxyoctadecadienoic acid|e9c084cf-0eb9-486b-927d-557edc105888
+hydroxyfatty acid|cbd38f3d-a24c-431e-b85b-9fea3b48440c
+iron (ferrous)|795b21aa-65cd-42b1-8b2a-032abe88466c
+isoprostane|24e15f73-79a9-4db8-8566-a3c25733c3c6
+kringle 5|05079ee5-88cb-41a5-98ff-5eb380e8d669
+l-3,4-dihydroxyphenylalanine|110464e9-4aaa-4f1e-a86d-f76238abd1e0
+latrunculin|a5e844f2-4514-4648-a965-b2443c8f7083
+lipid|88ce0b0e-2c35-45a4-be79-f10c9c22badc
+lipoprotein|051503b5-bef8-4826-b9ef-47dd2567a13e
+lysophosphatidic acid|db0356fe-8775-4473-8c51-9ac418f8b411
+lysosomal lumen|e9babe89-a838-491e-9221-28afff15eacc
+mTOR inhibitor|eb934808-172d-4ba4-8d84-15c90cd198a3
+membrane cholesterol|9c515eed-dead-4da2-adef-580afc87ae61
+methylglyoxalbis-guanyl-hydrazone|554f04d4-e174-4d35-90ae-9f905bd82aeb
+mica|0e6a9426-89b5-495d-96dc-3111697f36a3
+mithramycin SDK|41d56e85-9aaa-424c-bd55-7d5c8886d68c
+mitomycin C|25a73c84-42b7-4c0d-a9d8-3d4deacdd350
+mucin|b22cf258-45fb-4426-8554-6a59b4b117ab
+myo-Inositol polyphosphate|f4f1d72d-28b1-44be-800a-5045266318c2
+myo-Inositol, tris(dihydrogen phosphate)|e73d4cde-f71a-48d0-a6b0-c761a3f38895
+myosin 6S|cb144f4c-9af7-419f-b2e3-f4e8b347a69f
+n-3 Polyunsaturated fatty acid|35338f64-c440-4269-8ced-365b50678e64
+n-6 Polyunsaturated fatty acid|1c78891f-1830-4be2-a46f-8050079652b6
+n3 Fatty acid|99a9246e-9c7b-48cb-a442-d4959419b6dc
+o-Phthalaldehyde|33e8268c-f38c-478f-9dc2-6e8760994d6c
+omega-N-Methylarginine|9c9b1d68-b9e8-41bb-a1fb-14f5260a6ebf
+ortho-Vanadate|a4f2c192-d1b2-47e2-8de1-112ae4464833
+oxidized 1-palmitoyl-2-arachidonyl-sn-3-glycero-phosphorylcholine|cd91b7f7-ddb7-467c-a6dd-9ca48253abdd
+oxidized Thioredoxin|f8a27c4e-6993-4db5-8f96-0929b340a552
+oxidized beta-carotene|019daed3-fdcd-475e-b786-8076ce71db22
+p-Chloromercuribenzoic acid|f9ab5a0a-48ce-489d-83e1-3ff361eaace9
+p38 kinase inhibitor|f3009b18-2376-458d-8fb0-6c84e464a658
+pervanadate|8286be6f-4929-427d-aca3-fdd1747a1dd5
+phosphatidylinositol|dc39b243-e38e-487b-b393-968b291577b7
+phosphatidylserine|430ca473-5b15-4c9f-8ce7-1034db652d70
+phosphoethanolamine|f38a3c22-c26c-4f91-8995-7af1cb63e418
+phytoceramide|ad350a60-0e33-4642-9930-40f38d3e1184
+prebeta-HDL|a139337e-240f-4ee0-a2d3-f45a67ff1cac
+pregn-5-ene-3,20-dione-17-ol|2cebb118-0087-4880-9b05-c6d062c6aad5
+primary monoamine|26ead5d2-7032-49eb-85e7-53ad0eba7447
+pristanal|5808b17b-c923-46d7-9d67-c657e5c89db4
+pyridine nucleotides, oxidized|aa9a15fb-43ce-4e77-b77c-8a55e89b7a22
+pyridine nucleotides, reduced|4643508f-df84-4c89-be61-0c5cf608a902
+pyrophosphate|ae9ae3ad-d2a6-40d1-811b-e8eed3f1e20e
+quinoline-val-asp(OMe)-CH2-OPH|88da92bf-32b4-435d-bf86-56aa39e8973d
+roscovitine|96c487df-2fae-4289-969e-11cfe2e98352
+sarafotoxin S6c|d590cb82-ea55-4538-add7-2b1faa7edd5d
+serum CCL2|13630a3e-412c-48eb-a40a-49b36a5945b4
+serum DF|c81dea09-e237-48fd-93f5-ffbdcce03fc1
+serum HP|3cc67029-7abc-4dbf-9096-0915be7b419e
+serum IL10|1581395a-85b7-40b8-a8bd-072028971938
+serum IL1B|4eae955b-5276-495b-8da8-b357df142a76
+serum IL8|7d45b2c4-6324-47f2-a161-4b8f030a8209
+serum MIF|0b91a0ff-3187-426c-b869-0cbbb6bd39b8
+serum NGFB|08340407-ece5-4003-b79d-3a4a941eb3ae
+serum SERPINE1|e8eb6753-571a-49d9-8c06-3906fcb161ff
+serum TGFB1|d0190cbc-5ab2-4b84-8a5f-c0dcace2272b
+serum TNF|9249246a-89ac-4cd5-a3e5-8b3e1a683508
+serum adiponectin|7aff5b3c-c0b6-4f07-b64b-ff4c955b6d90
+serum alanine|f658d793-ce78-41b7-9209-f1969e759a3f
+serum amino acid|651a9b66-4c41-4ade-ab91-0db525f824d0
+serum calcium|d514d5d2-9194-4935-8132-85c2a5e85744
+serum cholesterol|285be243-802a-403e-a2e0-7f6ce69af486
+serum fatty acid|003a4365-8a5a-4584-a8d9-8358ada054ca
+serum glucose|482d10a7-2c7b-4905-b06f-8721797acd81
+serum glycerol|e14ebdf7-f05b-4fb2-b56d-9c8fc130f790
+serum insulin|916ce508-1944-459c-aa86-e5fd0ed0c68a
+serum ketone body|32ae7f20-3949-4a7b-aa7f-301fbdd339dd
+serum leptin|e0f6188a-1098-4b6a-974d-e803ef5c0bb7
+serum triacylglycerol|c8ee2206-ed52-414b-a768-9f59ebcdfa0e
+smoke condensate, cigarette (gas phase)|d14bad98-52d5-4d58-a1ac-b5d8f35b5273
+smoke condensate, cigarette (particulate phase)|e5ea0073-ac41-4c33-a8ee-041b47830d38
+sorting endosome|a9d75f0d-caf1-4f62-a284-7bb5352958ac
+sphinganine|e88e54a2-d4df-465b-8caa-64a28c9f0a5c
+sphinganine 1-phosphate|0e3bb540-6667-4a8d-bead-40058f0a7431
+sphingomyelin|62362e4d-8828-4250-a26a-aad04b95139f
+statin|0387189d-155b-4acc-9fba-09e32add63eb
+stearate|678b235d-c171-43df-a8c6-655a1ae7933e
+stearyl-CoA|40ca14c2-a9b7-47eb-85cc-72d5dd697590
+sulfated-sialyl-Lewisx|5082fa71-a423-4cfe-b8cd-6d0a1766ffb0
+sulfatide|af308d8e-d14a-414b-9324-95c6c74cc9b2
+t-Butyloxycarbonyl-methionyl-leucyl-phenylalanine|f2f81060-60bc-4206-882a-224b15da758f
+tRNA_Sec|1f4e53cb-a590-45b9-8665-ca6b8823d426
+tert-Butylhydroperoxide|02b29a8d-dec2-4049-88ea-569f19fbb472
+trans,cis-Lauro-2,6-dienoyl-CoA|03125552-73e4-4ee5-9dbc-24f264f6caa0
+trans-Dec-2-enoyl-CoA|eaaf9213-ecde-4fdc-b076-78377f45ac23
+trans-Diphenylpropene Oxide|21d18434-37a1-40eb-9e40-0517a6d1835e
+trans-Golgi network|f79ed872-ecda-42e5-a4e1-d3f9abf43a70
+trans-Hex-2-enoyl-CoA|3692ffc9-c302-432a-b792-b7fcb287f6c1
+trans-Hexadec-2-enoyl-CoA|a4f2d76e-9276-4cdb-a607-9076f5b748e2
+trans-Oct-2-enoyl-CoA|b3c02ea2-9c67-4f5c-a4c5-c6f5fb0c6dbd
+trans-Tetradec-2-enoyl-CoA|da41be27-a231-41c2-a482-3ac53cebdf5a
+trans10,cis12-Octadecadienoate|d59b59f4-c9f7-4b17-968b-33e1abba4bec
+tropomyosin|95912511-d482-4118-8da9-972ddcfee83a
+unsaturated Fatty acid|bab99255-c95f-4116-a712-9f2ec5dc63b2
+vimentin|6bb9d62e-d6a6-4d17-812b-6bf71cae80f8
+xenobiotic|6f7c0f33-cf2d-4246-81f7-ba2529964077

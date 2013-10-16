@@ -1,24 +1,24 @@
 [Namespace]
+NameString=MeSH Cellular Locations (Names)
 Keyword=MESHCL
-NameString=MeSH Cell Locations (Names)
-DomainString=Other
+DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Medical Subject Headings (MeSH) names for cellular locations [branch A11.284].
-VersionString=20120202
-CreatedDateTime=2012-02-02T12:00:00
-QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?mode=&term=[VALUE]&field=entry
+VersionString=20131011
+CreatedDateTime=2013-10-11
+QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&term=[VALUE]&field=entry
 
 [Author]
-NameString=Selventa
-CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
-ContactInfoString=belframework@selventa.com
+NameString=OpenBEL
+CopyrightString=Copyright © 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=info@openbel.org
 
 [Citation]
-NameString=Medical Subject Headings
-DescriptionString=The Medical Subject Headings (MeSH) names for cellular location branch [branch A11.284] of this ontology. MeSH is the National Library of Medicine's controlled vocabulary thesaurus. It consists of sets of terms naming descriptors in a hierarchical structure that permits searching at various levels of specificity.
-PublishedVersionString=20120202
-PublishedDate=2012-02-02
-ReferenceURL=http://www.ncbi.nlm.nih.gov/mesh
+NameString=MeSH
+DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine. 
+PublishedVersionString=2013 MeSH
+PublishedDate=
+ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
 CaseSensitiveFlag=yes
@@ -202,7 +202,7 @@ Pili, Sex|A
 Plasmodesmata|A
 Plastids|A
 Polyribosomes|A
-Polytene Chromosome|A
+Polytene Chromosomes|A
 Post-Synaptic Density|A
 Presynaptic Terminals|A
 Pseudopodia|A
