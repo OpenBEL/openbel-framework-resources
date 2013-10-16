@@ -17,7 +17,6 @@ ContactInfoString=info@openbel.org
 NameString=MeSH
 DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine. 
 PublishedVersionString=2013 MeSH
-PublishedDate=
 ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]

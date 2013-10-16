@@ -17,7 +17,6 @@ NameString=Selventa
 DescriptionString=Selventa names for chemicals, drugs, and other molecule abundances. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
 PublishedVersionString=2013-10-11
 PublishedDate=2013-10-11
-ReferenceURL=N/A
 
 [Processing]
 CaseSensitiveFlag=yes
