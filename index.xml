@@ -34,9 +34,7 @@
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/rgd-approved-symbols.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemical-names.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-diseases.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-human-protein-families.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-mouse-protein-families.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-rat-protein-families.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/swissprot-accession-numbers.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/swissprot-entry-names.belns" />
@@ -97,14 +95,8 @@
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/selventa-legacy-diseases.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-diseases.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/selventa-named-human-protein-families.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-human-protein-families.belns" />
-        </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/selventa-named-mouse-protein-families.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-mouse-protein-families.belns" />
-        </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/selventa-named-rat-protein-families.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-rat-protein-families.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/selventa-protein-families.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns" />
         </idx:equivalence>
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/selventa-named-complexes.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns" />
