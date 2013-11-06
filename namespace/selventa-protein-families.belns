@@ -1,20 +1,20 @@
 [Namespace]
-Keyword=SCOMP
-NameString=Selventa Named Complexes
+Keyword=SFAM
+NameString=Named Protein Families
 DomainString=Gene/Protein
 SpeciesString=9606, 10090, 10116
-DescriptionString=List of named complexes that are frequently used and/or are well characterized such as the NFKB Complex.
+DescriptionString=Names of protein families. This Namespace standardizes the representation of protein families by providing a standardized set of names. Each family represents a group of proteins that are closely related by function. Note: A named protein family represents a more abstract concept than its individual members. Its purpose is to represent information when the observation does not distinguish between closely related proteins. For example the "AKT Family" has as members the closely related kinases AKT1, AKT2, and AKT3. Sources often reference "Akt" rather than a specific family member. In these cases the family should be used.
 VersionString=20131106
 CreatedDateTime=2013-11-06T10:30:12
 
 [Author]
 NameString=Selventa
-CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
-ContactInfoString=info@openbel.org
+CopyrightString=Copyright (c) 2013 OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=support@belframework.org
 
 [Citation]
-NameString=Selventa Named Complexes
-DescriptionString=Selventa defined names of complexes that are frequently used and/or are well characterized. This Namespace serves to standardize the representation of a complex by providing a standardized name.
+NameString=Selventa Named Protein Family
+DescriptionString=Selventa defined names of protein families. Each family represents a group of proteins that are closely related by function. Each family may be associated with a defined set of family members (defined in resource BEL documents using BEL statements). This Namespace serves to standardize the representation of a family by providing a standardized set of names. Note: A named protein family represents a more abstract concept than its individual members. Its purpose is to represent information when the observation does not distinguish between closely related proteins.  For example the "AKT Family" has as members the closely related kinases AKT1, AKT2, and AKT3. Sources often reference "Akt" rather than a specific family member. In these cases the family should be used. Note that this represents information that is less certain. Do not use named families as a convenience function to represent multiple specific results. For example if the abundance of AKT1 and AKT2 are reported to increase, do not use the increased abundance of the AKT family.
 
 [Processing]
 CaseSensitiveFlag=yes

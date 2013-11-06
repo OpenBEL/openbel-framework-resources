@@ -23,33 +23,6 @@ DelimiterString=|
 CacheableFlag=yes
 
 [Values]
-
-
-[Equivalence]
-NameString=Named Human Protein Families Equivalence
-DescriptionString=Named Human Protein Families Equivalence
-VersionString=20110526
-CreatedDateTime=2011-04-29T11:50:00
-
-[NamespaceReference]
-NameString=Named Human Protein Families
-VersionString=20110526
-
-[Author]
-NameString=Selventa
-CopyrightString=Copyright © 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
-ContactInfoString=belframework@selventa.com
-
-[Citation]
-NameString=Selventa Named Protein Family
-DescriptionString=Selventa defined names of protein families. Each family represents a group of proteins that are closely related by function. Each family may be associated with a defined set of family members (defined in resource BEL documents using BEL statements). This Namespace serves to standardize the representation of a family by providing a standardized set of names. Note: A named protein family represents a more abstract concept than its individual members. Its purpose is to represent information when the observation does not distinguish between closely related proteins.  For example the "AKT Family" has as members the closely related kinases AKT1, AKT2, and AKT3. Sources often reference "Akt" rather than a specific family member. In these cases the family should be used. Note that this represents information that is less certain. Do not use named families as a convenience function to represent multiple specific results. For example if the abundance of AKT1 and AKT2 are reported to increase, do not use the increased abundance of the AKT family.
-
-[Processing]
-CaseSensitiveFlag=yes
-DelimiterString=|
-CacheableFlag=yes
-
-[Values]
 14-3-3 Family|6a6fbe18-0101-4e60-8e17-ce662a2b0122
 ABCC Family|23cb02b3-cecb-4a91-8fe6-f93937567520
 ACAD Family|873198ad-e11f-483a-8c23-025531df6cd9
