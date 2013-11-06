@@ -3,21 +3,21 @@ NameString=GO Cellular Components (Identifiers)
 Keyword=GOCCID
 DomainString=Cell Components and Complexes
 SpeciesString=all
-DescriptionString=Gene Ontology (GO) cellular component identifiers. These terms may be used to represent cellular components as well as complex abundances.
-VersionString=20131011
-CreatedDateTime=2013-10-11
+DescriptionString=Gene Ontology (GO) cellular component identifiers. These terms may be used to represent cellular components as well as complex abundances. 
+VersionString=20131106
+CreatedDateTime=2013-11-06T10:30:12
 QueryValueURL=http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:[VALUE]
 
 [Author]
 NameString=OpenBEL
-CopyrightString=Copyright © 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=The Gene Ontology Consortium
 DescriptionString=The Gene Ontology project is a major bioinformatics initiative with the aim of standardizing the representation of gene and gene product attributes across species and databases.
-PublishedVersionString=2013-09-28
-PublishedDate=2013-09-28
+PublishedVersionString=2013_10_07
+PublishedDate=Mon, 07 Oct 2013 17:01:25 GMT
 ReferenceURL=http://www.geneontology.org/
 
 [Processing]

@@ -3,20 +3,20 @@ NameString=Disease Ontology Names
 Keyword=DO
 DomainString=Biological Process
 SpeciesString=all
-DescriptionString=Disease names from the Disease Ontology (DO). These names may be used to specify pathologies.
-VersionString=20131011
-CreatedDateTime=2013-10-11
+DescriptionString=Disease names from the Disease Ontology (DO). These names may be used to specify pathologies. 
+VersionString=20131106
+CreatedDateTime=2013-11-06T10:30:12
 
 [Author]
 NameString=OpenBEL
-CopyrightString=Copyright © 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=Disease Ontology (DO)
 DescriptionString=The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts through collaborative efforts of researchers at Northwestern University, Center for Genetic Medicine and the University of Maryland School of Medicine, Institute for Genome Sciences.
-PublishedVersionString=2013-08-22
-PublishedDate=2013-08-22
+PublishedVersionString=2013_11_06
+PublishedDate=Wed, 06 Nov 2013 07:10:01 GMT
 ReferenceURL=http://disease-ontology.org/
 
 [Processing]
@@ -29,7 +29,6 @@ CacheableFlag=yes
 3-Methylcrotonyl-CoA carboxylase deficiency|O
 46 XX gonadal dysgenesis|O
 46 XY gonadal dysgenesis|O
-<new term>|O
 ABCD syndrome|O
 ACTH-secreting pituitary adenoma|O
 ADULT syndrome|O
@@ -563,6 +562,7 @@ X-linked sideroblastic anemia|O
 X-linked sideroblastic anemia with ataxia|O
 Y-linked disease|O
 Zellweger syndrome|O
+Zollinger-Ellison Syndrome|O
 abdominal aortic aneurysm|O
 abdominal tuberculosis|O
 abducens nerve disease|O
@@ -1317,7 +1317,6 @@ blood platelet disease|O
 blood protein disease|O
 bloom syndrome|O
 blue color blindness|O
-blue cone monochromacy|O
 blue drum syndrome|O
 blue toe syndrome|O
 blunt duct adenosis of breast|O
@@ -1666,7 +1665,6 @@ cervical lymphoepithelioma-like carcinoma|O
 cervical mucinous adenocarcinoma|O
 cervical mullerian papilloma|O
 cervical non-keratinizing squamous cell carcinoma|O
-cervical rib syndrome|O
 cervical serous adenocarcinoma|O
 cervical spinal canal and spinal cord meningioma|O
 cervical squamous cell carcinoma|O
@@ -1975,7 +1973,6 @@ conduct disorder|O
 cone-rod dystrophy|O
 congenital adrenal insufficiency|O
 congenital afibrinogenemia|O
-congenital aortic valve stenosis|O
 congenital aphakia|O
 congenital bile acid synthesis defect|O
 congenital diaphragmatic hernia|O
@@ -2208,6 +2205,7 @@ diabetic peripheral angiopathy|O
 diabetic polyneuropathy|O
 diabetic retinopathy|O
 diaper rash|O
+diaphragm disease|O
 diaphragma sellae meningioma|O
 diaphragmatic eventration|O
 diarrhea|O
@@ -2250,7 +2248,6 @@ disease|O
 disease by infectious agent|O
 disease of anatomical entity|O
 disease of cellular proliferation|O
-disease of diaphragm|O
 disease of mental health|O
 disease of metabolism|O
 dislocation of ear ossicle|O
@@ -2860,7 +2857,6 @@ generalized arterial calcification of infancy|O
 generalized atherosclerosis|O
 generalized epilepsy with febrile seizures plus|O
 genetic disease|O
-genetic disorder|O
 geniculate ganglionitis|O
 geniculate herpes zoster|O
 genital herpes|O
@@ -3796,7 +3792,6 @@ malignant mesothelioma|O
 malignant neoplasm of acoustic nerve|O
 malignant neoplasm of short bones of lower limb|O
 malignant oculomotor nerve tumor|O
-malignant olfactory nerve tumor|O
 malignant otitis externa|O
 malignant ovarian Brenner tumor|O
 malignant ovarian cyst|O
@@ -3890,7 +3885,6 @@ mediastinum sarcoma|O
 mediastinum seminoma|O
 mediastinum synovial sarcoma|O
 mediastinum teratoma|O
-medical disorder|O
 medulloadrenal hyperfunction|O
 medulloblastoma|O
 medulloepithelioma|O
@@ -4752,7 +4746,6 @@ peripheral nerve sheath neoplasm|O
 peripheral nervous system disease|O
 peripheral nervous system ganglioneuroblastoma|O
 peripheral nervous system neoplasm|O
-peripheral neuroblastoma|O
 peripheral neuropathy|O
 peripheral osteosarcoma|O
 peripheral primitive neuroectodermal tumor|O

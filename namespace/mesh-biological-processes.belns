@@ -3,21 +3,22 @@ NameString=MeSH Phenomena and Processes (Names)
 Keyword=MESHPP
 DomainString=Biological Process
 SpeciesString=all
-DescriptionString=Medical Subject Headings (MeSH) from the Phenomena and Processes [G] branch, excluding the [G01], [G02], [G15], and [G17] sub-branches. These headings may be used to specify biological processes.
-VersionString=20131011
-CreatedDateTime=2013-10-11
+DescriptionString=Medical Subject Headings (MeSH) from the Phenomena and Processes [G] branch, excluding the [G01], [G15], and [G17] sub-branches. These headings may be used to specify biological processes. 
+VersionString=20131106
+CreatedDateTime=2013-11-06T10:30:12
 QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&term=[VALUE]&field=entry
 
 [Author]
 NameString=OpenBEL
-CopyrightString=Copyright © 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=MeSH
-DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine. 
-PublishedVersionString=2013 MeSH
-ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
+DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine.
+PublishedVersionString=2013_07_08
+PublishedDate=Mon, 08 Jul 2013 04:42:13
+ReferenceURL=URL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
 CaseSensitiveFlag=yes
@@ -30,6 +31,7 @@ CacheableFlag=yes
 5' Flanking Region|B
 5' Untranslated Regions|B
 AT Rich Sequence|B
+AT-Hook Motifs|B
 AU Rich Elements|B
 Abnormal Karyotype|B
 Absorption|B
@@ -48,11 +50,13 @@ Adaptation, Biological|B
 Adaptation, Ocular|B
 Adaptation, Physiological|B
 Adaptive Immunity|B
+Adhesiveness|B
 Adipogenesis|B
 Adiposity|B
 Adolescent Development|B
 Adolescent Nutritional Physiological Phenomena|B
 Adrenarche|B
+Adsorption|B
 Aerobiosis|B
 Afterimage|B
 Agglutination|B
@@ -68,12 +72,15 @@ Alkylation|B
 Alleles|B
 Allelic Imbalance|B
 Allostasis|B
+Allosteric Regulation|B
+Allosteric Site|B
 Alpha Rhythm|B
 Alternative Splicing|B
 Altitude|B
 Alu Elements|B
 Amelogenesis|B
 Amination|B
+Amino Acid Motifs|B
 Amino Acid Sequence|B
 Amino Acid Substitution|B
 Aminoacylation|B
@@ -86,6 +93,8 @@ Anestrus|B
 Aneuploidy|B
 Animal Distribution|B
 Animal Nutritional Physiological Phenomena|B
+Anisotropy|B
+Ankyrin Repeat|B
 Anoikis|B
 Anovulation|B
 Antibiosis|B
@@ -136,14 +145,19 @@ Bacteriocin Plasmids|B
 Bacteriolysis|B
 Baroreflex|B
 Basal Metabolism|B
+Base Composition|B
 Base Pair Mismatch|B
 Base Pairing|B
 Base Sequence|B
+Bay-Region, Polycyclic Aromatic Hydrocarbon|B
 Beta Rhythm|B
+Binding Sites|B
 Binding Sites, Antibody|B
 Binding, Competitive|B
 Binomial Distribution|B
 Biocatalysis|B
+Biochemical Phenomena|B
+Biochemical Processes|B
 Biodiversity|B
 Biofilms|B
 Biofouling|B
@@ -207,13 +221,16 @@ CD4-CD8 Ratio|B
 Calcification, Physiologic|B
 Calcium Signaling|B
 Caloric Restriction|B
+Capillary Action|B
 Capillary Fragility|B
 Capillary Permeability|B
 Capillary Resistance|B
+Carbohydrate Conformation|B
 Carbohydrate Metabolism|B
 Carbohydrate Sequence|B
 Carbon Cycle|B
 Carbon Footprint|B
+Carbon Sequestration|B
 Cardiac Output|B
 Cardiac Volume|B
 Cardiomegaly, Exercise-Induced|B
@@ -222,6 +239,8 @@ Cardiovascular Physiological Phenomena|B
 Cardiovascular Physiological Processes|B
 Carotid Intima-Media Thickness|B
 Catabolite Repression|B
+Catalysis|B
+Catalytic Domain|B
 Caves|B
 Cell Adhesion|B
 Cell Aggregation|B
@@ -269,7 +288,9 @@ Cercaria|B
 Cerebrospinal Fluid Pressure|B
 Cerebrovascular Circulation|B
 Cervical Ripening|B
+Chemical Phenomena|B
 Chemical Precipitation|B
+Chemical Processes|B
 Chemistry Techniques, Synthetic|B
 Chemoautotrophic Growth|B
 Chemotaxis|B
@@ -385,6 +406,8 @@ Compressed Air|B
 Confined Spaces|B
 Conjugation, Genetic|B
 Consanguinity|B
+Consensus Sequence|B
+Conserved Sequence|B
 Contact Inhibition|B
 Contingent Negative Variation|B
 Contraception Behavior|B
@@ -393,6 +416,7 @@ Convergence, Ocular|B
 Coral Reefs|B
 Coronary Circulation|B
 Corpus Luteum Maintenance|B
+Corrosion|B
 Cortical Spreading Depression|B
 Cortical Synchronization|B
 Cosmic Dust|B
@@ -408,6 +432,7 @@ Crystallization|B
 Cyclization|B
 Cycloaddition Reaction|B
 Cyclonic Storms|B
+Cystine Knot Motifs|B
 Cytokinesis|B
 Cytopathogenic Effect, Viral|B
 Cytophagocytosis|B
@@ -486,6 +511,7 @@ Diet, Protein-Restricted|B
 Diet, Reducing|B
 Diet, Sodium-Restricted|B
 Diet, Vegetarian|B
+Diffusion|B
 Digestion|B
 Digestive System Physiological Phenomena|B
 Digestive System Processes|B
@@ -523,6 +549,7 @@ Drug Resistance, Viral|B
 Drug Synergism|B
 Drug Tolerance|B
 E-Box Elements|B
+EF Hand Motifs|B
 Eating|B
 Ecological Systems, Closed|B
 Ecological and Environmental Phenomena|B
@@ -554,6 +581,7 @@ Endoplasmic Reticulum-Associated Degradation|B
 Endoreduplication|B
 Energy Intake|B
 Energy Metabolism|B
+Energy Transfer|B
 Enhancer Elements, Genetic|B
 Enterohepatic Circulation|B
 Entosis|B
@@ -587,6 +615,7 @@ Evoked Potentials, Auditory, Brain Stem|B
 Evoked Potentials, Motor|B
 Evoked Potentials, Somatosensory|B
 Evoked Potentials, Visual|B
+Evolution, Chemical|B
 Evolution, Molecular|B
 Excitation Contraction Coupling|B
 Excitatory Postsynaptic Potentials|B
@@ -598,6 +627,7 @@ Exome|B
 Exons|B
 Expiratory Reserve Volume|B
 Expressed Sequence Tags|B
+Exteins|B
 Extinction, Biological|B
 Extrachromosomal Inheritance|B
 Extraterrestrial Environment|B
@@ -606,6 +636,7 @@ Extreme Heat|B
 Eye Color|B
 Eye Movements|B
 F Factor|B
+F-Box Motifs|B
 Facilitated Diffusion|B
 Fasting|B
 Feedback, Physiological|B
@@ -643,6 +674,7 @@ Fractional Flow Reserve, Myocardial|B
 Fracture Healing|B
 Frameshift Mutation|B
 Frameshifting, Ribosomal|B
+Freezing|B
 Freezing Reaction, Cataleptic|B
 Fresh Water|B
 Functional Laterality|B
@@ -852,6 +884,7 @@ H-Reflex|B
 HIV Enhancer|B
 HIV Long Terminal Repeat|B
 HIV Seronegativity|B
+HMG-Box Domains|B
 Habituation, Psychophysiologic|B
 Hair Color|B
 Halogenation|B
@@ -868,6 +901,8 @@ Heart Rate|B
 Heart Rate, Fetal|B
 Heart Sounds|B
 Heat-Shock Response|B
+Helix-Loop-Helix Motifs|B
+Helix-Turn-Helix Motifs|B
 Hemadsorption|B
 Hemagglutination|B
 Hemagglutination, Viral|B
@@ -912,8 +947,11 @@ Humidity|B
 Hunger|B
 Hybrid Vigor|B
 Hybridization, Genetic|B
+Hydrogen Bonding|B
+Hydrogen-Ion Concentration|B
 Hydrogenation|B
 Hydrolysis|B
+Hydrophobic and Hydrophilic Interactions|B
 Hydroxylation|B
 INDEL Mutation|B
 Ice|B
@@ -947,6 +985,8 @@ Immunologic Capping|B
 Immunologic Memory|B
 Immunologic Surveillance|B
 Immunomodulation|B
+Immunoreceptor Tyrosine-Based Activation Motif|B
+Immunoreceptor Tyrosine-Based Inhibition Motif|B
 Inbreeding|B
 Inclusion Bodies, Viral|B
 Infant Nutritional Physiological Phenomena|B
@@ -962,7 +1002,9 @@ Inspiratory Capacity|B
 Inspiratory Reserve Volume|B
 Insulator Elements|B
 Insulin Resistance|B
+Integrons|B
 Integumentary System Physiological Phenomena|B
+Inteins|B
 Interphase|B
 Interspersed Repetitive Sequences|B
 Intestinal Absorption|B
@@ -972,11 +1014,13 @@ Introduced Species|B
 Introns|B
 Inverted Repeat Sequences|B
 Ion Channel Gating|B
+Ion Exchange|B
 Ion Transport|B
 Islands|B
 Isochores|B
 Isochromosomes|B
 Isoelectric Point|B
+Isomerism|B
 Isometric Contraction|B
 Isotonic Contraction|B
 Jogging|B
@@ -987,8 +1031,10 @@ Ketogenic Diet|B
 Kidney Concentrating Ability|B
 Kindling, Neurologic|B
 Kinesthesis|B
+Kinetics|B
 Kinetochores|B
 Knee-Chest Position|B
+Kringles|B
 Labor Onset|B
 Labor Presentation|B
 Labor Stage, First|B
@@ -1001,12 +1047,14 @@ Lactose Factors|B
 Lakes|B
 Larva|B
 Lethal Dose 50|B
+Leucine Zippers|B
 Leukocyte Count|B
 Leukocyte Rolling|B
 Leukopoiesis|B
 Life Cycle Stages|B
 Light Signal Transduction|B
 Lightning|B
+Linear Energy Transfer|B
 Linkage Disequilibrium|B
 Lipid Metabolism|B
 Lipid Mobilization|B
@@ -1039,6 +1087,7 @@ Lysogeny|B
 M Phase Cell Cycle Checkpoints|B
 MAP Kinase Signaling System|B
 Macrophage Activation|B
+Maillard Reaction|B
 Major Histocompatibility Complex|B
 Markov Chains|B
 Mastication|B
@@ -1106,8 +1155,11 @@ Mitochondrial Size|B
 Mitochondrial Swelling|B
 Mitochondrial Turnover|B
 Mitosis|B
+Molecular Conformation|B
 Molecular Dynamics Simulation|B
 Molecular Mimicry|B
+Molecular Structure|B
+Molecular Weight|B
 Molting|B
 Monosomy|B
 Morphogenesis|B
@@ -1177,6 +1229,7 @@ Nuclear Reprogramming|B
 Nucleic Acid Conformation|B
 Nucleic Acid Denaturation|B
 Nucleic Acid Hybridization|B
+Nucleic Acid Renaturation|B
 Nucleolus Organizer Region|B
 Nucleosomes|B
 Nucleotide Motifs|B
@@ -1209,9 +1262,14 @@ Organ Size|B
 Organ Specificity|B
 Organelle Shape|B
 Organelle Size|B
+Organic Chemistry Phenomena|B
+Organic Chemistry Processes|B
 Organogenesis|B
 Orgasm|B
+Osmolar Concentration|B
+Osmosis|B
 Osmotic Fragility|B
+Osmotic Pressure|B
 Osseointegration|B
 Osteogenesis|B
 Osteolysis|B
@@ -1224,10 +1282,12 @@ Ovulation|B
 Ovulation Inhibition|B
 Ovum Transport|B
 Oxidation-Reduction|B
+Oxidative Coupling|B
 Oxidative Phosphorylation|B
 Oxidative Stress|B
 Oxygen Consumption|B
 Ozone Depletion|B
+PDZ Domains|B
 Pachytene Stage|B
 Pain|B
 Pain Threshold|B
@@ -1235,6 +1295,7 @@ Paracrine Communication|B
 Parity|B
 Parthenogenesis|B
 Partial Thromboplastin Time|B
+Particle Size|B
 Parturition|B
 Passive Cutaneous Anaphylaxis|B
 Paternal Age|B
@@ -1254,15 +1315,20 @@ Periodicity|B
 Peripartum Period|B
 Peripheral Tolerance|B
 Peristalsis|B
+Permeability|B
 Phagocytosis|B
 Pharmacokinetics|B
 Pharmacological Phenomena|B
 Pharmacological Processes|B
+Phase Transition|B
 Phenotype|B
 Philadelphia Chromosome|B
 Phonation|B
 Phosphenes|B
 Phosphorylation|B
+Photobleaching|B
+Photochemical Processes|B
+Photolysis|B
 Photophosphorylation|B
 Photosynthesis|B
 Phototrophic Processes|B
@@ -1270,6 +1336,8 @@ Phototropism|B
 Phylogeny|B
 Physical Endurance|B
 Physical Exertion|B
+Physicochemical Phenomena|B
+Physicochemical Processes|B
 Physiological Phenomena|B
 Physiological Processes|B
 Pigmentation|B
@@ -1294,6 +1362,7 @@ Point Mutation|B
 Poisson Distribution|B
 Pollination|B
 Polyadenylation|B
+Polymerization|B
 Polymorphism, Genetic|B
 Polymorphism, Restriction Fragment Length|B
 Polymorphism, Single Nucleotide|B
@@ -1332,6 +1401,7 @@ Prenatal Nutritional Physiological Phenomena|B
 Prenylation|B
 Probability|B
 Proestrus|B
+Proline-Rich Protein Domains|B
 Prometaphase|B
 Promoter Regions, Genetic|B
 Pronation|B
@@ -1341,14 +1411,23 @@ Proprioception|B
 Protein Binding|B
 Protein Biosynthesis|B
 Protein Carbonylation|B
+Protein Conformation|B
 Protein Denaturation|B
+Protein Folding|B
+Protein Interaction Domains and Motifs|B
 Protein Interaction Maps|B
 Protein Modification, Translational|B
+Protein Multimerization|B
 Protein Prenylation|B
 Protein Processing, Post-Translational|B
 Protein Refolding|B
+Protein Renaturation|B
 Protein Sorting Signals|B
 Protein Splicing|B
+Protein Stability|B
+Protein Structure, Quaternary|B
+Protein Structure, Secondary|B
+Protein Structure, Tertiary|B
 Protein Transport|B
 Protein Unfolding|B
 Proteolysis|B
@@ -1374,6 +1453,7 @@ Quantitative Trait Loci|B
 Quantitative Trait, Heritable|B
 Quorum Sensing|B
 R Factors|B
+RING Finger Domains|B
 RNA 3' End Processing|B
 RNA 3' Polyadenylation Signals|B
 RNA 5' Terminal Oligopyrimidine Sequence|B
@@ -1384,6 +1464,7 @@ RNA Interference|B
 RNA Processing, Post-Transcriptional|B
 RNA Splice Sites|B
 RNA Splicing|B
+RNA Stability|B
 RNA Transport|B
 RNA, Double-Stranded|B
 Radiation Chimera|B
@@ -1426,6 +1507,7 @@ Renal Circulation|B
 Renal Plasma Flow|B
 Renal Plasma Flow, Effective|B
 Renin-Angiotensin System|B
+Repetitive Sequences, Amino Acid|B
 Repetitive Sequences, Nucleic Acid|B
 Replication Origin|B
 Replicon|B
@@ -1466,6 +1548,7 @@ S Phase Cell Cycle Checkpoints|B
 SELEX Aptamer Technique|B
 SOS Response (Genetics)|B
 Saccades|B
+Salinity|B
 Salivation|B
 Salt-Tolerance|B
 Scattering, Radiation|B
@@ -1525,9 +1608,11 @@ Snow|B
 Soil|B
 Solar Energy|B
 Solid-Phase Synthesis Techniques|B
+Solubility|B
 Somatic Hypermutation, Immunoglobulin|B
 Somatotypes|B
 Species Specificity|B
+Specific Gravity|B
 Specific Pathogen-Free Organisms|B
 Speech|B
 Speech Acoustics|B
@@ -1548,6 +1633,7 @@ Startle Reaction|B
 Statistical Distributions|B
 Steam|B
 Stem Cell Niche|B
+Stereoisomerism|B
 Stillbirth|B
 Stimulation, Chemical|B
 Stochastic Processes|B
@@ -1557,6 +1643,7 @@ Stroke Volume|B
 Structural Homology, Protein|B
 Structure-Activity Relationship|B
 Substrate Cycling|B
+Substrate Specificity|B
 Sumoylation|B
 Sunlight|B
 Suntan|B
@@ -1565,6 +1652,8 @@ Superovulation|B
 Supination|B
 Supine Position|B
 Suppression, Genetic|B
+Surface Properties|B
+Surface Tension|B
 Sweating|B
 Swimming|B
 Symbiosis|B
@@ -1592,7 +1681,9 @@ Terminator Regions, Genetic|B
 Tetracycline Resistance|B
 Tetraploidy|B
 Tetrasomy|B
+Th1-Th2 Balance|B
 Therapeutic Equivalency|B
+Thermal Diffusion|B
 Thermogenesis|B
 Thermosensing|B
 Theta Rhythm|B
@@ -1695,6 +1786,7 @@ Virus Release|B
 Virus Replication|B
 Virus Shedding|B
 Virus Uncoating|B
+Viscosity|B
 Vision Disparity|B
 Vision, Entoptic|B
 Vision, Ocular|B
@@ -1706,6 +1798,7 @@ Vitellogenesis|B
 Viviparity, Nonmammalian|B
 Voice|B
 Voice Quality|B
+Volatilization|B
 Waist Circumference|B
 Waist-Hip Ratio|B
 Wakefulness|B
@@ -1720,9 +1813,11 @@ Weather|B
 Weight Gain|B
 Weight Loss|B
 Wetlands|B
+Wettability|B
 Whole Blood Coagulation Time|B
 Wilderness|B
 Wind|B
+Wnt Signaling Pathway|B
 Work of Breathing|B
 Wound Healing|B
 X Chromosome|B
@@ -1731,6 +1826,8 @@ X-Ray Diffraction|B
 XYY Karyotype|B
 Y Chromosome|B
 Yawning|B
+Zinc Fingers|B
 beta-Lactam Resistance|B
 rRNA Operon|B
+src Homology Domains|B
 t-Complex Genome Region|B

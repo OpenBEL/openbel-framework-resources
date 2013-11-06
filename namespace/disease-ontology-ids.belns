@@ -3,20 +3,20 @@ NameString=Disease Ontology Identifiers
 Keyword=DO
 DomainString=Biological Process
 SpeciesString=all
-DescriptionString=Disease names from the Disease Ontology (DO). These names may be used to specify pathologies.
-VersionString=20131011
-CreatedDateTime=2013-10-11
+DescriptionString=Disease names from the Disease Ontology (DO). These names may be used to specify pathologies. 
+VersionString=20131106
+CreatedDateTime=2013-11-06T10:30:12
 
 [Author]
 NameString=OpenBEL
-CopyrightString=Copyright © 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=Disease Ontology (DO)
 DescriptionString=The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts through collaborative efforts of researchers at Northwestern University, Center for Genetic Medicine and the University of Maryland School of Medicine, Institute for Genome Sciences.
-PublishedVersionString=2013-08-22
-PublishedDate=2013-08-22
+PublishedVersionString=2013_11_06
+PublishedDate=Wed, 06 Nov 2013 07:10:01 GMT
 ReferenceURL=http://disease-ontology.org/
 
 [Processing]
@@ -130,7 +130,6 @@ CacheableFlag=yes
 0050292|O
 0050304|O
 0050308|O
-0050325|O
 0050328|O
 0050331|O
 0050332|O
@@ -354,7 +353,6 @@ CacheableFlag=yes
 0050676|O
 0050677|O
 0050678|O
-0050679|O
 0050680|O
 0050681|O
 0050682|O
@@ -445,7 +443,6 @@ CacheableFlag=yes
 0050769|O
 0050770|O
 0050771|O
-0050772|O
 0050773|O
 0050774|O
 0050775|O
@@ -455,6 +452,7 @@ CacheableFlag=yes
 0050779|O
 0050780|O
 0050781|O
+0050782|O
 0060000|O
 0060001|O
 0060002|O
@@ -488,7 +486,6 @@ CacheableFlag=yes
 0060031|O
 0060032|O
 0060033|O
-0060035|O
 0060036|O
 0060037|O
 0060038|O
@@ -2474,7 +2471,6 @@ CacheableFlag=yes
 1702|O
 1703|O
 171|O
-1711|O
 1712|O
 1713|O
 172|O
@@ -3135,7 +3131,6 @@ CacheableFlag=yes
 3096|O
 3098|O
 310|O
-3102|O
 3103|O
 3107|O
 3108|O
@@ -3492,7 +3487,6 @@ CacheableFlag=yes
 3698|O
 3699|O
 37|O
-370|O
 3700|O
 3701|O
 3702|O
@@ -5108,7 +5102,6 @@ CacheableFlag=yes
 676|O
 6760|O
 6762|O
-6764|O
 6774|O
 6776|O
 6777|O

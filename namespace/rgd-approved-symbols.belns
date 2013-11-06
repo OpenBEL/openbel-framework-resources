@@ -3,21 +3,21 @@ NameString=RGD Approved Gene Symbols
 Keyword=RGD
 DomainString=Gene and Gene Products
 SpeciesString=10116
-DescriptionString=Rat Genome Database (RGD) approved gene symbols. These symbols may be used to specify rat gene, RNA, microRNA and protein abundances. Single character encoding following each value specify which abundance types are valid.
-VersionString=20131011
-CreatedDateTime=2013-10-11
+DescriptionString=Rat Genome Database (RGD) approved gene symbols. These symbols may be used to specify rat gene, RNA, microRNA and protein abundances. Single character encoding following each value specify which abundance types are valid. 
+VersionString=20131106
+CreatedDateTime=2013-11-06T10:30:09
 QueryValueURL=http://rgd.mcw.edu/rgdweb/search/genes.html?term=[VALUE]&speciesType=3
 
 [Author]
 NameString=OpenBEL
-CopyrightString=Copyright © 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=Rat Genome Database Web Site, Medical College of Wisconsin, Milwaukee, Wisconsin.
 DescriptionString=The Rat Genome Database (RGD) approved gene symbols for Rat.
-PublishedVersionString=2013-10-11
-PublishedDate=2013-10-11
+PublishedVersionString=2013_11_01
+PublishedDate=Fri, 01 Nov 2013 22:15:45
 ReferenceURL=http://rgd.mcw.edu/
 
 [Processing]
@@ -1693,6 +1693,7 @@ Bri3bp|GRP
 Bricd5|GRP
 Brinp1|GRP
 Brinp2|GRP
+Brinp3|GRP
 Brip1|GRP
 Brix1|GRP
 Brk1|GRP
@@ -2634,6 +2635,7 @@ Cfd|GRP
 Cfdp1|GRP
 Cfh|GRP
 Cfhr1|GRP
+Cfhr2|GRP
 Cfi|GRP
 Cfl1|GRP
 Cfl2|GRP
@@ -2782,6 +2784,7 @@ Cisd1|GRP
 Cisd2|GRP
 Cisd3|GRP
 Cish|GRP
+Cistr-act|GR
 Cit|GRP
 Cited1|GRP
 Cited2|GRP
@@ -5050,7 +5053,6 @@ Fam55b|GRP
 Fam57a|GRP
 Fam57b|GRP
 Fam58b|GRP
-Fam5c|GRP
 Fam60a|GRP
 Fam63a|GRP
 Fam63b|GRP
@@ -6637,6 +6639,7 @@ Hlx|GRP
 Hm13|GRP
 Hmbox1|GRP
 Hmbs|GRP
+Hmces|GRP
 Hmcn1|GRP
 Hmcn2|GRP
 Hmg1l1|GRP
@@ -18530,7 +18533,6 @@ LOC500220|GR
 LOC500222|GR
 LOC500227|GRP
 LOC500236|GR
-LOC500251|GRP
 LOC500263|GR
 LOC500268|GR
 LOC500269|GR
@@ -22533,7 +22535,6 @@ LOC685318|GR
 LOC685319|GR
 LOC685320|GRP
 LOC685321|GRP
-LOC685322|GRP
 LOC685323|GRP
 LOC685324|GR
 LOC685326|GRP
@@ -24402,7 +24403,6 @@ LOC688676|GRP
 LOC688677|GRP
 LOC688679|GRP
 LOC688680|GR
-LOC688681|GRP
 LOC688682|GRP
 LOC688683|GR
 LOC688684|GRP
@@ -24562,7 +24562,6 @@ LOC688880|GR
 LOC688881|GR
 LOC688882|GR
 LOC688883|GRP
-LOC688887|GRP
 LOC688888|GR
 LOC688889|GR
 LOC688890|GRP
@@ -24779,9 +24778,7 @@ LOC689170|GR
 LOC689171|GR
 LOC689173|GRP
 LOC689175|GRP
-LOC689176|GRP
 LOC689177|GRP
-LOC689178|GRP
 LOC689179|GR
 LOC689182|GRP
 LOC689183|GRP
@@ -25124,7 +25121,6 @@ LOC689598|GR
 LOC689599|GRP
 LOC689600|GRP
 LOC689602|GRP
-LOC689604|GRP
 LOC689605|GR
 LOC689606|GR
 LOC689607|GR
@@ -25479,7 +25475,6 @@ LOC690069|GR
 LOC690070|GR
 LOC690071|GRP
 LOC690072|GR
-LOC690073|GRP
 LOC690074|GRP
 LOC690075|GRP
 LOC690077|GR
@@ -25523,7 +25518,6 @@ LOC690125|GR
 LOC690126|GRP
 LOC690127|GR
 LOC690129|GRP
-LOC690130|GRP
 LOC690132|GRP
 LOC690133|GR
 LOC690134|GRP
@@ -27405,7 +27399,6 @@ MGC94207|GRP
 MGC94282|GR
 MGC94335|GRP
 MGC94891|GRP
-MGC95152|GRP
 MGC95208|GRP
 MGC95210|GRP
 Maats1|GRP
@@ -28713,6 +28706,7 @@ Mtrr|GRP
 Mtss1|GRP
 Mtss1l|GRP
 Mttp|GRP
+Mturn|GRP
 Mtus1|GRP
 Mtx1|GRP
 Mtx2|GRP
@@ -28730,6 +28724,7 @@ Muc4|GRP
 Muc5ac|GRP
 Muc5b|GRP
 Muc6|GRP
+Mucl1|GRP
 Mug1|GRP
 Mug2|GRP
 Mul1|GRP
@@ -28869,6 +28864,7 @@ N4bp3|GRP
 N5|GRP
 N6amt1|GRP
 N6amt2|GRP
+NEWGENE_727861|GRP
 NMS|GRP
 Naa10|GRP
 Naa11|GRP
@@ -28946,6 +28942,7 @@ Nat9|GRP
 Nav1|GRP
 Nav2|GRP
 Nav3|GRP
+Nbas|GRP
 Nbea|GRP
 Nbeal1|GRP
 Nbeal2|GRP
@@ -35573,6 +35570,7 @@ RGD1584023|GRP
 RGD1596423|GRP
 RGD1624210|GRP
 RGD2301395|GRP
+RGD2320734|GRP
 RGD621098|GRP
 RGD735029|GRP
 RGD735065|GRP
@@ -36143,6 +36141,7 @@ Rhobtb2|GRP
 Rhobtb3|GRP
 Rhoc|GRP
 Rhod|GRP
+Rhof|GRP
 Rhog|GRP
 Rhoh|GRP
 Rhoj|GRP
@@ -38265,6 +38264,7 @@ Stat4|GRP
 Stat5a|GRP
 Stat5b|GRP
 Stat6|GRP
+Stath|GRP
 Stau1|GRP
 Stau2|GRP
 Stbd1|GRP
@@ -38896,6 +38896,7 @@ Tgfbi|GRP
 Tgfbr1|GRP
 Tgfbr2|GRP
 Tgfbr3|GRP
+Tgfbr3l|GRP
 Tgfbrap1|GRP
 Tgif1|GRP
 Tgif2|GRP
@@ -39287,6 +39288,7 @@ Tmem62|GRP
 Tmem63a|GRP
 Tmem63b|GRP
 Tmem63c|GRP
+Tmem64|GRP
 Tmem65|GRP
 Tmem66|GRP
 Tmem67|GRP
