@@ -4,8 +4,8 @@ Keyword=MESHCL
 DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Medical Subject Headings (MeSH) names for cellular locations [branch A11.284].
-VersionString=20131106
-CreatedDateTime=2013-11-06T10:30:12
+VersionString=20131211
+CreatedDateTime=2013-12-11T13:14:12
 QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&term=[VALUE]&field=entry
 
 [Author]
@@ -16,7 +16,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=MeSH
 DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine. 
-PublishedVersionString=2013_07_08
+PublishedVersionString=2014
+PublishedDate=20131209053210
 ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
@@ -28,9 +29,11 @@ CacheableFlag=yes
 Acrosome|A
 Actin Cytoskeleton|A
 Adherens Junctions|A
+Apicoplasts|A
 Axoneme|A
 Axons|A
 Bacterial Chromatophores|A
+Basal Bodies|A
 COP-Coated Vesicles|A
 Caveolae|A
 Cell Membrane|A
@@ -127,6 +130,7 @@ Exosomes|A
 Extracellular Fluid|A
 Extracellular Matrix|A
 Extracellular Space|A
+Filamins|A
 Fimbriae, Bacterial|A
 Flagella|A
 Focal Adhesions|A
@@ -173,7 +177,6 @@ Mitochondria, Heart|A
 Mitochondria, Liver|A
 Mitochondria, Muscle|A
 Mitochondrial Membranes|A
-Mitotic Spindle Apparatus|A
 Motor Endplate|A
 Multivesicular Bodies|A
 Myelin Sheath|A
@@ -225,6 +228,9 @@ Secretory Vesicles|A
 Sex Chromatin|A
 Sex Chromosomes|A
 Sperm Tail|A
+Spindle Apparatus|A
+Spindle Pole Bodies|A
+Spindle Poles|A
 Spliceosomes|A
 Stereocilia|A
 Stress Fibers|A
@@ -239,6 +245,7 @@ Telomere|A
 Thylakoids|A
 Tight Junctions|A
 Transport Vesicles|A
+Trichomes|A
 Vacuoles|A
 Vault Ribonucleoprotein Particles|A
 Weibel-Palade Bodies|A

@@ -4,8 +4,8 @@ Keyword=AFFX
 DomainString=Gene and Gene Products
 SpeciesString=9606, 10090, 10116
 DescriptionString=Affymetrix probe set identfiers for 3' IVT expression analysis arrays (HG U133 Plus 2.0, HG U133 Set, HG U95Av2, MG 430 2.0, MG 430A 2.0, MG 430 Set, MG U74 Set, RG 230 2.0, RG 230 Set, HT_HG-U133_Plus_PM, HT_MG-430A, HT_Rat230_PM). These identifiers may be used to specify RNA abundance. 
-VersionString=20131106
-CreatedDateTime=2013-11-06T10:30:10
+VersionString=20131211
+CreatedDateTime=2013-12-11T13:14:09
 
 [Author]
 NameString=OpenBEL
@@ -15,8 +15,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Affymetrix, Santa Clara, California, USA
 DescriptionString=Affymetrix probe set identfiers for 3' IVT expression analysis arrays.
-PublishedVersionString=2013_11_06
-PublishedDate=2013-11-06 10:04:22
+PublishedVersionString=na33
+PublishedDate=2012-10-30
 ReferenceURL=http://www.affymetrix.com/analysis
 
 [Processing]

@@ -4,8 +4,8 @@ Keyword=DO
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=Disease names from the Disease Ontology (DO). These names may be used to specify pathologies. 
-VersionString=20131106
-CreatedDateTime=2013-11-06T10:30:12
+VersionString=20131211
+CreatedDateTime=2013-12-11T13:14:12
 
 [Author]
 NameString=OpenBEL
@@ -15,8 +15,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Disease Ontology (DO)
 DescriptionString=The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts through collaborative efforts of researchers at Northwestern University, Center for Genetic Medicine and the University of Maryland School of Medicine, Institute for Genome Sciences.
-PublishedVersionString=2013_11_06
-PublishedDate=Wed, 06 Nov 2013 07:10:01 GMT
+PublishedVersionString=2013-12-05
+PublishedDate=2013-12-05
 ReferenceURL=http://disease-ontology.org/
 
 [Processing]
@@ -353,6 +353,7 @@ CacheableFlag=yes
 0050676|O
 0050677|O
 0050678|O
+0050679|O
 0050680|O
 0050681|O
 0050682|O
@@ -453,6 +454,39 @@ CacheableFlag=yes
 0050780|O
 0050781|O
 0050782|O
+0050783|O
+0050784|O
+0050785|O
+0050786|O
+0050787|O
+0050788|O
+0050789|O
+0050790|O
+0050791|O
+0050792|O
+0050793|O
+0050794|O
+0050795|O
+0050796|O
+0050797|O
+0050798|O
+0050799|O
+0050800|O
+0050801|O
+0050802|O
+0050803|O
+0050804|O
+0050805|O
+0050806|O
+0050807|O
+0050809|O
+0050810|O
+0050811|O
+0050812|O
+0050813|O
+0050814|O
+0050815|O
+0050816|O
 0060000|O
 0060001|O
 0060002|O
@@ -1633,7 +1667,6 @@ CacheableFlag=yes
 12594|O
 1260|O
 12603|O
-12621|O
 12637|O
 12638|O
 12639|O
@@ -2772,7 +2805,6 @@ CacheableFlag=yes
 2367|O
 2368|O
 2373|O
-2376|O
 2377|O
 2378|O
 238|O
@@ -3116,7 +3148,6 @@ CacheableFlag=yes
 3071|O
 3073|O
 3074|O
-3075|O
 3076|O
 3079|O
 308|O

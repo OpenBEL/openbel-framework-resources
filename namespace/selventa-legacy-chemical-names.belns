@@ -4,8 +4,8 @@ Keyword=SCHEM
 DomainString=Chemical
 SpeciesString=all
 DescriptionString=Selventa names for chemicals, drugs, and other molecule abundances. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
-VersionString=20131106
-CreatedDateTime=2013-11-06T10:30:12
+VersionString=20131211
+CreatedDateTime=2013-12-11T13:14:12
 
 [Author]
 NameString=OpenBEL
@@ -15,8 +15,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Selventa
 DescriptionString=Selventa names for chemicals, drugs, and other molecule abundances. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
-PublishedVersionString=2012_08_24
-PublishedDate=Fri, 24 Aug 2012 19:21:34 GMT
+PublishedVersionString=Fri, 24 Aug 2012 19:21:34
+PublishedDate=2012-08-24
 
 [Processing]
 CaseSensitiveFlag=yes

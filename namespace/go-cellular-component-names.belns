@@ -4,8 +4,8 @@ Keyword=GOCC
 DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Gene Ontology (GO) cellular component names. These terms may be used to represent cellular components as well as complex abundances. 
-VersionString=20131106
-CreatedDateTime=2013-11-06T10:30:12
+VersionString=20131211
+CreatedDateTime=2013-12-11T13:14:11
 QueryValueURL=http://amigo.geneontology.org/cgi-bin/amigo/search.cgi?search_query=[VALUE]&search_constraint=term&exact_match=1&action=new-search
 
 [Author]
@@ -16,8 +16,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=The Gene Ontology Consortium
 DescriptionString=The Gene Ontology project is a major bioinformatics initiative with the aim of standardizing the representation of gene and gene product attributes across species and databases.
-PublishedVersionString=2013_10_07
-PublishedDate=Mon, 07 Oct 2013 17:01:25 GMT
+PublishedVersionString=2013-10-31
+PublishedDate=2013-10-30
 ReferenceURL=http://www.geneontology.org
 
 [Processing]
@@ -60,12 +60,14 @@ APC-IQGAP1-Cdc42 complex|C
 APC-IQGAP1-Rac1 complex|C
 APC-tubulin-IQGAP1 complex|C
 ARC complex|C
+ASAP complex|C
 ASTRA complex|C
 ATP-binding cassette (ABC) transporter complex|C
 ATP-binding cassette (ABC) transporter complex, integrated substrate binding|C
 ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing|C
 ATP-binding cassette (ABC) transporter complex, transmembrane substrate-binding subunit-containing|C
 ATP-sensitive potassium channel complex|C
+ATPase dependent transmembrane transport complex|C
 ATR-ATRIP complex|C
 Ada2/Gcn5/Ada3 transcription activator complex|C
 Arp2/3 protein complex|C
@@ -182,6 +184,7 @@ DNA polymerase III, proofreading complex|C
 DNA polymerase V complex|C
 DNA polymerase complex|C
 DNA polymerase processivity factor complex|C
+DNA recombinase complex|C
 DNA recombinase mediator complex|C
 DNA replication factor A complex|C
 DNA replication factor C complex|C
@@ -261,6 +264,7 @@ ESCRT-0 complex|C
 Ecsit-NDUFAF1 complex|C
 Elg1 RFC-like complex|C
 Elongator holoenzyme complex|C
+EmrE multidrug transporter complex|C
 F bouton|A
 F-actin capping protein complex|C
 FACIT collagen|A
@@ -271,6 +275,7 @@ FAl1-SGD1 complex|C
 FHF complex|C
 FHL2-CREB complex|C
 FHL3-CREB complex|C
+FMN reductase complex|C
 Fanconi anaemia nuclear complex|C
 Fc receptor complex|C
 Fc-alpha receptor I complex|C
@@ -324,6 +329,7 @@ Grb2-EGFR complex|C
 Grb2-SHP-2 complex|C
 Grb2-Shc complex|C
 Grb2-Sos complex|C
+GroEL-GroES complex|C
 Gtr1-Gtr2 GTPase complex|C
 H zone|A
 H-NS complex|C
@@ -395,6 +401,7 @@ Kv4.2-Kv4.3 channel complex|C
 Kv4.3-DPP10 channel complex|C
 Kv4.3-DPP6 channel complex|C
 Kv4.3-KChIP1 channel complex|C
+L-cysteine desulfurase complex|C
 LUBAC complex|C
 LYSP100-associated nuclear domain|A
 Lewy body|A
@@ -444,11 +451,14 @@ Mad-Max-mSin3A complex|C
 Mad-Max-mSin3B complex|C
 MalFGK2 complex|C
 Maurer's cleft|A
+MdtBC Complex|C
 Mei2 nuclear dot|A
 Mis6-Sim4 complex|C
+ModE complex|C
 Mon1-Ccz1 complex|C
 Mpp10 complex|C
 Mre11 complex|C
+MsbA transporter complex|C
 Mst2 histone acetyltransferase complex|C
 MutLalpha complex|C
 MutLbeta complex|C
@@ -490,6 +500,7 @@ Noc1p-Noc2p complex|C
 Noc2p-Noc3p complex|C
 Noc4p-Nop14p complex|C
 Nrd1 complex|C
+Nsk1-Dlc1 complex|C
 NuA3 histone acetyltransferase complex|C
 NuA4 histone acetyltransferase complex|C
 NuRD complex|C
@@ -528,6 +539,7 @@ PcG protein complex|C
 PeBoW complex|C
 Piccolo NuA4 histone acetyltransferase complex|C
 Pick body|A
+ProVWX complex|C
 Prp19 complex|C
 Pwp2p-containing subcomplex of 90S preribosome|C
 R2TP complex|C
@@ -635,6 +647,7 @@ SmD-containing SMN-Sm protein complex|C
 Smc5-Smc6 complex|C
 Snt2C complex|C
 Ssh1 translocon complex|C
+SsuD-SsuE complex|C
 Stn1-Ten1 complex|C
 Swi5-Sfr1 complex|C
 Swi5-Swi2 complex|C
@@ -781,6 +794,7 @@ actomyosin|A
 actomyosin contractile ring|A
 actomyosin, actin portion|C
 actomyosin, myosin complex part|C
+acyl-CoA ceramide synthase complex|C
 adherens junction|A
 adventitious septum|A
 aggresome|A
@@ -788,6 +802,7 @@ alae of collagen and cuticulin-based cuticle extracellular matrix|A
 aleurone grain|A
 aleurone grain lumen|A
 aleurone grain membrane|A
+alkanesulfonate monooxygenase complex|C
 alkyl hydroperoxide reductase complex|C
 alpha DNA polymerase:primase complex|C
 alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)|C
@@ -931,8 +946,8 @@ anammoxosome|A
 anaphase-promoting complex|C
 anchored to cell outer membrane|A
 anchored to external side of plasma membrane|A
-anchored to internal side of cell outer membrane|A
 anchored to membrane|A
+anchored to periplasmic side of cell outer membrane|A
 anchored to plasma membrane|A
 anchoring collagen|A
 anchoring junction|A
@@ -964,6 +979,7 @@ ascospore-type prospore|A
 ascus epiplasm|A
 ascus lipid particle|A
 ascus membrane|A
+asexual spore wall|A
 aspartate carbamoyltransferase complex|C
 assemblon|A
 aster|C
@@ -1061,6 +1077,7 @@ capsule|A
 carbamoyl-phosphate synthase complex|C
 carboxy-terminal domain protein kinase complex|C
 carboxysome|A
+cardiac myofibril|A
 carotenoid vesicle|A
 caspase complex|C
 catalytic step 1 spliceosome|C
@@ -1100,6 +1117,8 @@ cell septum part|A
 cell septum surface|A
 cell surface|A
 cell tip|A
+cell trailing edge|A
+cell trailing edge membrane|A
 cell wall|A
 cell wall part|A
 cell wall-bounded periplasmic space|A
@@ -1201,7 +1220,7 @@ chromosome passenger complex|C
 chromosome segregation-directing complex|C
 chromosome, centromeric core region|A
 chromosome, centromeric outer repeat region|A
-chromosome, centromeric region|A
+chromosome, centromeric region|C
 chromosome, telomeric region|A
 chylomicron|C
 chylomicron remnant|C
@@ -1288,12 +1307,12 @@ condensed chromosome|A
 condensed chromosome inner kinetochore|C
 condensed chromosome kinetochore|C
 condensed chromosome outer kinetochore|C
-condensed chromosome, centromeric region|A
+condensed chromosome, centromeric region|C
 condensed nuclear chromosome|A
 condensed nuclear chromosome inner kinetochore|C
 condensed nuclear chromosome kinetochore|C
 condensed nuclear chromosome outer kinetochore|C
-condensed nuclear chromosome, centromeric region|A
+condensed nuclear chromosome, centromeric region|C
 condensin complex|C
 condensin core heterodimer|C
 cone cell pedicle|A
@@ -1301,6 +1320,7 @@ connecting hemi-adherens junction|A
 connexon complex|C
 conoid|A
 contact site|A
+contractile actin filament bundle|A
 contractile fiber|A
 contractile fiber part|A
 contractile ring|A
@@ -1387,6 +1407,10 @@ cytoplasmic origin of replication recognition complex|C
 cytoplasmic part|A
 cytoplasmic replication fork|A
 cytoplasmic replisome|C
+cytoplasmic side of endosome membrane|A
+cytoplasmic side of plasma membrane|A
+cytoplasmic side of trans-Golgi network transport vesicle membrane|A
+cytoplasmic side of transport vesicle membrane|A
 cytoplasmic stress granule|C
 cytoplasmic transcription factor complex|C
 cytoplasmic ubiquitin ligase complex|C
@@ -1432,6 +1456,7 @@ dendrite membrane|A
 dendrite terminus|A
 dendritic branch|A
 dendritic branch point|A
+dendritic cell dendrite|A
 dendritic growth cone|A
 dendritic microtubule|C
 dendritic shaft|A
@@ -1448,6 +1473,7 @@ dense fibrillar component|A
 dense nuclear body|A
 dentate gyrus mossy fiber|A
 desmosome|A
+deuterosome|A
 dihydrolipoyl dehydrogenase complex|C
 dimeric IgA immunoglobulin complex|C
 dimeric positive transcription elongation factor complex b|C
@@ -1555,6 +1581,8 @@ eukaryotic translation initiation factor 3 complex, eIF3e|C
 eukaryotic translation initiation factor 3 complex, eIF3m|C
 eukaryotic translation initiation factor 4F complex|C
 excinuclease repair complex|C
+excitatory neuromuscular junction|A
+excitatory neuromuscular junction of somatic myotube|A
 excitatory synapse|A
 exine|A
 exocyst|C
@@ -1570,7 +1598,6 @@ external encapsulating structure|A
 external encapsulating structure part|A
 external side of cell outer membrane|A
 external side of cell wall|A
-external side of endosome membrane|A
 external side of fungal-type cell wall|A
 external side of mitochondrial outer membrane|A
 external side of plasma membrane|A
@@ -1596,6 +1623,7 @@ extrahaustorial membrane|A
 extraorganismal space|A
 extrinsic to Golgi membrane|A
 extrinsic to cell outer membrane|A
+extrinsic to cytoplasmic side of plasma membrane|A
 extrinsic to endoplasmic reticulum membrane|A
 extrinsic to endosome membrane|A
 extrinsic to external side of cell outer membrane|A
@@ -1603,8 +1631,6 @@ extrinsic to external side of mycolate outer membrane|A
 extrinsic to external side of plasma membrane|A
 extrinsic to external side of plasma membrane, in periplasmic space|A
 extrinsic to fungal-type vacuolar membrane|A
-extrinsic to internal side of cell outer membrane|A
-extrinsic to internal side of plasma membrane|A
 extrinsic to intraperoxisomal membrane|A
 extrinsic to lumenal side of plastid thylakoid membrane|A
 extrinsic to lysosome membrane|A
@@ -1614,6 +1640,7 @@ extrinsic to mitochondrial outer membrane|A
 extrinsic to mycolate outer membrane|A
 extrinsic to nuclear outer membrane|A
 extrinsic to organelle membrane|A
+extrinsic to periplasmic side of cell outer membrane|A
 extrinsic to plasma membrane|A
 extrinsic to plastid inner membrane|A
 extrinsic to plastid membrane|A
@@ -1894,6 +1921,8 @@ inhibin A complex|C
 inhibin B complex|C
 inhibin complex|C
 inhibin-betaglycan-ActRII complex|C
+inhibitory neuromuscular junction|A
+inhibitory neuromuscular junction of somatic myotube|A
 inhibitory synapse|A
 inner acrosomal membrane|A
 inner dynein arm|C
@@ -1978,8 +2007,6 @@ intermediate filament cytoskeleton|A
 intermediate layer of mitotic spindle pole body|A
 intermediate layer of spindle pole body|A
 intermediate-density lipoprotein particle|C
-internal side of cell outer membrane|A
-internal side of plasma membrane|A
 internode region of axon|A
 interphase microtubule organizing center|A
 interphotoreceptor matrix|A
@@ -2006,14 +2033,13 @@ intrinsic to cell outer membrane|A
 intrinsic to chloroplast inner membrane|A
 intrinsic to chloroplast outer membrane|A
 intrinsic to contractile vacuolar membrane|A
+intrinsic to cytoplasmic side of plasma membrane|A
 intrinsic to endoplasmic reticulum membrane|A
 intrinsic to endosome membrane|A
 intrinsic to external side of cell outer membrane|A
 intrinsic to external side of plasma membrane|A
 intrinsic to external side of plasma membrane, in periplasmic space|A
 intrinsic to fungal-type vacuolar membrane|A
-intrinsic to internal side of cell outer membrane|A
-intrinsic to internal side of plasma membrane|A
 intrinsic to membrane|A
 intrinsic to mitochondrial inner membrane|A
 intrinsic to mitochondrial outer membrane|A
@@ -2021,6 +2047,7 @@ intrinsic to mycolate outer membrane|A
 intrinsic to nuclear inner membrane|A
 intrinsic to nuclear outer membrane|A
 intrinsic to organelle membrane|A
+intrinsic to periplasmic side of cell outer membrane|A
 intrinsic to peroxisomal membrane|A
 intrinsic to plasma membrane|A
 intrinsic to plastid inner membrane|A
@@ -2100,10 +2127,13 @@ linear element|A
 lipid particle|A
 lipid tube|C
 lipopolysaccharide receptor complex|C
+lobed nucleus|A
 longitudinal sarcoplasmic reticulum|A
 longitudinal sarcoplasmic reticulum lumen|A
 longitudinal side of cell surface|A
 low-density lipoprotein particle|C
+lumenal side of trans-Golgi network transport vesicle membrane|A
+lumenal side of transport vesicle membrane|A
 luminal surveillance complex|C
 lysosomal glycocalyx|A
 lysosomal lumen|A
@@ -2223,6 +2253,7 @@ microtubule organizing center|A
 microtubule organizing center attachment site|A
 microtubule organizing center part|A
 microtubule plus end|A
+microvillar actin bundle|A
 microvillus|A
 microvillus membrane|A
 midbody|A
@@ -2333,6 +2364,7 @@ myofibril|A
 myofilament|A
 myosin I complex|C
 myosin II complex|C
+myosin II filament|C
 myosin III complex|C
 myosin IV complex|C
 myosin IX complex|C
@@ -2364,6 +2396,10 @@ neurofibrillary tangle|A
 neurofilament|C
 neurofilament cytoskeleton|A
 neuromuscular junction|A
+neuromuscular junction of myotube|A
+neuromuscular junction of skeletal muscle fiber|A
+neuromuscular junction of somatic muscle|A
+neuromuscular junction of somatic muscle myotube|A
 neuron part|A
 neuron projection|A
 neuron projection membrane|A
@@ -2475,6 +2511,7 @@ nucleotide-excision repair factor 1 complex|C
 nucleotide-excision repair factor 2 complex|C
 nucleotide-excision repair factor 3 complex|C
 nucleotide-excision repair factor 4 complex|C
+nucleotide-excision repair, preincision complex|C
 nucleus|A
 nucleus-vacuole junction|A
 occluding junction|A
@@ -2530,12 +2567,13 @@ outer membrane-bounded periplasmic space|A
 outer mucus layer|A
 outer plaque of mitotic spindle pole body|A
 outer plaque of spindle pole body|A
+oxidoreductase complex|C
 oxoglutarate dehydrogenase complex|C
-oxygen evolving complex|C
 pICln-Sm protein complex|C
 pairing center|A
 palmitoyltransferase complex|C
 paraferritin complex|C
+parallel actin filament bundle|A
 parallel fiber|A
 paranodal junction|A
 paranode region of axon|A
@@ -2563,6 +2601,7 @@ perinuclear theca|A
 perinucleolar chromocenter|A
 perinucleolar compartment|A
 periplasmic flagellum|A
+periplasmic side of cell outer membrane|A
 periplasmic space|A
 peroxisomal matrix|A
 peroxisomal membrane|A
@@ -2599,6 +2638,7 @@ photosystem I antenna complex|C
 photosystem I reaction center|C
 photosystem II|C
 photosystem II antenna complex|C
+photosystem II oxygen evolving complex|C
 photosystem II reaction center|C
 phragmoplast|A
 phragmosome|A
@@ -2815,6 +2855,7 @@ protein serine/threonine phosphatase complex|C
 protein storage vacuole|A
 protein storage vacuole lumen|A
 protein storage vacuole membrane|A
+protein-DNA ISRE complex|C
 protein-DNA complex|C
 protein-DNA-RNA complex|C
 protein-N(PI)-phosphohistidine-sugar phosphotransferase complex|C
@@ -2952,6 +2993,7 @@ serine-pyruvate aminotransferase complex|C
 sex chromatin|A
 sex chromosome|A
 sexine|A
+sexual spore wall|A
 sheet-forming collagen|A
 short-chain collagen|A
 sieve area|A
@@ -3005,6 +3047,7 @@ sperm individualization complex|C
 sperm midpiece|A
 sperm mitochondrial sheath|A
 sperm part|A
+sperm plasma membrane|A
 sperm principal piece|A
 spermatoproteasome complex|C
 sphere organelle|A
@@ -3022,6 +3065,8 @@ spine mat|A
 spiny bracelet of Nageotte|A
 spitzenkorper|C
 spliceosomal complex|C
+spliceosomal snRNP complex|C
+spliceosomal tri-snRNP complex|C
 split septin rings|A
 spore wall|A
 sporoplasm|A
@@ -3099,6 +3144,7 @@ tRNA-intron endonuclease complex|C
 tRNA-specific adenosine-34 deaminase complex|C
 tRNA-splicing ligase complex|C
 tail portion of tanycyte|A
+taurine dioxygenase complex|C
 tectum|A
 telomerase catalytic core complex|C
 telomerase holoenzyme complex|C
@@ -3121,8 +3167,6 @@ thylakoid lumen|A
 thylakoid membrane|A
 thylakoid part|A
 tight junction|A
-trailing edge|A
-trailing edge membrane|A
 trans spliceosomal complex|C
 trans-Golgi network|A
 trans-Golgi network membrane|A
@@ -3144,6 +3188,7 @@ transcription factor TFIIIC2 complex|C
 transcription factor TFIIIE complex|C
 transcription factor TFTC complex|C
 transcription factor complex|C
+transcription ternary complex|C
 transcriptional repressor complex|C
 transcriptionally active chromatin|A
 transcriptionally silent chromatin|A

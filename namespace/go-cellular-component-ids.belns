@@ -4,8 +4,8 @@ Keyword=GOCCID
 DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Gene Ontology (GO) cellular component identifiers. These terms may be used to represent cellular components as well as complex abundances. 
-VersionString=20131106
-CreatedDateTime=2013-11-06T10:30:12
+VersionString=20131211
+CreatedDateTime=2013-12-11T13:14:11
 QueryValueURL=http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:[VALUE]
 
 [Author]
@@ -16,8 +16,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=The Gene Ontology Consortium
 DescriptionString=The Gene Ontology project is a major bioinformatics initiative with the aim of standardizing the representation of gene and gene product attributes across species and databases.
-PublishedVersionString=2013_10_07
-PublishedDate=Mon, 07 Oct 2013 17:01:25 GMT
+PublishedVersionString=2013-10-31
+PublishedDate=2013-10-30
 ReferenceURL=http://www.geneontology.org/
 
 [Processing]
@@ -126,12 +126,12 @@ CacheableFlag=yes
 0000506|C
 0000508|C
 0000509|C
-0000775|A
+0000775|C
 0000776|C
 0000777|C
 0000778|C
-0000779|A
-0000780|A
+0000779|C
+0000780|C
 0000781|A
 0000782|C
 0000783|C
@@ -2458,6 +2458,7 @@ CacheableFlag=yes
 0044798|C
 0044799|C
 0044815|C
+0044816|C
 0045009|A
 0045025|C
 0045092|C
@@ -2671,6 +2672,8 @@ CacheableFlag=yes
 0061497|A
 0061498|A
 0061499|A
+0061574|C
+0061576|C
 0065010|A
 0070013|A
 0070014|C
@@ -3310,6 +3313,22 @@ CacheableFlag=yes
 0097495|C
 0097504|A
 0097505|C
+0097511|A
+0097512|A
+0097513|C
+0097514|A
+0097515|A
+0097516|A
+0097517|A
+0097518|A
+0097519|C
+0097520|C
+0097521|C
+0097522|C
+0097523|C
+0097524|A
+0097525|C
+0097526|C
 0098009|C
 0098015|A
 0098017|A
@@ -3331,6 +3350,21 @@ CacheableFlag=yes
 0098033|A
 0098046|C
 0098061|A
+0098520|A
+0098521|A
+0098522|A
+0098523|A
+0098524|A
+0098525|A
+0098526|A
+0098527|A
+0098533|C
+0098536|A
+0098537|A
+0098538|A
+0098539|A
+0098540|A
+0098541|A
 1901588|C
 1901589|A
 1902377|A
@@ -3414,3 +3448,15 @@ CacheableFlag=yes
 1990195|C
 1990196|C
 1990197|C
+1990198|C
+1990199|C
+1990200|C
+1990201|C
+1990202|C
+1990203|C
+1990204|C
+1990205|C
+1990207|C
+1990220|C
+1990221|C
+1990222|C

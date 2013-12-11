@@ -4,8 +4,8 @@ Keyword=DO
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=Disease names from the Disease Ontology (DO). These names may be used to specify pathologies. 
-VersionString=20131106
-CreatedDateTime=2013-11-06T10:30:12
+VersionString=20131211
+CreatedDateTime=2013-12-11T13:14:12
 
 [Author]
 NameString=OpenBEL
@@ -15,8 +15,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Disease Ontology (DO)
 DescriptionString=The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts through collaborative efforts of researchers at Northwestern University, Center for Genetic Medicine and the University of Maryland School of Medicine, Institute for Genome Sciences.
-PublishedVersionString=2013_11_06
-PublishedDate=Wed, 06 Nov 2013 07:10:01 GMT
+PublishedVersionString=2013-12-05
+PublishedDate=2013-12-05
 ReferenceURL=http://disease-ontology.org/
 
 [Processing]
@@ -212,6 +212,7 @@ Ebola hemorrhagic fever|O
 Ebstein anomaly|O
 Edwards syndrome|O
 Ehlers-Danlos syndrome|O
+Ehlers-Danlos syndrome progeroid type|O
 Ellis-Van Creveld syndrome|O
 Emery-Dreifuss muscular dystrophy|O
 Epstein-Barr virus hepatitis|O
@@ -288,6 +289,7 @@ Job's syndrome|O
 Johanson-Blizzard syndrome|O
 Joubert syndrome|O
 KBG syndrome|O
+Kahrizi syndrome|O
 Kallmann syndrome|O
 Kaposi's sarcoma|O
 Kawasaki disease|O
@@ -318,7 +320,6 @@ La Crosse encephalitis|O
 Lafora disease|O
 Lambert-Eaton myasthenic syndrome|O
 Landau-Kleffner syndrome|O
-Langer-Giedion syndrome|O
 Langerhans cell sarcoma|O
 Langerhans-cell histiocytosis|O
 Laron syndrome|O
@@ -492,7 +493,7 @@ St. Louis encephalitis|O
 Stevens-Johnson syndrome|O
 Stickler syndrome|O
 Stiff-Person syndrome|O
-Sugio-Kaji syndrome|O
+Sugio-Kajii syndrome|O
 T cell deficiency|O
 T lymphocyte deficiency|O
 T-cell adult acute lymphocytic leukemia|O
@@ -585,6 +586,7 @@ accommodative esotropia|O
 accommodative spasm|O
 aceruloplasminemia|O
 achalasia|O
+achalasia microcephaly syndrome|O
 acheiropody|O
 achilles bursitis|O
 achondrogenesis|O
@@ -735,6 +737,7 @@ adhesions of uterus|O
 adiaspiromycosis|O
 adiposis dolorosa|O
 adjustment disorder|O
+adnexa disease|O
 adolescence-adult electroclinical syndrome|O
 adrenal adenoma|O
 adrenal carcinoma|O
@@ -780,7 +783,6 @@ adult epithelioid sarcoma|O
 adult extraosseous chondrosarcoma|O
 adult extraosseous osteosarcoma|O
 adult fibrosarcoma|O
-adult glioblastoma multiforme|O
 adult infiltrating astrocytic neoplasm|O
 adult intracranial malignant hemangiopericytoma|O
 adult leptomeningeal melanoma|O
@@ -916,6 +918,7 @@ anatomical narrow angle borderline glaucoma|O
 anauxetic dysplasia|O
 ancylostomiasis|O
 androgen insensitivity syndrome|O
+androgenic alopecia|O
 anemia|O
 anemia of prematurity|O
 aneruptive fever|O
@@ -1251,6 +1254,7 @@ biliary tract intraductal papillary mucinous neoplasm|O
 biliary tract neoplasm|O
 bilirubin metabolic disorder|O
 binocular vision disease|O
+biotin deficiency|O
 biotin-responsive basal ganglia disease|O
 biotinidase deficiency|O
 biphasic synovial sarcoma|O
@@ -1317,6 +1321,7 @@ blood platelet disease|O
 blood protein disease|O
 bloom syndrome|O
 blue color blindness|O
+blue cone monochromacy|O
 blue drum syndrome|O
 blue toe syndrome|O
 blunt duct adenosis of breast|O
@@ -1618,6 +1623,7 @@ cerebral arteritis|O
 cerebral artery occlusion|O
 cerebral atherosclerosis|O
 cerebral convexity meningioma|O
+cerebral creatine deficiency syndrome|O
 cerebral degeneration|O
 cerebral falx meningioma|O
 cerebral folate receptor alpha deficiency|O
@@ -1853,7 +1859,6 @@ chronic orbital inflammation|O
 chronic perichondritis of pinna|O
 chronic polyneuropathy|O
 chronic progressive external ophthalmoplegia|O
-chronic progressive multiple sclerosis|O
 chronic pulmonary heart disease|O
 chronic purulent otitis media|O
 chronic pyelonephritis|O
@@ -1970,7 +1975,9 @@ complex partial epilepsy|O
 complex regional pain syndrome|O
 composite lymphoma|O
 conduct disorder|O
+cone dystrophy|O
 cone-rod dystrophy|O
+congenital adrenal hyperplasia|O
 congenital adrenal insufficiency|O
 congenital afibrinogenemia|O
 congenital aphakia|O
@@ -2083,6 +2090,7 @@ craniometaphyseal dysplasia|O
 craniopharyngioma|O
 craniosynostosis|O
 crater-like holes of optic disc|O
+creatine transporter deficiency|O
 crescentic glomerulonephritis|O
 cribriform carcinoma|O
 cribriform variant testicular seminoma|O
@@ -2705,6 +2713,7 @@ fibrous histiocytoma|O
 fibrous meningioma|O
 fibrous synovial sarcoma|O
 fibular collateral ligament bursitis|O
+fibular hypoplasia and complex brachydactyly|O
 fiedler's myocarditis|O
 filamentary keratitis|O
 filarial elephantiasis|O
@@ -2890,7 +2899,11 @@ glassy cell variant cervical adenosquamous carcinoma|O
 glaucoma|O
 glaucomatocyclitic crisis|O
 glaucomatous atrophy of optic disc|O
-glioblastoma|O
+glioblastoma classical subtype|O
+glioblastoma mesenchymal subtype|O
+glioblastoma multiforme|O
+glioblastoma neural subtype|O
+glioblastoma proneural subtype|O
 gliofibroma|O
 gliomatosis cerebri|O
 gliosarcoma|O
@@ -2962,6 +2975,7 @@ granulomatous orchitis|O
 granulosa cell tumor|O
 gray zone lymphoma|O
 growth hormone secreting pituitary adenoma|O
+guanidinoacetate methyltransferase deficiency|O
 gum cancer|O
 gummatous syphilis|O
 gynatresia|O
@@ -3397,6 +3411,7 @@ inverted papilloma|O
 inverted transitional papilloma|O
 iodine hypothyroidism|O
 iridocyclitis|O
+iridogoniodysgenesis syndrome|O
 iris cancer|O
 iris disease|O
 iris mixed cell melanoma|O
@@ -3431,6 +3446,7 @@ juvenile glaucoma|O
 juvenile myelomonocytic leukemia|O
 juvenile myoclonic epilepsy|O
 juvenile pilocytic astrocytoma|O
+juvenile polyposis syndrome|O
 juvenile rheumatoid arthritis|O
 juvenile spinal muscular atrophy|O
 juvenile type testicular granulosa cell tumor|O
@@ -4079,6 +4095,7 @@ mucopolysaccharidosis I|O
 mucopolysaccharidosis II|O
 mucopolysaccharidosis III|O
 mucopolysaccharidosis IV|O
+mucopolysaccharidosis IX|O
 mucopolysaccharidosis VI|O
 mucosulfatidosis|O
 mulibrey nanism|O
@@ -4091,6 +4108,7 @@ multinodular goiter|O
 multiple carboxylase deficiency|O
 multiple chemical sensitivity|O
 multiple cranial nerve palsy|O
+multiple cutaneous and mucosal venous malformations|O
 multiple epiphyseal dysplasia|O
 multiple intestinal atresia|O
 multiple mucosal neuroma|O
@@ -4101,6 +4119,7 @@ multiple skull base meningioma|O
 multiple spinal canal and spinal cord meningioma|O
 multiple symmetric lipomatosis|O
 multiple symmetrical lipomatosis|O
+multiple synostoses syndrome|O
 multiple system atrophy|O
 mumps|O
 muscle benign neoplasm|O
@@ -4766,9 +4785,11 @@ periventricular nodular heterotopia|O
 pernicious anemia|O
 peroneal nerve paralysis|O
 peroneal neuropathy|O
+peroxisomal acyl-CoA oxidase deficiency|O
 peroxisomal disease|O
 persian gulf syndrome|O
 persistent fetal circulation syndrome|O
+persistent mullerian duct syndrome|O
 personality disorder|O
 pertussis|O
 pervasive developmental disorder|O
@@ -4982,6 +5003,7 @@ primary lacrimal atrophy|O
 primary open angle glaucoma|O
 primary optic atrophy|O
 primary polycythemia|O
+primary progressive multiple sclerosis|O
 primary pulmonary hypertension|O
 primary syphilis|O
 primary systemic mycosis|O
@@ -4997,6 +5019,7 @@ progressive multifocal leukoencephalopathy|O
 progressive muscular atrophy|O
 progressive myoclonus epilepsy|O
 progressive peripheral pterygium|O
+progressive relapsing multiple sclerosis|O
 progressive supranuclear palsy|O
 prolactin producing pituitary tumor|O
 prolactinoma|O
@@ -5050,6 +5073,7 @@ proteinuria|O
 prothrombin deficiency|O
 protoplasmic astrocytoma|O
 protozoal dysentery|O
+proximal symphalangism|O
 psammomatous meningioma|O
 pseudo-TORCH syndrome|O
 pseudoachondroplasia|O
@@ -5398,6 +5422,7 @@ secondary hyperparathyroidism of renal origin|O
 secondary hypertension|O
 secondary hypertrophic osteoarthropathy|O
 secondary lacrimal atrophy|O
+secondary progressive multiple sclerosis|O
 secondary syphilis|O
 secondary vitreoretinal degeneration|O
 secretory diarrhea|O
@@ -5455,6 +5480,7 @@ sexual masochism|O
 sexual sadism|O
 shigellosis|O
 shipyard eye|O
+short QT syndrome|O
 short bowel syndrome|O
 shoulder impingement syndrome|O
 sialadenitis|O
@@ -5630,14 +5656,16 @@ splenic manifestation of prolymphocytic leukemia|O
 splenic marginal zone lymphoma|O
 splenic sequestration|O
 splenic tuberculosis|O
-sponastrime dysplasia|O
 spondylitis|O
 spondyloarthropathy|O
 spondylocostal dysostosis|O
 spondyloepimetaphyseal dysplasia|O
 spondyloepimetaphyseal dysplasia, Missouri type|O
+spondyloepimetaphyseal dysplasia, Pakistani type|O
+spondyloepimetaphyseal dysplasia, Sponastrime type|O
 spondyloepimetaphyseal dysplasia, Strudwick type|O
 spondyloepiphyseal dysplasia congenita|O
+spondyloepiphyseal dysplasia with congenital joint dislocations|O
 spondylolisthesis|O
 spondylolysis|O
 spondylosis|O
@@ -5661,7 +5689,6 @@ status asthmaticus|O
 status epilepticus|O
 steatitis|O
 steatorrhea|O
-stem cell leukemia|O
 stenosis of lacrimal passage|O
 stenosis of lacrimal punctum|O
 stenosis of lacrimal sac|O
@@ -5798,6 +5825,7 @@ tall cell variant papillary carcinoma|O
 tamoxifen-Related endometrial Lesion|O
 tanycytic ependymoma|O
 tarsal tunnel syndrome|O
+tarsal-carpal coalition syndrome|O
 tauopathy|O
 teeth hard tissue disease|O
 telangiectasis|O
@@ -5807,6 +5835,7 @@ telogen effluvium|O
 temporal arteritis|O
 temporal lobe epilepsy|O
 temporal lobe neoplasm|O
+temtamy preaxial brachydactyly syndrome|O
 tendinitis|O
 tendon sheath lipoma|O
 tenosynovial giant cell tumor|O
@@ -5992,6 +6021,7 @@ trench fever|O
 trichinosis|O
 trichomoniasis|O
 trichorhinophalangeal syndrome type I|O
+trichorhinophalangeal syndrome type II|O
 trichosporonosis|O
 trichostrongyloidiasis|O
 trichostrongylosis|O
@@ -6118,6 +6148,7 @@ urinary system disease|O
 urinary tract non-invasive transitional cell neoplasm|O
 urinary tract obstruction|O
 urinary tract papillary transitional cell benign neoplasm|O
+urofacial syndrome|O
 urogenital tuberculosis|O
 urticaria|O
 urticaria pigmentosa|O
