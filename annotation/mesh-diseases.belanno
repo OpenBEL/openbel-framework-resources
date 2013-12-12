@@ -3,8 +3,8 @@ Keyword=MeSHDisease
 TypeString=list
 DescriptionString=Disease terms from the [C] branch of Medical Subject Headings (MeSH).
 UsageString=Use to annotate a statement demonstrated in the context of a specific disease.
-VersionString=20131106
-CreatedDateTime=2013-11-06T14:24:26
+VersionString=20131212
+CreatedDateTime=2013-12-12T10:21:52
 
 [Author]
 NameString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
@@ -13,7 +13,7 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=MeSH
 DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine.
-PublishedVersionString=2013
+PublishedVersionString=2014
 ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
@@ -285,6 +285,7 @@ Anisakiasis|D017129
 Aniseikonia|D000839
 Anisocoria|D015875
 Anisometropia|D015858
+Ankle Fractures|D064386
 Ankle Injuries|D016512
 Ankylosis|D000844
 Anodontia|D000848
@@ -303,6 +304,7 @@ Anthrax|D000881
 Anti-Glomerular Basement Membrane Disease|D019867
 Anti-N-Methyl-D-Aspartate Receptor Encephalitis|D060426
 Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis|D056648
+Anticholinergic Syndrome|D064807
 Anticipation, Genetic|D020132
 Antiphospholipid Syndrome|D016736
 Antithrombin III Deficiency|D020152
@@ -340,7 +342,6 @@ Appendicitis|D001064
 Apraxia, Ideomotor|D020240
 Apraxias|D001072
 Apudoma|D001079
-Arachnidism|D001098
 Arachnodactyly|D054119
 Arachnoid Cysts|D016080
 Arachnoiditis|D001100
@@ -369,7 +370,7 @@ Arthritis|D001168
 Arthritis, Experimental|D001169
 Arthritis, Gouty|D015210
 Arthritis, Infectious|D001170
-Arthritis, Juvenile Rheumatoid|D001171
+Arthritis, Juvenile|D001171
 Arthritis, Psoriatic|D015535
 Arthritis, Reactive|D016918
 Arthritis, Rheumatoid|D001172
@@ -410,6 +411,7 @@ Athletic Injuries|D001265
 Atrial Fibrillation|D001281
 Atrial Flutter|D001282
 Atrial Premature Complexes|D018880
+Atrial Remodeling|D064752
 Atrioventricular Block|D054537
 Atrophic Vaginitis|D059268
 Atrophy|D001284
@@ -480,6 +482,7 @@ Bites and Stings|D001733
 Bites, Human|D001734
 Blackwater Fever|D001742
 Bladder Exstrophy|D001746
+Bland White Garland Syndrome|D063748
 Blast Crisis|D001752
 Blast Injuries|D001753
 Blastocystis Infections|D016776
@@ -629,6 +632,7 @@ Carbohydrate Metabolism, Inborn Errors|D002239
 Carbon Monoxide Poisoning|D002249
 Carbon Tetrachloride Poisoning|D002252
 Carbuncle|D002270
+Carcinogenesis|D063646
 Carcinoid Heart Disease|D002275
 Carcinoid Tumor|D002276
 Carcinoma|D002277
@@ -760,6 +764,8 @@ Channelopathies|D053447
 Charcot-Marie-Tooth Disease|D002607
 Chediak-Higashi Syndrome|D002609
 Cheilitis|D002613
+Chemically-Induced Disorders|D064419
+Chemotherapy-Induced Febrile Neutropenia|D064146
 Cherubism|D002636
 Chest Pain|D002637
 Cheyne-Stokes Respiration|D002639
@@ -869,6 +875,7 @@ Colitis, Lymphocytic|D046730
 Colitis, Microscopic|D046728
 Colitis, Ulcerative|D003093
 Collagen Diseases|D003095
+Collagenous Sprue|D064068
 Colles' Fracture|D003100
 Colloid Cysts|D056364
 Coloboma|D003103
@@ -1009,6 +1016,7 @@ DNA Degradation, Necrotic|D053836
 DNA Repair-Deficiency Disorders|D049914
 DNA Virus Infections|D004266
 Dacryocystitis|D003607
+Dandruff|D063807
 Dandy-Walker Syndrome|D003616
 Darier Disease|D007644
 De Lange Syndrome|D003635
@@ -1037,7 +1045,6 @@ Demyelinating Diseases|D003711
 Dendritic Cell Sarcoma, Follicular|D054740
 Dendritic Cell Sarcoma, Interdigitating|D054739
 Dengue|D003715
-Dengue Hemorrhagic Fever|D019595
 Dens in Dente|D003719
 Dent Disease|D057973
 Dental Calculus|D003728
@@ -1159,10 +1166,11 @@ Dracunculiasis|D004320
 Drowning|D004332
 Drug Eruptions|D003875
 Drug Hypersensitivity|D004342
+Drug Hypersensitivity Syndrome|D063926
 Drug Overdose|D062787
-Drug Toxicity|D004362
 Drug-Induced Liver Injury|D056486
 Drug-Induced Liver Injury, Chronic|D056487
+Drug-Related Side Effects and Adverse Reactions|D064420
 Dry Eye Syndromes|D015352
 Dry Socket|D004368
 Duane Retraction Syndrome|D004370
@@ -1179,6 +1187,7 @@ Dwarfism|D004392
 Dwarfism, Pituitary|D004393
 Dysarthria|D004401
 Dysautonomia, Familial|D004402
+Dysbiosis|D064806
 Dyscalculia|D060705
 Dysentery|D004403
 Dysentery, Amebic|D004404
@@ -1333,7 +1342,6 @@ Eosinophilic Granuloma|D004803
 Ependymoma|D004806
 Ephemeral Fever|D004810
 Epidermal Cyst|D004814
-Epidermal Necrolysis, Toxic|D004816
 Epidermitis, Exudative, of Swine|D004818
 Epidermodysplasia Verruciformis|D004819
 Epidermolysis Bullosa|D004820
@@ -1458,6 +1466,7 @@ Failed Back Surgery Syndrome|D055111
 Failure to Thrive|D005183
 Fallopian Tube Diseases|D005184
 Fallopian Tube Neoplasms|D005185
+Familial Hypophosphatemic Rickets|D053098
 Familial Mediterranean Fever|D010505
 Fanconi Anemia|D005199
 Fanconi Syndrome|D005198
@@ -1475,6 +1484,7 @@ Fatigue Syndrome, Chronic|D015673
 Fatty Liver|D005234
 Fatty Liver, Alcoholic|D005235
 Favism|D005236
+Febrile Neutropenia|D064147
 Fecal Impaction|D005244
 Fecal Incontinence|D005242
 Feline Acquired Immunodeficiency Syndrome|D016181
@@ -1491,7 +1501,7 @@ Femoral Neck Fractures|D005265
 Femoral Neoplasms|D005266
 Femoral Neuropathy|D020428
 Femur Head Necrosis|D005271
-Fetal Alcohol Syndrome|D005310
+Fetal Alcohol Spectrum Disorders|D063647
 Fetal Death|D005313
 Fetal Diseases|D005315
 Fetal Distress|D005316
@@ -2082,6 +2092,7 @@ Hyperthyroxinemia|D006981
 Hyperthyroxinemia, Familial Dysalbuminemic|D050010
 Hypertrichosis|D006983
 Hypertriglyceridemia|D015228
+Hypertriglyceridemic Waist|D064250
 Hypertrophy|D006984
 Hypertrophy, Left Ventricular|D017379
 Hypertrophy, Right Ventricular|D017380
@@ -2113,7 +2124,6 @@ Hypopharyngeal Neoplasms|D007012
 Hypophosphatasia|D007014
 Hypophosphatemia|D017674
 Hypophosphatemia, Familial|D007015
-Hypophosphatemic Rickets, X-Linked Dominant|D053098
 Hypopigmentation|D017496
 Hypopituitarism|D007018
 Hypoplastic Left Heart Syndrome|D018636
@@ -2221,6 +2231,7 @@ Intracranial Hemorrhages|D020300
 Intracranial Hypertension|D019586
 Intracranial Hypotension|D019585
 Intracranial Thrombosis|D020767
+Intraocular Lymphoma|D064090
 Intraoperative Awareness|D058926
 Intraoperative Complications|D007431
 Intrauterine Device Migration|D058736
@@ -2257,7 +2268,7 @@ Jejunal Diseases|D007579
 Jejunal Neoplasms|D007580
 Jervell-Lange Nielsen Syndrome|D029593
 Jet Lag Syndrome|D020179
-Job's Syndrome|D007589
+Job Syndrome|D007589
 Joint Deformities, Acquired|D016916
 Joint Diseases|D007592
 Joint Instability|D007593
@@ -2827,6 +2838,7 @@ Musculoskeletal Diseases|D009140
 Musculoskeletal Pain|D059352
 Mushroom Poisoning|D009145
 Mutism|D009155
+Myalgia|D063806
 Myasthenia Gravis|D009157
 Myasthenia Gravis, Autoimmune, Experimental|D020720
 Myasthenia Gravis, Neonatal|D020941
@@ -3045,6 +3057,7 @@ Nocturia|D053158
 Nocturnal Enuresis|D053206
 Nocturnal Myoclonus Syndrome|D020189
 Nocturnal Paroxysmal Dystonia|D020183
+Nodding Syndrome|D064128
 Noma|D009625
 Non-Filarial Lymphedema|D062846
 Nondisjunction, Genetic|D009630
@@ -3291,6 +3304,7 @@ Pathologic Processes|D010335
 Pathological Conditions, Anatomical|D020763
 Pathological Conditions, Signs and Symptoms|D013568
 Peanut Hypersensitivity|D021183
+Pediatric Obesity|D063766
 Pelger-Huet Anomaly|D010381
 Peliosis Hepatis|D010382
 Pelizaeus-Merzbacher Disease|D020371
@@ -3570,6 +3584,7 @@ Prostatic Diseases|D011469
 Prostatic Hyperplasia|D011470
 Prostatic Intraepithelial Neoplasia|D019048
 Prostatic Neoplasms|D011471
+Prostatic Neoplasms, Castration-Resistant|D064129
 Prostatism|D053448
 Prostatitis|D011472
 Prosthesis Failure|D011475
@@ -3754,6 +3769,7 @@ Retinoblastoma|D012175
 Retinopathy of Prematurity|D012178
 Retinoschisis|D041441
 Retrobulbar Hemorrhage|D019315
+Retrocaval Ureter|D064749
 Retrocochlear Diseases|D012181
 Retrognathia|D063173
 Retrograde Degeneration|D012183
@@ -3790,6 +3806,7 @@ Rhinosporidiosis|D012227
 Rib Fractures|D012253
 Riboflavin Deficiency|D012257
 Rickets|D012279
+Rickets, Hypophosphatemic|D063730
 Rickettsia Infections|D012282
 Rickettsiaceae Infections|D012288
 Rift Valley Fever|D012295
@@ -3868,6 +3885,7 @@ Scleroderma, Systemic|D012595
 Scleromyxedema|D053718
 Sclerosis|D012598
 Scoliosis|D012600
+Scorpion Stings|D065008
 Scotoma|D012607
 Scrapie|D012608
 Screw Worm Infection|D012610
@@ -3895,6 +3913,7 @@ Serum Sickness|D012713
 Setariasis|D012719
 Severe Acute Respiratory Syndrome|D045169
 Severe Combined Immunodeficiency|D016511
+Severe Dengue|D019595
 Sex Chromosome Aberrations|D012729
 Sex Chromosome Disorders|D025064
 Sex Chromosome Disorders of Sex Development|D058533
@@ -4019,6 +4038,7 @@ Sphenoid Sinusitis|D015524
 Spherocytosis, Hereditary|D013103
 Sphincter of Oddi Dysfunction|D046628
 Sphingolipidoses|D013106
+Spider Bites|D001098
 Spina Bifida Cystica|D016137
 Spina Bifida Occulta|D016136
 Spinal Cord Compression|D013117
@@ -4187,6 +4207,7 @@ Tennis Elbow|D013716
 Tenosynovitis|D013717
 Tension-Type Headache|D018781
 Teratocarcinoma|D018243
+Teratogenesis|D064793
 Teratoma|D013724
 Testicular Diseases|D013733
 Testicular Hydrocele|D006848
@@ -4236,6 +4257,7 @@ Thyrotoxicosis|D013971
 Tibial Fractures|D013978
 Tibial Neuropathy|D020429
 Tic Disorders|D013981
+Tick Bites|D064927
 Tick Infestations|D013984
 Tick Paralysis|D013985
 Tick Toxicoses|D013986
@@ -4330,6 +4352,7 @@ Trigeminal Nerve Injuries|D061221
 Trigeminal Neuralgia|D014277
 Trigger Finger Disorder|D052582
 Trilogy of Fallot|D014286
+Triple Negative Breast Neoplasms|D064726
 Triploidy|D057885
 Trismus|D014313
 Trisomy|D014314
@@ -4531,6 +4554,7 @@ Vitiligo|D014820
 Vitreoretinopathy, Proliferative|D018630
 Vitreous Detachment|D020255
 Vitreous Hemorrhage|D014823
+Vocal Cord Dysfunction|D064706
 Vocal Cord Paralysis|D014826
 Voice Disorders|D014832
 Vomiting|D014839

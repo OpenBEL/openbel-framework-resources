@@ -3,8 +3,8 @@ Keyword=CellLine
 TypeString=list
 DescriptionString=Cell Line Ontology (CLO) and Experimental Factor Ontology (EFO) Cell Lines
 UsageString=Use this annotation to indicate the cell line context of a statement. Use to annotate a statement that was demonstrated in a given cell line.
-VersionString=20131106
-CreatedDateTime=2013-11-06T14:24:26
+VersionString=20131212
+CreatedDateTime=2013-12-12T10:21:52
 
 [Author]
 NameString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
@@ -13,13 +13,13 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Cell Line Ontology (CLO)
 DescriptionString=The Cell Line Ontology (CLO) is a community-driven ontology that is developed to standardize and integrate cell line information and support computer-assisted reasoning.
-PublishedVersionString=2.1.58
-PublishedDate=2013-10-21
+PublishedVersionString=2.1.59
+PublishedDate=2013-11-06
 ReferenceURL=http://www.clo-ontology.org/
 NameString=Experimental Factor Ontology (EFO)
 DescriptionString=The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases.
-PublishedVersionString=2.41
-PublishedDate=2013-10-15
+PublishedVersionString=2.42
+PublishedDate=2013-11-15
 ReferenceURL=http://www.ebi.ac.uk/efo/
 
 [Processing]
@@ -122,8 +122,8 @@ CacheableFlag=yes
 155BR cell|CLO_0001104
 158.2 cell|CLO_0001106
 15B2 cell|CLO_0001107
-15C6 cell|CLO_0001108
 15C6 cell|CLO_0001109
+15C6 cell|CLO_0001108
 15F3-1 cell|CLO_0001110
 15F7 cell|CLO_0001111
 15P-1 cell|CLO_0001112
@@ -676,8 +676,8 @@ A52m/pSG1 cell|CLO_0001600
 A549|EFO_0001086
 A549 cell|CLO_0001601
 A6 ATL cell|CLO_0001604
-A6 cell|CLO_0001603
 A6 cell|CLO_0001602
+A6 cell|CLO_0001603
 A673|EFO_0002106
 A673 cell|CLO_0001605
 A68177 cell|CLO_0001607
@@ -691,8 +691,8 @@ A8/DI cell|CLO_0001615
 A84M cell|CLO_0001616
 A84P cell|CLO_0001617
 A9 L hD2 S.C. 18 cell|CLO_0001621
-A9 cell|CLO_0001618
 A9 cell|CLO_0001619
+A9 cell|CLO_0001618
 A94 cell|CLO_0001622
 A94M cell|CLO_0001623
 A94P cell|CLO_0001624
@@ -1507,6 +1507,7 @@ CGTH-W-1 cell|CLO_0002406
 CGTHW1|EFO_0002131
 CH-EB6 cell|CLO_0002416
 CH1 cell|CLO_0002408
+CH12.LX|EFO_0005233
 CH26-1352 cell|CLO_0002412
 CHH-1 cell|CLO_0002417
 CHL cell|CLO_0002418
@@ -1821,8 +1822,8 @@ D10.G4.1|EFO_0002822
 D10.G4.1 cell|CLO_0002659
 D12/DM cell|CLO_0002661
 D1589 cell|CLO_0002663
-D17 cell|CLO_0002664
 D17 cell|CLO_0002665
+D17 cell|CLO_0002664
 D1B cell|CLO_0002667
 D2 cell|CLO_0002668
 D2085 cell|CLO_0002669
@@ -1954,8 +1955,8 @@ DREG200 cell|CLO_0002817
 DREG56 cell|CLO_0002818
 DRS cell|CLO_0002819
 DS 92 cell|CLO_0002820
-DS-1 cell|CLO_0002821
 DS-1 cell|CLO_0002822
+DS-1 cell|CLO_0002821
 DS-3 cell|CLO_0002825
 DS-5 cell|CLO_0002826
 DS-6 cell|CLO_0002827
@@ -2047,6 +2048,7 @@ EBL cell|CLO_0002875
 EBTr (NBL-4) cell|CLO_0002877
 EBTr cell|CLO_0002876
 EC cell|CLO_0002878
+ECC-1|EFO_0005231
 ECTC cell|CLO_0002880
 ECV-304 cell|CLO_0002882
 ECV304 cell|CLO_0002881
@@ -2880,8 +2882,8 @@ H2.35 cell|CLO_0003587
 H2.8 cell|CLO_0003588
 H209|EFO_0001165
 H21F8-1 cell|CLO_0003589
-H25B10 cell|CLO_0003591
 H25B10 cell|CLO_0003590
+H25B10 cell|CLO_0003591
 H3.1 cell|CLO_0003592
 H33HJ-JA1 cell|CLO_0003593
 H36.12a cell|CLO_0003594
@@ -6927,8 +6929,8 @@ L2I-6 cell|CLO_0007182
 L3.6.2 cell|CLO_0007184
 L3055|EFO_0001198
 L35 cell|CLO_0007185
-L368 cell|CLO_0007187
 L368 cell|CLO_0007188
+L368 cell|CLO_0007187
 L428|EFO_0002225
 L45 cell|CLO_0007190
 L5 cell|CLO_0007191
@@ -8041,6 +8043,7 @@ NS20Y cell|CLO_0008205
 NSO cell|CLO_0008206
 NT-1|EFO_0002707
 NT2-D1 cell|CLO_0008207
+NT2/D1|EFO_0005236
 NTERA-2 cl.D1 cell|CLO_0008208
 NTera2|EFO_0002959
 NTera2 derived dopaminergic neuronal like cells|EFO_0002961
@@ -8098,8 +8101,8 @@ OKT 10 cell|CLO_0008250
 OKT 11 cell|CLO_0008251
 OKT 3 cell|CLO_0008252
 OKT 4 cell|CLO_0008253
-OKT 5 cell|CLO_0008255
 OKT 5 cell|CLO_0008254
+OKT 5 cell|CLO_0008255
 OKT 6 cell|CLO_0008256
 OKT 8 cell|CLO_0008257
 OKT 9 cell|CLO_0008258
@@ -8275,6 +8278,7 @@ PF-382 cell|CLO_0008421
 PF187 cell|CLO_0008420
 PF90F cell|CLO_0008422
 PFHR 9 cell|CLO_0008424
+PFSK-1|EFO_0005234
 PFSK-1 cell|CLO_0008425
 PG cell|CLO_0008426
 PG-4 (S+L–) cell|CLO_0008430
@@ -10131,8 +10135,8 @@ SC 11 cell|CLO_0008955
 SC cell|CLO_0008954
 SC-1 (F1701 clone 1116A) cell|CLO_0008959
 SC-1 cell|CLO_0008957
-SC-1 cell|CLO_0008958
 SC-1 cell|CLO_0008956
+SC-1 cell|CLO_0008958
 SC-71 cell|CLO_0008960
 SC-75 cell|CLO_0008961
 SCA-9 clone 15 cell|CLO_0008964
@@ -10458,8 +10462,8 @@ Sl/Sl4 hSCF220 cell|CLO_0009070
 Sl/Sl4 hSCF248 cell|CLO_0009071
 Sol8 cell|CLO_0009108
 Sp1K cell|CLO_0009110
-Sp2/0-Ag14 cell|CLO_0009115
 Sp2/0-Ag14 cell|CLO_0009114
+Sp2/0-Ag14 cell|CLO_0009115
 Sp2/01-Ag cell|CLO_0009111
 Sp2/mIL-6 cell|CLO_0009116
 Src++ cell|CLO_0009132
@@ -10718,6 +10722,7 @@ U-266 cell|CLO_0009457
 U-343 MGa cell|CLO_0009459
 U-373 MG cell|CLO_0009461
 U-698-M cell|CLO_0009462
+U-87 MG|EFO_0005237
 U-87 MG cell|CLO_0009464
 U-937 cell|CLO_0009465
 U266|EFO_0001254
@@ -11529,8 +11534,8 @@ immortal human buttock-derived cell line cell|CLO_0000880
 immortal human buttock-derived fibroblast cell line cell|CLO_0000684
 immortal human caecum-derived cell line cell|CLO_0000514
 immortal human calf-derived fibroblast cell line cell|CLO_0009810
-immortal human cell line cell|CLO_0000511
 immortal human cell line cell|CLO_0000020
+immortal human cell line cell|CLO_0000511
 immortal human cervix-derived fibroblast cell line cell|CLO_0000816
 immortal human chordate pharynx-derived cell line cell|CLO_0000884
 immortal human chorion-derived cell line cell|CLO_0000528

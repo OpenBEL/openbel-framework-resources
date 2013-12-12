@@ -3,8 +3,8 @@ Keyword=MeSHAnatomy
 TypeString=list
 DescriptionString=Anatomy terms from Medical Subject Headings (MeSH), limited to headings from the following subbranches:[A01], [A02], [A03], [A04], [A05], [A06], [A07], [A08], [A09], [A10], [A12], [A14], [A15], [A16], and [A17].
 UsageString=Use to annotate a statement demonstrated in a specific anatomical entity.
-VersionString=20131106
-CreatedDateTime=2013-11-06T14:24:26
+VersionString=20131212
+CreatedDateTime=2013-12-12T10:21:52
 
 [Author]
 NameString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
@@ -13,7 +13,7 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=MeSH
 DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine.
-PublishedVersionString=2013
+PublishedVersionString=2014
 ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
@@ -52,6 +52,7 @@ Adrenergic Neurons|D059331
 Adventitia|D063194
 Afferent Pathways|D000344
 Allantois|D000482
+Allografts|D064591
 Alveolar Process|D000539
 Amacrine Cells|D025042
 Amnion|D000650
@@ -100,6 +101,7 @@ Atrial Septum|D054087
 Atrioventricular Node|D001283
 Auditory Cortex|D001303
 Auditory Pathways|D001306
+Autografts|D064592
 Autonomic Fibers, Postganglionic|D001338
 Autonomic Fibers, Preganglionic|D001339
 Autonomic Nervous System|D001341
@@ -115,6 +117,7 @@ B-Lymphocyte Subsets|D016175
 B-Lymphocytes|D001402
 B-Lymphocytes, Regulatory|D060151
 Back|D001415
+Back Muscles|D064131
 Bartholin's Glands|D001472
 Basal Ganglia|D001479
 Basal Nucleus of Meynert|D020532
@@ -155,6 +158,7 @@ Bone Marrow|D001853
 Bone Marrow Cells|D001854
 Bone Matrix|D001857
 Bone and Bones|D001842
+Bone-Patellar Tendon-Bone Grafts|D064594
 Bones of Lower Extremity|D050281
 Bones of Upper Extremity|D001133
 Bony Callus|D002146
@@ -269,6 +273,7 @@ Colon, Transverse|D044684
 Colonic Pouches|D039021
 Colostrum|D003126
 Common Bile Duct|D003135
+Composite Tissue Allografts|D064595
 Conjunctiva|D003228
 Connective Tissue|D003238
 Cornea|D003315
@@ -293,6 +298,7 @@ Cuspid|D003481
 Cyst Fluid|D020420
 Cystic Duct|D003549
 Cytokine-Induced Killer Cells|D055612
+Dander|D063607
 Decidua|D003656
 Deciduoma|D033301
 Deltoid Muscle|D057645
@@ -315,7 +321,6 @@ Dentinal Fluid|D019234
 Dentition|D003817
 Dentition, Mixed|D003818
 Dentition, Permanent|D019229
-Dentition, Primary|D016323
 Dermis|D020405
 Descemet Membrane|D003886
 Diagonal Band of Broca|D020667
@@ -374,6 +379,7 @@ Entopeduncular Nucleus|D020392
 Entorhinal Cortex|D018728
 Eosinophils|D004804
 Ependyma|D004805
+Ependymoglial Cells|D063928
 Epidermis|D004817
 Epididymis|D004822
 Epidural Space|D004824
@@ -538,6 +544,7 @@ Hemocytes|D006434
 Hepatic Artery|D006499
 Hepatic Duct, Common|D006500
 Hepatic Veins|D006503
+Heterografts|D064593
 High Vocal Center|D053400
 Hip|D006615
 Hip Joint|D006621
@@ -574,6 +581,7 @@ Insulin-Secreting Cells|D050417
 Integumentary System|D034582
 Intercostal Muscles|D007366
 Intercostal Nerves|D007367
+Intermediate Back Muscles|D064169
 Internal Capsule|D020772
 Interneurons|D007395
 Intervertebral Disc|D007403
@@ -590,6 +598,7 @@ Iris|D007498
 Ischium|D007512
 Islands of Calleja|D020670
 Islets of Langerhans|D007515
+Isografts|D064596
 Jaw|D007568
 Jejunum|D007583
 Joint Capsule|D017746
@@ -772,6 +781,7 @@ Myeloid Progenitor Cells|D023461
 Myenteric Plexus|D009197
 Myoblasts, Cardiac|D032386
 Myocardium|D009206
+Myocutaneous Flap|D064827
 Myocytes, Cardiac|D032383
 Myofibrils|D009210
 Myometrium|D009215
@@ -879,6 +889,7 @@ Paraganglia, Chromaffin|D010233
 Paraganglia, Nonchromaffin|D010234
 Parahippocampal Gyrus|D020534
 Paranasal Sinuses|D010256
+Paraspinal Muscles|D064170
 Parasympathetic Fibers, Postganglionic|D017777
 Parasympathetic Nervous System|D010275
 Parathyroid Glands|D010280
@@ -1132,6 +1143,7 @@ Substantia Nigra|D013378
 Subtalar Joint|D013380
 Subthalamic Nucleus|D020531
 Subthalamus|D020530
+Superficial Back Muscles|D064171
 Superior Cervical Ganglion|D017783
 Superior Colliculi|D013477
 Superior Sagittal Sinus|D054063
@@ -1217,6 +1229,7 @@ Torso|D060726
 Trabecular Meshwork|D014129
 Trachea|D014132
 Transplant Donor Site|D060053
+Transplants|D019737
 Transverse Sinuses|D054064
 Trapezium Bone|D051222
 Trapezoid Bone|D051223

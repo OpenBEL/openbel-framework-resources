@@ -3,8 +3,8 @@ Keyword=Anatomy
 TypeString=list
 DescriptionString=Anatomy terms from Uberon
 UsageString=Use to annotate a statement demonstrated in a specific anatomical entity.
-VersionString=20131106
-CreatedDateTime=2013-11-06T14:24:26
+VersionString=20131212
+CreatedDateTime=2013-12-12T10:21:52
 
 [Author]
 NameString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
@@ -13,8 +13,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Uberon
 DescriptionString=Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage.
-PublishedVersionString=http://purl.obolibrary.org/obo/uberon/releases/2013-11-05/uberon.owl
-PublishedDate=2013-11-05
+PublishedVersionString=http://purl.obolibrary.org/obo/uberon/releases/2013-12-10/uberon.owl
+PublishedDate=2013-12-10
 ReferenceURL=http://uberon.org/
 
 [Processing]
@@ -457,7 +457,9 @@ anal erector|UBERON_2000617
 anal fin|UBERON_4000163
 anal fin actinotrichium|UBERON_2000375
 anal fin basal cartilage|UBERON_4300020
-anal fin distal radial|UBERON_2000646
+anal fin distal radial bone|UBERON_2000646
+anal fin distal radial cartilage|UBERON_2200646
+anal fin distal radial element|UBERON_2100646
 anal fin lepidotrichium|UBERON_4000176
 anal fin lepidotrichium 1|UBERON_2001769
 anal fin lepidotrichium 2|UBERON_2001770
@@ -466,11 +468,17 @@ anal fin lepidotrichium 4|UBERON_2001772
 anal fin lepidotrichium 5|UBERON_2001773
 anal fin lepidotrichium 6|UBERON_2001774
 anal fin lepidotrichium 7|UBERON_2001775
-anal fin middle radial|UBERON_2001614
+anal fin middle radial bone|UBERON_2001614
+anal fin middle radial cartilage|UBERON_2201614
+anal fin middle radial element|UBERON_2101614
 anal fin musculature|UBERON_2001154
-anal fin proximal radial|UBERON_2000268
+anal fin proximal radial bone|UBERON_2000268
+anal fin proximal radial cartilage|UBERON_2200268
+anal fin proximal radial element|UBERON_2100268
 anal fin pterygiophore|UBERON_2001420
-anal fin radial|UBERON_2001671
+anal fin radial bone|UBERON_2001671
+anal fin radial cartilage|UBERON_2201671
+anal fin radial element|UBERON_2101671
 anal fin skeleton|UBERON_4000166
 anal fin spine|UBERON_2002262
 anal fold|UBERON_0012293
@@ -689,6 +697,7 @@ anterior visceral endoderm|UBERON_0004044
 anterodorsal lateral line nerve (ADLLN)|UBERON_3010105
 anterodorsal nucleus of medial geniculate body|UBERON_0014521
 anterodorsal nucleus of thalamus|UBERON_0002679
+anterolateral ligament of knee|UBERON_0014899
 anterolateral plate|UBERON_4300021
 anterolateral process of frontoparietal|UBERON_3000020
 anterolateral process of hyoid plate|UBERON_3000671
@@ -1040,8 +1049,9 @@ basioccipital posterodorsal region|UBERON_2000337
 basioccipital pre-cartilage condensation|UBERON_0009197
 basioccipital-exoccipital joint|UBERON_2002038
 basiotic bone|UBERON_0009468
-basipterygium|UBERON_2000623
+basipterygium bone|UBERON_2000623
 basipterygium cartilage|UBERON_2001539
+basipterygium element|UBERON_2100623
 basipterygoid process of parasphenoid|UBERON_2001607
 basis modioli|UBERON_0014624
 basisphenoid bone|UBERON_0006428
@@ -1102,6 +1112,7 @@ blood vessel smooth muscle|UBERON_0004237
 blood-air barrier|UBERON_0003948
 blood-cerebrospinal fluid barrier|UBERON_0003210
 blood-inner ear barrier|UBERON_0005973
+blood-testis barrier|UBERON_0014914
 blowhole|UBERON_0013477
 blowhole ligament|UBERON_0013181
 blubber|UBERON_0009754
@@ -1652,6 +1663,7 @@ cerebellar plate|UBERON_0004008
 cerebellar vein|UBERON_0001668
 cerebellar vermis|UBERON_0004720
 cerebellomedullary cistern|UBERON_0004049
+cerebellopontine angle|UBERON_0014908
 cerebellum|UBERON_0002037
 cerebellum anterior vermis|UBERON_0003941
 cerebellum culmen|UBERON_0007763
@@ -1862,7 +1874,6 @@ cloacal mucosa|UBERON_0012480
 cloacal muscle|UBERON_0014783
 cloacal papilla|UBERON_3010589
 cloacal sphincter|UBERON_0013501
-cloacal spur|UBERON_0012446
 cloacal vent|UBERON_0012464
 cloacal villus|UBERON_0012485
 closed circulatory system|UBERON_0009055
@@ -2524,15 +2535,33 @@ dorsal external arcuate fiber bundle|UBERON_0006089
 dorsal fin|UBERON_0003097
 dorsal fin actinotrichium|UBERON_2000373
 dorsal fin basal cartilage|UBERON_4300019
-dorsal fin distal radial|UBERON_2000936
-dorsal fin distal radial 1|UBERON_2005372
-dorsal fin distal radial 2|UBERON_2005373
-dorsal fin distal radial 3|UBERON_2005374
-dorsal fin distal radial 4|UBERON_2005375
-dorsal fin distal radial 5|UBERON_2005376
-dorsal fin distal radial 6|UBERON_2005377
-dorsal fin distal radial 7|UBERON_2005378
-dorsal fin distal radial 8|UBERON_2005379
+dorsal fin distal radial bone|UBERON_2000936
+dorsal fin distal radial bone 1|UBERON_2005372
+dorsal fin distal radial bone 2|UBERON_2005373
+dorsal fin distal radial bone 3|UBERON_2005374
+dorsal fin distal radial bone 4|UBERON_2005375
+dorsal fin distal radial bone 5|UBERON_2005376
+dorsal fin distal radial bone 6|UBERON_2005377
+dorsal fin distal radial bone 7|UBERON_2005378
+dorsal fin distal radial bone 8|UBERON_2005379
+dorsal fin distal radial cartilage|UBERON_2200936
+dorsal fin distal radial cartilage 1|UBERON_2205372
+dorsal fin distal radial cartilage 2|UBERON_2205373
+dorsal fin distal radial cartilage 3|UBERON_2205374
+dorsal fin distal radial cartilage 4|UBERON_2205375
+dorsal fin distal radial cartilage 5|UBERON_2205376
+dorsal fin distal radial cartilage 6|UBERON_2205377
+dorsal fin distal radial cartilage 7|UBERON_2205378
+dorsal fin distal radial cartilage 8|UBERON_2205379
+dorsal fin distal radial element|UBERON_2100936
+dorsal fin distal radial element 1|UBERON_2105372
+dorsal fin distal radial element 2|UBERON_2105373
+dorsal fin distal radial element 3|UBERON_2105374
+dorsal fin distal radial element 4|UBERON_2105375
+dorsal fin distal radial element 5|UBERON_2105376
+dorsal fin distal radial element 6|UBERON_2105377
+dorsal fin distal radial element 7|UBERON_2105378
+dorsal fin distal radial element 8|UBERON_2105379
 dorsal fin fold|UBERON_2000102
 dorsal fin lepidotrichium|UBERON_4000177
 dorsal fin lepidotrichium 1|UBERON_2001754
@@ -2542,17 +2571,37 @@ dorsal fin lepidotrichium 4|UBERON_2001757
 dorsal fin lepidotrichium 5|UBERON_2001758
 dorsal fin lepidotrichium 6|UBERON_2001759
 dorsal fin lepidotrichium 7|UBERON_2001760
-dorsal fin middle radial|UBERON_2001613
+dorsal fin middle radial bone|UBERON_2001613
+dorsal fin middle radial cartilage|UBERON_2201613
+dorsal fin middle radial element|UBERON_2101613
 dorsal fin musculature|UBERON_2000648
-dorsal fin proximal radial|UBERON_2000947
-dorsal fin proximal radial 1|UBERON_2001818
-dorsal fin proximal radial 2|UBERON_2001819
-dorsal fin proximal radial 3|UBERON_2005380
-dorsal fin proximal radial 4|UBERON_2005381
-dorsal fin proximal radial 5|UBERON_2005382
-dorsal fin proximal radial 6|UBERON_2005383
-dorsal fin proximal radial 7|UBERON_2005384
-dorsal fin proximal radial 8|UBERON_2005385
+dorsal fin proximal radial bone|UBERON_2000947
+dorsal fin proximal radial bone 1|UBERON_2001818
+dorsal fin proximal radial bone 2|UBERON_2001819
+dorsal fin proximal radial bone 3|UBERON_2005380
+dorsal fin proximal radial bone 4|UBERON_2005381
+dorsal fin proximal radial bone 5|UBERON_2005382
+dorsal fin proximal radial bone 6|UBERON_2005383
+dorsal fin proximal radial bone 7|UBERON_2005384
+dorsal fin proximal radial bone 8|UBERON_2005385
+dorsal fin proximal radial cartilage|UBERON_2200947
+dorsal fin proximal radial cartilage 1|UBERON_2201818
+dorsal fin proximal radial cartilage 2|UBERON_2201819
+dorsal fin proximal radial cartilage 3|UBERON_2205380
+dorsal fin proximal radial cartilage 4|UBERON_2205381
+dorsal fin proximal radial cartilage 5|UBERON_2205382
+dorsal fin proximal radial cartilage 6|UBERON_2205383
+dorsal fin proximal radial cartilage 7|UBERON_2205384
+dorsal fin proximal radial cartilage 8|UBERON_2205385
+dorsal fin proximal radial element|UBERON_2100947
+dorsal fin proximal radial element 1|UBERON_2101818
+dorsal fin proximal radial element 2|UBERON_2101819
+dorsal fin proximal radial element 3|UBERON_2105380
+dorsal fin proximal radial element 4|UBERON_2105381
+dorsal fin proximal radial element 5|UBERON_2105382
+dorsal fin proximal radial element 6|UBERON_2105383
+dorsal fin proximal radial element 7|UBERON_2105384
+dorsal fin proximal radial element 8|UBERON_2105385
 dorsal fin pterygiophore|UBERON_2001419
 dorsal fin pterygiophore 1|UBERON_2002094
 dorsal fin pterygiophore 2|UBERON_2005365
@@ -2562,7 +2611,9 @@ dorsal fin pterygiophore 5|UBERON_2005368
 dorsal fin pterygiophore 6|UBERON_2005369
 dorsal fin pterygiophore 7|UBERON_2005370
 dorsal fin pterygiophore 8|UBERON_2005371
-dorsal fin radial|UBERON_2001672
+dorsal fin radial bone|UBERON_2001672
+dorsal fin radial cartilage|UBERON_2201672
+dorsal fin radial element|UBERON_2101672
 dorsal fin skeleton|UBERON_4000168
 dorsal fin spine|UBERON_2002261
 dorsal fin spine 1|UBERON_2001789
@@ -2634,6 +2685,7 @@ dorsal patch of Leydig's organ|UBERON_0010051
 dorsal pelvic arrector|UBERON_2000651
 dorsal periventricular hypothalamus|UBERON_2000199
 dorsal pes interosseous muscle|UBERON_0006499
+dorsal plus ventral thalamus|UBERON_0001897
 dorsal pouch|UBERON_3000999
 dorsal premammillary nucleus|UBERON_0007767
 dorsal ramus of occulomotor nerve|UBERON_3010628
@@ -2822,7 +2874,6 @@ embryonic uterus|UBERON_0005795
 embryonic-extraembryonic boundary|UBERON_0004015
 eminentia arcuata|UBERON_3000907
 eminentia granularis|UBERON_2002106
-eminentia thalami|UBERON_2007010
 enamel|UBERON_0001752
 enamel knot|UBERON_0008866
 enameloid|UBERON_0011692
@@ -3663,7 +3714,6 @@ future brain vesicle|UBERON_0013150
 future cardiac atrium|UBERON_0010227
 future cardiac ventricle|UBERON_0010226
 future central tendon|UBERON_0006239
-future cerebellum|UBERON_0013163
 future common hepatic duct|UBERON_0010081
 future dermis|UBERON_0010083
 future diaphragm|UBERON_0010084
@@ -3747,6 +3797,7 @@ genital ridge|UBERON_0005294
 genital swelling|UBERON_0011754
 genital system|UBERON_3011048
 genitourinary system|UBERON_0004122
+genu of facial nerve|UBERON_0014915
 germ layer|UBERON_0000923
 germ layer / neural crest|UBERON_0010316
 germ ring|UBERON_0002541
@@ -3948,7 +3999,6 @@ heart blood vessel|UBERON_0003498
 heart capillary|UBERON_0006966
 heart elastic tissue|UBERON_0003610
 heart endothelium|UBERON_0008307
-heart field|UBERON_0004140
 heart layer|UBERON_0005983
 heart left ventricle|UBERON_0002084
 heart primordium|UBERON_0003084
@@ -3982,12 +4032,12 @@ hemotrichorial placental membrane|UBERON_0014849
 hepatic acinus|UBERON_0001172
 hepatic artery|UBERON_0001193
 hepatic cecum|UBERON_0012474
+hepatic cord|UBERON_0005452
 hepatic diverticulum|UBERON_0008835
 hepatic duct|UBERON_0005171
 hepatic duct extrahepatic part|UBERON_0005604
 hepatic duct intrahepatic part|UBERON_0005605
 hepatic duct smooth muscle|UBERON_0004834
-hepatic lamina|UBERON_0005452
 hepatic peritoneum|UBERON_3010818
 hepatic portal system|UBERON_0010194
 hepatic portal vein|UBERON_0001639
@@ -4639,11 +4689,11 @@ interrenal gland|UBERON_0006856
 interrenal primordium|UBERON_0006857
 interscapular fat pad|UBERON_0014396
 interscutular muscle|UBERON_0010951
-intersegmental artery|UBERON_0002457
 intersegmental lymph vessel|UBERON_2005319
-intersegmental vein|UBERON_0007679
-intersegmental vessel|UBERON_2001285
-intersomitic artery|UBERON_0006001
+intersegmental pulmonary vein|UBERON_0014904
+intersomitic artery|UBERON_0002457
+intersomitic vein|UBERON_0007679
+intersomitic vessel|UBERON_0014907
 interstitial fluid|UBERON_0000913
 interstitial nucleus of Cajal|UBERON_0002551
 interstitial part of hyperpallium apicale|UBERON_0014758
@@ -4881,6 +4931,7 @@ laryngeal intrinsic ligament|UBERON_0006325
 laryngeal intrinsic muscle|UBERON_0006328
 laryngeal joint|UBERON_0011120
 laryngeal pre-cartilage condensation|UBERON_0010213
+laryngeal vocal fold|UBERON_0003706
 laryngeus ventralis|UBERON_3010764
 laryngo-tracheal chamber|UBERON_3010613
 laryngotracheal groove|UBERON_0006257
@@ -5061,6 +5112,7 @@ left coronary artery|UBERON_0001626
 left crus of diaphragm|UBERON_0014767
 left dome of diaphragm|UBERON_0007166
 left dorsal aorta|UBERON_0005613
+left dorsal thalamus|UBERON_0013683
 left external ear|UBERON_0006617
 left extraembryonic umbilical artery|UBERON_0011696
 left extraembryonic umbilical vein|UBERON_0014787
@@ -5114,7 +5166,6 @@ left temporal lobe|UBERON_0002808
 left testicle|UBERON_0004533
 left testicular artery|UBERON_0001189
 left testicular vein|UBERON_0000443
-left thalamus|UBERON_0013683
 left thymus lobe|UBERON_0005457
 left umbilical artery|UBERON_0005458
 left umbilical vein|UBERON_0005459
@@ -5724,7 +5775,7 @@ medial column|UBERON_2000542
 medial condyle of femur|UBERON_0009984
 medial condyle of tibia|UBERON_0009990
 medial division|UBERON_2000280
-medial dorsal nucleus|UBERON_0002739
+medial dorsal nucleus of thalamus|UBERON_0002739
 medial entorhinal cortex|UBERON_0007224
 medial epicondyle of femur|UBERON_0009987
 medial floor plate|UBERON_2001257
@@ -5808,8 +5859,12 @@ median extrascapular|UBERON_4200103
 median fin|UBERON_4000162
 median fin cartilage|UBERON_2001535
 median fin fold|UBERON_2000040
-median fin proximal radial|UBERON_2005226
-median fin radial|UBERON_2005225
+median fin proximal radial bone|UBERON_2005226
+median fin proximal radial cartilage|UBERON_2205226
+median fin proximal radial element|UBERON_2105226
+median fin radial bone|UBERON_2005225
+median fin radial cartilage|UBERON_2205225
+median fin radial element|UBERON_2105225
 median fin skeleton|UBERON_4000170
 median fin spine|UBERON_4200070
 median lingual swelling|UBERON_0006756
@@ -6664,6 +6719,7 @@ neural nucleus|UBERON_0000125
 neural plate|UBERON_0003075
 neural plate of carapace|UBERON_0011669
 neural rod|UBERON_0005068
+neural spine|UBERON_0001076
 neural spine 1|UBERON_2001885
 neural spine 2|UBERON_2001886
 neural spine 3|UBERON_2001887
@@ -7133,7 +7189,9 @@ pair of nares|UBERON_0002109
 paired fin|UBERON_0002534
 paired fin bud|UBERON_0002531
 paired fin lepidotrichium|UBERON_4440011
-paired fin radial|UBERON_1500006
+paired fin radial bone|UBERON_1500006
+paired fin radial cartilage|UBERON_1700006
+paired fin radial element|UBERON_1600006
 paired fin radial skeleton|UBERON_4300013
 paired fin skeleton|UBERON_0010713
 paired limb/fin|UBERON_0004708
@@ -7403,10 +7461,18 @@ pectoral complex muscle|UBERON_0010891
 pectoral fenestra|UBERON_3000779
 pectoral fin|UBERON_0000151
 pectoral fin actinotrichium|UBERON_2000544
-pectoral fin distal radial|UBERON_2001588
-pectoral fin distal radial 1|UBERON_2002277
-pectoral fin distal radial 2|UBERON_2002279
-pectoral fin distal radial 3|UBERON_2002280
+pectoral fin distal radial bone|UBERON_2001588
+pectoral fin distal radial bone 1|UBERON_2002277
+pectoral fin distal radial bone 2|UBERON_2002279
+pectoral fin distal radial bone 3|UBERON_2002280
+pectoral fin distal radial cartilage|UBERON_2201588
+pectoral fin distal radial cartilage 1|UBERON_2202277
+pectoral fin distal radial cartilage 2|UBERON_2202279
+pectoral fin distal radial cartilage 3|UBERON_2202280
+pectoral fin distal radial element|UBERON_2101588
+pectoral fin distal radial element 1|UBERON_2102277
+pectoral fin distal radial element 2|UBERON_2102279
+pectoral fin distal radial element 3|UBERON_2102280
 pectoral fin endoskeletal disc|UBERON_2001456
 pectoral fin fold|UBERON_2005317
 pectoral fin lepidotrichium|UBERON_4000175
@@ -7417,14 +7483,25 @@ pectoral fin lepidotrichium 4|UBERON_2001764
 pectoral fin lepidotrichium 5|UBERON_2001765
 pectoral fin lepidotrichium 6|UBERON_2001766
 pectoral fin lepidotrichium 7|UBERON_2001767
-pectoral fin proximal radial|UBERON_2001587
-pectoral fin proximal radial 1|UBERON_2002026
-pectoral fin proximal radial 2|UBERON_2002027
-pectoral fin proximal radial 3|UBERON_2002028
-pectoral fin proximal radial 4|UBERON_2002029
-pectoral fin radial|UBERON_2001586
+pectoral fin proximal radial bone|UBERON_2001587
+pectoral fin proximal radial bone 1|UBERON_2002026
+pectoral fin proximal radial bone 2|UBERON_2002027
+pectoral fin proximal radial bone 3|UBERON_2002028
+pectoral fin proximal radial bone 4|UBERON_2002029
+pectoral fin proximal radial cartilage|UBERON_2201587
+pectoral fin proximal radial cartilage 1|UBERON_2202026
+pectoral fin proximal radial cartilage 2|UBERON_2202027
+pectoral fin proximal radial cartilage 3|UBERON_2202028
+pectoral fin proximal radial cartilage 4|UBERON_2202029
+pectoral fin proximal radial element|UBERON_2101587
+pectoral fin proximal radial element 1|UBERON_2102026
+pectoral fin proximal radial element 2|UBERON_2102027
+pectoral fin proximal radial element 3|UBERON_2102028
+pectoral fin proximal radial element 4|UBERON_2102029
+pectoral fin radial bone|UBERON_2001586
+pectoral fin radial cartilage|UBERON_2201586
+pectoral fin radial element|UBERON_2101586
 pectoral fin radial skeleton|UBERON_4440009
-pectoral fin scapula|UBERON_0010904
 pectoral fin skeleton|UBERON_0010710
 pectoral fin spine|UBERON_2001787
 pectoral flipper tubercle|UBERON_0013527
@@ -7435,7 +7512,6 @@ pectoral girdle opening|UBERON_3000755
 pectoral girdle region|UBERON_0001421
 pectoral girdle skeleton|UBERON_0007831
 pectoral glands|UBERON_3010104
-pectoral limb scapula|UBERON_0001124
 pectoral lymphatic vessel|UBERON_0001425
 pectoral muscle|UBERON_0001495
 pectoral pre-muscle mass|UBERON_0010984
@@ -7533,11 +7609,19 @@ pelvic complex muscle|UBERON_0010890
 pelvic fin|UBERON_0000152
 pelvic fin actinotrichium|UBERON_2000596
 pelvic fin basipterygial radial|UBERON_1500009
+pelvic fin basipterygial radial element|UBERON_1600009
 pelvic fin clasper|UBERON_0010518
-pelvic fin distal radial|UBERON_1500008
-pelvic fin distal radial 1|UBERON_2001417
-pelvic fin distal radial 2|UBERON_2001415
-pelvic fin distal radial 3|UBERON_2001416
+pelvic fin distal radial bone|UBERON_1500008
+pelvic fin distal radial bone 1|UBERON_2001417
+pelvic fin distal radial bone 2|UBERON_2001415
+pelvic fin distal radial bone 3|UBERON_2001416
+pelvic fin distal radial cartilage 1|UBERON_2201417
+pelvic fin distal radial cartilage 2|UBERON_2201415
+pelvic fin distal radial cartilage 3|UBERON_2201416
+pelvic fin distal radial element|UBERON_1600008
+pelvic fin distal radial element 1|UBERON_2101417
+pelvic fin distal radial element 2|UBERON_2101415
+pelvic fin distal radial element 3|UBERON_2101416
 pelvic fin lepidotrichium|UBERON_4000173
 pelvic fin lepidotrichium 1|UBERON_2001776
 pelvic fin lepidotrichium 2|UBERON_2001777
@@ -7546,8 +7630,10 @@ pelvic fin lepidotrichium 4|UBERON_2001779
 pelvic fin lepidotrichium 5|UBERON_2001780
 pelvic fin lepidotrichium 6|UBERON_2001781
 pelvic fin lepidotrichium 7|UBERON_2001782
-pelvic fin middle radial|UBERON_1500010
-pelvic fin radial|UBERON_2000508
+pelvic fin middle radial bone|UBERON_1500010
+pelvic fin middle radial element|UBERON_1600010
+pelvic fin radial bone|UBERON_2000508
+pelvic fin radial element|UBERON_2100508
 pelvic fin radial skeleton|UBERON_4440010
 pelvic fin skeleton|UBERON_0010711
 pelvic fin spine|UBERON_2002270
@@ -7642,11 +7728,15 @@ peritoneal vaginal process|UBERON_0005344
 peritoneum|UBERON_0002358
 peritrigeminal nucleus|UBERON_0002879
 peritubular capillary|UBERON_0005272
+periungual skin|UBERON_0014931
 periurethral tissue|UBERON_0009010
+perivascular space|UBERON_0014930
+periventricular gray matter|UBERON_0014933
 periventricular grey zone|UBERON_2000516
 periventricular nucleus|UBERON_0002322
 periventricular nucleus of caudal tuberculum|UBERON_2000408
 periventricular nucleus of hypothalamus|UBERON_0014667
+periventricular white matter|UBERON_0014932
 periventricular zone of hypothalamus|UBERON_0002271
 permanent cartilage|UBERON_4000003
 peroneal artery|UBERON_0001540
@@ -7981,7 +8071,7 @@ posterior neural rod|UBERON_2007030
 posterior neural tube|UBERON_0003076
 posterior neuropore|UBERON_0005071
 posterior nuchal plate|UBERON_2001820
-posterior nuclear complex|UBERON_0002709
+posterior nuclear complex of thalamus|UBERON_0002709
 posterior nucleus of hypothalamus|UBERON_0002706
 posterior nucleus of thalamus|UBERON_0003030
 posterior orbital gyrus|UBERON_0002575
@@ -8056,6 +8146,7 @@ posttemporal-parietal joint|UBERON_2002059
 posttemporal-supracleithrum|UBERON_2001998
 postzonal element|UBERON_3000938
 pouch scale|UBERON_2002122
+pouch sphincter|UBERON_0014917
 pre-Botzinger complex|UBERON_0006007
 pre-cartilage condensation|UBERON_0005866
 pre-chordal neural plate|UBERON_0003056
@@ -8219,6 +8310,7 @@ primary dentition|UBERON_0007116
 primary fissure of cerebellum|UBERON_0014471
 primary head sinus|UBERON_2005026
 primary head vein|UBERON_0006282
+primary heart field|UBERON_0004140
 primary lymphoid nodule of tonsil|UBERON_0010423
 primary molar tooth|UBERON_0013616
 primary motor cortex|UBERON_0001384
@@ -8261,7 +8353,7 @@ primordial hindbrain channel|UBERON_2001052
 primordial ligament|UBERON_2001828
 primordial midbrain channel|UBERON_2005017
 primordial ovarian follicle|UBERON_0003981
-primordial vasculature|UBERON_2005076
+primordial vasculature|UBERON_0014903
 primordium|UBERON_0001048
 principal artery to forelimb|UBERON_0006436
 principal artery to hindlimb|UBERON_0006438
@@ -8567,8 +8659,10 @@ quadratus femoris|UBERON_0008537
 quadratus lumborum|UBERON_0001220
 quadriceps femoris|UBERON_0001377
 quadrigeminal cistern|UBERON_0004052
-radial|UBERON_2000271
 radial artery|UBERON_0001404
+radial bone|UBERON_2000271
+radial cartilage|UBERON_2200271
+radial element|UBERON_2100271
 radial head of humerus|UBERON_0012129
 radial nerve|UBERON_0001492
 radial sesamoid|UBERON_0008257
@@ -8671,7 +8765,6 @@ regional part of pretectal region|UBERON_0003047
 regional part of spinal cord|UBERON_0001948
 regional part of superior colliculus|UBERON_0002554
 regional part of telencephalon|UBERON_0002791
-regional part of thalamus|UBERON_0002730
 regional part of vestibular nuclear complex|UBERON_0002584
 regular connective tissue|UBERON_0007845
 remex feather|UBERON_0011795
@@ -8791,6 +8884,7 @@ retromolar triangle|UBERON_0012376
 retroperitoneal fat pad|UBERON_0010411
 retroperitoneal space|UBERON_0003693
 retrorubral area|UBERON_0011172
+retrosplenial granular cortex|UBERON_0014918
 retrosplenial region|UBERON_0013531
 retrotrapezoid nucleus|UBERON_0009918
 reuniens nucleus|UBERON_0001921
@@ -8882,6 +8976,7 @@ right coronary artery|UBERON_0001625
 right crus of diaphragm|UBERON_0014766
 right dome of diaphragm|UBERON_0007167
 right dorsal aorta|UBERON_0005622
+right dorsal thalamus|UBERON_0013684
 right external ear|UBERON_0006616
 right extraembryonic umbilical artery|UBERON_0011697
 right extraembryonic umbilical vein|UBERON_0014788
@@ -8951,7 +9046,6 @@ right temporal lobe|UBERON_0002809
 right testicle|UBERON_0004534
 right testicular artery|UBERON_0001188
 right testicular vein|UBERON_0000442
-right thalamus|UBERON_0013684
 right thymus lobe|UBERON_0005469
 right umbilical artery|UBERON_0005470
 right umbilical vein|UBERON_0005471
@@ -9603,7 +9697,6 @@ spinothalamic tract of medulla|UBERON_0002944
 spinothalamic tract of midbrain|UBERON_0002609
 spinothalamic tract of pons|UBERON_0002798
 spinotrapezius muscle|UBERON_0014800
-spinous process of vertebra|UBERON_0001076
 spiracle|UBERON_0010019
 spiracular canal|UBERON_2001925
 spiracularis muscle|UBERON_0011686
@@ -10334,9 +10427,9 @@ testis sex cord|UBERON_0005297
 tetrapod frontal bone|UBERON_0000209
 tetrapod parietal bone|UBERON_0000210
 thalamic complex|UBERON_0010225
+thalamic eminence|UBERON_0014912
 thalamic glomerulus|UBERON_0011917
 thalamic reticular nucleus|UBERON_0001903
-thalamus|UBERON_0001897
 theca cell layer|UBERON_0000155
 theca externa|UBERON_0000156
 theca interna|UBERON_0000157
@@ -10682,8 +10775,8 @@ tuberomammillary nucleus|UBERON_0001936
 tuberomammillary nucleus dorsal part|UBERON_0014593
 tuberomammillary nucleus ventral part|UBERON_0014594
 tubeworm tube|UBERON_0012646
-tubotympanic recess|UBERON_0005625
 tubotympanic recess epithelium|UBERON_0010020
+tubotympanic recess lumen|UBERON_0005625
 tunica adventitia of artery|UBERON_0007240
 tunica adventitia of blood vessel|UBERON_0005734
 tunica adventitia of vein|UBERON_0007241
@@ -10980,6 +11073,7 @@ vein of lower lip|UBERON_0003478
 vein of trabecular bone|UBERON_0003482
 vein of upper lip|UBERON_0003477
 velar skeleton|UBERON_0013653
+velar vocal fold|UBERON_0014916
 veliger stage|UBERON_0014863
 vena cava|UBERON_0004087
 vena cava endothelium|UBERON_0004698
@@ -11062,6 +11156,7 @@ ventral nucleus of posterior commissure|UBERON_0002044
 ventral nucleus of trapezoid body|UBERON_0002832
 ventral oculomotor nucleus|UBERON_0002934
 ventral pallidum|UBERON_0002778
+ventral pallium|UBERON_0014913
 ventral pancreas|UBERON_0009709
 ventral pancreatic bud|UBERON_0003924
 ventral pancreatic duct|UBERON_0001064
@@ -11232,7 +11327,6 @@ vitelline venous plexus|UBERON_0006310
 vitreous body|UBERON_0001798
 vitreous chamber of eyeball|UBERON_0001799
 vitreous humor|UBERON_0001797
-vocal cord|UBERON_0003706
 vocal sac|UBERON_3010096
 vocal sac glands|UBERON_3010103
 vocalis muscle|UBERON_0008577

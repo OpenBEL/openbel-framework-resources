@@ -3,8 +3,8 @@ Keyword=Disease
 TypeString=list
 DescriptionString=Disease names from the Disease Ontology (DO)
 UsageString=Use to annotate a statement demonstrated in a biological system where the disease state was present or where the facts represented in the statement were shown to be relevant to the disease.
-VersionString=20131106
-CreatedDateTime=2013-11-06T14:24:26
+VersionString=20131212
+CreatedDateTime=2013-12-12T10:21:52
 
 [Author]
 NameString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
@@ -13,8 +13,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Disease Ontology (DO)
 DescriptionString=The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts through collaborative efforts of researchers at Northwestern University, Center for Genetic Medicine and the University of Maryland School of Medicine, Institute for Genome Sciences. The Disease Ontology semantically integrates disease and medical vocabularies through extensive cross mapping of DO terms to MeSH, ICD, NCI's thesaurus, SNOMED and OMIM.
-PublishedVersionString=http://purl.obolibrary.org/obo/doid/releases/2013-11-05/doid.owl
-PublishedDate=2013-11-05
+PublishedVersionString=http://purl.obolibrary.org/obo/doid/releases/2013-12-11/doid.owl
+PublishedDate=2013-12-11
 ReferenceURL=http://disease-ontology.org/
 
 [Processing]
@@ -210,6 +210,7 @@ Ebola hemorrhagic fever|DOID_4325
 Ebstein anomaly|DOID_14289
 Edwards syndrome|DOID_1085
 Ehlers-Danlos syndrome|DOID_13359
+Ehlers-Danlos syndrome progeroid type|DOID_0050802
 Ellis-Van Creveld syndrome|DOID_12714
 Emery-Dreifuss muscular dystrophy|DOID_11726
 Epstein-Barr virus hepatitis|DOID_0050204
@@ -286,6 +287,7 @@ Job's syndrome|DOID_3261
 Johanson-Blizzard syndrome|DOID_14694
 Joubert syndrome|DOID_0050777
 KBG syndrome|DOID_14780
+Kahrizi syndrome|DOID_0050807
 Kallmann syndrome|DOID_3614
 Kaposi's sarcoma|DOID_8632
 Kawasaki disease|DOID_13378
@@ -316,7 +318,6 @@ La Crosse encephalitis|DOID_0050118
 Lafora disease|DOID_3534
 Lambert-Eaton myasthenic syndrome|DOID_0050214
 Landau-Kleffner syndrome|DOID_2538
-Langer-Giedion syndrome|DOID_4998
 Langerhans cell sarcoma|DOID_7146
 Langerhans-cell histiocytosis|DOID_2571
 Laron syndrome|DOID_9521
@@ -352,6 +353,7 @@ Marable's syndrome|DOID_9892
 Marburg hemorrhagic fever|DOID_4327
 Marfan syndrome|DOID_14323
 Masters-Allen syndrome|DOID_14133
+Matthew-Wood syndrome|DOID_0050819
 McCune Albright syndrome|DOID_1858
 McKusick type metaphyseal dysplasia|DOID_0080022
 Meckel syndrome|DOID_0050778
@@ -487,10 +489,11 @@ Smith-Lemli-Opitz syndrome|DOID_14692
 Sneddon syndrome|DOID_13096
 Sotos syndrome|DOID_14748
 St. Louis encephalitis|DOID_10845
+Stargardt disease|DOID_0050817
 Stevens-Johnson syndrome|DOID_0050426
 Stickler syndrome|DOID_0080046
 Stiff-Person syndrome|DOID_13366
-Sugio-Kaji syndrome|DOID_0050552
+Sugio-Kajii syndrome|DOID_0050552
 T cell deficiency|DOID_11200
 T lymphocyte deficiency|DOID_613
 T-cell adult acute lymphocytic leukemia|DOID_5602
@@ -583,6 +586,7 @@ accommodative esotropia|DOID_9839
 accommodative spasm|DOID_11637
 aceruloplasminemia|DOID_0050711
 achalasia|DOID_9164
+achalasia microcephaly syndrome|DOID_0050796
 acheiropody|DOID_0050603
 achilles bursitis|DOID_12857
 achondrogenesis|DOID_0080043
@@ -733,6 +737,7 @@ adhesions of uterus|DOID_13812
 adiaspiromycosis|DOID_0050072
 adiposis dolorosa|DOID_3928
 adjustment disorder|DOID_507
+adnexa disease|DOID_0050815
 adolescence-adult electroclinical syndrome|DOID_0050705
 adrenal adenoma|DOID_656
 adrenal carcinoma|DOID_3950
@@ -778,7 +783,6 @@ adult epithelioid sarcoma|DOID_8282
 adult extraosseous chondrosarcoma|DOID_7902
 adult extraosseous osteosarcoma|DOID_7827
 adult fibrosarcoma|DOID_3516
-adult glioblastoma multiforme|DOID_3075
 adult infiltrating astrocytic neoplasm|DOID_7656
 adult intracranial malignant hemangiopericytoma|DOID_6333
 adult leptomeningeal melanoma|DOID_6090
@@ -914,6 +918,7 @@ anatomical narrow angle borderline glaucoma|DOID_13327
 anauxetic dysplasia|DOID_0050640
 ancylostomiasis|DOID_12841
 androgen insensitivity syndrome|DOID_4674
+androgenic alopecia|DOID_0050801
 anemia|DOID_2355
 anemia of prematurity|DOID_11243
 aneruptive fever|DOID_0050484
@@ -1249,6 +1254,7 @@ biliary tract intraductal papillary mucinous neoplasm|DOID_5469
 biliary tract neoplasm|DOID_0050625
 bilirubin metabolic disorder|DOID_2741
 binocular vision disease|DOID_12667
+biotin deficiency|DOID_0050810
 biotin-responsive basal ganglia disease|DOID_0050659
 biotinidase deficiency|DOID_856
 biphasic synovial sarcoma|DOID_5492
@@ -1315,6 +1321,7 @@ blood platelet disease|DOID_2218
 blood protein disease|DOID_620
 bloom syndrome|DOID_2717
 blue color blindness|DOID_11661
+blue cone monochromacy|DOID_0050679
 blue drum syndrome|DOID_9736
 blue toe syndrome|DOID_14121
 blunt duct adenosis of breast|DOID_5996
@@ -1616,6 +1623,7 @@ cerebral arteritis|DOID_11390
 cerebral artery occlusion|DOID_10127
 cerebral atherosclerosis|DOID_12720
 cerebral convexity meningioma|DOID_6114
+cerebral creatine deficiency syndrome|DOID_0050798
 cerebral degeneration|DOID_1443
 cerebral falx meningioma|DOID_7986
 cerebral folate receptor alpha deficiency|DOID_0050719
@@ -1851,7 +1859,6 @@ chronic orbital inflammation|DOID_1397
 chronic perichondritis of pinna|DOID_14243
 chronic polyneuropathy|DOID_5221
 chronic progressive external ophthalmoplegia|DOID_12558
-chronic progressive multiple sclerosis|DOID_2376
 chronic pulmonary heart disease|DOID_12326
 chronic purulent otitis media|DOID_14247
 chronic pyelonephritis|DOID_1076
@@ -1968,7 +1975,9 @@ complex partial epilepsy|DOID_12382
 complex regional pain syndrome|DOID_3223
 composite lymphoma|DOID_5820
 conduct disorder|DOID_12995
+cone dystrophy|DOID_0050795
 cone-rod dystrophy|DOID_0050572
+congenital adrenal hyperplasia|DOID_0050811
 congenital adrenal insufficiency|DOID_0050546
 congenital afibrinogenemia|DOID_2236
 congenital aphakia|DOID_11367
@@ -2081,6 +2090,7 @@ craniometaphyseal dysplasia|DOID_0080033
 craniopharyngioma|DOID_3840
 craniosynostosis|DOID_2340
 crater-like holes of optic disc|DOID_13295
+creatine transporter deficiency|DOID_0050800
 crescentic glomerulonephritis|DOID_13139
 cribriform carcinoma|DOID_5675
 cribriform variant testicular seminoma|DOID_7269
@@ -2703,6 +2713,7 @@ fibrous histiocytoma|DOID_4415
 fibrous meningioma|DOID_7211
 fibrous synovial sarcoma|DOID_5484
 fibular collateral ligament bursitis|DOID_9358
+fibular hypoplasia and complex brachydactyly|DOID_0050790
 fiedler's myocarditis|DOID_10778
 filamentary keratitis|DOID_4664
 filarial elephantiasis|DOID_12211
@@ -2888,7 +2899,11 @@ glassy cell variant cervical adenosquamous carcinoma|DOID_8361
 glaucoma|DOID_1686
 glaucomatocyclitic crisis|DOID_9378
 glaucomatous atrophy of optic disc|DOID_10337
-glioblastoma|DOID_3068
+glioblastoma classical subtype|DOID_0050803
+glioblastoma mesenchymal subtype|DOID_0050805
+glioblastoma multiforme|DOID_3068
+glioblastoma neural subtype|DOID_0050806
+glioblastoma proneural subtype|DOID_0050804
 gliofibroma|DOID_4856
 gliomatosis cerebri|DOID_6128
 gliosarcoma|DOID_3071
@@ -2960,6 +2975,7 @@ granulomatous orchitis|DOID_3089
 granulosa cell tumor|DOID_2999
 gray zone lymphoma|DOID_5822
 growth hormone secreting pituitary adenoma|DOID_6255
+guanidinoacetate methyltransferase deficiency|DOID_0050799
 gum cancer|DOID_8602
 gummatous syphilis|DOID_0050584
 gynatresia|DOID_429
@@ -3395,6 +3411,7 @@ inverted papilloma|DOID_3179
 inverted transitional papilloma|DOID_4630
 iodine hypothyroidism|DOID_5083
 iridocyclitis|DOID_9383
+iridogoniodysgenesis syndrome|DOID_0050786
 iris cancer|DOID_3478
 iris disease|DOID_240
 iris mixed cell melanoma|DOID_6993
@@ -3429,6 +3446,7 @@ juvenile glaucoma|DOID_1068
 juvenile myelomonocytic leukemia|DOID_0050458
 juvenile myoclonic epilepsy|DOID_4890
 juvenile pilocytic astrocytoma|DOID_6811
+juvenile polyposis syndrome|DOID_0050787
 juvenile rheumatoid arthritis|DOID_676
 juvenile spinal muscular atrophy|DOID_12376
 juvenile type testicular granulosa cell tumor|DOID_6032
@@ -4077,6 +4095,7 @@ mucopolysaccharidosis I|DOID_12802
 mucopolysaccharidosis II|DOID_12799
 mucopolysaccharidosis III|DOID_12801
 mucopolysaccharidosis IV|DOID_12804
+mucopolysaccharidosis IX|DOID_0050809
 mucopolysaccharidosis VI|DOID_12800
 mucosulfatidosis|DOID_0050441
 mulibrey nanism|DOID_0050436
@@ -4089,6 +4108,7 @@ multinodular goiter|DOID_0050489
 multiple carboxylase deficiency|DOID_857
 multiple chemical sensitivity|DOID_4661
 multiple cranial nerve palsy|DOID_13866
+multiple cutaneous and mucosal venous malformations|DOID_0050792
 multiple epiphyseal dysplasia|DOID_12721
 multiple intestinal atresia|DOID_14671
 multiple mucosal neuroma|DOID_5155
@@ -4099,6 +4119,7 @@ multiple skull base meningioma|DOID_7054
 multiple spinal canal and spinal cord meningioma|DOID_7646
 multiple symmetric lipomatosis|DOID_14116
 multiple symmetrical lipomatosis|DOID_3137
+multiple synostoses syndrome|DOID_0050794
 multiple system atrophy|DOID_4752
 mumps|DOID_10264
 muscle benign neoplasm|DOID_461
@@ -4764,9 +4785,11 @@ periventricular nodular heterotopia|DOID_0050454
 pernicious anemia|DOID_13381
 peroneal nerve paralysis|DOID_6925
 peroneal neuropathy|DOID_4201
+peroxisomal acyl-CoA oxidase deficiency|DOID_0050797
 peroxisomal disease|DOID_906
 persian gulf syndrome|DOID_4491
 persistent fetal circulation syndrome|DOID_13042
+persistent mullerian duct syndrome|DOID_0050791
 personality disorder|DOID_1510
 pertussis|DOID_1116
 pervasive developmental disorder|DOID_0060040
@@ -4980,6 +5003,7 @@ primary lacrimal atrophy|DOID_1399
 primary open angle glaucoma|DOID_1070
 primary optic atrophy|DOID_10627
 primary polycythemia|DOID_10780
+primary progressive multiple sclerosis|DOID_0050784
 primary pulmonary hypertension|DOID_14557
 primary syphilis|DOID_4156
 primary systemic mycosis|DOID_0050292
@@ -4995,6 +5019,7 @@ progressive multifocal leukoencephalopathy|DOID_643
 progressive muscular atrophy|DOID_318
 progressive myoclonus epilepsy|DOID_891
 progressive peripheral pterygium|DOID_13474
+progressive relapsing multiple sclerosis|DOID_0050785
 progressive supranuclear palsy|DOID_678
 prolactin producing pituitary tumor|DOID_5396
 prolactinoma|DOID_5394
@@ -5048,6 +5073,7 @@ proteinuria|DOID_576
 prothrombin deficiency|DOID_2235
 protoplasmic astrocytoma|DOID_7008
 protozoal dysentery|DOID_14397
+proximal symphalangism|DOID_0050788
 psammomatous meningioma|DOID_7210
 pseudo-TORCH syndrome|DOID_0050656
 pseudoachondroplasia|DOID_0080047
@@ -5396,6 +5422,7 @@ secondary hyperparathyroidism of renal origin|DOID_12465
 secondary hypertension|DOID_11130
 secondary hypertrophic osteoarthropathy|DOID_10393
 secondary lacrimal atrophy|DOID_1822
+secondary progressive multiple sclerosis|DOID_0050783
 secondary syphilis|DOID_4157
 secondary vitreoretinal degeneration|DOID_12167
 secretory diarrhea|DOID_0050129
@@ -5453,6 +5480,7 @@ sexual masochism|DOID_10849
 sexual sadism|DOID_10817
 shigellosis|DOID_12385
 shipyard eye|DOID_13014
+short QT syndrome|DOID_0050793
 short bowel syndrome|DOID_10605
 shoulder impingement syndrome|DOID_14276
 sialadenitis|DOID_10303
@@ -5628,14 +5656,16 @@ splenic manifestation of prolymphocytic leukemia|DOID_4334
 splenic marginal zone lymphoma|DOID_0050750
 splenic sequestration|DOID_11786
 splenic tuberculosis|DOID_9305
-sponastrime dysplasia|DOID_5684
 spondylitis|DOID_6590
 spondyloarthropathy|DOID_1123
 spondylocostal dysostosis|DOID_0050568
 spondyloepimetaphyseal dysplasia|DOID_0080027
 spondyloepimetaphyseal dysplasia, Missouri type|DOID_0080030
+spondyloepimetaphyseal dysplasia, Pakistani type|DOID_0050812
+spondyloepimetaphyseal dysplasia, Sponastrime type|DOID_5684
 spondyloepimetaphyseal dysplasia, Strudwick type|DOID_0080028
 spondyloepiphyseal dysplasia congenita|DOID_14789
+spondyloepiphyseal dysplasia with congenital joint dislocations|DOID_0050813
 spondylolisthesis|DOID_6682
 spondylolysis|DOID_2300
 spondylosis|DOID_2247
@@ -5659,7 +5689,6 @@ status asthmaticus|DOID_9362
 status epilepticus|DOID_1824
 steatitis|DOID_4025
 steatorrhea|DOID_10602
-stem cell leukemia|DOID_12621
 stenosis of lacrimal passage|DOID_13654
 stenosis of lacrimal punctum|DOID_13653
 stenosis of lacrimal sac|DOID_3096
@@ -5796,6 +5825,7 @@ tall cell variant papillary carcinoma|DOID_7089
 tamoxifen-Related endometrial Lesion|DOID_7962
 tanycytic ependymoma|DOID_5504
 tarsal tunnel syndrome|DOID_12526
+tarsal-carpal coalition syndrome|DOID_0050789
 tauopathy|DOID_680
 teeth hard tissue disease|DOID_214
 telangiectasis|DOID_1272
@@ -5805,6 +5835,7 @@ telogen effluvium|DOID_1943
 temporal arteritis|DOID_13375
 temporal lobe epilepsy|DOID_3328
 temporal lobe neoplasm|DOID_2135
+temtamy preaxial brachydactyly syndrome|DOID_0050814
 tendinitis|DOID_971
 tendon sheath lipoma|DOID_7016
 tenosynovial giant cell tumor|DOID_314
@@ -5967,6 +5998,7 @@ tracheal lymphoma|DOID_12001
 tracheal stenosis|DOID_3227
 tracheitis|DOID_9392
 trachoma|DOID_11265
+transcobalamin II deficiency|DOID_0050818
 transient arthritis|DOID_2092
 transient arthropathy|DOID_12084
 transient cerebral ischemia|DOID_224
@@ -5990,6 +6022,7 @@ trench fever|DOID_11101
 trichinosis|DOID_9784
 trichomoniasis|DOID_1947
 trichorhinophalangeal syndrome type I|DOID_14743
+trichorhinophalangeal syndrome type II|DOID_4998
 trichosporonosis|DOID_0050290
 trichostrongyloidiasis|DOID_1255
 trichostrongylosis|DOID_1254
@@ -6116,6 +6149,7 @@ urinary system disease|DOID_18
 urinary tract non-invasive transitional cell neoplasm|DOID_6065
 urinary tract obstruction|DOID_5200
 urinary tract papillary transitional cell benign neoplasm|DOID_5433
+urofacial syndrome|DOID_0050816
 urogenital tuberculosis|DOID_2149
 urticaria|DOID_1555
 urticaria pigmentosa|DOID_12309

@@ -3,8 +3,8 @@ Keyword=CellStructure
 TypeString=list
 DescriptionString=The Cell Structures [A11.284] sub-branch of the Medical Subject Headings (MeSH) Anatomy [A] branch.
 UsageString=Use to annotate a statement demonstrated in the context of a specific cellular location.
-VersionString=20131106
-CreatedDateTime=2013-11-06T14:24:26
+VersionString=20131212
+CreatedDateTime=2013-12-12T10:21:52
 
 [Author]
 NameString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
@@ -13,7 +13,7 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=MeSH
 DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine.
-PublishedVersionString=2013
+PublishedVersionString=2014
 ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
@@ -25,9 +25,11 @@ CacheableFlag=yes
 Acrosome|D000177
 Actin Cytoskeleton|D008841
 Adherens Junctions|D022005
+Apicoplasts|D063546
 Axoneme|D054468
 Axons|D001369
 Bacterial Chromatophores|D020130
+Basal Bodies|D064652
 COP-Coated Vesicles|D022181
 Caveolae|D021941
 Cell Membrane|D002462
@@ -124,6 +126,7 @@ Exosomes|D055354
 Extracellular Fluid|D045604
 Extracellular Matrix|D005109
 Extracellular Space|D005110
+Filamins|D064448
 Fimbriae, Bacterial|D010861
 Flagella|D005407
 Focal Adhesions|D022001
@@ -170,7 +173,6 @@ Mitochondria, Heart|D008929
 Mitochondria, Liver|D008930
 Mitochondria, Muscle|D008931
 Mitochondrial Membranes|D051336
-Mitotic Spindle Apparatus|D008941
 Motor Endplate|D009045
 Multivesicular Bodies|D057146
 Myelin Sheath|D009186
@@ -222,6 +224,9 @@ Secretory Vesicles|D022142
 Sex Chromatin|D012728
 Sex Chromosomes|D012730
 Sperm Tail|D013082
+Spindle Apparatus|D008941
+Spindle Pole Bodies|D064048
+Spindle Poles|D064047
 Spliceosomes|D017381
 Stereocilia|D059547
 Stress Fibers|D022502
@@ -236,6 +241,7 @@ Telomere|D016615
 Thylakoids|D020524
 Tight Junctions|D019108
 Transport Vesicles|D022161
+Trichomes|D064201
 Vacuoles|D014617
 Vault Ribonucleoprotein Particles|D020394
 Weibel-Palade Bodies|D020302
