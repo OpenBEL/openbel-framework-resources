@@ -4,8 +4,8 @@ Keyword=MESHD
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=Medical Subject Headings (MeSH) from the Diseases [C] branch. These headings may be used to specify pathologies.
-VersionString=20131211
-CreatedDateTime=2013-12-11T13:14:12
+VersionString=20131213
+CreatedDateTime=2013-12-13T17:01:18
 QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&term=[VALUE]&field=entry
 
 [Author]
@@ -17,7 +17,7 @@ ContactInfoString=info@openbel.org
 NameString=MeSH
 DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine. 
 PublishedVersionString=2014
-PublishedDate=20131209053210
+PublishedDate=2013-12-09
 ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
