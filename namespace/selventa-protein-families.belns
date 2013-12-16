@@ -1,20 +1,20 @@
 [Namespace]
 Keyword=SFAM
-NameString=Named Protein Families
+NameString=Protein Families
 DomainString=Gene/Protein
 SpeciesString=9606, 10090, 10116
 DescriptionString=Names of protein families. This Namespace standardizes the representation of protein families by providing a standardized set of names. Each family represents a group of proteins that are closely related by function. Note: A named protein family represents a more abstract concept than its individual members. Its purpose is to represent information when the observation does not distinguish between closely related proteins. For example the "AKT Family" has as members the closely related kinases AKT1, AKT2, and AKT3. Sources often reference "Akt" rather than a specific family member. In these cases the family should be used.
-VersionString=20131106
-CreatedDateTime=2013-11-06T10:30:12
+VersionString=20131211
+CreatedDateTime=2013-12-11T00:00:00
 
 [Author]
-NameString=Selventa
-CopyrightString=Copyright (c) 2013 OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
-ContactInfoString=support@belframework.org
+NameString=OpenBEL
+CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=info@openbel.org
 
 [Citation]
-NameString=Selventa Named Protein Family
-DescriptionString=Selventa defined names of protein families. Each family represents a group of proteins that are closely related by function. Each family may be associated with a defined set of family members (defined in resource BEL documents using BEL statements). This Namespace serves to standardize the representation of a family by providing a standardized set of names. Note: A named protein family represents a more abstract concept than its individual members. Its purpose is to represent information when the observation does not distinguish between closely related proteins.  For example the "AKT Family" has as members the closely related kinases AKT1, AKT2, and AKT3. Sources often reference "Akt" rather than a specific family member. In these cases the family should be used. Note that this represents information that is less certain. Do not use named families as a convenience function to represent multiple specific results. For example if the abundance of AKT1 and AKT2 are reported to increase, do not use the increased abundance of the AKT family.
+NameString=Selventa Protein Family
+DescriptionString=Selventa-defined names of protein families. Each family represents a group of proteins that are closely related by function. Each family may be associated with a defined set of family members (defined in resource BEL documents using BEL statements). 
 
 [Processing]
 CaseSensitiveFlag=yes
@@ -22,138 +22,250 @@ DelimiterString=|
 CacheableFlag=yes
 
 [Values]
-9-1-1 Complex|C
-AMP Activated Protein Kinase Complex|C
-AP-1 Complex|C
-ATP Dependent Potassium Channel Complex|C
-Acetyl CoA Carboxylase Complex|C
-Acetylcholine Current Channel Complex|C
-Adaptor Protein I Complex|C
-Adaptor Protein II Complex|C
-Adaptor Protein III Complex|C
-Anaphase Promoting Complex|C
-Annexin II Heterotetramer Complex|C
-Arp2/3 Protein Complex|C
-BK Channel Complex|C
-Branched Chain Alpha Keto Acid Dehydrogenase Complex|C
-C1 Complex|C
-C1q Complex|C
-C3 Convertase Complex|C
-C5 Convertase Complex|C
-CAMK2 Complex|C
-CBF3 Complex|C
-CCT Complex|C
-CD3 Complex|C
-CD8 Complex|C
-CHRN Complex|C
-CK II Complex|C
-CRSP Complex|C
-CSNK2 Complex|C
-Ca Activated Chloride Channel Complex|C
-Ca Activated Potassium Channel Complex|C
-Calcineurin Complex|C
-Clathrin Complex|C
-CoA Ligase GDP Complex|C
-Cohesin Complex|C
-Cytochrome C Oxidase Complex|C
-Cytochrome C Oxidase Complex Muscle|C
-Cytochrome C Oxidase Complex Non Muscle|C
-Cytoplasmic Dynein Complex|C
-Cytosolic NFAT Complex|C
-DNA Polymerase delta Complex|C
-Dodecenoyl CoA Isomerase Complex|C
-Dystrophin Associated Glycoprotein Complex|C
-E1A Binding Protein Complex|C
-ECH1 Complex|C
-ECHS1 Complex|C
-EIF2 Complex|C
-EIF2B Complex|C
-EIF4F Complex|C
-ENaC Complex|C
-ER Chaperone Complex|C
-F Channel Complex|C
-FcR Gamma Chain Complex|C
-Fibrinogen Complex|C
-Follicle Stimulating Hormone Complex|C
-GABRA Complex|C
-GPIT Complex|C
-GTF2E Complex|C
-GTF2F Complex|C
-GUCY1 Complex|C
-HDL Complex|C
-Hemoglobin Complex|C
-IK Channel Complex|C
-IL2R Complex|C
-Ib-V-IX Complex|C
-IgG Immune Complex|C
-IkappaB Kinase Complex|C
-Inhibin Complex|C
-Interferon Gamma Receptor Complex|C
-Interleukin 4 Receptor Complex|C
-Inward Rectifier Potassium Channel Complex|C
-Kinetochore Complex|C
-L Type Calcium Channel Complex|C
-Laminin 1 Complex|C
-Laminin 5 Complex|C
-Laminin Complex|C
-Luteinizing Hormone Complex|C
-MHC Class I Complex|C
-MHC Class II Complex|C
-Membrane Attack Complex|C
-NADH Dehydrogenase Complex|C
-NADH Dehydrogenase Complex I|C
-NADPH Oxidase Complex|C
-NFAT Complex|C
-Na/K Exchanging ATPase Complex|C
-Nfkb Complex|C
-Nfy Complex|C
-Ngf Complex|C
-Nua4 Complex|C
-Nuclear NFAT Complex|C
-PDGF Complex|C
-PDGF Receptor Complex|C
-POLR2 Complex|C
-PP2A Complex|C
-PRC1 Maintenance Complex|C
-PRC2 Initiation Complex|C
-Phosphorylase B Kinase Complex|C
-Phosphorylase Kinase Complex|C
-Prefoldin Complex|C
-Preinitiation Complex|C
-Propionyl CoA Carboxylase Complex|C
-Proteasome Complex|C
-Proteasome Core Complex|C
-Proteasome Core Complex alpha Subunit Complex|C
-Proteasome Core Complex beta Subunit Complex|C
-Proteasome Regulatory Particle Base Complex|C
-Proteasome Regulatory Particle Lid Complex|C
-Proton Transporting ATP Synthase Complex|C
-Pyruvate Dehydrogenase Complex|C
-RFC Complex|C
-RNApo I Complex|C
-RNApo II Complex|C
-Respiratory Chain Complex I|C
-Respiratory Chain Complex II|C
-Respiratory Chain Complex III|C
-Respiratory Chain Complex IV|C
-SK Channel Complex|C
-SWI/SNF Complex|C
-Succinate CoA Ligase GDP Forming Complex|C
-Succinate Dehydrogenase Complex|C
-T Cell Receptor Antigen Recognition Complex|C
-T Cell Receptor Complex|C
-T Type Calcium Channel Complex|C
-TFIIH Complex|C
-TIF IB Complex|C
-TORC1 Complex|C
-TORC2 Complex|C
-TR Auxiliary Protein Complex|C
-Ternary Complex|C
-Thrombin Antithrombin Complex|C
-Trifunctional Complex|C
-Voltage Dependent Potassium Channel Complex|C
-Voltage Gated Sodium Channel Complex|C
-WAVE2 Complex|C
-gamma Secretase Complex|C
-mRNA Cap Complex|C
-p85/p110 PI3Kinase Complex|C
+14-3-3 Family|P
+ACAD Family|P
+Acetyl-CoA Synthetase Family|P
+ACOX Family|P
+ACSL Family|P
+ACT Family|P
+ACTN Family|P
+ADCY Family|P
+ADH Family|P
+ADRA Family|P
+ADRA2 Family|P
+ADRB Family|P
+ADRBK Family|P
+AKT Family|P
+ALDH Family|P
+ALDO Family|P
+APOA Family|P
+ARRB Family|P
+ATP2A Family|P
+ATP5G Family|P
+AXIN Family|P
+BIRC Family|P
+BMP Family|P
+BMP Receptor Type I Family|P
+BMP Receptor Type II Family|P
+CALM Family|P
+CAMK Family|P
+CAMK2 Family|P
+CAPN Family|P
+Carboxylesterase Family|P
+CASP Family|P
+CAV Family|P
+CCNA Family|P
+CCND Family|P
+CCNE Family|P
+CD16 Family|P
+CD32 Family|P
+CD64 Family|P
+CDC25 Family|P
+CDH Family|P
+CEBP Family|P
+Chemokine Receptor Family|P
+Cholinesterase Family|P
+CHRM Family|P
+COL1 Family|P
+COL4 Family|P
+COL5 Family|P
+COX4 Family|P
+COX6A Family|P
+COX6B Family|P
+COX7A Family|P
+COX7B Family|P
+COX8 Family|P
+CREB Family|P
+CRISP Family|P
+CSNK1 Family|P
+CSNK2 Family|P
+CTNNA Family|P
+CUL Family|P
+Cu-Zn SOD Family|P
+CXCL ELR-Negative Family|P
+CXCL ELR-Positive Family|P
+Cyclophilin Family|P
+DDR Family|P
+Desmoglein Family|P
+DGK Family|P
+DNM Family|P
+DRD Family|P
+DVL Family|P
+E2F Family|P
+EDN Family|P
+EGFR Ligand Family|P
+EGFR/ERBB Family|P
+EGR Family|P
+EIF4A Family|P
+EIF4EBP Family|P
+ELA Family|P
+ENO Family|P
+Ephrin Receptor Family|P
+EPN Family|P
+ESR Family|P
+ETS Family|P
+FGF Family|P
+FGFR Family|P
+FLOT Family|P
+FLRT Family|P
+FOXO Family|P
+FZD Family|P
+GABR Family|P
+GAS6 Receptor Family|P
+GATA Family|P
+GNA Gq Family|P
+GNA Gs Family|P
+GNAI Family|P
+GNB Family|P
+GNG Family|P
+GPX Family|P
+GRIA Family|P
+GRK Family|P
+GRM Family|P
+GSK3 Family|P
+GST Family|P
+GUCY Family|P
+GYS Family|P
+HDAC Class I Family|P
+HDAC Class II Family|P
+HDAC Family|P
+Hedgehog Family|P
+HES Family|P
+Histone Family|P
+Histone H1 Family|P
+Histone H2A Family|P
+Histone H2B Family|P
+Histone H3 Family|P
+Histone H4 Family|P
+HLA-DR Family|P
+HMOX Family|P
+HSP90 Family|P
+HSPA Family|P
+HSPB Family|P
+IFNA Family|P
+IgE Family|P
+IGFBP Family|P
+IkappaB Kinase Family|P
+IL1 Family|P
+INS Family|P
+INSR Family|P
+IRS Family|P
+IRX Family|P
+JAK Family|P
+KLK Family|P
+LDH Family|P
+MAF Family|P
+MAPK Erk1/3 Family|P
+MAPK JNK Family|P
+MAPK p38 Family|P
+MEF2 Family|P
+MEK1/2 Family|P
+MMP Family|P
+MYH Family|P
+MYL Alkali Family|P
+MYL Family|P
+MYL Regulatory Family|P
+MYL Slow Family|P
+MYST Family|P
+NCOR Family|P
+NDRG Family|P
+NFAT Family|P
+NKD Family|P
+NOS Family|P
+NOTCH Family|P
+NRG1/2 Family|P
+NRG3/4 Family|P
+NTRK Family|P
+p160/SRC Family|P
+P2RX Family|P
+P2RY Family|P
+PAK Family|P
+PARV Family|P
+PBX Family|P
+PDE Family|P
+PDE1 Family|P
+PDE3 Family|P
+PDE4 Family|P
+PDE4 Long Family|P
+PDE4 Long No A Family|P
+PDE4 Short Family|P
+PDE6 Family|P
+PDGF Family|P
+PDGFR Family|P
+PDK Family|P
+PFN Family|P
+PIK3C Class IA Family|P
+PIK3R Class IA Family|P
+PKI Family|P
+PLA2 Family|P
+PLA2G2 Family|P
+PLC Family|P
+PLCB Family|P
+PLCG Family|P
+PLD Family|P
+PPAP2 Family|P
+PPAR Family|P
+PPP1C Family|P
+PPP1R Family|P
+PPP2C Family|P
+PPP2R Subunit A Family|P
+PPP2R Subunit B Family|P
+PPP3 Family|P
+PPP3C Family|P
+PPP3R Family|P
+PRDX Family|P
+PRKA Family|P
+PRKAA Family|P
+PRKAB Family|P
+PRKAG Family|P
+PRKAR Family|P
+PRKC Family|P
+PRKG Family|P
+PTGER Family|P
+RAB Family|P
+RAC Family|P
+RAF Family|P
+RAR Family|P
+RAS Family|P
+RFX Family|P
+RHO Family|P
+ROCK Family|P
+ROR Family|P
+RPS6KA Family|P
+RPS6KB Family|P
+RXR Family|P
+S100A Family|P
+S1PR Family|P
+SAA Family|P
+SCD Family|P
+SERPINB Family|P
+SLC2A Family|P
+SMAD Family|P
+SMC1 Family|P
+SNAI Family|P
+SOS Family|P
+SRC Family|P
+SREBF Family|P
+STAT Family|P
+STAT5 Family|P
+Sulfonylurea Receptor Family|P
+TAP Family|P
+TCF/LEF Family|P
+TFAP2 Family|P
+TFDP Family|P
+TGFB Family|P
+THBS Family|P
+THR Family|P
+TN Family|P
+TNFRSF Family|P
+TOP2 Family|P
+Tryptase Family|P
+TUBA Family|P
+TUBB Family|P
+TXN Family|P
+TXNRD Family|P
+UBE2 Family|P
+VAV Family|P
+VEGF Family|P
+VEGFR Family|P
+WNT Family|P
