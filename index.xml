@@ -115,8 +115,6 @@
         <idx:gene-scaffolding idx:resourceLocation="http://resource.belframework.org/belframework/testing/resource/gene_scaffolding_document_9606_10090_10116.bel" />
         <idx:orthologies>
             <idx:orthology idx:resourceLocation="http://resource.belframework.org/belframework/testing/resource/gene-orthology.bel" />
-            <idx:orthology idx:resourceLocation="http://resource.belframework.org/belframework/testing/resource/family-orthology.bel" />
-            <idx:orthology idx:resourceLocation="http://resource.belframework.org/belframework/testing/resource/complex-orthology.bel" />
         </idx:orthologies>
     </idx:knowledge>
 </idx:index>
