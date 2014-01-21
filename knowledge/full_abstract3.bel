@@ -6,29 +6,27 @@ SET DOCUMENT Description = "Example of modeling a full abstract taken from the B
 SET DOCUMENT Version = "1.2"
 SET DOCUMENT Copyright = "Copyright (c) 2011, Selventa. All Rights Reserved."
 SET DOCUMENT ContactInfo = "support@belframework.org"
-SET DOCUMENT Authors = "Selventa"
+SET DOCUMENT Authors = Selventa
 SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported License"
 
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE PFM AS URL "http://resource.belframework.org/belframework/1.0/namespace/selventa-named-mouse-protein-families.belns"
-DEFINE NAMESPACE NCM AS URL "http://resource.belframework.org/belframework/1.0/namespace/selventa-named-mouse-complexes.belns"
-DEFINE NAMESPACE PFH AS URL "http://resource.belframework.org/belframework/1.0/namespace/selventa-named-human-protein-families.belns"
-DEFINE NAMESPACE NCH AS URL "http://resource.belframework.org/belframework/1.0/namespace/selventa-named-human-complexes.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/1.0/namespace/mgi-approved-symbols.belns"
-DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/1.0/namespace/mesh-diseases.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/1.0/namespace/hgnc-approved-symbols.belns"
-DEFINE NAMESPACE GO AS URL "http://resource.belframework.org/belframework/1.0/namespace/go-biological-processes-names.belns"
-DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/1.0/namespace/chebi-names.belns"
+DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi-names.belns"
+DEFINE NAMESPACE GOBP AS URL "http://resource.belframework.org/belframework/testing/namespace/go-biological-processes-names.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-approved-symbols.belns"
+DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-approved-symbols.belns"
+DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
+DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
 
-DEFINE ANNOTATION CellLine AS  URL "http://resource.belframework.org/belframework/1.0/annotation/atcc-cell-line.belanno"
-DEFINE ANNOTATION Disease AS  URL "http://resource.belframework.org/belframework/1.0/annotation/mesh-disease.belanno"
-DEFINE ANNOTATION Species AS  URL "http://resource.belframework.org/belframework/1.0/annotation/species-taxonomy-id.belanno"
+DEFINE ANNOTATION CellLine AS URL "http://resource.belframework.org/belframework/testing/annotation/cell-line.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "http://resource.belframework.org/belframework/testing/annotation/mesh-diseases.belanno"
+DEFINE ANNOTATION Species AS URL "http://resource.belframework.org/belframework/testing/annotation/species-taxonomy-id.belanno"
 
 ##################################################################################
 # Statements Section
-SET Citation = {"PubMed", "Carcinogenesis 2006 Nov 27(11) 2190-200","16679305"}
+SET Citation = {"PubMed","Carcinogenesis 2006 Nov 27(11) 2190-200","16679305"}
 SET Evidence = "Different mutant amino acids in the Ras proteins lead to\
 distinct transforming capacities and different aggressiveness in human tumors."
 # no statements modeled from this line
@@ -36,10 +34,10 @@ SET Evidence = "K-Ras Asp12 (K12D) is more prevalent in benign than in\
 malignant human colorectal tumors, whereas K-Ras Val12 (K12V) associates\
 with more advanced and metastatic carcinomas, higher recurrence and\
 decreased survival."
-SET Species = "9606"
-SET Disease = "Colorectal Neoplasms"
-p(HGNC:KRAS, sub(G, 12, V)) prognosticBiomarkerFor path(MESHD:"Neoplasm Metastasis")
-p(HGNC:KRAS, sub(G, 12, V)) prognosticBiomarkerFor path(MESHD:"Recurrence")
+SET Species = 9606
+SET MeSHDisease = "Colorectal Neoplasms"
+p(HGNC:KRAS,sub(G,12,V)) prognosticBiomarkerFor path(MESHD:"Neoplasm Metastasis")
+p(HGNC:KRAS,sub(G,12,V)) prognosticBiomarkerFor path(MESHD:Recurrence)
 SET Evidence = "Here, we tested, in a nude mouse xenograft model, whether\
 different human K-Ras oncogenes mutated at codon 12 to Val, Asp or Cys\
 would confer NIH3T3 fibroblasts distinct oncogenic phenotypes. We
@@ -48,19 +46,18 @@ tumor histology and growth, apoptotic and mitotic rates, activation of\
 signal transduction pathways downstream of Ras and regulation of the cell\
 cycle and apoptotic proteins in tumors derived from the implanted transformants."
 # disease "Colorectal Neoplasms" does not apply to this evidence text; need to clear disease annotation
-UNSET Disease
 # note that experiment is expression of human genes in mouse tissue; set species annotation to mouse and cell line to NIH3T3
-SET Species = "10090"
-SET CellLine = "3T3-Swiss albino"
+SET Species = 10090
+SET CellLine = "NIH-3T3 cell"
 # no statements modeled from this line
 SET Evidence = "We found that the K12V oncogene induces a more aggressive\
 tumorigenic phenotype than the K12D oncogene, whereas K12C does not induce\
 tumors in this model."
 # disambiguation K12V is KRAS G12V substitution
 # evidence text indicates that both G12V and G12D qualitatively induce tumors; BEL V1.0 does not capture magnitude of the effect
-p(HGNC:KRAS, sub(G, 12, V)) -> path(MESHD:Neoplasms)
-p(HGNC:KRAS, sub(G, 12, D)) -> path(MESHD:Neoplasms)
-p(HGNC:KRAS, sub(G, 12, C)) causesNoChange path(MESHD:Neoplasms)
+p(HGNC:KRAS,sub(G,12,V)) -> path(MESHD:Neoplasms)
+p(HGNC:KRAS,sub(G,12,D)) -> path(MESHD:Neoplasms)
+p(HGNC:KRAS,sub(G,12,C)) causesNoChange path(MESHD:Neoplasms)
 SET Evidence = "Thus, K12V mutant tumors proliferate about seven times\
 faster, and have higher cellularity and mitotic rates than the K12D\
 mutant tumors."
@@ -71,29 +68,29 @@ the K12V mutant protein interacts with Raf-1 and transduces signals mainly throu
 # other functions, and instead model the effect of the modification or mutation
 # on the activity of the normal protein. The relationship is self referential,
 # and thus direct
-p(HGNC:KRAS, sub(G, 12, V)) => complex(p(HGNC:KRAS), p(MGI:Raf1))
-p(HGNC:KRAS, sub(G, 12, V)) -> kin(p(PFM:"MAPK Erk1/3 Family"))
+p(HGNC:KRAS,sub(G,12,V)) => complex(p(HGNC:KRAS),p(MGI:Raf1))
+p(HGNC:KRAS,sub(G,12,V)) -> kin(p(SFAM:"MAPK Erk1/2 Family"))
 SET Evidence = "Unexpectedly, in tumors induced by the K12D oncogene,\
 the K-Ras mutant protein does not interact with Raf-1 nor activates\
 the Erk canonical pathway."
-p(HGNC:KRAS, sub(G, 12, D)) causesNoChange complex(p(HGNC:KRAS), p(MGI:Raf1))
-p(HGNC:KRAS, sub(G, 12, D)) causesNoChange kin(p(PFM:"MAPK Erk1/3 Family"))
+p(HGNC:KRAS,sub(G,12,D)) causesNoChange complex(p(HGNC:KRAS),p(MGI:Raf1))
+p(HGNC:KRAS,sub(G,12,D)) causesNoChange kin(p(SFAM:"MAPK Erk1/2 Family"))
 SET Evidence = "Instead, it transduces signals through the PI3K/Akt, JNK,
 p38 and FAK pathways."
 # "it" refers to KRAS G12D
-p(HGNC:KRAS, sub(G, 12, D)) -> kin(complex(NCM:"p85/p110 PI3Kinase Complex"))
-p(HGNC:KRAS, sub(G, 12, D)) -> kin(p(PFM:"Akt Family"))
-p(HGNC:KRAS, sub(G, 12, D)) -> kin(p(PFM:"Mapk JNK Family"))
-p(HGNC:KRAS, sub(G, 12, D)) -> kin(p(PFM:"Mapk p38 Family"))
+p(HGNC:KRAS,sub(G,12,D)) -> kin(complex(SCOMP:"p85/p110 PI3Kinase Complex"))
+p(HGNC:KRAS,sub(G,12,D)) -> kin(p(SFAM:"AKT Family"))
+p(HGNC:KRAS,sub(G,12,D)) -> kin(p(SFAM:"MAPK JNK Family"))
+p(HGNC:KRAS,sub(G,12,D)) -> kin(p(SFAM:"MAPK p38 Family"))
 # disambiguation FAK = PTK2
-p(HGNC:KRAS, sub(G, 12, D)) -> kin(p(MGI:Ptk2))
+p(HGNC:KRAS,sub(G,12,D)) -> kin(p(MGI:Ptk2))
 SET Evidence = "Finally, the higher growth rate of the K12V tumors associates\
 with enhanced Rb phosphorylation, and PCNA and cyclin B upregulation, consistent\
 with faster G1/S and G2/M transitions, without alteration of apoptotic\
 regulation."
-p(HGNC:KRAS, sub(G, 12, V)) -> p(HGNC:RB1, pmod(P))
-p(HGNC:KRAS, sub(G, 12, V)) -> p(HGNC:PCNA)
-p(HGNC:KRAS, sub(G, 12, V)) -> p(HGNC:CCNB1)
-p(HGNC:KRAS, sub(G, 12, V)) -> bp(GO:"G1/S transition of mitotic cell cycle")
-p(HGNC:KRAS, sub(G, 12, V)) -> bp(GO:"G2/M transition of mitotic cell cycle")
-p(HGNC:KRAS, sub(G, 12, V)) causesNoChange bp(GO:"regulation of apoptotic process")
+p(HGNC:KRAS,sub(G,12,V)) -> p(HGNC:RB1,pmod(P))
+p(HGNC:KRAS,sub(G,12,V)) -> p(HGNC:PCNA)
+p(HGNC:KRAS,sub(G,12,V)) -> p(HGNC:CCNB1)
+p(HGNC:KRAS,sub(G,12,V)) -> bp(GOBP:"G1/S transition of mitotic cell cycle")
+p(HGNC:KRAS,sub(G,12,V)) -> bp(GOBP:"G2/M transition of mitotic cell cycle")
+p(HGNC:KRAS,sub(G,12,V)) causesNoChange bp(GOBP:"regulation of apoptotic process")
