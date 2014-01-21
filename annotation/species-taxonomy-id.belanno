@@ -7,8 +7,8 @@ VersionString=20120202
 CreatedDateTime=2012-02-02T12:00:00
 
 [Author]
-NameString=Selventa
-CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
+NameString=OpenBEL
+CopyrightString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=belframework@selventa.com
 
 [Citation]
