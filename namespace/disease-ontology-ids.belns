@@ -1,6 +1,6 @@
 [Namespace]
 NameString=Disease Ontology Identifiers
-Keyword=DO
+Keyword=DOID
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=Disease names from the Disease Ontology (DO). These names may be used to specify pathologies. 
