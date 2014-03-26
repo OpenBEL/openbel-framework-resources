@@ -3,7 +3,7 @@
 
 SET DOCUMENT Name = "BEL Framework Small Corpus Document"
 SET DOCUMENT Description = "Approximately 2000 hand curated statements drawn from 57 PubMeds."
-SET DOCUMENT Version = "1.6"
+SET DOCUMENT Version = 20131211
 SET DOCUMENT Copyright = "Copyright (c) 2011-2012, Selventa. All Rights Reserved."
 SET DOCUMENT Authors = Selventa
 SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported License"

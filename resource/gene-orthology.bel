@@ -3,7 +3,7 @@
 
 SET DOCUMENT Name = "BEL Framework Orthologous Genes Document"
 SET DOCUMENT Description = "Gene orthology relationships from HGNC and RGD"
-SET DOCUMENT Version = 20131024
+SET DOCUMENT Version = 20131211
 SET DOCUMENT Copyright = "Copyright (c) 2013, OpenBEL Project."
 SET DOCUMENT Authors = Selventa
 SET DOCUMENT Licenses = "Creative Commons Attribution 3.0 Unported License."

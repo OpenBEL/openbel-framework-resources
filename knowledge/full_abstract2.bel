@@ -2,7 +2,7 @@
 # Document Properties Section
 SET DOCUMENT Name = "BEL Framework Example 2 Document"
 SET DOCUMENT Description = "Example of modeling a full abstract taken from the BEL V1.0 Language Overview."
-SET DOCUMENT Version = "1.2"
+SET DOCUMENT Version = 20131211
 SET DOCUMENT Copyright = "Copyright (c) 2011, Selventa. All Rights Reserved."
 SET DOCUMENT ContactInfo = "support@belframework.org"
 SET DOCUMENT Authors = Selventa

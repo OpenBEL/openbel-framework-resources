@@ -3,7 +3,7 @@
 
 SET DOCUMENT Name = "Gene Expression Profiling Example"
 SET DOCUMENT Description = "Example document for using Affymetrix probe set namespace; knowledge curated from PMID 16923961 gene expression profiling data"
-SET DOCUMENT Version = "1.0"
+SET DOCUMENT Version = 20131211
 SET DOCUMENT Copyright = "Copyright (c) 2012, Selventa. All Rights Reserved."
 SET DOCUMENT ContactInfo = "support@belframework.org"
 SET DOCUMENT Authors = Selventa
