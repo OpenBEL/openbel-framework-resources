@@ -1291,7 +1291,7 @@ SET Evidence = "rupture of the outer membrane and the release of pro-apoptotic p
 space into the cytosol. The release of apoptosis-inducing factor (AIF)
 triggers the fragmentation of largesized nuclear DNA."
 
-translocation(proteinAbundance(HGNC:AIFM1),MESHCS:Mitochondria,MESHCS:Cytoplasm) increases biologicalProcess(GOBP:"DNA fragmentation involved in apoptotic nuclear change")
+translocation(proteinAbundance(HGNC:AIFM1),MESHCS:Mitochondria,MESHCS:Cytoplasm) increases biologicalProcess(GOBP:"apoptotic DNA fragmentation")
 
 SET Evidence = "The release of a protein called 'second mitochondria-derived activator of caspase/
 direct inhibitor of apoptosis-binding protein with low pI (Smac/DIABLO)' inactivates
@@ -6508,7 +6508,7 @@ kinaseActivity(proteinAbundance(HGNC:PLK1)) directlyIncreases proteinAbundance(H
 SET Evidence = "We recently found that HeLa cells depleted of Plk1 by this protocol enter mitosis
 but are then delayed in prometaphase by the spindle checkpoint."
 
-proteinAbundance(HGNC:PLK1) decreases biologicalProcess(GOBP:"response to spindle checkpoint signal")
+proteinAbundance(HGNC:PLK1) decreases biologicalProcess(GOBP:"response to spindle checkpoint signaling")
 proteinAbundance(HGNC:PLK1) increases biologicalProcess(GOBP:"mitotic prometaphase")
 
 SET Evidence = "When APC was isolated from Plk1 RNAi cells or from control cells 10 h after the second
