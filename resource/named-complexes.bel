@@ -11,9 +11,9 @@ SET DOCUMENT Authors = Selventa
 # Definitions Section
 
 DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-approved-symbols.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-approved-symbols.belns"
-DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/testing/namespace/rgd-approved-symbols.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"
 
 
 ##################################################################################

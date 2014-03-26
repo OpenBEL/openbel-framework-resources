@@ -12,11 +12,11 @@ SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi-names.belns"
-DEFINE NAMESPACE GOBP AS URL "http://resource.belframework.org/belframework/testing/namespace/go-biological-processes-names.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-approved-symbols.belns"
+DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi.belns"
+DEFINE NAMESPACE GOBP AS URL "http://resource.belframework.org/belframework/testing/namespace/go-biological-process.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
 DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-approved-symbols.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
 DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
 DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
 

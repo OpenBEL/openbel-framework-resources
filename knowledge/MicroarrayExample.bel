@@ -13,7 +13,7 @@ SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 
 # Definitions Section
 
 DEFINE NAMESPACE AFFX AS URL "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-approved-symbols.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
 
 DEFINE ANNOTATION Anatomy AS URL "http://resource.belframework.org/belframework/testing/annotation/anatomy.belanno"
 DEFINE ANNOTATION Species AS URL "http://resource.belframework.org/belframework/testing/annotation/species-taxonomy-id.belanno"

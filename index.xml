@@ -18,26 +18,26 @@
     <idx:namespaces>
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/chebi-ids.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/chebi-names.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/chebi.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/disease-ontology-ids.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/disease-ontology-names.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/disease-ontology.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/entrez-gene-ids.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-biological-processes-ids.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-biological-processes-names.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-biological-process-ids.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-biological-process.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-cellular-component-ids.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-cellular-component-names.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/hgnc-approved-symbols.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-biological-processes.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-locations.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-cellular-component.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-processes.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-structures.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mgi-approved-symbols.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/rgd-approved-symbols.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemical-names.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemicals.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-diseases.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/swissprot-accession-numbers.belns" />
-        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/swissprot-entry-names.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/swissprot-ids.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/swissprot.belns" />
     </idx:namespaces>
 
     <idx:equivalences>
@@ -47,50 +47,50 @@
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/chebi-ids.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/chebi-ids.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/chebi-names.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/chebi-names.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/chebi.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/chebi.belns" />
         </idx:equivalence>
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/disease-ontology-ids.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/disease-ontology-ids.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/disease-ontology-names.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/disease-ontology-names.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/disease-ontology.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/disease-ontology.belns" />
         </idx:equivalence>
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/entrez-gene-ids.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/entrez-gene-ids.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/go-biological-processes-ids.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-biological-processes-ids.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/go-biological-process-ids.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-biological-process-ids.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/go-biological-processes-names.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-biological-processes-names.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/go-biological-process.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-biological-process.belns" />
         </idx:equivalence>
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/go-cellular-component-ids.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-cellular-component-ids.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/go-cellular-component-names.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-cellular-component-names.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/go-cellular-component.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/go-cellular-component.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/hgnc-approved-symbols.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/hgnc-approved-symbols.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/hgnc-human-genes.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mesh-biological-processes.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-biological-processes.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mesh-processes.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-processes.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mesh-cellular-locations.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-locations.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mesh-cellular-structures.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-structures.belns" />
         </idx:equivalence>
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mesh-diseases.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mgi-approved-symbols.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mgi-approved-symbols.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mgi-mouse-genes.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/rgd-approved-symbols.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/rgd-approved-symbols.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/rgd-rat-genes.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/selventa-legacy-chemical-names.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemical-names.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/selventa-legacy-chemicals.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemicals.belns" />
         </idx:equivalence>
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/selventa-legacy-diseases.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-diseases.belns" />
@@ -101,11 +101,11 @@
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/selventa-named-complexes.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/swissprot-accession-numbers.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/swissprot-accession-numbers.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/swissprot-ids.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/swissprot-ids.belns" />
         </idx:equivalence>
-        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/swissprot-entry-names.beleq">
-            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/swissprot-entry-names.belns" />
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/swissprot.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/swissprot.belns" />
         </idx:equivalence>
     </idx:equivalences>
 

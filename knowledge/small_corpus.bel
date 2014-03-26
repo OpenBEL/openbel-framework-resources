@@ -12,21 +12,21 @@ SET DOCUMENT ContactInfo = "support@belframework.org"
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi-names.belns"
+DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi.belns"
 DEFINE NAMESPACE CHEBIID AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi-ids.belns"
 DEFINE NAMESPACE EGID AS URL "http://resource.belframework.org/belframework/testing/namespace/entrez-gene-ids.belns"
-DEFINE NAMESPACE GOBP AS URL "http://resource.belframework.org/belframework/testing/namespace/go-biological-processes-names.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-approved-symbols.belns"
-DEFINE NAMESPACE MESHCL AS URL "http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-locations.belns"
+DEFINE NAMESPACE GOBP AS URL "http://resource.belframework.org/belframework/testing/namespace/go-biological-process.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE MESHCS AS URL "http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-structures.belns"
 DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns"
-DEFINE NAMESPACE MESHPP AS URL "http://resource.belframework.org/belframework/testing/namespace/mesh-biological-processes.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-approved-symbols.belns"
-DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/testing/namespace/rgd-approved-symbols.belns"
-DEFINE NAMESPACE SCHEM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemical-names.belns"
+DEFINE NAMESPACE MESHPP AS URL "http://resource.belframework.org/belframework/testing/namespace/mesh-processes.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"
+DEFINE NAMESPACE SCHEM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemicals.belns"
 DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
 DEFINE NAMESPACE SDIS AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-diseases.belns"
 DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
-DEFINE NAMESPACE SPAC AS URL "http://resource.belframework.org/belframework/testing/namespace/swissprot-accession-numbers.belns"
+DEFINE NAMESPACE SPAC AS URL "http://resource.belframework.org/belframework/testing/namespace/swissprot-ids.belns"
 
 DEFINE ANNOTATION Anatomy AS URL "http://resource.belframework.org/belframework/testing/annotation/anatomy.belanno"
 DEFINE ANNOTATION Cell AS URL "http://resource.belframework.org/belframework/testing/annotation/cell.belanno"
@@ -557,7 +557,7 @@ hydrobobic farnesyl isoprenyl tail to the carboxyl terminus of Ras."
 SET Citation = {"PubMed","Journal of clinical oncology : official journal of the American Society of Clinical Oncology","16170185","","Beeram M|Patnaik A|Rowinsky EK",""}
 
 catalyticActivity(complexAbundance(proteinAbundance(HGNC:FNTA),proteinAbundance(HGNC:FNTB))) directlyIncreases proteinAbundance(SFAM:"RAS Family",proteinModification(F))
-proteinAbundance(SFAM:"RAS Family",proteinModification(F)) directlyIncreases translocation(proteinAbundance(SFAM:"RAS Family"),MESHCL:"Intracellular Space",MESHCL:"Cell Membrane")
+proteinAbundance(SFAM:"RAS Family",proteinModification(F)) directlyIncreases translocation(proteinAbundance(SFAM:"RAS Family"),MESHCS:"Intracellular Space",MESHCS:"Cell Membrane")
 
 SET Evidence = "The considerable attention paid to targeting Ras as a therapeutic strategy is based
 on the high incidence of activating ras mutations in human malignancies, including
@@ -621,7 +621,7 @@ SET Evidence = "Furthermore, the kinase activity of Raf is inhibited by its inte
 lipid rafts in the cell membrane and phosphorylation by protein kinases
 A (PKA) and B (PKB/Akt), as shown in Figure 2.95-98"
 
-abundance(MESHCL:"Membrane Microdomains") directlyDecreases kinaseActivity(proteinAbundance(SFAM:"RAF Family"))
+abundance(MESHCS:"Membrane Microdomains") directlyDecreases kinaseActivity(proteinAbundance(SFAM:"RAF Family"))
 kinaseActivity(proteinAbundance(SFAM:"PRKA Family")) decreases kinaseActivity(proteinAbundance(SFAM:"RAF Family"))
 kinaseActivity(proteinAbundance(SFAM:"AKT Family")) decreases kinaseActivity(proteinAbundance(SFAM:"RAF Family"))
 
@@ -686,7 +686,7 @@ alone.124,130  Of the Raf isoforms, B-Raf is activated first, and on stimulation
 by Ras, it heterodimerizes with C-Raf, the significance of which is not known.94"
 
 gtpBoundActivity(proteinAbundance(SFAM:"RAS Family")) directlyIncreases kinaseActivity(proteinAbundance(HGNC:BRAF))
-gtpBoundActivity(proteinAbundance(SFAM:"RAS Family")) directlyIncreases translocation(proteinAbundance(HGNC:BRAF),MESHCL:"Intracellular Space",MESHCL:"Cell Membrane")
+gtpBoundActivity(proteinAbundance(SFAM:"RAS Family")) directlyIncreases translocation(proteinAbundance(HGNC:BRAF),MESHCS:"Intracellular Space",MESHCS:"Cell Membrane")
 gtpBoundActivity(proteinAbundance(SFAM:"RAS Family")) increases complexAbundance(proteinAbundance(HGNC:RAF1),proteinAbundance(HGNC:BRAF))
 
 SET Evidence = "Both B-Raf and C-Raf can bind to other small GTPases, most notably Rap1.115,131,132
@@ -979,7 +979,7 @@ possibly mediated by the association of PR and Stat5. Last, progesterone pretrea
 enhances the phosphorylation of Stat5 on tyrosine 694 induced by epidermal
 growth factor."
 
-abundance(CHEBIID:59826) increases translocation(proteinAbundance(SFAM:"STAT5 Family"),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus")
+abundance(CHEBIID:59826) increases translocation(proteinAbundance(SFAM:"STAT5 Family"),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus")
 abundance(CHEBIID:59826) increases (proteinAbundance(HGNC:EGF) increases proteinAbundance(SFAM:"STAT5 Family",proteinModification(P,Y,694)))
 
 SET Evidence = "Functional data show that progestin pretreatment of breast cancer cells enhances the
@@ -1035,8 +1035,8 @@ total Stat5 levels (lanes 3  and 4; 7and 8), but also promoted extensive nuclear
 translocation of Stat5 (compare lanes 2 and 4) independent of EGF treatment."
 
 abundance(CHEBIID:59826) increases proteinAbundance(SFAM:"STAT5 Family")
-abundance(CHEBIID:59826) increases translocation(proteinAbundance(SFAM:"STAT5 Family"),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus")
-proteinAbundance(HGNC:EGF) increases translocation(proteinAbundance(SFAM:"STAT5 Family"),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus")
+abundance(CHEBIID:59826) increases translocation(proteinAbundance(SFAM:"STAT5 Family"),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus")
+proteinAbundance(HGNC:EGF) increases translocation(proteinAbundance(SFAM:"STAT5 Family"),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus")
 
 SET CellLine = "HeLa cell"
 SET Evidence = "These reciprocal studies show that PR and Stat5 are associated, either directly or
@@ -1222,9 +1222,9 @@ abundance(CHEBI:ATP) decreases catalyticActivity(complexAbundance(SCOMP:"Proton 
 
 SET Evidence = "Cytochrome c release induces caspase activation and cell death via apoptosis or necrosis."
 
-translocation(proteinAbundance(HGNC:CYCS),MESHCL:Mitochondria,MESHCL:Cytoplasm) increases biologicalProcess(GOBP:"apoptotic process")
-translocation(proteinAbundance(HGNC:CYCS),MESHCL:Mitochondria,MESHCL:Cytoplasm) increases biologicalProcess(GOBP:necrosis)
-translocation(proteinAbundance(HGNC:CYCS),MESHCL:Mitochondria,MESHCL:Cytoplasm) increases biologicalProcess(GOBP:"activation of cysteine-type endopeptidase activity")
+translocation(proteinAbundance(HGNC:CYCS),MESHCS:Mitochondria,MESHCS:Cytoplasm) increases biologicalProcess(GOBP:"apoptotic process")
+translocation(proteinAbundance(HGNC:CYCS),MESHCS:Mitochondria,MESHCS:Cytoplasm) increases biologicalProcess(GOBP:necrosis)
+translocation(proteinAbundance(HGNC:CYCS),MESHCS:Mitochondria,MESHCS:Cytoplasm) increases biologicalProcess(GOBP:"activation of cysteine-type endopeptidase activity")
 
 SET TextLocation = Review
 SET Evidence = "When cells need energy, the rise in ADP levels within the mitochondria induces the
@@ -1291,13 +1291,13 @@ SET Evidence = "rupture of the outer membrane and the release of pro-apoptotic p
 space into the cytosol. The release of apoptosis-inducing factor (AIF)
 triggers the fragmentation of largesized nuclear DNA."
 
-translocation(proteinAbundance(HGNC:AIFM1),MESHCL:Mitochondria,MESHCL:Cytoplasm) increases biologicalProcess(GOBP:"DNA fragmentation involved in apoptotic nuclear change")
+translocation(proteinAbundance(HGNC:AIFM1),MESHCS:Mitochondria,MESHCS:Cytoplasm) increases biologicalProcess(GOBP:"DNA fragmentation involved in apoptotic nuclear change")
 
 SET Evidence = "The release of a protein called 'second mitochondria-derived activator of caspase/
 direct inhibitor of apoptosis-binding protein with low pI (Smac/DIABLO)' inactivates
 the inhibitor of apoptosis proteins (IAPs)."
 
-translocation(proteinAbundance(HGNC:DIABLO),MESHCL:Mitochondria,MESHCL:Cytoplasm) increases biologicalProcess(GOBP:"apoptotic process")
+translocation(proteinAbundance(HGNC:DIABLO),MESHCS:Mitochondria,MESHCS:Cytoplasm) increases biologicalProcess(GOBP:"apoptotic process")
 
 SET CellStructure = Cytoplasm
 SET Evidence = "the released cytochrome c binds in the cytosol to Apaf-1 in an ATP-dependent manner
@@ -1344,7 +1344,7 @@ to the outer mitochondrial membranes and the release of cytochrome c from mitoch
 
 abundance(CHEBI:troglitazone) increases kinaseActivity(proteinAbundance(SFAM:"MAPK JNK Family"))
 abundance(CHEBI:paracetamol) increases kinaseActivity(proteinAbundance(SFAM:"MAPK JNK Family"))
-kinaseActivity(proteinAbundance(SFAM:"MAPK JNK Family")) increases translocation(proteinAbundance(HGNC:CYCS),MESHCL:"Mitochondrial Membranes",MESHCL:Cytoplasm)
+kinaseActivity(proteinAbundance(SFAM:"MAPK JNK Family")) increases translocation(proteinAbundance(HGNC:CYCS),MESHCS:"Mitochondrial Membranes",MESHCS:Cytoplasm)
 
 SET Evidence = "Severe inhibition of mitochondrial β-oxidation can lead to microvesicular steatosis
 characterized by the presence of many tiny lipid droplets within the cytoplasm
@@ -1569,8 +1569,8 @@ that PKC alpha is constitutively associated with beta(1) integrin."
 SET Citation = {"PubMed","The Journal of biological chemistry","11751905","2002-01-20","Podar K|Tai YT|Lin BK|Narsimhan RP|Sattler M|Kijima T|Salgia R|Gupta D|Chauhan D|Anderson KC",""}
 SET Species = 9606
 
-biologicalProcess(GOBP:"cell-matrix adhesion") increases translocation(proteinAbundance(HGNC:PRKCA),MESHCL:"Intracellular Space",MESHCL:"Cell Membrane")
-compositeAbundance(proteinAbundance(HGNC:FN1),proteinAbundance(HGNC:VEGFA)) increases translocation(proteinAbundance(HGNC:PRKCA),MESHCL:"Intracellular Space",MESHCL:"Cell Membrane")
+biologicalProcess(GOBP:"cell-matrix adhesion") increases translocation(proteinAbundance(HGNC:PRKCA),MESHCS:"Intracellular Space",MESHCS:"Cell Membrane")
+compositeAbundance(proteinAbundance(HGNC:FN1),proteinAbundance(HGNC:VEGFA)) increases translocation(proteinAbundance(HGNC:PRKCA),MESHCS:"Intracellular Space",MESHCS:"Cell Membrane")
 biologicalProcess(GOBP:"cell-matrix adhesion") increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
 compositeAbundance(proteinAbundance(HGNC:FN1),proteinAbundance(HGNC:VEGFA)) increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
 proteinAbundance(HGNC:VEGFA) increases (proteinAbundance(HGNC:ITGB1) increases biologicalProcess(GOBP:"cell migration"))
@@ -1702,7 +1702,7 @@ PKCα recruitment to the plasma membrane was also abrogated (Fig. 6). These
 results indicate that VEGF-induced PI 3-kinase activation along with β1 integrin
 binding to fibronectin activate PKCα."
 
-abundance(SCHEM:"LY 294002") decreases translocation(proteinAbundance(HGNC:PRKCA),MESHCL:"Intracellular Space",MESHCL:"Cell Membrane")
+abundance(SCHEM:"LY 294002") decreases translocation(proteinAbundance(HGNC:PRKCA),MESHCS:"Intracellular Space",MESHCS:"Cell Membrane")
 kinaseActivity(complexAbundance(SCOMP:"p85/p110 PI3Kinase Complex")) increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
 complexAbundance(proteinAbundance(HGNC:ITGB1),proteinAbundance(HGNC:FN1)) increases kinaseActivity(proteinAbundance(HGNC:PRKCA))
 
@@ -1729,10 +1729,10 @@ KN-62."
 SET Citation = {"PubMed","The Journal of cell biology","15767461","","Liu Y|Randall WR|Schneider MF",""}
 SET Species = 10090
 
-biologicalProcess(GOBP:"cellular response to electrical stimulus") increases translocation(proteinAbundance(MGI:Hdac4),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
-biologicalProcess(GOBP:"cellular response to electrical stimulus") causesNoChange translocation(proteinAbundance(MGI:Hdac5),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
+biologicalProcess(GOBP:"cellular response to electrical stimulus") increases translocation(proteinAbundance(MGI:Hdac4),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm)
+biologicalProcess(GOBP:"cellular response to electrical stimulus") causesNoChange translocation(proteinAbundance(MGI:Hdac5),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm)
 abundance(SCHEM:"KN 62") directlyDecreases kinaseActivity(proteinAbundance(SFAM:"CAMK Family"))
-abundance(SCHEM:"KN 62") decreases (biologicalProcess(GOBP:"cellular response to electrical stimulus") increases translocation(proteinAbundance(MGI:Hdac4),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm))
+abundance(SCHEM:"KN 62") decreases (biologicalProcess(GOBP:"cellular response to electrical stimulus") increases translocation(proteinAbundance(MGI:Hdac4),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm))
 
 SET CellStructure = "Cell Nucleus"
 SET Evidence = "Slow fiber type stimulation increased MEF2 transcriptional activity, nuclear Ca2+
@@ -1754,7 +1754,7 @@ and thus allowing HDAC translocation to the cytoplasm."
 
 kinaseActivity(proteinAbundance(SFAM:"CAMK2 Family")) directlyIncreases proteinAbundance(SFAM:"HDAC Class II Family",proteinModification(P))
 proteinAbundance(SFAM:"HDAC Class II Family",proteinModification(P)) directlyIncreases complexAbundance(proteinAbundance(SFAM:"HDAC Class II Family"),proteinAbundance(SFAM:"14-3-3 Family"))
-complexAbundance(proteinAbundance(SFAM:"HDAC Class II Family"),proteinAbundance(SFAM:"14-3-3 Family")) directlyIncreases translocation(proteinAbundance(SFAM:"HDAC Class II Family"),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
+complexAbundance(proteinAbundance(SFAM:"HDAC Class II Family"),proteinAbundance(SFAM:"14-3-3 Family")) directlyIncreases translocation(proteinAbundance(SFAM:"HDAC Class II Family"),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm)
 
 SET Evidence = "In the presence of 5 μM KN-62, there was no change in either nuclear or cytoplasmic
 fluorescence either at rest or in response to 10-Hz train stimulation (Fig. 2
@@ -1791,7 +1791,7 @@ Ca2+ concentration) did give rise to a delayed redistribution of CaM from the
 cytoplasm to the nucleus,"
 
 abundance(SCHEM:Ionomycin) increases abundance(CHEBI:"calcium(2+)")
-abundance(SCHEM:Ionomycin) increases translocation(proteinAbundance(SFAM:"CALM Family"),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus")
+abundance(SCHEM:Ionomycin) increases translocation(proteinAbundance(SFAM:"CALM Family"),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus")
 
 SET Evidence = "Nuclear and cytoplasmic calcium is elevated during electrical stimulation"
 
@@ -1804,7 +1804,7 @@ al., 1997) and preventing their nuclear export. During exposure to leptomycin B
 whereas the cytoplasmic fluorescence signal was stable (Fig. 8 A)."
 
 abundance(CHEBIID:52646) directlyDecreases transportActivity(proteinAbundance(MGI:Xpo1))
-abundance(CHEBIID:52646) increases translocation(proteinAbundance(MGI:Hdac4),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus")
+abundance(CHEBIID:52646) increases translocation(proteinAbundance(MGI:Hdac4),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus")
 
 SET Evidence = "Over a 60-min period of treatment with 1 μM calyculin A (a PP1 and PP2A phosphatase
 inhibitor that does not affect PP2B; Ishihara et al., 1989), the nuclear HDAC4-GFP
@@ -1813,7 +1813,7 @@ fluorescence decreased linearly with a mean net export rate of -0.71 ± 0.07%/mi
 
 abundance(SCHEM:"Calyculin A") directlyDecreases phosphataseActivity(proteinAbundance(SFAM:"PPP1C Family"))
 abundance(SCHEM:"Calyculin A") directlyDecreases phosphataseActivity(complexAbundance(SCOMP:"PP2A Complex"))
-abundance(SCHEM:"Calyculin A") increases translocation(proteinAbundance(MGI:Hdac4),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
+abundance(SCHEM:"Calyculin A") increases translocation(proteinAbundance(MGI:Hdac4),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm)
 abundance(SCHEM:"Calyculin A") causesNoChange phosphataseActivity(proteinAbundance(SFAM:"PPP3 Family"))
 
 SET Evidence = "Interestingly, calyculin A also caused a similar rate of efflux of HDAC5-GFP (-0.62
@@ -1821,8 +1821,8 @@ SET Evidence = "Interestingly, calyculin A also caused a similar rate of efflux 
 the ability of HDAC5 to move out of the nucleus even though it did not translocate
 in response to electrical stimulation."
 
-abundance(SCHEM:"Calyculin A") increases translocation(proteinAbundance(MGI:Hdac5),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
-biologicalProcess(GOBP:"cellular response to electrical stimulus") causesNoChange translocation(proteinAbundance(MGI:Hdac5),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
+abundance(SCHEM:"Calyculin A") increases translocation(proteinAbundance(MGI:Hdac5),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm)
+biologicalProcess(GOBP:"cellular response to electrical stimulus") causesNoChange translocation(proteinAbundance(MGI:Hdac5),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm)
 
 UNSET STATEMENT_GROUP
 
@@ -2535,18 +2535,18 @@ proteinAbundance(SFAM:"WNT Family") increases (kinaseActivity(proteinAbundance(H
 proteinAbundance(SFAM:"WNT Family") increases (kinaseActivity(proteinAbundance(HGNC:GSK3B)) directlyIncreases proteinAbundance(HGNC:LRP5,proteinModification(P)))
 proteinAbundance(SFAM:"WNT Family") increases (kinaseActivity(proteinAbundance(HGNC:CSNK1G2)) directlyIncreases proteinAbundance(HGNC:LRP6,proteinModification(P)))
 proteinAbundance(SFAM:"WNT Family") increases (kinaseActivity(proteinAbundance(HGNC:GSK3B)) directlyIncreases proteinAbundance(HGNC:LRP6,proteinModification(P)))
-proteinAbundance(HGNC:LRP6,proteinModification(P)) increases translocation(proteinAbundance(SFAM:"DVL Family"),MESHCL:Cytoplasm,MESHCL:"Cell Membrane")
+proteinAbundance(HGNC:LRP6,proteinModification(P)) increases translocation(proteinAbundance(SFAM:"DVL Family"),MESHCS:Cytoplasm,MESHCS:"Cell Membrane")
 
 SET CellStructure = "Cell Membrane"
 
-translocation(proteinAbundance(SFAM:"DVL Family"),MESHCL:Cytoplasm,MESHCL:"Cell Membrane") increases complexAbundance(proteinAbundance(SFAM:"DVL Family"),proteinAbundance(SFAM:"FZD Family"))
-translocation(proteinAbundance(SFAM:"DVL Family"),MESHCL:Cytoplasm,MESHCL:"Cell Membrane") increases complexAbundance(proteinAbundance(SFAM:"DVL Family"),proteinAbundance(SFAM:"DVL Family"))
+translocation(proteinAbundance(SFAM:"DVL Family"),MESHCS:Cytoplasm,MESHCS:"Cell Membrane") increases complexAbundance(proteinAbundance(SFAM:"DVL Family"),proteinAbundance(SFAM:"FZD Family"))
+translocation(proteinAbundance(SFAM:"DVL Family"),MESHCS:Cytoplasm,MESHCS:"Cell Membrane") increases complexAbundance(proteinAbundance(SFAM:"DVL Family"),proteinAbundance(SFAM:"DVL Family"))
 
 SET Evidence = "Surplus β-catenin then translocates to the nucleus, interacts with the LEF and TCF
 transcription factors, and persistently transactivates genes associated with the
 regulation of cell proliferation, such as MYC and cyclin D1 (Refs 30,32,106,135-137)."
 
-translocation(proteinAbundance(HGNC:CTNNB1),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus") increases complexAbundance(proteinAbundance(HGNC:CTNNB1),proteinAbundance(HGNC:LEF1))
+translocation(proteinAbundance(HGNC:CTNNB1),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus") increases complexAbundance(proteinAbundance(HGNC:CTNNB1),proteinAbundance(HGNC:LEF1))
 complexAbundance(proteinAbundance(HGNC:CTNNB1),proteinAbundance(HGNC:LEF1)) directlyIncreases transcriptionalActivity(proteinAbundance(HGNC:CTNNB1))
 transcriptionalActivity(proteinAbundance(HGNC:CTNNB1)) directlyIncreases rnaAbundance(HGNC:CCND1)
 transcriptionalActivity(proteinAbundance(HGNC:CTNNB1)) directlyIncreases rnaAbundance(HGNC:MYC)
@@ -2567,8 +2567,8 @@ co-activators such as BCL9, Pygopus, CBP (CREB-binding protein) or Hyrax47–51,
 complexAbundance(proteinAbundance(HGNC:CTNNB1),proteinAbundance(HGNC:LEF1))
 complexAbundance(proteinAbundance(HGNC:CTNNB1),proteinAbundance(HGNC:BCL9))
 complexAbundance(proteinAbundance(HGNC:CTNNB1),proteinAbundance(HGNC:CREBBP))
-translocation(proteinAbundance(HGNC:CTNNB1),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus") increases complexAbundance(proteinAbundance(HGNC:CTNNB1),proteinAbundance(HGNC:BCL9))
-translocation(proteinAbundance(HGNC:CTNNB1),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus") increases complexAbundance(proteinAbundance(HGNC:CTNNB1),proteinAbundance(HGNC:CREBBP))
+translocation(proteinAbundance(HGNC:CTNNB1),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus") increases complexAbundance(proteinAbundance(HGNC:CTNNB1),proteinAbundance(HGNC:BCL9))
+translocation(proteinAbundance(HGNC:CTNNB1),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus") increases complexAbundance(proteinAbundance(HGNC:CTNNB1),proteinAbundance(HGNC:CREBBP))
 
 UNSET STATEMENT_GROUP
 
@@ -3287,7 +3287,7 @@ SET Evidence = "Activation of PI 3- kinase mediates GLUT4 redistribution from an
 to the plasma membrane upon insulin stimulation [47]"
 
 proteinAbundance(HGNC:INS) increases kinaseActivity(complexAbundance(SCOMP:"p85/p110 PI3Kinase Complex"))
-kinaseActivity(complexAbundance(SCOMP:"p85/p110 PI3Kinase Complex")) increases translocation(proteinAbundance(HGNC:SLC2A4),MESHCL:"Intracellular Space",MESHCL:"Cell Membrane")
+kinaseActivity(complexAbundance(SCOMP:"p85/p110 PI3Kinase Complex")) increases translocation(proteinAbundance(HGNC:SLC2A4),MESHCS:"Intracellular Space",MESHCS:"Cell Membrane")
 
 SET Evidence = "In primary cultures of brown adipocytes, insulin and IGF-I transactivated the GLUT4
 promoter and upregulated the expression of the GLUT4 gene, producing a time-dependent
@@ -3334,7 +3334,7 @@ uptake [51]"
 
 abundance(SCHEM:"ML 9") directlyDecreases kinaseActivity(proteinAbundance(HGNC:AKT1))
 abundance(SCHEM:"ML 9") decreases (proteinAbundance(HGNC:INS) increases rnaAbundance(HGNC:SLC2A4))
-abundance(SCHEM:"ML 9") decreases (proteinAbundance(HGNC:INS) increases translocation(proteinAbundance(HGNC:SLC2A4),MESHCL:"Intracellular Space",MESHCL:"Cell Membrane"))
+abundance(SCHEM:"ML 9") decreases (proteinAbundance(HGNC:INS) increases translocation(proteinAbundance(HGNC:SLC2A4),MESHCS:"Intracellular Space",MESHCS:"Cell Membrane"))
 
 SET Evidence = "Okadaic acid is an ionophore-like polyether derivate of a C38 fatty acid compound
 that has tumor promoting properties (Fig. 6) [52]. It is a potent inhibitor of
@@ -3488,7 +3488,7 @@ proteinAbundance(MGI:Irs2) increases (proteinAbundance(SFAM:"INS Family") increa
 SET Evidence = "IRS-2-deficient brown adipocytes insulin-induced effect on GLUT4 translocation to
 the plasma membrane was impaired [76]."
 
-proteinAbundance(HGNC:IRS2) increases (proteinAbundance(HGNC:INS) increases translocation(proteinAbundance(HGNC:SLC2A4),MESHCL:"Intracellular Space",MESHCL:"Cell Membrane"))
+proteinAbundance(HGNC:IRS2) increases (proteinAbundance(HGNC:INS) increases translocation(proteinAbundance(HGNC:SLC2A4),MESHCS:"Intracellular Space",MESHCS:"Cell Membrane"))
 
 SET Evidence = "PI 3- kinase/PKCξ, but not PI 3-kinase/Akt signaling pathway, is inhibited in IRS-2-deficient
 brown adipocytes upon insulin stimulation"
@@ -3499,7 +3499,7 @@ proteinAbundance(HGNC:IRS2) causesNoChange kinaseActivity(proteinAbundance(HGNC:
 SET Evidence = "wild-type cells expressing a kinase inactive (KI) mutant of PKCξ lack insulin responsiveness
 in induce GLUT4 translocation and glucose uptake [78]."
 
-kinaseActivity(proteinAbundance(HGNC:PRKCZ)) increases translocation(proteinAbundance(HGNC:SLC2A4),MESHCL:"Intracellular Space",MESHCL:"Cell Membrane")
+kinaseActivity(proteinAbundance(HGNC:PRKCZ)) increases translocation(proteinAbundance(HGNC:SLC2A4),MESHCS:"Intracellular Space",MESHCS:"Cell Membrane")
 kinaseActivity(proteinAbundance(HGNC:PRKCZ)) increases biologicalProcess(GOBP:"glucose import")
 
 SET Evidence = "TZD induce their diverse effects by binding to and activating the peroxisome proliferator-
@@ -4332,7 +4332,7 @@ of EGFR is critical for proper signaling in A549 cells."
 gtpBoundActivity(proteinAbundance(SFAM:"DNM Family")) increases kinaseActivity(proteinAbundance(HGNC:EGFR))
 gtpBoundActivity(proteinAbundance(SFAM:"DNM Family")) increases biologicalProcess(GOBP:"epidermal growth factor receptor signaling pathway")
 gtpBoundActivity(proteinAbundance(SFAM:"DNM Family")) increases (biologicalProcess(GOBP:"receptor internalization") increases biologicalProcess(GOBP:"epidermal growth factor receptor signaling pathway"))
-gtpBoundActivity(proteinAbundance(SFAM:"DNM Family")) increases translocation(proteinAbundance(HGNC:EGFR),MESHCL:"Cell Membrane",MESHCL:Cytoplasm)
+gtpBoundActivity(proteinAbundance(SFAM:"DNM Family")) increases translocation(proteinAbundance(HGNC:EGFR),MESHCS:"Cell Membrane",MESHCS:Cytoplasm)
 
 SET Evidence = "To test the role of Rab5 in these processes, A549 cells were transfected with a GFP-tagged
 dominant negative Rab5 S34N (GFP-dnRab5) expression construct (Fig. 7A).
@@ -4353,7 +4353,7 @@ in A549 cells."
 
 gtpBoundActivity(proteinAbundance(SFAM:"DNM Family")) increases (proteinAbundance(HGNC:EGF) increases biologicalProcess(GOBP:"cell proliferation"))
 gtpBoundActivity(proteinAbundance(HGNC:RAB5A)) increases (proteinAbundance(HGNC:EGF) increases biologicalProcess(GOBP:"cell proliferation"))
-gtpBoundActivity(proteinAbundance(HGNC:RAB5A)) increases translocation(proteinAbundance(HGNC:EGFR),MESHCL:"Cell Membrane",MESHCL:Cytoplasm)
+gtpBoundActivity(proteinAbundance(HGNC:RAB5A)) increases translocation(proteinAbundance(HGNC:EGFR),MESHCS:"Cell Membrane",MESHCS:Cytoplasm)
 
 SET Disease = "non-small cell lung carcinoma"
 SET Evidence = "Gene expression from 186 human lung tumors with associated clinical information were
@@ -4692,8 +4692,8 @@ phosphorylation and translocates from the cytoplasm to the nucleus, resulting in
 the transcriptional activation of type I interferons."
 
 biologicalProcess(GOBP:"response to virus") increases proteinAbundance(HGNC:IRF3,proteinModification(P))
-biologicalProcess(GOBP:"response to virus") increases translocation(proteinAbundance(HGNC:IRF3),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus")
-translocation(proteinAbundance(HGNC:IRF3),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus") increases biologicalProcess(GOBP:"type I interferon production")
+biologicalProcess(GOBP:"response to virus") increases translocation(proteinAbundance(HGNC:IRF3),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus")
+translocation(proteinAbundance(HGNC:IRF3),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus") increases biologicalProcess(GOBP:"type I interferon production")
 
 SET Evidence = "TIRAP was shown to associate with TLR-4 but not with other TLRs. Overexpression of
 a dominant-negative form of TIRAP was shown to inhibit LPS-induced NF-κB activation
@@ -5489,7 +5489,7 @@ into the nucleus"
 SET Citation = {"PubMed","Cell cycle (Georgetown, Tex.)","15917664","2005-08-03","Vogt PK|Jiang H|Aoki M",""}
 
 kinaseActivity(proteinAbundance(SFAM:"MAPK JNK Family")) directlyIncreases proteinAbundance(SFAM:"FOXO Family",proteinModification(P))
-proteinAbundance(SFAM:"FOXO Family",proteinModification(P)) increases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus")
+proteinAbundance(SFAM:"FOXO Family",proteinModification(P)) increases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus")
 
 SET Evidence = "Akt-dependent phosphorylation reduces the DNA-binding activity of FOXO, interferes
 with binding to the co-activators p300/CBP, and inactivates the FOXO nuclear translocation
@@ -5499,16 +5499,16 @@ kinaseActivity(proteinAbundance(HGNC:AKT1)) directlyIncreases proteinAbundance(S
 kinaseActivity(proteinAbundance(HGNC:AKT1)) directlyDecreases transcriptionalActivity(proteinAbundance(SFAM:"FOXO Family"))
 kinaseActivity(proteinAbundance(HGNC:AKT1)) decreases complexAbundance(proteinAbundance(HGNC:AKT1),proteinAbundance(HGNC:EP300))
 kinaseActivity(proteinAbundance(HGNC:AKT1)) decreases complexAbundance(proteinAbundance(HGNC:AKT1),proteinAbundance(HGNC:CREBBP))
-kinaseActivity(proteinAbundance(HGNC:AKT1)) decreases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus")
+kinaseActivity(proteinAbundance(HGNC:AKT1)) decreases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus")
 proteinAbundance(SFAM:"FOXO Family",proteinModification(P)) directlyDecreases transcriptionalActivity(proteinAbundance(SFAM:"FOXO Family"))
 
 SET Evidence = "The Akt-phosphorylated FOXO is exported from the nucleus in a CRM1- and 14-3-3-dependent
 process"
 
-molecularActivity(proteinAbundance(HGNC:XPO1)) directlyIncreases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
-molecularActivity(proteinAbundance(SFAM:"14-3-3 Family")) directlyIncreases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
-kinaseActivity(proteinAbundance(HGNC:AKT1)) increases (molecularActivity(proteinAbundance(HGNC:XPO1)) directlyIncreases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm))
-kinaseActivity(proteinAbundance(HGNC:AKT1)) increases (molecularActivity(proteinAbundance(SFAM:"14-3-3 Family")) directlyIncreases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm))
+molecularActivity(proteinAbundance(HGNC:XPO1)) directlyIncreases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm)
+molecularActivity(proteinAbundance(SFAM:"14-3-3 Family")) directlyIncreases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm)
+kinaseActivity(proteinAbundance(HGNC:AKT1)) increases (molecularActivity(proteinAbundance(HGNC:XPO1)) directlyIncreases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm))
+kinaseActivity(proteinAbundance(HGNC:AKT1)) increases (molecularActivity(proteinAbundance(SFAM:"14-3-3 Family")) directlyIncreases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm))
 
 SET Evidence = "Akt-phosphorylated FOXO interacts with the ubiquitin ligase Skp2 and is targeted for
 proteasomal degradation."
@@ -5555,21 +5555,21 @@ gtpBoundActivity(proteinAbundance(HGNC:RALA)) increases kinaseActivity(proteinAb
 SET Evidence = "JNK-induced phosphorylation initiates nuclear import of FOXO proteins and activation
 of their transcriptional regulatory potential."
 
-kinaseActivity(proteinAbundance(SFAM:"MAPK JNK Family")) increases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus")
+kinaseActivity(proteinAbundance(SFAM:"MAPK JNK Family")) increases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus")
 kinaseActivity(proteinAbundance(SFAM:"MAPK JNK Family")) increases transcriptionalActivity(proteinAbundance(SFAM:"FOXO Family"))
 
 SET Evidence = "Nuclear import triggered by oxidative stress results in association of FOXO proteins
 with proteins that have histone acetylase activity, such as p300/CBP and p300/CBP-associated
 factor (PCAF)."
 
-biologicalProcess(GOBP:"response to oxidative stress") increases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus")
+biologicalProcess(GOBP:"response to oxidative stress") increases translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus")
 
 SET CellStructure = "Cell Nucleus"
 
 biologicalProcess(GOBP:"response to oxidative stress") increases complexAbundance(proteinAbundance(SFAM:"FOXO Family"),proteinAbundance(HGNC:EP300))
 biologicalProcess(GOBP:"response to oxidative stress") increases complexAbundance(proteinAbundance(SFAM:"FOXO Family"),proteinAbundance(HGNC:CREBBP))
 biologicalProcess(GOBP:"response to oxidative stress") increases complexAbundance(proteinAbundance(SFAM:"FOXO Family"),proteinAbundance(HGNC:KAT2B))
-translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus") increases transcriptionalActivity(proteinAbundance(SFAM:"FOXO Family"))
+translocation(proteinAbundance(SFAM:"FOXO Family"),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus") increases transcriptionalActivity(proteinAbundance(SFAM:"FOXO Family"))
 
 SET TextLocation = {"Review","Review"}
 SET Evidence = "acetylation of FOXO appears to reduce transcriptional activity"
@@ -6188,7 +6188,7 @@ complexAbundance(proteinAbundance(HGNC:CDK2),proteinAbundance(HGNC:CDKN1A)) dire
 SET Evidence = "AKT promoted nuclear export of RAF-induced p21Cip1 into a cytoplasmic compartment
 as reported previously (Fig. 7C) (65)."
 
-kinaseActivity(proteinAbundance(HGNC:AKT1)) increases translocation(proteinAbundance(HGNC:CDKN1A),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
+kinaseActivity(proteinAbundance(HGNC:AKT1)) increases translocation(proteinAbundance(HGNC:CDKN1A),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm)
 
 UNSET STATEMENT_GROUP
 
@@ -6236,13 +6236,13 @@ demonstrated this protein to be unable to undergo SUMO-1 modification (Figure
 modification by SUMO-1 occurs as efficiently as for the full-length HDAC4 protein
 using the in vitro assay (Figure 6C, compare lane 8 with lane 6)."
 
-translocation(proteinAbundance(HGNC:HDAC4),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus") directlyIncreases proteinAbundance(HGNC:HDAC4,proteinModification(S,K,559))
+translocation(proteinAbundance(HGNC:HDAC4),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus") directlyIncreases proteinAbundance(HGNC:HDAC4,proteinModification(S,K,559))
 
 SET Evidence = "Consistent with previous observations, transfection of a constitutively active CaMKI
 vector in HeLa cells induced nuclear exclusion of HDAC4 in the vast majority
 of the cells (Figure 6D)."
 
-kinaseActivity(proteinAbundance(HGNC:CAMK1)) increases translocation(proteinAbundance(HGNC:HDAC4),MESHCL:"Cell Nucleus",MESHCL:Cytoplasm)
+kinaseActivity(proteinAbundance(HGNC:CAMK1)) increases translocation(proteinAbundance(HGNC:HDAC4),MESHCS:"Cell Nucleus",MESHCS:Cytoplasm)
 
 SET Evidence = "Moreover RanBP2 functions catalytically as 5 ng of BP2ΔFG were sufficient to promote
 modification of a 100-fold molar excess of HDAC4. Thus, RanBP2 plays an E3-like
@@ -6633,7 +6633,7 @@ complexAbundance(proteinAbundance(HGNC:PAWR),proteinAbundance(HGNC:AKT1))
 SET Evidence = "Nuclear translocation of Par-4 is essential for the inhibition of NF-κB-dependent
 transcriptional activity"
 
-translocation(proteinAbundance(HGNC:PAWR),MESHCL:Cytoplasm,MESHCL:"Cell Nucleus") decreases transcriptionalActivity(complexAbundance(SCOMP:"Nfkb Complex"))
+translocation(proteinAbundance(HGNC:PAWR),MESHCS:Cytoplasm,MESHCS:"Cell Nucleus") decreases transcriptionalActivity(complexAbundance(SCOMP:"Nfkb Complex"))
 
 SET Evidence = "Par-4 partner proteins WT1, ZIPK/DAXX, and THAP"
 
@@ -7458,8 +7458,8 @@ Palade bodies, in endothelial cells (McEver et al., 1989). Fusion of these granu
 with the plasma membrane is rapidly stimulated by proinflammatory mediators
 such as histamine and thrombin."
 
-abundance(CHEBI:histamine) increases translocation(proteinAbundance(HGNC:SELP),MESHCL:"Cytoplasmic Granules",MESHCL:"Cell Membrane")
-proteinAbundance(HGNC:F2) increases translocation(proteinAbundance(HGNC:SELP),MESHCL:"Cytoplasmic Granules",MESHCL:"Cell Membrane")
+abundance(CHEBI:histamine) increases translocation(proteinAbundance(HGNC:SELP),MESHCS:"Cytoplasmic Granules",MESHCS:"Cell Membrane")
+proteinAbundance(HGNC:F2) increases translocation(proteinAbundance(HGNC:SELP),MESHCS:"Cytoplasmic Granules",MESHCS:"Cell Membrane")
 
 SET Evidence = "L-selectin (constitutive rolling on endothelial cells) and P- and/or E-selectins (inflammatory
 mediatorinduced capture) work cooperatively to initiate leukocyte

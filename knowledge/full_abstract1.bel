@@ -11,8 +11,8 @@ SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi-names.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-approved-symbols.belns"
+DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
 DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
 DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
 

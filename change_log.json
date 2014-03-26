@@ -53,7 +53,7 @@
     "CHEBI": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/chebi-names.belns",
       "new_keyword": "CHEBI",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/chebi-names.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/chebi.belns"
     },
     "EGID": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/entrez-gene-ids-hmr.belns",
@@ -63,12 +63,12 @@
     "GOAC": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/go-biological-processes-accession-numbers.belns",
       "new_keyword": "GOBPID",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/go-biological-processes-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/go-biological-process-ids.belns"
     },
     "GO": {
-      "old_url": "http://resource.belframework.org/belframework/1.0/namespace/go-biological-processes-names.belns",
+      "old_url": "http://resource.belframework.org/belframework/1.0/namespace/go-biological-process-names.belns",
       "new_keyword": "GOBP",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/go-biological-processes-names.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/go-biological-process.belns"
     },
     "GOCCACC": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/go-cellular-component-accession-numbers.belns",
@@ -78,22 +78,22 @@
     "GOCCTERM": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/go-cellular-component-terms.belns",
       "new_keyword": "GOCC",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/go-cellular-component-names.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/go-cellular-component.belns"
     },
     "HGNC": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/hgnc-approved-symbols.belns",
       "new_keyword": "HGNC",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/hgnc-approved-symbols.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
     },
     "MESHPP": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/mesh-biological-processes.belns",
       "new_keyword": "MESHPP",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/mesh-biological-processes.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/mesh-processes.belns"
     },
     "MESHCL": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/mesh-cellular-locations.belns",
-      "new_keyword": "MESHCL",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-locations.belns"
+      "new_keyword": "MESHCS",
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-structures.belns"
     },
     "MESHD": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/mesh-diseases.belns",
@@ -103,17 +103,17 @@
     "MGI": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/mgi-approved-symbols.belns",
       "new_keyword": "MGI",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/mgi-approved-symbols.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
     },
     "RGD": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/rgd-approved-symbols.belns",
       "new_keyword": "RGD",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/rgd-approved-symbols.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"
     },
     "SCHEM": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/selventa-legacy-chemical-names.belns",
       "new_keyword": "SCHEM",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemical-names.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemicals.belns"
     },
     "SDIS": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/selventa-legacy-diseases.belns",
@@ -153,12 +153,12 @@
     "SPAC": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/swissprot-accession-numbers.belns",
       "new_keyword": "SPAC",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/swissprot-accession-numbers.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/swissprot-ids.belns"
     },
     "SP": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/swissprot-entry-names.belns",
       "new_keyword": "SP",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/swissprot-entry-names.belns"
+      "new_url": "http://resource.belframework.org/belframework/testing/namespace/swissprot.belns"
     }
   },
   "CHEBI": {
