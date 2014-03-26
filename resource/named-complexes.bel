@@ -3,7 +3,7 @@
 
 SET DOCUMENT Name = "Selventa Named Complexes Definitions"
 SET DOCUMENT Description = "Selventa Named Complexes and Compoments"
-SET DOCUMENT Version = "20131211"
+SET DOCUMENT Version = 20131211
 SET DOCUMENT Copyright = "Copyright (c) 2011-2012, Selventa. All rights reserved."
 SET DOCUMENT Authors = Selventa
 
