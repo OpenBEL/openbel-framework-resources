@@ -16,7 +16,7 @@
         <bel:namespace bel:prefix="RGD" bel:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"/>
     </bel:namespaceGroup>
     <bel:statementGroup>
-        <bel:name>"Group 1"</bel:name>
+        <bel:name>Group 1</bel:name>
         <bel:statement bel:relationship="hasComponents">
             <bel:annotationGroup>
                 <bel:citation bel:type="Other">
