@@ -3,10 +3,10 @@ SET DOCUMENT Description = "Selventa Protein Families and Members"
 SET DOCUMENT Version = 20131211
 SET DOCUMENT Copyright = "Copyright (c) 2011-2013, Selventa. All rights reserved."
 SET DOCUMENT Authors = Selventa
-DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
-DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"
+DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/20131211/namespace/selventa-protein-families.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/20131211/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/20131211/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/20131211/namespace/rgd-rat-genes.belns"
 SET STATEMENT_GROUP = "Group 1"
 SET Citation = {"Other","Selventa Protein Family Definitions","Selventa Protein Families","","",""}
 proteinAbundance(SFAM:"14-3-3 Family") hasMembers list(proteinAbundance(HGNC:SFN),proteinAbundance(HGNC:YWHAB),proteinAbundance(HGNC:YWHAE),proteinAbundance(HGNC:YWHAG),proteinAbundance(HGNC:YWHAH),proteinAbundance(HGNC:YWHAQ),proteinAbundance(HGNC:YWHAZ))

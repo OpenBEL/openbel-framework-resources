@@ -10,10 +10,10 @@
         </bel:authorGroup>
     </bel:header>
     <bel:namespaceGroup>
-        <bel:namespace bel:prefix="SCOMP" bel:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"/>
-        <bel:namespace bel:prefix="HGNC" bel:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"/>
-        <bel:namespace bel:prefix="MGI" bel:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"/>
-        <bel:namespace bel:prefix="RGD" bel:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"/>
+        <bel:namespace bel:prefix="SCOMP" bel:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/selventa-named-complexes.belns"/>
+        <bel:namespace bel:prefix="HGNC" bel:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/hgnc-human-genes.belns"/>
+        <bel:namespace bel:prefix="MGI" bel:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mgi-mouse-genes.belns"/>
+        <bel:namespace bel:prefix="RGD" bel:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/rgd-rat-genes.belns"/>
     </bel:namespaceGroup>
     <bel:statementGroup>
         <bel:name>Group 1</bel:name>

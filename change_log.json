@@ -3,162 +3,162 @@
     "HGU95AV2": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/affy-hg-u133ab.belns",
       "new_keyword": "AFFX",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
     },
     "HGU133P2": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/affy-hg-u133-plus2.belns",
       "new_keyword": "AFFX",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
     },
     "HGU133AB": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/affy-hg-u95av2.belns",
       "new_keyword": "AFFX",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
     },
     "MGU74ABC": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/affy-mg-u74abc.belns",
       "new_keyword": "AFFX",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
     },
     "MG430AB": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/affy-moe430ab.belns",
       "new_keyword": "AFFX",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
     },
     "MG4302": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/affy-mouse430-2.belns",
       "new_keyword": "AFFX",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
     },
     "MG430A2": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/affy-mouse430a-2.belns",
       "new_keyword": "AFFX",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
     },
     "RG230AB": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/affy-rae230ab-2.belns",
       "new_keyword": "AFFX",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
     },
     "RG2302": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/affy-rat230-2.belns",
       "new_keyword": "AFFX",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
     },
     "CHEBIID": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/chebi-ids.belns",
       "new_keyword": "CHEBIID",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/chebi-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/chebi-ids.belns"
     },
     "CHEBI": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/chebi-names.belns",
       "new_keyword": "CHEBI",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/chebi.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/chebi.belns"
     },
     "EGID": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/entrez-gene-ids-hmr.belns",
       "new_keyword": "EGID",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/entrez-gene-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/entrez-gene-ids.belns"
     },
     "GOAC": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/go-biological-processes-accession-numbers.belns",
       "new_keyword": "GOBPID",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/go-biological-process-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/go-biological-process-ids.belns"
     },
     "GO": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/go-biological-process-names.belns",
       "new_keyword": "GOBP",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/go-biological-process.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/go-biological-process.belns"
     },
     "GOCCACC": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/go-cellular-component-accession-numbers.belns",
       "new_keyword": "GOCCID",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/go-cellular-component-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/go-cellular-component-ids.belns"
     },
     "GOCCTERM": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/go-cellular-component-terms.belns",
       "new_keyword": "GOCC",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/go-cellular-component.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/go-cellular-component.belns"
     },
     "HGNC": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/hgnc-approved-symbols.belns",
       "new_keyword": "HGNC",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/hgnc-human-genes.belns"
     },
     "MESHPP": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/mesh-biological-processes.belns",
       "new_keyword": "MESHPP",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/mesh-processes.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/mesh-processes.belns"
     },
     "MESHCL": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/mesh-cellular-locations.belns",
       "new_keyword": "MESHCS",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-structures.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/mesh-cellular-structures.belns"
     },
     "MESHD": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/mesh-diseases.belns",
       "new_keyword": "MESHD",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/mesh-diseases.belns"
     },
     "MGI": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/mgi-approved-symbols.belns",
       "new_keyword": "MGI",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/mgi-mouse-genes.belns"
     },
     "RGD": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/rgd-approved-symbols.belns",
       "new_keyword": "RGD",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/rgd-rat-genes.belns"
     },
     "SCHEM": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/selventa-legacy-chemical-names.belns",
       "new_keyword": "SCHEM",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemicals.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/selventa-legacy-chemicals.belns"
     },
     "SDIS": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/selventa-legacy-diseases.belns",
       "new_keyword": "SDIS",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-diseases.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/selventa-legacy-diseases.belns"
     },
     "NCH": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/selventa-named-human-complexes.belns",
       "new_keyword": "SCOMP",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/selventa-named-complexes.belns"
     },
     "PFH": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/selventa-named-human-protein-families.belns",
       "new_keyword": "SFAM",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/selventa-protein-families.belns"
     },
     "NCM": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/selventa-named-mouse-complexes.belns",
       "new_keyword": "SCOMP",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/selventa-named-complexes.belns"
     },
     "PFM": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/selventa-named-mouse-protein-families.belns",
       "new_keyword": "SFAM",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/selventa-protein-families.belns"
     },
     "NCR": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/selventa-named-rat-complexes.belns",
       "new_keyword": "SCOMP",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/selventa-named-complexes.belns"
     },
     "PFR": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/selventa-named-rat-protein-families.belns",
       "new_keyword": "SFAM",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/selventa-protein-families.belns"
     },
     "SPAC": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/swissprot-accession-numbers.belns",
       "new_keyword": "SPAC",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/swissprot-ids.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/swissprot-ids.belns"
     },
     "SP": {
       "old_url": "http://resource.belframework.org/belframework/1.0/namespace/swissprot-entry-names.belns",
       "new_keyword": "SP",
-      "new_url": "http://resource.belframework.org/belframework/testing/namespace/swissprot.belns"
+      "new_url": "http://resource.belframework.org/belframework/20131211/namespace/swissprot.belns"
     }
   },
   "CHEBI": {

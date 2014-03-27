@@ -11,13 +11,13 @@ SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
-DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
-DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
+DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/20131211/namespace/chebi.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/20131211/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/20131211/namespace/selventa-named-complexes.belns"
+DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/20131211/namespace/selventa-protein-families.belns"
 
-DEFINE ANNOTATION CellLine AS URL "http://resource.belframework.org/belframework/testing/annotation/cell-line.belanno"
-DEFINE ANNOTATION Species AS URL "http://resource.belframework.org/belframework/testing/annotation/species-taxonomy-id.belanno"
+DEFINE ANNOTATION CellLine AS URL "http://resource.belframework.org/belframework/20131211/annotation/cell-line.belanno"
+DEFINE ANNOTATION Species AS URL "http://resource.belframework.org/belframework/20131211/annotation/species-taxonomy-id.belanno"
 
 ##################################################################################
 # Statements Section
