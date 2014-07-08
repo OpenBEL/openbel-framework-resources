@@ -1,465 +1,467 @@
 [Namespace]
-Keyword=SDIS
 NameString=Selventa Legacy Disease Names
-DomainString=BiologicalProcess
+Keyword=SDIS
+DomainString=Biological Process
 SpeciesString=all
-DescriptionString=Selventa names for diseases that have not yet been mapped to any other Namespace. Provided for backward compatibility with Selventa’s Knowledgebase.
-VersionString=20110516
-CreatedDateTime=2011-04-29T11:50:00
+DescriptionString=Selventa legacy names for diseases. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
+VersionString=20131211
+CreatedDateTime=2013-12-11T13:14:12
 
 [Author]
-NameString=Selventa
-CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
-ContactInfoString=belframework@selventa.com
+NameString=OpenBEL
+CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=info@openbel.org
 
 [Citation]
-NameString=Selventa Legacy Disease
-DescriptionString=Selventa defined names for diseases that have not yet been mapped to any other Namespace. Legacy namespaces are provided to build backward compatibility into Selventa’s existing Knowledgebase. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
+NameString=Selventa
+DescriptionString=Selventa legacy names for diseases. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
+PublishedVersionString=Fri, 24 Aug 2012 19:21:34
+PublishedDate=2012-08-24
 
 [Processing]
-CaseSensitiveFlag=no
+CaseSensitiveFlag=yes
 DelimiterString=|
 CacheableFlag=yes
 
 [Values]
-Carcinoma of astrocyte|O
-cardiac arrhythmia|O
-Weibel-Palade body externalization|O
-Cftr maturation|O
-chondrogenesis|O
-blood flow|O
-retinoblastoma|O
-osteoporosis|O
-noninvasive breast cancer|O
-erectile dysfunction|O
-melanoma|O
-rhabdomyosarcoma|O
-adipose glucose import|O
-phosphatidylcholine excretion|O
-intestinal dysfunction|O
-nanovesicle lipid raft|O
-mast cell TNF secretion|O
-dendritic cell migration to infection|O
-ERK signaling cascade|O
-Fc-IgE receptor 1 Mm|O
-barrett esophagus|O
-fatty acid import|O
-adipocyte lipid droplet|O
-renal water reabsorption|O
-multiple myeloma|O
-adenocarcinoma|O
-obesity|O
-lymphoid hyperplasia|O
-denervation|O
-t(4 14) translocation|O
-haptotaxis|O
-stroke|O
-nephropathy|O
 APOB folding|O
-myelodysplastic syndromes|O
-exercise|O
-muscle glucose import|O
-Hyperlipidemia|O
+ATP Depletion|O
+Acidification|O
+Acute Myocardial Infarction|O
 Adult Liver Hematopoiesis|O
-osteosarcoma|O
-activated t cell tethering / rolling|O
-reperfusion injury|O
-acute endotoxemia|O
-T-type calcium channel complex|O
-hypoglycemia|O
-Lipid Droplet|O
-monocyte diapadesis|O
-myeloproliferative disorder|O
-chronic myeloid leukemia|O
-I(Cl, vol) volume-regulated outwardly rectifying chloride current|O
-Atherogenesis|O
-natural killer cell activation-dependent arrest|O
-skin lesion|O
 Alzheimers disease|O
+Androgen independence|O
+Atherogenesis|O
+Atherosclerotic lesion|O
+B cell lymphoma|O
+B cell polarization|O
+CD4+CD3+TCR+ naive T-cell differentiation|O
+CD8+CD3+TCR+ naive T-cell differentiation|O
+Carcinoma of Hepatocyte|O
+Carcinoma of astrocyte|O
+Carcinoma of bone|O
+Carcinoma of brain|O
+Carcinoma of breast|O
+Carcinoma of endometrium|O
+Carcinoma of esophagus|O
+Carcinoma of gastrointestinal tract|O
+Carcinoma of germ cell|O
+Carcinoma of intestine|O
+Carcinoma of kidney|O
+Carcinoma of large intestine|O
+Carcinoma of lymphocyte|O
+Carcinoma of melanocyte|O
+Carcinoma of mouth|O
+Carcinoma of muscle|O
+Carcinoma of myeloid cell|O
+Carcinoma of nasopharynx|O
+Carcinoma of nervous system|O
+Carcinoma of pancreas|O
+Carcinoma of rectum|O
+Carcinoma of skin|O
+Carcinoma of t-cell|O
+Carcinoma of thymus|O
+Carcinoma of thyroid gland|O
+Carcinoma of uterus|O
+Cardiomyopathy|O
+Cftr maturation|O
+Chronic Obstructive Pulmonary Disease|O
+Chylomicron secretion|O
+Cisplatin resistance|O
+Collagen VI Mm|O
+Colonic Mucosal Wound Healing|O
+Crohn's Disease|O
+Cytotoxic T-cell activation|O
+DNA polymerase a-primase Hs|O
+Deep Venous Thrombosis|O
+Diabetes|O
+Down syndrome|O
+Doxorubicin resistance|O
+EGFR inhibitor resistance|O
+ENaC Complex hs|O
+ER negative breast cancer|O
+ER positive breast cancer|O
+ERBB2 overexpressing breast cancer|O
+ERK signaling cascade|O
+Encephalopathy|O
+Erlotinib resistance|O
+Esophageal Adenocarcinoma|O
+Etoposide resistance|O
+Exercise|O
+Fc-IgE receptor 1 Mm|O
+Fc-IgE receptor 1 Rn|O
+Fetal Liver Hematopoiesis|O
+G0 phase of mitotic cell cycle|O
+Gastric Adenoma|O
+Glomerulogenesis|O
+Hemodialysis|O
+Hepatic Cirrhosis|O
+Hepatitis B viral infection|O
+Hepatitis C viral infection|O
+Homoharringtonine resistance|O
+Hyperinsulinemia|O
+Hyperlipidemia|O
+Hypertensive Heart Disease|O
+Hypoketonemia|O
+I(CaL) L-type calcium channel current|O
+I(CaT) T-type calcium channel current|O
+I(Cl, vol) volume-regulated outwardly rectifying chloride current|O
+I(Cl,ATP) ATP-dependent chloride current|O
+I(Cl,Ca) calcium-activated chloride current|O
+I(Cl,PKA) PKA-dependent chloride current|O
+I(Cl,PKC) PKC-dependent chloride current|O
+I(Cl,ir) cell swelling-activated inwardly rectifying chloride current|O
+I(K ATP) ATP-dependent potassium channel current|O
+I(K1) inward rectifier potassium channel current|O
+I(KACh) acetylcholine-activated current|O
+I(Kr) fast delayed rectifier potassium current|O
+I(Ks) slow delayed rectifier potassium current|O
+I(NCX) sodium-calcium exchanger current|O
+I(Na)  sodium channel current|O
+I(f) F-channel current|O
+I(p) sodium-potassium pump current|O
+I(st) St channel current|O
+I(to) transient outward current|O
+Inflammatory Bowel Disease|O
+Influenza A Virus Infection|O
+Influenza A Virus, H5N1 Subtype Infection|O
+Insulin Control Element activator Hs|O
+Insulin_signaling|O
+Irinotecan resistance|O
+JNK signaling pathway|O
+L-type calcium channel complex|O
+LDL biosynthesis|O
+LDL oxidation|O
+LDL uptake|O
+Laminar shear stress|O
+Lipid Droplet|O
+Lipid droplet|O
+Liver Injury|O
+Liver Regeneration|O
+Miller-Dieker syndrome|O
+Mitochondrial Uncoupling|O
+Myoblast proliferation|O
+Myopathy|O
+Na,K-ATPase Rn|O
+Nephrogenesis|O
+Oedema|O
+Oncogene induced senescence|O
+Osteopenia|O
+PR positive breast cancer|O
+Paclitaxel resistance|O
+Partial Pancreatectomy|O
+Photo-oxidative Stress|O
+Positive-Pressure Respiration|O
+Proteasome assembly|O
+Renal Maturation|O
+Renal Sclerosis|O
+Respiratory Syncytial Virus Infection|O
+Retinopathy|O
+Schizophrenia|O
+Skeletal Muscle Disuse Atrophy|O
+Skeletal Muscle Hypertrophy|O
+Steatosis|O
+Steroidogenesis|O
+Superimposed Alcoholic Hepatitus|O
+Systemic Lupus Erythematosus|O
+T-cell apoptosis|O
+T-cell leukemia|O
+T-cell migration|O
+T-cell survival|O
+T-helper 17 cell activation|O
+T-helper 2 cell proliferation|O
+T-type calcium channel complex|O
+TLR signaling|O
+TLR3 signaling|O
+TLR4 signaling|O
+TLR9 signaling|O
+TSLP activity|O
+Th1 cell activation|O
+Th1 response|O
+Th1:Th2 ratio|O
+Th2 response|O
+Triglyceride Synthesis|O
+Type I diabetes|O
+Type II diabetes|O
+Ulcerative Colitis|O
+Urothelial Plaque|O
+VCP Hexamer Mm|O
+VLDL biosynthesis|O
+VLDL secretion|O
+Vascular Wall Inflammation|O
+Vincristine resistance|O
+Weibel-Palade body externalization|O
+activated t cell extravasation|O
+activated t cell tethering / rolling|O
+acute endotoxemia|O
+acute lymphoblastic leukemia|O
+acute myelogenous leukemia|O
+acute phase reaction|O
+adenocarcinoma|O
+adenoma|O
+adipocyte lipid droplet|O
 adipocyte lipolysis|O
-metastasis|O
-osteoclast activity|O
+adipose glucose import|O
+adipose insulin receptor signaling pathway|O
+advanced Adenocarcinoma|O
+amyotrophic lateral sclerosis|O
+anchorage-independent growth|O
+anemia|O
+aneurysm formation|O
+ankylosing spondylitis|O
+arteritis|O
+astrocytoma|O
+atrial fibrillation|O
+atrophy|O
+autoimmunity|O
+b-cell migration|O
+bacterial infection|O
+barrett esophagus|O
+basophil extravasation|O
+bile duct ligation|O
+blood flow|O
+bradycardia|O
+breast cancer metastasis|O
+burn injury|O
+cachexia|O
+calcification|O
+calpain activation|O
+cancer|O
+carcinoma of epithelium|O
+carcinoma of liver|O
+carcinoma of lung|O
+carcinoma of prostate gland|O
+carcinoma of squamous cell|O
+carcinoma of stomach|O
+cardiac arrhythmia|O
+cardiac pacemaker activity|O
+cardiomyocyte hypertrophy|O
+castration|O
+cell scattering|O
+cell senescence|O
+chondrogenesis|O
+chronic myeloid leukemia|O
+cirrhosis|O
+classical focal adhesion|O
+clot formation|O
+colitis|O
+colorectal adenoma|O
+congestive heart failure|O
+cyclic stretch|O
+cystic fibrosis|O
+degranulation|O
+dendritic cell extravasation|O
+dendritic cell migration to infection|O
+dendritic cell tethering / rolling|O
+denervation|O
+dilatation|O
+ductal carcinoma|O
+edema|O
+eif2 complex mm|O
+emphysema|O
+endothelial barrier function|O
+eosinophil extravasation|O
+eosinophil migration to infection|O
+epidermal stem cell homeostasis|O
+epithelial barrier function|O
+erectile dysfunction|O
+erythrocyte sedimentation rate|O
+exercise|O
+fatty acid esterification|O
+fatty acid import|O
+fatty-acid synthesis|O
+female fertility|O
+fertility|O
+fibrillar adhesion|O
+fibronectin matrix assembly|O
+fibrosis|O
+focal adhesion disassembly|O
+follicle formation|O
+food intake|O
+gallstones|O
+gastric adenocarcinoma|O
+glioblastoma|O
+glioma|O
+glomerulonephritis|O
+glomerulosclerosis|O
+glucose oxidation|O
+granulocyte activation|O
+haptotaxis|O
+heart block|O
+heart rate|O
+hematocrit|O
+hematopoiesis|O
+hemorrhage|O
+hepatitis|O
+hepatocellular carcinoma|O
+hepatocyte response to toxin|O
+hereditary breast cancer|O
+high-fat diet|O
+hodgkins disease|O
+hydrocephalus|O
+hyperalgesia|O
+hypercholesterolemia|O
+hyperemia|O
+hyperoxia|O
+hyperplasia|O
+hyperplasia of breast tissue|O
+hypertension|O
+hypertrophy|O
+hypoglycemia|O
+immortalization|O
+immunoglobulin synthesis|O
+impaired glucose tolerance|O
+infection|O
+insulin resistance|O
+integrin mediated cell adhesion|O
+intestinal dysfunction|O
+intrauterine growth retardation|O
+invasive breast cancer|O
+invasive cancer|O
+inward rectifier potassium channel complex hs|O
+ketoacidosis|O
+laminar shear stress|O
+large cell carcinoma|O
+leakage of blood vessels|O
+left ventricular systolic dysfunction|O
 leiomyloid tumor|O
 leiomyoma|O
-gallstones|O
-carcinoma of epithelium|O
-muscle stretch|O
-carcinoma of stomach|O
-Gastric Adenoma|O
-clot formation|O
-Hyperinsulinemia|O
-ER positive breast cancer|O
-edema|O
-renal sodium ion reabsorption|O
-I(p) sodium-potassium pump current|O
-epidermal stem cell homeostasis|O
-Carcinoma of t-cell|O
-focal adhesion disassembly|O
-Skeletal Muscle Disuse Atrophy|O
-Carcinoma of esophagus|O
-non-hodgkins lymphoma|O
-Steroidogenesis|O
-tumor angiogenesis|O
-autoimmunity|O
-Carcinoma of pancreas|O
-anemia|O
-fibronectin matrix assembly|O
-DNA polymerase a-primase Hs|O
-Carcinoma of myeloid cell|O
-b-cell migration|O
-Diabetes|O
-viral infection|O
-JNK signaling pathway|O
-liver fibrosis|O
-osteopetrosis|O
-Carcinoma of brain|O
-I(Cl,PKC) PKC-dependent chloride current|O
-erythrocyte sedimentation rate|O
-I(Cl,ATP) ATP-dependent chloride current|O
-Carcinoma of Hepatocyte|O
-Carcinoma of intestine|O
-CD8+CD3+TCR+ naive T-cell differentiation|O
-Liver Regeneration|O
-left ventricular systolic dysfunction|O
-Hemodialysis|O
-tissue repair|O
-LDL biosynthesis|O
-Superimposed Alcoholic Hepatitus|O
-ductal carcinoma|O
-sodium-calcium exchanger complex|O
-burn injury|O
-polycystic kidney disease|O
-Hypertensive Heart Disease|O
-thrombopoietin activity|O
-Irinotecan resistance|O
-Carcinoma of large intestine|O
-neuroblastoma|O
-I(Ks) slow delayed rectifier potassium current|O
-local acute phase reaction|O
-osteoarthritis|O
-vascular smooth muscle cell proliferation|O
-hepatitis|O
-lymphadenopathy|O
-systemic acute phase reaction|O
-hepatocyte response to toxin|O
-ATP Depletion|O
-neutrophil ELA2 secretion|O
-plaque destabilization|O
-LDL uptake|O
-Osteopenia|O
-leukocyte migration to infection|O
-cyclic stretch|O
-integrin mediated cell adhesion|O
-Carcinoma of rectum|O
-Deep Venous Thrombosis|O
-Erlotinib resistance|O
-Systemic Lupus Erythematosus|O
-anchorage-independent growth|O
-large cell carcinoma|O
-neuron cell death|O
-Crohn's Disease|O
-thermogenesis|O
-hematopoiesis|O
-amyotrophic lateral sclerosis|O
-lung squamous cell carcinoma|O
-eosinophil extravasation|O
-ENaC Complex hs|O
-Vincristine resistance|O
-T-cell survival|O
-monocyte extravasation|O
-Nephrogenesis|O
-endothelial barrier function|O
-very-long-chain peroxisomal fatty acid beta-oxidation|O
-lipogenesis|O
-intrauterine growth retardation|O
-tachycardia|O
-carcinoma of lung|O
-myocardial infarction|O
-T-helper 17 cell activation|O
-eif2 complex mm|O
-cirrhosis|O
-Carcinoma of germ cell|O
-hypertension|O
-laminar shear stress|O
-Chronic Obstructive Pulmonary Disease|O
-bradycardia|O
-hydrocephalus|O
-Carcinoma of bone|O
-neutrophil polarization|O
-tissue damage|O
-Carcinoma of mouth|O
-Skeletal Muscle Hypertrophy|O
-TSLP activity|O
-Androgen independence|O
-cancer|O
-Influenza A Virus, H5N1 Subtype Infection|O
-steatohepatitis|O
-fatty acid esterification|O
-LDL oxidation|O
-platelet tethering / rolling|O
-macrophage IL8 secretion|O
-Triglyceride Synthesis|O
-Miller-Dieker syndrome|O
-Respiratory Syncytial Virus Infection|O
-Inflammatory Bowel Disease|O
-acute myelogenous leukemia|O
-hematocrit|O
-I(K1) inward rectifier potassium channel current|O
-leukemia|O
-microvesicle|O
-B cell lymphoma|O
-VLDL secretion|O
-Lipid droplet|O
-Etoposide resistance|O
-ankylosing spondylitis|O
-muscle insulin receptor signaling pathway|O
-male fertility|O
-Carcinoma of melanocyte|O
-Cytotoxic T-cell activation|O
-bile duct ligation|O
-dendritic cell tethering / rolling|O
-oncogenic transformation|O
-neutrophil activation-dependent arrest|O
-vascular smooth muscle cell migration|O
-Colonic Mucosal Wound Healing|O
-neutrophil migration to infection|O
-atrophy|O
-tuberculosis|O
-Partial Pancreatectomy|O
-I(Kr) fast delayed rectifier potassium current|O
-fertility|O
-monocyte adherence|O
-Carcinoma of skin|O
-leakage of blood vessels|O
-cell scattering|O
-glioma|O
-vasculitis|O
-liposome|O
-Photo-oxidative Stress|O
-CD4+CD3+TCR+ naive T-cell differentiation|O
-Insulin_signaling|O
-Down syndrome|O
-tumor growth|O
-Hypoketonemia|O
-VLDL biosynthesis|O
-adipose insulin receptor signaling pathway|O
-neoplasia|O
-splenomegaly|O
-glucose oxidation|O
-acute lymphoblastic leukemia|O
-impaired glucose tolerance|O
-I(K ATP) ATP-dependent potassium channel current|O
-mitochondrial membrane potential|O
-T-helper 2 cell proliferation|O
-arteritis|O
-dendritic cell extravasation|O
-neutrophil extravasation|O
-cell senescence|O
-natural killer cell extravasation|O
-mechanical stress|O
-leukemic infiltration|O
-hyperoxia|O
-Esophageal Adenocarcinoma|O
-advanced Adenocarcinoma|O
-fibrillar adhesion|O
-female fertility|O
-infection|O
-Atherosclerotic lesion|O
-myocardial contraction|O
-Hepatitis C viral infection|O
-I(f) F-channel current|O
-hodgkins disease|O
-I(Cl,ir) cell swelling-activated inwardly rectifying chloride current|O
-Fc-IgE receptor 1 Rn|O
-ER negative breast cancer|O
-platelet spreading|O
-Liver Injury|O
-acute phase reaction|O
-EGFR inhibitor resistance|O
-fibrosis|O
-I(NCX) sodium-calcium exchanger current|O
-mitochondrial damage|O
-Cisplatin resistance|O
-T-cell migration|O
-vascular dysfunction|O
-calcification|O
-high-fat diet|O
-G0 phase of mitotic cell cycle|O
-lymphopenia|O
-Myopathy|O
-ventricular fibrillation|O
-Carcinoma of thyroid gland|O
-mycobacterial infection|O
-neurodegeneration|O
-Fetal Liver Hematopoiesis|O
-mitochondrial DNA damage|O
-Hepatitis B viral infection|O
-B cell polarization|O
-classical focal adhesion|O
-invasive breast cancer|O
-cachexia|O
-monocyte tethering / rolling|O
-Type I diabetes|O
-Carcinoma of nasopharynx|O
-psoriasis|O
-emphysema|O
-degranulation|O
-rheumatoid arthritis|O
-ERBB2 overexpressing breast cancer|O
-hypercholesterolemia|O
-lung surfactant secretion|O
-Renal Sclerosis|O
-hypertrophy|O
-macrophage TNF secretion|O
-cardiomyocyte hypertrophy|O
-Urothelial Plaque|O
-medulloblastoma|O
-tight junction permeability|O
-lung adenocarcinoma|O
-TLR4 signaling|O
-I(st) St channel current|O
-macrophage IL6 secretion|O
-Renal Maturation|O
-Cardiomyopathy|O
-Carcinoma of muscle|O
-I(Na)  sodium channel current|O
-T-cell leukemia|O
-hyperplasia of breast tissue|O
-TLR3 signaling|O
-Hepatic Cirrhosis|O
-liver insulin receptor signaling pathway|O
-Acute Myocardial Infarction|O
-Collagen VI Mm|O
-Encephalopathy|O
-Glomerulogenesis|O
-Homoharringtonine resistance|O
-mesothelioma|O
-epithelial barrier function|O
-colorectal adenoma|O
-I(to) transient outward current|O
-platelet activation-dependent arrest|O
-pancreatic ductal carcinoma|O
-Carcinoma of lymphocyte|O
-Th1:Th2 ratio|O
-Carcinoma of gastrointestinal tract|O
-Na,K-ATPase Rn|O
-nanovesicle|O
-L-type calcium channel complex|O
-response to shear stress|O
-dilatation|O
-natural killer cell migration to infection|O
-phospholipid excretion|O
-Acidification|O
-atrial fibrillation|O
-mechanical strain|O
-invasive cancer|O
-motor neuron cell death|O
-liver glucose import|O
-astrocytoma|O
-granulocyte activation|O
-Th1 response|O
-low pH|O
-Vascular Wall Inflammation|O
-th2 cell activation|O
-regulatory t-cell differentiation|O
-peroxisome proliferation|O
-Insulin Control Element activator Hs|O
-non-small cell lung carcinoma|O
-Doxorubicin resistance|O
-Th1 cell activation|O
-fatty-acid synthesis|O
-lipid peroxidation|O
-polycythemia|O
-aneurysm formation|O
-Th2 response|O
-I(CaT) T-type calcium channel current|O
-vascular tissue damage|O
-Oncogene induced senescence|O
-hyperplasia|O
-muscular distrophy|O
-long QT syndrome|O
-local Adenocarcinoma|O
-tumor cell invasion|O
-Ulcerative Colitis|O
-castration|O
-hyperemia|O
-Carcinoma of nervous system|O
-I(Cl,Ca) calcium-activated chloride current|O
-T-cell apoptosis|O
-carcinoma of squamous cell|O
-basophil extravasation|O
-eosinophil migration to infection|O
-Type II diabetes|O
-Schizophrenia|O
-glomerulonephritis|O
-Oedema|O
-insulin resistance|O
-I(Cl,PKA) PKA-dependent chloride current|O
-TLR signaling|O
-monocyte migration to infection|O
-Carcinoma of endometrium|O
-heart block|O
-Laminar shear stress|O
-microvesicle lipid raft|O
-calpain activation|O
-Carcinoma of kidney|O
-gastric adenocarcinoma|O
-breast cancer metastasis|O
-bacterial infection|O
-heart rate|O
-carcinoma of prostate gland|O
-Carcinoma of uterus|O
-food intake|O
-macrophage IL1A secretion|O
-Positive-Pressure Respiration|O
-turbulent shear stress|O
-hyperalgesia|O
-Steatosis|O
-PR positive breast cancer|O
-prostate cancer|O
-Carcinoma of thymus|O
-glomerulosclerosis|O
-tight junction formation|O
-hereditary breast cancer|O
-Exercise|O
-follicle formation|O
-rapid cell migration|O
-congestive heart failure|O
-membrane polarization|O
-vascular remodeling|O
-neuropathy|O
-VCP Hexamer Mm|O
-carcinoma of liver|O
-peroxisomal fatty acid beta-oxidation|O
-long-chain peroxisomal fatty acid beta-oxidation|O
-Carcinoma of breast|O
-Chylomicron secretion|O
-TLR9 signaling|O
-colitis|O
-ketoacidosis|O
-I(CaL) L-type calcium channel current|O
-mean arterial pressure|O
-Paclitaxel resistance|O
-glioblastoma|O
-Myoblast proliferation|O
-leukocyte PAF secretion|O
-I(KACh) acetylcholine-activated current|O
-Influenza A Virus Infection|O
-neutrophil tethering / rolling|O
-adenoma|O
-cystic fibrosis|O
 leptin activity|O
-Mitochondrial Uncoupling|O
-cardiac pacemaker activity|O
-hemorrhage|O
-inward rectifier potassium channel complex hs|O
-Retinopathy|O
-Proteasome assembly|O
-hepatocellular carcinoma|O
-activated t cell extravasation|O
+leukemia|O
+leukemic infiltration|O
+leukocyte PAF secretion|O
+leukocyte migration to infection|O
+lipid peroxidation|O
+lipogenesis|O
+liposome|O
+liver fibrosis|O
+liver glucose import|O
+liver insulin receptor signaling pathway|O
+local Adenocarcinoma|O
+local acute phase reaction|O
+long QT syndrome|O
+long-chain peroxisomal fatty acid beta-oxidation|O
+low pH|O
+lung adenocarcinoma|O
+lung squamous cell carcinoma|O
+lung surfactant secretion|O
+lymphadenopathy|O
+lymphoid hyperplasia|O
 lymphoma|O
+lymphopenia|O
+macrophage IL1A secretion|O
+macrophage IL6 secretion|O
+macrophage IL8 secretion|O
+macrophage TNF secretion|O
+male fertility|O
+mast cell TNF secretion|O
 mast cell histamine secretion|O
-immunoglobulin synthesis|O
-triple microtubule|O
-immortalization|O
+mean arterial pressure|O
+mechanical strain|O
+mechanical stress|O
+medulloblastoma|O
+melanoma|O
+membrane polarization|O
+mesothelioma|O
+metastasis|O
+microvesicle|O
+microvesicle lipid raft|O
+mitochondrial DNA damage|O
+mitochondrial damage|O
+mitochondrial membrane potential|O
+monocyte adherence|O
+monocyte diapadesis|O
+monocyte extravasation|O
+monocyte migration to infection|O
+monocyte tethering / rolling|O
+motor neuron cell death|O
+multiple myeloma|O
+muscle glucose import|O
+muscle insulin receptor signaling pathway|O
+muscle stretch|O
+muscular distrophy|O
+mycobacterial infection|O
+myelodysplastic syndromes|O
+myeloproliferative disorder|O
+myocardial contraction|O
+myocardial infarction|O
+nanovesicle|O
+nanovesicle lipid raft|O
+natural killer cell activation-dependent arrest|O
+natural killer cell extravasation|O
+natural killer cell migration to infection|O
+neoplasia|O
+nephropathy|O
+neuroblastoma|O
+neurodegeneration|O
+neuron cell death|O
+neuropathy|O
+neutrophil ELA2 secretion|O
+neutrophil activation-dependent arrest|O
+neutrophil extravasation|O
+neutrophil migration to infection|O
+neutrophil polarization|O
+neutrophil tethering / rolling|O
+non-hodgkins lymphoma|O
+non-small cell lung carcinoma|O
+noninvasive breast cancer|O
+obesity|O
+oncogenic transformation|O
+osteoarthritis|O
+osteoclast activity|O
+osteopetrosis|O
+osteoporosis|O
+osteosarcoma|O
+pancreatic ductal carcinoma|O
+peroxisomal fatty acid beta-oxidation|O
+peroxisome proliferation|O
+phosphatidylcholine excretion|O
+phospholipid excretion|O
+plaque destabilization|O
+platelet activation-dependent arrest|O
+platelet spreading|O
+platelet tethering / rolling|O
+polycystic kidney disease|O
+polycythemia|O
+prostate cancer|O
+psoriasis|O
+rapid cell migration|O
+regulatory t-cell differentiation|O
+renal sodium ion reabsorption|O
+renal water reabsorption|O
+reperfusion injury|O
+response to shear stress|O
+retinoblastoma|O
+rhabdomyosarcoma|O
+rheumatoid arthritis|O
+skin lesion|O
 small cell carcinoma|O
+sodium-calcium exchanger complex|O
+splenomegaly|O
+steatohepatitis|O
+stroke|O
+systemic acute phase reaction|O
+t(4 14) translocation|O
+tachycardia|O
+th2 cell activation|O
+thermogenesis|O
+thrombopoietin activity|O
+tight junction formation|O
+tight junction permeability|O
+tissue damage|O
+tissue repair|O
+triple microtubule|O
+tuberculosis|O
+tumor angiogenesis|O
+tumor cell invasion|O
+tumor growth|O
+turbulent shear stress|O
+vascular dysfunction|O
+vascular remodeling|O
+vascular smooth muscle cell migration|O
+vascular smooth muscle cell proliferation|O
+vascular tissue damage|O
+vasculitis|O
+ventricular fibrillation|O
+very-long-chain peroxisomal fatty acid beta-oxidation|O
+viral infection|O

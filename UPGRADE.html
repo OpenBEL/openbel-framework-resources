@@ -1,0 +1,180 @@
+<h1>Upgrading</h1>
+
+<p><em>Note: Presently only namespace values are upgraded in BEL files.</em>
+<br><br></p>
+
+<h2>Install Ruby (Windows)</h2>
+
+<ol>
+<li>Download <a href="http://rubyinstaller.org/downloads">RubyInstaller</a>.
+<ul>
+<li>Versions 1.9.3 and 2.x.x are supported.</li>
+</ul></li>
+<li>Install RubyInstaller version.
+<ul>
+<li>Enable the <em>Add Ruby executables to your PATH</em> option presented during installation.</li>
+</ul></li>
+<li>Open a command prompt (Windows Key + R then type <code>cmd</code>).
+<ul>
+<li>Confirm installation by typing <code>ruby -v</code>.</li>
+<li>The output should show the ruby version (e.g. <code>ruby 2.0.0p451 (2014-02-24) [x64-mingw32]</code>).</li>
+</ul></li>
+</ol>
+
+<p>Continue with <a href="#install_bel_gem">Install the bel gem</a>.</p>
+
+<h2>Install Ruby (Mac OSX)</h2>
+
+<p><em>Option 1: Homebrew</em></p>
+
+<ol>
+<li>Install with homebrew by typing <code>brew install ruby</code>.</li>
+<li>Add ruby commands to your PATH.
+<ul>
+<li>Add to .bash<em>profile.
+<ul>
+<li><code>echo 'export PATH="/usr/local/Cellar/ruby/VERSION/bin:$PATH"' &gt;&gt; .bash_profile</code></li>
+</ul></li>
+<li>Update environment by sourcing .bash</em>profile.
+<ul>
+<li><code>source ~/.bash_profile</code></li>
+</ul></li>
+</ul></li>
+<li>Confirm installation by typing <code>ruby -v</code>.</li>
+</ol>
+
+<p><em>Option 2: rbenv</em></p>
+
+<ul>
+<li><p><em>Install with homebrew.</em></p>
+
+<ul>
+<li><code>brew update</code></li>
+<li><code>brew install rbenv ruby-build</code></li>
+<li>More details [here] (https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x).</li>
+</ul></li>
+<li><p><em>Install with git.</em></p>
+
+<ul>
+<li>Clone rbenv repository.
+<ul>
+<li><code>git clone https://github.com/sstephenson/rbenv.git ~/.rbenv</code></li>
+</ul></li>
+<li>Add to .bash_profile.
+<ul>
+<li><code>echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bash_profile</code></li>
+</ul></li>
+<li>Enable shims and autocompletion from the terminal.
+<ul>
+<li><code>echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bash_profile</code></li>
+</ul></li>
+<li>Clone ruby-build repository.
+<ul>
+<li><code>git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build</code></li>
+</ul></li>
+<li>More details [here] (https://github.com/sstephenson/rbenv#installation).</li>
+</ul></li>
+</ul>
+
+<p>Continue with <a href="#install_bel_gem">Install the bel gem</a>.</p>
+
+<h2>Install Ruby (Linux)</h2>
+
+<p><em>Option 1: Install via package manager.</em></p>
+
+<ul>
+<li>Example installation with Ubuntu.
+<ul>
+<li>Type <code>sudo apt-get install ruby</code> in the terminal.</li>
+</ul></li>
+</ul>
+
+<p><em>Option 2: rbenv</em></p>
+
+<ul>
+<li><em>Install with git.</em>
+<ul>
+<li>Clone rbenv repository.
+<ul>
+<li><code>git clone https://github.com/sstephenson/rbenv.git ~/.rbenv</code></li>
+</ul></li>
+<li>Add to .bash_profile.
+<ul>
+<li><code>echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bash_profile</code></li>
+</ul></li>
+<li>Enable shims and autocompletion from the terminal.
+<ul>
+<li><code>echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bash_profile</code></li>
+</ul></li>
+<li>Clone ruby-build repository.
+<ul>
+<li><code>git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build</code></li>
+</ul></li>
+<li>More details [here] (https://github.com/sstephenson/rbenv#installation).</li>
+</ul></li>
+</ul>
+
+<p>Continue with <a href="#install_bel_gem">Install the bel gem</a>.</p>
+
+<p><br><br></p>
+
+<div id="install_bel_gem"></div>
+
+<h2>Install the <em>bel</em> gem</h2>
+
+<ol>
+<li>Open a terminal or command prompt.</li>
+<li>Use the <code>gem</code> command to install the <code>bel</code> gem.
+<ul>
+<li><code>gem install bel</code></li>
+</ul></li>
+<li>You should see the following:</li>
+</ol>
+
+<pre>
+    Fetching: bel-0.2.1.gem (100%)
+    Successfully installed bel-0.2.1
+    Parsing documentation for bel-0.2.1
+    Installing ri documentation for bel-0.2.1
+    1 gem installed
+</pre>
+
+<ol>
+<li>Confirm you can access the <code>bel_upgrade</code> command.</li>
+<li>Continue with <a href="#upgrading_bel">Upgrading BEL</a>.</li>
+</ol>
+
+<p><br><br></p>
+
+<div id="upgrading_bel"></div>
+
+<h2>Upgrading BEL</h2>
+
+<ol>
+<li>Type <code>bel_upgrade --help</code> for option details.</li>
+<li>Run command
+<ul>
+<li>Example 1 - convert a BEL file
+<ul>
+<li>`bel<em>upgrade --bel small</em>corpus.bel --changelog "http://resource.belframework.org/belframework/20131211/change_log.json"</li>
+</ul></li>
+<li>Example 2 - convert BEL from standard in
+<ul>
+<li><code>curl "http://resource.belframework.org/belframework/1.0/knowledge/small_corpus.bel" | bel_upgrade --changelog "http://resource.belframework.org/belframework/20131211/change_log.json"</code></li>
+</ul></li>
+<li>More details [here] (https://github.com/OpenBEL/bel.rb).</li>
+</ul></li>
+<li>The upgraded BEL will be written to standard out.  Simply redirect to a file after that.
+<ul>
+<li><code>bel_upgrade ... &gt; upgraded-version.bel</code></li>
+</ul></li>
+</ol>
+
+<p><br><br></p>
+
+<h2>Issues</h2>
+
+<ul>
+<li>If you have questions with <code>bel_upgrade</code> or the <code>bel</code> gem please post to the [openbel-discuss] (https://groups.google.com/forum/#!forum/openbel-discuss) google group.</li>
+<li>If you encounter errors please post an issue to [github issues] (https://github.com/OpenBEL/bel.rb/issues).</li>
+</ul>

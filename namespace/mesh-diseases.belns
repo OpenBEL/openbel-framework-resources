@@ -1,24 +1,24 @@
 [Namespace]
-Keyword=MESHD
 NameString=MeSH Diseases (Names)
-DomainString=BiologicalProcess
+Keyword=MESHD
+DomainString=Biological Process
 SpeciesString=all
-DescriptionString=The Medical Subject Headings (MeSH) names for the disease branch [branch C]. These headings may be used to specify pathologies.
-VersionString=20120202
-CreatedDateTime=2012-02-02T12:00:00
-QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?mode=&term=[VALUE]&field=entry
+DescriptionString=Medical Subject Headings (MeSH) from the Diseases [C] branch. These headings may be used to specify pathologies.
+VersionString=20131213
+CreatedDateTime=2013-12-13T17:01:18
+QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&term=[VALUE]&field=entry
 
 [Author]
-NameString=Selventa
-CopyrightString=Copyright (c) 2011-2012, Selventa. All Rights Reserved.
-ContactInfoString=belframework@selventa.com
+NameString=OpenBEL
+CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=info@openbel.org
 
 [Citation]
-NameString=Medical Subject Headings
-DescriptionString=The Medical Subject Headings (MeSH) names for the disease branch [branch C] of this ontology. MeSH is the National Library of Medicine's controlled vocabulary thesaurus. It consists of sets of terms naming descriptors in a hierarchical structure that permits searching at various levels of specificity.
-PublishedVersionString=20120202
-PublishedDate=2012-02-02
-ReferenceURL=http://www.ncbi.nlm.nih.gov/mesh
+NameString=MeSH
+DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine. 
+PublishedVersionString=2014
+PublishedDate=2013-12-09
+ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
 CaseSensitiveFlag=yes
@@ -62,6 +62,7 @@ Abruptio Placentae|O
 Abscess|O
 Acalculous Cholecystitis|O
 Acanthamoeba Keratitis|O
+Acanthocheilonemiasis|O
 Acantholysis|O
 Acanthoma|O
 Acanthosis Nigricans|O
@@ -135,6 +136,7 @@ Adenomatous Polyposis Coli|O
 Adenomatous Polyps|O
 Adenomyoepithelioma|O
 Adenomyoma|O
+Adenomyosis|O
 Adenophorea Infections|O
 Adenosarcoma|O
 Adenoviridae Infections|O
@@ -191,6 +193,7 @@ Alcoholism|O
 Aleutian Mink Disease|O
 Alexander Disease|O
 Alexia, Pure|O
+Alice in Wonderland Syndrome|O
 Alien Hand Syndrome|O
 Aliivibrio Infections|O
 Alkalosis|O
@@ -286,6 +289,7 @@ Anisakiasis|O
 Aniseikonia|O
 Anisocoria|O
 Anisometropia|O
+Ankle Fractures|O
 Ankle Injuries|O
 Ankylosis|O
 Anodontia|O
@@ -304,6 +308,7 @@ Anthrax|O
 Anti-Glomerular Basement Membrane Disease|O
 Anti-N-Methyl-D-Aspartate Receptor Encephalitis|O
 Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis|O
+Anticholinergic Syndrome|O
 Anticipation, Genetic|O
 Antiphospholipid Syndrome|O
 Antithrombin III Deficiency|O
@@ -341,7 +346,6 @@ Appendicitis|O
 Apraxia, Ideomotor|O
 Apraxias|O
 Apudoma|O
-Arachnidism|O
 Arachnodactyly|O
 Arachnoid Cysts|O
 Arachnoiditis|O
@@ -370,7 +374,7 @@ Arthritis|O
 Arthritis, Experimental|O
 Arthritis, Gouty|O
 Arthritis, Infectious|O
-Arthritis, Juvenile Rheumatoid|O
+Arthritis, Juvenile|O
 Arthritis, Psoriatic|O
 Arthritis, Reactive|O
 Arthritis, Rheumatoid|O
@@ -411,6 +415,7 @@ Athletic Injuries|O
 Atrial Fibrillation|O
 Atrial Flutter|O
 Atrial Premature Complexes|O
+Atrial Remodeling|O
 Atrioventricular Block|O
 Atrophic Vaginitis|O
 Atrophy|O
@@ -468,6 +473,7 @@ Biliary Dyskinesia|O
 Biliary Fistula|O
 Biliary Tract Diseases|O
 Biliary Tract Neoplasms|O
+Binge Drinking|O
 Biotinidase Deficiency|O
 Bird Diseases|O
 Bird Fancier's Lung|O
@@ -480,6 +486,7 @@ Bites and Stings|O
 Bites, Human|O
 Blackwater Fever|O
 Bladder Exstrophy|O
+Bland White Garland Syndrome|O
 Blast Crisis|O
 Blast Injuries|O
 Blastocystis Infections|O
@@ -595,6 +602,7 @@ Burns, Electric|O
 Burns, Inhalation|O
 Bursitis|O
 Buruli Ulcer|O
+Buschke-Lowenstein Tumor|O
 Byssinosis|O
 CADASIL|O
 CHARGE Syndrome|O
@@ -628,6 +636,7 @@ Carbohydrate Metabolism, Inborn Errors|O
 Carbon Monoxide Poisoning|O
 Carbon Tetrachloride Poisoning|O
 Carbuncle|O
+Carcinogenesis|O
 Carcinoid Heart Disease|O
 Carcinoid Tumor|O
 Carcinoma|O
@@ -759,6 +768,8 @@ Channelopathies|O
 Charcot-Marie-Tooth Disease|O
 Chediak-Higashi Syndrome|O
 Cheilitis|O
+Chemically-Induced Disorders|O
+Chemotherapy-Induced Febrile Neutropenia|O
 Cherubism|O
 Chest Pain|O
 Cheyne-Stokes Respiration|O
@@ -868,6 +879,7 @@ Colitis, Lymphocytic|O
 Colitis, Microscopic|O
 Colitis, Ulcerative|O
 Collagen Diseases|O
+Collagenous Sprue|O
 Colles' Fracture|O
 Colloid Cysts|O
 Coloboma|O
@@ -899,6 +911,7 @@ Condylomata Acuminata|O
 Confusion|O
 Congenital Abnormalities|O
 Congenital Disorders of Glycosylation|O
+Congenital Hyperinsulinism|O
 Congenital Hypothyroidism|O
 Congenital, Hereditary, and Neonatal Diseases and Abnormalities|O
 Conjunctival Diseases|O
@@ -917,7 +930,6 @@ Contracture|O
 Contrecoup Injury|O
 Contusions|O
 Convalescence|O
-Coprophagia|O
 Coproporphyria, Hereditary|O
 Cor Triatriatum|O
 Corneal Diseases|O
@@ -986,6 +998,7 @@ Cystadenocarcinoma|O
 Cystadenocarcinoma, Mucinous|O
 Cystadenocarcinoma, Papillary|O
 Cystadenocarcinoma, Serous|O
+Cystadenofibroma|O
 Cystadenoma|O
 Cystadenoma, Mucinous|O
 Cystadenoma, Papillary|O
@@ -1007,6 +1020,7 @@ DNA Degradation, Necrotic|O
 DNA Repair-Deficiency Disorders|O
 DNA Virus Infections|O
 Dacryocystitis|O
+Dandruff|O
 Dandy-Walker Syndrome|O
 Darier Disease|O
 De Lange Syndrome|O
@@ -1035,7 +1049,6 @@ Demyelinating Diseases|O
 Dendritic Cell Sarcoma, Follicular|O
 Dendritic Cell Sarcoma, Interdigitating|O
 Dengue|O
-Dengue Hemorrhagic Fever|O
 Dens in Dente|O
 Dent Disease|O
 Dental Calculus|O
@@ -1056,6 +1069,7 @@ Dentin Dysplasia|O
 Dentin Sensitivity|O
 Dentin, Secondary|O
 Dentinogenesis Imperfecta|O
+Dentofacial Deformities|O
 Denys-Drash Syndrome|O
 Depression, Postpartum|O
 Dermatitis|O
@@ -1156,9 +1170,11 @@ Dracunculiasis|O
 Drowning|O
 Drug Eruptions|O
 Drug Hypersensitivity|O
-Drug Toxicity|O
+Drug Hypersensitivity Syndrome|O
+Drug Overdose|O
 Drug-Induced Liver Injury|O
 Drug-Induced Liver Injury, Chronic|O
+Drug-Related Side Effects and Adverse Reactions|O
 Dry Eye Syndromes|O
 Dry Socket|O
 Duane Retraction Syndrome|O
@@ -1175,6 +1191,7 @@ Dwarfism|O
 Dwarfism, Pituitary|O
 Dysarthria|O
 Dysautonomia, Familial|O
+Dysbiosis|O
 Dyscalculia|O
 Dysentery|O
 Dysentery, Amebic|O
@@ -1329,7 +1346,6 @@ Eosinophilic Granuloma|O
 Ependymoma|O
 Ephemeral Fever|O
 Epidermal Cyst|O
-Epidermal Necrolysis, Toxic|O
 Epidermitis, Exudative, of Swine|O
 Epidermodysplasia Verruciformis|O
 Epidermolysis Bullosa|O
@@ -1454,6 +1470,7 @@ Failed Back Surgery Syndrome|O
 Failure to Thrive|O
 Fallopian Tube Diseases|O
 Fallopian Tube Neoplasms|O
+Familial Hypophosphatemic Rickets|O
 Familial Mediterranean Fever|O
 Fanconi Anemia|O
 Fanconi Syndrome|O
@@ -1471,12 +1488,13 @@ Fatigue Syndrome, Chronic|O
 Fatty Liver|O
 Fatty Liver, Alcoholic|O
 Favism|O
+Febrile Neutropenia|O
 Fecal Impaction|O
 Fecal Incontinence|O
 Feline Acquired Immunodeficiency Syndrome|O
 Feline Infectious Peritonitis|O
 Feline Panleukopenia|O
-Felty's Syndrome|O
+Felty Syndrome|O
 Female Athlete Triad Syndrome|O
 Female Urogenital Diseases|O
 Female Urogenital Diseases and Pregnancy Complications|O
@@ -1487,7 +1505,7 @@ Femoral Neck Fractures|O
 Femoral Neoplasms|O
 Femoral Neuropathy|O
 Femur Head Necrosis|O
-Fetal Alcohol Syndrome|O
+Fetal Alcohol Spectrum Disorders|O
 Fetal Death|O
 Fetal Diseases|O
 Fetal Distress|O
@@ -2078,6 +2096,7 @@ Hyperthyroxinemia|O
 Hyperthyroxinemia, Familial Dysalbuminemic|O
 Hypertrichosis|O
 Hypertriglyceridemia|O
+Hypertriglyceridemic Waist|O
 Hypertrophy|O
 Hypertrophy, Left Ventricular|O
 Hypertrophy, Right Ventricular|O
@@ -2109,7 +2128,6 @@ Hypopharyngeal Neoplasms|O
 Hypophosphatasia|O
 Hypophosphatemia|O
 Hypophosphatemia, Familial|O
-Hypophosphatemic Rickets, X-Linked Dominant|O
 Hypopigmentation|O
 Hypopituitarism|O
 Hypoplastic Left Heart Syndrome|O
@@ -2217,6 +2235,7 @@ Intracranial Hemorrhages|O
 Intracranial Hypertension|O
 Intracranial Hypotension|O
 Intracranial Thrombosis|O
+Intraocular Lymphoma|O
 Intraoperative Awareness|O
 Intraoperative Complications|O
 Intrauterine Device Migration|O
@@ -2253,7 +2272,7 @@ Jejunal Diseases|O
 Jejunal Neoplasms|O
 Jervell-Lange Nielsen Syndrome|O
 Jet Lag Syndrome|O
-Job's Syndrome|O
+Job Syndrome|O
 Joint Deformities, Acquired|O
 Joint Diseases|O
 Joint Instability|O
@@ -2452,6 +2471,7 @@ Liddle Syndrome|O
 Lightning Injuries|O
 Limb Deformities, Congenital|O
 Limbic Encephalitis|O
+Linear IgA Bullous Dermatosis|O
 Lingual Goiter|O
 Lingual Nerve Injuries|O
 Lingual Thyroid|O
@@ -2461,6 +2481,7 @@ Lip Neoplasms|O
 Lipid Metabolism Disorders|O
 Lipid Metabolism, Inborn Errors|O
 Lipidoses|O
+Lipoblastoma|O
 Lipodystrophy|O
 Lipodystrophy, Congenital Generalized|O
 Lipodystrophy, Familial Partial|O
@@ -2621,6 +2642,7 @@ Mastocytosis, Cutaneous|O
 Mastocytosis, Systemic|O
 Mastodynia|O
 Mastoiditis|O
+Maternal Death|O
 Maxillary Diseases|O
 Maxillary Fractures|O
 Maxillary Neoplasms|O
@@ -2628,6 +2650,7 @@ Maxillary Sinus Neoplasms|O
 Maxillary Sinusitis|O
 Maxillofacial Abnormalities|O
 Maxillofacial Injuries|O
+May-Thurner Syndrome|O
 Measles|O
 Meckel Diverticulum|O
 Meconium Aspiration Syndrome|O
@@ -2819,6 +2842,7 @@ Musculoskeletal Diseases|O
 Musculoskeletal Pain|O
 Mushroom Poisoning|O
 Mutism|O
+Myalgia|O
 Myasthenia Gravis|O
 Myasthenia Gravis, Autoimmune, Experimental|O
 Myasthenia Gravis, Neonatal|O
@@ -2871,6 +2895,7 @@ Myotonia|O
 Myotonia Congenita|O
 Myotonic Disorders|O
 Myotonic Dystrophy|O
+Myringosclerosis|O
 Myxedema|O
 Myxoma|O
 Myxomatosis, Infectious|O
@@ -3036,7 +3061,9 @@ Nocturia|O
 Nocturnal Enuresis|O
 Nocturnal Myoclonus Syndrome|O
 Nocturnal Paroxysmal Dystonia|O
+Nodding Syndrome|O
 Noma|O
+Non-Filarial Lymphedema|O
 Nondisjunction, Genetic|O
 Nonodontogenic Cysts|O
 Noonan Syndrome|O
@@ -3118,6 +3145,7 @@ Orbital Myositis|O
 Orbital Neoplasms|O
 Orbital Pseudotumor|O
 Orchitis|O
+Organophosphate Poisoning|O
 Ornithine Carbamoyltransferase Deficiency Disease|O
 Oroantral Fistula|O
 Orofaciodigital Syndromes|O
@@ -3176,7 +3204,6 @@ Ovarian Diseases|O
 Ovarian Hyperstimulation Syndrome|O
 Ovarian Neoplasms|O
 Overbite|O
-Overdose|O
 Overnutrition|O
 Overweight|O
 Ovotesticular Disorders of Sex Development|O
@@ -3256,6 +3283,7 @@ Parathyroid Diseases|O
 Parathyroid Neoplasms|O
 Paratuberculosis|O
 Paratyphoid Fever|O
+Parental Death|O
 Paresis|O
 Paresthesia|O
 Parkinson Disease|O
@@ -3280,6 +3308,7 @@ Pathologic Processes|O
 Pathological Conditions, Anatomical|O
 Pathological Conditions, Signs and Symptoms|O
 Peanut Hypersensitivity|O
+Pediatric Obesity|O
 Pelger-Huet Anomaly|O
 Peliosis Hepatis|O
 Pelizaeus-Merzbacher Disease|O
@@ -3343,7 +3372,6 @@ Peroneal Neuropathies|O
 Peroxisomal Disorders|O
 Persian Gulf Syndrome|O
 Persistent Fetal Circulation Syndrome|O
-Persistent Hyperinsulinemia Hypoglycemia of Infancy|O
 Persistent Hyperplastic Primary Vitreous|O
 Persistent Vegetative State|O
 Peste-des-Petits-Ruminants|O
@@ -3435,6 +3463,7 @@ Pneumonia, Ventilator-Associated|O
 Pneumonia, Viral|O
 Pneumopericardium|O
 Pneumoperitoneum|O
+Pneumorrhachis|O
 Pneumothorax|O
 Pneumovirus Infections|O
 Poisoning|O
@@ -3464,7 +3493,6 @@ Polyradiculoneuropathy|O
 Polyradiculoneuropathy, Chronic Inflammatory Demyelinating|O
 Polyradiculopathy|O
 Polyuria|O
-Pontine Glioma|O
 Popliteal Cyst|O
 Porcine Postweaning Multisystemic Wasting Syndrome|O
 Porcine Reproductive and Respiratory Syndrome|O
@@ -3525,11 +3553,13 @@ Pregnancy Complications, Parasitic|O
 Pregnancy in Diabetics|O
 Pregnancy, Abdominal|O
 Pregnancy, Ectopic|O
+Pregnancy, Heterotopic|O
 Pregnancy, Prolonged|O
 Pregnancy, Tubal|O
 Prehypertension|O
 Preleukemia|O
 Premature Birth|O
+Premature Ejaculation|O
 Premenstrual Syndrome|O
 Prenatal Exposure Delayed Effects|O
 Prenatal Injuries|O
@@ -3546,6 +3576,7 @@ Primate Diseases|O
 Prion Diseases|O
 Proctitis|O
 Proctocolitis|O
+Prodromal Symptoms|O
 Progeria|O
 Prognathism|O
 Prolactinoma|O
@@ -3557,6 +3588,7 @@ Prostatic Diseases|O
 Prostatic Hyperplasia|O
 Prostatic Intraepithelial Neoplasia|O
 Prostatic Neoplasms|O
+Prostatic Neoplasms, Castration-Resistant|O
 Prostatism|O
 Prostatitis|O
 Prosthesis Failure|O
@@ -3703,6 +3735,7 @@ Reperfusion Injury|O
 Reproductive Tract Infections|O
 Respiration Disorders|O
 Respiratory Aspiration|O
+Respiratory Aspiration of Gastric Contents|O
 Respiratory Distress Syndrome, Adult|O
 Respiratory Distress Syndrome, Newborn|O
 Respiratory Hypersensitivity|O
@@ -3740,8 +3773,9 @@ Retinoblastoma|O
 Retinopathy of Prematurity|O
 Retinoschisis|O
 Retrobulbar Hemorrhage|O
+Retrocaval Ureter|O
 Retrocochlear Diseases|O
-Retrognathism|O
+Retrognathia|O
 Retrograde Degeneration|O
 Retroperitoneal Fibrosis|O
 Retroperitoneal Neoplasms|O
@@ -3776,6 +3810,7 @@ Rhinosporidiosis|O
 Rib Fractures|O
 Riboflavin Deficiency|O
 Rickets|O
+Rickets, Hypophosphatemic|O
 Rickettsia Infections|O
 Rickettsiaceae Infections|O
 Rift Valley Fever|O
@@ -3854,6 +3889,7 @@ Scleroderma, Systemic|O
 Scleromyxedema|O
 Sclerosis|O
 Scoliosis|O
+Scorpion Stings|O
 Scotoma|O
 Scrapie|O
 Screw Worm Infection|O
@@ -3881,6 +3917,7 @@ Serum Sickness|O
 Setariasis|O
 Severe Acute Respiratory Syndrome|O
 Severe Combined Immunodeficiency|O
+Severe Dengue|O
 Sex Chromosome Aberrations|O
 Sex Chromosome Disorders|O
 Sex Chromosome Disorders of Sex Development|O
@@ -4005,6 +4042,7 @@ Sphenoid Sinusitis|O
 Spherocytosis, Hereditary|O
 Sphincter of Oddi Dysfunction|O
 Sphingolipidoses|O
+Spider Bites|O
 Spina Bifida Cystica|O
 Spina Bifida Occulta|O
 Spinal Cord Compression|O
@@ -4051,6 +4089,7 @@ Starvation|O
 Status Asthmaticus|O
 Status Epilepticus|O
 Steatitis|O
+Steatocystoma Multiplex|O
 Steatorrhea|O
 Steroid Metabolism, Inborn Errors|O
 Stevens-Johnson Syndrome|O
@@ -4172,6 +4211,7 @@ Tennis Elbow|O
 Tenosynovitis|O
 Tension-Type Headache|O
 Teratocarcinoma|O
+Teratogenesis|O
 Teratoma|O
 Testicular Diseases|O
 Testicular Hydrocele|O
@@ -4221,6 +4261,7 @@ Thyrotoxicosis|O
 Tibial Fractures|O
 Tibial Neuropathy|O
 Tic Disorders|O
+Tick Bites|O
 Tick Infestations|O
 Tick Paralysis|O
 Tick Toxicoses|O
@@ -4315,6 +4356,7 @@ Trigeminal Nerve Injuries|O
 Trigeminal Neuralgia|O
 Trigger Finger Disorder|O
 Trilogy of Fallot|O
+Triple Negative Breast Neoplasms|O
 Triploidy|O
 Trismus|O
 Trisomy|O
@@ -4516,6 +4558,7 @@ Vitiligo|O
 Vitreoretinopathy, Proliferative|O
 Vitreous Detachment|O
 Vitreous Hemorrhage|O
+Vocal Cord Dysfunction|O
 Vocal Cord Paralysis|O
 Voice Disorders|O
 Vomiting|O
@@ -4528,7 +4571,7 @@ Vulvitis|O
 Vulvodynia|O
 Vulvovaginitis|O
 WAGR Syndrome|O
-Waardenburg's Syndrome|O
+Waardenburg Syndrome|O
 Waldenstrom Macroglobulinemia|O
 Walker-Warburg Syndrome|O
 Wallerian Degeneration|O

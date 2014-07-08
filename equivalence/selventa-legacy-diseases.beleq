@@ -1,0 +1,466 @@
+[Equivalence]
+NameString=Selventa Legacy Disease Name Equivalences
+DescriptionString=Selventa Legacy Disease Name equivalences were assigned based on string match to Disease Ontology names. 
+VersionString=20131211
+CreatedDateTime=2013-12-11T13:23:13
+
+[NamespaceReference]
+NameString=Selventa Legacy Disease Names
+VersionString=20131211
+
+[Author]
+NameString=OpenBEL
+CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=info@openbel.org
+
+[Citation]
+NameString=N/A
+DescriptionString=N/A
+
+[Processing]
+CaseSensistiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+APOB folding|5c288de4-2952-4fe2-a30e-613a84be21e9
+ATP Depletion|1704be9d-73df-48c7-aa72-6ad609e81a17
+Acidification|080c6605-4f94-4331-b742-417a6e5e0920
+Acute Myocardial Infarction|6dd980a8-1504-4a6f-8e01-cf3d1d3f567e
+Adult Liver Hematopoiesis|dfc97c1a-2d84-4742-bbde-7f3603f924cb
+Alzheimers disease|8923ec99-2c9d-4a1d-b74f-42470e5431c7
+Androgen independence|af95c4ea-03b0-45ad-994a-7e6d41199d62
+Atherogenesis|864629f6-c781-43f8-b289-3abf907fcfaf
+Atherosclerotic lesion|c618c424-fb78-4e99-94cf-f0af8679b2ed
+B cell lymphoma|f75a4bfa-cc71-44ec-8b4b-3b3eda941b26
+B cell polarization|3b2d7449-d086-480a-9660-749c4f7a18e0
+CD4+CD3+TCR+ naive T-cell differentiation|3da91035-d869-420b-8f5b-c7ecfb280db9
+CD8+CD3+TCR+ naive T-cell differentiation|b1512002-21e7-4420-9d7a-9b459cc40a59
+Carcinoma of Hepatocyte|451d4f09-4795-4c4a-b828-b841abffa836
+Carcinoma of astrocyte|8db3f5ef-3858-4b6a-b0b8-1fdd7c4b90a1
+Carcinoma of bone|1222b8ed-f687-4eb1-a551-262ce0bfd8b1
+Carcinoma of brain|0d3093e9-752a-4aa3-a0e0-f8f2c7b75062
+Carcinoma of breast|95370342-c40d-484c-96f2-c27a954d588f
+Carcinoma of endometrium|e2f67173-6778-412e-ae0c-d114a7ea7c8b
+Carcinoma of esophagus|5d396dbd-0631-4867-93b4-f640f5aae7fe
+Carcinoma of gastrointestinal tract|45007a81-fdd2-4afc-ba39-7becfff65453
+Carcinoma of germ cell|1a1f593f-3161-44f0-8038-e22e51b5a693
+Carcinoma of intestine|d25dbe1d-cdca-4b13-876e-767ba7a2e604
+Carcinoma of kidney|83b41850-f02c-491a-a841-f0f8f9ab1ec2
+Carcinoma of large intestine|04335622-e87e-48ee-8fe8-1672948427c3
+Carcinoma of lymphocyte|e0845dca-739b-4e24-88f2-474e3a041bc6
+Carcinoma of melanocyte|4c43f333-6da4-4c81-9f52-d2e3f0ce352c
+Carcinoma of mouth|147675cc-91bc-4642-9435-a3676df5b903
+Carcinoma of muscle|a08105ce-6ba6-4939-a21c-bbba12319d7d
+Carcinoma of myeloid cell|50321711-b3b0-4a7d-8d40-0d9165db4303
+Carcinoma of nasopharynx|a6d0b33d-976f-4860-911c-15e311e60592
+Carcinoma of nervous system|e7133b24-a986-46d7-94fb-108ba67b16a2
+Carcinoma of pancreas|792e9e58-bebf-4362-8dbe-2e2d9d7c25cf
+Carcinoma of rectum|c54a6b32-9c00-4e02-b0a8-8dbbbb807415
+Carcinoma of skin|6653c7b1-4fb9-4601-97df-47d9d7781b63
+Carcinoma of t-cell|3712c676-0bed-4522-b71a-febe122ed87f
+Carcinoma of thymus|459adda0-4878-47e6-84a6-402d5b4a5a95
+Carcinoma of thyroid gland|b5c3b123-075b-45db-82ab-526449062e09
+Carcinoma of uterus|22fa9c84-c6d8-4643-8214-d798708e007f
+Cardiomyopathy|dec8d32e-062f-4a5c-9aea-3d1b34f07387
+Cftr maturation|256acc4f-0992-4fdf-b1d7-5995b52fa673
+Chronic Obstructive Pulmonary Disease|9daa6185-9369-4601-b293-1cb6fbc0db56
+Chylomicron secretion|7051b75a-dcdb-4fb6-bb25-62b222e82eb5
+Cisplatin resistance|ba4cc469-b6a9-48fe-a6c7-3847e882fd0e
+Collagen VI Mm|c329f666-47d8-4c56-b462-1401011d1da4
+Colonic Mucosal Wound Healing|6330329d-e418-4f55-b02d-7d96cf01699c
+Crohn's Disease|f9489049-120c-4c18-af34-76dc1164c4ec
+Cytotoxic T-cell activation|35b76e6d-a036-4fb4-8a22-286cf421a6e1
+DNA polymerase a-primase Hs|befb06b9-f4df-4b42-b22a-aaf624d6643b
+Deep Venous Thrombosis|f5945bca-80c8-4ca2-a317-0aee11c353aa
+Diabetes|1965f26a-29f9-4bc7-930b-fb35559595ec
+Down syndrome|a7ea4962-81e9-4705-8cca-f8eb74a1f0a6
+Doxorubicin resistance|f8aee4cf-f085-4a4d-b3c8-d3c5d8a61578
+EGFR inhibitor resistance|b92a43d5-c669-4b8f-b7a3-8e96701ba651
+ENaC Complex hs|ba1006a3-4e43-4d13-9da1-d389c8c9ea40
+ER negative breast cancer|1f750f2a-1ab9-4277-8201-72a77e4bf921
+ER positive breast cancer|5f602a85-19f9-48c9-ad86-6338757c6813
+ERBB2 overexpressing breast cancer|efeeee9c-46a3-4072-9626-573eb9ff95f7
+ERK signaling cascade|c1f8b043-7460-4204-a19e-4a1563c48ab3
+Encephalopathy|eeebac1b-4123-4d6d-bbe9-39bfb457831f
+Erlotinib resistance|c8c57404-839a-4951-9f3f-fcc3eae1ae4f
+Esophageal Adenocarcinoma|91de36a5-a41d-4cb1-ac43-0aa1cdd31740
+Etoposide resistance|5ee36764-c103-4b58-8be2-8e123840a776
+Exercise|eded08a3-636b-4319-bfb9-d0d8983bbf96
+Fc-IgE receptor 1 Mm|10813874-eb2e-40a4-8b69-21b250b9f0d0
+Fc-IgE receptor 1 Rn|4fe8a1e1-78a6-48b1-aadf-378f9d191813
+Fetal Liver Hematopoiesis|fd968a1b-19c6-41b9-b006-b21702285ef8
+G0 phase of mitotic cell cycle|611b2ac7-1fbc-4fc5-a37a-736c7b407fa8
+Gastric Adenoma|9b208df2-6ce7-4ebd-976f-5f0ecc30a737
+Glomerulogenesis|059fbde3-00eb-4b44-ae78-0281743b9e07
+Hemodialysis|ab2a56c4-4e98-492e-bff5-e8fa17b5453e
+Hepatic Cirrhosis|519886f7-6bf4-4c3c-b805-9dba370833d7
+Hepatitis B viral infection|bcc0284e-6b1f-42ad-9f40-b900e552e719
+Hepatitis C viral infection|dffd15a8-69ec-43b6-a791-f25608870730
+Homoharringtonine resistance|2cd06863-4330-4476-9eda-99e7d6d0fe96
+Hyperinsulinemia|7b32547a-91fe-481f-b270-74e73d6ec50e
+Hyperlipidemia|28874649-438a-49be-8562-55e065c1c077
+Hypertensive Heart Disease|b28448f7-6300-42d3-97c5-ee48af5c1b6a
+Hypoketonemia|09db7f2b-da2b-4baf-b886-44c7dae4ed18
+I(CaL) L-type calcium channel current|69fc0d80-7150-472d-93a3-9446111a9f22
+I(CaT) T-type calcium channel current|3f98c6d6-f0c6-4c65-a7ef-385dddf7d075
+I(Cl, vol) volume-regulated outwardly rectifying chloride current|41edb133-3763-4b8b-9923-ac7e79439062
+I(Cl,ATP) ATP-dependent chloride current|196c969a-7704-4e15-b004-b88fd5a06290
+I(Cl,Ca) calcium-activated chloride current|ae61f20d-4c77-4144-b212-f87f8a9aef4a
+I(Cl,PKA) PKA-dependent chloride current|219b4e31-fd83-499a-9863-ddabc1461d95
+I(Cl,PKC) PKC-dependent chloride current|38f07442-2e27-463c-a2dd-a534a496113b
+I(Cl,ir) cell swelling-activated inwardly rectifying chloride current|76517a9a-8601-4980-9f68-996a34bca125
+I(K ATP) ATP-dependent potassium channel current|fc25ea17-b652-4694-970e-512a4b28a29b
+I(K1) inward rectifier potassium channel current|70b0d253-376e-4a68-8265-958e8d7538f7
+I(KACh) acetylcholine-activated current|459f974c-0649-411f-96a5-7c9ec68a6f6f
+I(Kr) fast delayed rectifier potassium current|e60337bb-cbb2-450f-83ee-1f065692c2d1
+I(Ks) slow delayed rectifier potassium current|e27efe33-9c5c-4f19-bfed-f4b3811e71c8
+I(NCX) sodium-calcium exchanger current|1f7b2bc4-7374-4e0c-bd4f-84066a4f8dd2
+I(Na)  sodium channel current|195cdb57-6640-4a6c-8e00-b91cad8939e9
+I(f) F-channel current|84dd42db-06cc-488d-8e42-01324b24a659
+I(p) sodium-potassium pump current|4043a1a0-2ab2-44bf-b4a9-b7164cc386f8
+I(st) St channel current|e3587315-e99b-4ecc-a59d-e17f7cde2220
+I(to) transient outward current|040b557d-513a-42a9-a6c4-f631d1a7442d
+Inflammatory Bowel Disease|e979131f-9916-4bb7-8758-af989f8ad66d
+Influenza A Virus Infection|e0b7bc7e-4e63-4834-af8d-ccd583274d9a
+Influenza A Virus, H5N1 Subtype Infection|190b09e0-8fee-4d7b-8f7a-d9b21724bdf8
+Insulin Control Element activator Hs|6c951ba6-862c-468b-ab38-79e0133a7223
+Insulin_signaling|0c7d0fe6-8fb8-4c01-aa3e-83e5502e43e2
+Irinotecan resistance|d862ac80-d6cf-4777-8cc1-a9d8cf579de3
+JNK signaling pathway|6e8d15f9-b5c8-41ad-90b4-68ee45766255
+L-type calcium channel complex|7aa7fa13-84fb-4058-a191-d0db6b77841c
+LDL biosynthesis|cfedecf0-9880-4805-95dd-f83baae5af38
+LDL oxidation|aa97addb-fdb4-4544-a097-f64cc0b40be6
+LDL uptake|9dd1ae3f-917d-4d74-8904-5474f8ff3115
+Laminar shear stress|d1e6ecd7-98d6-4a62-9d3b-f7ea13653a25
+Lipid Droplet|9efe778c-728b-4974-88bf-a7bd748de16b
+Lipid droplet|ccb7c6db-359b-4786-9c99-91ee8ab73663
+Liver Injury|47eb19b9-4ecd-4eae-8199-c9baf455c6f0
+Liver Regeneration|ffa3da0a-14d7-4b8b-a7d9-0aee22e0dea7
+Miller-Dieker syndrome|7e0b7ccb-8206-41ef-9d60-59c3ccae22fb
+Mitochondrial Uncoupling|bfcf9ba2-5ba0-4264-965e-3611c879585d
+Myoblast proliferation|b68f09e0-1997-449c-a7da-5403da74241c
+Myopathy|fdfc5c28-3da7-4388-a6cd-bd0507f8d96e
+Na,K-ATPase Rn|a69041ca-e199-4b84-9748-73b49a306682
+Nephrogenesis|7d9c4e0b-5ff9-44ae-9c4d-09b830bef25f
+Oedema|ff7fa367-9dde-4cb0-bad9-f715a5a8acd3
+Oncogene induced senescence|e858ec55-2c64-4d02-aa65-0ee0635b0dab
+Osteopenia|81e9ba60-6872-4532-9125-e83dbb34470a
+PR positive breast cancer|c35ce7b6-9ed6-4d06-bfe6-8797eb315dcc
+Paclitaxel resistance|92f95189-56f0-44f1-9ae1-185e9d09c86c
+Partial Pancreatectomy|c7f6ba80-7d27-4f6a-aabc-b16345ceca1b
+Photo-oxidative Stress|5590f00c-1b04-4a55-80a9-e8b85a8bd983
+Positive-Pressure Respiration|1f24e9ca-0ae4-439e-81e6-c831a408edce
+Proteasome assembly|04785a3e-1f68-4c75-981f-2bf9cea8b038
+Renal Maturation|0f11016d-e041-4258-885c-49ec7a12ebd2
+Renal Sclerosis|cf6b86e0-64cd-4e6b-a942-4a57b88efb19
+Respiratory Syncytial Virus Infection|9d83a206-f63e-4e2e-8352-df80822adee6
+Retinopathy|6eea9668-00d1-4322-8794-e951871534eb
+Schizophrenia|ebb1f5d7-a3f1-4adb-b162-fb96fe655ba0
+Skeletal Muscle Disuse Atrophy|7d348bd3-342f-462d-9ce0-e0fabee7cff7
+Skeletal Muscle Hypertrophy|6f7aca2b-d0ea-4562-be49-5b5445cfe7db
+Steatosis|c0097eb8-1432-4f6d-9093-4e8561cf7977
+Steroidogenesis|795dca9d-6c5b-46a2-b3a4-122ba0e152e6
+Superimposed Alcoholic Hepatitus|6290d367-5976-4245-9c6e-128da2d87b26
+Systemic Lupus Erythematosus|dc5d56af-9bb7-4bcb-b05a-3388c83deae6
+T-cell apoptosis|31c0b486-8f8e-4767-bacd-ae3f39968d10
+T-cell leukemia|bfc4f88f-16a9-49d5-95cc-bbb43b4726e0
+T-cell migration|aa1b423e-95c4-4517-b77a-79ad0fc786b8
+T-cell survival|93232a87-7fc6-407e-aa8d-d19987a4fd8d
+T-helper 17 cell activation|43e3f24a-fcc4-430c-b6fa-e949e0b46f37
+T-helper 2 cell proliferation|105baea9-13d5-48ce-aabe-a16113fae036
+T-type calcium channel complex|8e8ef74d-f13f-4298-acb1-a4da1d306e27
+TLR signaling|9d77531a-4be2-4d78-b2e6-13094743857b
+TLR3 signaling|6c02aa9c-e872-4320-8fc9-6a57bce95d7f
+TLR4 signaling|32dfecd4-d5d6-4c20-8b31-6698a55c5d98
+TLR9 signaling|af3f308b-c2bd-41c9-a144-04b6b5dfa733
+TSLP activity|52a7e812-bbd9-4748-a40f-edaa4ba4a14e
+Th1 cell activation|21b3eb1b-56f8-4013-8b0e-4b0b78cc1038
+Th1 response|1b2b2a27-10b2-45e4-b086-57fca4c92e3b
+Th1:Th2 ratio|ad469f1c-a950-4d5c-aaea-1f67b494a455
+Th2 response|72cce133-6154-4f57-b49e-7ce6abc2b0ca
+Triglyceride Synthesis|0b38ca53-64ce-494c-9528-892eed50b8a2
+Type I diabetes|040edb69-b7cd-4583-a1fe-d56e4554aac6
+Type II diabetes|41d7c2ed-98ff-4070-a0b1-e6bbd58efb99
+Ulcerative Colitis|c7932096-43bc-4423-9128-98b3e2557e9e
+Urothelial Plaque|ce38098e-eadd-4b83-8a47-005cf48f0ad4
+VCP Hexamer Mm|c646d653-1542-434a-b958-a98c6849b530
+VLDL biosynthesis|4c2ab905-00cf-451f-a580-8652972aa328
+VLDL secretion|25b5297b-85b1-4d06-b618-11a842192826
+Vascular Wall Inflammation|4b672b71-6e18-471a-b4f7-ea38f03519cd
+Vincristine resistance|5f4f227b-90ff-4412-8b2b-6e9f2192591d
+Weibel-Palade body externalization|6073647c-2a55-4717-abb9-dfd15960f5a3
+activated t cell extravasation|f2029a30-0b52-4858-b1dd-c25bd86507a4
+activated t cell tethering / rolling|a98a0807-7cfb-4313-9156-6f1ab7c5e0bf
+acute endotoxemia|33569798-e766-4aa8-a32b-c538fc3b2847
+acute lymphoblastic leukemia|6a918bee-9afd-4c85-9602-50d513ce02bb
+acute myelogenous leukemia|b5b75655-b0d3-49b0-aa8f-70aba35c795b
+acute phase reaction|8a3b03f5-063c-48f6-8e88-934d958a413d
+adenocarcinoma|601aaefa-25b4-4b17-95b9-821b740972dc
+adenoma|ce854d49-86f0-4b0d-9657-74b94213f18c
+adipocyte lipid droplet|e61ac019-0510-477b-b06d-d731fd516323
+adipocyte lipolysis|dd004565-2bd9-449f-a3c2-94b2a79c907b
+adipose glucose import|395df049-84a0-4f58-b60e-d14b2ca6dbc7
+adipose insulin receptor signaling pathway|7fb9600b-5486-4c37-a940-e4d6c9be5392
+advanced Adenocarcinoma|ac86d4b2-e67f-4afb-acc5-67555c9fe641
+amyotrophic lateral sclerosis|7cf1a141-0371-4efc-a439-df8df8bc5f75
+anchorage-independent growth|da7fad18-b3e3-407b-8a3c-6fc7ba03a631
+anemia|488c226f-248d-4e84-a82b-46ad88a655e4
+aneurysm formation|93990c06-077a-4846-bf03-984ffd1f3241
+ankylosing spondylitis|7c32d1fd-44bf-492e-8a42-fccb331bd8b1
+arteritis|257f2f2a-bdf8-4747-967d-c8b77a4e9910
+astrocytoma|ed3c60e4-8d44-4ea7-90c7-5485ea684f81
+atrial fibrillation|9300a442-19ec-4228-b3bc-2cbc75653af3
+atrophy|f8201991-446a-46fc-b2d5-3185c2d36b59
+autoimmunity|2916e0c3-d3a8-4861-ab31-2c986b87ee8c
+b-cell migration|c12376fe-62ed-4e2d-b64c-0f245c6814ac
+bacterial infection|561cd581-de8e-4bc0-9b7f-17ae6849b328
+barrett esophagus|f6929ad3-8b2c-4e98-963b-97b93ed0c782
+basophil extravasation|78cd0f3f-8fb5-4cda-b889-cd12560a6767
+bile duct ligation|91cdeea9-d11e-4ad6-b098-8279873c11bd
+blood flow|1553f053-ce74-4106-9a27-986e391c1dd0
+bradycardia|5458c716-602d-4aa4-a1de-dd029a1ab49c
+breast cancer metastasis|f4ff49ea-73fb-491b-96ed-b9110902ed33
+burn injury|ec8e6b40-36ee-485a-9d6e-65883b85a369
+cachexia|246c9343-c3de-49c9-92c4-ced505a6f151
+calcification|7c7c7872-f578-48a9-a74d-9d5f16cec1de
+calpain activation|88bd0ebe-3e4e-47c5-a80e-e43bed3c8b6d
+cancer|bab4a69b-f098-4606-913f-7c974303d658
+carcinoma of epithelium|f31b9443-df34-4bf7-8c57-0e63b3fa5af1
+carcinoma of liver|49e7f719-4a69-48ec-a208-26ca4ecf69f7
+carcinoma of lung|d303cc71-61ea-4497-b4da-673104d3313b
+carcinoma of prostate gland|1306293a-18d3-47e0-9954-cf4458f6f623
+carcinoma of squamous cell|5db3a27d-2212-4f30-b7b4-1c5d2ffaf6c3
+carcinoma of stomach|a7c861bc-680c-4b56-8427-fe1c8304a9aa
+cardiac arrhythmia|cc5e52c8-c7ed-4342-8643-4656bbdb4b68
+cardiac pacemaker activity|40ab1315-949d-484b-ac2f-0e1fe32acec0
+cardiomyocyte hypertrophy|c33e263f-f3a2-4ae9-8b17-e4edc5f03886
+castration|5c40a59a-a04f-483e-83d0-87287c567281
+cell scattering|2df4b0fd-b7ff-454b-9b2d-e7439d4365ca
+cell senescence|8cfdc71e-75bf-4ab4-a815-d753a3608e2a
+chondrogenesis|a845d91a-57a7-4117-af7a-f527d0e7c346
+chronic myeloid leukemia|a16671d4-c6d1-4cfa-91e4-97537036e09e
+cirrhosis|ec1f5ed3-98e8-4c0a-be75-93b68fd05899
+classical focal adhesion|cdfaf80b-c1a5-43c4-af7a-ed98ed44c184
+clot formation|76c48c63-4fe0-4c23-a91b-64c726604310
+colitis|27208e6c-7ea5-424b-8ba0-4df5089c17fd
+colorectal adenoma|e4026753-9afa-4bac-995b-5fa4ce6e2c06
+congestive heart failure|4dcd16e4-5028-455a-9235-b222e1055260
+cyclic stretch|6a783642-3c64-4a2e-903c-562038895e75
+cystic fibrosis|a5aef985-14de-4c5d-bee6-6d0c2ae73481
+degranulation|592c020c-7e69-4ec8-9e37-4c11577710cc
+dendritic cell extravasation|decf25c9-cd24-4e92-a21a-47ab2c4a2d8f
+dendritic cell migration to infection|a88d9917-7f81-47a9-b2f9-1c22b00e4a79
+dendritic cell tethering / rolling|00a6c9fb-9d24-442d-9d5f-d4c07a2f3598
+denervation|fe7f251c-fa1c-4ab0-a6ac-27f5e4e2ffb8
+dilatation|7410aadb-fec0-421e-a0fc-7b6afc480ec4
+ductal carcinoma|3fd211bf-dbf4-46dc-9812-ae01a313f781
+edema|65f1897d-cf9f-41e7-b732-85a973b1602b
+eif2 complex mm|10084e99-204e-43ac-a1c3-0742a4a7083c
+emphysema|8ab65b2f-b5f9-4c11-b2dc-27b95dd1ff59
+endothelial barrier function|709e71a7-4228-4c2a-93ae-22ad1a9c305d
+eosinophil extravasation|4eb79fd9-1002-4dd0-8c67-c1dea90a58e8
+eosinophil migration to infection|198bb9b4-f2f1-4d93-87f8-dde0bbeb056c
+epidermal stem cell homeostasis|bb46fcf2-5aa4-4b18-9e9d-531fb872fcdb
+epithelial barrier function|7137a68a-c61c-48f9-9789-326f70911f2e
+erectile dysfunction|464cb24f-a7f6-4c2d-aea7-649074a61358
+erythrocyte sedimentation rate|aba90a70-2a71-477b-b636-a722b2a8a56d
+exercise|4e9792d6-faa5-45d0-9de1-4542ae160cf2
+fatty acid esterification|89550419-7ce1-4668-9a08-9ee1517bd7e6
+fatty acid import|6ac645fb-f6b2-43a9-8d84-559d17425a7d
+fatty-acid synthesis|29bddb7b-f1f2-452e-9f61-d344cf814846
+female fertility|68dc8364-0f65-4b3f-9b00-9606c49fa056
+fertility|113f2812-191d-469d-9ac8-bcac15c96769
+fibrillar adhesion|a57397a1-5e42-41d2-a65a-cc283be97c42
+fibronectin matrix assembly|9806b892-9f15-451b-9ccf-65759e4e27b4
+fibrosis|faeaa788-d79a-4f72-86b1-58de669c0482
+focal adhesion disassembly|f325d05d-7d7f-4791-b36f-592da3641678
+follicle formation|cbdf57a2-10da-4721-ac54-025fda8a29ba
+food intake|c765d446-8978-465b-8046-3ff307e56917
+gallstones|8f67d61c-dd9d-4dc3-9334-b6baf2db6b66
+gastric adenocarcinoma|b1011e7d-e5aa-4b6f-9442-f78bf8809fe3
+glioblastoma|28b626c2-ae7d-4d93-a608-fb4e6e679fa1
+glioma|8544e328-e432-4e7f-92e5-505b693bb4b1
+glomerulonephritis|8044d534-cd42-45fc-85ab-95e2df9cdf30
+glomerulosclerosis|e559f021-b4a5-4d33-ad13-b4df7beee495
+glucose oxidation|b5e914f4-b734-4ed3-b2d1-a089f56d5cb9
+granulocyte activation|7a87dbae-9cf5-4840-8dce-8c31c29e9878
+haptotaxis|8c8b89c3-7d5e-4f8d-8099-bde28031983b
+heart block|0815f67f-3a13-4204-a390-77c3879d18b5
+heart rate|0475d853-497b-4efb-932d-7b2a04385481
+hematocrit|56536a5a-9fec-4242-8c46-30c32888c170
+hematopoiesis|c3f05a87-2bc2-4bd0-87cb-965435370219
+hemorrhage|c6ae705f-3d4e-4e25-a068-35631efd6935
+hepatitis|c3e4d0b6-f291-4141-8072-f6e6cd2fe46f
+hepatocellular carcinoma|7d81822c-3cb1-4886-8df1-662ae440e2ac
+hepatocyte response to toxin|f24645cb-65f7-4543-9104-f0e70e7196fe
+hereditary breast cancer|be95e102-89b0-46b8-acea-a312dba6ef90
+high-fat diet|60126ad8-4773-41c1-af25-92d0fc9bb1eb
+hodgkins disease|5b8612b8-87b7-4402-8028-60a42bac0739
+hydrocephalus|74d46f66-6485-4e06-8f8c-c2fa18f6fcf1
+hyperalgesia|4a6c8640-fb70-4f9e-b974-c0a238a995ff
+hypercholesterolemia|002b6839-ffe8-401d-bf9a-11266f70c670
+hyperemia|a5dd9f4f-6411-452e-b80c-8006484f6995
+hyperoxia|a0a2a20e-3fa3-454d-b5c6-03a43e030e5c
+hyperplasia|54148011-4b66-493e-9a48-098722e74398
+hyperplasia of breast tissue|d79e5d80-592a-40ab-a7df-ddbd6e34660a
+hypertension|79a0bcd3-663f-4c4c-9e0a-1021b5ce48ec
+hypertrophy|63879542-7281-4439-ab61-1217e1459974
+hypoglycemia|9215b592-d0a9-44c7-ba9f-bc5be24a0f0b
+immortalization|4a7130e2-a147-4e6b-92e5-c900b0ab347a
+immunoglobulin synthesis|e75da889-7de3-4ba5-9901-f088d8f2c372
+impaired glucose tolerance|ac991377-1a7c-4778-9f07-20ac640aff6b
+infection|a2732a59-dae1-4b2a-97f9-91c169eeccfd
+insulin resistance|a7b95369-26b6-4c8b-8ca6-c558c10a843a
+integrin mediated cell adhesion|b6c2e839-6aad-431f-97bf-86678a001053
+intestinal dysfunction|8c3b4278-5cd0-477b-9ed2-1fb02fe7299c
+intrauterine growth retardation|a0796eae-5415-4154-9151-e010c3a4355a
+invasive breast cancer|c61bba37-cab9-4bf8-a60d-b42989375995
+invasive cancer|727ef329-c006-4773-b676-a7d7d2620d16
+inward rectifier potassium channel complex hs|32a42626-d899-4c2e-b5a5-dba949841c25
+ketoacidosis|5dee8ab1-f467-4da2-b933-4f80caf61736
+laminar shear stress|cc083ed4-5cee-42cb-b92f-c755ffccf22a
+large cell carcinoma|05ea1ec0-1806-4c42-9922-cafacf735c76
+leakage of blood vessels|6cddb5db-24e6-41b6-8de9-4b6149a9b40c
+left ventricular systolic dysfunction|6e942cfb-954e-4e8f-aeeb-04efadefd66d
+leiomyloid tumor|91a6b8b1-1976-4c63-85a6-82cd9a801e27
+leiomyoma|6bf1bff1-15f6-4525-b1e5-a3311050b168
+leptin activity|c81ec445-90bb-4bc6-bb7e-65e3e2eea10e
+leukemia|92187026-5f01-4149-8c7d-59879046de1e
+leukemic infiltration|7d0a4349-cf0f-45b7-a029-247110d1366a
+leukocyte PAF secretion|856c6056-478d-4b69-9dd0-d8fa20231468
+leukocyte migration to infection|2aa05a10-ab9b-4566-b754-e720d5215146
+lipid peroxidation|2c4d691f-66d9-40aa-8edc-e03f0b60870e
+lipogenesis|b22e4acd-90bc-46f1-b61e-081b337a839f
+liposome|c0f2bc54-3af7-45c8-a070-8d38c95347fe
+liver fibrosis|748f145a-f775-4fbe-99d5-4a4ad9fe643c
+liver glucose import|1a8f7bd9-997f-4eb0-a018-cedfc60f3e14
+liver insulin receptor signaling pathway|62876c7e-8134-4aa8-89eb-22a647eb7adc
+local Adenocarcinoma|cdc26486-5032-49c4-bdf6-744214608132
+local acute phase reaction|5364209f-9528-4b8a-bf3d-ed381b658eda
+long QT syndrome|2bc18393-203f-4f8d-b6ed-ec5e76b40575
+long-chain peroxisomal fatty acid beta-oxidation|96ff9f46-92fc-47da-94ff-d1dbae5e6bc4
+low pH|b0195c84-8b2c-465c-a86a-e22f5d584d3e
+lung adenocarcinoma|487c0054-2bfb-404d-97e0-3a14d7e9eda7
+lung squamous cell carcinoma|e63c140e-5dc5-4556-bc19-bb5e2e4f41ed
+lung surfactant secretion|7760c289-72d8-427d-8ea4-c95a45513760
+lymphadenopathy|b8a987bc-40c9-4a58-a3fb-2c938b8c174f
+lymphoid hyperplasia|0a3527ce-4df2-415c-b9c9-6803bbc001cd
+lymphoma|756d9300-a856-41c7-b730-ef480984b37f
+lymphopenia|4ac18487-94f7-4569-9c72-6033c2a01a1d
+macrophage IL1A secretion|289ef526-e7f1-45ef-a7e9-fc8a9a757af6
+macrophage IL6 secretion|5f2eb513-a0d5-4355-a6bd-eebb4fc733fe
+macrophage IL8 secretion|7c4ceff2-6c08-4b24-818b-3a64438d5561
+macrophage TNF secretion|696cf7bb-8ec4-4d08-85f0-7b0cb9a085c1
+male fertility|f678d11f-39fb-485a-a2ee-ad9ea518ffc2
+mast cell TNF secretion|85fae726-c380-424d-8920-24e112463ce8
+mast cell histamine secretion|8d4eed3c-e464-4162-9d57-2a537fc632fd
+mean arterial pressure|68b003b1-5a95-47c5-87e7-219f39bb8f3c
+mechanical strain|b4a7d0f3-8ed7-45b4-a7b4-91dc1caf3c3e
+mechanical stress|e48b998e-31a1-42a4-b6d4-301ec8e061f4
+medulloblastoma|a8ea7187-57fc-4c6a-b07c-6664e78a342e
+melanoma|c5100674-6714-4de1-8c69-20b5edb8a519
+membrane polarization|b6e6e073-5e0f-4826-9131-e594e5e2ef2b
+mesothelioma|fee3c0c0-16ac-448e-9242-c364be5001d1
+metastasis|a4c3f3db-16b3-4ab5-a6d7-e5f4ca28e631
+microvesicle|109ba398-a294-42ee-bafa-f74aed0fd034
+microvesicle lipid raft|a847835d-3086-4bb7-aef8-6ebd2abf1c2b
+mitochondrial DNA damage|dc343375-24fa-4f13-b61e-67ab02440491
+mitochondrial damage|7254330d-23f1-4248-8231-60f668cf8bf1
+mitochondrial membrane potential|53c188ff-06fd-4bc3-a779-8ee0317fe0cc
+monocyte adherence|7856894e-48b8-47fc-b554-a16751ce32e8
+monocyte diapadesis|ad87cc90-ee45-486f-bcc3-390afad328c9
+monocyte extravasation|a9f050d0-02ab-49f4-b968-1f53e810af43
+monocyte migration to infection|32a82a10-748f-450e-8af0-f2d180d8fa74
+monocyte tethering / rolling|8c0c0aa3-0d08-4274-ab8b-800e838736ea
+motor neuron cell death|d8e6291c-55cb-4338-8745-248b74dfeae2
+multiple myeloma|85d1773e-1909-4c47-9d76-be96212e2eef
+muscle glucose import|bb541aa1-7bef-47ad-b089-8f7fbaf94bea
+muscle insulin receptor signaling pathway|329334ed-bd75-4f1b-9579-ef912cccb0f4
+muscle stretch|836b2b98-e9e7-45dc-a9bb-84dac61ad5a4
+muscular distrophy|e74147df-0693-4d5a-92ec-c5e067a55c23
+mycobacterial infection|1eb9040a-2976-4ac3-915b-55e0d98f631f
+myelodysplastic syndromes|b38e8abd-c09c-4424-852c-c463e641773a
+myeloproliferative disorder|e297c53c-d300-48fb-9c32-8f5468293cd0
+myocardial contraction|68e9e992-9925-4f1b-96d1-0c69e04335f5
+myocardial infarction|9c1e108a-e624-42e6-9119-15b0b5c04cac
+nanovesicle|56684299-7fc6-4856-ab79-4b1773b00c2c
+nanovesicle lipid raft|ec513b6e-ae57-40bc-bdff-3a6dedf99649
+natural killer cell activation-dependent arrest|3c82ae67-18a6-400f-84fa-dcebecbf6f74
+natural killer cell extravasation|0d795ccc-6fb9-4e6b-ab34-c29301dd7b29
+natural killer cell migration to infection|1a4b8bff-1e09-4822-9bcc-f6c3f313b858
+neoplasia|710f2fda-739e-4e14-971b-7b81e1de7f40
+nephropathy|0d099d6a-d217-41f8-8d81-41a593309732
+neuroblastoma|c92a5958-0d3a-4e2d-a920-eea86079db25
+neurodegeneration|45bd3eb2-dfbb-4df0-bc7b-f5a8d8d55a3d
+neuron cell death|c5c74872-5ef2-49b8-8b08-0ea721d9e914
+neuropathy|eb47f19d-e07d-4ebc-8d6a-cb1e3c215efb
+neutrophil ELA2 secretion|4d2d4a05-c803-404d-88a6-fd85ad669fe1
+neutrophil activation-dependent arrest|2cdf723c-fee9-4662-83a1-f007f8db94d9
+neutrophil extravasation|32fdca05-cc67-4d83-9c56-a21204c0ecd0
+neutrophil migration to infection|ce637740-9240-4f4c-9975-240981ce814d
+neutrophil polarization|e813fe69-b0ff-4ae4-8082-d6b3792ca618
+neutrophil tethering / rolling|53812c9a-48f0-446d-aed3-571d5b35e168
+non-hodgkins lymphoma|584055a2-ef06-4e8d-bbe3-39dc75e1e91e
+non-small cell lung carcinoma|c498c00f-7d3a-4a8c-8ce8-227a83759d2f
+noninvasive breast cancer|0e7392ca-f7cd-480f-8606-2c5460845fc2
+obesity|38622bd4-caa6-4100-b8e2-705f2581f0f1
+oncogenic transformation|df043b5a-c93b-46c7-9605-69460ee269ac
+osteoarthritis|23014143-b18c-4ac4-9ff1-1c22dc68c2d2
+osteoclast activity|e60555bb-3cc9-42af-a83d-3206ddb307e2
+osteopetrosis|757808cf-5722-4844-ba12-3f8b33ceab58
+osteoporosis|be8a87d7-f61d-46ee-b6ec-afbcf79185c0
+osteosarcoma|b5b1d39b-4832-4339-bdf7-4d12b4ba03c6
+pancreatic ductal carcinoma|c26dbf36-67d1-4dcc-a3d9-5aec54d0e40e
+peroxisomal fatty acid beta-oxidation|96f959f3-e898-4661-b0f5-d1c59922b73e
+peroxisome proliferation|abc6953f-c800-43b9-a7e5-14df3be16b1b
+phosphatidylcholine excretion|b8347f59-907e-4aa4-b4c1-4ad2b426c1c3
+phospholipid excretion|2be0d7c7-4c6c-469c-9ff9-4dd3a84737fa
+plaque destabilization|cf7e94f3-aaf0-4878-ae30-a75db3f9867e
+platelet activation-dependent arrest|414d5974-62d5-4351-9314-dc528c517184
+platelet spreading|0d3fad6d-83a1-4240-af1c-cf46e8d8f951
+platelet tethering / rolling|c3dfe695-9c80-465e-b18a-007112606228
+polycystic kidney disease|484f12bc-e8fb-4150-9beb-4593b1217c72
+polycythemia|d3dac4a6-29b6-4522-87de-54259d355f16
+prostate cancer|e015da95-b295-4bf8-969e-ef2fab763cb2
+psoriasis|acfddfc3-e6aa-477c-83a9-0fcf24ae2386
+rapid cell migration|d31f7a45-fb90-4675-89c9-1ff1e8424733
+regulatory t-cell differentiation|27d78c40-dbe2-41dc-aef7-14c6573a3cc2
+renal sodium ion reabsorption|69f28f95-6e7d-417a-bef2-5b28500583a7
+renal water reabsorption|215e29c1-fbb9-4493-8342-ca6a38ce8dad
+reperfusion injury|4990ee91-cb1e-4a16-9f53-3ea969bae43c
+response to shear stress|2d343a05-a613-4f04-b8a9-4d254e14466f
+retinoblastoma|24b4d61b-24ab-4a23-8398-259c90454796
+rhabdomyosarcoma|11323c46-6a98-49d7-a9a8-7b998ae90508
+rheumatoid arthritis|bd7b5f0d-18fc-4d2d-a3f2-7a4d84cf7d3f
+skin lesion|fac91f63-6d19-43b4-84c0-28f6707e1310
+small cell carcinoma|471b37ed-2cf9-41bc-bcdb-aae4396a75bf
+sodium-calcium exchanger complex|bf7f84b8-ec87-4846-a160-f9743cd7e8e9
+splenomegaly|46064b82-f89c-4267-b257-d04615fc63b4
+steatohepatitis|db383661-b8b0-4bfd-b831-42ad130fb00d
+stroke|7bc57db3-a843-41fc-8823-523637ddc457
+systemic acute phase reaction|b90881c0-9640-472f-84ff-fca37fb12fe5
+t(4 14) translocation|e4983068-4a89-447c-abb5-24b81ece87ed
+tachycardia|a8325fbd-73fe-4378-b17e-432541a178b9
+th2 cell activation|f7f80b60-f8fb-4162-8d4c-47396f31ed00
+thermogenesis|61354b8c-6f3a-4040-9745-39343a50ba49
+thrombopoietin activity|a4cc490d-cc31-442c-8592-9de918a574d8
+tight junction formation|dcac5e32-a6ce-43ae-a298-a3fcc6eeedf4
+tight junction permeability|ad35202f-08ca-43f2-af43-cb6a2588d3d9
+tissue damage|80e83c40-294f-4812-8fe8-49a37c8aabc1
+tissue repair|9d235be8-058c-476b-9ce7-39721b9b542c
+triple microtubule|31aaeedf-1b97-465d-9485-b33168117612
+tuberculosis|dc2171ef-1dbb-4550-bc0b-b456f24ffa10
+tumor angiogenesis|6e326cb5-a43b-4ad1-a247-9428c671c223
+tumor cell invasion|00d572be-a5f7-430d-ba78-c0d02545a7f0
+tumor growth|c0ce0b40-63c9-435e-a67c-ba905c452370
+turbulent shear stress|a0200e91-7e4b-44ba-a880-03046bbd6b21
+vascular dysfunction|e2d6da15-88d9-437e-828d-c5f5bd907b95
+vascular remodeling|1e2f12fe-7c4d-4236-9e59-596e6214699f
+vascular smooth muscle cell migration|61e073b3-a033-4ccc-bb68-6cdd7183ad64
+vascular smooth muscle cell proliferation|e44a88d5-638e-435d-8467-18477c546dd5
+vascular tissue damage|52b081a2-76ca-4cb2-96d2-f45974107e95
+vasculitis|e6b17961-7dc9-4035-a8ae-2ecfad3a40ab
+ventricular fibrillation|2950f5ea-8bb6-437d-8d83-1605f08ee5c1
+very-long-chain peroxisomal fatty acid beta-oxidation|1e5a84bd-0dd8-4cc8-a426-6bcc85c4d313
+viral infection|372df87f-7b0f-41ac-9d0e-b6e59fc3fd65

@@ -1,0 +1,1328 @@
+[AnnotationDefinition]
+Keyword=MeSHAnatomy
+TypeString=list
+DescriptionString=Anatomy terms from Medical Subject Headings (MeSH), limited to headings from the following subbranches:[A01], [A02], [A03], [A04], [A05], [A06], [A07], [A08], [A09], [A10], [A12], [A14], [A15], [A16], and [A17].
+UsageString=Use to annotate a statement demonstrated in a specific anatomical entity.
+VersionString=20131212
+CreatedDateTime=2013-12-12T10:21:52
+
+[Author]
+NameString=OpenBEL
+CopyrightString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=info@openbel.org
+
+[Citation]
+NameString=MeSH
+DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine.
+PublishedVersionString=2014
+ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+Abdomen|D000005
+Abdominal Cavity|D034841
+Abdominal Fat|D050153
+Abdominal Muscles|D000009
+Abdominal Wall|D034861
+Abducens Nerve|D000010
+Aborted Fetus|D037881
+Acanthocytes|D000050
+Accessory Nerve|D000055
+Acellular Dermis|D062088
+Acetabulum|D000077
+Achilles Tendon|D000125
+Acne Keloid|D000153
+Acoustic Maculae|D008267
+Acromioclavicular Joint|D000173
+Acromion|D000174
+Acrosome|D000177
+Adenoids|D000234
+Adipose Tissue|D000273
+Adipose Tissue, Brown|D002001
+Adipose Tissue, White|D052436
+Adnexa Uteri|D000290
+Adrenal Cortex|D000302
+Adrenal Glands|D000311
+Adrenal Medulla|D000313
+Adrenergic Fibers|D000320
+Adrenergic Neurons|D059331
+Adventitia|D063194
+Afferent Pathways|D000344
+Allantois|D000482
+Allografts|D064591
+Alveolar Process|D000539
+Amacrine Cells|D025042
+Amnion|D000650
+Amniotic Fluid|D000653
+Ampulla of Vater|D014670
+Amputation Stumps|D000672
+Amygdala|D000679
+Anal Canal|D001003
+Anatomic Landmarks|D059925
+Ankle|D000842
+Ankle Joint|D000843
+Anterior Capsule of the Lens|D057866
+Anterior Cerebral Artery|D020771
+Anterior Chamber|D000867
+Anterior Cruciate Ligament|D016118
+Anterior Eye Segment|D000869
+Anterior Horn Cells|D000870
+Anterior Hypothalamic Nucleus|D007025
+Anterior Thalamic Nuclei|D020643
+Antibody-Producing Cells|D000921
+Antigen-Presenting Cells|D000938
+Antilymphocyte Serum|D000961
+Aorta|D001011
+Aorta, Abdominal|D001012
+Aorta, Thoracic|D001013
+Aortic Bodies|D001016
+Aortic Valve|D001021
+Apocrine Glands|D001050
+Appendix|D001065
+Aqueous Humor|D001082
+Arachnoid|D001099
+Arcuate Nucleus|D001111
+Area Postrema|D031608
+Arm|D001132
+Arm Bones|D050280
+Arteries|D001158
+Arterioles|D001160
+Arteriovenous Anastomosis|D001163
+Arytenoid Cartilage|D001193
+Ascitic Fluid|D001202
+Astrocytes|D001253
+Atlanto-Axial Joint|D001268
+Atlanto-Occipital Joint|D001269
+Atrial Appendage|D020517
+Atrial Septum|D054087
+Atrioventricular Node|D001283
+Auditory Cortex|D001303
+Auditory Pathways|D001306
+Autografts|D064592
+Autonomic Fibers, Postganglionic|D001338
+Autonomic Fibers, Preganglionic|D001339
+Autonomic Nervous System|D001341
+Autonomic Pathways|D017776
+Axial Length, Eye|D058452
+Axilla|D001365
+Axillary Artery|D001366
+Axillary Vein|D001367
+Axis|D001368
+Axons|D001369
+Azygos Vein|D001401
+B-Lymphocyte Subsets|D016175
+B-Lymphocytes|D001402
+B-Lymphocytes, Regulatory|D060151
+Back|D001415
+Back Muscles|D064131
+Bartholin's Glands|D001472
+Basal Ganglia|D001479
+Basal Nucleus of Meynert|D020532
+Basement Membrane|D001485
+Basilar Artery|D001488
+Basilar Membrane|D001489
+Basophils|D001491
+Bicuspid|D001641
+Bile|D001646
+Bile Canaliculi|D001648
+Bile Ducts|D001652
+Bile Ducts, Extrahepatic|D017734
+Bile Ducts, Intrahepatic|D001653
+Biliary Tract|D001659
+Blastocyst|D001755
+Blastocyst Inner Cell Mass|D053624
+Blastoderm|D001756
+Blastodisc|D054239
+Blastomeres|D001757
+Blastula|D036703
+Blood|D001769
+Blood Buffy Coat|D058621
+Blood Cells|D001773
+Blood Platelets|D001792
+Blood Vessels|D001808
+Blood-Air Barrier|D015824
+Blood-Aqueous Barrier|D018916
+Blood-Brain Barrier|D001812
+Blood-Nerve Barrier|D049428
+Blood-Retinal Barrier|D001813
+Blood-Testis Barrier|D001814
+Bodily Secretions|D012634
+Body Fluid Compartments|D001825
+Body Fluids|D001826
+Body Regions|D001829
+Body Water|D001834
+Bone Marrow|D001853
+Bone Marrow Cells|D001854
+Bone Matrix|D001857
+Bone and Bones|D001842
+Bone-Patellar Tendon-Bone Grafts|D064594
+Bones of Lower Extremity|D050281
+Bones of Upper Extremity|D001133
+Bony Callus|D002146
+Bowman Capsule|D050476
+Bowman Membrane|D050541
+Brachial Artery|D001916
+Brachial Plexus|D001917
+Brachiocephalic Trunk|D016122
+Brachiocephalic Veins|D016121
+Brain|D001921
+Brain Stem|D001933
+Branchial Region|D001934
+Breast|D001940
+Broad Ligament|D001956
+Bronchi|D001980
+Bronchial Arteries|D001981
+Bronchioles|D055745
+Bruch Membrane|D016570
+Brunner Glands|D002011
+Bulbourethral Glands|D002030
+Bundle of His|D002036
+Bursa of Fabricius|D002060
+Bursa, Synovial|D002061
+Buttocks|D002081
+CA1 Region, Hippocampal|D056547
+CA2 Region, Hippocampal|D056651
+CA3 Region, Hippocampal|D056654
+CD4-Positive T-Lymphocytes|D015496
+CD8-Positive T-Lymphocytes|D018414
+Calcaneus|D002111
+Capillaries|D002196
+Capitate Bone|D051224
+Cardia|D002299
+Cardiovascular System|D002319
+Carotid Arteries|D002339
+Carotid Artery, Common|D017536
+Carotid Artery, External|D002342
+Carotid Artery, Internal|D002343
+Carotid Body|D002344
+Carotid Sinus|D002346
+Carpal Bones|D002348
+Carpal Joints|D050824
+Carpometacarpal Joints|D052737
+Cartilage|D002356
+Cartilage, Articular|D002358
+Cauda Equina|D002420
+Caudate Nucleus|D002421
+Cavernous Sinus|D002426
+Cecum|D002432
+Celiac Artery|D002445
+Celiac Plexus|D002447
+Central Nervous System|D002490
+Central Pattern Generators|D063226
+Cerebellar Cortex|D002525
+Cerebellar Nuclei|D002529
+Cerebellopontine Angle|D002530
+Cerebellum|D002531
+Cerebral Aqueduct|D002535
+Cerebral Arteries|D002536
+Cerebral Cortex|D002540
+Cerebral Veins|D002550
+Cerebral Ventricles|D002552
+Cerebrospinal Fluid|D002555
+Cerebrum|D054022
+Cerumen|D002571
+Cervical Atlas|D001270
+Cervical Plexus|D002572
+Cervical Rib|D057070
+Cervical Vertebrae|D002574
+Cervix Mucus|D002582
+Cervix Uteri|D002584
+Cheek|D002610
+Chemoreceptor Cells|D002628
+Chick Embryo|D002642
+Chief Cells, Gastric|D019872
+Chin|D002680
+Cholinergic Fibers|D002799
+Cholinergic Neurons|D059329
+Chorda Tympani Nerve|D002814
+Chordae Tendineae|D002815
+Chorioallantoic Membrane|D049033
+Chorion|D002823
+Chorionic Villi|D002824
+Choroid|D002829
+Choroid Plexus|D002831
+Chromaffin Cells|D019439
+Chromaffin Granules|D002837
+Chromaffin System|D002838
+Chyle|D002913
+Cicatrix|D002921
+Cicatrix, Hypertrophic|D017439
+Ciliary Arteries|D019842
+Ciliary Body|D002924
+Circle of Willis|D002941
+Cisterna Magna|D002946
+Clavicle|D002968
+Cleavage Stage, Ovum|D002970
+Clitoris|D002987
+Cloaca|D002988
+Coccyx|D003050
+Cochlea|D003051
+Cochlear Aqueduct|D003052
+Cochlear Duct|D003053
+Cochlear Nerve|D003056
+Cochlear Nucleus|D017626
+Collateral Ligaments|D017885
+Colon|D003106
+Colon, Ascending|D044682
+Colon, Descending|D044683
+Colon, Sigmoid|D012809
+Colon, Transverse|D044684
+Colonic Pouches|D039021
+Colostrum|D003126
+Common Bile Duct|D003135
+Composite Tissue Allografts|D064595
+Conjunctiva|D003228
+Connective Tissue|D003238
+Cornea|D003315
+Corneal Stroma|D003319
+Coronary Sinus|D054326
+Coronary Vessels|D003331
+Corpora Allata|D003335
+Corpus Callosum|D003337
+Corpus Luteum|D003338
+Corpus Striatum|D003342
+Corticotrophs|D052680
+Cranial Fontanelles|D055762
+Cranial Fossa, Anterior|D035262
+Cranial Fossa, Middle|D035301
+Cranial Fossa, Posterior|D003388
+Cranial Nerves|D003391
+Cranial Sinuses|D003392
+Cranial Sutures|D003393
+Cricoid Cartilage|D003413
+Cumulus Cells|D054885
+Cuspid|D003481
+Cyst Fluid|D020420
+Cystic Duct|D003549
+Cytokine-Induced Killer Cells|D055612
+Dander|D063607
+Decidua|D003656
+Deciduoma|D033301
+Deltoid Muscle|D057645
+Dendrites|D003712
+Dendritic Cells|D003713
+Dendritic Cells, Follicular|D020566
+Dendritic Spines|D049229
+Dental Arch|D003724
+Dental Cementum|D003739
+Dental Enamel|D003743
+Dental Papilla|D003771
+Dental Pellicle|D044622
+Dental Pulp|D003782
+Dental Pulp Cavity|D003786
+Dental Sac|D003795
+Dentate Gyrus|D018891
+Dentin|D003804
+Dentin, Secondary|D003809
+Dentinal Fluid|D019234
+Dentition|D003817
+Dentition, Mixed|D003818
+Dentition, Permanent|D019229
+Dermis|D020405
+Descemet Membrane|D003886
+Diagonal Band of Broca|D020667
+Diaphragm|D003964
+Diaphyses|D018483
+Diastema|D003970
+Diencephalon|D004027
+Digestive System|D004064
+Dopaminergic Neurons|D059290
+Dorsomedial Hypothalamic Nucleus|D004302
+Douglas' Pouch|D004312
+Ductus Arteriosus|D004373
+Duodenum|D004386
+Dura Mater|D004388
+Ear|D004423
+Ear Auricle|D054644
+Ear Canal|D004424
+Ear Cartilage|D004425
+Ear Ossicles|D004429
+Ear, External|D004431
+Ear, Inner|D007758
+Ear, Middle|D004432
+Eccrine Glands|D004439
+Ectoderm|D004475
+Efferent Pathways|D004525
+Egg Yolk|D004530
+Ejaculatory Ducts|D004543
+Elastic Cartilage|D051472
+Elastic Tissue|D004547
+Elbow|D004550
+Elbow Joint|D004551
+Electrical Synapses|D054351
+Embryo, Mammalian|D004622
+Embryo, Nonmammalian|D004625
+Embryonic Structures|D004628
+Enamel Organ|D004658
+Endocardial Cushions|D054089
+Endocardium|D004699
+Endocrine Glands|D004702
+Endocrine System|D004703
+Endoderm|D004707
+Endolymph|D004710
+Endolymphatic Duct|D004711
+Endolymphatic Sac|D004712
+Endometrium|D004717
+Endothelium|D004727
+Endothelium, Corneal|D004728
+Endothelium, Lymphatic|D004729
+Endothelium, Vascular|D004730
+Enteric Nervous System|D017615
+Enterochromaffin Cells|D004759
+Enterochromaffin-like Cells|D019861
+Enterocytes|D020895
+Enteroendocrine Cells|D019858
+Entopeduncular Nucleus|D020392
+Entorhinal Cortex|D018728
+Eosinophils|D004804
+Ependyma|D004805
+Ependymoglial Cells|D063928
+Epidermis|D004817
+Epididymis|D004822
+Epidural Space|D004824
+Epigastric Arteries|D019074
+Epiglottis|D004825
+Epiphyses|D004838
+Epithalamus|D019261
+Epithelial Attachment|D004846
+Epithelioid Cells|D015622
+Epithelium|D004848
+Epithelium, Corneal|D019573
+Erythroblasts|D004900
+Erythrocyte Inclusions|D004908
+Erythrocyte Membrane|D004910
+Erythrocytes|D004912
+Erythrocytes, Abnormal|D004913
+Erythroid Precursor Cells|D015672
+Esophageal Sphincter, Lower|D049630
+Esophageal Sphincter, Upper|D049631
+Esophagogastric Junction|D004943
+Esophagus|D004947
+Ethmoid Bone|D005004
+Ethmoid Sinus|D005005
+Eustachian Tube|D005064
+Exocrine Glands|D005088
+Extracellular Fluid|D045604
+Extracellular Space|D005110
+Extraembryonic Membranes|D005321
+Extrapyramidal Tracts|D005116
+Extravascular Lung Water|D015633
+Extremities|D005121
+Exudates and Transudates|D005122
+Eye|D005123
+Eyebrows|D005138
+Eyelashes|D005140
+Eyelids|D005143
+Face|D005145
+Facial Bones|D005147
+Facial Muscles|D005152
+Facial Nerve|D005154
+Fallopian Tubes|D005187
+Fascia|D005205
+Fascia Lata|D005206
+Feces|D005243
+Femoral Artery|D005263
+Femoral Nerve|D005267
+Femoral Vein|D005268
+Femur|D005269
+Femur Head|D005270
+Femur Neck|D005272
+Fetal Blood|D005312
+Fetal Heart|D005318
+Fetus|D005333
+Fibrocartilage|D051445
+Fibula|D005360
+Finger Joint|D005384
+Finger Phalanges|D050278
+Fingers|D005385
+Fluids and Secretions|D005441
+Foam Cells|D005487
+Follicular Fluid|D015571
+Foot|D005528
+Foot Bones|D005529
+Foot Joints|D033023
+Foramen Magnum|D005539
+Foramen Ovale|D054085
+Forearm|D005542
+Forefoot, Human|D005545
+Forehead|D005546
+Foreskin|D052816
+Fornix, Brain|D020712
+Fourth Ventricle|D020546
+Fovea Centralis|D005584
+Free Tissue Flaps|D058752
+Frontal Bone|D005624
+Frontal Lobe|D005625
+Frontal Sinus|D005626
+Fundus Oculi|D005654
+GABAergic Neurons|D059330
+Gallbladder|D005704
+Ganglia|D005724
+Ganglia, Autonomic|D005725
+Ganglia, Invertebrate|D017952
+Ganglia, Parasympathetic|D005726
+Ganglia, Sensory|D017950
+Ganglia, Spinal|D005727
+Ganglia, Sympathetic|D005728
+Gastric Acid|D005744
+Gastric Fundus|D005748
+Gastric Juice|D005750
+Gastric Mucosa|D005753
+Gastric Stump|D018530
+Gastrin-Secreting Cells|D019863
+Gastroepiploic Artery|D024405
+Gastrointestinal Contents|D005766
+Gastrointestinal Tract|D041981
+Gastrula|D005775
+Geniculate Bodies|D005829
+Geniculate Ganglion|D005830
+Genitalia|D005835
+Genitalia, Female|D005836
+Genitalia, Male|D005837
+Germ Cells|D005854
+Germ Layers|D005855
+Germinal Center|D018858
+Gestational Sac|D058746
+Giant Cells, Foreign-Body|D015743
+Giant Cells, Langhans|D015744
+Gingiva|D005881
+Gingival Crevicular Fluid|D005883
+Glenoid Cavity|D061165
+Globus Pallidus|D005917
+Glomerular Basement Membrane|D050533
+Glomerular Filtration Barrier|D060730
+Glomerular Mesangium|D005920
+Glomus Jugulare|D005924
+Glomus Tympanicum|D043485
+Glossopharyngeal Nerve|D005930
+Glottis|D005931
+Glucagon-Secreting Cells|D050416
+Goblet Cells|D020397
+Golgi-Mazzoni Corpuscles|D006057
+Gonadotrophs|D052681
+Gonads|D006066
+Granulation Tissue|D006097
+Granulocyte Precursor Cells|D042381
+Granulocyte-Macrophage Progenitor Cells|D055014
+Granulocytes|D006098
+Granulosa Cells|D006107
+Groin|D006119
+Growth Cones|D020439
+Growth Plate|D006132
+Gyrus Cinguli|D006179
+Habenula|D019262
+Hair|D006197
+Hair Cells, Ampulla|D054777
+Hair Cells, Auditory|D006198
+Hair Cells, Auditory, Inner|D006199
+Hair Cells, Auditory, Outer|D018072
+Hair Cells, Vestibular|D018069
+Hair Follicle|D018859
+Hallux|D006214
+Hamate Bone|D051225
+Hand|D006225
+Hand Bones|D050276
+Hand Joints|D050823
+Haversian System|D006253
+Head|D006257
+Head Kidney|D060226
+Heart|D006321
+Heart Atria|D006325
+Heart Conduction System|D006329
+Heart Septum|D006346
+Heart Valves|D006351
+Heart Ventricles|D006352
+Heel|D006365
+Heinz Bodies|D006366
+Hematopoietic Stem Cells|D006412
+Hematopoietic System|D006413
+Hemic and Immune Systems|D006424
+Hemocytes|D006434
+Hepatic Artery|D006499
+Hepatic Duct, Common|D006500
+Hepatic Veins|D006503
+Heterografts|D064593
+High Vocal Center|D053400
+Hip|D006615
+Hip Joint|D006621
+Hippocampus|D006624
+Histiocytes|D006644
+Humeral Head|D058430
+Humerus|D006811
+Hyalin|D006818
+Hyaline Cartilage|D051457
+Hymen|D006924
+Hyoid Bone|D006928
+Hypogastric Plexus|D007001
+Hypoglossal Nerve|D007002
+Hypopharynx|D007013
+Hypothalamic Area, Lateral|D007026
+Hypothalamo-Hypophyseal System|D007030
+Hypothalamus|D007031
+Hypothalamus, Anterior|D007032
+Hypothalamus, Middle|D007033
+Hypothalamus, Posterior|D007034
+Ileocecal Valve|D007080
+Ileum|D007082
+Iliac Artery|D007083
+Iliac Vein|D007084
+Ilium|D007085
+Immune Sera|D007106
+Immune System|D007107
+Immunological Synapses|D054992
+Incisor|D007180
+Incus|D007188
+Inferior Colliculi|D007245
+Inguinal Canal|D007264
+Insulin-Secreting Cells|D050417
+Integumentary System|D034582
+Intercostal Muscles|D007366
+Intercostal Nerves|D007367
+Intermediate Back Muscles|D064169
+Internal Capsule|D020772
+Interneurons|D007395
+Intervertebral Disc|D007403
+Intestinal Mucosa|D007413
+Intestinal Secretions|D007419
+Intestine, Large|D007420
+Intestine, Small|D007421
+Intestines|D007422
+Intra-Abdominal Fat|D050152
+Intracellular Fluid|D007424
+Intracellular Space|D042541
+Intralaminar Thalamic Nuclei|D020646
+Iris|D007498
+Ischium|D007512
+Islands of Calleja|D020670
+Islets of Langerhans|D007515
+Isografts|D064596
+Jaw|D007568
+Jejunum|D007583
+Joint Capsule|D017746
+Joints|D007596
+Jugular Veins|D007601
+Jurkat Cells|D019169
+Juxtaglomerular Apparatus|D007606
+Keloid|D007627
+Kidney|D007668
+Kidney Calices|D007670
+Kidney Cortex|D007672
+Kidney Glomerulus|D007678
+Kidney Medulla|D007679
+Kidney Pelvis|D007682
+Kidney Tubules|D007684
+Kidney Tubules, Collecting|D007685
+Kidney Tubules, Distal|D007686
+Kidney Tubules, Proximal|D007687
+Killer Cells, Lymphokine-Activated|D015979
+Killer Cells, Natural|D007694
+Knee|D007717
+Knee Joint|D007719
+Kupffer Cells|D007728
+Labial Frenum|D007742
+Labyrinth Supporting Cells|D007760
+Labyrinthine Fluids|D007761
+Lacrimal Apparatus|D007765
+Lactotrophs|D052682
+Langerhans Cells|D007801
+Laryngeal Cartilages|D007817
+Laryngeal Mucosa|D007820
+Laryngeal Muscles|D007821
+Laryngeal Nerves|D007823
+Larynx|D007830
+Lateral Ligament, Ankle|D017844
+Lateral Thalamic Nuclei|D020647
+Lateral Ventricles|D020547
+Leg|D007866
+Leg Bones|D007867
+Lens Capsule, Crystalline|D007903
+Lens Cortex, Crystalline|D007904
+Lens Nucleus, Crystalline|D007907
+Lens, Crystalline|D007908
+Lesser Pelvis|D057892
+Leukocytes|D007962
+Leukocytes, Mononuclear|D007963
+Lewy Bodies|D016631
+Leydig Cells|D007985
+Ligaments|D008022
+Ligaments, Articular|D008023
+Ligamentum Flavum|D017843
+Limb Buds|D018878
+Limbic System|D008032
+Limbus Corneae|D016850
+Lingual Frenum|D008035
+Lingual Nerve|D008036
+Lip|D008046
+Liver|D008099
+Locus Coeruleus|D008125
+Longitudinal Ligaments|D017846
+Loop of Henle|D008138
+Lower Extremity|D035002
+Lower Gastrointestinal Tract|D041741
+Lumbar Vertebrae|D008159
+Lumbosacral Plexus|D008160
+Lumbosacral Region|D008161
+Lunate Bone|D012667
+Lung|D008168
+Luteal Cells|D008184
+Lymph|D008196
+Lymph Nodes|D008198
+Lymphatic System|D008208
+Lymphatic Vessels|D042601
+Lymphocyte Subsets|D016131
+Lymphocytes|D008214
+Lymphocytes, Null|D008215
+Lymphocytes, Tumor-Infiltrating|D016246
+Lymphoid Progenitor Cells|D054503
+Lymphoid Tissue|D008221
+Macrophages|D008264
+Macrophages, Alveolar|D016676
+Macrophages, Peritoneal|D017737
+Macula Lutea|D008266
+Malleus|D008307
+Mamillary Bodies|D008326
+Mammary Arteries|D008323
+Mammary Glands, Animal|D008321
+Mammary Glands, Human|D042361
+Mandible|D008334
+Mandibular Condyle|D008335
+Mandibular Nerve|D008340
+Manubrium|D008371
+Masseter Muscle|D008406
+Mast Cells|D008407
+Masticatory Muscles|D008410
+Mastoid|D008416
+Maxilla|D008437
+Maxillary Artery|D008438
+Maxillary Nerve|D008442
+Maxillary Sinus|D008443
+Mechanoreceptors|D008465
+Meckel Diverticulum|D008467
+Meconium|D008470
+Medial Collateral Ligament, Knee|D017888
+Medial Forebrain Bundle|D008474
+Median Eminence|D008473
+Median Nerve|D008475
+Mediastinum|D008482
+Mediodorsal Thalamic Nucleus|D020645
+Medulla Oblongata|D008526
+Megakaryocyte Progenitor Cells|D055016
+Megakaryocyte-Erythroid Progenitor Cells|D055015
+Megakaryocytes|D008533
+Megaloblasts|D008534
+Meibomian Glands|D008537
+Melanotrophs|D052717
+Melena|D008551
+Membranes|D008566
+Meningeal Arteries|D008576
+Meninges|D008578
+Menisci, Tibial|D008592
+Merkel Cells|D018862
+Mesangial Cells|D050527
+Mesencephalon|D008636
+Mesenteric Arteries|D008638
+Mesenteric Artery, Inferior|D017537
+Mesenteric Artery, Superior|D017538
+Mesenteric Veins|D008642
+Mesentery|D008643
+Mesocolon|D008646
+Mesoderm|D008648
+Mesonephros|D008650
+Metacarpal Bones|D050279
+Metacarpophalangeal Joint|D008662
+Metacarpus|D008663
+Metatarsal Bones|D008682
+Metatarsophalangeal Joint|D008683
+Metatarsus|D008684
+Metencephalon|D020540
+Microglia|D017628
+Microvessels|D055806
+Middle Cerebral Artery|D020768
+Midline Thalamic Nuclei|D020644
+Milk|D008892
+Milk, Human|D008895
+Mirror Neurons|D059167
+Mitral Valve|D008943
+Molar|D008963
+Molar, Third|D008964
+Monocyte-Macrophage Precursor Cells|D055017
+Monocytes|D009000
+Monocytes, Activated Killer|D016260
+Mononuclear Phagocyte System|D012157
+Morula|D009028
+Mossy Fibers, Hippocampal|D019599
+Motor Cortex|D009044
+Motor Endplate|D009045
+Motor Neurons|D009046
+Motor Neurons, Gamma|D009047
+Mouth|D009055
+Mouth Floor|D009060
+Mouth Mucosa|D009061
+Mucous Membrane|D009092
+Mucus|D009093
+Mullerian Ducts|D009095
+Muscle Fibers, Fast-Twitch|D018656
+Muscle Fibers, Skeletal|D018485
+Muscle Fibers, Slow-Twitch|D018657
+Muscle Spindles|D009470
+Muscle, Skeletal|D018482
+Muscle, Smooth|D009130
+Muscle, Smooth, Vascular|D009131
+Muscle, Striated|D054792
+Muscles|D009132
+Musculocutaneous Nerve|D009138
+Musculoskeletal System|D009141
+Myelencephalon|D054024
+Myelin Sheath|D009186
+Myeloid Progenitor Cells|D023461
+Myenteric Plexus|D009197
+Myoblasts, Cardiac|D032386
+Myocardium|D009206
+Myocutaneous Flap|D064827
+Myocytes, Cardiac|D032383
+Myofibrils|D009210
+Myometrium|D009215
+Nails|D009262
+Nasal Bone|D009295
+Nasal Cartilages|D055171
+Nasal Cavity|D009296
+Nasal Mucosa|D009297
+Nasal Septum|D009300
+Nasolabial Fold|D060052
+Nasolacrimal Duct|D009301
+Nasopharynx|D009305
+Natal Teeth|D009306
+Natural Killer T-Cells|D055611
+Neck|D009333
+Neck Muscles|D009334
+Neocortex|D019579
+Neostriatum|D017072
+Nephrons|D009399
+Nerve Endings|D009411
+Nerve Fibers|D009412
+Nerve Fibers, Myelinated|D009413
+Nerve Fibers, Unmyelinated|D036421
+Nerve Net|D009415
+Nerve Tissue|D009417
+Nervous System|D009420
+Neural Analyzers|D009430
+Neural Crest|D009432
+Neural Pathways|D009434
+Neural Plate|D054258
+Neural Tube|D054259
+Neurilemma|D009441
+Neurites|D016501
+Neuroeffector Junction|D009451
+Neuroepithelial Bodies|D046568
+Neuroepithelial Cells|D046569
+Neurofibrillary Tangles|D016874
+Neurofibrils|D009454
+Neuroglia|D009457
+Neuromuscular Junction|D009469
+Neurons|D009474
+Neurons, Afferent|D009475
+Neurons, Efferent|D009476
+Neuropil|D019581
+Neuropil Threads|D019600
+Neurosecretory Systems|D009490
+Neutrophils|D009504
+Nipple Aspirate Fluid|D055966
+Nipples|D009558
+Nissl Bodies|D009562
+Nitrergic Neurons|D026602
+Nociceptors|D009619
+Nodose Ganglion|D009620
+Nose|D009666
+Notochord|D009672
+Nucleus Accumbens|D009714
+Obturator Nerve|D009776
+Occipital Bone|D009777
+Occipital Lobe|D009778
+Oculomotor Muscles|D009801
+Oculomotor Nerve|D009802
+Odontoid Process|D009809
+Olecranon Process|D056740
+Olfactory Bulb|D009830
+Olfactory Mucosa|D009831
+Olfactory Nerve|D009832
+Olfactory Pathways|D009833
+Olfactory Receptor Neurons|D018034
+Oligodendroglia|D009836
+Olivary Nucleus|D009847
+Omentum|D009852
+Oocytes|D009865
+Oogonia|D009867
+Ophthalmic Artery|D009880
+Ophthalmic Nerve|D009882
+Optic Chiasm|D009897
+Optic Disk|D009898
+Optic Nerve|D009900
+Orbit|D009915
+Organ of Corti|D009925
+Organizers, Embryonic|D020897
+Organoids|D009940
+Organs at Risk|D058958
+Oropharynx|D009960
+Otolithic Membrane|D010037
+Oval Window, Ear|D010046
+Ovarian Follicle|D006080
+Ovary|D010053
+Ovum|D010063
+Pacinian Corpuscles|D010141
+Palatal Muscles|D010156
+Palate|D010159
+Palate, Hard|D021362
+Palate, Soft|D010160
+Palatine Tonsil|D014066
+Pancreas|D010179
+Pancreas, Exocrine|D046790
+Pancreatic Ducts|D010183
+Pancreatic Juice|D010189
+Pancreatic Polypeptide-Secreting Cells|D050418
+Paneth Cells|D019879
+Papillary Muscles|D010210
+Para-Aortic Bodies|D010220
+Paraganglia, Chromaffin|D010233
+Paraganglia, Nonchromaffin|D010234
+Parahippocampal Gyrus|D020534
+Paranasal Sinuses|D010256
+Paraspinal Muscles|D064170
+Parasympathetic Fibers, Postganglionic|D017777
+Parasympathetic Nervous System|D010275
+Parathyroid Glands|D010280
+Paraventricular Hypothalamic Nucleus|D010286
+Parietal Bone|D010294
+Parietal Cells, Gastric|D010295
+Parietal Lobe|D010296
+Parotid Gland|D010306
+Parotid Region|D035421
+Patella|D010329
+Patellar Ligament|D017847
+Patellofemoral Joint|D057071
+Pectoralis Muscles|D010369
+Pedunculopontine Tegmental Nucleus|D045042
+Pelvic Bones|D010384
+Pelvic Floor|D017773
+Pelvis|D010388
+Penis|D010413
+Perforant Pathway|D019580
+Perforator Flap|D061525
+Periapical Tissue|D010486
+Periaqueductal Gray|D010487
+Pericardium|D010496
+Pericytes|D020286
+Perilymph|D010498
+Perineum|D010502
+Periodontal Ligament|D010513
+Periodontium|D010519
+Periosteum|D010521
+Peripheral Nerves|D010525
+Peripheral Nervous System|D017933
+Peritoneal Cavity|D010529
+Peritoneal Stomata|D054048
+Peritoneum|D010537
+Peroneal Nerve|D010543
+Petrous Bone|D010579
+Peyer's Patches|D010581
+Phagocytes|D010586
+Pharyngeal Muscles|D010609
+Pharynx|D010614
+Photoreceptor Cells|D010786
+Photoreceptor Cells, Invertebrate|D017956
+Photoreceptor Cells, Vertebrate|D020419
+Photoreceptor Connecting Cilium|D055212
+Phrenic Nerve|D010791
+Pia Mater|D010841
+Pigment Epithelium of Eye|D010857
+Pineal Gland|D010870
+Pisiform Bone|D051220
+Pituitary Gland|D010902
+Pituitary Gland, Anterior|D010903
+Pituitary Gland, Intermediate|D052716
+Pituitary Gland, Posterior|D010904
+Pituitary-Adrenal System|D010913
+Placenta|D010920
+Plasma|D010949
+Plasma Cells|D010950
+Platelet-Rich Plasma|D053657
+Pleura|D010994
+Pleural Cavity|D035422
+Pneumocytes|D056809
+Podocytes|D050199
+Polar Bodies|D059705
+Pons|D011149
+Popliteal Artery|D011150
+Popliteal Vein|D011152
+Portal System|D011168
+Portal Vein|D011169
+Post-Synaptic Density|D057907
+Posterior Capsule of the Lens|D057852
+Posterior Cerebral Artery|D020769
+Posterior Cruciate Ligament|D016119
+Posterior Eye Segment|D057972
+Posterior Horn Cells|D020671
+Posterior Thalamic Nuclei|D020656
+Prefrontal Cortex|D017397
+Preoptic Area|D011301
+Pressoreceptors|D011311
+Presynaptic Terminals|D017729
+Primitive Streak|D054240
+Pronephros|D060910
+Prosencephalon|D016548
+Prostate|D011467
+Psoas Muscles|D016658
+Pterygoid Muscles|D011626
+Pterygopalatine Fossa|D056739
+Pubic Bone|D011630
+Pubic Symphysis|D011631
+Pudendal Nerve|D060525
+Pulmonary Alveoli|D011650
+Pulmonary Artery|D011651
+Pulmonary Stretch Receptors|D011661
+Pulmonary Valve|D011664
+Pulmonary Veins|D011667
+Pulvinar|D020649
+Pupil|D011680
+Purkinje Cells|D011689
+Purkinje Fibers|D011690
+Putamen|D011699
+Pyloric Antrum|D011706
+Pylorus|D011708
+Pyramidal Cells|D017966
+Pyramidal Tracts|D011712
+Pyriform Sinus|D056144
+Quadriceps Muscle|D052097
+Radial Artery|D017534
+Radial Nerve|D011826
+Radius|D011884
+Ranvier's Nodes|D011901
+Raphe Nuclei|D011903
+Rectum|D012007
+Rectus Abdominis|D017568
+Recurrent Laryngeal Nerve|D012009
+Red Nucleus|D012012
+Renal Artery|D012077
+Renal Veins|D012082
+Respiratory Center|D012125
+Respiratory Mucosa|D020545
+Respiratory Muscles|D012132
+Respiratory System|D012137
+Rete Testis|D012152
+Reticular Formation|D012154
+Reticulocytes|D012156
+Retina|D012160
+Retinal Artery|D012161
+Retinal Bipolar Cells|D051245
+Retinal Cone Photoreceptor Cells|D017949
+Retinal Ganglion Cells|D012165
+Retinal Horizontal Cells|D051248
+Retinal Neurons|D055351
+Retinal Photoreceptor Cell Inner Segment|D055211
+Retinal Photoreceptor Cell Outer Segment|D055214
+Retinal Pigment Epithelium|D055213
+Retinal Rod Photoreceptor Cells|D017948
+Retinal Vein|D012169
+Retinal Vessels|D012171
+Retroperitoneal Space|D012187
+Rhombencephalon|D012249
+Ribs|D012272
+Rod Cell Outer Segment|D012374
+Rotator Cuff|D017006
+Round Ligament|D012404
+Round Window, Ear|D012405
+Saccule and Utricle|D012444
+Sacrococcygeal Region|D012445
+Sacroiliac Joint|D012446
+Sacrum|D012447
+Saliva|D012463
+Salivary Ducts|D018987
+Salivary Glands|D012469
+Salivary Glands, Minor|D012470
+Saphenous Vein|D012501
+Sarcomeres|D012518
+Sarcoplasmic Reticulum|D012519
+Satellite Cells, Perineuronal|D027161
+Scala Tympani|D012533
+Scala Vestibuli|D054738
+Scalp|D012535
+Scaphoid Bone|D021361
+Scapula|D012540
+Schwann Cells|D012583
+Sciatic Nerve|D012584
+Sclera|D012590
+Scrotum|D012611
+Sebaceous Glands|D012627
+Sebum|D012629
+Sella Turcica|D012658
+Semen|D012661
+Semicircular Canals|D012665
+Semicircular Ducts|D054776
+Seminal Vesicles|D012669
+Seminiferous Epithelium|D012670
+Seminiferous Tubules|D012671
+Sense Organs|D012679
+Sensory Receptor Cells|D011984
+Septal Nuclei|D012686
+Septum Pellucidum|D012688
+Septum of Brain|D020665
+Serotonergic Neurons|D059326
+Serous Membrane|D012704
+Sertoli Cells|D012708
+Serum|D044967
+Sesamoid Bones|D012716
+Shoulder|D012782
+Shoulder Joint|D012785
+Sinoatrial Node|D012849
+Sinus of Valsalva|D012850
+Skeletal Muscle Ventricle|D019739
+Skeleton|D012863
+Skin|D012867
+Skull|D012886
+Skull Base|D019291
+Smegma|D012902
+Solitary Nucleus|D017552
+Somatosensory Cortex|D013003
+Somatostatin-Secreting Cells|D019864
+Somatotrophs|D052683
+Somites|D019170
+Sperm Head|D013077
+Sperm Midpiece|D032961
+Sperm Tail|D013082
+Spermatic Cord|D013085
+Spermatids|D013087
+Spermatocytes|D013090
+Spermatogonia|D013093
+Spermatozoa|D013094
+Sphenoid Bone|D013100
+Sphenoid Sinus|D013101
+Spherocytes|D013102
+Sphincter of Oddi|D009803
+Spinal Canal|D013115
+Spinal Cord|D013116
+Spinal Nerve Roots|D013126
+Spinal Nerves|D013127
+Spine|D013131
+Spinocerebellar Tracts|D020824
+Spinothalamic Tracts|D013133
+Spiral Ganglion|D013136
+Spiral Lamina|D013137
+Spiral Ligament of Cochlea|D055493
+Splanchnic Nerves|D013153
+Spleen|D013154
+Splenic Artery|D013157
+Splenic Vein|D013162
+Sputum|D013183
+Stapedius|D013198
+Stapes|D013199
+Stellate Ganglion|D013233
+Sternoclavicular Joint|D013247
+Sternocostal Joints|D013248
+Sternum|D013249
+Stomach|D013270
+Stomatognathic System|D013284
+Stria Vascularis|D013316
+Subarachnoid Space|D013346
+Subclavian Artery|D013348
+Subclavian Vein|D013350
+Subcommissural Organ|D013351
+Subcutaneous Fat|D050151
+Subcutaneous Fat, Abdominal|D050507
+Subcutaneous Tissue|D040521
+Subdural Space|D013355
+Subfornical Organ|D013356
+Sublingual Gland|D013361
+Submandibular Gland|D013363
+Submucous Plexus|D013368
+Subretinal Fluid|D058471
+Substantia Gelatinosa|D013376
+Substantia Innominata|D013377
+Substantia Nigra|D013378
+Subtalar Joint|D013380
+Subthalamic Nucleus|D020531
+Subthalamus|D020530
+Superficial Back Muscles|D064171
+Superior Cervical Ganglion|D017783
+Superior Colliculi|D013477
+Superior Sagittal Sinus|D054063
+Suprachiasmatic Nucleus|D013493
+Supraoptic Nucleus|D013495
+Sural Nerve|D013497
+Surgical Flaps|D013524
+Surgical Stomas|D054047
+Surgically-Created Structures|D019738
+Sweat|D013542
+Sweat Glands|D013545
+Sympathetic Fibers, Postganglionic|D017779
+Sympathetic Nervous System|D013564
+Synapses|D013569
+Synaptic Membranes|D013570
+Synaptic Vesicles|D013572
+Synovial Fluid|D013582
+Synovial Membrane|D013583
+T-Lymphocyte Subsets|D016176
+T-Lymphocytes|D013601
+T-Lymphocytes, Cytotoxic|D013602
+T-Lymphocytes, Helper-Inducer|D006377
+T-Lymphocytes, Regulatory|D050378
+Talus|D013628
+Tarsal Bones|D013639
+Tarsal Joints|D013640
+Taste Buds|D013650
+Tears|D013666
+Tectorial Membrane|D013680
+Tectum Mesencephali|D003336
+Tegmentum Mesencephali|D013681
+Telencephalon|D013687
+Temporal Arteries|D013699
+Temporal Bone|D013701
+Temporal Lobe|D013702
+Temporal Muscle|D013703
+Temporomandibular Joint|D013704
+Temporomandibular Joint Disc|D019224
+Tendons|D013710
+Tenon Capsule|D058475
+Tensor Tympani|D013719
+Testis|D013737
+Th1 Cells|D018417
+Th17 Cells|D058504
+Th2 Cells|D018418
+Thalamic Nuclei|D013787
+Thalamus|D013788
+Theca Cells|D013799
+Thermoreceptors|D013823
+Thigh|D013848
+Third Ventricle|D020542
+Thoracic Arteries|D013895
+Thoracic Cavity|D035423
+Thoracic Duct|D013897
+Thoracic Nerves|D013900
+Thoracic Vertebrae|D013904
+Thoracic Wall|D035441
+Thorax|D013909
+Thumb|D013933
+Thymus Gland|D013950
+Thyroid Cartilage|D013957
+Thyroid Gland|D013961
+Thyrotrophs|D052684
+Tibia|D013977
+Tibial Arteries|D016909
+Tibial Nerve|D013979
+Tissues|D014024
+Toe Joint|D014033
+Toe Phalanges|D050277
+Toes|D014034
+Tongue|D014059
+Tooth|D014070
+Tooth Apex|D019227
+Tooth Cervix|D019237
+Tooth Components|D019589
+Tooth Crown|D019228
+Tooth Germ|D014083
+Tooth Root|D014092
+Tooth Socket|D020390
+Tooth, Deciduous|D014094
+Tooth, Unerupted|D014097
+Torso|D060726
+Trabecular Meshwork|D014129
+Trachea|D014132
+Transplant Donor Site|D060053
+Transplants|D019737
+Transverse Sinuses|D054064
+Trapezium Bone|D051222
+Trapezoid Bone|D051223
+Triangular Fibrocartilage|D051478
+Tricuspid Valve|D014261
+Trigeminal Caudal Nucleus|D014275
+Trigeminal Ganglion|D012668
+Trigeminal Nerve|D014276
+Trigeminal Nuclei|D014278
+Trigeminal Nucleus, Spinal|D014279
+Trigger Points|D061028
+Triquetrum Bone|D051221
+Trochlear Nerve|D014321
+Trophoblasts|D014327
+Truncus Arteriosus|D014338
+Tuber Cinereum|D014371
+Tunica Intima|D017539
+Tunica Media|D017540
+Turbinates|D014420
+Tympanic Membrane|D014432
+Ulna|D014457
+Ulnar Artery|D017535
+Ulnar Nerve|D014459
+Umbilical Arteries|D014469
+Umbilical Cord|D014470
+Umbilical Veins|D014471
+Umbilicus|D014472
+Upper Extremity|D034941
+Upper Gastrointestinal Tract|D041742
+Urachus|D014497
+Ureter|D014513
+Urethra|D014521
+Urinary Bladder|D001743
+Urinary Reservoirs, Continent|D016476
+Urinary Tract|D014551
+Urine|D014556
+Urogenital System|D014566
+Urothelium|D019459
+Uterine Artery|D055988
+Uterus|D014599
+Uvea|D014602
+Uvula|D014609
+Vagina|D014621
+Vagus Nerve|D014630
+Vas Deferens|D014649
+Vasa Nervorum|D014650
+Vasa Vasorum|D014651
+Vasomotor System|D014666
+Veins|D014680
+Velopharyngeal Sphincter|D055158
+Vena Cava, Inferior|D014682
+Vena Cava, Superior|D014683
+Venae Cavae|D014684
+Venoms|D014688
+Venous Valves|D055422
+Ventral Tegmental Area|D017557
+Ventral Thalamic Nuclei|D020651
+Ventricular Septum|D054088
+Ventromedial Hypothalamic Nucleus|D014697
+Venules|D014699
+Vernix Caseosa|D014708
+Vertebral Artery|D014711
+Vestibular Aqueduct|D014723
+Vestibular Nerve|D014725
+Vestibular Nuclei|D014726
+Vestibular Nucleus, Lateral|D003689
+Vestibule, Labyrinth|D014722
+Vestibulocochlear Nerve|D000159
+Viscera|D014781
+Visceral Afferents|D017833
+Visual Cortex|D014793
+Visual Pathways|D014795
+Vitelline Duct|D014816
+Vitelline Membrane|D014817
+Vitreous Body|D014822
+Vocal Cords|D014827
+Volar Plate|D053401
+Vomer|D055172
+Vomeronasal Organ|D019147
+Vulva|D014844
+Wharton Jelly|D059631
+Wolffian Ducts|D014928
+Wool|D014935
+Wrist|D014953
+Wrist Joint|D014955
+Xiphoid Bone|D014989
+Yolk Sac|D015017
+Zona Fasciculata|D015383
+Zona Glomerulosa|D015384
+Zona Pellucida|D015044
+Zona Reticularis|D015385
+Zygapophyseal Joint|D021801
+Zygoma|D015050
+Zygote|D015053
+von Ebner Glands|D054838

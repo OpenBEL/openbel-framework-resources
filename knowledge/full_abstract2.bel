@@ -2,25 +2,25 @@
 # Document Properties Section
 SET DOCUMENT Name = "BEL Framework Example 2 Document"
 SET DOCUMENT Description = "Example of modeling a full abstract taken from the BEL V1.0 Language Overview."
-SET DOCUMENT Version = "1.2"
+SET DOCUMENT Version = 20131211
 SET DOCUMENT Copyright = "Copyright (c) 2011, Selventa. All Rights Reserved."
 SET DOCUMENT ContactInfo = "support@belframework.org"
-SET DOCUMENT Authors = "Selventa"
+SET DOCUMENT Authors = Selventa
 SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported License"
 
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/1.0/namespace/mesh-diseases.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/1.0/namespace/hgnc-approved-symbols.belns"
-DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/1.0/namespace/chebi-names.belns"
+DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/20131211/namespace/chebi.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/20131211/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/20131211/namespace/mesh-diseases.belns"
 
-DEFINE ANNOTATION CellStructure AS URL "http://resource.belframework.org/belframework/1.0/annotation/mesh-cell-structure.belanno"
+DEFINE ANNOTATION CellStructure AS URL "http://resource.belframework.org/belframework/20131211/annotation/cell-structure.belanno"
 
 ##################################################################################
 # Statements Section
 
-SET Citation = {"PubMed", "J Biol Chem 2004 Apr 2 279(14) 13659-67","14734561"}
+SET Citation = {"PubMed","J Biol Chem 2004 Apr 2 279(14) 13659-67","14734561"}
 SET Evidence = "Werner's syndrome (WS) is an inherited disease\
 characterized by genomic instability and premature aging."
 path(MESHD:"Werner Syndrome") positiveCorrelation path(MESHD:"Genomic Instability")
@@ -33,7 +33,7 @@ with Ku70/80 and this interaction strongly stimulates WRN\
 exonuclease activity."
 # disambiguation Ku70 = HGNC XRCC6 and Ku80 = HGNC XRCC5
 # Note that we cannot distinguish the two molecular activities of WRN\
-complex(p(HGNC:XRCC5), p(HGNC:XRCC6), p(HGNC:WRN)) => cat(p(HGNC:WRN))
+complex(p(HGNC:XRCC5),p(HGNC:XRCC6),p(HGNC:WRN)) => cat(p(HGNC:WRN))
 SET Evidence = "To gain further insight on the function of WRN\
 and its relationship with the Ku heterodimer, we established\
 a cell line expressing tagged WRN(H), a WRN point mutant lacking\
@@ -47,9 +47,9 @@ which was identified by mass spectrometry analysis, is identical to\
 poly(ADP-ribose) polymerase-1(PARP-1), a 113-kDa enzyme that functions\
  as a sensor of DNA damage."
 SET CellStructure = "Cell Nucleus"
-complex(p(HGNC:XRCC5), p(HGNC:WRN))
-complex(p(HGNC:XRCC6), p(HGNC:WRN))
-complex(p(HGNC:PARP1), p(HGNC:WRN))
+complex(p(HGNC:XRCC5),p(HGNC:WRN))
+complex(p(HGNC:XRCC6),p(HGNC:WRN))
+complex(p(HGNC:PARP1),p(HGNC:WRN))
 SET Evidence = "Biochemical fractionation studies and immunoprecipitation\
 assays and studies confirmed that endogenous WRN is associated with\
 subpopulations of PARP-1 and Ku70/80 in the cell."
@@ -58,26 +58,8 @@ SET Evidence = "Protein interaction assays with purified proteins further\
 indicated that PARP-1 binds directly to WRN and assembles in a complex\
 with WRN and Ku70/80."
 # the location used for the previous set of statements may not apply and needs to be cleared
-UNSET CellStructure
-complex(p(HGNC:WRN), p(HGNC:XRCC5), p(HGNC:XRCC6), p(HGNC:PARP1))
+complex(p(HGNC:WRN),p(HGNC:XRCC5),p(HGNC:XRCC6),p(HGNC:PARP1))
 SET Evidence = "In the presence of DNA and NAD(+), PARP-1\
 poly(ADP-ribosyl)ates itself and Ku70/80 but not WRN, and\
 gel-shift assays showed that poly-(ADP-ribosyl)ation of\
 Ku70/80 decreases the DNA-binding affinity of this factor."
-composite(a(CHEBI:"deoxyribonucleic acid"), a(CHEBI:"NAD(+)"))->(ribo(p(HGNC:PARP1)) => p(HGNC:PARP1, pmod(R)))
-composite(a(CHEBI:"deoxyribonucleic acid"), a(CHEBI:"NAD(+)"))\
- ->(ribo(p(HGNC:PARP1)) => p(HGNC:XRCC5, pmod(R)))
-composite(a(CHEBI:"deoxyribonucleic acid"), a(CHEBI:"NAD(+)")) -> \
-(ribo(p(HGNC:PARP1)) => p(HGNC:XRCC6, pmod(R)))
-# modeling ribosylation of each Ku subunits effect on the heterodimer separately
-p(HGNC:XRCC5, pmod(R)) => complex(a(CHEBI:"deoxyribonucleic acid"),\
-p(HGNC:XRCC5), p(HGNC:XRCC6))
-p(HGNC:XRCC6, pmod(R)) => complex(a(CHEBI:"deoxyribonucleic acid"),\
-p(HGNC:XRCC5), p(HGNC:XRCC6))
-SET Evidence = "Significantly, (ADP-ribosyl)ation of Ku70/80\
-reduces the ability of this factor to stimulate WRN exonuclease,\
-suggesting that covalent modification of Ku70/80 by PARP-1 may\
-play a role in the regulation of the exonucleolytic activity of WRN."
-p(HGNC:XRCC5, pmod(R)) => cat(p(HGNC:WRN))
-p(HGNC:XRCC6, pmod(R)) => cat(p(HGNC:WRN))
-

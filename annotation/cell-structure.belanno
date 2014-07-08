@@ -1,0 +1,252 @@
+[AnnotationDefinition]
+Keyword=CellStructure
+TypeString=list
+DescriptionString=The Cell Structures [A11.284] sub-branch of the Medical Subject Headings (MeSH) Anatomy [A] branch.
+UsageString=Use to annotate a statement demonstrated in the context of a specific cellular location.
+VersionString=20131212
+CreatedDateTime=2013-12-12T10:21:52
+
+[Author]
+NameString=OpenBEL
+CopyrightString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=info@openbel.org
+
+[Citation]
+NameString=MeSH
+DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine.
+PublishedVersionString=2014
+ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
+
+[Processing]
+CaseSensitiveFlag=yes
+DelimiterString=|
+CacheableFlag=yes
+
+[Values]
+Acrosome|D000177
+Actin Cytoskeleton|D008841
+Adherens Junctions|D022005
+Apicoplasts|D063546
+Axoneme|D054468
+Axons|D001369
+Bacterial Chromatophores|D020130
+Basal Bodies|D064652
+COP-Coated Vesicles|D022181
+Caveolae|D021941
+Cell Membrane|D002462
+Cell Membrane Structures|D021961
+Cell Nucleolus|D002466
+Cell Nucleus|D002467
+Cell Nucleus Structures|D022003
+Cell Surface Extensions|D022081
+Cell Wall|D002473
+Cell Wall Skeleton|D017358
+Cell-Derived Microparticles|D055252
+Cell-Free System|D002474
+Cell-Matrix Junctions|D021982
+Cellular Structures|D022082
+Cellulosomes|D044603
+Centrioles|D002502
+Centromere|D002503
+Centrosome|D018385
+Chloroplasts|D002736
+Chromaffin Granules|D002837
+Chromatids|D002842
+Chromatin|D002843
+Chromosomal Puffs|D059045
+Chromosome Structures|D022004
+Chromosomes|D002875
+Chromosomes, Archaeal|D019847
+Chromosomes, Artificial|D022201
+Chromosomes, Artificial, Bacterial|D022202
+Chromosomes, Artificial, Human|D022222
+Chromosomes, Artificial, Mammalian|D022221
+Chromosomes, Artificial, P1 Bacteriophage|D027042
+Chromosomes, Artificial, Yeast|D018244
+Chromosomes, Bacterial|D002876
+Chromosomes, Fungal|D015825
+Chromosomes, Human|D002877
+Chromosomes, Human, 1-3|D002900
+Chromosomes, Human, 13-15|D002901
+Chromosomes, Human, 16-18|D002902
+Chromosomes, Human, 19-20|D002903
+Chromosomes, Human, 21-22 and Y|D002904
+Chromosomes, Human, 4-5|D002905
+Chromosomes, Human, 6-12 and X|D002906
+Chromosomes, Human, Pair 1|D002878
+Chromosomes, Human, Pair 10|D002879
+Chromosomes, Human, Pair 11|D002880
+Chromosomes, Human, Pair 12|D002881
+Chromosomes, Human, Pair 13|D002882
+Chromosomes, Human, Pair 14|D002883
+Chromosomes, Human, Pair 15|D002884
+Chromosomes, Human, Pair 16|D002885
+Chromosomes, Human, Pair 17|D002886
+Chromosomes, Human, Pair 18|D002887
+Chromosomes, Human, Pair 19|D002888
+Chromosomes, Human, Pair 2|D002889
+Chromosomes, Human, Pair 20|D002890
+Chromosomes, Human, Pair 21|D002891
+Chromosomes, Human, Pair 22|D002892
+Chromosomes, Human, Pair 3|D002893
+Chromosomes, Human, Pair 4|D002894
+Chromosomes, Human, Pair 5|D002895
+Chromosomes, Human, Pair 6|D002896
+Chromosomes, Human, Pair 7|D002897
+Chromosomes, Human, Pair 8|D002898
+Chromosomes, Human, Pair 9|D002899
+Chromosomes, Human, X|D041321
+Chromosomes, Human, Y|D041322
+Chromosomes, Insect|D059006
+Chromosomes, Mammalian|D033481
+Chromosomes, Plant|D032461
+Cilia|D002923
+Clathrin-Coated Vesicles|D022163
+Coated Pits, Cell-Membrane|D003034
+Coated Vesicles|D018699
+Coiled Bodies|D020541
+Costameres|D054974
+Cytoplasm|D003593
+Cytoplasmic Granules|D003594
+Cytoplasmic Structures|D022083
+Cytoplasmic Vesicles|D022162
+Cytoskeleton|D003599
+Cytosol|D003600
+Dendrites|D003712
+Dendritic Spines|D049229
+Desmosomes|D003896
+Electrical Synapses|D054351
+Endoplasmic Reticulum|D004721
+Endoplasmic Reticulum, Rough|D018870
+Endoplasmic Reticulum, Smooth|D018871
+Endosomes|D011992
+Erythrocyte Inclusions|D004908
+Erythrocyte Membrane|D004910
+Euchromatin|D022041
+Exosomes|D055354
+Extracellular Fluid|D045604
+Extracellular Matrix|D005109
+Extracellular Space|D005110
+Filamins|D064448
+Fimbriae, Bacterial|D010861
+Flagella|D005407
+Focal Adhesions|D022001
+Gap Junctions|D017629
+Gemini of Coiled Bodies|D055531
+Glomerular Basement Membrane|D050533
+Glycocalyx|D019276
+Glyoxysomes|D020676
+Golgi Apparatus|D006056
+Growth Cones|D020439
+Heinz Bodies|D006366
+Hemidesmosomes|D022002
+Heterochromatin|D006570
+Immunological Synapses|D054992
+Inclusion Bodies|D002479
+Inclusion Bodies, Viral|D007181
+Intercellular Junctions|D007365
+Intermediate Filaments|D007382
+Intracellular Fluid|D007424
+Intracellular Membranes|D007425
+Intracellular Space|D042541
+Intranuclear Inclusion Bodies|D045586
+Intranuclear Space|D042581
+Isochromosomes|D018404
+Kinetochores|D018386
+Lewy Bodies|D016631
+Lysosomes|D008247
+Macronucleus|D048648
+Magnetosomes|D055944
+Mallory Bodies|D059609
+Melanosomes|D020460
+Membrane Microdomains|D021962
+Microbodies|D008830
+Microfibrils|D020894
+Micronuclei, Chromosome-Defective|D048629
+Micronucleus, Germline|D048631
+Microsomes|D008861
+Microsomes, Liver|D008862
+Microtubule-Organizing Center|D022101
+Microtubules|D008870
+Microvilli|D008871
+Mitochondria|D008928
+Mitochondria, Heart|D008929
+Mitochondria, Liver|D008930
+Mitochondria, Muscle|D008931
+Mitochondrial Membranes|D051336
+Motor Endplate|D009045
+Multivesicular Bodies|D057146
+Myelin Sheath|D009186
+Myofibrils|D009210
+Neurites|D016501
+Neuroeffector Junction|D009451
+Neurofibrillary Tangles|D016874
+Neurofibrils|D009454
+Neuromuscular Junction|D009469
+Neuropil Threads|D019600
+Nissl Bodies|D009562
+Nuclear Envelope|D009685
+Nuclear Lamina|D034881
+Nuclear Matrix|D015530
+Nuclear Pore|D022022
+Nucleolus Organizer Region|D009697
+Nucleosomes|D009707
+Organelles|D015388
+Periplasm|D019897
+Peroxisomes|D020675
+Phagosomes|D010588
+Philadelphia Chromosome|D010677
+Phycobilisomes|D045524
+Pili, Sex|D018933
+Plasmodesmata|D031425
+Plastids|D018087
+Polyribosomes|D011132
+Polytene Chromosomes|D059007
+Post-Synaptic Density|D057907
+Presynaptic Terminals|D017729
+Pseudopodia|D011554
+Purple Membrane|D018717
+Ranvier's Nodes|D011901
+Ribosome Subunits|D054657
+Ribosome Subunits, Large|D054658
+Ribosome Subunits, Large, Archaeal|D054748
+Ribosome Subunits, Large, Bacterial|D054681
+Ribosome Subunits, Large, Eukaryotic|D054683
+Ribosome Subunits, Small|D054679
+Ribosome Subunits, Small, Archaeal|D054749
+Ribosome Subunits, Small, Bacterial|D054680
+Ribosome Subunits, Small, Eukaryotic|D054682
+Ribosomes|D012270
+Ring Chromosomes|D012303
+Sarcolemma|D012508
+Sarcomeres|D012518
+Sarcoplasmic Reticulum|D012519
+Secretory Vesicles|D022142
+Sex Chromatin|D012728
+Sex Chromosomes|D012730
+Sperm Tail|D013082
+Spindle Apparatus|D008941
+Spindle Pole Bodies|D064048
+Spindle Poles|D064047
+Spliceosomes|D017381
+Stereocilia|D059547
+Stress Fibers|D022502
+Subcellular Fractions|D013347
+Submitochondrial Particles|D013367
+Synapses|D013569
+Synaptic Membranes|D013570
+Synaptic Vesicles|D013572
+Synaptonemal Complex|D013573
+Synaptosomes|D013574
+Telomere|D016615
+Thylakoids|D020524
+Tight Junctions|D019108
+Transport Vesicles|D022161
+Trichomes|D064201
+Vacuoles|D014617
+Vault Ribonucleoprotein Particles|D020394
+Weibel-Palade Bodies|D020302
+X Chromosome|D014960
+Y Chromosome|D014998
+Zona Pellucida|D015044
+trans-Golgi Network|D021601
