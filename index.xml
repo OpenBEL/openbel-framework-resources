@@ -30,6 +30,9 @@
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mesh-processes.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mesh-cellular-structures.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mesh-diseases.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mesh-processes-ids.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mesh-cellular-structures-ids.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mesh-diseases-ids.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mgi-mouse-genes.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/rgd-rat-genes.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/selventa-legacy-chemicals.belns" />
@@ -82,6 +85,15 @@
         </idx:equivalence>
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/20131211/equivalence/mesh-diseases.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mesh-diseases.belns" />
+        </idx:equivalence>
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/20131211/equivalence/mesh-processes-ids.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mesh-processes-ids.belns" />
+        </idx:equivalence>
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/20131211/equivalence/mesh-cellular-structures-ids.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mesh-cellular-structures-ids.belns" />
+        </idx:equivalence>
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/20131211/equivalence/mesh-diseases-ids.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mesh-diseases-ids.belns" />
         </idx:equivalence>
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/20131211/equivalence/mgi-mouse-genes.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/20131211/namespace/mgi-mouse-genes.belns" />
