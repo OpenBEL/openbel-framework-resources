@@ -4,20 +4,20 @@ Keyword=MESHDID
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=Medical Subject Headings (MeSH) from the Diseases [C] branch. These headings may be used to specify pathologies.
-VersionString=20131211
-CreatedDateTime=2014-12-15T10:26:28
+VersionString=20150106
+CreatedDateTime=2015-01-06T14:02:30
 QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&term=[VALUE]&field=entry
 
 [Author]
 NameString=OpenBEL
-CopyrightString=Copyright (c) 2014, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2015, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=MeSH
 DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine. 
-PublishedVersionString=2014
-PublishedDate=2013-12-09
+PublishedVersionString=2015
+PublishedDate=2015-01-06
 ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
@@ -275,7 +275,6 @@ D001353|O
 D001357|O
 D001361|O
 D001404|O
-D001405|O
 D001416|O
 D001423|O
 D001424|O
@@ -291,6 +290,7 @@ D001476|O
 D001477|O
 D001478|O
 D001480|O
+D001497|O
 D001506|O
 D001528|O
 D001602|O
@@ -330,7 +330,6 @@ D001765|O
 D001766|O
 D001768|O
 D001778|O
-D001787|O
 D001791|O
 D001796|O
 D001816|O
@@ -2329,7 +2328,6 @@ D012186|O
 D012188|O
 D012192|O
 D012202|O
-D012203|O
 D012206|O
 D012207|O
 D012208|O
@@ -4099,6 +4097,7 @@ D050380|O
 D050398|O
 D050488|O
 D050489|O
+D050497|O
 D050500|O
 D050723|O
 D050724|O
@@ -4646,3 +4645,47 @@ D064806|O
 D064807|O
 D064927|O
 D065008|O
+D065134|O
+D065148|O
+D065166|O
+D065167|O
+D065170|O
+D065172|O
+D065173|O
+D065227|O
+D065290|O
+D065306|O
+D065308|O
+D065309|O
+D065310|O
+D065311|O
+D065446|O
+D065606|O
+D065626|O
+D065627|O
+D065630|O
+D065631|O
+D065632|O
+D065634|O
+D065635|O
+D065646|O
+D065666|O
+D065703|O
+D065704|O
+D065705|O
+D065706|O
+D065707|O
+D065708|O
+D065710|O
+D065766|O
+D065768|O
+D065817|O
+D065906|O
+D065907|O
+D066087|O
+D066088|O
+D066126|O
+D066166|O
+D066190|O
+D066253|O
+D066263|O

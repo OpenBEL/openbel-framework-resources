@@ -1,23 +1,23 @@
 [Namespace]
-NameString=MeSH Cellular Structures (Names)
-Keyword=MESHCS
+NameString=MeSH Cellular Locations (Names)
+Keyword=MESHCL
 DomainString=Cell Components and Complexes
 SpeciesString=all
-DescriptionString=Medical Subject Headings (MeSH) names for cellular structures [branch A11.284].
-VersionString=20131213
-CreatedDateTime=2013-12-13T17:01:18
+DescriptionString=Medical Subject Headings (MeSH) names for cellular locations [branch A11.284].
+VersionString=20150106
+CreatedDateTime=2015-01-06T14:02:35
 QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&term=[VALUE]&field=entry
 
 [Author]
 NameString=OpenBEL
-CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2015, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=MeSH
 DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine. 
-PublishedVersionString=2014
-PublishedDate=2013-12-09
+PublishedVersionString=2015
+PublishedDate=2015-01-06
 ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
@@ -36,6 +36,7 @@ Bacterial Chromatophores|A
 Basal Bodies|A
 COP-Coated Vesicles|A
 Caveolae|A
+Cell Body|A
 Cell Membrane|A
 Cell Membrane Structures|A
 Cell Nucleolus|A
@@ -130,6 +131,7 @@ Exosomes|A
 Extracellular Fluid|A
 Extracellular Matrix|A
 Extracellular Space|A
+Extracellular Traps|A
 Filamins|A
 Fimbriae, Bacterial|A
 Flagella|A
@@ -157,6 +159,7 @@ Intranuclear Space|A
 Isochromosomes|A
 Kinetochores|A
 Lewy Bodies|A
+Lipid Droplets|A
 Lysosomes|A
 Macronucleus|A
 Magnetosomes|A

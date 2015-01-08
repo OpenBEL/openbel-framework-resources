@@ -1,16 +1,16 @@
 [Equivalence]
 NameString=Selventa Named Protein Families Equivalence
 DescriptionString=Selventa Named Protein Families Equivalence
-VersionString=20131106
-CreatedDateTime=2013-11-06T10:30:12
+VersionString=20150106
+CreatedDateTime=2015-01-06T14:03:50
 
 [NamespaceReference]
 NameString=Selventa Named Protein Families
-VersionString=20131106
+VersionString=20150106
 
 [Author]
 NameString=OpenBEL
-CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2015, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
@@ -23,305 +23,250 @@ DelimiterString=|
 CacheableFlag=yes
 
 [Values]
-14-3-3 Family|6a6fbe18-0101-4e60-8e17-ce662a2b0122
-ABCC Family|23cb02b3-cecb-4a91-8fe6-f93937567520
-ACAD Family|873198ad-e11f-483a-8c23-025531df6cd9
-ACOT Family|c6ad6238-b703-4b59-9869-1ab584efa1ec
-ACOX Family|3f220a03-4664-4888-9092-6fda3be73b27
-ACSL Family|27dac64f-c99d-4303-94a0-a16e5087bd29
-ACT Family|33da7521-7e7c-4b48-bc34-0183de243a69
-ACTA Family|d8a2d6e2-9876-4dbc-9152-c6c71ec72a91
-ACTN Family|c9f23874-2c01-43e7-9865-e3bbfc3be582
-ACVR Family|2f1e3caa-3c83-475d-acb7-92ab0bf26216
-ADCY Family|0ebce8d3-0efc-4212-9d71-553962187acd
-ADH Family|100062be-7da8-435f-9379-5fbc2a630de8
-ADRA Family|94c10131-854f-4351-ba41-4821712266ad
-ADRA2 Family|d132920d-bc34-4364-927a-6e04dbae8e8a
-ADRB Family|b7d463e7-1fdc-4630-ad3c-44dd41f47a80
-ADRBK Family|f1efc824-6af9-497c-bb12-46620fc027f5
-AKAP Family|59172458-4385-414f-92ed-8ac1345bd931
-AKT Family|0808a7cd-10b6-41dd-b09b-65efd9167218
-ALDH Family|a0fd8d73-b268-4a8a-bbe4-ff3de36038db
-ALDO Family|c3c75c8f-5640-47ea-8390-ff75e93b8e2a
-AMP Kinase Family|a8690721-e09d-40ad-83a2-63608f245396
-AMP Kinase Regulatory Subunit Family|419a24da-3255-4c91-9ed5-28138f3302ac
-ANAPC Family|6b90242a-3f09-45a1-a111-22bec1e20621
-AP3 Family|82554e79-3efd-4d84-83cb-5d8060f88035
-APOA Family|5811c8b0-1f21-4515-b70a-1db9b6c2a2ae
-ARRB Family|562ffff4-f263-4484-9f5a-f932e4a75d19
-ATF Family|f8555fc9-34d7-4ea9-8a91-9c436bf0bf17
-ATF Fos-Binding Family|f5b31bfc-538d-4da8-8504-475be6e93138
-ATP1 Family|f9027a56-a92e-4688-9abd-d6ec81b75d3a
-ATP2A Family|fb769c30-9c98-40dc-a3c8-6c5faf2f5812
-ATP5G Family|7ee9a0ed-9a70-454f-b574-3323e8173d24
-AXIN Family|df0cc6ba-091d-48d3-95a0-971aad9908d2
-Acetyl-CoA Synthetase Family|75ca630c-f450-4876-ab3f-edabd362e399
-Acute Phase Protein Family|3a05df22-a17d-419e-862e-05cfc08a64d2
-BHLHE Family|052aed6a-6979-4e90-83ee-b89b3480ef99
-BIRC Family|90892245-6b97-49ab-8766-b320e7a200d7
-BMP Family|f27b992b-6191-4c16-ac52-3cdd3f09e3a3
-BMP Receptor Type I Family|c7a64a8c-c5d4-410b-9c53-a05da355e87f
-BMP Receptor Type II Family|1643100f-3ac5-4ade-82b5-ca57c248b0ad
-BMP/GDF Family|fe7d4431-13b7-4efb-acf7-3302a5557c84
-C3 Convertase Complex Family|625de552-ba5a-473e-a248-9f8aaaeea9e4
-C5 Convertase Complex Family|7b964bab-ee05-4b46-9e60-1e8721f8b26f
-CALM Family|32d63df0-1c5c-4454-a3ef-a66bf69dfdab
-CAMK Family|ac509249-5b12-41a7-b139-8742c38ea3c9
-CAMK2 Family|24231786-2662-4657-8cb7-cd34bf512d4c
-CAPN Family|f04c455a-597f-4755-8670-92c74e955121
-CASP Family|9f7d21dd-412a-423f-8c55-c87815eb549a
-CAV Family|79d8705f-09dc-48ff-b027-7f1e5cb61376
-CCNA Family|4e4f792c-c100-4402-b14b-0330d5ba8f60
-CCND Family|37ea65c3-6348-4eb0-8bcd-7afd980fe4ed
-CCNE Family|86a21c0a-2351-42d0-a7a9-e94d2250c636
-CD16 Family|580be019-c7ab-4283-87f7-8a8d15f2d9e4
-CD3 Family|f26a4916-3c75-446f-b3cc-1f70e90b321c
-CD32 Family|0b74a0ae-867a-4e2f-827e-e30f13e36374
-CD64 Family|8647cfc4-b5fb-4b8a-b898-31a8da4cd147
-CDC25 Family|9cf468a7-bd76-4d86-8d35-b31193470e7e
-CDH Family|1518f7d9-3bde-41fd-aa92-a3b9ad5bf55f
-CEBP Family|5ae6f06a-9a53-49ee-b847-37de01c178f6
-CHRM Family|ac0aa487-f7ec-481b-9a2f-394f6fe322c8
-COL1 Family|be203740-df8b-4d0c-9861-7de1f746e057
-COL4 Family|6eede12c-a401-454e-bd59-4ea6e821c343
-COL5 Family|c2fff25a-cb89-48ce-a478-9515ef6d3a92
-COQ Family|fd628764-e7cc-4366-9049-ca39fe69b621
-COX4 Family|8486f63d-2d47-4162-aef8-9f3d019a65fe
-COX6A Family|2ecf8a45-b260-463e-878f-2c04365b458a
-COX6B Family|30458213-d662-421e-ad12-8d32ffd2da48
-COX7A Family|3cdb9020-0c82-453b-8205-aafaae73e25d
-COX7A Non-Muscle Family|8f1ba8a3-fcb0-47b6-a1a6-0a565959ce82
-COX7B Family|b9957cdd-a380-4185-b177-521b7d2fbb8b
-COX8 Family|8274de93-fef6-405d-a1f5-6d38e5e3db26
-COX8 Non-Testes Family|82a4e6ae-ca29-43da-a215-5ce4b3d9248c
-CREB Family|cb2df37e-bc59-4bad-a3a3-997998090bf5
-CRISP Family|030f0726-fc7e-465e-89e9-0d2bfc5d3791
-CSNK1 Family|35bf1b66-3a37-4cdf-9a4f-73dbd5aec80e
-CSNK2 Family|b02ce674-6554-4a02-b12c-022366675e22
-CTNNA Family|ebcbc760-bd97-475c-a66f-ad376dd6ff1b
-CUL Family|1bf03cab-1ab3-40e5-adbf-f9560c78f557
-CXCL ELR-Negative Family|2b0f5d2c-8b4f-4b10-a580-48fb26ab04fa
-CXCL ELR-Positive Family|a68b1201-0b23-45ad-8b59-7b258662b866
-CYP2B Family|13176777-5082-48b5-a01f-742ce59887c0
-CYP4A Family|db7c088c-b0f7-41d4-8aba-1ce28b781ff3
-Calcium-Activated Potassium Channel Complex Family Family|455e1447-6596-43af-abd2-765177ba12ad
-Carboxylesterase Family|9129dc14-812d-4e59-8f85-5f9c69ff8d95
-Chemokine Receptor Family|276d6a64-696e-4e82-99f4-d674c486975e
-Cholinesterase Family|e529fdbe-2de2-4c39-bc5c-c518fda70fe6
-Cyclophilin Family|1250432b-9372-4106-8dcc-9562b6d03957
-Cytokine Family|de70a59e-f5af-4db7-872b-af9e7edef446
-DDR Family|ecd627f9-5f82-4690-a015-9def3f0bb5e5
-DGK Family|5f6457f8-b562-455b-8f6b-05a58e69c31b
-DNM Family|3694df84-2a5f-4012-a0a7-ca662d738d29
-DRD Family|beb855e5-d9bb-47d6-959b-3eb3dae413cb
-DVL Family|8b9cf941-8e9d-4b6f-b665-a5c2f84ecb63
-Desmoglein Family Family|1cc5b244-ac7e-4637-b0a8-859a37ba0845
-E2F Family|ad580883-3c89-4bd3-be4d-fe47a475a9a6
-EDN Family|ad61d35e-6fe3-4b4d-b88c-5354ab904e7c
-EGFR Ligand Family|cd4631d1-f6b6-43d6-8d7c-69f709f77142
-EGFR/ERBB Family|d4d54c90-54a3-4d14-bb72-41a6ddf172b5
-EGFR/ERBB Ligand Family|fdabd30c-423a-4234-97c6-867827a04d4d
-EGR Family|821730a3-8de9-43fa-a065-70361cb969e6
-EIF4A Family|13611e40-7558-410e-b284-a56f54c49850
-EIF4EBP Family|38dc113c-c47a-4320-803f-db6522b4c264
-ELA Family|11e3a64a-5b4f-4304-8ef3-4530ec281d1e
-ENO Family|f7e2f2ac-b68d-401b-a1a1-fbdf82efd3d5
-EPH Family|613d917b-dd5f-4ebe-9cb5-489e034cc2ae
-EPN Family|9b4ee3c9-d8ee-4f48-badf-95e389f4e863
-ESR Family|2307b2db-7747-4ba6-8159-5cc1d04c224b
-ETS Family|cf508fcc-98fb-45aa-ae38-30b92e28caf5
-FGF Family|d0277afc-bf80-4325-b4a8-cb7d79da6fbd
-FGFR Family|386fb6e7-d53e-4c02-a333-8e6c44cbbb92
-FLOT Family|71181145-0dd1-4ec7-baf6-da89d1cb60e2
-FLRT Family|810ad4b9-f3bf-4f1a-aa39-91920358f5c1
-FOXO Family|7400ee8f-f191-4e68-9fa2-e049af166e23
-FZD Family|c8bd486a-459e-4792-af7c-fc226183a01a
-GABR Family|8ab8f0e0-d09f-4200-9b64-5fa2e9adf99a
-GAS6 Receptor Family|f3c19972-08cc-434d-9aac-45e78e761edf
-GATA Family|2596de6b-16c0-44da-9a84-6ec2e895fb11
-GLUD Family|eb2f88ae-e42c-49af-9f80-d4eb80e427c0
-GNA Gq Family|18b52504-28e4-4581-9204-0e1598e050e5
-GNA Gs Family|1050df08-adec-49c2-b93e-c6f1753a52f8
-GNAI Family|eec6d067-a894-4ef8-be08-c9c67283b1d7
-GNB Family|7e01c099-062f-4a3f-84c4-9db8c91b43f0
-GNG Family|dfa3e1b9-060d-4e93-b712-99d12211638f
-GPX Family|b42b33b6-681f-4e20-9ebf-4cebffcb93ef
-GRIA Family|e5b77514-fa7b-4e74-847d-2878031b32d9
-GRK Family|bcef580b-70ac-4d6b-b19a-48193de15ee4
-GRM Family|0e00baad-3ac3-4643-8d28-9ed56ec8369d
-GSK3 Family|14976775-16e4-421f-a049-df852a1778da
-GST Family|38154d86-1460-41f6-bcfe-f96cbc87b2ae
-GTF2H Family|80401af4-4d6f-44a8-94f4-76c6ae181468
-GUCY Family|8c0f752e-de25-4abd-ac41-ee227be04278
-GYS Family|4082bd4d-b8f1-4bbe-898c-8ef6024cda19
-HBEGF Family|03d634f7-257f-4308-94d9-68dbb842b44e
-HDAC Class I Family|e2e99e9b-a12e-485b-980c-8fd9eac77e43
-HDAC Class II Family|b77f2052-ffa9-4100-a5ff-a336a58ddb92
-HDAC Family|176d56dd-c643-4f34-a746-5a827b366745
-HES Family|c2216cc1-42c7-4f1f-8a53-c8de3eb90cf7
-HLA Family|a991600b-453b-46b7-829f-c2acfccc9cf8
-HLA-DR Family|4eb30d0c-305d-401a-89b2-c09550491e4b
-HMOX Family|1721abc0-8991-4ea7-8eb4-28a7828d4893
-HRH Family|029a9b9a-8a5a-4ba3-a233-2e488143c7ea
-HSD17B Family|4e658957-ca6e-4578-9de2-5da08ce29329
-HSF Family|928bc10d-7d6a-4b92-bb27-cbe4b9c3de31
-HSP90 Family|ba099b52-9929-40a1-86c8-f40d8bff174b
-HSPA Family|06eba107-cf9b-4338-9359-b8b9c5cad579
-HSPB Family|df8e5877-6e16-4d0b-824e-85e38c431725
-Hedgehog Family|ecc69e7d-48e1-44d4-be1d-f6f5703cb111
-Histocompatibility Class II A Family|3217dd7e-2532-4293-891e-2da5fb02488a
-Histone Family|dcd2a9f0-c0c8-4dc3-be83-c25a066d5910
-Histone H1 Family|45b580fa-0106-456d-9b3a-7caae3946912
-Histone H2A Family|174ce347-0900-4843-a60a-b019e0eb6446
-Histone H2B Family|4bb8ba9f-4f4d-403e-b27a-ec1050584b36
-Histone H3 Family|7c9c846c-194e-4fe1-b223-48161f784caa
-Histone H4 Family|7a9c7289-8eea-46ea-afa1-03f8cddece9c
-IFNA Family|da89bb01-b46a-4804-aca5-5f582263e80a
-IGF-R Family|a6b74bae-ede2-4d52-aec5-cb5fcbf7820a
-IGFBP Family|328c049c-2a32-46b0-bf79-75f80340b058
-IKBK/CHUK Family|4c195bb4-ff25-46a5-83ec-b808aa4bb87c
-IL1 Family|2988a414-6778-4091-95a2-f4bd2325eab4
-IL12 Family|64ad85a3-2e9b-4ad9-94a5-0ee8fa9db4b4
-IL2R Family|6076d2e9-7ec1-4f00-88f0-8db7b8fd68f0
-INHB Family|bc58674d-a8b6-462d-b692-7715b896a333
-INSR Family|b20e7227-42ee-43c5-ac82-93a9d103bc5f
-IRS Family|5229c743-30d7-4cf6-a05e-ac207fe530c1
-IRX Family|e25433fc-a74a-44f8-8be4-11d08e3a1b61
-IgE Family|a47332f5-9995-45dc-b73d-50d89301317f
-JAK Family|b127d0bf-a6d3-438f-aad2-d1fce47b3ffa
-KCNJ Family|3c87a1a6-3c65-477d-90e9-4a7f020aa0ac
-KLK Family|65ff9de9-f5d6-482a-91bd-dd0fe7030eb3
-LAM Family|960dc69b-c5f3-4a2d-8af7-ffafe3b0072b
-LDH Family|e625e1a6-b267-4283-8422-efe88111c4d3
-LRP Family|eb76a003-d8b3-4059-a0bb-e9e204812110
-MAF Family|3b8dfc64-5db7-4816-9cc3-b58a0fc6aad7
-MAP2K Family|c727ec75-58fd-4c39-b993-36b1ce771ceb
-MAPK Erk Family|de085eef-40ab-496c-8d8c-0a55f156aa08
-MAPK JNK Family|de4d03df-c556-4604-a661-f95dfe3f4a34
-MAPK p38 Family|cd8c4946-939b-45a8-99f5-5080f5c1dfc7
-MASP Family|1d1f5189-6f0c-4746-a320-67f49daee9c1
-MEF2 Family|5360b9f1-07c4-45cf-8e48-00d0a040d252
-MMP Family|c554dce6-8ac4-468c-a5b5-c5872ec07978
-MYC Family|eba4a28c-8f36-46fa-8036-d02df67e5358
-MYH Family|12414230-7ccc-415c-a0a8-58d9ba5bb6a1
-MYL Alkali Family|b522a3ee-aa2d-4769-b11c-cdd6b5cdff85
-MYL Family|e1458837-161e-4900-95a6-96a860570331
-MYL Regulatory Family|67d5b5de-88d4-4db3-99b1-8440790a3db4
-MYL Slow Family|a8418625-4a2f-4dc0-bf6c-5a05f3d239a2
-MYST Family|ee0a15bc-1f18-41df-bebb-a2a086bf4d41
-NCOA Family|ca2ec89b-4eb8-4ad0-93d4-738f5d1bfd5f
-NCOR Family|781928ad-4c46-4216-85a7-29b481f78599
-NDRG Family|4b6f89bd-64c2-4930-9783-f7ebc2c2d234
-NFAT Family|4743e4b0-690b-45dd-b216-f5f61dda066f
-NFY Family|6bd309bc-abde-467e-8065-704f7a7b4c42
-NGFR Family|2f42afcb-c6f1-46a7-ba48-af765fefaa8b
-NKD Family|8238ff91-9d85-44c4-8566-ad80829e091f
-NOS Family|24713a47-cc84-4413-8baa-6e81f87cd53c
-NOTCH Family|c3335309-c65b-4c9a-b02c-646903dba5df
-NRG1/2 Family|46bd1b68-f858-40b7-8b0b-86e2dad20152
-NRG3/4 Family|dcb47f37-c13a-4998-ae5b-6cc55a2ded74
-NTRK Family|512ed6b4-addb-42ed-ab28-fabab45f340c
-Oct Family|15398c21-cf1f-4559-b10a-70451650a840
-P2RX Family|3fc9f060-7a66-45c7-929d-2fa888175272
-P2RY Family|669b486a-8646-417b-aedf-fd4012b0143a
-PAK Family|d76a757d-aaf4-4699-b0de-affcb44dd296
-PARV Family|7b1543b8-594a-4640-a776-baa27da5acc3
-PBX Family|f5093474-4ad0-4e31-8598-9a0ec2c091b8
-PDE Family|8d931400-5764-4e7d-9d70-e2e7ada819ec
-PDE1 Family|62438aae-a5ae-46e5-974b-fee3bf12aa71
-PDE3 Family|fdb6c382-e19c-45c2-b39c-9556cf103c98
-PDE4 Family|f1b9b078-3deb-4b30-ae76-73fb43d261db
-PDE4 Long Family|a3ce4594-e27e-4d1e-a633-35deede4b7df
-PDE4 Long No A Family|b76941b9-92c4-477f-8213-520f3cee85c4
-PDE4 Short Family|8e905504-a0cf-4bd3-ad53-83f014d4eb03
-PDE6 Family|5db91f2f-0db8-425a-b874-b96a1f09648b
-PDGF Family|d79489d1-c614-4f79-a73e-58a3fc91de5b
-PDGFR Family|a7681378-9614-4132-8d8d-a2123c811e47
-PDK Family|28cfedfc-7cf9-48eb-81df-805ffba0e647
-PFN Family|1d90a91c-011d-4a4d-b0d9-86db6dcd543c
-PI3K Class IA Family|ffa0b0db-38ba-4071-9bb7-e83988f9d6cb
-PIK3 Family|f3f7a611-ee9f-4a40-a6ba-07cd041df9d3
-PIK3C Class IA Family|15728f7b-8141-4a3a-8ef1-906bba88565e
-PIK3R Class IA Family|eef5f3a5-0e55-4af5-b8c9-32250654fce3
-PKI Family|c938da1f-cf08-4ed1-8367-dea713b00155
-PLA2 Family|af14d717-88d1-4f23-b3d8-34fb20d75212
-PLA2G2 Family|d7f2e713-8d64-4de7-af83-339408b0a154
-PLC Family|e8d4c2df-2cc9-40b9-bf6f-06ec8e0d14d1
-PLCB Family|118e4bc6-985e-4b94-8da6-85ce379300da
-PLCG Family|6a605220-2fcc-4471-a8bd-57f25060abf1
-PLD Family|8a2596bc-c11d-4989-96f7-1cf8c1f21d5d
-PPAP2 Family|d3f4db06-da2e-4083-b1b6-7b6ed2328da2
-PPAR Family|b9307f6f-033e-4221-8986-470ed0f67d96
-PPP1C Family|7601ae8d-d436-41c6-bb82-18b4ed6ced8b
-PPP1R Family|fb780dda-deac-43ec-ac54-f0c95e4c5396
-PPP2 Family|06483bda-7e5e-4bc9-b8ae-7210e1cfacea
-PPP2C Family|0e7359c8-7b80-44d6-a81f-14776768597b
-PPP2R Subunit A Family|9e632f19-7a5a-40eb-bd61-88b49d6fb8f6
-PPP2R Subunit B Family|8cdb0988-7803-4c03-bbe2-08e11c4bdff9
-PPP3 Family|db8f40f3-ac79-4d2b-a2d0-0c246ef7013e
-PPP3C Family|2811ec9e-ada0-4fd4-ac84-d3507a324759
-PPP3R Family|2711e232-c1ef-4986-90b6-e71a227e8ff7
-PRDX Family|7850f9ad-0085-4d21-adce-92f81cd6bc98
-PRKA Family|7d4d8830-c618-4278-8a8d-785556a8667e
-PRKAA Family|d9c75503-e876-4567-90b7-2b3dafc19060
-PRKAB Family|bbd7a073-7fbf-44b0-a287-cccf59fcf540
-PRKAG Family|b0d031da-8ceb-429f-a010-2c6b4e1c8397
-PRKAR Family|310a6449-235a-4229-a686-4e35ff679427
-PRKC Family|6e182ecb-a4a8-44ea-ad82-fafa22e40f2e
-PRKG Family|19ba88f2-fd3b-4625-a852-7ace907725ae
-PTGER Family|fcab0efa-1c75-4c55-ae80-6a555f2459f9
-Ppp1 Regulatory Family|ec9958cf-2470-487d-be85-c07e5b5f83f1
-RAB Family|d70b0386-24b6-4290-b080-da3299787448
-RAC Family|cfbcdb32-8871-4a60-90b2-7a9cf4a92d36
-RAF Family|5a8bbc90-cc09-4f5e-8957-3ca3e5785c08
-RAR Family|8f2e7093-0dd6-432a-b8fe-eeedceccceb8
-RAS Family|7d99b586-8a79-431b-803c-bef50e1fac59
-RBP Family|0df3d253-1e4f-4785-abb0-85b4a75780fe
-RFX Family|4d26b031-41f8-4ce3-b131-0cb3b832a581
-RHO Family|976f7098-5a9e-4256-8c1c-075a80719af1
-ROCK Family|01a300cc-3081-40c8-8375-53b782768f67
-ROR Family|414288c4-666b-4e41-813e-d91c79990f16
-RPS6KA Family|49b6b58a-5d4f-457f-9c94-b23e244ef5c8
-RPS6KB Family|50ff8283-b5f3-4c63-8b1a-6127986e9b58
-RXR Family|50af3646-9ac9-4d4f-863f-e7cd850d1479
-S100A Family|3df1ac48-4d6f-49e6-bdb7-d6030db77b22
-S1PR Family|3f606bb8-f131-408a-b39b-e9c5014dc293
-SAA Family|d560ea3f-c44d-4246-9fe5-810e310c84e6
-SCD Family|daf8087b-5d3b-428b-abfd-8bbea413dc9c
-SERPINB Family|a41013e1-2d5f-40c0-afb4-5dda4a1a3d52
-SLC2A Family|a6fb7e3c-1a1c-4045-917f-d4b31ac23114
-SMAD Family|aea28213-dd7f-4106-9de6-ab347784f0ea
-SMC1 Family|e8b1b6a2-5482-48bf-8a47-dceacab89210
-SNAI Family|e54517cc-91fc-43e7-8101-ae8b812d890e
-SOCS Family|72f544c9-e21f-456a-99e0-0268df29f726
-SOD Family|306bc8b7-d7b5-453b-93e4-b250b80aa852
-SOS Family|b1f41bc9-85cf-4b4c-b28b-2f887ffb2c4c
-SRC Family|e8f15ec7-96be-4c96-b42f-70f30a868ade
-SREBF Family|b531022f-c810-42f9-99a8-c8baf83d8975
-STAT Family|d32c2742-204b-4ff4-bb1b-95541975690f
-STAT5 Family|8eb5b1c2-111a-4ea9-a9cf-79772098d4c7
-TAP Family|a7914c63-d584-4f11-9c6e-d1cea910a217
-TCF/LEF Family|bfe37219-a6ff-475a-91b8-8ddb16fba7fe
-TFAP2 Family|d7b5b2cd-e944-4f48-877b-e274d06e51dc
-TFDP Family|a49f65dd-74af-4d22-bd36-a66ae6144e50
-TGFB Family|5552c07e-fba5-4344-ad5f-0dc43cf01bc2
-TGFBR Family|44dcfe46-ba44-459f-abd0-d056774237db
-THBS Family|821a5f94-b010-4623-9501-c2fc321bd7d7
-THR Family|91edad47-f5c2-4702-9d13-e4e2592036e6
-TN Family|63ed9579-77e8-49ab-a124-59ee9029e4b7
-TNFRSF Family|b9f14934-04bf-4f4f-bedc-5403f76b2323
-TOP2 Family|5ca502a8-70b7-47b1-995e-6b63caaa9748
-TPSA Family|1616a195-8b2d-4396-854a-9a876fd6a698
-TR Family|add81f78-a6a4-46c0-a456-ba2f923b5403
-TUBA Family|b9d1a865-2e63-4207-a4c0-abdd32b7ef7b
-TUBB Family|a2b7663d-b7ed-4d7a-93c5-62255c0d1cfd
-TXN Family|d1e40032-a0e5-45a6-8d9d-2a63622e5ad7
-TXNRD Family|beeb21d1-aaf6-4187-80e0-ba79555b0a8e
-UB Family|cbca043e-2de2-4a60-9c3d-813f4090ec2b
-UBE2 Family|6d09259b-0a4c-419f-894d-0ca3777783ca
-VAV Family|4304ad78-f725-4528-86a9-0177c40951eb
-VEGF Family|76ead744-61e1-4ea9-993b-ce2fd0b33385
-VEGF Receptor Family|b2c9aa76-dbcc-4415-bcb3-5fe820a3e2dd
-WNT Family|8751eb29-1485-407e-b9e6-2d86fbe95661
-alpha 2 Microglobulin Family|755ec6f8-72f8-4079-8842-d728bf3b7858
-betaHLH TCF Family|6c478ea0-a119-4a06-acaf-e402ac21ad43
+14-3-3 Family|71a666c7-93ad-4c2c-afce-2d72099e8589
+ACAD Family|d3bd5c73-5b08-4719-a99c-c06adcada5ae
+ACOX Family|f2f63991-b7ea-4b21-ab72-2038e6083b65
+ACSL Family|8c4f95e6-fea2-404f-83c6-e671f2adc87e
+ACT Family|201c5e06-88da-4854-8c15-316e7dae0a1b
+ACTN Family|0a4908d0-2646-4e73-924d-ca46306c2ca8
+ADCY Family|a700f248-af90-4bf2-8416-7c50b5a178d6
+ADH Family|924d3350-084e-48d1-80fa-286d2ff699ff
+ADRA Family|5585631f-8d31-4853-9a84-2a54f67c6978
+ADRA2 Family|803149a6-6ced-4305-9cce-170b65a0f5ed
+ADRB Family|58d2d1b5-d277-4bb1-845d-4bbb5bea4cd7
+ADRBK Family|714bd04a-d14f-42e5-953b-20e83e08a820
+AKT Family|fe1b7bfe-8fbd-4220-9eb0-5ad9de35b9b5
+ALDH Family|44536345-4f5f-4694-a297-b6e0d00d8ebe
+ALDO Family|78278d86-39f4-478e-8ec6-f2b480d6230e
+APOA Family|42d4a842-fc82-4d40-ac2b-73d22f8bbbaf
+ARRB Family|5ac619de-9b46-463b-955b-ad6f60533d07
+ATP2A Family|89248e24-9fd5-4336-9daa-1876748921ba
+ATP5G Family|602edd55-9aa2-4ff6-a216-084845b50de3
+AXIN Family|cf048090-ac3f-47c3-8bcf-d36c81c85895
+Acetyl-CoA Synthetase Family|01d41fed-30ee-41c2-b25d-f1f3bca2f2bd
+BIRC Family|b9f8e3f7-cd4d-499a-929d-15dd4e780236
+BMP Family|cd7a6adf-a415-44be-97ce-b1cec25f3f9c
+BMP Receptor Type I Family|8b02fa8a-8c2c-431c-a450-b7ba2764ae85
+BMP Receptor Type II Family|8d3de8e6-7570-43ec-9319-0c1d0c20d62d
+CALM Family|f4aa4a76-ec44-4da4-84d2-dc2d0648ca3c
+CAMK Family|cfc6d34b-78b7-45f2-99bd-d95a24b9bb33
+CAMK2 Family|55d1ad88-a6e4-459d-8313-e103643f4b8c
+CAPN Family|b6818da9-17bb-431b-820b-a83af872eb52
+CASP Family|ad9b75eb-140d-4bd4-8660-c1ec8d4c0707
+CAV Family|7f1ebc37-526c-4c98-bc76-84a035025588
+CCNA Family|8c008db8-c517-4ca8-a616-e41eaa590131
+CCND Family|59662f4b-d666-47f1-82ae-50da1d0326d7
+CCNE Family|63b69886-24cb-48cc-bae9-093ca0d98818
+CD16 Family|8c45b25c-ad91-49d9-8da6-0f97441c2955
+CD32 Family|f3369f4e-903c-45eb-a084-3f81a496adfb
+CD64 Family|1ecfb1aa-1ecf-4d8d-b89d-dd2ad8287f19
+CDC25 Family|ddac2274-2017-48ef-bc95-d8e2224d3ebb
+CDH Family|d3af7414-40e6-44b5-9fa9-a0d4ec2ab881
+CEBP Family|e9bd4ab3-ad29-41e9-833c-24a8f2e68daf
+CHRM Family|970c98a1-7625-4b74-b0e8-b7850d468956
+COL1 Family|31fd611b-74b6-491a-9c7a-6aed5541cedb
+COL4 Family|fbcd9b0a-483e-40ae-90eb-0ec1a932bff7
+COL5 Family|a71b61d1-95ff-469d-a59a-21350945b304
+COX4 Family|b34a22b8-73eb-455c-b8f2-3e87661dd097
+COX6A Family|980853a6-532d-4f04-83d4-3c0a9dec2c5d
+COX6B Family|42e8985e-8c6b-4713-8ad3-aaf78ddf5f62
+COX7A Family|e30b8665-6de9-4066-81a6-9dc2dac69a14
+COX7B Family|1c3f4d55-aa30-43fb-86bc-ec2da914ef9d
+COX8 Family|f9d3d9a3-0abe-42ef-9423-80b81e4465f7
+CREB Family|ee13d59c-6a08-4af9-9696-2df849d7b762
+CRISP Family|724bd2a7-c5cf-48f2-b0c0-90e2da2577b2
+CSNK1 Family|6291cc41-1e68-42fe-ad52-155b1a9b79a7
+CSNK2 Family|e9298839-76e8-4c91-9e11-01a828bf5457
+CTNNA Family|6f32b396-8df5-4166-8604-d06334737614
+CUL Family|08f719e9-9ec7-4d10-9b73-98b2bff04df4
+CXCL ELR-Negative Family|cea4c671-fdd7-4238-a028-735becbe25c0
+CXCL ELR-Positive Family|056f47c5-affb-4853-b1a0-a1ed48b089c4
+Carboxylesterase Family|b88dfe73-32c8-48dd-8582-850074faf684
+Chemokine Receptor Family|5f5f49eb-6da3-4ff4-838d-bba6ae271338
+Cholinesterase Family|2132675e-9d15-4a70-9f45-a297928fef6c
+Cu-Zn SOD Family|737e52c3-fec8-4f21-a7f2-83d2f07c1f03
+Cyclophilin Family|cc88ba90-5b45-48e0-a23e-6236e394f0d7
+DDR Family|b76e0290-5a2c-4e12-9ec0-d2528d67f54f
+DGK Family|284db589-ed36-43cb-867a-e2d04dbeb5e1
+DNM Family|de8e4780-09d3-4523-9a23-e409d8e657de
+DRD Family|a0f33a2b-dc06-4661-983e-8e112d891f4a
+DVL Family|0a34a90a-2cb0-4ebe-a712-5d010d621c7f
+Desmoglein Family|cb066fe3-ce9b-4f3c-8ac2-8fde64fa4454
+E2F Family|1c45054f-8615-4e45-aeb1-64f5f117a42a
+EDN Family|a8aa7b7f-813b-421e-896b-5bdf6eefcae3
+EGFR Ligand Family|f2a32434-41c0-469c-882f-f0f4a38afeb2
+EGFR/ERBB Family|49378718-d9b5-464c-997f-4abcec9f070a
+EGR Family|49caf2c4-20c8-4338-9c48-3814db62133a
+EIF4A Family|1a996a8b-a28a-4f85-8d7f-b2dc380775fd
+EIF4EBP Family|b74c45c1-d8a2-4701-9581-c90d3c3417c6
+ELA Family|90c53485-dbb7-4d7d-834f-722a1105edc7
+ENO Family|9b1c9828-a674-44c4-9321-02fcfe655059
+EPN Family|26283966-614f-4e52-9cf0-d2e6771877de
+ESR Family|94fa3d52-4c4d-42ea-8f9f-0a4ea3d51c84
+ETS Family|f61f3686-486e-4f26-9664-115257af2f9d
+Ephrin Receptor Family|d1ca3ede-30b8-4ccf-bd29-763929b0e8c7
+FGF Family|6071badc-bf05-4a7f-8555-7a6afd63098d
+FGFR Family|67a8f8f9-b230-4660-baf1-f09a9596152f
+FLOT Family|c773edf2-5bc2-47fb-948c-1607174b55fc
+FLRT Family|830c9cd8-bd66-4ecb-bf3d-6a5ddacace40
+FOXO Family|0e32af94-5a9e-4032-9530-7586b17a864b
+FZD Family|5de5bd13-cd8b-42df-a9c8-8f298b080984
+GABR Family|502d3f20-e2dd-4558-9d6b-7641f2ac7f74
+GAS6 Receptor Family|835f3a6d-352c-41cc-82fe-d670eb818e74
+GATA Family|751fb792-c605-4593-abda-a928d9f9a3a3
+GNA Gq Family|3a3d34f6-a5e2-448c-bfb6-cd880aba2691
+GNA Gs Family|79185b2a-fcca-4ff0-afb1-5085b7e65b2e
+GNAI Family|d8a8362a-82a4-4420-9a52-bf7bcfd7b1e6
+GNB Family|bf646aaa-e797-48e9-9db0-2ad8a637f948
+GNG Family|740cda92-0d16-4f2f-8f1f-bf1b3716052a
+GPX Family|b4acf1dd-760c-4e5d-a119-9b40c6260247
+GRIA Family|1b59f792-b8e3-4107-8f0a-83f6991ccf4d
+GRK Family|bc3675b4-7691-4947-bb68-fa9e642d2cee
+GRM Family|1a5b033e-69b2-4967-9ef7-550a2d445a3e
+GSK3 Family|f2906db9-aaf2-4dc2-815b-5f7f88e5c2e5
+GST Family|8289a793-efa8-4851-aecb-890fbbdbdb1f
+GUCY Family|7cbdfe3d-c4fc-4a95-b6dc-f9aae274a6db
+GYS Family|c5563921-eff9-4eec-92b6-d5e6cb6f1463
+HDAC Class I Family|3e945825-0b3f-4288-b2c5-2034c32d1bc7
+HDAC Class II Family|2b25c563-4e86-4ff4-a8c7-106c0010204a
+HDAC Family|f45339f7-ebeb-44a5-ae5f-ae11dd9cac3d
+HES Family|eb01ed2f-589c-4919-b418-3abb15552f04
+HLA-DR Family|ee081733-34ad-4bfc-bb79-8faea3cf159a
+HMOX Family|d1275202-dd42-40cc-b4af-327a214ffe7e
+HSP90 Family|f1574726-2e58-4ba4-a7a8-f41488a89130
+HSPA Family|81c98a28-2472-4750-b034-9f219f72faf6
+HSPB Family|fdc582a0-b143-4aa6-8369-ec0b46e06a31
+Hedgehog Family|d5619516-bc19-4dd4-ac33-1453b2e367ef
+Histone Family|d66722fc-a1fd-44b1-93be-5fc6d74c666d
+Histone H1 Family|4803b057-f390-441d-b484-0079865f8471
+Histone H2A Family|244a39c0-af3c-447b-affb-3bad87583e44
+Histone H2B Family|eee57239-966d-4578-a556-e7102643b007
+Histone H3 Family|abd98af4-5538-429f-bd3e-de5d49b61bb2
+Histone H4 Family|7079bd28-aaf6-4a60-a665-bf3becba0362
+IFNA Family|22edd926-8cb6-45db-89d9-317ba4e61bf2
+IGFBP Family|eaa29a45-7b7d-464f-bf7c-138a2b31bd3d
+IL1 Family|0d67a48a-af3a-4213-9e2e-cba6511088cd
+INS Family|29415c9c-ac35-48ec-a68c-5b334d5c52b0
+INSR Family|61045205-5ac2-4222-b4be-7cacb2ab3ee1
+IRS Family|a8d312a8-3afa-438a-978e-50eb008745af
+IRX Family|82bc3b14-6976-456f-b4cc-4f8938333726
+IgE Family|189c8ccb-ebc6-4f86-8cfe-71418663a676
+IkappaB Kinase Family|631f4547-2987-46a7-8b1f-599b0a093078
+JAK Family|4d678c27-fea3-4234-825f-d8fb49422925
+KLK Family|38d1c4fb-0161-4913-8ee8-79faba952d8e
+LDH Family|bcfab249-102b-4eae-a329-2ac522834abb
+MAF Family|54f811db-8cfb-4631-a78e-710c48962143
+MAPK Erk1/2 Family|51b81b75-cb94-46ef-ace3-b1c13c076c4d
+MAPK JNK Family|ed43ef44-a55a-49ec-893a-8c656edd12ee
+MAPK p38 Family|caef3bf2-2b57-49a5-bbdf-9f0c63957222
+MEF2 Family|b6dac57a-c313-4660-ad0d-745c292ed3a0
+MEK1/2 Family|a21b6b9a-f522-4307-9b7d-ada7649842c9
+MMP Family|fc045e05-0555-4ed7-920f-d37d42797fea
+MYH Family|7dcdaf0d-70eb-4da2-a7f8-6a67a7cc0887
+MYL Alkali Family|f0030b95-c349-4a80-9512-24acc62366d0
+MYL Family|9ac92ad9-2f67-464c-819e-42f05442df1f
+MYL Regulatory Family|41d26bb2-554d-4b86-a1a9-f116c18ec647
+MYL Slow Family|418143da-7c41-40cf-b828-a0dd3d333f27
+MYST Family|6d0842ff-6512-4089-8df5-e265ae0f764b
+NCOR Family|b573b7c8-15a3-402d-bdb9-f1bafa27f26b
+NDRG Family|135fc1b9-7463-4cdd-b2d7-170bec5f9889
+NFAT Family|afe69099-96e0-4bf6-85d7-dcbe77f4e373
+NKD Family|a9ba2a58-d84a-45b8-8425-3035c08275e6
+NOS Family|cb7d8c01-6323-4fd8-bccf-364e8b1ca697
+NOTCH Family|284a5b13-0dbb-4543-b7db-cfa7175eb385
+NRG1/2 Family|993bd13c-d7e8-41b9-b5d0-2aa16e5de1c4
+NRG3/4 Family|2776ef07-ca9c-4961-8112-2b875ae40d7b
+NTRK Family|3a318c00-18b2-47a4-ab17-40f693f3580f
+P2RX Family|e4eb24b1-8fa8-45ef-87c5-14297311eb62
+P2RY Family|0c04ce6f-d8a7-4672-9628-0987d50cc52a
+PAK Family|7a5c151b-2282-4950-85a7-1e2ef7a3c2f1
+PARV Family|1a4ca3e5-81ab-4a52-9e54-639ec6a2e807
+PBX Family|b9bde73b-4acb-420e-962c-71aa39c77136
+PDE Family|47a7df19-f6f7-40e1-bb44-c937c1ddbe42
+PDE1 Family|e6816dfa-97aa-481e-aad6-707cdb10a431
+PDE3 Family|ed320bd3-ba09-44f3-8c3d-2c7e9e07f714
+PDE4 Family|237dcaae-a0dd-4973-ad22-df03b8aa3e7d
+PDE4 Long Family|1b83d6da-7f29-4af2-b947-351c7d5a8147
+PDE4 Long No A Family|fde8538e-5934-4f54-9940-5ffa43d26bdb
+PDE4 Short Family|682e3416-3bc2-4298-a171-c4ef556cd66c
+PDE6 Family|8a605c27-8849-4b9c-983a-f21fe18005d0
+PDGF Family|8df51407-76e7-43f2-8458-8777389961e0
+PDGFR Family|3004e317-2a06-4b79-bbdb-d2dd309474ca
+PDK Family|b8f04086-03d6-41e0-98f4-a057d8a8e4de
+PFN Family|e2c60edf-4b28-4804-aeb8-f826b82e03f9
+PIK3C Class IA Family|0076eecf-0b82-489e-a120-87f0e1f8b426
+PIK3R Class IA Family|a307fd03-2699-4058-864a-f78586a7fc58
+PKI Family|6e245862-3654-4133-bb01-76f02731a8f6
+PLA2 Family|631f8154-6272-4ef9-9f91-1aa201354596
+PLA2G2 Family|24df998b-0d50-4cd1-a24f-725f7cbb2b49
+PLC Family|141b4e99-3ffc-4b57-9a08-159d25470114
+PLCB Family|6341ccb3-b385-4a57-a912-b22ff3429fab
+PLCG Family|1bf101dc-989d-4fa0-9b0e-52358da8fa27
+PLD Family|21059376-7eb9-4ece-bdc5-d701280e740a
+PPAP2 Family|1cedb49f-5422-4dcc-a6d5-b31c106bea44
+PPAR Family|b112c49d-c170-4b2a-ba1e-01c6de228dbc
+PPP1C Family|82e72a1e-8d15-4e93-993e-e6a782dc73e2
+PPP1R Family|b6fa3e7f-e525-4143-8dbf-be8ab8a4cf0d
+PPP2C Family|4f14e76d-945d-4c99-9d91-7b37394f6247
+PPP2R Subunit A Family|3567f1df-15aa-4798-9330-36ec0d84cb4f
+PPP2R Subunit B Family|c41c0a61-fd7e-49ed-b576-8bdbe3457fd1
+PPP3 Family|a05cce3c-c94e-49fe-a545-ee608660da7c
+PPP3C Family|f79b59db-0ee0-47f7-a405-08d9b164911c
+PPP3R Family|eac08eae-1754-49ce-b98f-d4bfbe87b292
+PRDX Family|dc8d69de-61b4-4e67-98e8-c935798d40fe
+PRKA Family|3a545ea2-1632-4264-b83e-18f062f3223e
+PRKAA Family|128752e0-02e1-4206-9fe6-24911f54d638
+PRKAB Family|e35520f4-5d3d-410e-a596-faf62ced9d67
+PRKAG Family|844cb032-0c30-4075-a13c-c025ff494fb2
+PRKAR Family|383ba15b-f272-4369-8e0e-11a656ad21b3
+PRKC Family|bb9a68d6-8d8b-4443-bbee-1e592463856f
+PRKG Family|7c187dcf-bf10-4a82-8489-52d6539041d7
+PTGER Family|a549692e-c78a-4af3-b78f-86df9e5b0524
+RAB Family|2a4d9b06-0e96-43bd-b4d9-95e974b54a52
+RAC Family|37154838-7f47-4111-a309-d61f84f89652
+RAF Family|08e9a39d-9d74-4fae-86ca-77c85cecd0dc
+RAR Family|428886e1-eb68-4b33-ab7e-69290963449e
+RAS Family|c106eec8-05c0-4e91-92ef-773030e39c5e
+RFX Family|b9e4ad6d-5464-4b31-bf8a-2df07b440258
+RHO Family|1fb1b023-0a67-4a14-b8b1-9067634bd4ee
+ROCK Family|1bd0b072-3825-4748-8389-dc2c4fcbaa80
+ROR Family|00a50d9c-9d16-45c9-9b68-d21e01b53e13
+RPS6KA Family|ca545dda-2432-468e-95b5-543463a6149f
+RPS6KB Family|eeb990c6-7fd7-49c1-925c-dbfb2020e3f9
+RXR Family|3b610966-34c4-4e30-9b06-41c37d76c851
+S100A Family|e8856120-1139-408f-9677-8872dc3944a3
+S1PR Family|1b33bb8e-113d-46b8-9e33-d66b7b93817f
+SAA Family|50520168-86c6-4b26-a2d5-f401060dc06a
+SCD Family|5b15e583-d3a3-49a6-894a-034da26165b4
+SERPINB Family|47521040-027b-4bec-8ea6-d4db8d2d7183
+SLC2A Family|69c919bf-a509-4296-b33d-5e371edbd4f5
+SMAD Family|eeaced8c-fac9-4d57-947c-611d263aa363
+SMC1 Family|118457b5-2f93-4b38-a18d-893623b34b0f
+SNAI Family|b5291ba7-221f-4b3a-99c1-2884fe5c0087
+SOS Family|20ec488d-3148-4119-b133-d76a24a6e607
+SRC Family|0ca79e3d-1c7f-43ed-9b42-ca351001f312
+SREBF Family|f4e9aab3-6120-451e-955e-445005867efd
+STAT Family|34e0dac5-938a-40ec-a4e7-d5236788d748
+STAT5 Family|629195ec-c5c6-4268-98ea-6218542810a4
+Sulfonylurea Receptor Family|667a6612-21df-43a7-a0ac-9f5dfbb2a974
+TAP Family|20c3d981-004e-48be-8662-dae256ffbb43
+TCF/LEF Family|dec7c98c-83f4-4896-b7a9-8dd9e1e36b77
+TFAP2 Family|5ec1c48b-417b-48ff-8792-9e3370c86cce
+TFDP Family|e552507b-8fc2-48c6-903b-b7bc3587c6cb
+TGFB Family|8a09f4a6-7c24-4ced-95ca-641d4120ce31
+THBS Family|8bf5455a-f433-40ad-b01c-8ffbc9ebba50
+THR Family|e03cc162-f647-4f02-8d79-35f4896763d9
+TN Family|c48e65b6-a91d-4b14-a0fc-b4990451ed6e
+TNFRSF Family|f0699476-c990-40ee-b947-f7d0a202840e
+TOP2 Family|d853e932-afce-4f38-b03c-b32500083e55
+TUBA Family|992cbabb-0a80-408c-a82f-fd36843310b5
+TUBB Family|c770bea7-f3c5-4ff6-8461-5df459202fe7
+TXN Family|4c8373bc-b606-4d8b-b7ce-5e25bcd90092
+TXNRD Family|e5763ff7-8864-4444-a829-3bb0e770f352
+Tryptase Family|f1d3d05f-a556-43e1-a202-0a1e75a3eb30
+UBE2 Family|3313ecb2-e602-4ac8-9c28-0d13f83ab604
+VAV Family|04b9f202-d179-4d88-92e5-19f5c97f7a8a
+VEGF Family|d3348375-7847-4ad4-9ded-db993c4175d9
+VEGFR Family|38afe0cd-6014-49c4-99b8-7d06d1e133be
+WNT Family|a217b7a9-e041-4347-9aa3-def60b61c1a5
+p160/SRC Family|5b51fbdd-904e-4213-a97c-7bedd5c7d1af

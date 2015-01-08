@@ -4,19 +4,19 @@ Keyword=SCHEM
 DomainString=Chemical
 SpeciesString=all
 DescriptionString=Selventa names for chemicals, drugs, and other molecule abundances. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
-VersionString=20131211
-CreatedDateTime=2013-12-11T13:14:12
+VersionString=20150106
+CreatedDateTime=2015-01-06T14:02:36
 
 [Author]
 NameString=OpenBEL
-CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2015, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=Selventa
 DescriptionString=Selventa names for chemicals, drugs, and other molecule abundances. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
-PublishedVersionString=Fri, 24 Aug 2012 19:21:34
-PublishedDate=2012-08-24
+PublishedVersionString=Mon, 22 Sep 2014 17:12:09
+PublishedDate=2014-09-22
 
 [Processing]
 CaseSensitiveFlag=yes

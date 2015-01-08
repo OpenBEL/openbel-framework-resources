@@ -1,20 +1,20 @@
 [Namespace]
 Keyword=SFAM
-NameString=Protein Families
+NameString=Named Protein Families
 DomainString=Gene/Protein
 SpeciesString=9606, 10090, 10116
 DescriptionString=Names of protein families. This Namespace standardizes the representation of protein families by providing a standardized set of names. Each family represents a group of proteins that are closely related by function. Note: A named protein family represents a more abstract concept than its individual members. Its purpose is to represent information when the observation does not distinguish between closely related proteins. For example the "AKT Family" has as members the closely related kinases AKT1, AKT2, and AKT3. Sources often reference "Akt" rather than a specific family member. In these cases the family should be used.
-VersionString=20131211
-CreatedDateTime=2013-12-11T00:00:00
+VersionString=20150106
+CreatedDateTime=2015-01-06T14:02:36
 
 [Author]
-NameString=OpenBEL
-CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
-ContactInfoString=info@openbel.org
+NameString=Selventa
+CopyrightString=Copyright (c) 2015 OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+ContactInfoString=support@belframework.org
 
 [Citation]
-NameString=Selventa Protein Family
-DescriptionString=Selventa-defined names of protein families. Each family represents a group of proteins that are closely related by function. Each family may be associated with a defined set of family members (defined in resource BEL documents using BEL statements). 
+NameString=Selventa Named Protein Family
+DescriptionString=Selventa defined names of protein families. Each family represents a group of proteins that are closely related by function. Each family may be associated with a defined set of family members (defined in resource BEL documents using BEL statements). This Namespace serves to standardize the representation of a family by providing a standardized set of names. Note: A named protein family represents a more abstract concept than its individual members. Its purpose is to represent information when the observation does not distinguish between closely related proteins.  For example the "AKT Family" has as members the closely related kinases AKT1, AKT2, and AKT3. Sources often reference "Akt" rather than a specific family member. In these cases the family should be used. Note that this represents information that is less certain. Do not use named families as a convenience function to represent multiple specific results. For example if the abundance of AKT1 and AKT2 are reported to increase, do not use the increased abundance of the AKT family.
 
 [Processing]
 CaseSensitiveFlag=yes
@@ -24,7 +24,6 @@ CacheableFlag=yes
 [Values]
 14-3-3 Family|P
 ACAD Family|P
-Acetyl-CoA Synthetase Family|P
 ACOX Family|P
 ACSL Family|P
 ACT Family|P
@@ -43,6 +42,7 @@ ARRB Family|P
 ATP2A Family|P
 ATP5G Family|P
 AXIN Family|P
+Acetyl-CoA Synthetase Family|P
 BIRC Family|P
 BMP Family|P
 BMP Receptor Type I Family|P
@@ -51,7 +51,6 @@ CALM Family|P
 CAMK Family|P
 CAMK2 Family|P
 CAPN Family|P
-Carboxylesterase Family|P
 CASP Family|P
 CAV Family|P
 CCNA Family|P
@@ -63,8 +62,6 @@ CD64 Family|P
 CDC25 Family|P
 CDH Family|P
 CEBP Family|P
-Chemokine Receptor Family|P
-Cholinesterase Family|P
 CHRM Family|P
 COL1 Family|P
 COL4 Family|P
@@ -81,16 +78,19 @@ CSNK1 Family|P
 CSNK2 Family|P
 CTNNA Family|P
 CUL Family|P
-Cu-Zn SOD Family|P
 CXCL ELR-Negative Family|P
 CXCL ELR-Positive Family|P
+Carboxylesterase Family|P
+Chemokine Receptor Family|P
+Cholinesterase Family|P
+Cu-Zn SOD Family|P
 Cyclophilin Family|P
 DDR Family|P
-Desmoglein Family|P
 DGK Family|P
 DNM Family|P
 DRD Family|P
 DVL Family|P
+Desmoglein Family|P
 E2F Family|P
 EDN Family|P
 EGFR Ligand Family|P
@@ -100,10 +100,10 @@ EIF4A Family|P
 EIF4EBP Family|P
 ELA Family|P
 ENO Family|P
-Ephrin Receptor Family|P
 EPN Family|P
 ESR Family|P
 ETS Family|P
+Ephrin Receptor Family|P
 FGF Family|P
 FGFR Family|P
 FLOT Family|P
@@ -129,28 +129,28 @@ GYS Family|P
 HDAC Class I Family|P
 HDAC Class II Family|P
 HDAC Family|P
-Hedgehog Family|P
 HES Family|P
+HLA-DR Family|P
+HMOX Family|P
+HSP90 Family|P
+HSPA Family|P
+HSPB Family|P
+Hedgehog Family|P
 Histone Family|P
 Histone H1 Family|P
 Histone H2A Family|P
 Histone H2B Family|P
 Histone H3 Family|P
 Histone H4 Family|P
-HLA-DR Family|P
-HMOX Family|P
-HSP90 Family|P
-HSPA Family|P
-HSPB Family|P
 IFNA Family|P
-IgE Family|P
 IGFBP Family|P
-IkappaB Kinase Family|P
 IL1 Family|P
 INS Family|P
 INSR Family|P
 IRS Family|P
 IRX Family|P
+IgE Family|P
+IkappaB Kinase Family|P
 JAK Family|P
 KLK Family|P
 LDH Family|P
@@ -176,7 +176,6 @@ NOTCH Family|P
 NRG1/2 Family|P
 NRG3/4 Family|P
 NTRK Family|P
-p160/SRC Family|P
 P2RX Family|P
 P2RY Family|P
 PAK Family|P
@@ -259,13 +258,14 @@ THR Family|P
 TN Family|P
 TNFRSF Family|P
 TOP2 Family|P
-Tryptase Family|P
 TUBA Family|P
 TUBB Family|P
 TXN Family|P
 TXNRD Family|P
+Tryptase Family|P
 UBE2 Family|P
 VAV Family|P
 VEGF Family|P
 VEGFR Family|P
 WNT Family|P
+p160/SRC Family|P

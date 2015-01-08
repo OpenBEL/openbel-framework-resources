@@ -4,12 +4,12 @@ NameString=Selventa Named Complexes
 DomainString=Gene/Protein
 SpeciesString=9606, 10090, 10116
 DescriptionString=List of named complexes that are frequently used and/or are well characterized such as the NFKB Complex.
-VersionString=20131211
-CreatedDateTime=2013-12-11T13:14:12
+VersionString=20150106
+CreatedDateTime=2015-01-06T14:02:36
 
 [Author]
 NameString=Selventa
-CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2015, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
