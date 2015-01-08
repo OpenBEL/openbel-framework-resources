@@ -3,19 +3,19 @@ Keyword=Disease
 TypeString=list
 DescriptionString=Disease names from the Disease Ontology (DO)
 UsageString=Use to annotate a statement demonstrated in a biological system where the disease state was present or where the facts represented in the statement were shown to be relevant to the disease.
-VersionString=20131212
-CreatedDateTime=2013-12-12T10:21:52
+VersionString=20150107
+CreatedDateTime=2015-01-07T10:00:59
 
 [Author]
-NameString=OpenBEL
-CopyrightString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+NameString=OpenBEL 
+CopyrightString=Copyright (c) 2015, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=Disease Ontology (DO)
 DescriptionString=The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts through collaborative efforts of researchers at Northwestern University, Center for Genetic Medicine and the University of Maryland School of Medicine, Institute for Genome Sciences. The Disease Ontology semantically integrates disease and medical vocabularies through extensive cross mapping of DO terms to MeSH, ICD, NCI's thesaurus, SNOMED and OMIM.
-PublishedVersionString=http://purl.obolibrary.org/obo/doid/releases/2013-12-11/doid.owl
-PublishedDate=2013-12-11
+PublishedVersionString=http://purl.obolibrary.org/obo/doid/releases/2014-12-18/doid.owl
+PublishedDate=2014-12-18
 ReferenceURL=http://disease-ontology.org/
 
 [Processing]
@@ -71,11 +71,12 @@ Axenfeld-Rieger syndrome|DOID_14686
 B cell deficiency|DOID_2115
 B cell linker protein deficiency|DOID_0060027
 B- and T-cell mixed leukemia|DOID_9953
-B-cell lymphocytic neoplasm|DOID_707
+B-cell lymphoma|DOID_707
 Baastrup's syndrome|DOID_6643
 Balkan hemorrhagic fever|DOID_0050522
 Balkan nephropathy|DOID_3052
 Baller-Gerold syndrome|DOID_0050654
+Balo concentric sclerosis|DOID_0060215
 Bamforth-Lazarus syndrome|DOID_0050655
 Bannayan-Riley-Ruvalcaba syndrome|DOID_0050657
 Bardet-Biedl syndrome|DOID_1935
@@ -137,7 +138,7 @@ Brucella melitensis brucellosis|DOID_14456
 Brucella suis brucellosis|DOID_11076
 Brugada syndrome|DOID_0050451
 Bruton-type agammaglobulinemia|DOID_14179
-Burkitt's lymphoma|DOID_8584
+Burkitt lymphoma|DOID_8584
 Buruli ulcer disease|DOID_0050456
 C-P angle neurinoma|DOID_3199
 C1 inhibitor deficiency|DOID_0060002
@@ -149,13 +150,16 @@ CD3zeta deficiency|DOID_0060007
 CD40 deficiency|DOID_0060023
 CD40 ligand deficiency|DOID_0060022
 CD45 deficiency|DOID_0060014
+CHARGE syndrome|DOID_0050834
 CLL/SLL|DOID_6354
+CREST syndrome|DOID_0060218
 Caffey disease|DOID_4257
 Camurati-Engelmann disease|DOID_4997
 Canavan disease|DOID_3613
 Capgras syndrome|DOID_6680
 Caplan's syndrome|DOID_10326
 Carney complex|DOID_0050471
+Caroli disease|DOID_0050876
 Carrion's Disease|DOID_0050398
 Cauda equina syndrome|DOID_11577
 Chagas disease|DOID_12140
@@ -170,20 +174,25 @@ Charcot-Marie-Tooth disease type 4|DOID_0050541
 Charcot-Marie-Tooth disease type X|DOID_0050542
 Chediak-Higashi syndrome|DOID_2935
 Churg-Strauss syndrome|DOID_3049
+Clostridium difficile colitis|DOID_0060185
 Clouston syndrome|DOID_14693
 Coats disease|DOID_7765
 Cockayne syndrome|DOID_2962
 Coffin-Lowry syndrome|DOID_3783
 Coffin-Siris syndrome|DOID_1925
+Cogan syndrome|DOID_0060216
+Cogan-Reese syndrome|DOID_0060217
 Colorado tick fever|DOID_4885
 Conn's syndrome|DOID_12028
+Cor pulmonale|DOID_8515
 Cornelia de Lange syndrome|DOID_11725
 Costello syndrome|DOID_0050469
 Cowden disease|DOID_6457
-Creutzfeldt-Jakob syndrome|DOID_11949
+Creutzfeldt-Jakob disease|DOID_11949
 Cri-Du-Chat syndrome|DOID_12580
 Crigler-Najjar syndrome|DOID_3803
 Crimean-Congo hemorrhagic fever|DOID_12287
+Crohn's colitis|DOID_0060192
 Crohn's disease|DOID_8778
 Cronkhite-Canada syndrome|DOID_6225
 Crouzon syndrome|DOID_2339
@@ -217,8 +226,9 @@ Emery-Dreifuss muscular dystrophy|DOID_11726
 Epstein-Barr virus hepatitis|DOID_0050204
 Erdheim-Chester disease|DOID_4329
 Evans' syndrome|DOID_8931
-Ewing's family localized tumor|DOID_4392
 FG syndrome|DOID_14711
+FTDALS1|DOID_0060213
+FTDALS2|DOID_0060214
 Fabry disease|DOID_14499
 Fanconi syndrome|DOID_1062
 Fanconi's anemia|DOID_13636
@@ -239,7 +249,7 @@ Fukuyama congenital muscular dystrophy|DOID_0050559
 GABA aminotransferase deficiency|DOID_0060174
 Gaucher's disease|DOID_1926
 Gerstmann syndrome|DOID_4969
-Gerstmann-Straussler-Scheinker disease|DOID_4249
+Gerstmann-Straussler-Scheinker syndrome|DOID_4249
 Gilbert syndrome|DOID_2739
 Gilles de la Tourette syndrome|DOID_11119
 Gitelman syndrome|DOID_0050450
@@ -273,6 +283,7 @@ Hodgkin's paragranuloma|DOID_8642
 Horner's syndrome|DOID_11486
 Human immunodeficiency virus infectious disease|DOID_526
 Huntington's disease|DOID_12858
+IMAGe syndrome|DOID_0050885
 IgA glomerulonephritis|DOID_2986
 Indian tick typhus|DOID_0050042
 Infective dermatitis of eyelid of types resulting in deformity|DOID_13824
@@ -282,6 +293,7 @@ Jaccoud's syndrome|DOID_13080
 Jansen's metaphyseal chondrodysplasia|DOID_0080020
 Japanese encephalitis|DOID_10844
 Japanese spotted fever|DOID_0050050
+Jensen syndrome|DOID_0050867
 Jervell-Lange Nielsen syndrome|DOID_2842
 Jewett-Marshall bladder cancer|DOID_7315
 Job's syndrome|DOID_3261
@@ -304,6 +316,7 @@ Klippel-Trenaunay syndrome|DOID_2926
 Kluver-Bucy syndrome|DOID_2510
 Kniest dysplasia|DOID_0080045
 Kohler's disease|DOID_11760
+Koolen de Vries syndrome|DOID_0050880
 Korean hemorrhagic fever|DOID_0050200
 Krabbe disease|DOID_10587
 Krukenberg carcinoma|DOID_9597
@@ -332,7 +345,6 @@ Leigh disease|DOID_3652
 Lemierre's syndrome|DOID_11337
 Lennox-Gastaut syndrome|DOID_0050561
 Lesch-Nyhan syndrome|DOID_1919
-Letterer-Siwe disease|DOID_2554
 Lewy body dementia|DOID_12217
 Leydig cell tumor|DOID_2696
 Li-Fraumeni syndrome|DOID_3012
@@ -342,17 +354,20 @@ Loeffler endocarditis|DOID_396
 Loeffler syndrome|DOID_9503
 Loeys-Dietz syndrome|DOID_0050466
 Lown-Ganong-Levine syndrome|DOID_13087
+Ludwig's angina|DOID_4558
 Lutembacher's syndrome|DOID_1998
 Lyme disease|DOID_11729
 Lynch syndrome|DOID_3883
+MALT lymphoma|DOID_0050909
 MELAS syndrome|DOID_3687
 MERRF syndrome|DOID_310
 MHC class I deficiency|DOID_0060009
 MHC class II deficiency|DOID_5812
 Machado-Joseph disease|DOID_1440
-Marable's syndrome|DOID_9892
+Maffucci syndrome|DOID_0060221
 Marburg hemorrhagic fever|DOID_4327
 Marfan syndrome|DOID_14323
+Marshall-Smith syndrome|DOID_0050858
 Masters-Allen syndrome|DOID_14133
 Matthew-Wood syndrome|DOID_0050819
 McCune Albright syndrome|DOID_1858
@@ -374,6 +389,7 @@ Monckeberg arteriosclerosis|DOID_5161
 Mooren's ulcer|DOID_10439
 Morgagni cataract|DOID_13964
 Moyamoya disease|DOID_13099
+Muckle-Wells syndrome|DOID_0050854
 Muir-Torre syndrome|DOID_0050465
 Munchausen by proxy|DOID_0060045
 Murray Valley encephalitis|DOID_10842
@@ -413,6 +429,7 @@ Pediculus humanus capitis infestation|DOID_5501
 Pediculus humanus corporis infestation|DOID_5513
 Pelger-Huet anomaly|DOID_9631
 Pelizaeus-Merzbacher disease|DOID_3210
+Perrault syndrome|DOID_0050857
 Peutz-Jeghers syndrome|DOID_3852
 Peyronie's disease|DOID_8616
 Pfeiffer syndrome|DOID_14705
@@ -461,6 +478,7 @@ SOST-related sclerosing bone dysplasia|DOID_0080036
 Saethre-Chotzen syndrome|DOID_14768
 Saldino-Noonan syndrome|DOID_0050549
 Sandhoff disease|DOID_3323
+Scheie syndrome|DOID_0060222
 Scheuermann's disease|DOID_13300
 Schmid metaphyseal chondrodysplasia|DOID_0080021
 Schneiderian carcinoma|DOID_4003
@@ -509,7 +527,9 @@ Taylor's syndrome|DOID_9346
 Thomsen disease|DOID_2106
 Tietze's syndrome|DOID_14021
 Timothy syndrome|DOID_0060173
+Townes-Brocks syndrome|DOID_0050887
 Treacher Collins syndrome|DOID_2908
+Troyer syndrome|DOID_0050886
 Turner syndrome|DOID_3491
 Ullrich congenital muscular dystrophy|DOID_0050558
 Unverricht-Lundborg syndrome|DOID_3535
@@ -716,7 +736,6 @@ adenocarcinoma|DOID_299
 adenocarcinoma in situ|DOID_4943
 adenofibroma|DOID_2683
 adenoid basal cell carcinoma|DOID_4294
-adenoid cystic carcinoma|DOID_4866
 adenoid squamous cell carcinoma|DOID_5524
 adenoiditis|DOID_0050145
 adenoma|DOID_657
@@ -745,11 +764,13 @@ adrenal carcinoma|DOID_3950
 adrenal cortex cancer|DOID_660
 adrenal cortex disease|DOID_3952
 adrenal cortical adenocarcinoma|DOID_3959
+adrenal cortical adenoma|DOID_0050891
 adrenal cortical hypofunction|DOID_10493
 adrenal gland cancer|DOID_3953
 adrenal gland disease|DOID_9553
 adrenal gland ganglioneuroblastoma|DOID_8140
 adrenal gland hyperfunction|DOID_3947
+adrenal gland pheochromocytoma|DOID_0050892
 adrenal medulla cancer|DOID_5719
 adrenal medulla carcinoma|DOID_7379
 adrenal neuroblastoma|DOID_5718
@@ -821,10 +842,10 @@ aggressive systemic mastocytosis|DOID_4798
 agnosia|DOID_4090
 agoraphobia|DOID_593
 agranulocytosis|DOID_12987
+agraphia|DOID_0060223
 ainhum|DOID_11329
 akinetic mutism|DOID_4267
 akinetopsia|DOID_0060130
-alcaptonuria|DOID_0050714
 alcohol abuse|DOID_1574
 alcohol dependence|DOID_0050741
 alcohol-induced mental disorder|DOID_251
@@ -872,6 +893,7 @@ alveoli adenoma|DOID_8003
 amblyopia|DOID_10376
 amebiasis|DOID_9181
 amelanotic melanoma|DOID_4359
+ameloblastoma|DOID_0050894
 amelogenesis imperfecta|DOID_2187
 amenorrhea|DOID_13938
 ametropic amblyopia|DOID_10377
@@ -892,7 +914,27 @@ amusia|DOID_0060132
 amyloid tumor|DOID_6755
 amyloidosis|DOID_9120
 amyotrophic lateral sclerosis|DOID_332
+amyotrophic lateral sclerosis type 1|DOID_0060193
+amyotrophic lateral sclerosis type 10|DOID_0060201
+amyotrophic lateral sclerosis type 11|DOID_0060202
+amyotrophic lateral sclerosis type 12|DOID_0060203
+amyotrophic lateral sclerosis type 13|DOID_0060204
+amyotrophic lateral sclerosis type 14|DOID_0060205
+amyotrophic lateral sclerosis type 15|DOID_0060206
+amyotrophic lateral sclerosis type 16|DOID_0060207
+amyotrophic lateral sclerosis type 17|DOID_0060208
+amyotrophic lateral sclerosis type 18|DOID_0060209
+amyotrophic lateral sclerosis type 19|DOID_0060210
+amyotrophic lateral sclerosis type 2|DOID_0060194
+amyotrophic lateral sclerosis type 20|DOID_0060211
+amyotrophic lateral sclerosis type 21|DOID_0060212
+amyotrophic lateral sclerosis type 3|DOID_0060195
+amyotrophic lateral sclerosis type 4|DOID_0060196
+amyotrophic lateral sclerosis type 5|DOID_0060197
+amyotrophic lateral sclerosis type 6|DOID_0060198
+amyotrophic lateral sclerosis type 7|DOID_0060199
 amyotrophic lateral sclerosis type 8|DOID_0050752
+amyotrophic lateral sclerosis type 9|DOID_0060200
 amyotrophic neuralgia|DOID_10383
 anaerobic meningitis|DOID_14559
 anaerobic pneumonia|DOID_873
@@ -923,7 +965,6 @@ androgenic alopecia|DOID_0050801
 anemia|DOID_2355
 anemia of prematurity|DOID_11243
 aneruptive fever|DOID_0050484
-aneurysm disease|DOID_2403
 angiodysplasia|DOID_2494
 angiodysplasia of intestine|DOID_10846
 angioedema|DOID_1558
@@ -947,12 +988,12 @@ animal phobia|DOID_600
 aniridia|DOID_12271
 anisakiasis|DOID_7033
 aniseikonia|DOID_0050304
+anismus|DOID_0050839
 anisometropia|DOID_12273
 ankylosing spondylitis|DOID_7147
 ankylosis|DOID_227
 anodontia|DOID_13714
 anogenital venereal wart|DOID_11168
-anomalous atrioventricular excitation|DOID_10392
 anonychia congenita|DOID_0050643
 anorectal stricture|DOID_11014
 anorexia nervosa|DOID_8689
@@ -965,6 +1006,7 @@ anterior cranial fossa meningioma|DOID_4436
 anterior dislocation of lens|DOID_2460
 anterior foramen magnum meningioma|DOID_6381
 anterior horn cell disease|DOID_4873
+anterior ischemic optic neuropathy|DOID_12010
 anterior optic tract meningioma|DOID_6334
 anterior scleritis|DOID_13794
 anterior spinal artery syndrome|DOID_6712
@@ -998,7 +1040,6 @@ aorta atresia|DOID_14037
 aortic aneurysm|DOID_3627
 aortic atherosclerosis|DOID_10230
 aortic disease|DOID_520
-aortic incompetence|DOID_54
 aortic malignant tumor|DOID_8352
 aortic valve disease|DOID_62
 aortic valve insufficiency|DOID_57
@@ -1020,6 +1061,7 @@ appendiceal neoplasm|DOID_11240
 appendicitis|DOID_8337
 appendix adenocarcinoma|DOID_3608
 appendix cancer|DOID_11239
+appendix carcinoid tumor|DOID_0050911
 appendix carcinoma|DOID_4902
 appendix leiomyoma|DOID_5146
 appendix lymphoma|DOID_11241
@@ -1031,15 +1073,17 @@ arachnoiditis|DOID_12156
 arcus senilis|DOID_11342
 argininosuccinic aciduria|DOID_14755
 ariboflavinosis|DOID_8454
-arrhythmogenic right ventricular dysplasia|DOID_0050431
+arrhythmogenic right ventricular cardiomyopathy|DOID_0050431
 artemis deficiency|DOID_0060006
-arterial occlusive disease|DOID_2868
+arterial calcification of infancy|DOID_0050644
 arterial tortuosity syndrome|DOID_0050645
 arteriolosclerosis|DOID_5162
 arteriosclerosis|DOID_2349
 arteriosclerosis obliterans|DOID_5160
 arteriosclerotic cardiovascular disease|DOID_2348
 arteriovenous malformation|DOID_11294
+arteritic anterior ischemic optic neuropathy|DOID_0050863
+artery disease|DOID_0050828
 arthritis|DOID_848
 arthropathy|DOID_381
 arthus reaction|DOID_1556
@@ -1080,9 +1124,11 @@ atherosclerosis|DOID_1936
 atopic dermatitis|DOID_3310
 atransferrinemia|DOID_0050649
 atrial heart septal defect|DOID_1882
+atrioventricular block|DOID_0050820
 atrioventricular septal defect|DOID_0050651
 atrophic flaccid tympanic membrane|DOID_5781
 atrophic gastritis|DOID_8929
+atrophic glossitis|DOID_1453
 atrophic muscular disease|DOID_913
 atrophic nonflaccid tympanic membrane|DOID_12546
 atrophic rhinitis|DOID_4731
@@ -1203,7 +1249,6 @@ benign mediastinal psammomatous neurilemmoma|DOID_7921
 benign meningioma|DOID_4587
 benign mesenchymoma|DOID_2667
 benign mesothelioma|DOID_2645
-benign migratory glossitis|DOID_1455
 benign neonatal seizures|DOID_14264
 benign neoplasm|DOID_0060072
 benign neurilemmoma|DOID_955
@@ -1328,10 +1373,12 @@ blue toe syndrome|DOID_14121
 blunt duct adenosis of breast|DOID_5996
 body dysmorphic disorder|DOID_0060163
 bone Ewing's sarcoma|DOID_3368
+bone ameloblastoma|DOID_0050895
 bone angioendothelial sarcoma|DOID_3351
 bone benign neoplasm|DOID_0060094
 bone cancer|DOID_184
 bone carcinoma|DOID_2762
+bone chondrosarcoma|DOID_0050897
 bone deterioration disease|DOID_0080007
 bone development disease|DOID_0080006
 bone disease|DOID_0080001
@@ -1340,7 +1387,6 @@ bone giant cell sarcoma|DOID_4719
 bone giant cell tumor|DOID_4305
 bone inflammation disease|DOID_3342
 bone leiomyosarcoma|DOID_3367
-bone localized Ewing's sarcoma|DOID_6392
 bone lymphoma|DOID_6759
 bone marrow cancer|DOID_4960
 bone marrow disease|DOID_4961
@@ -1348,6 +1394,7 @@ bone osteosarcoma|DOID_3376
 bone peripheral neuroepithelioma|DOID_4388
 bone remodeling disease|DOID_0080005
 bone resorption disease|DOID_0080011
+bone squamous cell carcinoma|DOID_0050896
 bone structure disease|DOID_0080010
 borderline glaucoma|DOID_9283
 borderline leprosy|DOID_1023
@@ -1356,7 +1403,6 @@ borna disease|DOID_5154
 botryoid rhabdomyosarcoma|DOID_3255
 botulism|DOID_11976
 boutonneuse fever|DOID_14095
-bovine spongiform encephalopathy|DOID_5435
 bowel dysfunction|DOID_9779
 brachial plexus lesion|DOID_8443
 brachial plexus neoplasm|DOID_5913
@@ -1382,10 +1428,11 @@ brain oligodendroglioma|DOID_3187
 brain sarcoma|DOID_2132
 brain stem angioblastoma|DOID_6501
 brain stem astrocytic neoplasm|DOID_4860
+brain stem cancer|DOID_4203
 brain stem ependymoma|DOID_5508
 brain stem glioma|DOID_4202
 brain stem infarction|DOID_3523
-brain stem neoplasm|DOID_4203
+brain stem medulloblastoma|DOID_0050899
 brainstem intraparenchymal clear cell meningioma|DOID_4209
 branch retinal artery occlusion|DOID_13094
 branchiooculofacial syndrome|DOID_0050691
@@ -1412,6 +1459,7 @@ breast cystic hypersecretory carcinoma|DOID_7537
 breast disease|DOID_3463
 breast duct papilloma|DOID_1626
 breast ductal adenoma|DOID_7538
+breast ductal carcinoma|DOID_3007
 breast epithelioid hemangioma|DOID_6492
 breast fibroadenoma|DOID_1618
 breast fibroadenosis|DOID_10352
@@ -1430,6 +1478,7 @@ breast leiomyoma|DOID_1623
 breast leiomyosarcoma|DOID_5285
 breast lipoma|DOID_10199
 breast liposarcoma|DOID_5701
+breast lobular carcinoma|DOID_0050938
 breast lymphoma|DOID_5826
 breast malignant eccrine spiradenoma|DOID_7983
 breast malignant phyllodes tumor|DOID_3016
@@ -1463,12 +1512,13 @@ bronchiolitis obliterans|DOID_2799
 bronchiolitis obliterans organizing pneumonia|DOID_2798
 bronchiolo-alveolar adenocarcinoma|DOID_4926
 bronchitis|DOID_6132
-bronchogenic carcinoma|DOID_3904
 bronchogenic lung adenocarcinoma|DOID_3909
 bronchopneumonia|DOID_12375
 bronchus adenoma|DOID_5391
 bronchus cancer|DOID_1325
+bronchus carcinoma|DOID_3904
 bronchus carcinoma in situ|DOID_0050614
+bronchus mucoepidermoid carcinoma|DOID_0050916
 brown induration|DOID_12118
 brucellosis|DOID_11077
 bruxism|DOID_2846
@@ -1544,9 +1594,10 @@ cavernous hemangioma of face|DOID_5776
 cavernous hemangioma of orbit|DOID_14463
 cavernous sinus meningioma|DOID_4435
 cavernous sinus thrombosis|DOID_3575
+cecal benign neoplasm|DOID_1517
 cecal disease|DOID_1518
-cecal neoplasm|DOID_1517
 cecum adenocarcinoma|DOID_3039
+cecum adenoma|DOID_0050910
 cecum cancer|DOID_1521
 cecum carcinoma|DOID_1519
 cecum lymphoma|DOID_1522
@@ -1641,7 +1692,6 @@ cerebral sarcoidosis|DOID_13403
 cerebral ventricle cancer|DOID_3541
 cerebritis|DOID_3431
 cerebrotendinous xanthomatosis|DOID_4810
-cerebrovascular accident|DOID_3455
 cerebrovascular disease|DOID_6713
 cerebrum cancer|DOID_368
 ceruminoma|DOID_7549
@@ -1663,6 +1713,7 @@ cervical benign neoplasm|DOID_0060110
 cervical cancer|DOID_4362
 cervical carcinosarcoma|DOID_4112
 cervical clear cell adenocarcinoma|DOID_5303
+cervical dystonia|DOID_0050840
 cervical endometrial stromal sarcoma|DOID_4520
 cervical endometrioid adenocarcinoma|DOID_5830
 cervical incompetence|DOID_9681
@@ -1671,6 +1722,7 @@ cervical large cell neuroendocrine carcinoma|DOID_6659
 cervical lymphoepithelioma-like carcinoma|DOID_7598
 cervical mucinous adenocarcinoma|DOID_3701
 cervical mullerian papilloma|DOID_9442
+cervical neuroblastoma|DOID_0050935
 cervical non-keratinizing squamous cell carcinoma|DOID_7961
 cervical serous adenocarcinoma|DOID_5752
 cervical spinal canal and spinal cord meningioma|DOID_7915
@@ -1690,6 +1742,7 @@ cervix uteri carcinoma in situ|DOID_8991
 chancroid|DOID_13778
 cheek mucosa cancer|DOID_8702
 cheilitis|DOID_1762
+chemical colitis|DOID_0060186
 cherubism|DOID_1856
 chest wall bone cancer|DOID_6579
 chest wall lipoma|DOID_10200
@@ -1875,6 +1928,7 @@ chronic toxic polyneuropathy|DOID_7825
 chronic tubotympanic suppurative otitis media|DOID_14435
 chronic tympanitis|DOID_11217
 chronic ulcer of skin|DOID_8549
+chronic venous insufficiency|DOID_0050853
 chronic wasting disease|DOID_3530
 chronobiology disease|DOID_13364
 chylocele of tunica vaginalis|DOID_10835
@@ -1925,7 +1979,9 @@ cochlear disease|DOID_5463
 coenurosis|DOID_0050251
 coenzyme Q10 deficiency disease|DOID_0050730
 cognitive disorder|DOID_1561
+colitis|DOID_0060180
 collagen disease|DOID_854
+collagenous colitis|DOID_0060183
 collecting duct carcinoma|DOID_4464
 colloid adenoma|DOID_8419
 colloid carcinoma of the pancreas|DOID_7717
@@ -1933,6 +1989,7 @@ coloboma|DOID_12270
 coloboma of optic nerve|DOID_11975
 colon Kaposi sarcoma|DOID_6804
 colon adenocarcinoma|DOID_234
+colon adenoma|DOID_0050912
 colon cancer|DOID_219
 colon carcinoma|DOID_1520
 colon carcinoma in situ|DOID_8826
@@ -1946,12 +2003,14 @@ colon signet ring adenocarcinoma|DOID_3033
 colon small cell carcinoma|DOID_6727
 colon squamous cell carcinoma|DOID_5519
 colonic L-cell glucagon-like peptide producing tumor|DOID_7401
+colonic benign neoplasm|DOID_235
 colonic disease|DOID_5353
 colonic lymphangioma|DOID_10657
-colonic neoplasm|DOID_235
 colonic pseudo-obstruction|DOID_3876
 color agnosia|DOID_0060139
 color blindness|DOID_13399
+colorectal adenocarcinoma|DOID_0050861
+colorectal adenoma|DOID_0050860
 colorectal cancer|DOID_9256
 columnar cell variant papillary carcinoma|DOID_7088
 combat disorder|DOID_6950
@@ -1993,7 +2052,7 @@ congenital fibrosarcoma|DOID_8418
 congenital generalized lipodystrophy|DOID_0050585
 congenital granular cell tumor|DOID_8303
 congenital heart block|DOID_990
-congenital heart defect|DOID_1682
+congenital heart disease|DOID_1682
 congenital hemolytic anemia|DOID_589
 congenital hypogammaglobulinemia|DOID_14177
 congenital hypoplastic anemia|DOID_1342
@@ -2001,7 +2060,6 @@ congenital hypothyroidism|DOID_0050328
 congenital ichthyosiform erythroderma|DOID_1699
 congenital intrinsic factor deficiency|DOID_0050734
 congenital mesoblastic nephroma|DOID_4773
-congenital mitral regurgitation|DOID_13947
 congenital muscular dystrophy|DOID_0050557
 congenital myasthenic syndrome|DOID_3635
 congenital nervous system abnormality|DOID_2490
@@ -2022,6 +2080,7 @@ conjunctival deposit|DOID_11653
 conjunctival disease|DOID_4251
 conjunctival folliculosis|DOID_11219
 conjunctival intraepithelial neoplasm|DOID_5465
+conjunctival nevus|DOID_0050906
 conjunctival pigmentation|DOID_12304
 conjunctival pterygium|DOID_10526
 conjunctival vascular disease|DOID_10989
@@ -2044,7 +2103,6 @@ conventional fibrosarcoma|DOID_3517
 conventional leiomyosarcoma|DOID_5253
 conventional malignant hemangiopericytoma|DOID_6197
 conversion disorder|DOID_1768
-cor pulmonale|DOID_8515
 cork-handlers' disease|DOID_840
 cornea cancer|DOID_6199
 cornea squamous cell carcinoma|DOID_13538
@@ -2062,15 +2120,15 @@ corneal neovascularization|DOID_11382
 corneal staphyloma|DOID_12753
 corneal ulcer|DOID_8463
 coronary aneurysm|DOID_3362
-coronary arteriosclerosis|DOID_3363
 coronary artery anomaly|DOID_11843
+coronary artery disease|DOID_3393
 coronary artery vasospasm|DOID_11840
-coronary heart disease|DOID_3393
 coronary restenosis|DOID_4247
 coronary stenosis|DOID_4248
 coronary thrombosis|DOID_11847
 coronin-1A deficiency|DOID_0060019
 corpus callosum lipoma|DOID_6294
+corpus callosum oligodendroglioma|DOID_0050901
 corpus luteum cyst|DOID_13050
 cortical blindness|DOID_11831
 cortical deafness|DOID_0060140
@@ -2085,6 +2143,7 @@ cranial nerve malignant neoplasm|DOID_2815
 cranial nerve neoplasm|DOID_338
 cranial nerve palsy|DOID_3817
 cranial pseudosarcomatous fasciitis|DOID_7326
+cranio-facial dystonia|DOID_0050845
 craniodiaphyseal dysplasia|DOID_0080032
 craniofrontonasal syndrome|DOID_14737
 craniometaphyseal dysplasia|DOID_0080033
@@ -2186,7 +2245,7 @@ depersonalization disorder|DOID_11038
 dermal unilateral segmental cavernous angioma|DOID_3148
 dermatitis|DOID_2723
 dermatitis herpetiformis|DOID_8505
-dermatofibrosarcoma|DOID_3507
+dermatofibrosarcoma protuberans|DOID_3507
 dermatographia|DOID_743
 dermatomycosis|DOID_1563
 dermatomyositis|DOID_10223
@@ -2207,6 +2266,7 @@ diabetes mellitus|DOID_9351
 diabetic angiopathy|DOID_11713
 diabetic autonomic neuropathy|DOID_11503
 diabetic cataract|DOID_13328
+diabetic encephalopathy|DOID_0050850
 diabetic ketoacidosis|DOID_1837
 diabetic macular edema|DOID_9191
 diabetic neuropathy|DOID_9743
@@ -2261,7 +2321,6 @@ disease of mental health|DOID_150
 disease of metabolism|DOID_0014667
 dislocation of ear ossicle|DOID_11129
 displacement of cardia through esophageal hiatus|DOID_12641
-dissecting aortic aneurysm|DOID_7683
 disseminated chorioretinitis|DOID_8787
 disseminated eosinophilic collagen disease|DOID_9499
 disseminated intravascular coagulation|DOID_11247
@@ -2273,6 +2332,7 @@ distal biliary tract carcinoma|DOID_5923
 distal hereditary motor neuropathy|DOID_0050582
 distal muscular dystrophy|DOID_11720
 disuse amblyopia|DOID_10378
+diversion colitis|DOID_0060187
 diverticulitis|DOID_7475
 diverticulitis of colon|DOID_13254
 double outlet right ventricle|DOID_6406
@@ -2285,15 +2345,16 @@ drug-induced mental disorder|DOID_1203
 dry eye syndrome|DOID_10140
 ductal carcinoma in situ|DOID_0060074
 dumping syndrome|DOID_14495
+duodenal benign neoplasm|DOID_1737
 duodenal disease|DOID_4072
 duodenal gastrinoma|DOID_7959
-duodenal neoplasm|DOID_1737
 duodenal obstruction|DOID_3558
 duodenal somatostatinoma|DOID_7479
 duodenal ulcer|DOID_1724
 duodenitis|DOID_8643
 duodenogastric reflux|DOID_4071
 duodenum adenocarcinoma|DOID_10816
+duodenum adenoma|DOID_0050927
 duodenum cancer|DOID_10021
 dysbaric osteonecrosis|DOID_0080018
 dyscalculia|DOID_12568
@@ -2314,8 +2375,6 @@ dyspepsia|DOID_2321
 dysplastic nevus syndrome|DOID_10041
 dysthymic disorder|DOID_12139
 dystonia|DOID_543
-dystonia musculorum deformans|DOID_11910
-dystonic disease|DOID_544
 dystrophies primarily involving the retinal pigment epithelium|DOID_14252
 early congenital syphilis|DOID_0050488
 early invasive cervical adenocarcinoma|DOID_8307
@@ -2371,6 +2430,8 @@ endobronchial lipoma|DOID_10183
 endocardial fibroelastosis|DOID_12929
 endocarditis|DOID_10314
 endocardium cancer|DOID_5877
+endocardium disease|DOID_0050825
+endocervical adenocarcinoma|DOID_0050940
 endocervical carcinoma|DOID_7519
 endocervical type cervical adenomyoma|DOID_8177
 endocervical type cervical mucinous adenocarcinoma|DOID_8340
@@ -2378,7 +2439,6 @@ endocervicitis|DOID_5757
 endocrine exophthalmos|DOID_12359
 endocrine gland cancer|DOID_170
 endocrine organ benign neoplasm|DOID_0060089
-endocrine pancreas cancer|DOID_10165
 endocrine pancreas disease|DOID_1428
 endocrine system disease|DOID_28
 endodermal sinus pattern testicular yolk sac tumor|DOID_7302
@@ -2553,10 +2613,11 @@ external ear carcinoma|DOID_4288
 external ear disease|DOID_379
 external ear squamous cell carcinoma|DOID_5538
 external pathological resorption|DOID_14529
+extra-adrenal pheochromocytoma|DOID_0050936
 extracranial neuroblastoma|DOID_371
 extracutaneous mastocytoma|DOID_4659
 extragonadal germ cell cancer|DOID_4717
-extragonadal germ cell malignant tumor|DOID_5839
+extragonadal nonseminomatous germ cell tumor|DOID_5677
 extragonadal seminoma|DOID_5838
 extrahepatic bile duct adenocarcinoma|DOID_3495
 extrahepatic bile duct adenoma|DOID_5438
@@ -2592,7 +2653,6 @@ eye carcinoma in situ|DOID_8792
 eye degenerative disease|DOID_9799
 eye disease|DOID_5614
 eye lymphoma|DOID_6903
-eye melanoma|DOID_1752
 eyelid carcinoma|DOID_6425
 eyelid degenerative disease|DOID_10120
 eyelid disease|DOID_530
@@ -2641,13 +2701,12 @@ familial Mediterranean fever|DOID_2987
 familial adenomatous polyposis|DOID_0050424
 familial atrial fibrillation|DOID_0050650
 familial combined hyperlipidemia|DOID_13809
-familial dystonia|DOID_5159
+familial encephalopathy with neuroserpin inclusion bodies|DOID_0050831
 familial glomangioma|DOID_7996
 familial hemiplegic migraine|DOID_0060178
 familial hypercholesterolemia|DOID_13810
 familial hyperlipidemia|DOID_1168
 familial hypertriglyceridemia|DOID_0050527
-familial hypertrophic cardiomyopathy|DOID_11986
 familial juvenile hyperuricemic nephropathy|DOID_0060062
 familial lipoprotein lipase deficiency|DOID_14118
 familial medullary thyroid carcinoma|DOID_0050547
@@ -2703,6 +2762,7 @@ fibroepithelial basal cell carcinoma|DOID_4291
 fibroepithelial polyp of the anus|DOID_8170
 fibroepithelial polyp of urethra|DOID_8108
 fibrogenesis imperfecta ossium|DOID_0080040
+fibroma|DOID_0050871
 fibromyalgia|DOID_631
 fibroosseous pseudotumor of digits|DOID_8153
 fibrosarcoma|DOID_3355
@@ -2720,16 +2780,18 @@ filamentary keratitis|DOID_4664
 filarial elephantiasis|DOID_12211
 filariasis|DOID_1080
 finger agnosia|DOID_0060141
+first-degree atrioventricular block|DOID_0050821
 fissured tongue|DOID_11514
 flat ductal epithelial atypia|DOID_6841
 flat retinoschisis|DOID_8464
 flying phobia|DOID_605
 focal chorioretinitis|DOID_1979
 focal dermal hypoplasia|DOID_2120
+focal dystonia|DOID_0050836
 focal embolic glomerulonephritis|DOID_4779
 focal epilepsy|DOID_2234
 focal epithelial hyperplasia|DOID_5362
-focal glomerulosclerosis|DOID_3945
+focal hand dystonia|DOID_0050841
 focal labyrinthitis|DOID_13867
 focal segmental glomerulosclerosis|DOID_1312
 folic acid deficiency anemia|DOID_14026
@@ -2737,6 +2799,7 @@ follicular adenoma|DOID_6204
 follicular basal cell carcinoma|DOID_4295
 follicular dendritic cell sarcoma|DOID_6262
 follicular infundibulum tumor|DOID_8426
+follicular lymphoma|DOID_0050873
 follicular mucinosis|DOID_9905
 follicular thyroid carcinoma|DOID_3962
 folliculitis|DOID_4409
@@ -2747,7 +2810,7 @@ form agnosia|DOID_0060142
 fourth cranial nerve palsy|DOID_10869
 fox fordyce disease|DOID_1381
 fragile X syndrome|DOID_14261
-fragments of torsion dystonia|DOID_531
+fragile X-associated tremor/ataxia syndrome|DOID_0050879
 freemartinism|DOID_4671
 frontal convexity meningioma|DOID_8000
 frontal lobe epilepsy|DOID_3331
@@ -2781,6 +2844,7 @@ galactokinase deficiency|DOID_14695
 galactosemia|DOID_9870
 gall bladder carcinoma in situ|DOID_0050612
 gallbladder adenocarcinoma|DOID_3500
+gallbladder adenoma|DOID_0050893
 gallbladder angiosarcoma|DOID_4513
 gallbladder cancer|DOID_3121
 gallbladder carcinoma|DOID_4948
@@ -2842,15 +2906,17 @@ gastric ulcer|DOID_10808
 gastrin secretion abnormality|DOID_13656
 gastrinoma|DOID_5577
 gastritis|DOID_4029
+gastroduodenal Crohn's disease|DOID_0060191
 gastroduodenitis|DOID_8644
 gastroenteritis|DOID_2326
 gastroesophageal junction adenocarcinoma|DOID_4944
 gastroesophageal reflux disease|DOID_8534
 gastrointestinal adenoma|DOID_4147
 gastrointestinal anthrax|DOID_13386
+gastrointestinal carcinoma|DOID_0050922
 gastrointestinal lymphoma|DOID_903
-gastrointestinal neuroendocrine tumor|DOID_4148
-gastrointestinal neuroendocrine tumor cancer|DOID_0050626
+gastrointestinal neuroendocrine benign tumor|DOID_4148
+gastrointestinal neuroendocrine tumor|DOID_0050626
 gastrointestinal stromal tumor|DOID_9253
 gastrointestinal system benign neoplasm|DOID_0050624
 gastrointestinal system cancer|DOID_3119
@@ -2863,13 +2929,14 @@ gastroschisis|DOID_11044
 gemistocytic astrocytoma|DOID_7005
 gender identity disorder|DOID_1234
 generalized anxiety disorder|DOID_14320
-generalized arterial calcification of infancy|DOID_0050644
 generalized atherosclerosis|DOID_2347
+generalized dystonia|DOID_0050835
 generalized epilepsy with febrile seizures plus|DOID_0060170
 genetic disease|DOID_630
 geniculate ganglionitis|DOID_14075
 geniculate herpes zoster|DOID_9210
 genital herpes|DOID_8704
+geographic tongue|DOID_1455
 geotrichosis|DOID_2832
 germ cell and embryonal cancer|DOID_3095
 germ cell cancer|DOID_2994
@@ -2915,6 +2982,7 @@ glomangiomyoma|DOID_8020
 glomangiosarcoma|DOID_5233
 glomeruloid hemangioma|DOID_486
 glomerulonephritis|DOID_2921
+glomerulosclerosis|DOID_0050851
 glomus tumor|DOID_2431
 glossitis|DOID_1456
 glossopharyngeal motor neuropathy|DOID_7558
@@ -2960,6 +3028,7 @@ gonococcal spondylitis|DOID_13127
 gonococcal synovitis|DOID_13454
 gonorrhea|DOID_7551
 gout|DOID_13189
+grade III astrocytoma|DOID_3078
 granular cell carcinoma|DOID_4903
 granular cell leiomyosarcoma|DOID_5258
 granular cell tumor|DOID_2411
@@ -2994,6 +3063,9 @@ hand dermatosis|DOID_3158
 hand, foot and mouth disease|DOID_10881
 hantavirus pulmonary syndrome|DOID_14472
 hard palate cancer|DOID_9149
+head and neck cancer|DOID_11934
+head and neck carcinoma|DOID_1542
+head and neck squamous cell carcinoma|DOID_5520
 heart aneurysm|DOID_9768
 heart cancer|DOID_117
 heart conduction disease|DOID_10273
@@ -3006,7 +3078,6 @@ heart malignant hemangiopericytoma|DOID_6034
 heart sarcoma|DOID_5262
 heart septal defect|DOID_1681
 heart valve disease|DOID_4079
-heart valve prolapse|DOID_989
 heavy chain disease|DOID_0060125
 heel spur|DOID_210
 hemangioblastoma|DOID_5241
@@ -3024,6 +3095,7 @@ hemarthrosis|DOID_801
 hematocele of tunica vaginalis testis|DOID_12332
 hematologic cancer|DOID_2531
 hematopoietic system disease|DOID_74
+hemidystonia|DOID_0050846
 hemiplegia|DOID_10969
 hemochromatosis|DOID_2352
 hemoglobin C disease|DOID_2859
@@ -3038,6 +3110,7 @@ hemopericardium|DOID_11482
 hemophagocytic lymphohistiocytosis|DOID_0050120
 hemophilia B|DOID_12259
 hemopneumothorax|DOID_2718
+hemorrhagic cystitis|DOID_0050859
 hemorrhagic disease|DOID_2213
 hemorrhagic fever with renal syndrome|DOID_11266
 hemorrhagic thrombocythemia|DOID_2224
@@ -3060,6 +3133,7 @@ hepatitis E|DOID_4411
 hepatobiliary benign neoplasm|DOID_3117
 hepatobiliary disease|DOID_3118
 hepatoblastoma|DOID_687
+hepatocellular adenoma|DOID_0050868
 hepatocellular carcinoma|DOID_684
 hepatocellular clear cell carcinoma|DOID_5016
 hepatocellular fibrolamellar carcinoma|DOID_5015
@@ -3230,15 +3304,15 @@ ichthyosis vulgaris|DOID_1702
 ideomotor apraxia|DOID_4627
 idiopathic CD4-positive T-lymphocytopenia|DOID_3109
 idiopathic corneal edema|DOID_11033
-idiopathic familial dystonia|DOID_11911
 idiopathic generalized epilepsy|DOID_1827
 idiopathic interstitial pneumonia|DOID_2797
 idiopathic juvenile osteoporosis|DOID_12559
-idiopathic non-familial dystonia|DOID_11912
 idiopathic peripheral autonomic neuropathy|DOID_11488
 idiopathic progressive polyneuropathy|DOID_10593
 idiopathic pulmonary fibrosis|DOID_0050156
 ileal neoplasm|DOID_10156
+ileitis|DOID_0060189
+ileocolitis|DOID_0060190
 ileum cancer|DOID_10153
 ileus|DOID_8440
 iliac vein thrombophlebitis|DOID_10880
@@ -3257,7 +3331,9 @@ impetigo herpetiformis|DOID_8503
 impotence|DOID_1875
 impulse control disorder|DOID_10937
 in situ carcinoma|DOID_8719
+in situ pulmonary adenocarcinoma|DOID_0050870
 inappropriate ADH syndrome|DOID_3401
+inclusion body myopathy with Paget disease of bone and frontotemporal dementia|DOID_0050881
 inclusion body myositis|DOID_3429
 inclusion conjunctivitis|DOID_13800
 incontinentia pigmenti achromians|DOID_3156
@@ -3267,6 +3343,7 @@ indolent systemic mastocytosis|DOID_4660
 infancy electroclinical syndrome|DOID_0050703
 infant botulism|DOID_0050354
 infant gynecomastia|DOID_11603
+infantile cerebellar-retinal degeneration|DOID_0050883
 infantile epileptic encephalopathy|DOID_2481
 infantile onset spinocerebellar ataxia|DOID_0050556
 infantile refsum disease|DOID_0050444
@@ -3296,6 +3373,7 @@ inflammatory breast carcinoma|DOID_6263
 inflammatory diarrhea|DOID_0050132
 inflammatory leiomyosarcoma|DOID_5251
 inflammatory liposarcoma|DOID_8233
+inflammatory myofibroblastic tumor|DOID_0050905
 inflammatory spondylopathy|DOID_12105
 influenza|DOID_8469
 infratentorial cancer|DOID_4706
@@ -3340,14 +3418,14 @@ interstitial myocarditis|DOID_817
 interstitial nephritis|DOID_1063
 interval angle-closure glaucoma|DOID_13549
 intestinal atresia|DOID_10486
+intestinal benign neoplasm|DOID_4610
 intestinal botulism|DOID_0050141
 intestinal cancer|DOID_10155
 intestinal disaccharidase deficiency|DOID_9868
 intestinal disease|DOID_5295
 intestinal impaction|DOID_8448
 intestinal infectious disease|DOID_100
-intestinal neoplasm|DOID_4610
-intestinal neuroendocrine tumor|DOID_4119
+intestinal neuroendocrine benign tumor|DOID_4119
 intestinal obstruction|DOID_8437
 intestinal perforation|DOID_2074
 intestinal pseudo-obstruction|DOID_3878
@@ -3388,7 +3466,6 @@ intrahepatic gall duct cancer|DOID_12298
 intramuscular hemangioma|DOID_468
 intraneural perineurioma|DOID_4696
 intraocular lymphoma|DOID_775
-intraocular melanoma|DOID_6039
 intraocular mixed cell type melanoma|DOID_6992
 intraocular retinoblastoma|DOID_4653
 intraorbital meningioma|DOID_4141
@@ -3425,19 +3502,20 @@ irritable bowel syndrome|DOID_9778
 irritant dermatitis|DOID_2772
 ischemia|DOID_326
 ischemic bone disease|DOID_0080008
+ischemic colitis|DOID_0060181
 ischemic fasciitis|DOID_9601
-ischemic heart disease|DOID_3394
 ischemic neuropathy|DOID_1195
-ischemic optic neuropathy|DOID_12010
 islet cell tumor|DOID_1799
 isovaleric acidemia|DOID_14753
 isthmus cancer|DOID_9459
 janus kinase-3 deficiency|DOID_0060008
 jaw cancer|DOID_1862
 jaw-winking syndrome|DOID_560
+jejunal adenocarcinoma|DOID_0050926
 jejunal cancer|DOID_13499
 jejunal neoplasm|DOID_3218
 jejunal somatostatinoma|DOID_3216
+jejunoileitis|DOID_0060188
 jugular foramen meningioma|DOID_6110
 junctional epidermolysis bullosa|DOID_3209
 juvenile absence epilepsy|DOID_0060172
@@ -3489,7 +3567,7 @@ kidney pelvis sarcomatoid transitional cell carcinoma|DOID_6844
 kidney rhabdoid cancer|DOID_3674
 kidney sarcoma|DOID_4242
 kleptomania|DOID_12400
-kuru encephalopathy|DOID_648
+kuru|DOID_648
 kwashiorkor|DOID_13579
 kyphoscoliotic heart disease|DOID_12325
 labia majora carcinoma|DOID_13389
@@ -3524,6 +3602,9 @@ large cell carcinoma|DOID_4552
 large cell carcinoma with rhabdoid phenotype|DOID_7480
 large cell keratinizing variant squamous cell breast carcinoma|DOID_7461
 large cell medulloblastoma|DOID_3857
+large cell neuroendocrine carcinoma|DOID_0050872
+large intestine adenocarcinoma|DOID_0050913
+large intestine adenoma|DOID_0050914
 large intestine cancer|DOID_5672
 large intestine lipoma|DOID_6460
 laryngeal adenoid cystic carcinoma|DOID_4869
@@ -3594,6 +3675,7 @@ lice infestation|DOID_5502
 lichen disease|DOID_8574
 lichen nitidus|DOID_8573
 lichen planus|DOID_9201
+limb ischemia|DOID_0050852
 limb-girdle muscular dystrophy|DOID_11724
 limited scleroderma|DOID_1577
 lingual goiter|DOID_13196
@@ -3643,12 +3725,10 @@ liver rhabdomyosarcoma|DOID_4047
 liver sarcoma|DOID_270
 lobomycosis|DOID_13026
 lobular neoplasia|DOID_3010
-localized Ewing's sarcoma|DOID_4980
 localized Intraductal papillomatosis|DOID_7512
 localized anterior staphyloma|DOID_13787
 localized chondrosarcoma|DOID_5862
 localized osteosarcoma|DOID_3356
-localized peripheral primitive neuroectodermal tumor|DOID_4391
 localized pulmonary fibrosis|DOID_5642
 localized scleroderma|DOID_8472
 locked-in syndrome|DOID_12697
@@ -3666,7 +3746,6 @@ lower gum cancer|DOID_9125
 lower lip cancer|DOID_8883
 lower respiratory tract disease|DOID_0050161
 lower urinary tract calculus|DOID_9590
-ludwig's angina|DOID_4558
 lujo hemorrhagic fever|DOID_0050202
 lumbar plexus neoplasm|DOID_8389
 lumbar spinal canal and spinal cord meningioma|DOID_7515
@@ -3683,6 +3762,7 @@ lung carcinoma in situ|DOID_8800
 lung clear cell carcinoma|DOID_7267
 lung clear cell-sugar-tumor|DOID_5763
 lung combined large cell neuroendocrine carcinoma|DOID_7207
+lung combined type small cell adenocarcinoma|DOID_0050917
 lung combined type small cell carcinoma|DOID_5421
 lung disease|DOID_850
 lung giant cell carcinoma|DOID_5583
@@ -3693,6 +3773,7 @@ lung leiomyosarcoma|DOID_5265
 lung lymphoma|DOID_6760
 lung meningioma|DOID_5764
 lung mixed small cell and squamous cell carcinoma|DOID_7081
+lung mucoepidermoid carcinoma|DOID_0050932
 lung oat cell carcinoma|DOID_5411
 lung occult adenocarcinoma|DOID_7168
 lung occult large cell carcinoma|DOID_7169
@@ -3706,6 +3787,7 @@ lung superior sulcus carcinoma|DOID_8208
 lupus erythematosus|DOID_8857
 luteoma|DOID_7880
 luxation of globe|DOID_1241
+lymph node adenoid cystic carcinoma|DOID_0060219
 lymph node cancer|DOID_10619
 lymph node disease|DOID_9942
 lymph node palisaded myofibroblastoma|DOID_8304
@@ -3721,6 +3803,7 @@ lymphedema|DOID_4977
 lymphoblastic leukemia|DOID_1037
 lymphocele|DOID_4347
 lymphocytic choriomeningitis|DOID_12155
+lymphocytic colitis|DOID_0060184
 lymphocytic gastritis|DOID_4035
 lymphoepithelioma-like acinar prostate adenocarcinoma|DOID_7246
 lymphoepithelioma-like carcinoma|DOID_5660
@@ -3801,6 +3884,7 @@ malignant hypertensive renal disease|DOID_10177
 malignant hyperthermia|DOID_8545
 malignant iris melanoma|DOID_6994
 malignant leptomeningeal tumor|DOID_6086
+malignant mediastinal neurogenic neoplasm|DOID_4691
 malignant mediastinum hemangiopericytoma|DOID_6209
 malignant melanocytic neoplasm of the peripheral nerve sheath|DOID_6345
 malignant melanocytic peripheral nerve sheath tumor of mediastinum|DOID_7077
@@ -3817,7 +3901,6 @@ malignant ovarian mixed epithelial neoplasm|DOID_6899
 malignant ovarian surface epithelial-stromal neoplasm|DOID_2151
 malignant parietal pleura tumor|DOID_14032
 malignant peripheral nerve sheath tumor|DOID_5940
-malignant peritoneal mesothelioma|DOID_1788
 malignant peritoneal solitary fibrous tumor|DOID_4490
 malignant pineal area germ cell neoplasm|DOID_1660
 malignant pleural mesothelioma|DOID_7474
@@ -3833,7 +3916,6 @@ malignant teratoma|DOID_5563
 malignant testicular Leydig cell tumor|DOID_6021
 malignant thyroid stimulating hormone producing neoplasm of pituitary gland|DOID_6274
 malignant triton tumor|DOID_6707
-malignant tumor of extragonadal non-seminomatous germ cell|DOID_5677
 malignant tumor of undescended testis|DOID_12276
 malignant type A thymoma|DOID_7927
 malignant type AB thymoma|DOID_6723
@@ -3855,7 +3937,7 @@ mast-cell sarcoma|DOID_355
 mastitis|DOID_10690
 mastocytosis|DOID_350
 mature B-cell neoplasm|DOID_706
-mature T-cell and NK-cell neoplasm|DOID_0050743
+mature T-cell and NK-cell lymphoma|DOID_0050743
 mature cataract|DOID_13717
 mature gastric teratoma|DOID_8118
 mature teratoma|DOID_5566
@@ -3877,6 +3959,7 @@ mechanical entropion|DOID_13112
 mechanical lagophthalmos|DOID_13037
 mechanical strabismus|DOID_9306
 meconium aspiration syndrome|DOID_11049
+median arcuate ligament syndrome|DOID_9892
 median neuropathy|DOID_571
 median rhomboid glossitis|DOID_14111
 mediastinal cancer|DOID_5559
@@ -3887,7 +3970,6 @@ mediastinal malignant lymphoma|DOID_6868
 mediastinal melanocytic neurilemmoma|DOID_6484
 mediastinal mesenchymal tumor|DOID_5560
 mediastinal neurilemmoma|DOID_6175
-mediastinal neurogenic neoplasm|DOID_4691
 mediastinal osteogenic sarcoma|DOID_6208
 mediastinitis|DOID_819
 mediastinum angiosarcoma|DOID_4525
@@ -3903,7 +3985,7 @@ mediastinum seminoma|DOID_6249
 mediastinum synovial sarcoma|DOID_5488
 mediastinum teratoma|DOID_5568
 medulloadrenal hyperfunction|DOID_12257
-medulloblastoma|DOID_3858
+medulloblastoma|DOID_0050902
 medulloepithelioma|DOID_4790
 medullomyoblastoma|DOID_3861
 megacolon|DOID_11372
@@ -3977,6 +4059,7 @@ micropapillary variant infiltrating bladder urothelial carcinoma|DOID_6976
 micropapillomatosis labialis|DOID_6569
 microphthalmia|DOID_10629
 microscopic breast papilloma|DOID_8225
+microscopic colitis|DOID_0060182
 microsporidiosis|DOID_4271
 middle cerebral artery infarction|DOID_3525
 middle cranial fossa meningioma|DOID_4749
@@ -4027,6 +4110,7 @@ mixed eosinophil-basophil adenoma|DOID_7179
 mixed epithelial stromal tumour|DOID_5088
 mixed epithelial tumor of ovary|DOID_6211
 mixed epithelial/mesenchymal metaplastic breast carcinoma|DOID_7541
+mixed extragonadal germ cell cancer|DOID_0050907
 mixed germ cell cancer|DOID_3306
 mixed germ cell-sex cord neoplasm|DOID_2996
 mixed glioma|DOID_5076
@@ -4098,11 +4182,13 @@ mucopolysaccharidosis III|DOID_12801
 mucopolysaccharidosis IV|DOID_12804
 mucopolysaccharidosis IX|DOID_0050809
 mucopolysaccharidosis VI|DOID_12800
+mucosal melanoma|DOID_0050929
 mucosulfatidosis|DOID_0050441
 mulibrey nanism|DOID_0050436
 multicentric papillary thyroid carcinoma|DOID_7086
 multicentric reticulohistiocytosis|DOID_11824
 multidrug-resistant tuberculosis|DOID_401
+multifocal dystonia|DOID_0050837
 multifocal osteogenic sarcoma|DOID_3360
 multilocular clear cell renal cell carcinoma|DOID_4463
 multinodular goiter|DOID_0050489
@@ -4140,6 +4226,7 @@ mycosis fungoides|DOID_8691
 mycotic corneal ulcer|DOID_10440
 myelitis|DOID_322
 myelodysplastic myeloproliferative cancer|DOID_4972
+myelodysplastic syndrome|DOID_0050908
 myelofibrosis|DOID_4971
 myeloid leukemia|DOID_8692
 myeloid sarcoma|DOID_8683
@@ -4165,7 +4252,7 @@ myositis fibrosa|DOID_9788
 myositis ossificans|DOID_668
 myotonic cataract|DOID_82
 myotonic disease|DOID_450
-myotonic dystrophy|DOID_11722
+myotonic dystrophy type 1|DOID_11722
 myotonic dystrophy type 2|DOID_0050759
 myringitis bullosa hemorrhagica|DOID_13791
 myxedema|DOID_11634
@@ -4213,10 +4300,10 @@ neonatal infective mastitis|DOID_13520
 neonatal jaundice|DOID_2383
 neonatal leukemia|DOID_7756
 neonatal myasthenia gravis|DOID_14043
+neonatal period electroclinical syndrome|DOID_0050702
 neonatal respiratory failure|DOID_11161
 neonatal thyrotoxicosis|DOID_12573
 neonatal urinary tract infectious disease|DOID_1375
-neonatoal period electroclinical syndrome|DOID_0050702
 neovascular glaucoma|DOID_1687
 nephritis|DOID_10952
 nephroblastoma|DOID_2154
@@ -4306,6 +4393,7 @@ noma|DOID_9672
 nominal aphasia|DOID_4541
 non specific chronic endometritis|DOID_4560
 non-Hodgkin lymphoma|DOID_0060060
+non-arteritic anterior ischemic optic neuropathy|DOID_0050864
 non-congenital cyst of kidney|DOID_9621
 non-functioning pancreatic endocrine tumor|DOID_7698
 non-gestational choriocarcinoma|DOID_4320
@@ -4319,6 +4407,7 @@ non-secretory myeloma|DOID_9547
 non-small cell lung carcinoma|DOID_3908
 non-specific X-linked mental retardation|DOID_0050776
 non-suppurative otitis media|DOID_11180
+non-syndromic intellectual disability|DOID_0050889
 nonencapsulated sclerosing carcinoma|DOID_5914
 nonepidermolytic palmoplantar keratoderma|DOID_0050428
 noninfectious dermatoses of eyelid|DOID_1894
@@ -4349,6 +4438,7 @@ obsessive-compulsive personality disorder|DOID_10932
 obstructive hydrocephalus|DOID_14159
 obstructive jaundice|DOID_13603
 obstructive lung disease|DOID_2320
+obstructive sleep apnea|DOID_0050848
 occipital lobe neoplasm|DOID_910
 occlusion of gallbladder|DOID_9714
 occlusion precerebral artery|DOID_5976
@@ -4360,10 +4450,12 @@ ocular cancer|DOID_2174
 ocular hyperemia|DOID_1248
 ocular hypertension|DOID_9282
 ocular hypotension|DOID_790
+ocular melanoma|DOID_1752
 ocular motility disease|DOID_1279
 oculocerebrorenal syndrome|DOID_1056
 oculocutaneous albinism|DOID_0050632
 oculoglandular tularemia|DOID_13226
+oculogyric crisis|DOID_0050842
 oculomotor nerve paralysis|DOID_11550
 oculopharyngeal muscular dystrophy|DOID_11719
 odontoclasia|DOID_11736
@@ -4391,6 +4483,7 @@ opioid abuse|DOID_11206
 opisthorchiasis|DOID_13768
 opportunistic bacterial infectious disease|DOID_0050340
 opportunistic mycosis|DOID_2473
+oppositional defiant disorder|DOID_0050856
 optic atrophy|DOID_5723
 optic disk drusen|DOID_13561
 optic nerve astrocytoma|DOID_4991
@@ -4405,6 +4498,7 @@ oral cavity cancer|DOID_8618
 oral cavity carcinoma in situ|DOID_0050610
 oral leukoedema|DOID_4557
 oral mucosa leukoplakia|DOID_9655
+oral squamous cell carcinoma|DOID_0050866
 oral submucous fibrosis|DOID_5773
 oral tuberculosis|DOID_402
 orbit alveolar rhabdomyosarcoma|DOID_4384
@@ -4425,14 +4519,15 @@ orchitis|DOID_2518
 organ system benign neoplasm|DOID_0060085
 organ system cancer|DOID_0050686
 organic acidemia|DOID_0060159
-organic writer's cramp|DOID_13467
 ornithine carbamoyltransferase deficiency|DOID_9271
 ornithine translocase deficiency|DOID_0050720
 ornithosis|DOID_11262
 orofacial cleft|DOID_0050567
 orofaciodigital syndrome|DOID_4501
+oromandibular dystonia|DOID_0050843
 oropharyngeal anthrax|DOID_0050059
 oropharynx cancer|DOID_8557
+orotic aciduria|DOID_0050833
 orthostatic proteinuria|DOID_9617
 osmotic diarrhea|DOID_0050130
 ossifying fibroma|DOID_180
@@ -4474,6 +4569,7 @@ ovarian carcinoma|DOID_4001
 ovarian carcinosarcoma|DOID_6170
 ovarian clear cell adenocarcinoma|DOID_5304
 ovarian clear cell adenofibroma|DOID_5897
+ovarian clear cell carcinoma|DOID_0050934
 ovarian clear cell cystadenocarcinoma|DOID_7438
 ovarian clear cell cystadenofibroma|DOID_5896
 ovarian clear cell malignant adenofibroma|DOID_6554
@@ -4485,13 +4581,12 @@ ovarian disease|DOID_1100
 ovarian dysfunction|DOID_1414
 ovarian embryonal carcinoma|DOID_5681
 ovarian endodermal sinus tumor|DOID_5350
+ovarian endometrial cancer|DOID_6212
 ovarian endometrioid adenofibroma|DOID_5480
 ovarian endometrioid cystadenofibroma|DOID_7411
 ovarian endometrioid cystadenoma|DOID_7191
 ovarian endometrioid malignant adenofibroma|DOID_6445
-ovarian endometrioid neoplasm|DOID_6212
 ovarian endometrioid stromal sarcoma|DOID_5169
-ovarian endometriosis|DOID_11426
 ovarian fetiform teratoma|DOID_6314
 ovarian germ cell cancer|DOID_2156
 ovarian germ cell monodermal and highly specialized teratoma|DOID_2641
@@ -4501,6 +4596,7 @@ ovarian hyperstimulation syndrome|DOID_5425
 ovarian large-cell neuroendocrine carcinoma|DOID_4555
 ovarian lymphoma|DOID_2150
 ovarian malignant mesothelioma|DOID_2143
+ovarian melanoma|DOID_0050928
 ovarian mesodermal adenosarcoma|DOID_4115
 ovarian mixed germ cell neoplasm|DOID_5936
 ovarian mucinous adenocarcinoma|DOID_3606
@@ -4513,6 +4609,7 @@ ovarian papillary cystadenoma|DOID_6405
 ovarian papillary neoplasm|DOID_6214
 ovarian primitive germ cell tumor|DOID_5351
 ovarian serous adenofibroma|DOID_5474
+ovarian serous carcinoma|DOID_0050933
 ovarian serous cystadenocarcinoma|DOID_5746
 ovarian serous cystadenofibroma|DOID_7320
 ovarian small cell carcinoma|DOID_6179
@@ -4545,6 +4642,7 @@ pancreas lymphoma|DOID_1792
 pancreas sarcoma|DOID_1796
 pancreatic ACTH hormone producing tumor|DOID_7697
 pancreatic acinar cell adenocarcinoma|DOID_5742
+pancreatic agenesis|DOID_0050877
 pancreatic cancer|DOID_1793
 pancreatic carcinoma|DOID_4905
 pancreatic cholera|DOID_6977
@@ -4648,9 +4746,11 @@ paratyphoid fever|DOID_3055
 paraurethral gland cancer|DOID_14059
 paraurethral gland neoplasm|DOID_2139
 parenchymatous neurosyphilis|DOID_0050490
+parietal lobe ependymoma|DOID_0050903
 parietal lobe neoplasm|DOID_14384
 paronychia|DOID_13117
 parotid disease|DOID_10302
+parotid gland adenoid cystic carcinoma|DOID_0050931
 parotid gland cancer|DOID_9036
 parotitis|DOID_10301
 parovarian cyst|DOID_4333
@@ -4721,11 +4821,12 @@ penis sarcoma|DOID_11838
 penis squamous cell carcinoma|DOID_5518
 penis verrucous carcinoma|DOID_5908
 peptic esophagitis|DOID_13976
-peptic ulcer|DOID_750
+peptic ulcer disease|DOID_750
 peptic ulcer perforation|DOID_752
 perforated corneal ulcer|DOID_10445
 perforation of bile duct|DOID_13409
 periampullary adenocarcinoma|DOID_8110
+periampullary adenoma|DOID_0050849
 perianal hematoma|DOID_9745
 perianal skin Paget's disease|DOID_7708
 periapical granuloma|DOID_4617
@@ -4736,6 +4837,7 @@ pericardial mesothelioma|DOID_6201
 pericardial tuberculosis|DOID_4962
 pericarditis|DOID_1787
 pericardium cancer|DOID_116
+pericardium disease|DOID_0050829
 pericardium leiomyoma|DOID_5137
 pericholangitis|DOID_14272
 perichondritis of auricle|DOID_222
@@ -4758,6 +4860,7 @@ periosteal osteogenic sarcoma|DOID_6489
 periostitis|DOID_9957
 peripartum cardiomyopathy|DOID_9997
 peripheral T-cell lymphoma|DOID_0050749
+peripheral artery disease|DOID_0050830
 peripheral degeneration of cornea|DOID_14507
 peripheral epithelioid sarcoma|DOID_6988
 peripheral focal chorioretinitis|DOID_11864
@@ -4775,6 +4878,7 @@ peripheral vascular disease|DOID_341
 peripheral vertigo|DOID_9847
 peritoneal benign neoplasm|DOID_0060117
 peritoneal carcinoma|DOID_1791
+peritoneal mesothelioma|DOID_1788
 peritoneal serous adenocarcinoma|DOID_4901
 peritoneal serous papillary adenocarcinoma|DOID_6228
 peritoneum cancer|DOID_1725
@@ -4804,10 +4908,12 @@ phacolytic glaucoma|DOID_12570
 phaeochromocytoma|DOID_0050771
 phaeohyphomycosis|DOID_14049
 phagocyte bactericidal dysfunction|DOID_3262
+phalanx chondroma|DOID_0050898
 pharyngitis|DOID_2275
 pharyngoconjunctival fever|DOID_13801
 pharynx cancer|DOID_0060119
 pharynx carcinoma in situ|DOID_0050611
+pharynx squamous cell carcinoma|DOID_0050921
 phencyclidine abuse|DOID_5062
 phenylketonuria|DOID_9281
 philophthalmiasis|DOID_0050250
@@ -4824,6 +4930,7 @@ photosensitivity disease|DOID_3159
 phototoxic dermatitis|DOID_4407
 phthisical cornea|DOID_11793
 physical disorder|DOID_0080015
+physical urticaria|DOID_0060220
 physiological polycythemia|DOID_8431
 pica disease|DOID_12128
 piebaldism|DOID_3263
@@ -4889,11 +4996,10 @@ pleomorphic liposarcoma|DOID_5702
 pleomorphic rhabdomyosarcoma|DOID_3250
 pleomorphic xanthoastrocytoma|DOID_4852
 plethora of newborn|DOID_11242
-pleural cancer|DOID_9917
+pleural cancer|DOID_5158
 pleural disease|DOID_1532
 pleural empyema|DOID_3798
 pleural lipoma|DOID_10195
-pleural neoplasm|DOID_5158
 pleural tuberculosis|DOID_106
 pleurisy|DOID_10247
 pleuropneumonia|DOID_14319
@@ -4939,6 +5045,7 @@ porphyria cutanea tarda|DOID_3132
 portal hypertension|DOID_10762
 portal vein thrombosis|DOID_11695
 post-surgical hypoinsulinemia|DOID_2181
+post-thrombotic syndrome|DOID_2364
 post-traumatic stress disorder|DOID_2055
 post-vaccinal encephalitis|DOID_13664
 postauricular lymphadenitis|DOID_4638
@@ -4946,7 +5053,6 @@ postcholecystectomy syndrome|DOID_9740
 postcricoid region cancer|DOID_8660
 postencephalitic Parkinson disease|DOID_14332
 posterior cerebral artery infarction|DOID_3821
-posterior choanal atresia|DOID_14713
 posterior corneal pigmentation|DOID_13448
 posterior cranial fossa meningioma|DOID_4211
 posterior dislocation of lens|DOID_14199
@@ -4966,7 +5072,6 @@ postgerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma|DOID
 postinflammatory pulmonary fibrosis|DOID_12123
 postmenopausal atrophic vaginitis|DOID_11968
 postpartum depression|DOID_9478
-postphlebitic syndrome|DOID_2364
 postpoliomyelitis syndrome|DOID_4952
 postsurgical hypothyroidism|DOID_1458
 pre-eclampsia|DOID_10591
@@ -5009,7 +5114,6 @@ primary pulmonary hypertension|DOID_14557
 primary syphilis|DOID_4156
 primary systemic mycosis|DOID_0050292
 primary thrombocytopenia|DOID_8925
-primitive neuroectodermal tumor|DOID_168
 prion disease|DOID_649
 proctitis|DOID_3127
 progeria|DOID_3911
@@ -5155,6 +5259,7 @@ pylorospasm|DOID_12072
 pylorus cancer|DOID_10544
 pyoderma|DOID_4223
 pyoderma gangrenosum|DOID_8553
+pyometritis|DOID_0050862
 pyomyositis|DOID_876
 pyosalpinx|DOID_5732
 pyoureter|DOID_1425
@@ -5162,6 +5267,7 @@ pyridoxine deficiency anemia|DOID_8455
 pyridoxine-refractory autosomal recessive sideroblastic anemia|DOID_0060065
 pyridoxine-responsive sideroblastic anemia|DOID_0060066
 pyriform sinus cancer|DOID_9235
+pyrimidine metabolic disorder|DOID_0050832
 pyromania|DOID_12402
 pyruvate carboxylase deficiency disease|DOID_3651
 pyruvate decarboxylase deficiency|DOID_3649
@@ -5190,6 +5296,7 @@ rectosigmoid junction cancer|DOID_2782
 rectosigmoid junction neoplasm|DOID_2780
 rectum Kaposi's sarcoma|DOID_6190
 rectum adenocarcinoma|DOID_1996
+rectum adenoma|DOID_0050915
 rectum cancer|DOID_1993
 rectum carcinoma in situ|DOID_9174
 rectum leiomyoma|DOID_7160
@@ -5222,10 +5329,12 @@ renal Wilms' tumor|DOID_5176
 renal adenoma|DOID_2697
 renal agenesis|DOID_14766
 renal artery atheroma|DOID_14092
+renal artery disease|DOID_2388
 renal artery obstruction|DOID_2972
 renal carcinoma|DOID_4451
 renal cell carcinoma|DOID_4450
 renal clear cell carcinoma|DOID_4467
+renal fibrosis|DOID_0050855
 renal glycosuria|DOID_9432
 renal hypertension|DOID_1073
 renal infectious disease|DOID_782
@@ -5242,7 +5351,6 @@ renal pelvis urothelial papilloma|DOID_6119
 renal tuberculosis|DOID_9733
 renal tubular acidosis|DOID_14219
 renal tubular transport disease|DOID_447
-renal vascular disease|DOID_2388
 renovascular hypertension|DOID_1591
 reproductive organ benign neoplasm|DOID_0050622
 reproductive organ cancer|DOID_193
@@ -5305,21 +5413,18 @@ retroperitoneal germ cell neoplasm|DOID_5874
 retroperitoneal hemangiopericytoma|DOID_5373
 retroperitoneal leiomyosarcoma|DOID_5284
 retroperitoneal lymphoma|DOID_12339
+retroperitoneal neuroblastoma|DOID_0050937
 retroperitoneal sarcoma|DOID_12341
 retroperitoneum carcinoma|DOID_12342
 rhabdoid cancer|DOID_3672
 rhabdoid meningioma|DOID_5058
 rhabdomyosarcoma|DOID_3247
-rheumatic aortic valve insufficiency|DOID_55
-rheumatic aortic valve stenosis|DOID_12034
 rheumatic congestive heart failure|DOID_14172
 rheumatic disease|DOID_1575
-rheumatic disease of mitral valve|DOID_11505
 rheumatic fever|DOID_1586
-rheumatic mitral valve incompetence|DOID_58
+rheumatic heart disease|DOID_0050827
 rheumatic myocarditis|DOID_8481
 rheumatic pulmonary valve disease|DOID_5748
-rheumatic tricuspid valve disease|DOID_13834
 rheumatoid arthritis|DOID_7148
 rheumatoid lung disease|DOID_849
 rhinitis|DOID_4483
@@ -5340,13 +5445,12 @@ round ligament malignant neoplasm|DOID_11748
 rubella|DOID_8781
 rubeosis iridis|DOID_14000
 rumination disorder|DOID_11507
-ruptured abdominal aortic aneurysm|DOID_7692
-ruptured aortic aneurysm|DOID_7682
-ruptured thoracic aortic aneurysm|DOID_7703
-ruptured thoracoabdominal aortic aneurysm|DOID_11138
 sacral spinal canal and spinal cord meningioma|DOID_8203
+sacrum chordoma|DOID_0050900
 sagittal sinus thrombosis|DOID_3576
+salivary gland adenoid cystic carcinoma|DOID_4866
 salivary gland cancer|DOID_8850
+salivary gland carcinoma|DOID_0050904
 salivary gland disease|DOID_10854
 salpingitis|DOID_5733
 salpingitis isthmica nodosa|DOID_5730
@@ -5416,6 +5520,7 @@ sebaceous gland neoplasm|DOID_5759
 seborrheic dermatitis|DOID_8741
 seborrheic infantile dermatitis|DOID_8941
 seborrheic keratosis|DOID_6498
+second-degree atrioventricular block|DOID_0050822
 secondary Parkinson disease|DOID_13548
 secondary corneal edema|DOID_11032
 secondary hyperparathyroidism|DOID_12466
@@ -5429,6 +5534,7 @@ secondary vitreoretinal degeneration|DOID_12167
 secretory diarrhea|DOID_0050129
 secretory meningioma|DOID_4588
 secretory uterine corpus endometrioid adenocarcinoma|DOID_7289
+segmental dystonia|DOID_0050838
 selective IgA deficiency disease|DOID_11701
 selective IgD deficiency disease|DOID_7263
 selective IgE deficiency disease|DOID_6024
@@ -5507,12 +5613,11 @@ silo filler's disease|DOID_4374
 simple chronic conjunctivitis|DOID_9512
 simple partial epilepsy|DOID_5129
 simultanagnosia|DOID_0060148
+sinoatrial node disease|DOID_0050824
 sinusitis|DOID_0050127
 situs inversus|DOID_758
 skeletal muscle cancer|DOID_4043
 skeletal muscle neoplasm|DOID_4044
-skeletal system benign neoplasm|DOID_0060120
-skeletal system cancer|DOID_0060124
 skeletal tuberculosis|DOID_1639
 skene gland carcinoma|DOID_7284
 skin amelanotic melanoma|DOID_10054
@@ -5542,10 +5647,12 @@ skull base meningioma|DOID_4437
 skull base neoplasm|DOID_3842
 skull cancer|DOID_1863
 slate pneumoconiosis|DOID_10330
+sleep apnea|DOID_0050847
 sleep disorder|DOID_535
 sleeping sickness|DOID_10112
 small bowel fibrosarcoma|DOID_6880
 small cell carcinoma|DOID_0050685
+small cell neuroendocrine carcinoma|DOID_0050875
 small cell osteogenic sarcoma|DOID_3377
 small cell sarcoma|DOID_3098
 small intestinal L-cell glucagon-like peptide producing tumor|DOID_7506
@@ -5553,6 +5660,7 @@ small intestinal sarcoma|DOID_5272
 small intestinal vasoactive intestinal peptide producing tumor|DOID_5740
 small intestine adenocarcinoma|DOID_4906
 small intestine cancer|DOID_10154
+small intestine carcinoid neuroendocrine tumor|DOID_0050925
 small intestine carcinoma|DOID_4907
 small intestine diverticulitis|DOID_11223
 small intestine leiomyoma|DOID_1738
@@ -5562,7 +5670,6 @@ small intestine neoplasm|DOID_7505
 small intestine neuroendocrine neoplasm|DOID_4434
 smallpox|DOID_8736
 smoldering myeloma|DOID_9551
-smooth atrophic tongue|DOID_1453
 smooth muscle cancer|DOID_4230
 smooth muscle tumor|DOID_4310
 social emotional agnosia|DOID_0060149
@@ -5580,6 +5687,7 @@ somatoform disorder|DOID_4737
 somatostatinoma|DOID_4430
 space motion sickness|DOID_4796
 sparganosis|DOID_10080
+spasmodic dystonia|DOID_0050844
 spastic cerebral palsy|DOID_0050669
 spastic diplegia|DOID_10965
 spastic ectropion|DOID_1571
@@ -5616,7 +5724,6 @@ spinal cord disease|DOID_319
 spinal cord ependymoma|DOID_5503
 spinal cord glioma|DOID_3185
 spinal cord intramedullary teratoma|DOID_3639
-spinal cord ischemia|DOID_324
 spinal cord lipoma|DOID_13743
 spinal cord lymphoma|DOID_14150
 spinal cord melanoma|DOID_14151
@@ -5624,7 +5731,6 @@ spinal cord neuroblastoma|DOID_6871
 spinal cord oligodendroglioma|DOID_3184
 spinal cord primitive neuroectodermal neoplasm|DOID_6872
 spinal cord sarcoma|DOID_14152
-spinal cord vascular disease|DOID_325
 spinal meninges cancer|DOID_7224
 spinal meningioma|DOID_1138
 spinal multifocal clear cell meningioma|DOID_7824
@@ -5641,7 +5747,9 @@ spindle cell sarcoma|DOID_4235
 spindle cell synovial sarcoma|DOID_5487
 spindle cell thymoma|DOID_3279
 spindle cell variant squamous cell breast carcinoma|DOID_7460
+spindle epithelial tumor with thymus-like differentiation tumor|DOID_0050923
 spinocerebellar ataxia|DOID_1441
+spinocerebellar ataxia type 5|DOID_0050882
 spinocerebellar degeneration|DOID_2478
 spiradenoma|DOID_5444
 spleen angiosarcoma|DOID_265
@@ -5712,6 +5820,7 @@ strabismus|DOID_540
 strawberry gallbladder|DOID_10254
 streptococcal meningitis|DOID_11574
 stress polycythemia|DOID_2838
+striated muscle rhabdoid tumor|DOID_0050924
 striatonigral degeneration|DOID_4751
 strictly posterior acute myocardial infarction|DOID_9407
 stricture or kinking of ureter|DOID_3508
@@ -5746,6 +5855,7 @@ subglottis neoplasm|DOID_10069
 subglottis squamous cell carcinoma|DOID_7585
 subglottis verrucous carcinoma|DOID_7584
 subleukemic leukemia|DOID_12965
+sublingual gland adenoid cystic carcinoma|DOID_0050930
 sublingual gland cancer|DOID_8849
 submandibular adenitis|DOID_4636
 submandibular gland cancer|DOID_9173
@@ -5795,17 +5905,18 @@ sweat gland neoplasm|DOID_2664
 swine influenza|DOID_0050211
 sympathetic neurilemmoma|DOID_3201
 sympathetic ophthalmia|DOID_12029
-symptomatic torsion dystonia|DOID_14164
 synchronous bilateral breast carcinoma|DOID_6742
 synchronous multifocal osteogenic sarcoma|DOID_6696
 syndactyly|DOID_11193
 syndrome|DOID_225
+syndromic intellectual disability|DOID_0050888
 synostosis|DOID_11971
 synovial angioma|DOID_8274
 synovial sarcoma|DOID_5485
 synovitis|DOID_2703
 synovium cancer|DOID_2706
 synovium neoplasm|DOID_315
+synucleinopathy|DOID_0050890
 syphilis|DOID_4166
 syphilitic encephalitis|DOID_10081
 syphilitic meningitis|DOID_10073
@@ -5884,6 +5995,7 @@ theileriasis|DOID_3733
 thelaziasis|DOID_0050261
 third cranial nerve disease|DOID_562
 third ventricle chordoid glioma|DOID_3773
+third-degree atrioventricular block|DOID_0050823
 thoracic aortic aneurysm|DOID_14004
 thoracic benign neoplasm|DOID_0060097
 thoracic cancer|DOID_5093
@@ -5958,7 +6070,9 @@ tinea unguium|DOID_13074
 tolosa-hunt syndrome|DOID_1278
 tongue cancer|DOID_8649
 tongue disease|DOID_10944
+tongue squamous cell carcinoma|DOID_0050865
 tonsil cancer|DOID_8858
+tonsil squamous cell carcinoma|DOID_0050920
 tonsillar fossa cancer|DOID_8969
 tonsillar pillar cancer|DOID_8688
 tonsillitis|DOID_10456
@@ -5990,6 +6104,7 @@ trachea adenoid cystic carcinoma|DOID_4875
 trachea carcinoma|DOID_4876
 trachea carcinoma in situ|DOID_8802
 trachea leiomyoma|DOID_248
+trachea mucoepidermoid carcinoma|DOID_0050919
 trachea sarcoma|DOID_12002
 trachea squamous cell carcinoma|DOID_12003
 tracheal calcification|DOID_14224
@@ -6029,6 +6144,7 @@ trichostrongyloidiasis|DOID_1255
 trichostrongylosis|DOID_1254
 trichotillomania|DOID_0050587
 trichuriasis|DOID_1252
+tricuspid valve disease|DOID_0050826
 tricuspid valve insufficiency|DOID_4080
 tricuspid valve prolapse|DOID_5644
 tricuspid valve stenosis|DOID_4078
@@ -6037,6 +6153,7 @@ trigeminal nerve neoplasm|DOID_1201
 trigeminal neuralgia|DOID_12098
 trigonitis|DOID_13507
 trilateral retinoblastoma|DOID_4647
+triosephosphate isomerase deficiency|DOID_0050884
 triple-A syndrome|DOID_0050602
 triple-receptor negative breast cancer|DOID_0060081
 trochlear nerve disease|DOID_13864
@@ -6172,6 +6289,7 @@ uterine corpus cellular leiomyoma|DOID_7242
 uterine corpus choriocarcinoma|DOID_8188
 uterine corpus diffuse leiomyomatosis|DOID_5917
 uterine corpus dissecting leiomyoma|DOID_13953
+uterine corpus endometrial carcinoma|DOID_0050939
 uterine corpus endometrial stromal sarcoma|DOID_4227
 uterine corpus epithelioid leiomyoma|DOID_13951
 uterine corpus epithelioid leiomyosarcoma|DOID_6139
@@ -6200,6 +6318,7 @@ uterus perivascular epithelioid cell tumor|DOID_7437
 uveal cancer|DOID_3479
 uveal disease|DOID_3480
 uveal epithelioid cell melanoma|DOID_7040
+uveal melanoma|DOID_6039
 uveitis|DOID_13141
 uveoparotid fever|DOID_13404
 uvula cancer|DOID_8635
@@ -6213,6 +6332,7 @@ vaginal adenoma|DOID_5402
 vaginal adenosarcoma|DOID_4117
 vaginal benign neoplasm|DOID_0060114
 vaginal cancer|DOID_119
+vaginal carcinoma|DOID_0050918
 vaginal carcinosarcoma|DOID_136
 vaginal discharge|DOID_3767
 vaginal disease|DOID_121
@@ -6230,6 +6350,7 @@ vaginitis|DOID_2170
 vagus nerve neoplasm|DOID_12984
 vallecula cancer|DOID_8556
 variable age at onset electroclinical syndrome|DOID_0050706
+variant Creutzfeldt-Jakob disease|DOID_5435
 varicocele|DOID_12337
 varicose veins|DOID_799
 variegate porphyria|DOID_4346
@@ -6241,7 +6362,6 @@ vascular disease|DOID_178
 vascular hemostatic disease|DOID_484
 vascular myelopathy|DOID_320
 vascular skin disease|DOID_9540
-vascular tissue disease|DOID_0000405
 vasculitis|DOID_865
 vasculogenic impotence|DOID_4762
 vasomotor rhinitis|DOID_4730
@@ -6275,6 +6395,7 @@ villoglandular endometrial endometrioid adenocarcinoma|DOID_6777
 villoglandular variant cervical mucinous adenocarcinoma|DOID_8338
 villonodular synovitis|DOID_9898
 villous adenocarcinoma|DOID_4917
+villous adenoma|DOID_0050869
 viral encephalitis|DOID_646
 viral esophagitis|DOID_6297
 viral exanthem|DOID_8672

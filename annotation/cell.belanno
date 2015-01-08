@@ -3,19 +3,19 @@ Keyword=Cell
 TypeString=list
 DescriptionString=Cell types from the Cell Ontology (CL)
 UsageString=Use this annotation to indicate the cell type context of a statement. Use to annotate a statement that was demonstrated in a given cell type or where the facts represented in the statement were shown to be relevant to the cell type.
-VersionString=20131212
-CreatedDateTime=2013-12-12T10:21:52
+VersionString=20150107
+CreatedDateTime=2015-01-07T10:00:59
 
 [Author]
-NameString=OpenBEL
-CopyrightString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+NameString=OpenBEL 
+CopyrightString=Copyright (c) 2015, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=Cell Ontology (CL)
 DescriptionString=The Cell Ontology (CL) is a candidate OBO Foundry ontology for the representation of cell types. First described in 2005, the CL integrates cell types from the prokaryotic, fungal, and eukaryotic organisms.
-PublishedVersionString=http://purl.obolibrary.org/obo/cl/releases/2013-12-04/cl.owl
-PublishedDate=2013-12-04
+PublishedVersionString=http://purl.obolibrary.org/obo/cl/releases/2014-12-22/cl.owl
+PublishedDate=2014-12-22
 ReferenceURL=http://cellontology.org/
 
 [Processing]
@@ -208,7 +208,6 @@ GLR cell|CL_0000427
 GlyA-positive basophillic erythroblast|CL_0002013
 GlyA-positive erythrocyte|CL_0002021
 GlyA-positive reticulocytes|CL_0002020
-Golgi cell|CL_0000119
 Gr1-high classical monocyte|CL_0002395
 Gr1-high myeloid suppressor cell|CL_0002467
 Gr1-low myeloid suppressor cell|CL_0002468
@@ -274,8 +273,10 @@ MHC-II-low non-classical monocyte|CL_0002472
 MHC-II-negative classical monocyte|CL_0002469
 MHC-II-negative non-classical monocyte|CL_0002471
 MHC-II-positive classical monocyte|CL_0002470
+Malpighian tubule stellate cell|CL_1000155
 Mauthner neuron|CL_0000246
 Merkel cell|CL_0000242
+Meynert cell|CL_2000056
 Mueller cell|CL_0000636
 Muller cell|CL_0011107
 Mycetozoan cell|CL_0000257
@@ -344,6 +345,7 @@ activated CD4-positive, alpha-beta T cell|CL_0000896
 activated CD4-positive, alpha-beta T cell, human|CL_0001043
 activated CD8-positive, alpha-beta T cell|CL_0000906
 activated CD8-positive, alpha-beta T cell, human|CL_0001049
+activated skeletal muscle satellite cell|CL_0008016
 activated type II NK T cell|CL_0000931
 active chief cell of parathyroid gland|CL_0002141
 adaxial cell|CL_0007016
@@ -354,12 +356,14 @@ adipocyte of epicardial fat of right ventricle|CL_1000310
 adipocyte of omentum tissue|CL_0002615
 adipose dendritic cell|CL_0002462
 adipose macrophage|CL_0002477
+adipose microvascular endothelial cell|CL_2000072
 adrenal cortex chromaffin cell|CL_1000427
 adrenal gland glandular cell|CL_1001601
 adrenal medulla chromaffin cell|CL_0000336
 adrenergic neuron|CL_0000109
 adrenocorticotropic hormone secreting cell|CL_0000467
 adult endothelial progenitor cell|CL_0002619
+adult skeletal muscle myoblast|CL_0008017
 adventitial cell|CL_0002503
 afferent neuron|CL_0000526
 aggregate cell|CL_0000259
@@ -374,11 +378,10 @@ ameloblast|CL_0000059
 amniocyte|CL_0002323
 amnion mesenchymal stem cell|CL_0002537
 amnioserosal cell|CL_0000350
-amniotic epithelial cell|CL_0002536
 amniotic epithelial stem cell|CL_0002640
 amniotic stem cell|CL_0002639
 amoeboid cell|CL_0000732
-anchoring trophoblasts|CL_0002219
+anchoring trophoblast|CL_0002219
 androgen binding protein secreting cell|CL_0000511
 androgen secreting cell|CL_0000593
 angioblastic mesenchymal cell|CL_0000566
@@ -386,8 +389,14 @@ animal cell|CL_0000548
 annulus pulposus cell|CL_0002602
 anterior cell|CL_0000261
 anterior cone cell (sensu Endopterygota)|CL_0000720
+anterior lateral line ganglion neuron|CL_0008021
+anterior lateral line nerve glial cell|CL_1000239
+anterior lateral line neuromast hair cell|CL_2000034
+anterior lateral line neuromast mantle cell|CL_2000035
+anterior lateral line neuromast support cell|CL_2000036
 anterior lens cell|CL_0002223
 anterior like cell|CL_0000265
+anterior visceral endoderm cell|CL_2000075
 antibody secreting cell|CL_0000946
 anucleate cell|CL_0000225
 aortic endothelial cell|CL_0002544
@@ -405,6 +414,7 @@ arcuate vein endothelial cell|CL_1001220
 arcuate vein smooth muscle cell|CL_1001221
 arthroconidium|CL_0002387
 articular chondrocyte|CL_1001607
+articular chondrocyte of knee joint|CL_2000007
 ascospore|CL_0000607
 astrocyte|CL_0000127
 astrocyte of the cerebellum|CL_0002603
@@ -453,6 +463,7 @@ binucleate cell|CL_0000227
 biogenic amine secreting cell|CL_0000457
 bipolar neuron|CL_0000103
 bladder cell|CL_1001319
+bladder microvascular endothelial cell|CL_2000040
 bladder urothelial cell|CL_1001428
 blastemal cell|CL_0000354
 blastoconidium|CL_0002385
@@ -470,6 +481,10 @@ bone matrix secreting cell|CL_0000054
 border cell of cochlea|CL_0002168
 border follicle cell|CL_0000579
 bottle cell|CL_0007020
+brain macroglial cell|CL_2000005
+brain microvascular endothelial cell|CL_2000044
+brain pericyte|CL_2000043
+brainstem motor neuron|CL_2000047
 branched duct epithelial cell|CL_0000069
 branchiomotor neuron|CL_0005023
 bronchial epithelial cell|CL_0002328
@@ -489,13 +504,14 @@ brush cell of trachea|CL_0002207
 brush cell of trachebronchial tree|CL_0002075
 buccal mucosa cell|CL_0002336
 calcitonin secreting cell|CL_0000443
-camera type eye photoreceptor cell|CL_0010009
+calvarial osteoblast|CL_2000058
+camera-type eye photoreceptor cell|CL_0010009
 cap cell|CL_0000676
 capillary endothelial cell|CL_0002144
 carbohydrate secreting cell|CL_0000447
+cardiac atrium fibroblast|CL_2000067
 cardiac blood vessel endothelial cell|CL_0010006
 cardiac endothelial cell|CL_0010008
-cardiac fibroblast|CL_0002548
 cardiac glial cell|CL_0010020
 cardiac mesenchymal cell|CL_0000569
 cardiac muscle cell|CL_0000746
@@ -504,21 +520,28 @@ cardiac muscle myoblast|CL_0000513
 cardiac myoblast|CL_0010021
 cardiac neuron|CL_0010022
 cardiac pacemaker cell of sinoatrial node|CL_1000477
+cardiac septum native cell|CL_2000022
+cardiac ventricle fibroblast|CL_2000066
 cardioblast|CL_0002664
 cardioblast (sensu Arthropoda)|CL_0000465
 cardiocyte|CL_0002494
 cell|CL_0000000
 cell in vitro|CL_0001034
+cell of skeletal muscle|CL_0000188
 cementoblast|CL_0000061
 cementocyte|CL_0000141
 central memory CD4-positive, alpha-beta T cell|CL_0000904
 central memory CD8-positive, alpha-beta T cell|CL_0000907
 central nervous system macrophage|CL_0000878
+central nervous system neuron|CL_2000029
 central nervous system pericyte|CL_0002575
 centripetally migrating follicle cell|CL_0000671
+cerebellar Golgi cell|CL_0000119
 cerebellar granule cell|CL_0001031
 cerebellar neuron|CL_1001611
 cerebellar stellate cell|CL_0010010
+cerebellum basket cell|CL_2000027
+cerebellum glutamatergic neuron|CL_2000028
 cerebral cortex GABAergic interneuron|CL_0010011
 cerebral cortex endothelial cell|CL_1001602
 cerebral cortex glial cell|CL_1001579
@@ -576,11 +599,14 @@ commissural neuron|CL_0000678
 common dendritic progenitor|CL_0001029
 common lymphoid progenitor|CL_0000051
 common myeloid progenitor|CL_0000049
+common myeloid progenitor, CD34-positive|CL_0001059
+compound eye cone cell|CL_0000718
+compound eye photoreceptor cell|CL_2000019
 compound eye retinal cell|CL_0009001
-cone cell (sensu Endopterygota)|CL_0000718
 cone retinal bipolar cell|CL_0000752
 conidium|CL_0000599
 conidium of conidiophore head|CL_0002383
+conjunctiva goblet cell|CL_2000084
 conjunctival epithelial cell|CL_1000432
 connective tissue cell|CL_0002320
 connective tissue type mast cell|CL_0000484
@@ -612,6 +638,7 @@ cytotoxic T cell|CL_0000910
 dark cell of eccrine sweat gland|CL_0002142
 dark chief cell of parathyroid cell|CL_0002143
 dark melanocyte|CL_0002566
+decidua cell|CL_2000002
 decidual natural killer cell|CL_0002343
 defensive cell|CL_0000473
 dendritic cell|CL_0000451
@@ -622,6 +649,9 @@ dental papilla cell|CL_0000345
 dental pulp cell|CL_0002148
 dermal dendritic cell|CL_0001006
 dermal melanocyte|CL_0002482
+dermis blood vessel endothelial cell|CL_2000010
+dermis lymphatic vessel endothelial cell|CL_2000011
+dermis microvascular lymphatic vessel endothelial cell|CL_2000041
 digestive enzyme secreting cell|CL_0000470
 dikaryon|CL_0000603
 diploid cell|CL_0000415
@@ -654,6 +684,7 @@ effector CD8-positive, alpha-beta T cell|CL_0001050
 effector T cell|CL_0000911
 effector memory CD4-positive, alpha-beta T cell|CL_0000905
 effector memory CD8-positive, alpha-beta T cell|CL_0000913
+effector memory CD8-positive, alpha-beta T cell, terminally differentiated|CL_0001062
 efferent neuron|CL_0000527
 egg cell|CL_0000025
 eggshell secreting cell|CL_0000659
@@ -664,6 +695,7 @@ elicited macrophage|CL_0000861
 embryonic blood vessel endothelial progenitor cell|CL_0002546
 embryonic cell|CL_0002321
 embryonic crystal cell|CL_0000715
+embryonic fibroblast|CL_2000042
 embryonic gland hemocyte|CL_0000736
 embryonic gland plasmatocyte|CL_0000734
 embryonic stem cell|CL_0002322
@@ -671,6 +703,7 @@ endo-epithelial cell|CL_0002076
 endo-epithelial cell of pharyngotympanic part of viscerocranial mucosa|CL_0002645
 endo-epithelial cell of tympanic part of viscerocranial mucosa|CL_0002644
 endocardial cell|CL_0002350
+endocardial cushion cell|CL_0008022
 endocrine cell|CL_0000163
 endocrine-paracrine cell of prostate gland|CL_0002313
 endodermal cell|CL_0000223
@@ -681,6 +714,7 @@ endosteal cell|CL_0002157
 endothelial cell|CL_0000115
 endothelial cell of arteriole|CL_1000412
 endothelial cell of artery|CL_1000413
+endothelial cell of coronary artery|CL_2000018
 endothelial cell of hepatic sinusoid|CL_1000398
 endothelial cell of high endothelial venule|CL_0002652
 endothelial cell of lymphatic vessel|CL_0002138
@@ -725,6 +759,7 @@ epidermal Langerhans cell|CL_0002457
 epidermal cell|CL_0000362
 epidermal cell (sensu arthropoda)|CL_0000463
 epidermal ciliary cell|CL_0007018
+epidermal melanocyte|CL_2000000
 epidermal mucus secreting cell|CL_0007019
 epidermoblast|CL_0000464
 epididymis glandular cell|CL_1001590
@@ -733,6 +768,7 @@ epithelial cell|CL_0000066
 epithelial cell of Malassez|CL_0002166
 epithelial cell of alimentary canal|CL_0002251
 epithelial cell of alveolus of lung|CL_0010003
+epithelial cell of amnion|CL_0002536
 epithelial cell of anal column|CL_0002634
 epithelial cell of anterior palatal part of viscerocranial mucosa|CL_0002647
 epithelial cell of appendix|CL_1000405
@@ -764,7 +800,6 @@ epithelial cell of prostate|CL_0002231
 epithelial cell of prostatic acinus|CL_0002233
 epithelial cell of prostatic duct|CL_0002232
 epithelial cell of proximal tubule|CL_0002306
-epithelial cell of renal tubule|CL_1000494
 epithelial cell of skin gland|CL_0002308
 epithelial cell of small intestine|CL_0002254
 epithelial cell of stomach|CL_0002178
@@ -790,6 +825,7 @@ erythroblast|CL_0000765
 erythrocyte|CL_0000232
 erythroid lineage cell|CL_0000764
 erythroid progenitor cell|CL_0000038
+erythroid progenitor cell, mammalian|CL_0001066
 erythrophore|CL_0000574
 estradiol secreting cell|CL_0000180
 eukaryotic cell|CL_0000255
@@ -816,6 +852,7 @@ female germ cell|CL_0000021
 female germ line stem cell|CL_0000022
 female germ line stem cell (sensu Nematoda and Protostomia)|CL_0000088
 female germ line stem cell (sensu Vertebrata)|CL_0000090
+femural osteoblast|CL_2000057
 fenestrated cell|CL_0000666
 fetal cardiomyocyte|CL_0002495
 fetal derived definitive erythrocyte|CL_0002357
@@ -824,6 +861,8 @@ fetal thymocyte|CL_0002404
 fibroblast|CL_0000057
 fibroblast neural crest derived|CL_0000005
 fibroblast of areolar connective tissue|CL_1000303
+fibroblast of arm|CL_2000015
+fibroblast of cardiac tissue|CL_0002548
 fibroblast of choroid plexus|CL_0002549
 fibroblast of connective tissue of glandular part of prostate|CL_1000305
 fibroblast of connective tissue of nonglandular part of prostate|CL_1000304
@@ -836,12 +875,16 @@ fibroblast of lymphatic vessel|CL_0002554
 fibroblast of mammary gland|CL_0002555
 fibroblast of outer membrane of prostatic capsule|CL_1000300
 fibroblast of papillary layer of dermis|CL_1000302
+fibroblast of pedal digit skin|CL_2000012
+fibroblast of peridontal ligament|CL_2000017
 fibroblast of periodontium|CL_0002556
 fibroblast of pulmonary artery|CL_0002557
+fibroblast of skin of abdomen|CL_2000013
 fibroblast of subepithelial connective tissue of prostatic gland|CL_1000301
 fibroblast of the aortic adventitia|CL_0002547
-fibroblast of the conjuctiva|CL_0002550
+fibroblast of the conjunctiva|CL_0002550
 fibroblast of tunica adventitia of artery|CL_1000306
+fibroblast of upper leg skin|CL_2000014
 fibroblast of villous mesenchyme|CL_0002558
 fibrocyte|CL_0000135
 fibrocyte of adventitia of ureter|CL_1000308
@@ -857,9 +900,11 @@ follicular dendritic cell|CL_0000442
 follicular epithelial cell|CL_0000500
 folliculostellate cell|CL_0000642
 folliculostellate cell of pars distalis of adenohypophysis|CL_0002177
+forebrain neuroblast|CL_1000042
 forebrain radial glial cell|CL_0013000
 foreskin fibroblast|CL_1001608
 foreskin keratinocyte|CL_1001606
+foreskin melanocyte|CL_2000045
 foveolar cell of stomach|CL_0002179
 fungal asexual spore|CL_0000605
 fungal cell|CL_0000521
@@ -868,6 +913,7 @@ fusimotor neuron|CL_0000717
 fusion competent myoblast|CL_0000621
 galanergic neuron|CL_0011100
 gall bladder glandular cell|CL_1001592
+gallbladder fibroblast|CL_2000069
 gamete|CL_0000300
 gamma-delta T cell|CL_0000798
 gamma-delta intraepithelial T cell|CL_0000801
@@ -927,12 +973,14 @@ granulosa cell|CL_0000501
 gravity sensitive cell|CL_0000203
 green sensitive photoreceptor cell|CL_0000496
 growth hormone releasing hormone secreting cell|CL_0002373
+growth plate cartilage chondrocyte|CL_1000217
 guidepost cell|CL_0000143
 gut absorptive cell|CL_0000677
 gut endothelial cell|CL_0000131
 gut-associated lymphoid tissue macrophage|CL_0000885
 hair follicle cell|CL_0002559
 hair follicle dermal papilla cell|CL_0000346
+hair follicle dermal papilla cell of scalp|CL_2000083
 hair follicle melanocyte|CL_0002483
 hair germinal matrix cell|CL_0002562
 hair matrix stem cell|CL_0000356
@@ -940,17 +988,20 @@ hair-down neuron|CL_1001437
 hair-tylotrich neuron|CL_1001436
 haploid cell|CL_0000413
 hatching gland cell|CL_0000249
+heart valve cell|CL_1000147
 helper T cell|CL_0000912
 hemangioblast|CL_0002418
 hematopoietic cell|CL_0000988
 hematopoietic lineage restricted progenitor cell|CL_0002031
 hematopoietic multipotent progenitor cell|CL_0000837
 hematopoietic oligopotent progenitor cell|CL_0002032
+hematopoietic oligopotent progenitor cell, lineage-negative|CL_0001060
 hematopoietic precursor cell|CL_0008001
 hematopoietic stem cell|CL_0000037
 hemocyte (sensu Nematoda and Protostomia)|CL_0000387
 hepatic mesenchymal stem cell|CL_0002571
 hepatic oval stem cell|CL_0002196
+hepatic pit cell|CL_2000054
 hepatic stellate cell|CL_0000632
 hepatic stem cell|CL_0002195
 hepatoblast|CL_0005026
@@ -958,6 +1009,7 @@ hepatocyte|CL_0000182
 heterocyst|CL_0000724
 heterokaryon|CL_0000600
 hilus cell of ovary|CL_0002095
+hindlimb stylopod vein endothelial cell|CL_2000076
 hippocampal granule cell|CL_0001033
 hippocampal interneuron|CL_1001569
 hippocampal neuron|CL_0002608
@@ -966,12 +1018,12 @@ hippocampus glial cell|CL_1001580
 histamine secreting cell|CL_0002274
 histaminergic neuron|CL_0011110
 histoblast|CL_0000373
-horizontal cell|CL_0000745
 humidity receptor cell|CL_0000376
 hyalocyte|CL_0000142
 hypertrophic chondrocyte|CL_0000743
 hyphal cell|CL_0000286
 hypocretin-secreting neuron|CL_0011109
+hypothalamus native cell|CL_2000030
 ileal goblet cell|CL_1000326
 imaginal disc cell|CL_0000429
 immature B cell|CL_0000816
@@ -1017,6 +1069,7 @@ inflammatory macrophage|CL_0000863
 inhibitory interneuron|CL_0000498
 inhibitory motor neuron|CL_0008015
 innate effector T cell|CL_0002127
+inner cell mass native cell|CL_2000020
 inner medulla vasa recta ascending limb cell|CL_1001209
 inner medulla vasa recta descending limb cell|CL_1001286
 inner phalangeal cell|CL_0005015
@@ -1161,6 +1214,8 @@ large pre-B-II cell|CL_0000957
 larval midgut cell|CL_0009003
 late pro-B cell|CL_0002048
 late promyelocyte|CL_0002151
+lateral line ganglion neuron|CL_2000031
+lateral line nerve glial cell|CL_1000050
 lateral motor column neuron|CL_0011002
 lateral ventricle glial cell|CL_1001581
 lateral ventricle neuron|CL_1001582
@@ -1174,10 +1229,12 @@ leukocyte|CL_0000738
 ligament cell|CL_0000384
 light chief cell of parathyroid gland|CL_0002229
 light melanocyte|CL_0002567
+limb basal cell of epidermis|CL_2000033
 lining cell|CL_0000213
 littoral cell of liver|CL_0000684
 liver CD103-negative dendritic cell|CL_0002505
 liver CD103-positive dendritic cell|CL_0002506
+liver dendritic cell|CL_2000055
 long lived plasma cell|CL_0000974
 long term hematopoietic stem cell|CL_0002034
 lower urinary tract cell|CL_1000600
@@ -1189,8 +1246,13 @@ luminal cell of prostate epithelium|CL_0002340
 luminal cell of prostatic acinus|CL_0002235
 luminal epithelial cell of mammary gland|CL_0002326
 luminal epithelial cell of prostatic duct|CL_0002237
+lung ciliated cell|CL_1000271
 lung endothelial cell|CL_1001567
+lung goblet cell|CL_1000143
 lung macrophage|CL_1001603
+lung microvascular endothelial cell|CL_2000016
+lung neuroendocrine cell|CL_1000223
+lung secretory cell|CL_1000272
 luteal cell|CL_0000175
 luteinizing hormone secreting cell|CL_0000438
 lymph gland crystal cell|CL_0000716
@@ -1214,17 +1276,19 @@ macrophage dendritic cell progenitor|CL_0002009
 macrophage derived foam cell|CL_0000517
 macula densa epithelial cell|CL_1000850
 macular hair cell|CL_0005008
-magnocellular neurosecretory cell|CL_0011003
 magnocellular neurosecretory cell|CL_0011112
+magnocellular neurosecretory cell (duplicate class)|CL_0011003
 male gamete|CL_0000408
 male germ cell|CL_0000015
 male germ line stem cell|CL_0000016
 male germ line stem cell (sensu Nematoda and Protostomia)|CL_0000087
 male germ line stem cell (sensu Vertebrata)|CL_0000089
 male gonocyte|CL_0002238
+malpighian tubule tip cell|CL_1000182
 mammary alveolar cell|CL_0002325
-mammary epithelial cell|CL_0002327
+mammary gland epithelial cell|CL_0002327
 mammary gland glandular cell|CL_1001586
+mammary microvascular endothelial cell|CL_2000071
 mammary stem cell|CL_0002451
 mammosomatotroph|CL_0002310
 mammotroph|CL_0002311
@@ -1273,7 +1337,9 @@ megakaryocyte-erythroid progenitor cell|CL_0000050
 melanoblast|CL_0000541
 melanocyte|CL_0000148
 melanocyte of eyelid|CL_1000391
+melanocyte of foreskin|CL_2000082
 melanocyte of skin|CL_1000458
+melanocyte of skin of face|CL_2000081
 melanocyte stimulating hormone secreting cell|CL_0000440
 melanophage|CL_0002060
 memory B cell|CL_0000787
@@ -1284,10 +1350,13 @@ meningeal macrophage|CL_0000879
 meningothelial cell|CL_0002379
 mesangial cell|CL_0000650
 mesangial phagocyte|CL_0000777
-mesenchymal cell|CL_0000134
+mesenchymal cell|CL_0008019
 mesenchymal lymphangioblast|CL_0005021
+mesenchymal stem cell|CL_0000134
 mesenchymal stem cell of Wharton's jelly|CL_0002568
+mesenchymal stem cell of abdominal adipose|CL_2000080
 mesenchymal stem cell of adipose|CL_0002570
+mesenchymal stem cell of femoral bone marrow|CL_2000079
 mesenchymal stem cell of the bone marrow|CL_0002540
 mesenchymal stem cell of umbilical cord|CL_0002569
 mesenchyme condensation cell|CL_0000335
@@ -1295,6 +1364,7 @@ mesenteric preadipocyte|CL_0002578
 meso-epithelial cell|CL_0002078
 mesodermal cell|CL_0000222
 mesonephric glomerular visceral epithelial cell|CL_0002523
+mesonephric nephron tubule epithelial cell|CL_1000022
 mesothelial cell|CL_0000077
 mesothelial cell of anterior chamber of eye|CL_1000444
 mesothelial cell of dura mater|CL_1000298
@@ -1309,6 +1379,7 @@ metal ion accumulating cell|CL_0000308
 metamyelocyte|CL_0002192
 metanephric glomerular visceral epithelial cell|CL_0002525
 metanephric mesenchyme stem cell|CL_0000324
+metanephric nephron tubule epithelial cell|CL_1000123
 microconidium|CL_0000597
 microfold cell of epithelium of intestinal villus|CL_1000354
 microfold cell of epithelium of small intestine|CL_1000353
@@ -1320,7 +1391,9 @@ microfold cell of epithelium proper of large intestine|CL_1000360
 microfold cell of epithelium proper of small intestine|CL_1000355
 microglial cell|CL_0000129
 micropylar cell|CL_0007022
+microvascular endothelial cell|CL_2000008
 microvillous olfactory receptor neuron|CL_0000848
+migratory cardiac neural crest cell|CL_2000073
 migratory cranial neural crest cell|CL_0000008
 migratory enteric neural crest cell|CL_0002607
 migratory neural crest cell|CL_0000333
@@ -1333,6 +1406,7 @@ monoblast|CL_0000040
 monocyte|CL_0000576
 mononuclear cell|CL_0000842
 mononuclear cell of bone marrow|CL_0010004
+mononuclear cell of umbilical cord|CL_2000085
 mononuclear cytotrophoblast cell|CL_0000523
 mononuclear odontoclast|CL_0000781
 mononuclear osteoclast|CL_0000778
@@ -1351,6 +1425,7 @@ mucus neck cell of gastric gland|CL_0002181
 mucus secreting cell|CL_0000319
 multi fate stem cell|CL_0000048
 multi-ciliated epithelial cell|CL_0005012
+multi-potent skeletal muscle stem cell|CL_0000355
 multinuclear odontoclast|CL_0000780
 multinuclear osteoclast|CL_0000779
 multinucleate arthroconidium|CL_0002388
@@ -1421,6 +1496,7 @@ natural helper lymphocyte|CL_0002679
 natural killer cell|CL_0000623
 nephrocyte|CL_0002520
 nephrogenic mesenchyme stem cell|CL_0000383
+nephron tubule epithelial cell|CL_1000494
 neural cell|CL_0002319
 neural crest derived fat cell|CL_0002333
 neural crest derived neuroblast|CL_0002676
@@ -1477,7 +1553,7 @@ nonkeratinized cell of epidermis|CL_0002135
 nonkeratinized cell of stratum corneum of esophageal epithelium|CL_0002643
 nonkeratinized epithelial cell of anal column|CL_0002635
 nonkeratinized epithelial cell of inferior part of anal canal|CL_0002636
-norepinephrin secreting cell|CL_0000459
+noradrenergic cell|CL_0000459
 notochordal cell|CL_0007005
 notochordal sheath cell|CL_0007007
 notochordal vacuole cell|CL_0007008
@@ -1508,6 +1584,7 @@ ooblast|CL_0002239
 oocyte|CL_0000023
 oogonial cell|CL_0000024
 oospore|CL_0002380
+optic choroid fibroblast|CL_2000070
 oral mucosa squamous cell|CL_1001576
 organ of Corti supporting cell|CL_0002490
 orthochromatic erythroblast|CL_0000552
@@ -1520,6 +1597,9 @@ outer medulla vasa recta ascending limb cell|CL_1001210
 outer medulla vasa recta descending limb cell|CL_1001287
 outer renal medulla vasa recta cell|CL_1001127
 outer root sheath cell|CL_0002561
+ovarian fibroblast|CL_2000063
+ovarian microvascular endothelial cell|CL_2000065
+ovarian surface epithelial cell|CL_2000064
 oviduct glandular cell|CL_1001591
 oxygen accumulating cell|CL_0000329
 oxyphil cell of parathyroid gland|CL_0002199
@@ -1557,6 +1637,7 @@ peptide hormone secreting cell|CL_0000167
 peptidergic neuron|CL_0000110
 periarticular chondrocyte|CL_0000742
 pericardial nephrocyte|CL_0000474
+pericardium fibroblast|CL_2000068
 pericyte cell|CL_0000669
 peridermal cell|CL_0000078
 periglomerular cell|CL_1001435
@@ -1564,7 +1645,9 @@ perijunctional fibroblast|CL_0000688
 perineural cell|CL_0002576
 perineuronal satellite cell|CL_0000516
 periperhal blood mesothelial cell|CL_0002318
+peripheral blood mononuclear cell|CL_2000001
 peripheral blood stem cell|CL_0002246
+peripheral nervous system neuron|CL_2000032
 peripheral neuron|CL_0000111
 perirenal adipocyte cell|CL_0002616
 perirenal preadipocyte|CL_0002581
@@ -1590,8 +1673,13 @@ pillar cell|CL_1000191
 pinealocyte|CL_0000652
 pioneer neuron|CL_0000116
 pituicyte|CL_0000645
+pituitary gland cell|CL_2000004
+placental amniotic mesenchymal stromal cell|CL_2000061
 placental epithelial cell|CL_0002577
 placental hematopoietic stem cell|CL_0002359
+placental pericyte|CL_2000078
+placental villous trophoblast|CL_2000060
+placental villus capillary endothelial cell|CL_2000062
 plasma cell|CL_0000786
 plasmablast|CL_0000980
 plasmacytoid dendritic cell|CL_0000784
@@ -1612,6 +1700,11 @@ polyploid cell|CL_0000412
 polytene cell|CL_0000416
 pore cell|CL_0000425
 posterior cone cell (sensu Endopterygota)|CL_0000719
+posterior lateral line ganglion neuron|CL_1000245
+posterior lateral line nerve glial cell|CL_1000236
+posterior lateral line neuromast hair cell|CL_2000037
+posterior lateral line neuromast mantle cell|CL_2000038
+posterior lateral line neuromast support cell|CL_2000039
 pre-B-I cell|CL_0000956
 pre-B-II cell|CL_0000955
 pre-conventional dendritic cell|CL_0002010
@@ -1639,6 +1732,7 @@ primary cultured cell|CL_0000001
 primary follicular cell of ovary|CL_0002175
 primary interneuron|CL_0000534
 primary lens fiber|CL_0002228
+primary motor cortex pyramidal cell|CL_2000049
 primary motor neuron|CL_0000533
 primary neuron|CL_0000530
 primary oocyte|CL_0000654
@@ -1667,6 +1761,8 @@ prokaryotic cell|CL_0000520
 prolactin secreting cell|CL_0000439
 promonocyte|CL_0000559
 promyelocyte|CL_0000836
+pronephric nephron tubule epithelial cell|CL_1000090
+prostate gland microvascular endothelial cell|CL_2000059
 prostate stem cell|CL_0002339
 prostate stromal cell|CL_0002622
 protein secreting cell|CL_0000154
@@ -1683,6 +1779,7 @@ purkinje myocyte of interventricular septum|CL_1000376
 pylroric gastric gland goblet cell|CL_1000323
 pyramidal cell|CL_0000598
 pyrenocyte|CL_0002358
+quiescent skeletal muscle satellite cell|CL_0008012
 radial glial cell|CL_0000681
 raphe nuclei neuron|CL_0002610
 receptor cell|CL_0000197
@@ -1710,6 +1807,7 @@ resting double-positive thymocyte|CL_0002427
 reticular cell|CL_0000432
 reticular cell of splenic cord|CL_1000489
 reticulocyte|CL_0000558
+retina horizontal cell|CL_0000745
 retinal bipolar neuron|CL_0000748
 retinal blood vessel endothelial cell|CL_0002585
 retinal cell|CL_0009004
@@ -1719,6 +1817,7 @@ retinal melanocyte|CL_0002485
 retinal pigment epithelial cell|CL_0002586
 retinal progenitor cell|CL_0002672
 retinal rod cell|CL_0000604
+retrotrapezoid nucleus neuron|CL_1000001
 rod bipolar cell|CL_0000751
 salivary gland cell|CL_0009005
 salivary gland glandular cell|CL_1001596
@@ -1729,6 +1828,7 @@ scolopidial sheath cell|CL_0000409
 scolopidium|CL_0000382
 scotopic photoreceptor cell|CL_0000489
 seam cell|CL_0000419
+sebaceous gland native cell|CL_2000021
 sebum secreting cell|CL_0000317
 secondary follicular cell of ovary|CL_0002176
 secondary lens fiber|CL_0002225
@@ -1742,6 +1842,7 @@ secondary spermatocyte|CL_0000657
 secondary trophoblast giant cell|CL_0002498
 secretin stimulating hormone secreting cell|CL_0000480
 secretory cell|CL_0000151
+segmented neutrophil of bone marrow|CL_0011114
 seminal fluid secreting cell|CL_0000321
 seminal vesicle glandular cell|CL_1001597
 seminiferous tubule epithelial cell|CL_0002625
@@ -1768,17 +1869,17 @@ simple columnar epithelial cell|CL_0000146
 single ciliated epithelial cell|CL_0005013
 single fate stem cell|CL_0000035
 single nucleate cell|CL_0000226
-skeletal muscle cell|CL_0000188
 skeletal muscle fiber|CL_0008002
 skeletal muscle myoblast|CL_0000515
 skeletal muscle satellite cell|CL_0000594
-skeletal muscle stem cell|CL_0000355
+skeletal muscle satellite myogenic cell|CL_0008020
+skeletal muscle satellite stem cell|CL_0008011
+skeletal muscle tissue of pectoralis major striated muscle cell|CL_2000077
 skeletogenic cell|CL_0007001
 skin fibroblast|CL_0002620
 slow muscle cell|CL_0000189
 slow muscle myoblast|CL_0000857
 slowly adapting mechanoreceptor cell|CL_0000544
-small intestine crypt goblet cell|CL_1000318
 small intestine glandular cell|CL_1001598
 small intestine goblet cell|CL_1000495
 small intestine serosal dendritic cell|CL_0002466
@@ -1817,6 +1918,7 @@ smooth muscle myoblast|CL_0000514
 socket cell (sensu Nematoda)|CL_0000389
 somatic cell|CL_0002371
 somatic muscle cell|CL_0008004
+somatic muscle myoblast|CL_0008018
 somatic muscle myotube|CL_0008003
 somatic stem cell|CL_0000723
 somatomotor neuron|CL_0005024
@@ -1832,14 +1934,21 @@ spheroplast|CL_0000524
 sphincter associated smooth muscle cell|CL_0000358
 spinal accessory motor neuron|CL_0000741
 spinal cord interneuron|CL_0005000
+spinal cord medial motor column neuron|CL_2000024
 spinal cord motor neuron|CL_0011001
+spinal cord oligodendrocyte|CL_2000025
+spinal cord radial glial cell|CL_1000073
+spinal cord ventral column interneuron|CL_2000023
 spiral ganglion neuron|CL_0011113
+splenic endothelial cell|CL_2000053
+splenic fibroblast|CL_2000051
 splenic macrophage|CL_0000871
 splenic marginal zone macrophage|CL_0000872
 splenic metallophillic macrophage|CL_0000873
 splenic red pulp macrophage|CL_0000874
 splenic tingible body macrophage|CL_0000877
 splenic white pulp macrophage|CL_0000876
+splenocyte|CL_2000074
 spongiotrophoblast cell|CL_0002499
 spore (sensu Mycetozoa)|CL_0000291
 squamous cell of ectocervix|CL_0002244
@@ -1854,6 +1963,7 @@ stem cell of epidermis|CL_1000428
 stem cell of gastric gland|CL_0002183
 steroid hormone secreting cell|CL_0000174
 stomach enteroendocrine cell|CL_1001517
+stomach neuroendocrine cell|CL_1000222
 storage cell|CL_0000629
 stratified cuboidal epithelial cell|CL_0000241
 stratified epithelial cell|CL_0000079
@@ -1925,6 +2035,7 @@ thyrotroph|CL_0000476
 tip cell|CL_0000423
 tissue-resident macrophage|CL_0000864
 tongue muscle cell|CL_0002673
+tonsil germinal center B cell|CL_2000006
 tonsil squamous cell|CL_1001577
 tonsillar macrophage|CL_0000869
 tormogen cell|CL_0000372
@@ -2036,6 +2147,7 @@ type-4 epithelial cell of thymus|CL_0002296
 type-5 epithelial cell of thymus|CL_0002298
 type-6 epithelial cell of thymus|CL_0002295
 type-7 epithelial cell of thymus|CL_0002300
+umbilical artery endothelial cell|CL_2000052
 undifferentiated cell of bronchus epithelium|CL_0002330
 unimodal nocireceptor|CL_0000551
 uninucleate arthroconidium|CL_0002389
@@ -2071,6 +2183,7 @@ vasopressin stimulating hormone secreting cell|CL_0000479
 vegetative cell (sensu Fungi)|CL_0000334
 vegetative cell (sensu Mycetozoa)|CL_0000263
 vein endothelial cell|CL_0002543
+ventricular cardiac muscle cell|CL_2000046
 vertebral mesenchymal stem cell|CL_0002572
 vertebrate lens cell|CL_0002222
 vestibular dark cell|CL_0000846
