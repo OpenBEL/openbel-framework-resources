@@ -3,8 +3,8 @@
 
 SET DOCUMENT Name = "Gene Expression Profiling Example"
 SET DOCUMENT Description = "Example document for using Affymetrix probe set namespace; knowledge curated from PMID 16923961 gene expression profiling data"
-SET DOCUMENT Version = 20131211
-SET DOCUMENT Copyright = "Copyright (c) 2012, Selventa. All Rights Reserved."
+SET DOCUMENT Version = 20150106
+SET DOCUMENT Copyright = "Copyright (c) 2012-2015, Selventa. All Rights Reserved."
 SET DOCUMENT ContactInfo = "support@belframework.org"
 SET DOCUMENT Authors = Selventa
 SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 3.0 Unported License"
@@ -12,11 +12,11 @@ SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE AFFX AS URL "http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/20131211/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE AFFX AS URL "http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
 
-DEFINE ANNOTATION Anatomy AS URL "http://resource.belframework.org/belframework/20131211/annotation/anatomy.belanno"
-DEFINE ANNOTATION Species AS URL "http://resource.belframework.org/belframework/20131211/annotation/species-taxonomy-id.belanno"
+DEFINE ANNOTATION Anatomy AS URL "http://resource.belframework.org/belframework/testing/annotation/anatomy.belanno"
+DEFINE ANNOTATION Species AS URL "http://resource.belframework.org/belframework/testing/annotation/species-taxonomy-id.belanno"
 ##################################################################################
 
 SET Citation = {"PubMed","Mol Cell Biol.","16923961","","Lyu YL|Lin CP|Azarova AM|Cai L|Wang JC|Liu LF",""}
