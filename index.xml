@@ -29,6 +29,8 @@
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-processes.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-structures.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-chemicals.belns" />
+        <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-chemicals-ids.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-processes-ids.belns" />
         <idx:namespace idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-structures-ids.belns" />
@@ -82,6 +84,12 @@
         </idx:equivalence>
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mesh-cellular-structures.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-structures.belns" />
+        </idx:equivalence>
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mesh-chemicals.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-chemicals.belns" />
+        </idx:equivalence>
+        <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mesh-chemicals-ids.beleq">
+            <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-chemicals-ids.belns" />
         </idx:equivalence>
         <idx:equivalence idx:resourceLocation="http://resource.belframework.org/belframework/testing/equivalence/mesh-diseases.beleq">
             <idx:namespace-ref idx:resourceLocation="http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns" />
