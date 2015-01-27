@@ -14,10 +14,10 @@ CopyrightString=Copyright (c) 2015, OpenBEL Project. This work is licensed under
 ContactInfoString=info@openbel.org
 
 [Citation]
-NameString=The Disease Ontology
-DescriptionString=The Disease Ontology cross references to MeSH. 
-PublishedVersionString=oid.owl
-PublishedDate=Tue, 06 Jan 2015 07:20:26 GMT
+NameString=The Disease Ontology (DO)
+DescriptionString=The Disease Ontology OWL file, http://www.berkeleybop.org/ontologies/doid.owl
+PublishedVersionString=2015-01-06
+PublishedDate=2015-01-06
 ReferenceURL=http://disease-ontology.org/
 
 [Processing]
