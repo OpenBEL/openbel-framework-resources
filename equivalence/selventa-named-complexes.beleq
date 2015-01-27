@@ -2,7 +2,7 @@
 NameString=iSelventa Named Complexes Equivalence
 DescriptionString=Selventa Named Complexes equivalences were assigned based on string match and manual matches to GO Cellular Component complexes.
 VersionString=20150106
-CreatedDateTime=2015-01-06T14:03:50
+CreatedDateTime=2015-01-27T11:59:37
 
 [NamespaceReference]
 NameString=Selventa Named Complexes
@@ -23,138 +23,138 @@ DelimiterString=|
 CacheableFlag=yes
 
 [Values]
-9-1-1 Complex|9be7b4f6-708b-4dd9-9952-c70dfa8b49eb
-AMP Activated Protein Kinase Complex|1614a129-ea5c-4b9a-8c49-8a89d40dd149
-AP-1 Complex|c63dc7cb-918d-43bc-91b6-c2cf5d2c809d
-ATP Dependent Potassium Channel Complex|7d9fca0a-8ed1-4d7a-9fa2-a311af1b60ec
-Acetyl CoA Carboxylase Complex|16b8d314-2adb-41b4-8048-34eb0c3510f8
-Acetylcholine Current Channel Complex|b8f9a216-7425-45d1-81b7-36074ae9fa9e
-Adaptor Protein I Complex|e5b9cebc-2bfb-4989-97ec-a2350ccaa84b
-Adaptor Protein II Complex|22919e4f-0932-47e2-b184-8781442a0dc2
-Adaptor Protein III Complex|c72558a6-0471-43d7-ad85-355aa7e1f895
-Anaphase Promoting Complex|af0081b6-8549-4522-a609-3a59b4ef8de3
-Annexin II Heterotetramer Complex|65858ebd-afdd-4d1c-a161-473ca34021db
-Arp2/3 Protein Complex|96027fb3-ce34-4d31-b977-d911bb805359
-BK Channel Complex|89e538b6-f4f5-4715-a041-1f88d6d8b371
-Branched Chain Alpha Keto Acid Dehydrogenase Complex|401c356c-119f-42e2-ae2a-106ab0a51e6c
-C1 Complex|7baf4805-8aa3-4eb8-a434-ecf3a9661d24
-C1q Complex|7baf4805-8aa3-4eb8-a434-ecf3a9661d24
-C3 Convertase Complex|ee29a3cb-2937-42d9-bd70-95581e3691cc
-C5 Convertase Complex|ee29a3cb-2937-42d9-bd70-95581e3691cc
-CAMK2 Complex|e1121d24-b2ea-4117-9d1c-0a0333d0cfe2
-CBF3 Complex|c68e99b7-cde2-4520-8580-41287dbfe4b1
-CCT Complex|ac6c833f-3fba-476b-8a08-c06ab9750bd9
-CD3 Complex|4ea01c15-59d1-4fff-a11e-a617b56a5e64
-CD8 Complex|de412d80-7910-498d-8b2f-07f6bc0954e9
-CHRN Complex|b8f9a216-7425-45d1-81b7-36074ae9fa9e
-CK II Complex|0eee89d5-bf83-42cc-8f0f-701e3240a898
-CRSP Complex|27fd8101-7e38-46c9-9fb3-e1cdfb2433b1
-CSNK2 Complex|0eee89d5-bf83-42cc-8f0f-701e3240a898
-Ca Activated Chloride Channel Complex|f26d4a92-3337-4a2b-8f11-d210669a43bb
-Ca Activated Potassium Channel Complex|3a5bd9b1-1516-4caf-a051-a2597168e857
-Calcineurin Complex|a0e91dc2-09e3-4ed9-86b8-c165aaf92ff4
-Clathrin Complex|1c4b6d72-ac92-4043-83bb-b0a150a398d1
-CoA Ligase GDP Complex|13002fd2-0680-4593-94a1-372db57785fb
-Cohesin Complex|c8f44052-e573-4018-837e-bd1e9aa3934f
-Cytochrome C Oxidase Complex|c07cad22-f4d1-4843-a6dd-a059eb2448cd
-Cytochrome C Oxidase Complex Muscle|19ea4686-4d8f-40e7-b4be-6b1eae236e64
-Cytochrome C Oxidase Complex Non Muscle|326f7904-02a7-47e5-bdb4-63878dc4e55d
-Cytoplasmic Dynein Complex|e8d1db3f-977a-4897-a514-4f1d9b540a48
-Cytosolic NFAT Complex|05614087-687c-478c-b769-b89f1cdcb0b6
-DNA Polymerase delta Complex|4d5034d8-261f-4cd7-9630-409ae5c4408b
-Dodecenoyl CoA Isomerase Complex|06bfe65c-972c-47ea-803f-ba0e84d12ca8
-Dystrophin Associated Glycoprotein Complex|1655befb-5ca6-4617-98b8-22614d0c1112
-E1A Binding Protein Complex|65a826b7-e410-44a7-9bdd-a136002d27d2
-ECH1 Complex|15f17bee-4227-4991-9538-15243423d4a8
-ECHS1 Complex|4db95a32-c810-41d6-8c96-289b42a69adf
-EIF2 Complex|257d58ba-914e-4bf5-8238-f8442b35067a
-EIF2B Complex|70cca980-e6b6-42c9-8d4a-4cbb81e347e3
-EIF4F Complex|3af7aafb-1fcf-45d3-837c-3afd4ca4354c
-ENaC Complex|b2cddae3-a594-46e3-9170-621e3fd4ec93
-ER Chaperone Complex|78f986fa-9cc9-4b76-be6b-6955dd04c558
-F Channel Complex|a75931a8-0f2f-4958-8610-d9c09cbb16b8
-FcR Gamma Chain Complex|7a5c15f0-f243-4138-9246-ec11c7c765c5
-Fibrinogen Complex|c3754a93-2a9e-4209-be73-c52905abd509
-Follicle Stimulating Hormone Complex|33ea9c4c-9fa6-4033-b9e0-80560af93d79
-GABRA Complex|cc780de3-7b9c-4d9f-9b27-6d09a0ba33e0
-GPIT Complex|a1166f4b-f0b2-4aa6-9e65-a21c52f909a8
-GTF2E Complex|d2820764-70eb-4eaf-bd4d-fe34b937e58c
-GTF2F Complex|9c385685-f935-49b3-b28d-344740194d87
-GUCY1 Complex|6e083240-9ecf-4eee-99e3-bcac4d42b166
-HDL Complex|b483b0b9-e9b7-4859-8e3c-f017e3c4061e
-Hemoglobin Complex|0a4bd489-9016-4aae-8733-f5941c803ac1
-IK Channel Complex|795514e8-4032-4268-9a17-1a0a24096ed5
-IL2R Complex|4dc16255-9527-46c0-95bc-9849c95cc303
-Ib-V-IX Complex|7e057859-5d13-44c1-b8c7-6a9c2b84be18
-IgG Immune Complex|b9f26830-2b3c-42d1-a342-511eb9499433
-IkappaB Kinase Complex|67ab064c-65c2-46c2-a872-735075e74d59
-Inhibin Complex|40a0a0cf-0e30-408c-bf3a-96d92deb0a4c
-Interferon Gamma Receptor Complex|476618bd-93f3-40f5-8b83-d84377a535ec
-Interleukin 4 Receptor Complex|0ae52893-7c22-44af-a112-3807f09214d7
-Inward Rectifier Potassium Channel Complex|a4b903f3-6d72-4a13-a458-1eaea0cded2a
-Kinetochore Complex|ba6c0fc8-420f-42cd-a311-b4d00c4b942c
-L Type Calcium Channel Complex|5dc2ee34-7436-40d1-a2c8-78f38d0596b4
-Laminin 1 Complex|90d87690-43b5-4652-b639-318a1d2a8116
-Laminin 5 Complex|c519a8b0-664e-47c8-b13f-524146cf20f2
-Laminin Complex|bd19a240-f142-444d-b4e5-1b7ffbba80a4
-Luteinizing Hormone Complex|5e627518-7ce2-4a5a-9f4e-90485d46bcd5
-MHC Class I Complex|d42b13e9-d048-4b2d-a7aa-03867d9a4a98
-MHC Class II Complex|185fb286-4dea-4e34-8b60-237e474e2eef
-Membrane Attack Complex|6da86a2a-fdd9-427d-b68c-c05a4f8ffe5e
-NADH Dehydrogenase Complex|83aee1e6-af4e-4c11-83ec-9787e807557f
-NADH Dehydrogenase Complex I|a59d014e-ee8c-47a6-958e-7759264f9607
-NADPH Oxidase Complex|0905b36b-1db3-4033-8a01-00fccae77715
-NFAT Complex|36d0e7fe-d04f-4b15-87d8-f76520779ede
-Na/K Exchanging ATPase Complex|bdbf585b-5a7c-46a1-ad77-fb9a45220801
-Nfkb Complex|d8ac03d3-0e95-442e-a077-3ae1cd7244e9
-Nfy Complex|519c640f-f0fb-4447-9ee6-d05b56f30b88
-Ngf Complex|f07cb5e2-89be-4ca3-941e-70149a69bc72
-Nua4 Complex|68e0976f-73bf-476b-b85b-79a3f9e2e755
-Nuclear NFAT Complex|75c0037e-2230-4fdb-a81d-83c125c36768
-PDGF Complex|fb1c6985-618c-4b99-8d1c-3b10e7f88bab
-PDGF Receptor Complex|9214c012-b189-4853-882e-2c4edee4e21e
-POLR2 Complex|f0c75a53-8a8e-4e20-800e-53c85cdb2b1b
-PP2A Complex|5bca3da4-e6a2-469d-9211-088430ad4a69
-PRC1 Maintenance Complex|16cc0095-4689-4219-acfe-f6db74902d5b
-PRC2 Initiation Complex|c59e1b98-6343-4dad-98a9-04ecf1566869
-Phosphorylase B Kinase Complex|434452e6-406b-4385-874e-d6c33b1e9fb2
-Phosphorylase Kinase Complex|434452e6-406b-4385-874e-d6c33b1e9fb2
-Prefoldin Complex|0ee9fdb4-3c40-4c55-9873-d3feb2acf44a
-Preinitiation Complex|bc49bc58-14e2-4ea7-9c4d-80efaf46dca9
-Propionyl CoA Carboxylase Complex|3c1e3837-e95c-440a-9320-182db243fdd6
-Proteasome Complex|d1d977c0-7f16-4d0d-a716-3ad53ffa7f50
-Proteasome Core Complex|c92a0a4d-9101-4e0f-91ae-faa35d9124fe
-Proteasome Core Complex alpha Subunit Complex|2197df5b-ce07-4049-9e0b-0664261a1fc0
-Proteasome Core Complex beta Subunit Complex|06c89563-39af-409a-b3b8-213b158c3fbb
-Proteasome Regulatory Particle Base Complex|617512f9-07b0-4b16-a568-05d023ddf46b
-Proteasome Regulatory Particle Lid Complex|ac5807e9-42b5-42c9-9759-55ec009e1f1a
-Proton Transporting ATP Synthase Complex|7333cd36-abef-4b41-aced-9c57abf7ccfa
-Pyruvate Dehydrogenase Complex|81280602-84a0-476b-b6c8-906f8b99552d
-RFC Complex|673c9af8-0ee1-4a60-a41e-770953578348
-RNApo I Complex|3ae937fa-dc99-4edf-b6cc-e96cbd206c31
-RNApo II Complex|f0c75a53-8a8e-4e20-800e-53c85cdb2b1b
-Respiratory Chain Complex I|a59d014e-ee8c-47a6-958e-7759264f9607
-Respiratory Chain Complex II|50f08f0a-1e93-4694-a759-eb0203968692
-Respiratory Chain Complex III|1d34df8c-23bb-4e03-9e19-84faa2dd10d1
-Respiratory Chain Complex IV|c07cad22-f4d1-4843-a6dd-a059eb2448cd
-SK Channel Complex|77117859-93b5-47b1-a3bd-b6cf0c188617
-SWI/SNF Complex|5f79045a-67df-42fd-88d4-21e9bf63a3ec
-Succinate CoA Ligase GDP Forming Complex|13002fd2-0680-4593-94a1-372db57785fb
-Succinate Dehydrogenase Complex|fa141e48-665d-4334-8fcc-c4e9eb8a5954
-T Cell Receptor Antigen Recognition Complex|324db96c-3527-4ea1-8a7d-9516360d699c
-T Cell Receptor Complex|324db96c-3527-4ea1-8a7d-9516360d699c
-T Type Calcium Channel Complex|845a64a4-f7b8-4ba8-aa63-7f0899b2971f
-TFIIH Complex|d1723674-55a7-40fe-81fd-2ca3a17f267c
-TIF IB Complex|b82fd44f-5ee4-40db-ad7a-117003ae218f
-TORC1 Complex|7ea96d2a-94c3-4b4a-9468-07d503231f22
-TORC2 Complex|038fd268-89b0-4db6-9ddd-1b883ec65086
-TR Auxiliary Protein Complex|357f4d58-de51-4c89-aa8e-8cace70e03c1
-Ternary Complex|7df6a4ed-6c4a-47fb-8e33-67fa1c801723
-Thrombin Antithrombin Complex|91b15a3b-80a6-4b6e-82e6-43ede9994f42
-Trifunctional Complex|69b8520e-6605-437b-b8d9-df4c55a0b79d
-Voltage Dependent Potassium Channel Complex|326e5da2-fafd-4e42-941b-a29ded90feda
-Voltage Gated Sodium Channel Complex|0d25fd32-5cf1-4161-8e55-274561dbfa25
-WAVE2 Complex|867b0a12-4a10-4f1f-a7e7-f895d1ebb71b
-gamma Secretase Complex|2e4d67f7-ac32-4af4-88cd-f6cb0006cb43
-mRNA Cap Complex|abf5cd0e-408d-43a0-b09f-058d4cb11d6b
-p85/p110 PI3Kinase Complex|8dc73301-4494-40c8-8e97-5b5fc3088085
+9-1-1 Complex|8f8425ee-4b15-4d4c-abf3-e3612686f9ea
+AMP Activated Protein Kinase Complex|46b71e25-5395-41a9-b74f-4a0299dbe9ab
+AP-1 Complex|9bf0a819-a2a4-4394-b681-986508d8fac8
+ATP Dependent Potassium Channel Complex|83d1cb3b-4a8b-4407-89be-6945cc4d0151
+Acetyl CoA Carboxylase Complex|902931f6-74b3-4d47-98fd-ca3d378344d7
+Acetylcholine Current Channel Complex|b9dd04fe-59ac-4d96-8e3b-a733c8b248d7
+Adaptor Protein I Complex|06665658-cc7b-468c-bdfa-c2676148f728
+Adaptor Protein II Complex|9bf5c58d-170f-42c6-a469-eeceea357793
+Adaptor Protein III Complex|5e502845-0176-41fb-9b5d-60e46c5bbde2
+Anaphase Promoting Complex|328512dc-dca8-4a41-a2b5-856f1ffb5f4e
+Annexin II Heterotetramer Complex|23336558-0166-4069-af53-fdb4f398bfdd
+Arp2/3 Protein Complex|af15793d-2dea-418d-8ab4-0f5960257b97
+BK Channel Complex|3bbbc9e3-f4ed-4abc-b136-bb4c7b5c1c4a
+Branched Chain Alpha Keto Acid Dehydrogenase Complex|5e21b13f-d164-4fc1-8c5b-92ddd213ae95
+C1 Complex|af759a1b-720f-4106-b2e2-abfa02f5350c
+C1q Complex|af759a1b-720f-4106-b2e2-abfa02f5350c
+C3 Convertase Complex|7049c688-48e9-42e5-9f6b-bd5594c5768b
+C5 Convertase Complex|7049c688-48e9-42e5-9f6b-bd5594c5768b
+CAMK2 Complex|c682f85a-d3f3-461c-adb1-1d4acb3bc5dd
+CBF3 Complex|79525456-acb6-4ecb-83ba-cb640f706f27
+CCT Complex|a839832a-e00d-4b94-b1bf-f94835340489
+CD3 Complex|27abfc77-e2c3-49e3-a35b-239af24a5fad
+CD8 Complex|2849aceb-1501-4b6e-843d-98bd954e9cd9
+CHRN Complex|b9dd04fe-59ac-4d96-8e3b-a733c8b248d7
+CK II Complex|1521bdd1-27aa-451a-837f-4f5cfe490454
+CRSP Complex|ecc92ddc-22eb-4bb9-a1d9-8503924fe643
+CSNK2 Complex|1521bdd1-27aa-451a-837f-4f5cfe490454
+Ca Activated Chloride Channel Complex|da5199e5-17b1-418b-abf8-cdcead6ee5af
+Ca Activated Potassium Channel Complex|8dce6713-77cf-47d1-b37f-308caf1fe4a9
+Calcineurin Complex|d984c91b-9dd8-47ea-ae0d-f82af1bf52e0
+Clathrin Complex|3c65f87a-3ef9-4566-a5ff-924e583ee826
+CoA Ligase GDP Complex|8a9fd6b9-f523-4dc4-80fa-b347f023a3e6
+Cohesin Complex|53ed7829-26b3-461b-a6ce-4ef071e0f0a4
+Cytochrome C Oxidase Complex|151c29c9-7714-44fd-a359-1793f214ff7b
+Cytochrome C Oxidase Complex Muscle|060aebfb-9b58-41e9-9c87-b312d3c4a970
+Cytochrome C Oxidase Complex Non Muscle|0e0f4db8-db12-4e53-aa4a-1e0cb60b96c9
+Cytoplasmic Dynein Complex|da191810-f02a-45ea-9e89-85b3caefddee
+Cytosolic NFAT Complex|fae4ffa6-e314-4fe9-91aa-b7424613f4f0
+DNA Polymerase delta Complex|038f2c0c-3944-41c9-9455-d50f43c32a5a
+Dodecenoyl CoA Isomerase Complex|2565965f-dd8a-4e72-b08f-112b8231b307
+Dystrophin Associated Glycoprotein Complex|cdc78c94-ab67-4f24-a75f-decff059e2f1
+E1A Binding Protein Complex|2c3cb28c-07c3-4140-b26c-1191505a545a
+ECH1 Complex|c4dba0c0-e1ff-4fad-9980-f31ed57c64bf
+ECHS1 Complex|627c1ff2-3188-490b-8313-ce884c4ffd8c
+EIF2 Complex|eaae1edc-3c54-410f-a5e0-f80e45bfc7c7
+EIF2B Complex|368eda00-b242-4751-b044-6981e42c1d6a
+EIF4F Complex|11a41a32-6f60-4350-a046-fc84c9fac3dc
+ENaC Complex|6fe65e5e-376a-46ef-8c1f-fc4674054f54
+ER Chaperone Complex|29ab7c5b-e4f8-40b3-a930-c1c8f3565785
+F Channel Complex|370fa9e0-8af6-4890-809c-feaaea9152c8
+FcR Gamma Chain Complex|15601132-b635-4866-b291-1af15741ab8b
+Fibrinogen Complex|7d9861a2-2f8d-429f-9ff3-b809cb254e54
+Follicle Stimulating Hormone Complex|09132dd0-0202-414c-8518-b47fc5435878
+GABRA Complex|b5045508-c327-42c1-8aaf-09c2414d06e9
+GPIT Complex|f47f08d2-b1b7-43be-b7b1-8e3abf4c4c4a
+GTF2E Complex|307c027a-2cec-413f-bffb-bc87a546fd3b
+GTF2F Complex|99ad4928-4344-42cf-b170-2252d4e22e31
+GUCY1 Complex|2a37e350-e71b-44c0-ac25-e08ac82a16e0
+HDL Complex|de96473c-79a5-4914-9f61-00371a9525d5
+Hemoglobin Complex|d23a3694-fb63-4775-8704-1f4e63ede299
+IK Channel Complex|2e209202-55fe-4cd4-a54e-21f753c97b48
+IL2R Complex|c1e73d52-4bd4-44f3-93fa-5c04fc52872a
+Ib-V-IX Complex|28153877-1261-4490-9028-71aaa1999ea1
+IgG Immune Complex|5ba2a76e-42b7-473d-85e2-cc4392f965f5
+IkappaB Kinase Complex|b575e330-5fdb-4e74-a284-483b5294ab4d
+Inhibin Complex|919924b4-deda-4462-9fcd-52b862ac1d7b
+Interferon Gamma Receptor Complex|f05851ab-6406-4ac1-9b68-50193cc7e5d6
+Interleukin 4 Receptor Complex|8edc6095-85ca-4e4f-92d0-ec6c73c2cb97
+Inward Rectifier Potassium Channel Complex|2a19a45e-a4c8-4927-8a78-eeb421812690
+Kinetochore Complex|51e54484-18c6-41cc-a1a9-8b86557485d9
+L Type Calcium Channel Complex|69dda59e-f67d-473b-85c3-fa9b12609c66
+Laminin 1 Complex|35c4ef79-a30a-4456-9ea9-b8a8968637b5
+Laminin 5 Complex|354648fe-bd91-44af-b405-aa774e84669d
+Laminin Complex|34cbf443-78cc-44d3-9e7e-40b2350afe58
+Luteinizing Hormone Complex|b3fa4714-1ca5-497c-a0ae-7395e8a8abfc
+MHC Class I Complex|067839a6-15b0-4c21-ac67-8cc38305a878
+MHC Class II Complex|560fd503-a395-4c34-b026-69ed8f52450d
+Membrane Attack Complex|fa3d5c87-03e5-424e-bd5a-519b868e5375
+NADH Dehydrogenase Complex|471d849f-18ee-44f2-ba77-0557e9539098
+NADH Dehydrogenase Complex I|788dd3cd-fe19-4da3-8c23-c0931b14adfc
+NADPH Oxidase Complex|91aa2211-3b10-4717-9aab-750d847a59ba
+NFAT Complex|67ef9bc9-83bf-4822-ac0f-079e8cf1b7c4
+Na/K Exchanging ATPase Complex|0cc683c8-fe34-461d-bf5c-ace93b439aef
+Nfkb Complex|70fccc42-b65e-4ec1-9246-fe57b997a4f3
+Nfy Complex|b09f39fe-a3ca-484a-8b6b-6af21e9a3414
+Ngf Complex|b0855734-0b16-457f-9c4d-85d54e9e33cf
+Nua4 Complex|4eb3181a-c674-47dd-9c27-33f623854016
+Nuclear NFAT Complex|4774321c-0d02-4614-b675-146d2ae0a90d
+PDGF Complex|23e12caf-c440-4070-b188-92092f7103ee
+PDGF Receptor Complex|ccdd18bd-e91a-4cfc-9d94-7993c3b49fc3
+POLR2 Complex|4b177962-839d-49a5-b5c8-ec8d0f45d76d
+PP2A Complex|f9a754ca-759f-4f47-a8d8-0210440a8c2a
+PRC1 Maintenance Complex|2363b374-255d-4300-8c58-0bed06781283
+PRC2 Initiation Complex|43d8c567-2fa3-4ee5-abcd-97c072980e7a
+Phosphorylase B Kinase Complex|dadb0f52-9cd4-4cf3-9e54-3f38e99ec083
+Phosphorylase Kinase Complex|dadb0f52-9cd4-4cf3-9e54-3f38e99ec083
+Prefoldin Complex|e343d61e-13e9-4301-9159-ad86f9f659e7
+Preinitiation Complex|47caa5d2-d47f-46bf-a9ed-0bbb7dfdd642
+Propionyl CoA Carboxylase Complex|a2a2a6c5-9307-46bb-a50d-56f1ab5c2550
+Proteasome Complex|d439c67c-16a1-4d85-8d3e-9dbf3c744fd3
+Proteasome Core Complex|8c4b473c-57d3-4cf8-9f0b-f5fd9857babb
+Proteasome Core Complex alpha Subunit Complex|442d7b84-4aa3-4ffe-9f26-e2f05f30602a
+Proteasome Core Complex beta Subunit Complex|0844f1e8-f880-4248-8eaf-a8f9ce7555f2
+Proteasome Regulatory Particle Base Complex|bbe2f916-d45f-40a1-96e1-d1bbd03115f1
+Proteasome Regulatory Particle Lid Complex|6ab5ad4a-fb4e-43a9-9d31-976a240cc727
+Proton Transporting ATP Synthase Complex|a00dd1b4-ef34-410e-b218-6b8d7cb914e5
+Pyruvate Dehydrogenase Complex|acf02f53-8fbf-4071-a86b-c0e1e255dbc4
+RFC Complex|d12034f9-dde4-428f-aaff-3ac684a0f7e1
+RNApo I Complex|8e5ec49a-901d-475f-9065-f196c33cb957
+RNApo II Complex|4b177962-839d-49a5-b5c8-ec8d0f45d76d
+Respiratory Chain Complex I|788dd3cd-fe19-4da3-8c23-c0931b14adfc
+Respiratory Chain Complex II|622dc12b-df99-4f85-bf27-be3e62a274f8
+Respiratory Chain Complex III|3aa5d6e9-6b58-40a7-83d5-20266d1a9c5a
+Respiratory Chain Complex IV|151c29c9-7714-44fd-a359-1793f214ff7b
+SK Channel Complex|d3ca30d8-7b9e-4314-baff-138a8f460856
+SWI/SNF Complex|db2c8e1d-9bd1-41b6-86e2-471a80e70861
+Succinate CoA Ligase GDP Forming Complex|8a9fd6b9-f523-4dc4-80fa-b347f023a3e6
+Succinate Dehydrogenase Complex|f8063918-0a6f-4e07-b46a-0d2a4f4f93cd
+T Cell Receptor Antigen Recognition Complex|2472bc34-4a0c-4b3c-b168-2f6493051ade
+T Cell Receptor Complex|2472bc34-4a0c-4b3c-b168-2f6493051ade
+T Type Calcium Channel Complex|aeeffa6a-7529-4b54-8a53-caf53fd6824b
+TFIIH Complex|f0ee1177-3f13-40c1-b718-f9466612fe8a
+TIF IB Complex|08558c5d-0938-43af-a29f-fa688a9c26b2
+TORC1 Complex|6058b0be-c866-4ea9-a716-7cef5e89bfa7
+TORC2 Complex|b3d594b7-4f20-4666-b79a-5ef304a7c3bf
+TR Auxiliary Protein Complex|09ea0724-b140-4740-9e64-3867ac54352a
+Ternary Complex|ff37e45e-e9e2-4a1c-b60c-9cd7e3e21dc1
+Thrombin Antithrombin Complex|5e151df7-55ae-4b74-8178-8f4a02a9ce73
+Trifunctional Complex|9871dc51-b373-46ed-91bc-0408d15a3eb1
+Voltage Dependent Potassium Channel Complex|fd1c0e26-bc9c-40a9-bffa-bc65eca66c2c
+Voltage Gated Sodium Channel Complex|dfb4d5c5-6fd5-4cf9-ad5b-6516bde40cf1
+WAVE2 Complex|971e1d95-cd88-4464-8bf7-1d412abd1b15
+gamma Secretase Complex|e6bea0a9-109d-45f1-9c1b-89084fa6339f
+mRNA Cap Complex|0cc9e4da-506a-4cef-852d-af5331699a61
+p85/p110 PI3Kinase Complex|a6884fd5-7e6e-4385-b75b-4ce67fb9f1de
