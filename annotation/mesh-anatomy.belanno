@@ -3,8 +3,8 @@ Keyword=MeSHAnatomy
 TypeString=list
 DescriptionString=Anatomy terms from Medical Subject Headings (MeSH), limited to headings from the following subbranches:[A01], [A02], [A03], [A04], [A05], [A06], [A07], [A08], [A09], [A10], [A12], [A14], [A15], [A16], and [A17].
 UsageString=Use to annotate a statement demonstrated in a specific anatomical entity.
-VersionString=20150107
-CreatedDateTime=2015-01-07T10:00:59
+VersionString=20150512
+CreatedDateTime=2015-05-12T17:09:24
 
 [Author]
 NameString=OpenBEL 

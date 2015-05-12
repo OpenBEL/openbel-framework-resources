@@ -4,8 +4,8 @@ Keyword=MESHCL
 DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Medical Subject Headings (MeSH) names for cellular locations [branch A11.284].
-VersionString=20150106
-CreatedDateTime=2015-01-06T14:02:35
+VersionString=20150512
+CreatedDateTime=2015-05-12T17:39:11
 QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&term=[VALUE]&field=entry
 
 [Author]
@@ -17,7 +17,7 @@ ContactInfoString=info@openbel.org
 NameString=MeSH
 DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine. 
 PublishedVersionString=2015
-PublishedDate=2015-01-06
+PublishedDate=2015-05-12
 ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]

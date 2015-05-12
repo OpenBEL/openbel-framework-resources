@@ -4,8 +4,8 @@ Keyword=GOCC
 DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Gene Ontology (GO) cellular component names. These terms may be used to represent cellular components as well as complex abundances. 
-VersionString=20150106
-CreatedDateTime=2015-01-06T14:02:36
+VersionString=20150512
+CreatedDateTime=2015-05-12T17:39:11
 QueryValueURL=http://amigo.geneontology.org/cgi-bin/amigo/search.cgi?search_query=[VALUE]&search_constraint=term&exact_match=1&action=new-search
 
 [Author]
@@ -16,8 +16,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=The Gene Ontology Consortium
 DescriptionString=The Gene Ontology project is a major bioinformatics initiative with the aim of standardizing the representation of gene and gene product attributes across species and databases.
-PublishedVersionString=2014-11-29
-PublishedDate=2014-11-27
+PublishedVersionString=2015-04-30
+PublishedDate=2015-04-29
 ReferenceURL=http://www.geneontology.org
 
 [Processing]
@@ -41,13 +41,15 @@ CacheableFlag=yes
 6-phosphofructokinase complex|C
 7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase complex|C
 90S preribosome|C
+A axonemal microtubule|C
 A band|A
-A tubule|C
 ABIN2-NFKB1-MAP3K8 complex|C
 ACF complex|C
 ADPG pyrophosphorylase complex|C
 AIM2 inflammasome complex|C
+AIP1-IRE1 complex|C
 AMP-activated protein kinase complex|C
+ANPR-A receptor complex|C
 AP-1 adaptor complex|C
 AP-2 adaptor complex|C
 AP-3 adaptor complex|C
@@ -55,14 +57,18 @@ AP-4 adaptor complex|C
 AP-5 adaptor complex|C
 AP-type membrane coat adaptor complex|C
 AP1 complex|C
+APC-Cdc20 complex|C
 APC-IQGAP complex|C
 APC-IQGAP1-CLIP-170 complex|C
 APC-IQGAP1-Cdc42 complex|C
 APC-IQGAP1-Rac1 complex|C
+APC-fizzy-related complex|C
 APC-tubulin-IQGAP1 complex|C
 ARC complex|C
 ASAP complex|C
 ASTRA complex|C
+ATF1-ATF4 transcription factor complex|C
+ATF4-CREB1 transcription factor complex|C
 ATG1/UKL1 kinase complex|C
 ATG1/UKL1 signaling complex|C
 ATP-binding cassette (ABC) transporter complex|C
@@ -75,11 +81,12 @@ ATPase dependent transmembrane transport complex|C
 ATPase inhibitor complex|C
 ATR-ATRIP complex|C
 Ada2/Gcn5/Ada3 transcription activator complex|C
+AnxA2-p11 complex|C
 Arp2/3 protein complex|C
 Asi complex|C
 Atg12-Atg5-Atg16 complex|C
+B axonemal microtubule|C
 B cell receptor complex|C
-B tubule|C
 B800-820 antenna complex|C
 B800-850 antenna complex|C
 B875 antenna complex|C
@@ -114,6 +121,7 @@ Barr body|A
 Bcl-2 family protein complex|C
 Bcl3-Bcl10 complex|C
 Bcl3/NF-kappaB2 complex|C
+Beta-catenin-ICAT complex|C
 Bfa1-Bub2 complex|C
 Bre1-Rad6 ubiquitin ligase complex|C
 BtuCD complex|C
@@ -121,6 +129,9 @@ Bunina body|A
 C bouton|A
 C zone|A
 C-fiber|A
+C/EBP complex|C
+C1 axonemal microtubule|C
+C2 axonemal microtubule|C
 CA3 pyramidal cell dendrite|A
 CAAX-protein geranylgeranyltransferase complex|C
 CAF-1 complex|C
@@ -142,6 +153,8 @@ CERF complex|C
 CFTR-NHERF-ezrin complex|C
 CGRP receptor complex|C
 CHD-type complex|C
+CHOP-ATF3 complex|C
+CHOP-ATF4 complex|C
 CHOP-C/EBP complex|C
 CHRAC|C
 CIA complex|C
@@ -159,6 +172,7 @@ COPII vesicle coat|C
 CORVET complex|C
 CRD-mediated mRNA stability complex|C
 CRLF-CLCF1 complex|C
+CSF1-CSF1R complex|C
 CSK-GAP-A.p62 complex|C
 CSL-Notch-Mastermind transcription factor complex|C
 CUE1-UBC7 ubiquitin-conjugating enzyme complex|C
@@ -172,7 +186,6 @@ CatSper complex|C
 Cbf1-Met4-Met28 complex|C
 Cbp3p-Cbp6 complex|C
 Cdc42 GTPase complex|C
-Cdc48p-Npl4p-Ufd1p AAA ATPase complex|C
 Cdc48p-Npl4p-Vms1p AAA ATPase complex|C
 Cdc50p-Drs2p complex|C
 Cdc73/Paf1 complex|C
@@ -192,6 +205,7 @@ Cul8-RING ubiquitin ligase complex|C
 Cus cation efflux complex|C
 Cvt vesicle membrane|A
 D-amino-acid dehydrogenase complex|C
+DAPK1-calmodulin complex|C
 DASH complex|C
 DBIRD complex|C
 DNA bending complex|C
@@ -314,6 +328,8 @@ Fc-epsilon receptor I complex|C
 Fc-gamma receptor I complex|C
 Fc-gamma receptor III complex|C
 Flemming body|A
+FtsBL complex|C
+FtsQBL complex|C
 Fused-Smurf ubiquitin ligase complex|C
 G-protein alpha(13)-synembrin complex|C
 G-protein alpha(i)1-synembrin complex|C
@@ -347,17 +363,21 @@ Gin4 complex|C
 Golgi apparatus|A
 Golgi apparatus part|A
 Golgi cis cisterna|A
+Golgi cis cisterna membrane|A
 Golgi cisterna|A
 Golgi cisterna membrane|A
 Golgi lumen|A
 Golgi medial cisterna|A
+Golgi medial cisterna membrane|A
 Golgi membrane|A
 Golgi stack|A
 Golgi stack lumen|A
+Golgi subcompartment|A
 Golgi to ER transport vesicle|A
 Golgi to ER transport vesicle membrane|A
 Golgi to plasma membrane transport vesicle|A
 Golgi trans cisterna|A
+Golgi trans cisterna membrane|A
 Golgi transport complex|C
 Golgi-associated vesicle|A
 Golgi-associated vesicle lumen|A
@@ -379,6 +399,8 @@ H4 histone acetyltransferase complex|C
 H4/H2A histone acetyltransferase complex|C
 HAUS complex|C
 HDA1 complex|C
+HDL-containing protein-lipid-RNA complex|C
+HFE-transferrin receptor complex|C
 HICS complex|C
 HIR complex|C
 HOPS complex|C
@@ -387,6 +409,7 @@ HU-DNA complex|C
 HULC complex|C
 Hda-beta clamp complex|C
 Hedgehog signaling complex|C
+Herring body|A
 Holliday junction helicase complex|C
 Holliday junction resolvase complex|C
 Hpa2 acetyltransferase complex|C
@@ -395,12 +418,15 @@ Hrd1p ubiquitin ligase ERAD-M complex|C
 Hrd1p ubiquitin ligase complex|C
 HslUV protease complex|C
 I band|A
+I(KACh) inward rectifier potassium channel complex|C
 I-kappaB/NF-kappaB complex|C
 IHF-DNA complex|C
 IKKalpha-IKKalpha complex|C
 INA complex|C
 INO80-type complex|C
 IPAF inflammasome complex|C
+IRE1-RACK1-PP2A complex|C
+IRE1-TRAF2-ASK1 complex|C
 ISGF3 complex|C
 ISWI-type complex|C
 Ig heavy chain-bound endoplasmic reticulum chaperone complex|C
@@ -433,6 +459,7 @@ IscS-TusA complex|C
 Isw1 complex|C
 Isw1a complex|C
 Isw1b complex|C
+Kelch-containing formin regulatory complex|C
 Kibra-Ex-Mer complex|C
 Kir2 inward rectifier potassium channel complex|C
 Ku-DNA ligase complex|C
@@ -450,6 +477,8 @@ Kv4.3-DPP6 channel complex|C
 Kv4.3-KChIP1 channel complex|C
 L-cysteine desulfurase complex|C
 L-type voltage-gated calcium channel complex|C
+LDL-containing protein-lipid-RNA complex|C
+LINC complex|C
 LUBAC complex|C
 LYSP100-associated nuclear domain|A
 Lem3p-Dnf1p complex|C
@@ -461,7 +490,9 @@ Lewy neurite|A
 Lid2 complex|C
 Lsd1/2 complex|C
 Lsm-containing SMN-Sm protein complex|C
+Lsm1-7-Pat1 complex|C
 M band|A
+MAD1 complex|C
 MADS box-forkhead transcription factor complex|C
 MAML1-RBP-Jkappa- ICN1 complex|C
 MAML2-RBP-Jkappa-ICN1 complex|C
@@ -517,6 +548,7 @@ Mst2 histone acetyltransferase complex|C
 MutLalpha complex|C
 MutLbeta complex|C
 MutLgamma complex|C
+MutS complex|C
 MutSalpha complex|C
 MutSbeta complex|C
 Myb complex|C
@@ -550,6 +582,7 @@ NatC complex|C
 Ndc80 complex|C
 Nebenkern|A
 Nem1-Spo7 phosphatase complex|C
+Nkx-2.5 complex|C
 NoRC complex|C
 Noc complex|C
 Noc1p-Noc2p complex|C
@@ -577,10 +610,12 @@ PBAF complex|C
 PCAF complex|C
 PCNA complex|C
 PCNA-p21 complex|C
+PCSK9-AnxA2 complex|C
+PCSK9-LDLR complex|C
 PDX1-PBX1b-MRG1 complex|C
 PHA granule|A
+PKM2 protein kinase complex|C
 PKM2 pyruvate kinase complex|C
-PKM2-SAICAR protein kinase complex|C
 PML body|A
 PR-DUB complex|C
 PRC1 complex|C
@@ -667,6 +702,8 @@ Rpd3S complex|C
 Rvs161p-Rvs167p complex|C
 S bouton|A
 S-layer|A
+S100A8 complex|C
+S100A9 complex|C
 SAGA complex|C
 SAGA-type complex|C
 SAS acetyltransferase complex|C
@@ -715,9 +752,9 @@ STAGA complex|C
 STING complex|C
 SUMO activating enzyme complex|C
 SUMO-targeted ubiquitin ligase complex|C
-SUN-KASH complex|C
 SWI/SNF complex|C
 SWI/SNF superfamily-type complex|C
+Sad1-Kms2 LINC complex|C
 Schaffer axon collateral|A
 Schmidt-Lanterman incisure|A
 Schwann cell microvillus|A
@@ -776,6 +813,7 @@ TEAD-2 multiprotein complex|C
 TEAD-2-YAP complex|C
 TEAD-3-YAP complex|C
 TEAD-4-YAP complex|C
+TERT-RMRP complex|C
 TFIIIC-TOP1-SUB1 complex|C
 TFIIK complex|C
 THO complex|C
@@ -841,12 +879,16 @@ UBR1-RAD6 ubiquitin ligase complex|C
 UDP-N-acetylglucosamine transferase complex|C
 UDP-N-acetylglucosamine-lysosomal-enzyme N-acetylglucosaminephosphotransferase complex|C
 ULK1-ATG13-FIP200 complex|C
+USH2 complex|C
 UTP-C complex|C
 Ubisch body|A
 VAMP4-syntaxin-6-syntaxin-16-Vti1a complex|C
 VCB complex|C
+VCP-NPL4-UFD1 AAA ATPase complex|C
+VCP-NSFL1C complex|C
 VEGF-A complex|C
 VRK3/VHR/ERK complex|C
+Vps4-Vta1 complex|C
 Vps55/Vps68 complex|C
 W chromosome|A
 WASH complex|C
@@ -869,6 +911,7 @@ acetyl-CoA carboxylase complex|C
 acetyl-CoA decarbonylase/synthase-carbon monoxide dehydrogenase complex|C
 acetylcholine-gated channel complex|C
 acetyltransferase complex|C
+acid phosphatase complex|C
 acidocalcisome|A
 acidocalcisome lumen|A
 acidocalcisome membrane|A
@@ -1034,6 +1077,7 @@ anchored component of external side of plasma membrane|A
 anchored component of membrane|A
 anchored component of periplasmic side of cell outer membrane|A
 anchored component of plasma membrane|A
+anchored component of the cytoplasmic side of the plasma membrane|A
 anchoring collagen complex|C
 anchoring junction|A
 angiogenin-PRI complex|C
@@ -1086,6 +1130,7 @@ auxin efflux carrier complex|C
 axolemma|A
 axon|A
 axon collateral|A
+axon cytoplasm|A
 axon hillock|A
 axon initial segment|A
 axon microtubule bundle|A
@@ -1094,7 +1139,10 @@ axon terminus|A
 axonal growth cone|A
 axonal spine|A
 axonemal basal plate|A
+axonemal central apparatus|A
+axonemal central bridge|A
 axonemal central pair|A
+axonemal central pair projection|A
 axonemal dynein complex|C
 axonemal heterotrimeric kinesin-II complex|C
 axonemal microtubule|C
@@ -1142,8 +1190,9 @@ beta-catenin destruction complex|C
 beta-catenin-TCF7L2 complex|C
 beta-galactosidase complex|C
 beta-heterochromatin|C
+bicellular tight junction|A
 biofilm matrix|A
-biofilm matrix part|A
+biofilm matrix component|A
 biofilm matrix surface|A
 biotin carboxylase complex|C
 bipartite viral genome|A
@@ -1166,13 +1215,16 @@ calcitonin family receptor complex|C
 calcium channel complex|C
 calcium ion-transporting ATPase complex|C
 calcium- and calmodulin-dependent protein kinase complex|C
+calprotectin complex|C
 calyx of Held|A
 capitate projection|A
 capsomere|A
 capsule|A
 carbamoyl-phosphate synthase complex|C
+carbon phosphorus lyase complex|C
 carboxy-terminal domain protein kinase complex|C
 carboxysome|A
+cardiac Troponin complex|C
 cardiac myofibril|A
 carotenoid vesicle|A
 caspase complex|C
@@ -1466,11 +1518,13 @@ cortical granule|A
 cortical layer of collagen and cuticulin-based cuticle extracellular matrix|A
 cortical microtubule|C
 cortical microtubule cytoskeleton|A
+cortical microtubule plus-end|A
 cortical microtubule, transverse to long axis|C
 costamere|A
 creatine kinase complex|C
 crystalloid|A
 cullin-RING ubiquitin ligase complex|C
+curli|C
 cuticular plate|A
 cyanelle|A
 cyanelle envelope|A
@@ -1530,6 +1584,7 @@ cytoplasmic microtubule|C
 cytoplasmic nucleosome|C
 cytoplasmic origin of replication recognition complex|C
 cytoplasmic part|A
+cytoplasmic periphery of the nuclear pore complex|A
 cytoplasmic replication fork|A
 cytoplasmic replisome|C
 cytoplasmic ribonucleoprotein granule|C
@@ -1597,6 +1652,7 @@ dendritic branch point|A
 dendritic cell dendrite|A
 dendritic filopodium|A
 dendritic growth cone|A
+dendritic knob|A
 dendritic lamellar body|A
 dendritic microtubule|C
 dendritic shaft|A
@@ -1620,6 +1676,11 @@ dimeric IgA immunoglobulin complex|C
 dimeric positive transcription elongation factor complex b|C
 dimeric ribonuclease P complex|C
 dimethyl sulfoxide reductase complex|C
+dinoflagellate antapex|A
+dinoflagellate antapical horn|A
+dinoflagellate apex|A
+dinoflagellate apical groove|A
+dinoflagellate apical horn|A
 dinoflagellate cingulum|A
 dinoflagellate epicone|A
 dinoflagellate hypocone|A
@@ -1627,6 +1688,7 @@ dinoflagellate sulcal notch|A
 dinoflagellate sulcus|A
 discoidal high-density lipoprotein particle|C
 dityrosine layer of spore wall|A
+divisome complex|C
 dolichol-phosphate-mannose synthase complex|C
 dolichyl-phosphate-mannose-protein mannosyltransferase Pmt1p-Pmt2p dimer complex|C
 dolichyl-phosphate-mannose-protein mannosyltransferase Pmt1p-Pmt3p dimer complex|C
@@ -1761,10 +1823,13 @@ external side of mycolate outer membrane|A
 external side of plasma membrane|A
 extra-invasive hyphal membrane|A
 extra-invasive hyphal space|A
+extracellular core region of desmosome|A
+extracellular exosome|A
+extracellular exosome complex|C
 extracellular ferritin complex|C
 extracellular isoamylase complex|C
 extracellular matrix|A
-extracellular matrix part|A
+extracellular matrix component|A
 extracellular membrane-bounded organelle|A
 extracellular non-membrane-bounded organelle|A
 extracellular organelle|A
@@ -1773,8 +1838,6 @@ extracellular region part|A
 extracellular space|A
 extracellular space of host|A
 extracellular vesicle|A
-extracellular vesicular exosome|A
-extracellular vesicular exosome complex|C
 extrachromosomal DNA|A
 extrachromosomal circular DNA|A
 extrachromosomal rDNA circle|A
@@ -1855,6 +1918,7 @@ fungal-type vacuole|A
 fungal-type vacuole lumen|A
 fungal-type vacuole membrane|A
 fusome|A
+galectin complex|C
 gamma DNA polymerase complex|C
 gamma-catenin-TCF7L2 complex|C
 gamma-delta T cell receptor complex|C
@@ -2064,7 +2128,7 @@ host peribacteroid membrane|A
 host symbiosome|A
 host thylakoid|A
 host thylakoid membrane|A
-host-symbiont tight junction|A
+host-symbiont bicellular tight junction|A
 hyaline inclusion|A
 hyaline layer|A
 hyaluranon cable|A
@@ -2080,6 +2144,7 @@ hyphal tip|A
 hyphal tip polarisome|C
 hypolemmal cisterna|A
 i-AAA complex|C
+iNOS-S100A8/A9 complex|C
 icosahedral viral capsid|A
 icosahedral viral capsid, collar|A
 icosahedral viral capsid, collar fiber|A
@@ -2091,6 +2156,7 @@ immunoglobulin complex|C
 immunoglobulin complex, circulating|C
 immunological synapse|A
 importin alpha-subunit nuclear export complex|C
+importin alpha-subunit nuclear import complex|C
 inaD signaling complex|C
 inactive sex chromosome|A
 incipient cellular bud site|A
@@ -2104,6 +2170,7 @@ inhibitory neuromuscular junction|A
 inhibitory neuromuscular junction of somatic myotube|A
 inhibitory synapse|A
 inner acrosomal membrane|A
+inner dense plaque of desmosome|A
 inner dynein arm|C
 inner layer of spore wall|A
 inner membrane complex|A
@@ -2117,7 +2184,10 @@ insulin-like growth factor binary complex|C
 insulin-like growth factor binding protein complex|C
 insulin-like growth factor ternary complex|C
 insulin-responsive compartment|A
+integral component of Golgi cis cisterna membrane|A
+integral component of Golgi medial cisterna membrane|A
 integral component of Golgi membrane|A
+integral component of Golgi trans cisterna membrane|A
 integral component of autophagic vacuole membrane|A
 integral component of cell outer membrane|A
 integral component of chloroplast inner membrane|A
@@ -2125,6 +2195,7 @@ integral component of chloroplast outer membrane|A
 integral component of contractile vacuolar membrane|A
 integral component of cytoplasmic side of endoplasmic reticulum membrane|A
 integral component of endoplasmic reticulum membrane|A
+integral component of endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membrane|A
 integral component of endosome membrane|A
 integral component of external side of plasma membrane|A
 integral component of fungal-type vacuolar membrane|A
@@ -2146,6 +2217,7 @@ integral component of plastid membrane|A
 integral component of plastid outer membrane|A
 integral component of pre-autophagosomal structure membrane|A
 integral component of synaptic vesicle membrane|A
+integral component of the cytoplasmic side of the plasma membrane|A
 integral component of thylakoid membrane|A
 integral component of vacuolar membrane|A
 integral to host endoplasmic reticulum membrane|A
@@ -2236,13 +2308,17 @@ intraciliary transport particle A|C
 intraciliary transport particle B|C
 intraconoid microtubule|C
 intramolecular phosphotransferase complex|C
+intrinsic component of Golgi cis cisterna membrane|A
+intrinsic component of Golgi medial cisterna membrane|A
 intrinsic component of Golgi membrane|A
+intrinsic component of Golgi trans cisterna membrane|A
 intrinsic component of autophagic vacuole membrane|A
 intrinsic component of cell outer membrane|A
 intrinsic component of chloroplast inner membrane|A
 intrinsic component of chloroplast outer membrane|A
 intrinsic component of contractile vacuolar membrane|A
 intrinsic component of endoplasmic reticulum membrane|A
+intrinsic component of endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membrane|A
 intrinsic component of endosome membrane|A
 intrinsic component of external side of cell outer membrane|A
 intrinsic component of external side of plasma membrane|A
@@ -2446,7 +2522,9 @@ meiotic cohesin complex|C
 meiotic recombination initiation complex|C
 meiotic septin complex|C
 meiotic spindle|A
-meiotic spindle midzone|C
+meiotic spindle astral microtubule|C
+meiotic spindle midzone|A
+meiotic spindle pole|A
 meiotic spindle pole body|A
 melanosome|A
 melanosome lumen|A
@@ -2531,6 +2609,7 @@ mitochondrial fatty acid beta-oxidation multienzyme complex|C
 mitochondrial glutamate synthase complex (NADH)|C
 mitochondrial inner boundary membrane|A
 mitochondrial inner membrane|A
+mitochondrial inner membrane assembly complex|C
 mitochondrial inner membrane peptidase complex|C
 mitochondrial inner membrane presequence translocase complex|C
 mitochondrial inner membrane protein insertion complex|C
@@ -2563,7 +2642,7 @@ mitochondrial respiratory chain|A
 mitochondrial respiratory chain complex I|C
 mitochondrial respiratory chain complex I, membrane segment|C
 mitochondrial respiratory chain complex I, peripheral segment|C
-mitochondrial respiratory chain complex II|C
+mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone)|C
 mitochondrial respiratory chain complex III|C
 mitochondrial respiratory chain complex IV|C
 mitochondrial respiratory chain supercomplex|C
@@ -2580,8 +2659,10 @@ mitotic checkpoint complex, CDC20-MAD2 subcomplex|C
 mitotic cohesin complex|C
 mitotic septin complex|C
 mitotic spindle|A
+mitotic spindle assembly checkpoint MAD1-MAD2 complex|C
+mitotic spindle astral microtubule|C
 mitotic spindle microtubule|C
-mitotic spindle midzone|C
+mitotic spindle midzone|A
 mitotic spindle polar microtubule|C
 mitotic spindle pole|A
 mitotic spindle pole body|A
@@ -2615,6 +2696,7 @@ muscle cell projection membrane|A
 muscle myosin complex|C
 muscle tendon junction|A
 muscle thin filament tropomyosin|A
+mutator focus|C
 mycolate outer membrane|A
 myelin sheath|A
 myelin sheath abaxonal region|A
@@ -2675,6 +2757,7 @@ new mitotic spindle pole body|A
 nexin complex|C
 nexine|A
 nitrate reductase complex|C
+nitric-oxide synthase complex|C
 nitrite reductase complex [NAD(P)H]|C
 nitrogenase complex|C
 nodal receptor complex|C
@@ -2745,6 +2828,7 @@ nuclear replication fork|A
 nuclear replisome|C
 nuclear speck|A
 nuclear stress granule|C
+nuclear subtelomeric heterochromatin|C
 nuclear telomere cap complex|C
 nuclear telomeric heterochromatin|C
 nuclear transcription factor complex|C
@@ -2821,12 +2905,14 @@ osmiophilic body|A
 other organism|A
 other organism cell|A
 other organism cell membrane|A
+other organism cytoplasm|A
 other organism membrane|A
 other organism part|A
 other organism postsynaptic membrane|A
 other organism presynaptic membrane|A
 outer acrosomal membrane|A
 outer dense fiber|A
+outer dense plaque of desmosome|A
 outer dynein arm|C
 outer endospore membrane|A
 outer membrane|A
@@ -2850,6 +2936,7 @@ peg and socket contact|A
 pellicle|A
 penta-snRNP complex|C
 pentameric IgM immunoglobulin complex|C
+peptidase inhibitor complex|C
 peptidoglycan-based cell wall|A
 perforation plate|A
 periarbuscular membrane|A
@@ -2864,6 +2951,7 @@ periciliary membrane compartment|A
 perikaryon|A
 perineuronal net|A
 perinuclear endoplasmic reticulum|A
+perinuclear endoplasmic reticulum membrane|A
 perinuclear region of cytoplasm|A
 perinuclear theca|A
 perinucleolar chromocenter|A
@@ -2898,8 +2986,10 @@ phosphatidylinositol 3-kinase complex, class II|C
 phosphatidylinositol 3-kinase complex, class III|C
 phosphatidylinositol 3-kinase complex, class III, type I|C
 phosphatidylinositol 3-kinase complex, class III, type II|C
+phosphatidylinositol phosphate phosphatase complex|C
 phosphatidylinositol transporter complex|C
 phosphoenolpyruvate-dependent sugar phosphotransferase complex|C
+phospholamban complex|C
 phosphomannomutase complex|C
 phosphopantothenoylcysteine decarboxylase complex|C
 phosphopyruvate hydratase complex|C
@@ -2935,7 +3025,6 @@ pinceau fiber|A
 pinosome|A
 pirellulosome|A
 plant cell papilla|A
-plant extracellular matrix|A
 plant-type cell wall|A
 plant-type vacuole|A
 plant-type vacuole lumen|A
@@ -3148,12 +3237,14 @@ protein serine/threonine phosphatase complex|C
 protein storage vacuole|A
 protein storage vacuole lumen|A
 protein storage vacuole membrane|A
+protein tyrosine phosphatase complex|C
 protein-DNA ISRE complex|C
 protein-DNA complex|C
 protein-DNA-RNA complex|C
 protein-N(PI)-phosphohistidine-sugar phosphotransferase complex|C
 protein-carbohydrate complex|C
 protein-lipid complex|C
+protein-lipid-RNA complex|C
 proteinaceous extracellular matrix|A
 proteinoplast|A
 prothylakoid|A
@@ -3180,11 +3271,13 @@ proton-transporting two-sector ATPase complex|C
 proton-transporting two-sector ATPase complex, catalytic domain|C
 proton-transporting two-sector ATPase complex, proton-transporting domain|C
 provirus|A
+proximal dendrite|A
 pseudohyphal septin ring|A
 pseudopodium|A
 pseudopodium membrane|A
 pterinosome|A
 puncta adhaerentia|A
+pyrenoid|A
 pyrophosphate-dependent phosphofructokinase complex|C
 pyrophosphate-dependent phosphofructokinase complex, alpha-subunit complex|C
 pyrophosphate-dependent phosphofructokinase complex, beta-subunit complex|C
@@ -3314,6 +3407,7 @@ short-chain collagen trimer|C
 side of membrane|A
 sieve area|A
 sieve plate|A
+sigma factor antagonist complex|C
 signal peptidase complex|C
 signal recognition particle|C
 signal recognition particle receptor complex|C
@@ -3380,7 +3474,7 @@ spindle|A
 spindle envelope|A
 spindle matrix|A
 spindle microtubule|C
-spindle midzone|C
+spindle midzone|A
 spindle pole|A
 spindle pole body|A
 spindle pole centrosome|A
@@ -3442,6 +3536,8 @@ superoxide dismutase complex|C
 superoxide dismutase copper chaperone complex|C
 supraspliceosomal complex|C
 surface coat of collagen and cuticulin-based cuticle extracellular matrix|A
+survivin complex|C
+sweet taste receptor complex|C
 symbiont-containing vacuolar membrane network|A
 symbiont-containing vacuolar space|A
 symbiont-containing vacuole|A
@@ -3482,6 +3578,7 @@ tRNA-intron endonuclease complex|C
 tRNA-specific adenosine-34 deaminase complex|C
 tRNA-splicing ligase complex|C
 tail portion of tanycyte|A
+taste receptor complex|C
 taurine dioxygenase complex|C
 tectum|A
 telomerase catalytic core complex|C
@@ -3508,7 +3605,7 @@ thylakoid light-harvesting complex|C
 thylakoid lumen|A
 thylakoid membrane|A
 thylakoid part|A
-tight junction|A
+titin-telethonin complex|C
 trans spliceosomal complex|C
 trans-Golgi network|A
 trans-Golgi network membrane|A
@@ -3552,6 +3649,7 @@ translation repressor complex|C
 translocon complex|C
 transmembrane collagen trimer|C
 transmembrane transporter complex|C
+transnitrosylase complex|C
 transport vesicle|A
 transport vesicle lumen|A
 transport vesicle membrane|A
@@ -3559,6 +3657,7 @@ transporter complex|C
 transverse filament|A
 transverse flagellum|A
 tricarboxylic acid cycle enzyme complex|C
+tricellular tight junction|A
 trichocyst|A
 triglyceride-rich lipoprotein particle|C
 trimeric positive transcription elongation factor complex b|C
@@ -3570,6 +3669,7 @@ tube viral factory|A
 tubovesicular membrane network|A
 tubular endosome|A
 tubulin complex|C
+tubulin folding cofactor complex|C
 tubulobulbar complex|C
 tumor necrosis factor receptor superfamily complex|C
 type I interferon receptor complex|C

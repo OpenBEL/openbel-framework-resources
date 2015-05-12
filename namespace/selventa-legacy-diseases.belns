@@ -4,8 +4,8 @@ Keyword=SDIS
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=Selventa legacy names for diseases. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
-VersionString=20150106
-CreatedDateTime=2015-01-06T14:02:36
+VersionString=20150512
+CreatedDateTime=2015-05-12T17:39:13
 
 [Author]
 NameString=OpenBEL
@@ -15,8 +15,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Selventa
 DescriptionString=Selventa legacy names for diseases. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
-PublishedVersionString=Mon, 22 Sep 2014 17:12:09
-PublishedDate=2014-09-22
+PublishedVersionString=Tue, 05 May 2015 18:18:57
+PublishedDate=2015-05-05
 
 [Processing]
 CaseSensitiveFlag=yes

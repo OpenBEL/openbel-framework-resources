@@ -3,8 +3,8 @@ Keyword=Cell
 TypeString=list
 DescriptionString=Cell types from the Cell Ontology (CL)
 UsageString=Use this annotation to indicate the cell type context of a statement. Use to annotate a statement that was demonstrated in a given cell type or where the facts represented in the statement were shown to be relevant to the cell type.
-VersionString=20150107
-CreatedDateTime=2015-01-07T10:00:59
+VersionString=20150512
+CreatedDateTime=2015-05-12T17:09:24
 
 [Author]
 NameString=OpenBEL 
@@ -14,8 +14,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Cell Ontology (CL)
 DescriptionString=The Cell Ontology (CL) is a candidate OBO Foundry ontology for the representation of cell types. First described in 2005, the CL integrates cell types from the prokaryotic, fungal, and eukaryotic organisms.
-PublishedVersionString=http://purl.obolibrary.org/obo/cl/releases/2014-12-22/cl.owl
-PublishedDate=2014-12-22
+PublishedVersionString=http://purl.obolibrary.org/obo/cl/releases/2015-04-17/cl.owl
+PublishedDate=2015-04-17
 ReferenceURL=http://cellontology.org/
 
 [Processing]
@@ -588,6 +588,7 @@ cochlear inner hair cell|CL_0000589
 coelomocyte|CL_0000421
 cold sensing thermoreceptor cell|CL_0000587
 collagen secreting cell|CL_0000667
+collar cell|CL_0010016
 colon endothelial cell|CL_1001572
 colon epithelial cell|CL_0011108
 colon glandular cell|CL_1001588
@@ -617,6 +618,7 @@ corneal endothelial cell|CL_0000132
 corneal epithelial cell|CL_0000575
 corneocyte|CL_0002153
 corona radiata cell|CL_0000713
+coronet cell|CL_0010015
 cortical cell of adrenal gland|CL_0002097
 cortical granule cell|CL_0001032
 cortical thymic epithelial cell|CL_0002364
@@ -770,9 +772,7 @@ epithelial cell of alimentary canal|CL_0002251
 epithelial cell of alveolus of lung|CL_0010003
 epithelial cell of amnion|CL_0002536
 epithelial cell of anal column|CL_0002634
-epithelial cell of anterior palatal part of viscerocranial mucosa|CL_0002647
 epithelial cell of appendix|CL_1000405
-epithelial cell of buccal part of viscerocranial mucosa|CL_0002646
 epithelial cell of cervix|CL_0002535
 epithelial cell of distal tubule|CL_0002305
 epithelial cell of esophageal cardiac gland|CL_0002642
@@ -781,7 +781,6 @@ epithelial cell of esophagus|CL_0002252
 epithelial cell of exocrine pancreas|CL_1001433
 epithelial cell of external acoustic meatus|CL_1000434
 epithelial cell of gall bladder|CL_1000415
-epithelial cell of gingival part of viscerocranial mucosa|CL_0002649
 epithelial cell of glomerular capsule|CL_1000450
 epithelial cell of intermediate tubule|CL_1000453
 epithelial cell of lacrimal canaliculus|CL_1000433
@@ -790,11 +789,9 @@ epithelial cell of lacrimal sac|CL_1000436
 epithelial cell of large intestine|CL_0002253
 epithelial cell of lower respiratory tract|CL_0002632
 epithelial cell of lung|CL_0000082
-epithelial cell of nasal part of viscerocranial mucosa|CL_0002648
 epithelial cell of nasolacrimal duct|CL_1000437
 epithelial cell of nephron|CL_1000449
 epithelial cell of pancreas|CL_0000083
-epithelial cell of paranasal sinus part of viscerocranial mucosa|CL_0002650
 epithelial cell of parathyroid gland|CL_0002260
 epithelial cell of prostate|CL_0002231
 epithelial cell of prostatic acinus|CL_0002233
@@ -1554,6 +1551,7 @@ nonkeratinized cell of stratum corneum of esophageal epithelium|CL_0002643
 nonkeratinized epithelial cell of anal column|CL_0002635
 nonkeratinized epithelial cell of inferior part of anal canal|CL_0002636
 noradrenergic cell|CL_0000459
+noradrenergic neuron|CL_0008025
 notochordal cell|CL_0007005
 notochordal sheath cell|CL_0007007
 notochordal vacuole cell|CL_0007008
@@ -1614,6 +1612,7 @@ pancreatic PP cell|CL_0002275
 pancreatic acinar cell|CL_0002064
 pancreatic centro-acinar cell|CL_0002080
 pancreatic ductal cell|CL_0002079
+pancreatic endocrine cell|CL_0008024
 pancreatic epsilon cell|CL_0005019
 pancreatic goblet cell|CL_1000322
 pancreatic stellate cell|CL_0002410
@@ -1717,6 +1716,7 @@ preameloblast|CL_0007000
 precementoblast|CL_0007002
 prechondroblast|CL_0007009
 precursor B cell|CL_0000817
+precursor cell|CL_0011115
 premigratory neural crest cell|CL_0007004
 preodontoblast|CL_0007003
 preosteoblast|CL_0007010
@@ -2115,6 +2115,7 @@ type I cell of adrenal medulla|CL_0002083
 type I cell of carotid body|CL_0002292
 type I enteroendocrine cell|CL_0002277
 type I muscle cell|CL_0002211
+type I pinealocyte|CL_0010013
 type I pneumocyte|CL_0002062
 type I taste bud cell|CL_0002289
 type I vestibular sensory cell|CL_0002070
@@ -2125,6 +2126,7 @@ type II cell of adrenal cortex|CL_0002136
 type II cell of adrenal medulla|CL_0002082
 type II cell of carotid body|CL_0002081
 type II muscle cell|CL_0002212
+type II pinealocyte|CL_0010014
 type II pneumocyte|CL_0002063
 type II taste cell|CL_0002286
 type II vestibular sensory cell|CL_0002069
