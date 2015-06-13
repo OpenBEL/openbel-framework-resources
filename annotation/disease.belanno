@@ -3,8 +3,8 @@ Keyword=Disease
 TypeString=list
 DescriptionString=Disease names from the Disease Ontology (DO)
 UsageString=Use to annotate a statement demonstrated in a biological system where the disease state was present or where the facts represented in the statement were shown to be relevant to the disease.
-VersionString=20150512
-CreatedDateTime=2015-05-12T17:09:24
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:57:45
 
 [Author]
 NameString=OpenBEL 
@@ -14,8 +14,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Disease Ontology (DO)
 DescriptionString=The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts through collaborative efforts of researchers at Northwestern University, Center for Genetic Medicine and the University of Maryland School of Medicine, Institute for Genome Sciences. The Disease Ontology semantically integrates disease and medical vocabularies through extensive cross mapping of DO terms to MeSH, ICD, NCI's thesaurus, SNOMED and OMIM.
-PublishedVersionString=http://purl.obolibrary.org/obo/doid/releases/2015-05-11/doid.owl
-PublishedDate=2015-05-11
+PublishedVersionString=http://purl.obolibrary.org/obo/doid/releases/2015-06-04/doid.owl
+PublishedDate=2015-06-04
 ReferenceURL=http://disease-ontology.org/
 
 [Processing]
@@ -256,6 +256,7 @@ Fuchs' endothelial dystrophy|DOID_11555
 Fuchs' heterochromic uveitis|DOID_9375
 Fukuyama congenital muscular dystrophy|DOID_0050559
 GABA aminotransferase deficiency|DOID_0060174
+Gamstorp-Wohlfart syndrome|DOID_0050526
 Gaucher's disease|DOID_1926
 Gerstmann syndrome|DOID_4969
 Gerstmann-Straussler-Scheinker syndrome|DOID_4249
@@ -407,6 +408,8 @@ Munchausen by proxy|DOID_0060045
 Murray Valley encephalitis|DOID_10842
 Mycobacterium avium complex disease|DOID_2755
 N syndrome|DOID_0050769
+Nager acrofacial dysostosis|DOID_5768
+Native American myopathy|DOID_0060346
 Nelson syndrome|DOID_4968
 Netherton syndrome|DOID_0050474
 Newcastle disease|DOID_2929
@@ -656,15 +659,18 @@ acrocallosal syndrome|DOID_9250
 acrocapitofemoral dysplasia|DOID_0050604
 acrocephalosyndactylia|DOID_12960
 acrodermatitis|DOID_2722
+acrodermatitis chronica atrophicans|DOID_0060344
 acrodermatitis enteropathica|DOID_0050605
 acrodysostosis|DOID_14669
 acrofrontofacionasal dysostosis|DOID_0060226
 acrokeratosis verruciformis|DOID_0050606
 acromegaly|DOID_2449
+acromelic frontonasal dysostosis|DOID_0060342
 acromesomelic dysplasia|DOID_0080049
 acromesomelic dysplasia, Grebe type|DOID_0080052
 acromesomelic dysplasia, Hunter-Thompson type|DOID_0080051
 acromesomelic dysplasia, Maroteaux type|DOID_0080050
+acrorenal syndrome|DOID_0060347
 actinic keratosis|DOID_8866
 actinobacillosis|DOID_4974
 actinomycosis|DOID_8478
@@ -859,6 +865,7 @@ age related macular degeneration|DOID_10871
 aggressive digital papillary adenocarcinoma|DOID_5590
 aggressive periodontitis|DOID_1474
 aggressive systemic mastocytosis|DOID_4798
+agnathia-otocephaly complex|DOID_0060341
 agnosia|DOID_4090
 agoraphobia|DOID_593
 agranulocytosis|DOID_12987
@@ -1219,6 +1226,7 @@ axillary lipoma|DOID_10205
 axonal neuropathy|DOID_7319
 azoospermia|DOID_14227
 babesiosis|DOID_9643
+bacillary angiomatosis|DOID_0060345
 background diabetic retinopathy|DOID_13208
 bacterial conjunctivitis|DOID_9700
 bacterial esophagitis|DOID_13921
@@ -1239,6 +1247,7 @@ band keratopathy|DOID_11164
 barbiturate abuse|DOID_8519
 barbiturate dependence|DOID_2575
 baritosis|DOID_10321
+bartonellosis|DOID_11102
 basal cell carcinoma|DOID_2513
 basal ganglia calcification|DOID_0060230
 basal ganglia cerebrovascular disease|DOID_10991
@@ -1440,6 +1449,7 @@ brachial plexus neuropathy|DOID_3690
 brachydactyly|DOID_0050581
 brachydactyly-syndactyly syndrome|DOID_0050689
 brachyolmia|DOID_0050690
+bradyopsia|DOID_0050335
 brain angioma|DOID_5393
 brain cancer|DOID_1319
 brain compression|DOID_11457
@@ -1904,6 +1914,7 @@ chromosomal disease|DOID_0080014
 chronic NK-cell lymphocytosis|DOID_7465
 chronic adhesive otitis media|DOID_11235
 chronic apical periodontitis|DOID_11269
+chronic atrial and intestinal dysrhythmia|DOID_0060339
 chronic atticoantral disease|DOID_14248
 chronic canaliculitis|DOID_9936
 chronic cervicitis|DOID_1513
@@ -1977,6 +1988,7 @@ ciliary body disease|DOID_4353
 ciliary body epithelioid cell melanoma|DOID_7042
 ciliary body mixed cell melanoma|DOID_6523
 ciliary body spindle cell melanoma|DOID_6043
+ciliopathy|DOID_0060340
 citrullinemia|DOID_9273
 classic congenital mesoblastic nephroma|DOID_8083
 classic pulmonary blastoma|DOID_4767
@@ -3046,6 +3058,7 @@ glottis carcinoma|DOID_2599
 glottis neoplasm|DOID_2597
 glottis squamous cell carcinoma|DOID_7031
 glottis verrucous carcinoma|DOID_7583
+glucocorticoid-induced osteoporosis|DOID_0060343
 glucocorticoid-remediable aldosteronism|DOID_14080
 glucose intolerance|DOID_10603
 glucose metabolism disease|DOID_4194
@@ -4782,6 +4795,7 @@ paralytic ileus|DOID_8442
 paralytic lagophthalmos|DOID_12958
 paralytic poliomyelitis|DOID_0050515
 paralytic squint|DOID_10863
+parameningeal embryonal rhabdomyosarcoma|DOID_0060338
 parametritis|DOID_1260
 parametrium malignant neoplasm|DOID_11746
 paramyloidosis|DOID_0050761

@@ -4,8 +4,8 @@ Keyword=GOCCID
 DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Gene Ontology (GO) cellular component identifiers. These terms may be used to represent cellular components as well as complex abundances. 
-VersionString=20150512
-CreatedDateTime=2015-05-12T17:39:11
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:51:15
 QueryValueURL=http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:[VALUE]
 
 [Author]
@@ -16,8 +16,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=The Gene Ontology Consortium
 DescriptionString=The Gene Ontology project is a major bioinformatics initiative with the aim of standardizing the representation of gene and gene product attributes across species and databases.
-PublishedVersionString=2015-04-30
-PublishedDate=2015-04-29
+PublishedVersionString=2015-05-30
+PublishedDate=2015-05-29
 ReferenceURL=http://www.geneontology.org/
 
 [Processing]
@@ -2010,6 +2010,8 @@ CacheableFlag=yes
 0036464|C
 0036477|A
 0036488|C
+0036501|C
+0036502|C
 0038037|C
 0038038|C
 0038039|C
@@ -2704,6 +2706,13 @@ CacheableFlag=yes
 0061672|C
 0061673|C
 0061689|A
+0061694|C
+0061695|C
+0061696|C
+0061700|C
+0061701|A
+0061702|C
+0061703|C
 0065010|A
 0070013|A
 0070014|C
@@ -3210,6 +3219,8 @@ CacheableFlag=yes
 0090635|A
 0090636|A
 0090637|A
+0090641|A
+0090642|A
 0097002|A
 0097013|A
 0097014|A
@@ -3576,6 +3587,18 @@ CacheableFlag=yes
 0098774|C
 0098788|A
 0098791|A
+0098793|A
+0098794|A
+0098796|C
+0098797|C
+0098798|C
+0098799|C
+0098800|C
+0098802|C
+0098803|C
+0098804|A
+0098805|A
+0098807|C
 1901588|C
 1901589|A
 1902377|C
@@ -3936,3 +3959,8 @@ CacheableFlag=yes
 1990730|C
 1990732|A
 1990733|C
+1990742|A
+1990745|C
+1990746|C
+1990752|A
+1990753|A

@@ -4,8 +4,8 @@ Keyword=DO
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=Disease names from the Disease Ontology (DO). These names may be used to specify pathologies. 
-VersionString=20150512
-CreatedDateTime=2015-05-12T17:39:13
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:51:16
 
 [Author]
 NameString=OpenBEL
@@ -15,8 +15,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Disease Ontology (DO)
 DescriptionString=The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts through collaborative efforts of researchers at Northwestern University, Center for Genetic Medicine and the University of Maryland School of Medicine, Institute for Genome Sciences.
-PublishedVersionString=2015-05-12
-PublishedDate=2015-05-12
+PublishedVersionString=2015-06-11
+PublishedDate=2015-06-11
 ReferenceURL=http://disease-ontology.org/
 
 [Processing]
@@ -257,6 +257,7 @@ Fuchs' endothelial dystrophy|O
 Fuchs' heterochromic uveitis|O
 Fukuyama congenital muscular dystrophy|O
 GABA aminotransferase deficiency|O
+Gamstorp-Wohlfart syndrome|O
 Gaucher's disease|O
 Gerstmann syndrome|O
 Gerstmann-Straussler-Scheinker syndrome|O
@@ -408,6 +409,8 @@ Munchausen by proxy|O
 Murray Valley encephalitis|O
 Mycobacterium avium complex disease|O
 N syndrome|O
+Nager acrofacial dysostosis|O
+Native American myopathy|O
 Nelson syndrome|O
 Netherton syndrome|O
 Newcastle disease|O
@@ -657,15 +660,18 @@ acrocallosal syndrome|O
 acrocapitofemoral dysplasia|O
 acrocephalosyndactylia|O
 acrodermatitis|O
+acrodermatitis chronica atrophicans|O
 acrodermatitis enteropathica|O
 acrodysostosis|O
 acrofrontofacionasal dysostosis|O
 acrokeratosis verruciformis|O
 acromegaly|O
+acromelic frontonasal dysostosis|O
 acromesomelic dysplasia|O
 acromesomelic dysplasia, Grebe type|O
 acromesomelic dysplasia, Hunter-Thompson type|O
 acromesomelic dysplasia, Maroteaux type|O
+acrorenal syndrome|O
 actinic keratosis|O
 actinobacillosis|O
 actinomycosis|O
@@ -860,6 +866,7 @@ age related macular degeneration|O
 aggressive digital papillary adenocarcinoma|O
 aggressive periodontitis|O
 aggressive systemic mastocytosis|O
+agnathia-otocephaly complex|O
 agnosia|O
 agoraphobia|O
 agranulocytosis|O
@@ -1220,6 +1227,7 @@ axillary lipoma|O
 axonal neuropathy|O
 azoospermia|O
 babesiosis|O
+bacillary angiomatosis|O
 background diabetic retinopathy|O
 bacterial conjunctivitis|O
 bacterial esophagitis|O
@@ -1240,6 +1248,7 @@ band keratopathy|O
 barbiturate abuse|O
 barbiturate dependence|O
 baritosis|O
+bartonellosis|O
 basal cell carcinoma|O
 basal ganglia calcification|O
 basal ganglia cerebrovascular disease|O
@@ -1441,6 +1450,7 @@ brachial plexus neuropathy|O
 brachydactyly|O
 brachydactyly-syndactyly syndrome|O
 brachyolmia|O
+bradyopsia|O
 brain angioma|O
 brain cancer|O
 brain compression|O
@@ -1905,6 +1915,7 @@ chromosomal disease|O
 chronic NK-cell lymphocytosis|O
 chronic adhesive otitis media|O
 chronic apical periodontitis|O
+chronic atrial and intestinal dysrhythmia|O
 chronic atticoantral disease|O
 chronic canaliculitis|O
 chronic cervicitis|O
@@ -1978,6 +1989,7 @@ ciliary body disease|O
 ciliary body epithelioid cell melanoma|O
 ciliary body mixed cell melanoma|O
 ciliary body spindle cell melanoma|O
+ciliopathy|O
 citrullinemia|O
 classic congenital mesoblastic nephroma|O
 classic pulmonary blastoma|O
@@ -3047,6 +3059,7 @@ glottis carcinoma|O
 glottis neoplasm|O
 glottis squamous cell carcinoma|O
 glottis verrucous carcinoma|O
+glucocorticoid-induced osteoporosis|O
 glucocorticoid-remediable aldosteronism|O
 glucose intolerance|O
 glucose metabolism disease|O
@@ -4783,6 +4796,7 @@ paralytic ileus|O
 paralytic lagophthalmos|O
 paralytic poliomyelitis|O
 paralytic squint|O
+parameningeal embryonal rhabdomyosarcoma|O
 parametritis|O
 parametrium malignant neoplasm|O
 paramyloidosis|O

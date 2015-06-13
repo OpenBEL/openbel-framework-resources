@@ -3,8 +3,8 @@ Keyword=CellStructure
 TypeString=list
 DescriptionString=The Cell Structures [A11.284] sub-branch of the Medical Subject Headings (MeSH) Anatomy [A] branch.
 UsageString=Use to annotate a statement demonstrated in the context of a specific cellular location.
-VersionString=20150512
-CreatedDateTime=2015-05-12T17:09:24
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:57:45
 
 [Author]
 NameString=OpenBEL 

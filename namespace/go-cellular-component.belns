@@ -4,8 +4,8 @@ Keyword=GOCC
 DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Gene Ontology (GO) cellular component names. These terms may be used to represent cellular components as well as complex abundances. 
-VersionString=20150512
-CreatedDateTime=2015-05-12T17:39:11
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:51:15
 QueryValueURL=http://amigo.geneontology.org/cgi-bin/amigo/search.cgi?search_query=[VALUE]&search_constraint=term&exact_match=1&action=new-search
 
 [Author]
@@ -16,8 +16,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=The Gene Ontology Consortium
 DescriptionString=The Gene Ontology project is a major bioinformatics initiative with the aim of standardizing the representation of gene and gene product attributes across species and databases.
-PublishedVersionString=2015-04-30
-PublishedDate=2015-04-29
+PublishedVersionString=2015-05-30
+PublishedDate=2015-05-29
 ReferenceURL=http://www.geneontology.org
 
 [Processing]
@@ -252,6 +252,7 @@ Dcp1-Dcp2 complex|C
 Ddb1-Ckn1 complex|C
 Ddb1-Wdr21 complex|C
 Delta1 complex|C
+Derlin-1-VIMP complex|C
 DiaA complex|C
 DnaA-DiaA complex|C
 DnaA-DnaB-DnaC complex|C
@@ -272,6 +273,7 @@ Dsc E3 ubiquitin ligase complex|C
 Dsl1p complex|C
 Dxr protein complex|C
 E.F.G complex|C
+EARP complex|C
 EFF-1 complex|C
 EGFR-Grb2-Sos complex|C
 EGFR-Shc-Grb2-Sos complex|C
@@ -349,6 +351,7 @@ GAIT complex|C
 GARP complex|C
 GATA1-TAL1-TCF3-Lmo2 complex|C
 GATA2-TAL1-TCF3-Lmo2 complex|C
+GATOR2 complex|C
 GCH1 complex|C
 GET complex|C
 GID complex|C
@@ -398,6 +401,7 @@ H3 histone acetyltransferase complex|C
 H4 histone acetyltransferase complex|C
 H4/H2A histone acetyltransferase complex|C
 HAUS complex|C
+HCN4 channel complex|C
 HDA1 complex|C
 HDL-containing protein-lipid-RNA complex|C
 HFE-transferrin receptor complex|C
@@ -492,8 +496,8 @@ Lsd1/2 complex|C
 Lsm-containing SMN-Sm protein complex|C
 Lsm1-7-Pat1 complex|C
 M band|A
+M/G1 phase-specific MADS box-forkhead transcription factor complex|C
 MAD1 complex|C
-MADS box-forkhead transcription factor complex|C
 MAML1-RBP-Jkappa- ICN1 complex|C
 MAML2-RBP-Jkappa-ICN1 complex|C
 MAML2-RBP-Jkappa-ICN2 complex|C
@@ -878,6 +882,7 @@ UBC13-UEV1A complex|C
 UBR1-RAD6 ubiquitin ligase complex|C
 UDP-N-acetylglucosamine transferase complex|C
 UDP-N-acetylglucosamine-lysosomal-enzyme N-acetylglucosaminephosphotransferase complex|C
+UFD1-NPL4 complex|C
 ULK1-ATG13-FIP200 complex|C
 USH2 complex|C
 UTP-C complex|C
@@ -958,6 +963,7 @@ alkyl hydroperoxide reductase complex|C
 alpha DNA polymerase:primase complex|C
 alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)|C
 alpha-1,6-mannosyltransferase complex|C
+alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase complex|C
 alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid selective glutamate receptor complex|C
 alpha-beta T cell receptor complex|C
 alpha-heterochromatin|C
@@ -1122,9 +1128,9 @@ atf1-pcr1 complex|C
 attachment organelle|A
 attachment organelle membrane|A
 autolysosome|A
-autophagic vacuole|A
-autophagic vacuole lumen|A
-autophagic vacuole membrane|A
+autophagosome|A
+autophagosome lumen|A
+autophagosome membrane|A
 autosome|A
 auxin efflux carrier complex|C
 axolemma|A
@@ -1344,6 +1350,7 @@ chloroplast stromal thylakoid|A
 chloroplast thylakoid|A
 chloroplast thylakoid lumen|A
 chloroplast thylakoid membrane|A
+chloroplast thylakoid membrane protein complex|C
 chloroplastic endopeptidase Clp complex|C
 chlorosome|A
 chlorosome envelope|A
@@ -1776,6 +1783,7 @@ epicuticle of collagen and cuticulin-based cuticle extracellular matrix|A
 epidermal lamellar body|A
 epidermal lamellar body membrane|A
 epsilon DNA polymerase complex|C
+equatorial cell cortex|A
 equatorial microtubule organizing center|A
 esterosome|A
 esterosome lumen|A
@@ -1845,7 +1853,7 @@ extrahaustorial matrix|A
 extrahaustorial membrane|A
 extraorganismal space|A
 extrinsic component of Golgi membrane|A
-extrinsic component of autophagic vacuole membrane|A
+extrinsic component of autophagosome membrane|A
 extrinsic component of cell outer membrane|A
 extrinsic component of cytoplasmic side of plasma membrane|A
 extrinsic component of endoplasmic reticulum membrane|A
@@ -2162,6 +2170,7 @@ inactive sex chromosome|A
 incipient cellular bud site|A
 inclusion body|A
 infected host cell surface knob|A
+inflammasome complex|C
 inhibin A complex|C
 inhibin B complex|C
 inhibin complex|C
@@ -2174,6 +2183,7 @@ inner dense plaque of desmosome|A
 inner dynein arm|C
 inner layer of spore wall|A
 inner membrane complex|A
+inner mitochondrial membrane protein complex|C
 inner mucus layer|A
 inner plaque of mitotic spindle pole body|A
 inner plaque of spindle pole body|A
@@ -2188,7 +2198,7 @@ integral component of Golgi cis cisterna membrane|A
 integral component of Golgi medial cisterna membrane|A
 integral component of Golgi membrane|A
 integral component of Golgi trans cisterna membrane|A
-integral component of autophagic vacuole membrane|A
+integral component of autophagosome membrane|A
 integral component of cell outer membrane|A
 integral component of chloroplast inner membrane|A
 integral component of chloroplast outer membrane|A
@@ -2312,7 +2322,7 @@ intrinsic component of Golgi cis cisterna membrane|A
 intrinsic component of Golgi medial cisterna membrane|A
 intrinsic component of Golgi membrane|A
 intrinsic component of Golgi trans cisterna membrane|A
-intrinsic component of autophagic vacuole membrane|A
+intrinsic component of autophagosome membrane|A
 intrinsic component of cell outer membrane|A
 intrinsic component of chloroplast inner membrane|A
 intrinsic component of chloroplast outer membrane|A
@@ -2533,6 +2543,7 @@ membrane|A
 membrane attack complex|C
 membrane coat|C
 membrane part|A
+membrane protein complex|C
 membrane raft|A
 membrane region|A
 membrane stack|A
@@ -2575,16 +2586,20 @@ micropinosome|A
 microprocessor complex|C
 micropyle|A
 microspike|A
+microsporidian-type endospore|A
+microsporidian-type exospore|A
 microsporocyte nucleus|A
 microtubule|C
 microtubule associated complex|C
 microtubule bundle|A
 microtubule cytoskeleton|A
+microtubule end|A
 microtubule minus-end|A
 microtubule organizing center|A
 microtubule organizing center attachment site|A
 microtubule organizing center part|A
 microtubule plus-end|A
+microvesicle|A
 microvillar actin bundle|A
 microvillus|A
 microvillus membrane|A
@@ -2630,6 +2645,7 @@ mitochondrial part|A
 mitochondrial permeability transition pore complex|C
 mitochondrial processing peptidase complex|C
 mitochondrial prohibitin complex|C
+mitochondrial protein complex|C
 mitochondrial proton-transporting ATP synthase complex|C
 mitochondrial proton-transporting ATP synthase complex, catalytic core F(1)|C
 mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)|C
@@ -2767,6 +2783,7 @@ non-membrane-bounded organelle|A
 non-segmented viral genome|A
 nonhomologous end joining complex|C
 nonmotile primary cilium|A
+nonmotile primary cilium membrane|A
 npBAF complex|C
 nuclear DNA replication factor C complex|C
 nuclear DNA-directed RNA polymerase complex|C
@@ -2916,7 +2933,9 @@ outer dense plaque of desmosome|A
 outer dynein arm|C
 outer endospore membrane|A
 outer membrane|A
+outer membrane vesicle|A
 outer membrane-bounded periplasmic space|A
+outer mitochondrial membrane protein complex|C
 outer mucus layer|A
 outer plaque of mitotic spindle pole body|A
 outer plaque of spindle pole body|A
@@ -3024,6 +3043,7 @@ pilus tip|A
 pinceau fiber|A
 pinosome|A
 pirellulosome|A
+pituitary gonadotropin complex|C
 plant cell papilla|A
 plant-type cell wall|A
 plant-type vacuole|A
@@ -3039,6 +3059,7 @@ plasma membrane part|A
 plasma membrane part of cell junction|A
 plasma membrane part of cell-substrate junction.|A
 plasma membrane part of hemidesmosome|A
+plasma membrane protein complex|C
 plasma membrane proton-transporting ATP synthase complex|C
 plasma membrane proton-transporting ATP synthase complex, catalytic core F(1)|C
 plasma membrane proton-transporting ATP synthase complex, coupling factor F(o)|C
@@ -3049,6 +3070,7 @@ plasma membrane proton-transporting V-type ATPase complex|C
 plasma membrane proton-transporting V-type ATPase, V0 domain|C
 plasma membrane proton-transporting V-type ATPase, V1 domain|C
 plasma membrane raft|A
+plasma membrane receptor complex|C
 plasma membrane region|A
 plasma membrane respiratory chain|A
 plasma membrane respiratory chain complex I|C
@@ -3145,6 +3167,7 @@ post-anaphase microtubule array|A
 post-lysosomal vacuole|A
 post-mRNA release spliceosomal complex|C
 post-spliceosomal complex|C
+postsynapse|A
 postsynaptic density|A
 postsynaptic membrane|A
 potassium channel complex|C
@@ -3165,6 +3188,7 @@ preribosome, large subunit precursor|C
 preribosome, small subunit precursor|C
 presequence translocase-associated import motor|C
 prespliceosome|C
+presynapse|A
 presynaptic active zone|A
 presynaptic active zone dense projection|A
 presynaptic active zone membrane|A
@@ -3281,6 +3305,7 @@ pyrenoid|A
 pyrophosphate-dependent phosphofructokinase complex|C
 pyrophosphate-dependent phosphofructokinase complex, alpha-subunit complex|C
 pyrophosphate-dependent phosphofructokinase complex, beta-subunit complex|C
+pyroptosome complex|C
 pyrroline-5-carboxylate reductase complex|C
 pyruvate dehydrogenase (lipoamide) phosphatase complex|C
 pyruvate dehydrogenase complex|C
@@ -3304,6 +3329,7 @@ replication inhibiting complex|C
 replisome|C
 repressor ecdysone receptor complex|C
 respiratory chain|A
+respiratory chain complex|C
 respiratory chain complex I|C
 respiratory chain complex II|C
 respiratory chain complex III|C
@@ -3635,6 +3661,7 @@ transcriptional repressor complex|C
 transcriptionally active chromatin|C
 transcriptionally silent chromatin|C
 transferase complex|C
+transferase complex, transferring phosphorus-containing groups|C
 transforming growth factor beta activated kinase 1 complex|C
 transforming growth factor beta receptor homodimeric complex|C
 transforming growth factor beta type I receptor homodimeric complex|C
@@ -3773,6 +3800,7 @@ vitelline envelope|A
 voltage-gated calcium channel complex|C
 voltage-gated potassium channel complex|C
 voltage-gated sodium channel complex|C
+whole membrane|A
 xanthine dehydrogenase complex|C
 xanthophore|A
 xylanosome|C

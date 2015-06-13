@@ -4,8 +4,8 @@ Keyword=SPAC
 DomainString=Gene and Gene Products
 SpeciesString=9606, 10090, 10116
 DescriptionString=Swiss-Prot database accession numbers for Homo sapiens, Mus musculus, and Rattus norvegicus. These may be used to specify gene, RNA and protein abundances. Single character encoding following each value specify which abundance types are valid. 
-VersionString=20150512
-CreatedDateTime=2015-05-12T17:39:07
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:51:15
 QueryValueURL=http://www.uniprot.org/uniprot/[VALUE]
 
 [Author]
@@ -16,8 +16,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=Universal Protein Resource (UniProt), UniProt consortium
 DescriptionString=Swiss-Prot is the manually annotated and reviewed section of the UniProt Knowledgebase (UniProtKB). It is a high quality annotated and non-redundant protein sequence database, which brings together experimental results, computed features and scientific conclusions.
-PublishedVersionString=Wed, 29 Apr 2015 14:00:00
-PublishedDate=2015-04-29
+PublishedVersionString=Wed, 27 May 2015 14:00:00
+PublishedDate=2015-05-27
 ReferenceURL=http://www.uniprot.org
 
 [Processing]
@@ -37,6 +37,7 @@ A0A024RD90|GRP
 A0A059TD09|GRP
 A0A060A9S4|GRP
 A0A075B6T0|GRP
+A0A087WSX3|GRP
 A0A087WTH1|GRP
 A0A087WVF3|GRP
 A0A087WXJ1|GRP
@@ -6952,6 +6953,7 @@ A8K5P0|GRP
 A8K5P1|GRP
 A8K5P2|GRP
 A8K5P6|GRP
+A8K5Q5|GRP
 A8K5Q7|GRP
 A8K5Q8|GRP
 A8K5Q9|GRP
@@ -14230,6 +14232,7 @@ B4DF05|GRP
 B4DF08|GRP
 B4DF15|GRP
 B4DF18|GRP
+B4DF24|GRP
 B4DF25|GRP
 B4DF29|GRP
 B4DF31|GRP
@@ -24354,6 +24357,7 @@ F1LQX4|GRP
 F1LQY4|GRP
 F1LR50|GRP
 F1LRC5|GRP
+F1LRG6|GRP
 F1LRS0|GRP
 F1LRS8|GRP
 F1LS60|GRP
@@ -24368,6 +24372,7 @@ F1LYQ8|GRP
 F1LZ52|GRP
 F1LZF0|GRP
 F1M1H7|GRP
+F1M1M6|GRP
 F1M1M8|GRP
 F1M2Z5|GRP
 F1M386|GRP
@@ -31466,7 +31471,6 @@ O75501|GRP
 O75502|GRP
 O75503|GRP
 O75504|GRP
-O75505|GRP
 O75506|GRP
 O75507|GRP
 O75508|GRP
@@ -35865,6 +35869,21 @@ P0DMS8|GRP
 P0DMS9|GRP
 P0DMT0|GRP
 P0DMU2|GRP
+P0DMU3|GRP
+P0DMU4|GRP
+P0DMU5|GRP
+P0DMU6|GRP
+P0DMU7|GRP
+P0DMU8|GRP
+P0DMU9|GRP
+P0DMV0|GRP
+P0DMV1|GRP
+P0DMV2|GRP
+P0DMV8|GRP
+P0DMV9|GRP
+P0DMW0|GRP
+P0DMW1|GRP
+P0DMW2|GRP
 P10037|GRP
 P10065|GRP
 P10066|GRP
@@ -85880,7 +85899,6 @@ Q6ZRG5|GRP
 Q6ZRG7|GRP
 Q6ZRH6|GRP
 Q6ZRH7|GRP
-Q6ZRH9|GRP
 Q6ZRI0|GRP
 Q6ZRI2|GRP
 Q6ZRI6|GRP
@@ -107792,6 +107810,7 @@ Q8QZU4|GRP
 Q8QZU7|GRP
 Q8QZU8|GRP
 Q8QZV0|GRP
+Q8QZV1|GRP
 Q8QZV2|GRP
 Q8QZV3|GRP
 Q8QZV4|GRP
@@ -132218,6 +132237,7 @@ Q9H6N1|GRP
 Q9H6N2|GRP
 Q9H6N4|GRP
 Q9H6N5|GRP
+Q9H6N6|GRP
 Q9H6N7|GRP
 Q9H6N9|GRP
 Q9H6P0|GRP

@@ -4,8 +4,8 @@ Keyword=GOBP
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=The Gene Ontology (GO) names for biological process. These names may be used to represent biological processes. 
-VersionString=20150512
-CreatedDateTime=2015-05-12T17:39:13
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:51:23
 QueryValueURL=http://amigo.geneontology.org/cgi-bin/amigo/search.cgi?search_query=[VALUE]&search_constraint=term&exact_match=1&action=new-search
 
 [Author]
@@ -16,8 +16,8 @@ ContactInfoString=info@openbel.org
 [Citation]
 NameString=The Gene Ontology Consortium
 DescriptionString=The Gene Ontology project is a major bioinformatics initiative with the aim of standardizing the representation of gene and gene product attributes across species and databases.
-PublishedVersionString=2015-04-30
-PublishedDate=2015-04-29
+PublishedVersionString=2015-05-30
+PublishedDate=2015-05-29
 ReferenceURL=http://www.geneontology.org/
 
 [Processing]
@@ -460,7 +460,6 @@ CAAX-box protein maturation|B
 CAAX-box protein modification|B
 CAAX-box protein processing|B
 CAM photosynthesis|B
-CAR assembly checkpoint|B
 CCL19-activated CCR7 signaling pathway|B
 CCL2-activated CCR2 signaling pathway|B
 CCL2-activated CCR4 signaling pathway|B
@@ -742,6 +741,7 @@ ER-associated misfolded protein catabolic process|B
 ER-associated ubiquitin-dependent protein catabolic process|B
 ER-dependent peroxisome organization|B
 ER-nucleus signaling pathway|B
+ERAD pathway|B
 ERBB signaling pathway|B
 ERBB2 signaling pathway|B
 ERBB2-EGFR signaling pathway|B
@@ -873,6 +873,7 @@ Golgi inheritance|B
 Golgi localization|B
 Golgi medial cisterna-derived vesicle fusion with Golgi cis cisterna membrane|B
 Golgi membrane coat protein complex assembly|B
+Golgi membrane fusion|B
 Golgi membrane priming complex assembly|B
 Golgi organization|B
 Golgi reassembly|B
@@ -1477,6 +1478,7 @@ SRP-dependent cotranslational protein targeting to membrane, signal sequence pro
 SRP-dependent cotranslational protein targeting to membrane, signal sequence recognition|B
 SRP-dependent cotranslational protein targeting to membrane, translocation|B
 STAT protein import into nucleus|B
+Schwann cell chemotaxis|B
 Schwann cell development|B
 Schwann cell differentiation|B
 Schwann cell migration|B
@@ -1642,6 +1644,7 @@ UV-A, blue light phototransduction|B
 UV-damage excision repair|B
 UV-damage excision repair, DNA incision|B
 V(D)J recombination|B
+VCP-NPL4-UFD1 AAA ATPase complex assembly|B
 VEGF-activated neuropilin signaling pathway|B
 VEGF-activated neuropilin signaling pathway involved in axon guidance|B
 VEGF-activated platelet-derived growth factor receptor signaling pathway|B
@@ -2076,6 +2079,7 @@ age-dependent response to oxidative stress involved in replicative cell aging|B
 age-dependent response to reactive oxygen species|B
 age-dependent response to reactive oxygen species involved in chronological cell aging|B
 age-dependent response to reactive oxygen species involved in replicative cell aging|B
+age-related resistance|B
 agglutination involved in conjugation|B
 agglutination involved in conjugation with cellular fusion|B
 agglutination involved in conjugation with mutual genetic exchange|B
@@ -2688,6 +2692,7 @@ associative learning|B
 astaxanthin biosynthetic process|B
 astaxanthin catabolic process|B
 astaxanthin metabolic process|B
+astral microtubule anchoring at mitotic spindle pole body|B
 astral microtubule depolymerization|B
 astral microtubule nucleation|B
 astral microtubule organization|B
@@ -2775,11 +2780,11 @@ autocrine signaling|B
 autolysis|B
 autonomic nervous system development|B
 autophagic cell death|B
-autophagic membrane disassembly|B
-autophagic vacuole assembly|B
-autophagic vacuole docking|B
-autophagic vacuole fusion|B
-autophagic vacuole maturation|B
+autophagosome assembly|B
+autophagosome docking|B
+autophagosome fusion|B
+autophagosome maturation|B
+autophagosome membrane disassembly|B
 autophagy|B
 autophagy in response to ER overload|B
 autophagy involved in symbiotic interaction|B
@@ -3851,6 +3856,8 @@ cellular component organization or biogenesis|B
 cellular copper ion homeostasis|B
 cellular creatinine homeostasis|B
 cellular defense response|B
+cellular detoxification|B
+cellular detoxification of hydrogen peroxide|B
 cellular detoxification of nitrogen compound|B
 cellular developmental process|B
 cellular divalent inorganic anion homeostasis|B
@@ -5204,8 +5211,8 @@ cytokine secretion|B
 cytokine secretion involved in immune response|B
 cytokine-mediated signaling pathway|B
 cytokinesis|B
-cytokinesis after mitosis checkpoint|B
 cytokinesis by cell plate formation|B
+cytokinesis checkpoint|B
 cytokinesis, site selection|B
 cytokinetic process|B
 cytokinin biosynthetic process|B
@@ -5344,6 +5351,7 @@ daunorubicin transport|B
 de novo centriole assembly|B
 de-etiolation|B
 deactivation of rhodopsin mediated signaling|B
+deadenylation involved in gene silencing by miRNA|B
 deadenylation-dependent decapping of nuclear-transcribed mRNA|B
 deadenylation-independent decapping of nuclear-transcribed mRNA|B
 death|B
@@ -5705,6 +5713,7 @@ detoxification of arsenic-containing substance|B
 detoxification of cadmium ion|B
 detoxification of cobalt ion|B
 detoxification of copper ion|B
+detoxification of hydrogen peroxide|B
 detoxification of inorganic compound|B
 detoxification of iron ion|B
 detoxification of mercury ion|B
@@ -6552,6 +6561,7 @@ epoxide metabolic process|B
 epoxygenase P450 pathway|B
 equator specification|B
 equatorial microtubule organization|B
+equatorial microtubule organizing center assembly|B
 equatorial microtubule organizing center disassembly|B
 equilibrioception|B
 ergosterol biosynthetic process|B
@@ -7251,8 +7261,6 @@ fruit ripening, non-climacteric|B
 fruit septum development|B
 fruit valve development|B
 fruiting body development|B
-fruiting body development in cellular response to starvation|B
-fruiting body development in response to starvation|B
 fucose biosynthetic process|B
 fucose catabolic process|B
 fucose metabolic process|B
@@ -7381,6 +7389,7 @@ gamma-delta T cell proliferation involved in immune response|B
 gamma-delta intraepithelial T cell differentiation|B
 gamma-tubulin complex assembly|B
 gamma-tubulin complex localization|B
+gamma-tubulin complex localization to mitotic spindle pole body|B
 ganglion development|B
 ganglion formation|B
 ganglion maturation|B
@@ -7824,6 +7833,7 @@ granuloma formation|B
 granulosa cell development|B
 granulosa cell differentiation|B
 granulosa cell fate commitment|B
+granulosa cell proliferation|B
 granulysin production|B
 granum assembly|B
 granzyme A production|B
@@ -8587,10 +8597,10 @@ inflammatory response to wounding|B
 inflorescence development|B
 inflorescence meristem growth|B
 inflorescence morphogenesis|B
+inflorescence phyllotactic patterning|B
 ingression involved in gastrulation with mouth forming second|B
 inheritance of oxidatively modified proteins involved in replicative cell aging|B
 inhibin secretion|B
-inhibition of APC-Cdc20 complex activity|B
 inhibition of acetylcholine uptake|B
 inhibition of cysteine-type endopeptidase activity|B
 inhibition of cysteine-type endopeptidase activity involved in apoptotic process|B
@@ -9001,6 +9011,7 @@ involuntary skeletal muscle contraction|B
 involution involved in gastrulation with mouth forming second|B
 inward migration of deep nuclear neurons|B
 iodide oxidation|B
+iodide transmembrane transport|B
 iodide transport|B
 ion homeostasis|B
 ion transmembrane transport|B
@@ -9682,8 +9693,10 @@ mRNA branch site recognition|B
 mRNA catabolic process|B
 mRNA cis splicing, via spliceosome|B
 mRNA cleavage|B
+mRNA cleavage involved in gene silencing|B
 mRNA cleavage involved in gene silencing by miRNA|B
 mRNA cleavage involved in gene silencing by siRNA|B
+mRNA cleavage involved in mRNA processing|B
 mRNA destabilization|B
 mRNA export from nucleus|B
 mRNA export from nucleus in response to heat stress|B
@@ -10158,6 +10171,7 @@ meiotic mismatch repair involved in reciprocal meiotic recombination|B
 meiotic nuclear division|B
 meiotic nuclear envelope disassembly|B
 meiotic nuclear envelope reassembly|B
+meiotic prometaphase I|B
 meiotic prophase I|B
 meiotic prophase II|B
 meiotic recombination checkpoint|B
@@ -10242,6 +10256,7 @@ membrane organization|B
 membrane protein ectodomain proteolysis|B
 membrane protein intracellular domain proteolysis|B
 membrane protein proteolysis|B
+membrane protein proteolysis involved in retrograde protein transport, ER to cytosol|B
 membrane raft assembly|B
 membrane raft distribution|B
 membrane raft localization|B
@@ -10897,6 +10912,7 @@ mitotic cell cycle arrest in response to glucose starvation|B
 mitotic cell cycle arrest in response to nitrogen starvation|B
 mitotic cell cycle arrest in response to pheromone|B
 mitotic cell cycle checkpoint|B
+mitotic cell cycle checkpoint inhibiting CAR assembly|B
 mitotic cell cycle phase|B
 mitotic cell cycle phase transition|B
 mitotic cell cycle process|B
@@ -10922,7 +10938,6 @@ mitotic nuclear envelope reassembly|B
 mitotic nuclear pore complex reassembly|B
 mitotic pre-replicative complex assembly|B
 mitotic prometaphase|B
-mitotic prometaphase I|B
 mitotic prophase|B
 mitotic recombination|B
 mitotic recombination involved in replication fork processing|B
@@ -10936,6 +10951,7 @@ mitotic spindle assembly checkpoint|B
 mitotic spindle checkpoint|B
 mitotic spindle disassembly|B
 mitotic spindle elongation|B
+mitotic spindle microtubule depolymerization|B
 mitotic spindle midzone assembly|B
 mitotic spindle organization|B
 mitotic spindle organization in nucleus|B
@@ -11543,6 +11559,7 @@ myotube cell development involved in skeletal muscle regeneration|B
 myotube differentiation|B
 myotube differentiation involved in skeletal muscle regeneration|B
 mystery cell differentiation|B
+myxococcal fruiting body development|B
 myxospore formation|B
 n-octane metabolic process|B
 n-octane oxidation|B
@@ -11583,6 +11600,7 @@ ncRNA polyadenylation|B
 ncRNA polyadenylation involved in polyadenylation-dependent ncRNA catabolic process|B
 ncRNA processing|B
 ncRNA transcription|B
+ncRNA transcription associated with protein coding gene TSS/TES|B
 necroptotic process|B
 necroptotic signaling pathway|B
 necrotic cell death|B
@@ -11731,6 +11749,7 @@ negative regulation of 17-methylnonadec-1-ene metabolic process|B
 negative regulation of 18-methylnonadec-1-ene biosynthetic process|B
 negative regulation of 18-methylnonadec-1-ene metabolic process|B
 negative regulation of APC-Cdc20 complex activity|B
+negative regulation of APC-fizzy related complex activity|B
 negative regulation of ARF protein signal transduction|B
 negative regulation of ATF6-mediated unfolded protein response|B
 negative regulation of ATP biosynthetic process|B
@@ -11777,6 +11796,7 @@ negative regulation of CD8-positive, alpha-beta T cell differentiation|B
 negative regulation of CD8-positive, alpha-beta T cell extravasation|B
 negative regulation of CD8-positive, alpha-beta T cell proliferation|B
 negative regulation of CD8-positive, alpha-beta cytotoxic T cell extravasation|B
+negative regulation of CDP-diacylglycerol-serine O-phosphatidyltransferase activity|B
 negative regulation of CENP-A containing nucleosome assembly|B
 negative regulation of CREB transcription factor activity|B
 negative regulation of D-amino-acid oxidase activity|B
@@ -11914,6 +11934,7 @@ negative regulation of SREBP signaling pathway by transcription factor catabolic
 negative regulation of SREBP signaling pathway in response to increased oxygen levels|B
 negative regulation of STAT protein import into nucleus|B
 negative regulation of SUMO transferase activity|B
+negative regulation of Schwann cell chemotaxis|B
 negative regulation of Schwann cell differentiation|B
 negative regulation of Schwann cell migration|B
 negative regulation of Schwann cell proliferation|B
@@ -11949,6 +11970,7 @@ negative regulation of T-helper 2 cell cytokine production|B
 negative regulation of T-helper 2 cell differentiation|B
 negative regulation of T-helper cell differentiation|B
 negative regulation of TOR signaling|B
+negative regulation of TORC1 signaling|B
 negative regulation of TORC2 signaling|B
 negative regulation of TRAIL biosynthetic process|B
 negative regulation of TRAIL production|B
@@ -11962,6 +11984,7 @@ negative regulation of Type II site-specific deoxyribonuclease activity|B
 negative regulation of Type III site-specific deoxyribonuclease activity|B
 negative regulation of Type IV site-specific deoxyribonuclease activity|B
 negative regulation of UDP-glucose catabolic process|B
+negative regulation of VCP-NPL4-UFD1 AAA ATPase complex assembly|B
 negative regulation of Wnt protein secretion|B
 negative regulation of Wnt signaling pathway|B
 negative regulation of Wnt signaling pathway by Wnt receptor internalization|B
@@ -11980,6 +12003,7 @@ negative regulation of acetylcholine uptake|B
 negative regulation of acetylcholine-gated cation channel activity|B
 negative regulation of acid-sensing ion channel activity|B
 negative regulation of acid-sensing ion channel in other organism|B
+negative regulation of aconitate hydratase activity|B
 negative regulation of acrosome reaction|B
 negative regulation of actin cytoskeleton reorganization|B
 negative regulation of actin filament bundle assembly|B
@@ -12009,6 +12033,7 @@ negative regulation of adenylate cyclase activity|B
 negative regulation of adenylate cyclase-inhibiting opioid receptor signaling pathway|B
 negative regulation of adherens junction organization|B
 negative regulation of adiponectin secretion|B
+negative regulation of adipose tissue development|B
 negative regulation of adrenergic receptor signaling pathway|B
 negative regulation of adrenergic receptor signaling pathway involved in heart process|B
 negative regulation of adrenergic receptor signaling pathway involved in positive regulation of heart rate|B
@@ -12017,6 +12042,7 @@ negative regulation of adult salivary gland boundary specification|B
 negative regulation of aeciospore formation|B
 negative regulation of aecium development|B
 negative regulation of aflatoxin biosynthetic process|B
+negative regulation of age-related resistance|B
 negative regulation of aggregate size involved in sorocarp development|B
 negative regulation of alcohol biosynthetic process|B
 negative regulation of aldosterone biosynthetic process|B
@@ -12126,10 +12152,10 @@ negative regulation of auditory receptor cell differentiation|B
 negative regulation of auditory receptor cell fate specification|B
 negative regulation of austinol biosynthetic process|B
 negative regulation of autophagic cell death|B
-negative regulation of autophagic vacuole assembly|B
-negative regulation of autophagic vacuole fusion|B
-negative regulation of autophagic vacuole maturation|B
-negative regulation of autophagic vacuole size|B
+negative regulation of autophagosome assembly|B
+negative regulation of autophagosome fusion|B
+negative regulation of autophagosome maturation|B
+negative regulation of autophagosome size|B
 negative regulation of autophagy|B
 negative regulation of auxin mediated signaling pathway|B
 negative regulation of auxin metabolic process|B
@@ -12146,6 +12172,7 @@ negative regulation of bacterial-type flagellum assembly|B
 negative regulation of bacterial-type flagellum-dependent cell motility|B
 negative regulation of barbed-end actin filament capping|B
 negative regulation of barrier septum assembly|B
+negative regulation of basement membrane assembly involved in embryonic body morphogenesis|B
 negative regulation of basidiospore formation|B
 negative regulation of basidium development|B
 negative regulation of basophil degranulation|B
@@ -12160,6 +12187,7 @@ negative regulation of beta1-adrenergic receptor activity|B
 negative regulation of bicellular tight junction assembly|B
 negative regulation of bicoid mRNA localization|B
 negative regulation of bile acid biosynthetic process|B
+negative regulation of bile acid metabolic process|B
 negative regulation of binding|B
 negative regulation of binding of sperm to zona pellucida|B
 negative regulation of biological process|B
@@ -12425,6 +12453,7 @@ negative regulation of chanoclavine-I aldehyde biosynthetic process|B
 negative regulation of chanoclavine-I biosynthetic process|B
 negative regulation of chaperone-mediated protein folding|B
 negative regulation of chemokine (C-C motif) ligand 1 production|B
+negative regulation of chemokine (C-C motif) ligand 2 secretion|B
 negative regulation of chemokine (C-C motif) ligand 20 production|B
 negative regulation of chemokine (C-C motif) ligand 4 production|B
 negative regulation of chemokine (C-C motif) ligand 5 production|B
@@ -12444,6 +12473,7 @@ negative regulation of chitin-based cuticle tanning|B
 negative regulation of chloride transport|B
 negative regulation of chlorophyll biosynthetic process|B
 negative regulation of chlorophyll catabolic process|B
+negative regulation of cholangiocyte apoptotic process|B
 negative regulation of cholangiocyte proliferation|B
 negative regulation of cholesterol biosynthetic process|B
 negative regulation of cholesterol efflux|B
@@ -12896,6 +12926,7 @@ negative regulation of glucose mediated signaling pathway|B
 negative regulation of glucose transport|B
 negative regulation of glucosylceramide biosynthetic process|B
 negative regulation of glucuronoarabinoxylan catabolic process|B
+negative regulation of glucuronosyltransferase activity|B
 negative regulation of glucuronoxylan catabolic process|B
 negative regulation of glutamate metabolic process|B
 negative regulation of glutamate receptor signaling pathway|B
@@ -12912,6 +12943,7 @@ negative regulation of glycogen (starch) synthase activity|B
 negative regulation of glycogen biosynthetic process|B
 negative regulation of glycogen catabolic process|B
 negative regulation of glycogen metabolic process|B
+negative regulation of glycogen synthase activity, transferring glucose-1-phosphate|B
 negative regulation of glycolytic fermentation to ethanol|B
 negative regulation of glycolytic process|B
 negative regulation of glycoprotein biosynthetic process|B
@@ -12924,6 +12956,7 @@ negative regulation of granulocyte differentiation|B
 negative regulation of granulocyte macrophage colony-stimulating factor biosynthetic process|B
 negative regulation of granulocyte macrophage colony-stimulating factor production|B
 negative regulation of granuloma formation|B
+negative regulation of granulosa cell proliferation|B
 negative regulation of granzyme A production|B
 negative regulation of granzyme B production|B
 negative regulation of growth|B
@@ -13210,10 +13243,13 @@ negative regulation of invasive growth in response to glucose limitation|B
 negative regulation of invasive growth in response to glucose limitation by negative regulation of transcription from RNA polymerase II promoter|B
 negative regulation of invasive growth in response to glucose limitation by transcription from RNA polymerase II promoter|B
 negative regulation of inward rectifier potassium channel activity|B
+negative regulation of iodide transmembrane transport|B
+negative regulation of iodide transport|B
 negative regulation of ion transmembrane transport|B
 negative regulation of ion transmembrane transporter activity|B
 negative regulation of ion transport|B
 negative regulation of iridophore differentiation|B
+negative regulation of iron channel activity|B
 negative regulation of iron ion transmembrane transport|B
 negative regulation of iron ion transport|B
 negative regulation of iron-sulfur cluster assembly|B
@@ -13413,6 +13449,7 @@ negative regulation of melanization defense response|B
 negative regulation of melanocyte differentiation|B
 negative regulation of melanosome organization|B
 negative regulation of melanosome transport|B
+negative regulation of membrane depolarization|B
 negative regulation of membrane depolarization during cardiac muscle cell action potential|B
 negative regulation of membrane hyperpolarization|B
 negative regulation of membrane potential|B
@@ -13725,6 +13762,7 @@ negative regulation of pancreatic A cell differentiation|B
 negative regulation of pancreatic amylase secretion|B
 negative regulation of pancreatic juice secretion|B
 negative regulation of pancreatic stellate cell proliferation|B
+negative regulation of pancreatic trypsinogen secretion|B
 negative regulation of parathyroid hormone secretion|B
 negative regulation of paraxial mesodermal cell fate determination|B
 negative regulation of paraxial mesodermal cell fate specification|B
@@ -13845,6 +13883,7 @@ negative regulation of polarized epithelial cell differentiation|B
 negative regulation of pole plasm oskar mRNA localization|B
 negative regulation of polyamine transmembrane transport|B
 negative regulation of polyketide biosynthetic process|B
+negative regulation of polynucleotide adenylyltransferase activity|B
 negative regulation of positive chemotaxis|B
 negative regulation of positive chemotaxis to cAMP|B
 negative regulation of positive chemotaxis to cAMP by DIF-1|B
@@ -13989,6 +14028,7 @@ negative regulation of purine nucleotide catabolic process|B
 negative regulation of purine nucleotide metabolic process|B
 negative regulation of pyrimidine nucleobase metabolic process|B
 negative regulation of pyrimidine nucleotide biosynthetic process|B
+negative regulation of pyruvate dehydrogenase activity|B
 negative regulation of pyruvate kinase activity|B
 negative regulation of rRNA processing|B
 negative regulation of raffinose biosynthetic process|B
@@ -14009,6 +14049,7 @@ negative regulation of reciprocal meiotic recombination|B
 negative regulation of red or far-red light signaling pathway|B
 negative regulation of reductive pentose-phosphate cycle|B
 negative regulation of regulated secretory pathway|B
+negative regulation of regulation of vascular smooth muscle cell membrane depolarization|B
 negative regulation of regulatory T cell differentiation|B
 negative regulation of relaxation of cardiac muscle|B
 negative regulation of relaxation of muscle|B
@@ -14113,6 +14154,7 @@ negative regulation of sequence-specific DNA binding transcription factor activi
 negative regulation of sequestering of calcium ion|B
 negative regulation of sequestering of triglyceride|B
 negative regulation of sequestering of zinc ion|B
+negative regulation of serine C-palmitoyltransferase activity|B
 negative regulation of serine phosphorylation of STAT3 protein|B
 negative regulation of serine-type endopeptidase activity|B
 negative regulation of serine-type peptidase activity|B
@@ -14147,6 +14189,7 @@ negative regulation of skeletal muscle cell proliferation|B
 negative regulation of skeletal muscle contraction by regulation of release of sequestered calcium ion|B
 negative regulation of skeletal muscle fiber development|B
 negative regulation of skeletal muscle fiber differentiation|B
+negative regulation of skeletal muscle hypertrophy|B
 negative regulation of skeletal muscle satellite cell activation involved in skeletal muscle regeneration|B
 negative regulation of skeletal muscle satellite cell proliferation|B
 negative regulation of skeletal muscle tissue development|B
@@ -14232,6 +14275,8 @@ negative regulation of striated muscle contraction|B
 negative regulation of striated muscle tissue development|B
 negative regulation of substance P receptor binding|B
 negative regulation of substrate adhesion-dependent cell spreading|B
+negative regulation of substrate-dependent cell migration, cell attachment to substrate|B
+negative regulation of succinate dehydrogenase activity|B
 negative regulation of sulfur amino acid metabolic process|B
 negative regulation of sulfur metabolic process|B
 negative regulation of sulfur utilization|B
@@ -14401,6 +14446,7 @@ negative regulation of transcription regulatory region DNA binding|B
 negative regulation of transcription, DNA-templated|B
 negative regulation of transdifferentiation|B
 negative regulation of transferase activity|B
+negative regulation of transformation of host cell by virus|B
 negative regulation of transforming growth factor beta activation|B
 negative regulation of transforming growth factor beta production|B
 negative regulation of transforming growth factor beta receptor signaling pathway|B
@@ -14743,6 +14789,7 @@ neurotransmitter secretory pathway|B
 neurotransmitter signaling initiating cell movement, involved in cerebral cortex radial glia guided migration|B
 neurotransmitter transport|B
 neurotransmitter uptake|B
+neurotransmitter uptake involved in synaptic transmission|B
 neurotransmitter-gated ion channel clustering|B
 neurotransmitter-mediated guidance of interneurons involved in substrate-independent cerebral cortex tangential migration|B
 neurotrophic factor signaling initiating cell movement, involved in cerebral cortex radial glia guided migration|B
@@ -14933,6 +14980,7 @@ nuclear body organization|B
 nuclear capsid assembly|B
 nuclear cell cycle DNA replication initiation|B
 nuclear cortical migration|B
+nuclear dicing body assembly|B
 nuclear division|B
 nuclear division involved in appressorium formation on or near host|B
 nuclear envelope disassembly|B
@@ -15476,6 +15524,7 @@ pancreatic epsilon cell differentiation|B
 pancreatic juice secretion|B
 pancreatic polypeptide secretion|B
 pancreatic stellate cell proliferation|B
+pancreatic trypsinogen secretion|B
 pantothenate biosynthetic process|B
 pantothenate biosynthetic process from 2-dehydropantolactone|B
 pantothenate biosynthetic process from valine|B
@@ -15808,6 +15857,7 @@ peptidyl-lysine biotinylation|B
 peptidyl-lysine carboxyethylation|B
 peptidyl-lysine carboxylation|B
 peptidyl-lysine deacetylation|B
+peptidyl-lysine deglutarylation|B
 peptidyl-lysine demalonylation|B
 peptidyl-lysine desuccinylation|B
 peptidyl-lysine dihydroxylation to 4,5-dihydroxy-L-lysine|B
@@ -15909,6 +15959,7 @@ pericardium morphogenesis|B
 pericentric heterochromatin assembly|B
 perichondral ossification|B
 periclinal cell division|B
+pericyte cell differentiation|B
 perineurial glial growth|B
 periodic partitioning|B
 periodic partitioning by pair rule gene|B
@@ -16678,6 +16729,7 @@ positive regulation of CD8-positive, alpha-beta T cell differentiation|B
 positive regulation of CD8-positive, alpha-beta T cell extravasation|B
 positive regulation of CD8-positive, alpha-beta T cell proliferation|B
 positive regulation of CD8-positive, alpha-beta cytotoxic T cell extravasation|B
+positive regulation of CDP-diacylglycerol-serine O-phosphatidyltransferase activity|B
 positive regulation of CENP-A containing nucleosome assembly|B
 positive regulation of CREB transcription factor activity|B
 positive regulation of D-amino-acid oxidase activity|B
@@ -16818,6 +16870,7 @@ positive regulation of SREBP signaling pathway by transcription factor catabolic
 positive regulation of SREBP signaling pathway in response to decreased oxygen levels|B
 positive regulation of STAT protein import into nucleus|B
 positive regulation of SUMO transferase activity|B
+positive regulation of Schwann cell chemotaxis|B
 positive regulation of Schwann cell differentiation|B
 positive regulation of Schwann cell migration|B
 positive regulation of Schwann cell proliferation|B
@@ -16855,6 +16908,7 @@ positive regulation of T-helper 2 cell cytokine production|B
 positive regulation of T-helper 2 cell differentiation|B
 positive regulation of T-helper cell differentiation|B
 positive regulation of TOR signaling|B
+positive regulation of TORC1 signaling|B
 positive regulation of TRAIL biosynthetic process|B
 positive regulation of TRAIL production|B
 positive regulation of TRAIL receptor 1 biosynthetic process|B
@@ -16862,6 +16916,7 @@ positive regulation of TRAIL receptor 2 biosynthetic process|B
 positive regulation of TRAIL receptor biosynthetic process|B
 positive regulation of TRAIL-activated apoptotic signaling pathway|B
 positive regulation of Toll signaling pathway|B
+positive regulation of VCP-NPL4-UFD1 AAA ATPase complex assembly|B
 positive regulation of Wnt protein secretion|B
 positive regulation of Wnt signaling pathway|B
 positive regulation of Wnt signaling pathway by BMP signaling pathway|B
@@ -16880,6 +16935,7 @@ positive regulation of acetylcholine secretion, neurotransmission|B
 positive regulation of acetylcholine uptake|B
 positive regulation of acid-sensing ion channel activity|B
 positive regulation of acid-sensing ion channel in other organism|B
+positive regulation of aconitate hydratase activity|B
 positive regulation of acrosomal vesicle exocytosis|B
 positive regulation of acrosome reaction|B
 positive regulation of actin cytoskeleton reorganization|B
@@ -16915,6 +16971,7 @@ positive regulation of adenylate cyclase activity involved in G-protein coupled 
 positive regulation of adenylate cyclase-inhibiting opioid receptor signaling pathway|B
 positive regulation of adherens junction organization|B
 positive regulation of adiponectin secretion|B
+positive regulation of adipose tissue development|B
 positive regulation of adrenergic receptor signaling pathway|B
 positive regulation of adrenergic receptor signaling pathway involved in heart process|B
 positive regulation of adrenergic receptor signaling pathway involved in positive regulation of heart rate|B
@@ -16923,6 +16980,7 @@ positive regulation of adult salivary gland boundary specification|B
 positive regulation of aeciospore formation|B
 positive regulation of aecium development|B
 positive regulation of aflatoxin biosynthetic process|B
+positive regulation of age-related resistance|B
 positive regulation of aggregate size involved in sorocarp development|B
 positive regulation of alcohol biosynthetic process|B
 positive regulation of aldosterone biosynthetic process|B
@@ -17030,10 +17088,10 @@ positive regulation of attachment of spindle microtubules to kinetochore|B
 positive regulation of auditory receptor cell differentiation|B
 positive regulation of austinol biosynthetic process|B
 positive regulation of autophagic cell death|B
-positive regulation of autophagic vacuole assembly|B
-positive regulation of autophagic vacuole fusion|B
-positive regulation of autophagic vacuole maturation|B
-positive regulation of autophagic vacuole size|B
+positive regulation of autophagosome assembly|B
+positive regulation of autophagosome fusion|B
+positive regulation of autophagosome maturation|B
+positive regulation of autophagosome size|B
 positive regulation of autophagy|B
 positive regulation of auxin biosynthetic process|B
 positive regulation of auxin mediated signaling pathway|B
@@ -17049,6 +17107,7 @@ positive regulation of axonogenesis|B
 positive regulation of bacterial-type flagellum assembly|B
 positive regulation of barbed-end actin filament capping|B
 positive regulation of barrier septum assembly|B
+positive regulation of basement membrane assembly involved in embryonic body morphogenesis|B
 positive regulation of basidiospore formation|B
 positive regulation of basidium development|B
 positive regulation of basophil degranulation|B
@@ -17063,6 +17122,7 @@ positive regulation of beta1-adrenergic receptor activity|B
 positive regulation of bicellular tight junction assembly|B
 positive regulation of bicoid mRNA localization|B
 positive regulation of bile acid biosynthetic process|B
+positive regulation of bile acid metabolic process|B
 positive regulation of binding|B
 positive regulation of biological process|B
 positive regulation of biomineral tissue development|B
@@ -17304,6 +17364,7 @@ positive regulation of chanoclavine-I biosynthetic process|B
 positive regulation of chaperone-mediated protein complex assembly|B
 positive regulation of chaperone-mediated protein folding|B
 positive regulation of chemokine (C-C motif) ligand 1 production|B
+positive regulation of chemokine (C-C motif) ligand 2 secretion|B
 positive regulation of chemokine (C-C motif) ligand 20 production|B
 positive regulation of chemokine (C-C motif) ligand 4 production|B
 positive regulation of chemokine (C-C motif) ligand 5 production|B
@@ -17322,6 +17383,7 @@ positive regulation of chemotaxis to cAMP by DIF-2|B
 positive regulation of chitin-based cuticle tanning|B
 positive regulation of chlorophyll biosynthetic process|B
 positive regulation of chlorophyll catabolic process|B
+positive regulation of cholangiocyte apoptotic process|B
 positive regulation of cholangiocyte proliferation|B
 positive regulation of cholesterol biosynthetic process|B
 positive regulation of cholesterol efflux|B
@@ -17430,6 +17492,7 @@ positive regulation of cyclin-dependent protein kinase activity|B
 positive regulation of cyclin-dependent protein serine/threonine kinase activity|B
 positive regulation of cyclin-dependent protein serine/threonine kinase activity involved in G1/S transition of mitotic cell cycle|B
 positive regulation of cyclin-dependent protein serine/threonine kinase activity involved in G2/M transition of mitotic cell cycle|B
+positive regulation of cyclin-dependent protein serine/threonine kinase activity involved in meiotic nuclear division|B
 positive regulation of cyclodextrin catabolic process|B
 positive regulation of cyclodextrin metabolic process|B
 positive regulation of cystathionine beta-synthase activity|B
@@ -17779,6 +17842,7 @@ positive regulation of glucose transport|B
 positive regulation of glucosylceramide biosynthetic process|B
 positive regulation of glucosylceramide catabolic process|B
 positive regulation of glucuronoarabinoxylan catabolic process|B
+positive regulation of glucuronosyltransferase activity|B
 positive regulation of glucuronoxylan catabolic process|B
 positive regulation of glutamate metabolic process|B
 positive regulation of glutamate neurotransmitter secretion in response to membrane depolarization|B
@@ -17797,6 +17861,7 @@ positive regulation of glycogen (starch) synthase activity|B
 positive regulation of glycogen biosynthetic process|B
 positive regulation of glycogen catabolic process|B
 positive regulation of glycogen metabolic process|B
+positive regulation of glycogen synthase activity, transferring glucose-1-phosphate|B
 positive regulation of glycolytic fermentation to ethanol|B
 positive regulation of glycolytic process|B
 positive regulation of glycoprotein biosynthetic process|B
@@ -17811,6 +17876,7 @@ positive regulation of granulocyte differentiation|B
 positive regulation of granulocyte macrophage colony-stimulating factor biosynthetic process|B
 positive regulation of granulocyte macrophage colony-stimulating factor production|B
 positive regulation of granuloma formation|B
+positive regulation of granulosa cell proliferation|B
 positive regulation of granzyme A production|B
 positive regulation of granzyme B production|B
 positive regulation of growth|B
@@ -18101,10 +18167,13 @@ positive regulation of intrinsic apoptotic signaling pathway in response to osmo
 positive regulation of invasive growth in response to glucose limitation|B
 positive regulation of invasive growth in response to glucose limitation by positive regulation of transcription from RNA polymerase II promoter|B
 positive regulation of inward rectifier potassium channel activity|B
+positive regulation of iodide transmembrane transport|B
+positive regulation of iodide transport|B
 positive regulation of ion transmembrane transport|B
 positive regulation of ion transmembrane transporter activity|B
 positive regulation of ion transport|B
 positive regulation of iridophore differentiation|B
+positive regulation of iron channel activity|B
 positive regulation of iron ion transmembrane transport|B
 positive regulation of iron ion transport|B
 positive regulation of iron-sulfur cluster assembly|B
@@ -18304,6 +18373,7 @@ positive regulation of melanization defense response|B
 positive regulation of melanocyte differentiation|B
 positive regulation of melanosome organization|B
 positive regulation of melanosome transport|B
+positive regulation of membrane depolarization|B
 positive regulation of membrane depolarization during cardiac muscle cell action potential|B
 positive regulation of membrane hyperpolarization|B
 positive regulation of membrane potential|B
@@ -18615,6 +18685,7 @@ positive regulation of pancreatic amylase secretion|B
 positive regulation of pancreatic amylase secretion by cholecystokinin signaling pathway|B
 positive regulation of pancreatic juice secretion|B
 positive regulation of pancreatic stellate cell proliferation|B
+positive regulation of pancreatic trypsinogen secretion|B
 positive regulation of parathyroid hormone secretion|B
 positive regulation of paraxial mesodermal cell fate determination|B
 positive regulation of paraxial mesodermal cell fate specification|B
@@ -18732,6 +18803,7 @@ positive regulation of pole plasm oskar mRNA localization|B
 positive regulation of polyamine transmembrane transport|B
 positive regulation of polyketide biosynthetic process|B
 positive regulation of polynucleotide 3'-phosphatase activity|B
+positive regulation of polynucleotide adenylyltransferase activity|B
 positive regulation of positive chemotaxis|B
 positive regulation of positive chemotaxis to cAMP|B
 positive regulation of positive chemotaxis to cAMP by DIF-1|B
@@ -18809,6 +18881,7 @@ positive regulation of protein histidine kinase activity|B
 positive regulation of protein homodimerization activity|B
 positive regulation of protein homooligomerization|B
 positive regulation of protein homotetramerization|B
+positive regulation of protein import into chloroplast stroma|B
 positive regulation of protein import into mitochondrial outer membrane|B
 positive regulation of protein import into nucleus|B
 positive regulation of protein import into nucleus, translocation|B
@@ -18883,6 +18956,7 @@ positive regulation of pyrimidine-containing compound salvage|B
 positive regulation of pyrimidine-containing compound salvage by positive regulation of transcription from RNA polymerase II promoter|B
 positive regulation of pyrimidine-containing compound salvage by transcription from RNA polymerase II promoter|B
 positive regulation of pyrroline-5-carboxylate reductase activity|B
+positive regulation of pyruvate dehydrogenase activity|B
 positive regulation of pyruvate kinase activity|B
 positive regulation of rRNA processing|B
 positive regulation of raffinose biosynthetic process|B
@@ -18904,6 +18978,7 @@ positive regulation of reciprocal meiotic recombination|B
 positive regulation of recombination hotspot binding|B
 positive regulation of red or far-red light signaling pathway|B
 positive regulation of regulated secretory pathway|B
+positive regulation of regulation of vascular smooth muscle cell membrane depolarization|B
 positive regulation of regulatory T cell differentiation|B
 positive regulation of relaxation of cardiac muscle|B
 positive regulation of relaxation of muscle|B
@@ -19013,6 +19088,7 @@ positive regulation of sequence-specific DNA binding transcription factor activi
 positive regulation of sequestering of calcium ion|B
 positive regulation of sequestering of triglyceride|B
 positive regulation of sequestering of zinc ion|B
+positive regulation of serine C-palmitoyltransferase activity|B
 positive regulation of serine phosphorylation of STAT3 protein|B
 positive regulation of serine-type endopeptidase activity|B
 positive regulation of serine-type peptidase activity|B
@@ -19046,6 +19122,7 @@ positive regulation of skeletal muscle cell proliferation|B
 positive regulation of skeletal muscle contraction by regulation of release of sequestered calcium ion|B
 positive regulation of skeletal muscle fiber development|B
 positive regulation of skeletal muscle fiber differentiation|B
+positive regulation of skeletal muscle hypertrophy|B
 positive regulation of skeletal muscle satellite cell differentiation|B
 positive regulation of skeletal muscle tissue development|B
 positive regulation of skeletal muscle tissue growth|B
@@ -19134,6 +19211,8 @@ positive regulation of striated muscle contraction|B
 positive regulation of striated muscle tissue development|B
 positive regulation of substance P receptor binding|B
 positive regulation of substrate adhesion-dependent cell spreading|B
+positive regulation of substrate-dependent cell migration, cell attachment to substrate|B
+positive regulation of succinate dehydrogenase activity|B
 positive regulation of sulfate assimilation|B
 positive regulation of sulfate assimilation by positive regulation of transcription from RNA polymerase II promoter|B
 positive regulation of sulfate assimilation by transcription from RNA polymerase II promoter|B
@@ -19357,6 +19436,7 @@ positive regulation of transcription via serum response element binding|B
 positive regulation of transcription, DNA-templated|B
 positive regulation of transdifferentiation|B
 positive regulation of transferase activity|B
+positive regulation of transformation of host cell by virus|B
 positive regulation of transforming growth factor beta activation|B
 positive regulation of transforming growth factor beta production|B
 positive regulation of transforming growth factor beta receptor signaling pathway|B
@@ -19514,6 +19594,7 @@ positive stranded viral RNA replication|B
 positive thymic T cell selection|B
 post-Golgi vesicle-mediated transport|B
 post-anal tail morphogenesis|B
+post-anaphase microtubule array organization|B
 post-chaperonin tubulin folding pathway|B
 post-embryonic anal fin morphogenesis|B
 post-embryonic anterior midgut (ectodermal) morphogenesis|B
@@ -19607,6 +19688,7 @@ pre-B cell allelic exclusion|B
 pre-B cell differentiation|B
 pre-B cell receptor expression|B
 pre-mRNA catabolic process|B
+pre-mRNA cleavage required for polyadenylation|B
 pre-miRNA export from nucleus|B
 pre-miRNA processing|B
 pre-miRNA-containing ribonucleoprotein complex export from nucleus|B
@@ -19672,6 +19754,7 @@ primary leaflet morphogenesis|B
 primary lung bud formation|B
 primary meristem tissue development|B
 primary metabolic process|B
+primary miRNA methylation|B
 primary miRNA modification|B
 primary miRNA processing|B
 primary neural tube formation|B
@@ -19924,6 +20007,7 @@ protein dealkylation|B
 protein deamination|B
 protein decanoylation|B
 protein deglutamylation|B
+protein deglutarylation|B
 protein deglutathionylation|B
 protein deglycosylation|B
 protein deglycosylation involved in glycoprotein catabolic process|B
@@ -20194,6 +20278,7 @@ protein secretion by the type V secretion system|B
 protein secretion by the type VI secretion system|B
 protein secretion by the type VII secretion system|B
 protein secretion by the type VIII secretion system|B
+protein sialylation|B
 protein side chain deglutamylation|B
 protein splicing|B
 protein stabilization|B
@@ -20599,6 +20684,7 @@ pyrimidine-containing compound metabolic process|B
 pyrimidine-containing compound salvage|B
 pyrimidine-containing compound transmembrane transport|B
 pyroptosis|B
+pyroptosome complex assembly|B
 pyrrolizidine alkaloid biosynthetic process|B
 pyrrolizidine alkaloid catabolic process|B
 pyrrolizidine alkaloid metabolic process|B
@@ -20798,6 +20884,7 @@ regulation of CD8-positive, alpha-beta T cell differentiation|B
 regulation of CD8-positive, alpha-beta T cell extravasation|B
 regulation of CD8-positive, alpha-beta T cell proliferation|B
 regulation of CD8-positive, alpha-beta cytotoxic T cell extravasation|B
+regulation of CDP-diacylglycerol-serine O-phosphatidyltransferase activity|B
 regulation of CENP-A containing nucleosome assembly|B
 regulation of COPII vesicle coating|B
 regulation of COPII vesicle uncoating|B
@@ -20958,6 +21045,7 @@ regulation of SNARE complex disassembly|B
 regulation of SREBP signaling pathway|B
 regulation of STAT protein import into nucleus|B
 regulation of SUMO transferase activity|B
+regulation of Schwann cell chemotaxis|B
 regulation of Schwann cell differentiation|B
 regulation of Schwann cell migration|B
 regulation of Schwann cell proliferation|B
@@ -21009,6 +21097,7 @@ regulation of Type II site-specific deoxyribonuclease activity|B
 regulation of Type III site-specific deoxyribonuclease activity|B
 regulation of Type IV site-specific deoxyribonuclease activity|B
 regulation of UDP-glucose catabolic process|B
+regulation of VCP-NPL4-UFD1 AAA ATPase complex assembly|B
 regulation of Wnt protein secretion|B
 regulation of Wnt signaling pathway|B
 regulation of Wnt signaling pathway by Wnt protein secretion|B
@@ -21028,6 +21117,7 @@ regulation of acetylcholine secretion, neurotransmission|B
 regulation of acetylcholine uptake|B
 regulation of acetylcholine-gated cation channel activity|B
 regulation of acid-sensing ion channel activity|B
+regulation of aconitate hydratase activity|B
 regulation of acrosomal vesicle exocytosis|B
 regulation of acrosome reaction|B
 regulation of actin cortical patch localization|B
@@ -21073,6 +21163,7 @@ regulation of adenylate cyclase activity involved in G-protein coupled receptor 
 regulation of adenylate cyclase-inhibiting opioid receptor signaling pathway|B
 regulation of adherens junction organization|B
 regulation of adiponectin secretion|B
+regulation of adipose tissue development|B
 regulation of adrenergic receptor signaling pathway|B
 regulation of adrenergic receptor signaling pathway involved in heart process|B
 regulation of adrenergic receptor signaling pathway involved in positive regulation of heart rate|B
@@ -21082,6 +21173,7 @@ regulation of aeciospore formation|B
 regulation of aecium development|B
 regulation of aerobic respiration|B
 regulation of aflatoxin biosynthetic process|B
+regulation of age-related resistance|B
 regulation of aggregate size involved in sorocarp development|B
 regulation of aggregation involved in sorocarp development|B
 regulation of alcohol biosynthetic process|B
@@ -21212,10 +21304,10 @@ regulation of auditory receptor cell differentiation|B
 regulation of auditory receptor cell fate specification|B
 regulation of austinol biosynthetic process|B
 regulation of autophagic cell death|B
-regulation of autophagic vacuole assembly|B
-regulation of autophagic vacuole fusion|B
-regulation of autophagic vacuole maturation|B
-regulation of autophagic vacuole size|B
+regulation of autophagosome assembly|B
+regulation of autophagosome fusion|B
+regulation of autophagosome maturation|B
+regulation of autophagosome size|B
 regulation of autophagy|B
 regulation of auxin biosynthetic process|B
 regulation of auxin mediated signaling pathway|B
@@ -21237,6 +21329,7 @@ regulation of bacterial-type flagellum-dependent cell motility by regulation of 
 regulation of barbed-end actin filament capping|B
 regulation of barrier septum assembly|B
 regulation of basal lamina disassembly involved in semicircular canal fusion by cell communication|B
+regulation of basement membrane assembly involved in embryonic body morphogenesis|B
 regulation of basidiospore formation|B
 regulation of basidium development|B
 regulation of basophil degranulation|B
@@ -21253,6 +21346,7 @@ regulation of beta1-adrenergic receptor activity|B
 regulation of bicellular tight junction assembly|B
 regulation of bicoid mRNA localization|B
 regulation of bile acid biosynthetic process|B
+regulation of bile acid metabolic process|B
 regulation of binding|B
 regulation of binding of sperm to zona pellucida|B
 regulation of biological process|B
@@ -21572,6 +21666,7 @@ regulation of chanoclavine-I biosynthetic process|B
 regulation of chaperone-mediated protein complex assembly|B
 regulation of chaperone-mediated protein folding|B
 regulation of chemokine (C-C motif) ligand 1 production|B
+regulation of chemokine (C-C motif) ligand 2 secretion|B
 regulation of chemokine (C-C motif) ligand 20 production|B
 regulation of chemokine (C-C motif) ligand 4 production|B
 regulation of chemokine (C-C motif) ligand 5 production|B
@@ -21594,6 +21689,7 @@ regulation of chloride transport|B
 regulation of chlorophyll biosynthetic process|B
 regulation of chlorophyll catabolic process|B
 regulation of chlorophyll metabolic process|B
+regulation of cholangiocyte apoptotic process|B
 regulation of cholangiocyte proliferation|B
 regulation of cholesterol biosynthetic process|B
 regulation of cholesterol efflux|B
@@ -22134,6 +22230,7 @@ regulation of glucosinolate biosynthetic process|B
 regulation of glucosylceramide biosynthetic process|B
 regulation of glucosylceramide catabolic process|B
 regulation of glucuronoarabinoxylan catabolic process|B
+regulation of glucuronosyltransferase activity|B
 regulation of glucuronoxylan catabolic process|B
 regulation of glutamate metabolic process|B
 regulation of glutamate receptor signaling pathway|B
@@ -22151,6 +22248,7 @@ regulation of glycogen (starch) synthase activity|B
 regulation of glycogen biosynthetic process|B
 regulation of glycogen catabolic process|B
 regulation of glycogen metabolic process|B
+regulation of glycogen synthase activity, transferring glucose-1-phosphate|B
 regulation of glycolysis involved in cellular glucose homeostasis|B
 regulation of glycolytic fermentation to ethanol|B
 regulation of glycolytic process|B
@@ -22168,6 +22266,7 @@ regulation of granulocyte differentiation|B
 regulation of granulocyte macrophage colony-stimulating factor biosynthetic process|B
 regulation of granulocyte macrophage colony-stimulating factor production|B
 regulation of granuloma formation|B
+regulation of granulosa cell proliferation|B
 regulation of granzyme A production|B
 regulation of granzyme B production|B
 regulation of grooming behavior|B
@@ -22476,11 +22575,14 @@ regulation of intrinsic apoptotic signaling pathway in response to osmotic stres
 regulation of intrinsic apoptotic signaling pathway in response to osmotic stress by p53 class mediator|B
 regulation of invasive growth in response to glucose limitation|B
 regulation of inward rectifier potassium channel activity|B
+regulation of iodide transmembrane transport|B
+regulation of iodide transport|B
 regulation of ion homeostasis|B
 regulation of ion transmembrane transport|B
 regulation of ion transmembrane transporter activity|B
 regulation of ion transport|B
 regulation of iridophore differentiation|B
+regulation of iron channel activity|B
 regulation of iron ion import|B
 regulation of iron ion import by regulation of transcription from RNA polymerase II promoter|B
 regulation of iron ion import by transcription from RNA polymerase II promoter|B
@@ -23097,6 +23199,7 @@ regulation of pancreatic A cell differentiation|B
 regulation of pancreatic amylase secretion|B
 regulation of pancreatic juice secretion|B
 regulation of pancreatic stellate cell proliferation|B
+regulation of pancreatic trypsinogen secretion|B
 regulation of parathyroid hormone secretion|B
 regulation of paraxial mesodermal cell fate determination|B
 regulation of paraxial mesodermal cell fate specification|B
@@ -23236,6 +23339,7 @@ regulation of polyamine biosynthetic process|B
 regulation of polyamine transmembrane transport|B
 regulation of polyketide biosynthetic process|B
 regulation of polynucleotide 3'-phosphatase activity|B
+regulation of polynucleotide adenylyltransferase activity|B
 regulation of polysaccharide biosynthetic process|B
 regulation of polysaccharide metabolic process|B
 regulation of positive chemotaxis|B
@@ -23333,6 +23437,7 @@ regulation of protein histidine kinase activity|B
 regulation of protein homodimerization activity|B
 regulation of protein homooligomerization|B
 regulation of protein homotetramerization|B
+regulation of protein import into chloroplast stroma|B
 regulation of protein import into mitochondrial outer membrane|B
 regulation of protein import into nucleus|B
 regulation of protein import into nucleus, translocation|B
@@ -23416,6 +23521,7 @@ regulation of pyrimidine nucleotide biosynthetic process by positive regulation 
 regulation of pyrimidine nucleotide biosynthetic process by transcription from RNA polymerase II promoter|B
 regulation of pyrimidine-containing compound salvage|B
 regulation of pyrroline-5-carboxylate reductase activity|B
+regulation of pyruvate dehydrogenase activity|B
 regulation of pyruvate kinase activity|B
 regulation of rRNA catabolic process|B
 regulation of rRNA processing|B
@@ -23579,6 +23685,7 @@ regulation of sequence-specific DNA binding transcription factor activity|B
 regulation of sequestering of calcium ion|B
 regulation of sequestering of triglyceride|B
 regulation of sequestering of zinc ion|B
+regulation of serine C-palmitoyltransferase activity|B
 regulation of serine phosphorylation of STAT3 protein|B
 regulation of serine-type endopeptidase activity|B
 regulation of serine-type peptidase activity|B
@@ -23624,6 +23731,7 @@ regulation of skeletal muscle contraction by regulation of release of sequestere
 regulation of skeletal muscle contraction via regulation of action potential|B
 regulation of skeletal muscle fiber development|B
 regulation of skeletal muscle fiber differentiation|B
+regulation of skeletal muscle hypertrophy|B
 regulation of skeletal muscle tissue development|B
 regulation of skeletal muscle tissue growth|B
 regulation of skeletal muscle tissue regeneration|B
@@ -23716,6 +23824,8 @@ regulation of striated muscle contraction|B
 regulation of striated muscle tissue development|B
 regulation of substance P receptor binding|B
 regulation of substrate adhesion-dependent cell spreading|B
+regulation of substrate-dependent cell migration, cell attachment to substrate|B
+regulation of succinate dehydrogenase activity|B
 regulation of sulfate assimilation|B
 regulation of sulfite transport|B
 regulation of sulfur amino acid metabolic process|B
@@ -23959,6 +24069,7 @@ regulation of transcriptional open complex formation at RNA polymerase II promot
 regulation of transcriptional start site selection at RNA polymerase II promoter|B
 regulation of transdifferentiation|B
 regulation of transferase activity|B
+regulation of transformation of host cell by virus|B
 regulation of transforming growth factor beta activation|B
 regulation of transforming growth factor beta production|B
 regulation of transforming growth factor beta receptor signaling pathway|B
@@ -24084,6 +24195,7 @@ regulation of vascular endothelial growth factor receptor signaling pathway|B
 regulation of vascular endothelial growth factor signaling pathway|B
 regulation of vascular permeability|B
 regulation of vascular permeability involved in acute inflammatory response|B
+regulation of vascular smooth muscle cell membrane depolarization|B
 regulation of vascular smooth muscle contraction|B
 regulation of vascular wound healing|B
 regulation of vasculature development|B
@@ -24628,6 +24740,7 @@ response to magnetism|B
 response to maltose|B
 response to manganese ion|B
 response to manganese starvation|B
+response to manganese-induced endoplasmic reticulum stress|B
 response to mannitol|B
 response to mechanical stimulus|B
 response to meiotic DNA replication checkpoint signaling|B
@@ -27382,6 +27495,7 @@ xenobiotic catabolic process|B
 xenobiotic glucuronidation|B
 xenobiotic metabolic process|B
 xenobiotic transport|B
+xenophagy|B
 xylan biosynthetic process|B
 xylan catabolic process|B
 xylan metabolic process|B
@@ -27413,6 +27527,7 @@ zeaxanthin bis(beta-D-glucoside) metabolic process|B
 zeaxanthin catabolic process|B
 zeaxanthin metabolic process|B
 zf-TRAF domain-mediated complex assembly|B
+zinc II ion import across Golgi membrane|B
 zinc II ion transmembrane import|B
 zinc II ion transmembrane transport|B
 zinc II ion transport|B

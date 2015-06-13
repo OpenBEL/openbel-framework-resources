@@ -3,8 +3,8 @@ Keyword=MeSHDisease
 TypeString=list
 DescriptionString=Disease terms from the [C] branch of Medical Subject Headings (MeSH).
 UsageString=Use to annotate a statement demonstrated in the context of a specific disease.
-VersionString=20150512
-CreatedDateTime=2015-05-12T17:09:24
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:57:45
 
 [Author]
 NameString=OpenBEL 

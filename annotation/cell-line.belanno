@@ -3,8 +3,8 @@ Keyword=CellLine
 TypeString=list
 DescriptionString=Cell Line Ontology (CLO) and Experimental Factor Ontology (EFO) Cell Lines
 UsageString=Use this annotation to indicate the cell line context of a statement. Use to annotate a statement that was demonstrated in a given cell line.
-VersionString=20150512
-CreatedDateTime=2015-05-12T17:09:24
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:57:45
 
 [Author]
 NameString=OpenBEL 
@@ -19,8 +19,8 @@ PublishedDate=2015-04-25
 ReferenceURL=http://www.clo-ontology.org/
 NameString=Experimental Factor Ontology (EFO)
 DescriptionString=The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases.
-PublishedVersionString=2.59
-PublishedDate=2015-04-15
+PublishedVersionString=2.60
+PublishedDate=2015-05-15
 ReferenceURL=http://www.ebi.ac.uk/efo/
 
 [Processing]
@@ -124,8 +124,8 @@ CacheableFlag=yes
 155BR cell|CLO_0001104
 158.2 cell|CLO_0001106
 15B2 cell|CLO_0001107
-15C6 cell|CLO_0001109
 15C6 cell|CLO_0001108
+15C6 cell|CLO_0001109
 15F3-1 cell|CLO_0001110
 15F7 cell|CLO_0001111
 15P-1 cell|CLO_0001112
@@ -536,7 +536,6 @@ CacheableFlag=yes
 76-7-4 cell|CLO_0001484
 769-P cell|CLO_0001485
 769P|EFO_0002099
-786-0|EFO_0005707
 786-O cell|CLO_0001486
 79f7Dv3g cell|CLO_0001487
 7A9 cell|CLO_0001488
@@ -569,7 +568,6 @@ CacheableFlag=yes
 86D cell|CLO_0001514
 88B cell|CLO_0001515
 88TAg cell|CLO_0001516
-8988T|EFO_0005713
 89MS30 cell|CLO_0001517
 8A2N cell|CLO_0001518
 8A3B.6 cell|CLO_0001519
@@ -647,7 +645,6 @@ A2 cell|CLO_0001562
 A20|EFO_0005285
 A20 cell|CLO_0001564
 A204|EFO_0002102
-A204.1|EFO_0005702
 A2058 cell|CLO_0001566
 A238 cell|CLO_0001567
 A24 cell|CLO_0001568
@@ -887,6 +884,7 @@ B-R93f cell|CLO_0002026
 B-S95 cell|CLO_0002034
 B-V92 cell|CLO_0002053
 B-Z94 cell|CLO_0002066
+B-cell non-Hodgkin lymphoma cell line|EFO_0005906
 B/C.Sk cell|CLO_0001779
 B/C3T3.We cell|CLO_0001780
 B/CMBA.Ov cell|CLO_0001781
@@ -894,9 +892,13 @@ B/CWE cell|CLO_0001782
 B104 cell|CLO_0001783
 B104-1-1 cell|CLO_0001784
 B11 cell|CLO_0001785
+B117H|EFO_0002040
+B117P|EFO_0002041
 B12 cell|CLO_0001786
 B13-24 cell|CLO_0001787
 B14-150 cell|CLO_0001788
+B140H|EFO_0002042
+B140P|EFO_0002043
 B14FAF28-G3 cell|CLO_0001789
 B16 melanoma 4A5 cell|CLO_0001790
 B16-A cell|CLO_0001791
@@ -1009,7 +1011,6 @@ BD-215 cell|CLO_0001907
 BD5-2d cell|CLO_0001908
 BDCM|EFO_0002113
 BDCM cell|CLO_0001910
-BE(2)-C|EFO_0005725
 BE(2)-C cell|CLO_0001915
 BE(2)-M17 cell|CLO_0001916
 BE-13 cell|CLO_0001921
@@ -1529,7 +1530,6 @@ CGTH-W-1 cell|CLO_0002406
 CGTHW1|EFO_0002131
 CH-EB6 cell|CLO_0002416
 CH1 cell|CLO_0002408
-CH12.LX|EFO_0005233
 CH26-1352 cell|CLO_0002412
 CHH-1 cell|CLO_0002417
 CHL cell|CLO_0002418
@@ -1627,8 +1627,6 @@ CM91ls cell|CLO_0002521
 CM94 cell|CLO_0002523
 CM94P cell|CLO_0002524
 CME-L1|EFO_0005650
-CME-W1-Cl.8+|EFO_0005743
-CME-W2|EFO_0005744
 CMH1a cell|CLO_0002525
 CMK|EFO_0003037
 CMK cell|CLO_0002526
@@ -1820,7 +1818,6 @@ Co88BV59H21-2V67-66 cell|CLO_0002540
 ConA-B1-VICK cell|CLO_0002580
 ConA-C1-VICK cell|CLO_0002581
 Cor Per cell|CLO_0002582
-Coriell cell line cell|CLO_0000175
 Cri du Chat cell|CLO_0002611
 Cy34.1.2 cell|CLO_0002651
 Cyt c–/– cell|CLO_0002653
@@ -1864,7 +1861,6 @@ D341 Med cell|CLO_0002677
 D341Med|EFO_0002157
 D4 glioblastoma derived primary cell line|EFO_0002051
 D5 cell|CLO_0002679
-D721Med|EFO_0005696
 D8/17 cell|CLO_0002680
 D94 cell|CLO_0002681
 D96 cell|CLO_0002682
@@ -2013,7 +2009,6 @@ Da Bon cell|CLO_0002684
 Da Cav cell|CLO_0002685
 Da Hol cell|CLO_0002686
 Da Mo cell|CLO_0002687
-Daoy|EFO_0005698
 Daoy cell|CLO_0002699
 Daudi|EFO_0002169
 Daudi cell|CLO_0002708
@@ -2076,7 +2071,6 @@ EBL cell|CLO_0002875
 EBTr (NBL-4) cell|CLO_0002877
 EBTr cell|CLO_0002876
 EC cell|CLO_0002878
-ECC-1|EFO_0005231
 ECTC cell|CLO_0002880
 ECV-304 cell|CLO_0002882
 ECV304 cell|CLO_0002881
@@ -2660,7 +2654,7 @@ G1291 cell|CLO_0003421
 G14D cell|CLO_0003422
 G1B cell|CLO_0003423
 G1E|EFO_0002034
-G2|EFO_0005746
+G1E-ER4|EFO_0002055
 G253 cell|CLO_0003424
 G25496 cell|CLO_0003425
 G26.4.1C3/86 cell|CLO_0003426
@@ -2669,7 +2663,6 @@ G2a.5 cell|CLO_0003429
 G2b.2 cell|CLO_0003430
 G355-5 cell|CLO_0003432
 G401|EFO_0002179
-G401.6|EFO_0005703
 G402|EFO_0002180
 GA-10 (Clone 20) cell|CLO_0003440
 GA-10 (Clone 4) cell|CLO_0003441
@@ -2728,7 +2721,6 @@ GLI56|EFO_0001104
 GLI60|EFO_0001105
 GLI72|EFO_0001106
 GM 490 cell|CLO_0003507
-GM00038|EFO_0004921
 GM00112A cell|CLO_0003508
 GM00135A cell|CLO_0003509
 GM00425 cell|CLO_0003510
@@ -2738,7 +2730,6 @@ GM00488C cell|CLO_0003513
 GM00637B cell|CLO_0003514
 GM00638 cell|CLO_0003515
 GM00639 cell|CLO_0003516
-GM00719|EFO_0004922
 GM00863 cell|CLO_0003517
 GM00881 cell|CLO_0003518
 GM01229 cell|CLO_0003519
@@ -2842,10 +2833,8 @@ GM19193|EFO_0005351
 GM19238|EFO_0002788
 GM19239|EFO_0002789
 GM19240|EFO_0002790
-GM2|EFO_0005747
 GM2 cell|CLO_0003535
 GM20000|EFO_0005352
-GM23248|EFO_0005723
 GM7372 cell|CLO_0003536
 GM7373 cell|CLO_0003537
 GM86 Clone 745A cell|CLO_0003538
@@ -3273,7 +3262,6 @@ HF2x653 cell|CLO_0003728
 HFAE-2 cell|CLO_0003729
 HFF-1 cell|CLO_0003730
 HFF-2 cell|CLO_0003731
-HFF-Myc|EFO_0005710
 HFFF2 cell|CLO_0003732
 HFL cell|CLO_0003733
 HFL1|EFO_0005368
@@ -3372,7 +3360,6 @@ HPAFII|EFO_0002198
 HPB-ALL cell|CLO_0003817
 HPD-1NR cell|CLO_0003818
 HPD-2NR cell|CLO_0003819
-HPDE6-E6E7|EFO_0005711
 HPL1|EFO_0002705
 HPME cell|CLO_0003820
 HPVE-26 cell|CLO_0003821
@@ -3587,7 +3574,6 @@ HT55 cell|CLO_0004287
 HTC (BUdR) cell|CLO_0004289
 HTC cell|CLO_0004288
 HTK- cell|CLO_0004292
-HTR8/SVneo|EFO_0005709
 HTZ17BE cell|CLO_0004294
 HUC-Fm cell|CLO_0004295
 HUES1|EFO_0005355
@@ -4058,7 +4044,6 @@ Hs888Lu cell|CLO_0004256
 Hs913T cell|CLO_0004257
 HtTA-1 cell|CLO_0004293
 HuH-7|EFO_0005384
-HuH-7.5|EFO_0005704
 HuNS1|EFO_0002207
 HuNS1 cell|CLO_0004298
 HuP-T3 cell|CLO_0004299
@@ -4069,8 +4054,8 @@ HuT 78 cell|CLO_0004304
 HuT78|EFO_0002209
 HuTu 80 cell|CLO_0004305
 Hybridoma 231 cell|CLO_0004312
-Hybridoma 234 s.2a cell|CLO_0004314
 Hybridoma 234 s.2a cell|CLO_0004313
+Hybridoma 234 s.2a cell|CLO_0004314
 HyperCLDB cell line cell|CLO_0000011
 I 10 cell|CLO_0004315
 I 2.1 cell|CLO_0004316
@@ -6747,7 +6732,6 @@ IgG-IB7 cell|CLO_0006480
 IgH-2 cell|CLO_0006481
 Indian Muntjac cell|CLO_0006952
 Intestine 407 cell|CLO_0006954
-Ishikawa|EFO_0005718
 Ishikawa (Heraklio) 02 ER- cell|CLO_0006967
 Ishikawa (London) 02ER+ cell|CLO_0006968
 J 111 cell|CLO_0006981
@@ -6876,8 +6860,8 @@ KEL FIB cell|CLO_0007090
 KELLY|EFO_0002069
 KELLY cell|CLO_0007091
 KF1SV cell|CLO_0007092
-KG-1 cell|CLO_0007093
 KG-1 cell|CLO_0007094
+KG-1 cell|CLO_0007093
 KG-1a cell|CLO_0007095
 KG1|EFO_0002218
 KHOS-240S cell|CLO_0007098
@@ -6930,14 +6914,12 @@ KYSE-510 cell|CLO_0007135
 KYSE-520 cell|CLO_0007136
 KYSE-70 cell|CLO_0007137
 KYSE30|EFO_0002223
-Karpas 422|EFO_0005719
 Kasumi-1 cell|CLO_0007069
 Kasumi-3 cell|CLO_0007070
 Kasumi-4 cell|CLO_0007071
 Kasumi-6 cell|CLO_0007072
 Kasumi2|EFO_0002224
 Kc|EFO_0002068
-Kc167|EFO_0005819
 KcO cell|CLO_0007086
 Kin-S49|EFO_0001197
 L 1210 cell|CLO_0007139
@@ -7022,8 +7004,8 @@ L2I-6 cell|CLO_0007182
 L3.6.2 cell|CLO_0007184
 L3055|EFO_0001198
 L35 cell|CLO_0007185
-L368 cell|CLO_0007187
 L368 cell|CLO_0007188
+L368 cell|CLO_0007187
 L428|EFO_0002225
 L45 cell|CLO_0007190
 L5 cell|CLO_0007191
@@ -7121,7 +7103,6 @@ LEII cell|CLO_0007305
 LEK cell|CLO_0007306
 LF-CL2A cell|CLO_0007309
 LFC16.Ln cell|CLO_0007308
-LHCN-M2|EFO_0005714
 LHR-1055 cell|CLO_0007310
 LHR-29 cell|CLO_0007311
 LHR-74 cell|CLO_0007312
@@ -7174,7 +7155,6 @@ LN-229 cell|CLO_0007363
 LN-405 cell|CLO_0007364
 LNCAP|EFO_0002071
 LNCAP cell|CLO_0007365
-LNCaP clone FGC|EFO_0005726
 LNCaP clone FGC cell|CLO_0007366
 LNCaP.FGC cell|CLO_0007367
 LNZTA3WT11 cell|CLO_0007370
@@ -7296,7 +7276,6 @@ M. dunni (Clone III8C) cell|CLO_0007441
 M/K-1.9 cell|CLO_0007442
 M/K-2.7 cell|CLO_0007443
 M0092 cell|CLO_0007444
-M059J|EFO_0005697
 M059J cell|CLO_0007445
 M059K cell|CLO_0007446
 M1 cell|CLO_0007448
@@ -7568,19 +7547,7 @@ MKN7|EFO_0002895
 MKN74|EFO_0002834
 ML-1 cell|CLO_0007735
 ML-2 cell|CLO_0007736
-ML-DmBG1-c1|EFO_0005821
-ML-DmBG2-c2|EFO_0005822
-ML-DmBG3-c2|EFO_0005823
-ML-DmD11|EFO_0005824
-ML-DmD16-c3|EFO_0005825
-ML-DmD17-c3|EFO_0005826
-ML-DmD20-c2|EFO_0005827
-ML-DmD20-c5|EFO_0005828
-ML-DmD21|EFO_0005829
-ML-DmD32|EFO_0005830
-ML-DmD4-c1|EFO_0005831
 ML-DmD8|EFO_0005832
-ML-DmD9|EFO_0005833
 ML2|EFO_0002238
 ML3 cell|CLO_0007737
 ML86 cell|CLO_0007738
@@ -7594,7 +7561,6 @@ MLH2 cell|CLO_0007749
 MLO-Y4|EFO_0005394
 MLTC-1 cell|CLO_0007750
 MLg cell|CLO_0007747
-MM.1S|EFO_0005724
 MM1|EFO_0001219
 MM14.Lu cell|CLO_0007751
 MM14.OT cell|CLO_0007752
@@ -7773,7 +7739,6 @@ Me Mon cell|CLO_0007656
 MeT-5A cell|CLO_0007680
 MeWo cell|CLO_0007688
 Mel Neg cell|CLO_0007670
-Mel-2183|EFO_0005706
 Met5A|EFO_0001218
 Meta 10 cell|CLO_0007681
 Meta 15 cell|CLO_0007682
@@ -8161,7 +8126,6 @@ NS20Y cell|CLO_0008205
 NSO cell|CLO_0008206
 NT-1|EFO_0002707
 NT2-D1 cell|CLO_0008207
-NT2/D1|EFO_0005236
 NTERA-2 cl.D1 cell|CLO_0008208
 NTera2|EFO_0002959
 NTera2 derived dopaminergic neuronal like cells|EFO_0002961
@@ -8235,8 +8199,6 @@ OMK(637-69) cell|CLO_0008266
 OML, clone 13C cell|CLO_0008267
 OP9 cell|CLO_0008268
 OPM-2 cell|CLO_0008269
-OSC|EFO_0005834
-OSS|EFO_0005835
 OSU1 cell|CLO_0008273
 OT87M cell|CLO_0008274
 OTH-74D4 cell|CLO_0008275
@@ -8251,6 +8213,9 @@ OVCAR4|EFO_0005442
 OVCAR5|EFO_0005443
 OVCAR8|EFO_0005444
 OVNIS cell|CLO_0008281
+Oci-Ly-1|EFO_0005907
+Oci-Ly-3|EFO_0005908
+Oci-Ly-7|EFO_0005905
 Or De cell|CLO_0008270
 OrR cell|CLO_0008271
 Os Te cell|CLO_0008272
@@ -8313,8 +8278,8 @@ P388 cell|CLO_0008321
 P388.D1 (Clone 3124) cell|CLO_0008322
 P388.D1 (clone 3124) cell|CLO_0008323
 P388/DX cell|CLO_0008324
-P388D subscript(1) cell|CLO_0008325
 P388D subscript(1) cell|CLO_0008326
+P388D subscript(1) cell|CLO_0008325
 P388D1 (IL-1) cell|CLO_0008328
 P388D1 cell|CLO_0008327
 P3D cell|CLO_0008329
@@ -8406,7 +8371,6 @@ PF-382 cell|CLO_0008421
 PF187 cell|CLO_0008420
 PF90F cell|CLO_0008422
 PFHR 9 cell|CLO_0008424
-PFSK-1|EFO_0005234
 PFSK-1 cell|CLO_0008425
 PG cell|CLO_0008426
 PG-4 (S+L–) cell|CLO_0008430
@@ -10083,7 +10047,6 @@ RG9/6.13 HLK cell|CLO_0008807
 RGE cell|CLO_0008811
 RH cell|CLO_0008812
 RIIIMT cell|CLO_0008815
-RIKEN Cell Bank cell|CLO_0000176
 RIN-14B cell|CLO_0008816
 RIN-5F cell|CLO_0008817
 RIN-m cell|CLO_0008818
@@ -10134,7 +10097,6 @@ RPMI 8226 cell|CLO_0008873
 RPMI 8402 cell|CLO_0008874
 RPMI 8866 cell|CLO_0008875
 RPMI-2650 cell|CLO_0008876
-RPMI-7951|EFO_0005712
 RPMI-7951 cell|CLO_0008877
 RPMI6666|EFO_0002321
 RPMI8226|EFO_0002322
@@ -10232,10 +10194,7 @@ S1A.TB.4.8.2 cell|CLO_0008920
 S1E4 cell|CLO_0008921
 S2|EFO_0001233
 S2 cell|CLO_0008922
-S2-DRSC|EFO_0005836
 S2793 cell|CLO_0008923
-S2R+|EFO_0005837
-S3|EFO_0005838
 S3D3 cell|CLO_0008924
 S49|EFO_0001234
 S49 (Thy-1-a) cell|CLO_0008925
@@ -10267,9 +10226,9 @@ SBV86M cell|CLO_0008953
 SC 11 cell|CLO_0008955
 SC cell|CLO_0008954
 SC-1 (F1701 clone 1116A) cell|CLO_0008959
-SC-1 cell|CLO_0008958
 SC-1 cell|CLO_0008956
 SC-1 cell|CLO_0008957
+SC-1 cell|CLO_0008958
 SC-71 cell|CLO_0008960
 SC-75 cell|CLO_0008961
 SCA-9 clone 15 cell|CLO_0008964
@@ -10332,7 +10291,6 @@ SIRC (Statens Se-   ruminstitut Rabbit   Cornea) cell|CLO_0009020
 SIRC cell|CLO_0009019
 SISO cell|CLO_0009021
 SJ-N-KP cell|CLO_0009029
-SJCRH30|EFO_0005722
 SJD.1 cell|CLO_0009022
 SJK-132-20 cell|CLO_0009023
 SJK-237-71 cell|CLO_0009024
@@ -10362,7 +10320,6 @@ SK-MEL-28 cell|CLO_0009043
 SK-MEL-3 cell|CLO_0009044
 SK-MEL-30 cell|CLO_0009045
 SK-MEL-31 cell|CLO_0009046
-SK-MEL-5|EFO_0005720
 SK-MEL-5 cell|CLO_0009047
 SK-MES cell|CLO_0009048
 SK-MES-1 cell|CLO_0009049
@@ -10373,7 +10330,6 @@ SK-N-AS|EFO_0002859
 SK-N-AS cell|CLO_0009051
 SK-N-BE(2) cell|CLO_0009052
 SK-N-BE(2)-C cell|CLO_0009053
-SK-N-DZ|EFO_0005721
 SK-N-DZ cell|CLO_0009054
 SK-N-F1 cell|CLO_0009056
 SK-N-FI cell|CLO_0009057
@@ -10424,6 +10380,7 @@ SMC87 cell|CLO_0009082
 SMC95S cell|CLO_0009083
 SML, clone 4D8 cell|CLO_0009090
 SMT/2A LNM cell|CLO_0009091
+SN56.B5.G4|EFO_0002081
 SNB-19 cell|CLO_0009093
 SNB19|EFO_0002342
 SNU-1 cell|CLO_0009094
@@ -10601,7 +10558,6 @@ Sf 1 Ep (NBL-11) cell|CLO_0008983
 Sf1Ep cell|CLO_0008986
 Sf9 (IPLB-21) cell|CLO_0008990
 Sf9 cell|CLO_0008989
-Sg4|EFO_0005839
 Shh Light II cell|CLO_0009010
 Shs cell|CLO_0009014
 SiHa|EFO_0002379
@@ -10823,7 +10779,6 @@ TT|EFO_0002382
 TT cell|CLO_0009421
 TT2|EFO_0005485
 TT3E|EFO_0002868
-TTC549|EFO_0005700
 TTD10PV cell|CLO_0009422
 TTD11PV cell|CLO_0009423
 TTD1PV cell|CLO_0009424
@@ -10875,7 +10830,6 @@ U-266 cell|CLO_0009457
 U-343 MGa cell|CLO_0009459
 U-373 MG cell|CLO_0009461
 U-698-M cell|CLO_0009462
-U-87 MG|EFO_0005237
 U-87 MG cell|CLO_0009464
 U-937 cell|CLO_0009465
 U266|EFO_0001254
@@ -11013,7 +10967,6 @@ WEHI-3B cell|CLO_0009580
 WEHI-3B(D+) cell|CLO_0009581
 WEHI-3B/CPX cell|CLO_0009582
 WERI-RB-1 cell|CLO_0009583
-WERI-Rb-1|EFO_0005715
 WERI-Rb-1 cell|CLO_0009584
 WES cell|CLO_0009585
 WF 2 cell|CLO_0009586
@@ -11201,9 +11154,10 @@ anti-SRp20 cell|CLO_0001734
 b.End3 cell|CLO_0001777
 b.End5 cell|CLO_0001778
 bEnd.3 cell|CLO_0001928
-bacterial survival inside cell line cell|CLO_0009824
 bcd mab23 cell|CLO_0001901
 breast cancer cell line|EFO_0002885
+bronchial epithelial cell derived cell line
+|EFO_0005728
 bronchial smooth muscle cell derived cell line|EFO_0005736
 c1 (B6NLxv1c2) cell|CLO_0002075
 c12 (B15ECiii2) cell|CLO_0002082
@@ -11213,31 +11167,21 @@ c4 (B13NBii1) cell|CLO_0002124
 cancer cell line|EFO_0001639
 cardiac myocyte cell derived cell line|EFO_0005731
 cell culture growth mode|CLO_0000030
-cell line|CLO_0000031
 cell line cell|CLO_0000001
 cell line cell culturing|CLO_0000000
-cell line cell gene expression|CLO_0009827
-cell line cell growth|CLO_0000483
 cell line cell modification|CLO_0000004
-cell line cell-pathogen interaction|CLO_0009825
-cell line cell-vaccine interaction|CLO_0009826
 cell line co-expression|CLO_0000035
-cell line lineage|CLO_0000171
 cell line repository|CLO_0000008
 cell line repository role|CLO_0000005
 cell passageble capability|CLO_0000170
-cervical adenocarcinoma cell line|EFO_0005217
-cervical carcinoma cell line|EFO_0005218
 chorion cell line|EFO_0002781
 chronic myelogenous leukemia cell line|EFO_0005294
 citrullinemia cell|CLO_0002481
-cloned cell line|CLO_0000177
 clusters in suspension cell line culturing|CLO_0000034
 dTA4-1 cell|CLO_0009738
 embryonic cell line|EFO_0003040
 endothelial cell derived cell line|EFO_0005730
 epithelial cell derived cell line|EFO_0001641
-fGS/OSS|EFO_0005745
 fR2 cell|CLO_0003385
 fR5 cell|CLO_0003386
 fibroblast derived cell line|EFO_0002009
@@ -11253,7 +11197,6 @@ hTERT RPE-1 cell|CLO_0004290
 hTERT-HM|EFO_0005912
 hTERT-HME1 cell|CLO_0004291
 haemopoietic system cell line|EFO_0002883
-hepatoma cell line|EFO_0005216
 hr/hr (WE) A cell|CLO_0003829
 hr/hr (WE) B cell|CLO_0003830
 huFasM3 cell|CLO_0004296
@@ -11473,7 +11416,6 @@ immortal carotid artery-derived smooth muscle cell line cell|CLO_0000392
 immortal carp leukocyte cell line cell|CLO_0000932
 immortal cat brain-derived cell line cell|CLO_0000611
 immortal cat cell line cell|CLO_0000457
-immortal cat cell line cell|CLO_0000021
 immortal cat embryo-derived cell line cell|CLO_0000481
 immortal cat female gonad-derived cell line cell|CLO_0000718
 immortal cat fetal membrane-derived cell line cell|CLO_0000472
@@ -11519,13 +11461,11 @@ immortal cattle thoracic aorta-derived smooth muscle cell line cell|CLO_0000507
 immortal cattle thymus-derived cell line cell|CLO_0009757
 immortal cattle trachea-derived cell line cell|CLO_0000969
 immortal cattle vasculature-derived cell line cell|CLO_0000454
-immortal cell line|CLO_0009828
 immortal cell line cell|CLO_0000019
 immortal cerebral lobe-derived cell line cell|CLO_0000319
 immortal cervix-derived fibroblast cell line cell|CLO_0000346
 immortal channel catfish female gonad-derived cell line cell|CLO_0000915
 immortal channel catfish peripheral neuron cell line cell|CLO_0000733
-immortal chicken B cell line cell|CLO_0000737
 immortal chicken cell line cell|CLO_0000592
 immortal chicken embryo-derived cell line cell|CLO_0000610
 immortal chicken liver-derived cell line cell|CLO_0009774
@@ -11626,7 +11566,6 @@ immortal follicular fluid-derived cell line cell|CLO_0000270
 immortal foreskin-derived fibroblast cell line cell|CLO_0000251
 immortal forest day mosquito larva-derived cell line cell|CLO_0009748
 immortal free-tailed bat pair of lungs-derived cell line cell|CLO_0000906
-immortal frog cell line cell|CLO_0000022
 immortal fruit fly embryo-derived cell line cell|CLO_0000987
 immortal fusion competent myoblast cell line cell|CLO_0000058
 immortal gastropod embryo-derived cell line cell|CLO_0000705
@@ -11642,7 +11581,6 @@ immortal glial cell line cell|CLO_0000157
 immortal glomerular capsule-derived cell line cell|CLO_0000381
 immortal goat esophagus-derived cell line cell|CLO_0000925
 immortal goat zone of skin-derived cell line cell|CLO_0000927
-immortal gold fish cell line cell|CLO_0000990
 immortal golden-crowned sifaka thigh-derived fibroblast cell line cell|CLO_0000799
 immortal gonad-derived cell line cell|CLO_0000379
 immortal gonad-derived fibroblast cell line cell|CLO_0000204
@@ -11699,8 +11637,8 @@ immortal human buttock-derived cell line cell|CLO_0000880
 immortal human buttock-derived fibroblast cell line cell|CLO_0000684
 immortal human caecum-derived cell line cell|CLO_0000514
 immortal human calf-derived fibroblast cell line cell|CLO_0009810
-immortal human cell line cell|CLO_0000511
 immortal human cell line cell|CLO_0000020
+immortal human cell line cell|CLO_0000511
 immortal human cervix-derived fibroblast cell line cell|CLO_0000816
 immortal human chordate pharynx-derived cell line cell|CLO_0000884
 immortal human chorion-derived cell line cell|CLO_0000528
@@ -11897,7 +11835,6 @@ immortal marmoset leukocyte cell line cell|CLO_0000666
 immortal mast cell line cell|CLO_0000069
 immortal mature T cell line cell|CLO_0000116
 immortal mature alpha-beta T cell line cell|CLO_0000113
-immortal medaka cell line cell|CLO_0009822
 immortal megakaryocyte-erythroid progenitor cell line cell|CLO_0000148
 immortal melanocyte cell line cell|CLO_0000133
 immortal mesenchymal cell line cell|CLO_0000053
@@ -11906,7 +11843,6 @@ immortal mesonephros-derived cell line cell|CLO_0000242
 immortal mesothelial cell line cell|CLO_0000088
 immortal mesothelium-derived cell line cell|CLO_0000263
 immortal microglial cell line cell|CLO_0000098
-immortal mink cell line cell|CLO_0009821
 immortal mixed endoderm/mesoderm-derived structure-derived cell line cell|CLO_0000213
 immortal mongoose lemur skin-derived fibroblast cell line cell|CLO_0000425
 immortal monkey kidney-derived cell line cell|CLO_0000491
@@ -11916,9 +11852,7 @@ immortal mosquito larva-derived cell line cell|CLO_0000688
 immortal mosquito multi-cellular organism-derived cell line cell|CLO_0000954
 immortal moth female gonad-derived cell line cell|CLO_0000674
 immortal motile cell line cell|CLO_0000093
-immortal mouse B cell line cell|CLO_0000933
 immortal mouse ON-bipolar cell line cell|CLO_0000706
-immortal mouse aorta-derived cell line cell|CLO_0000635
 immortal mouse area X-derived cell line cell|CLO_0000495
 immortal mouse blood cell line cell|CLO_0000701
 immortal mouse bone marrow-derived cell line cell|CLO_0000627
@@ -11943,12 +11877,10 @@ immortal mouse islet of Langerhans-derived cell line cell|CLO_0000629
 immortal mouse kidney-derived cell line cell|CLO_0000543
 immortal mouse ligament-derived cell line cell|CLO_0000729
 immortal mouse limb/fin-derived cell line cell|CLO_0000546
-immortal mouse liver cell line|CLO_0000045
 immortal mouse liver-derived cell line cell|CLO_0000537
 immortal mouse lymph-derived cell line cell|CLO_0000501
 immortal mouse lymphocyte cell line cell|CLO_0000492
 immortal mouse lymphoid follicle-derived cell line cell|CLO_0000530
-immortal mouse macrophage cell line|CLO_0000043
 immortal mouse macrophage cell line cell|CLO_0000728
 immortal mouse mammary gland-derived cell line cell|CLO_0000616
 immortal mouse mast cell line cell|CLO_0000534
@@ -12284,7 +12216,6 @@ immortal white-handed gibbon skin-derived fibroblast cell line cell|CLO_0009792
 immortal white-tufted-ear marmoset dento-alveolar joint-derived cell line cell|CLO_0000908
 immortal woodchuck liver-derived cell line cell|CLO_0000946
 immortal yolk sac-derived cell line cell|CLO_0000359
-immortal zebra fish cell line cell|CLO_0000024
 immortal zebra fish embryo-derived cell line cell|CLO_0000878
 immortal zebra fish parenchymal cell line cell|CLO_0000879
 immortal zebra fish posterior commissure-derived cell line cell|CLO_0000693
@@ -12313,22 +12244,16 @@ mSXL 114 cell|CLO_0007884
 mSXL 18 cell|CLO_0007885
 mSXL 5 cell|CLO_0007886
 mammary gland cell line|EFO_0002884
-mbn2|EFO_0005820
 mh cell|CLO_0007706
-microbial survival inside cell line cell|CLO_0009823
 mixed adherent and suspension cell line culturing|CLO_0000032
 mixed suspension|CLO_0000033
-mortal cell line|CLO_0009829
 mortal cell line cell|CLO_0000018
 mouse cell line|EFO_0002887
 mouse immortal cell line cell|CLO_0000025
-mouse x mouse hybridoma cell line cell|CLO_0000282
-mouse x rat hybridoma cell line cell|CLO_0000498
 mouse, Swiss albino|CLO_0000017
 murine neuroblastoma cholinergic cell line|EFO_0002035
 muscle cell derived cell line|EFO_0005734
 normal cell line|EFO_0002922
-olfactory neurosphere cell line|EFO_0005705
 ovarian cancer cell lines|EFO_0002394
 p120 cell|CLO_0008295
 p53NiS1 cell|CLO_0008338
@@ -12358,3 +12283,130 @@ vT{2} cell|CLO_0009550
 xrs5 cell|CLO_0009691
 zebrafish cell line|EFO_0002940
 ♀ 3 BAG alpha cell|CLO_0009739
+786-0|EFO_0005707
+8988T|EFO_0005713
+90-8TL|EFO_0006267
+A204.1|EFO_0005702
+A431|EFO_0006268
+ACH-3P|EFO_0006269
+AG04450|EFO_0006270
+ARPE-19|EFO_0006271
+BE(2)-C|EFO_0005725
+CGR8|EFO_0006273
+CH12.LX|EFO_0005233
+CME-W1-Cl.8+|EFO_0005743
+CME-W2|EFO_0005744
+Coriell cell line cell|CLO_0000175
+D721Med|EFO_0005696
+DT40|EFO_0006274
+Daoy|EFO_0005698
+ECC-1|EFO_0005231
+ES-E14TG2a|EFO_0006275
+G2|EFO_0005746
+G401.6|EFO_0005703
+GM00038|EFO_0004921
+GM00719|EFO_0004922
+GM15850|EFO_0006276
+GM15851|EFO_0006277
+GM2|EFO_0005747
+GM23248|EFO_0005723
+GM5659|EFO_0006278
+HFF-Myc|EFO_0005710
+HPAF1|EFO_0006279
+HPAM1|EFO_0006280
+HPDE6-E6E7|EFO_0005711
+HTR8/SVneo|EFO_0005709
+HuH-7.5|EFO_0005704
+Ishikawa|EFO_0005718
+JinB8|EFO_0006281
+KM12|EFO_0006282
+KOPT-K1|EFO_0006283
+Karpas 422|EFO_0005719
+Kc167|EFO_0005819
+LHCN-M2|EFO_0005714
+LNCaP clone FGC|EFO_0005726
+LOXIMVI|EFO_0006284
+M059J|EFO_0005697
+MEC2|EFO_0006285
+MGC-803|EFO_0006286
+ML-DmBG1-c1|EFO_0005821
+ML-DmBG2-c2|EFO_0005822
+ML-DmBG3-c2|EFO_0005823
+ML-DmD11|EFO_0005824
+ML-DmD16-c3|EFO_0005825
+ML-DmD17-c3|EFO_0005826
+ML-DmD20-c2|EFO_0005827
+ML-DmD20-c5|EFO_0005828
+ML-DmD21|EFO_0005829
+ML-DmD32|EFO_0005830
+ML-DmD4-c1|EFO_0005831
+ML-DmD9|EFO_0005833
+MM.1S|EFO_0005724
+Mel-2183|EFO_0005706
+Mono Mac 6|EFO_0006287
+NF90-8|EFO_0006288
+NT2/D1|EFO_0005236
+OCI-AML3|EFO_0006289
+OSC|EFO_0005834
+OSS|EFO_0005835
+PFSK-1|EFO_0005234
+PLC/PRF/5|EFO_0006291
+RIKEN Cell Bank cell|CLO_0000176
+RPMI-7951|EFO_0005712
+S2-DRSC|EFO_0005836
+S2R+|EFO_0005837
+S3|EFO_0005838
+S462|EFO_0006292
+SGC-7901|EFO_0006293
+SHEP|EFO_0006294
+SJCRH30|EFO_0005722
+SK-MEL-5|EFO_0005720
+SK-N-DZ|EFO_0005721
+ST88-14|EFO_0006295
+STS26T|EFO_0006296
+Sg4|EFO_0005839
+Swiss19|EFO_0006297
+Swiss2|EFO_0006298
+Swiss22|EFO_0006299
+Swiss3|EFO_0006300
+Swiss5|EFO_0006301
+Swiss8|EFO_0006302
+Swiss9|EFO_0006303
+T265|EFO_0006304
+T87|EFO_0006305
+TTC549|EFO_0005700
+TUBO|EFO_0006306
+U-87 MG|EFO_0005237
+UKE1|EFO_0006307
+V6.5|EFO_0006308
+WERI-Rb-1|EFO_0005715
+bacterial survival inside cell line cell|CLO_0009824
+cell line|CLO_0000031
+cell line cell gene expression|CLO_0009827
+cell line cell growth|CLO_0000483
+cell line cell-pathogen interaction|CLO_0009825
+cell line cell-vaccine interaction|CLO_0009826
+cell line lineage|CLO_0000171
+cervical adenocarcinoma cell line|EFO_0005217
+cervical carcinoma cell line|EFO_0005218
+cloned cell line|CLO_0000177
+fGS/OSS|EFO_0005745
+hepatoma cell line|EFO_0005216
+immortal cat cell line cell|CLO_0000021
+immortal cell line|CLO_0009828
+immortal chicken B cell line cell|CLO_0000737
+immortal frog cell line cell|CLO_0000022
+immortal gold fish cell line cell|CLO_0000990
+immortal medaka cell line cell|CLO_0009822
+immortal mink cell line cell|CLO_0009821
+immortal mouse B cell line cell|CLO_0000933
+immortal mouse aorta-derived cell line cell|CLO_0000635
+immortal mouse liver cell line|CLO_0000045
+immortal mouse macrophage cell line|CLO_0000043
+immortal zebra fish cell line cell|CLO_0000024
+mbn2|EFO_0005820
+microbial survival inside cell line cell|CLO_0009823
+mortal cell line|CLO_0009829
+mouse x mouse hybridoma cell line cell|CLO_0000282
+mouse x rat hybridoma cell line cell|CLO_0000498
+olfactory neurosphere cell line|EFO_0005705
