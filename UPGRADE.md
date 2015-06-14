@@ -1,6 +1,6 @@
 # Upgrading
 
-_Note: Presently only namespace values are upgraded in BEL files._
+_Note: Namespace and annotation values are upgraded in BEL files._
 <br><br>
 ## Install Ruby (Windows)
 
