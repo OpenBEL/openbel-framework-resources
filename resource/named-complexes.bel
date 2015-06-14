@@ -3,18 +3,17 @@
 
 SET DOCUMENT Name = "Selventa Named Complexes Definitions"
 SET DOCUMENT Description = "Selventa Named Complexes and Compoments"
-SET DOCUMENT Version = 20150106
+SET DOCUMENT Version = 20150611
 SET DOCUMENT Copyright = "Copyright (c) 2011-2015, Selventa. All rights reserved."
 SET DOCUMENT Authors = Selventa
 
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
-DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"
-
+DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/20150611/namespace/selventa-named-complexes.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/20150611/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/20150611/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/20150611/namespace/rgd-rat-genes.belns"
 
 ##################################################################################
 # Statements Section
@@ -117,7 +116,7 @@ complex(SCOMP:"C1q Complex") hasComponent p(RGD:C1qa)
 complex(SCOMP:"C1q Complex") hasComponent p(RGD:C1qb)
 complex(SCOMP:"Ca Activated Chloride Channel Complex") hasComponent p(MGI:Clca3a1)
 complex(SCOMP:"Ca Activated Chloride Channel Complex") hasComponent p(MGI:Clca3a2)
-complex(SCOMP:"Ca Activated Chloride Channel Complex") hasComponent p(MGI:Clca1)
+complex(SCOMP:"Ca Activated Chloride Channel Complex") hasComponent p(MGI:Clca3a1)
 complex(SCOMP:"Ca Activated Chloride Channel Complex") hasComponent p(MGI:Clca3b)
 complex(SCOMP:"Calcineurin Complex") hasComponent p(HGNC:PPP3CA)
 complex(SCOMP:"Calcineurin Complex") hasComponent p(HGNC:PPP3CB)
@@ -296,7 +295,7 @@ complex(SCOMP:"Cytochrome C Oxidase Complex Muscle") hasComponent p(RGD:Cox7a2)
 complex(SCOMP:"Cytochrome C Oxidase Complex Muscle") hasComponent p(RGD:Cox7b)
 complex(SCOMP:"Cytochrome C Oxidase Complex Muscle") hasComponent p(RGD:"Mt-co1")
 complex(SCOMP:"Cytochrome C Oxidase Complex Muscle") hasComponent p(RGD:"Mt-co2")
-complex(SCOMP:"Cytochrome C Oxidase Complex Muscle") hasComponent p(RGD:"Mt-co3")
+complex(SCOMP:"Cytochrome C Oxidase Complex Muscle") hasComponent p(RGD:"Mt-cox3")
 complex(SCOMP:"Cytochrome C Oxidase Complex Non Muscle") hasComponent p(HGNC:COX10)
 complex(SCOMP:"Cytochrome C Oxidase Complex Non Muscle") hasComponent p(HGNC:COX11)
 complex(SCOMP:"Cytochrome C Oxidase Complex Non Muscle") hasComponent p(HGNC:COX15)
@@ -336,7 +335,7 @@ complex(SCOMP:"Cytochrome C Oxidase Complex Non Muscle") hasComponent p(RGD:Cox7
 complex(SCOMP:"Cytochrome C Oxidase Complex Non Muscle") hasComponent p(RGD:Cox8a)
 complex(SCOMP:"Cytochrome C Oxidase Complex Non Muscle") hasComponent p(RGD:"Mt-co1")
 complex(SCOMP:"Cytochrome C Oxidase Complex Non Muscle") hasComponent p(RGD:"Mt-co2")
-complex(SCOMP:"Cytochrome C Oxidase Complex Non Muscle") hasComponent p(RGD:"Mt-co3")
+complex(SCOMP:"Cytochrome C Oxidase Complex Non Muscle") hasComponent p(RGD:"Mt-cox3")
 complex(SCOMP:"Cytoplasmic Dynein Complex") hasComponent p(HGNC:DYNC1H1)
 complex(SCOMP:"Cytoplasmic Dynein Complex") hasComponent p(HGNC:DYNC1I1)
 complex(SCOMP:"Cytoplasmic Dynein Complex") hasComponent p(HGNC:DYNC1I2)
