@@ -3,7 +3,7 @@
 
 SET DOCUMENT Name = "BEL Framework Example 3 Document"
 SET DOCUMENT Description = "Example of modeling a full abstract taken from the BEL V1.0 Language Overview."
-SET DOCUMENT Version = 20150106
+SET DOCUMENT Version = 2015611
 SET DOCUMENT Copyright = "Copyright (c) 2011-2015, Selventa. All Rights Reserved."
 SET DOCUMENT ContactInfo = "support@belframework.org"
 SET DOCUMENT Authors = Selventa
@@ -12,17 +12,17 @@ SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi.belns"
-DEFINE NAMESPACE GOBP AS URL "http://resource.belframework.org/belframework/testing/namespace/go-biological-process.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
-DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
-DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
-DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
+DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/20150611/namespace/selventa-protein-families.belns"
+DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/20150611/namespace/selventa-named-complexes.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/20150611/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/20150611/namespace/mesh-diseases.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/20150611/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE GOBP AS URL "http://resource.belframework.org/belframework/20150611/namespace/go-biological-process.belns"
+DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/20150611/namespace/chebi.belns"
 
-DEFINE ANNOTATION CellLine AS URL "http://resource.belframework.org/belframework/testing/annotation/cell-line.belanno"
-DEFINE ANNOTATION MeSHDisease AS URL "http://resource.belframework.org/belframework/testing/annotation/mesh-diseases.belanno"
-DEFINE ANNOTATION Species AS URL "http://resource.belframework.org/belframework/testing/annotation/species-taxonomy-id.belanno"
+DEFINE ANNOTATION CellLine AS URL "http://resource.belframework.org/belframework/20150611/annotation/cell-line.belanno"
+DEFINE ANNOTATION MeshDisease AS URL "http://resource.belframework.org/belframework/20150611/annotation/mesh-diseases.belanno"
+DEFINE ANNOTATION Species AS URL "http://resource.belframework.org/belframework/20150611/annotation/species-taxonomy-id.belanno"
 
 ##################################################################################
 # Statements Section
@@ -35,16 +35,18 @@ malignant human colorectal tumors, whereas K-Ras Val12 (K12V) associates
 with more advanced and metastatic carcinomas, higher recurrence and
 decreased survival."
 SET Species = 9606
-SET MeSHDisease = "Colorectal Neoplasms"
+SET Disease = "Colorectal Neoplasms"
 p(HGNC:KRAS,sub(G,12,V)) prognosticBiomarkerFor path(MESHD:"Neoplasm Metastasis")
 p(HGNC:KRAS,sub(G,12,V)) prognosticBiomarkerFor path(MESHD:Recurrence)
 SET Evidence = "Here, we tested, in a nude mouse xenograft model, whether
 different human K-Ras oncogenes mutated at codon 12 to Val, Asp or Cys
 would confer NIH3T3 fibroblasts distinct oncogenic phenotypes. We
-studied tumor histology and growth, apoptotic and mitotic rates, activation of
+studied
+tumor histology and growth, apoptotic and mitotic rates, activation of
 signal transduction pathways downstream of Ras and regulation of the cell
 cycle and apoptotic proteins in tumors derived from the implanted transformants."
 # disease "Colorectal Neoplasms" does not apply to this evidence text; need to clear disease annotation
+UNSET Disease
 # note that experiment is expression of human genes in mouse tissue; set species annotation to mouse and cell line to NIH3T3
 SET Species = 10090
 SET CellLine = "NIH-3T3 cell"

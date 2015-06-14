@@ -1,12 +1,12 @@
 SET DOCUMENT Name = "Selventa Protein Families Definitions"
 SET DOCUMENT Description = "Selventa Protein Families and Members"
-SET DOCUMENT Version = 20150106
+SET DOCUMENT Version = 20150611
 SET DOCUMENT Copyright = "Copyright (c) 2011-2015, Selventa. All rights reserved."
 SET DOCUMENT Authors = Selventa
-DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
-DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"
+DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/20150611/namespace/selventa-protein-families.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/20150611/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/20150611/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/20150611/namespace/rgd-rat-genes.belns"
 SET STATEMENT_GROUP = "Group 1"
 SET Citation = {"Other","Selventa Protein Family Definitions","Selventa Protein Families","","",""}
 p(SFAM:"14-3-3 Family") hasMember p(HGNC:SFN)
@@ -827,7 +827,6 @@ p(SFAM:"COX6B Family") hasMember p(HGNC:COX6B2)
 p(SFAM:"COX6B Family") hasMember p(MGI:Cox6b1)
 p(SFAM:"COX6B Family") hasMember p(MGI:Cox6b2)
 p(SFAM:"COX6B Family") hasMember p(RGD:Cox6b2)
-p(SFAM:"COX6B Family") hasMember p(RGD:LOC681754)
 p(SFAM:"COX7A Family") hasMember p(HGNC:COX7A1)
 p(SFAM:"COX7A Family") hasMember p(HGNC:COX7A2)
 p(SFAM:"COX7A Family") hasMember p(MGI:Cox7a1)
@@ -973,7 +972,7 @@ p(SFAM:"Cyclophilin Family") hasMember p(HGNC:PPIL4)
 p(SFAM:"Cyclophilin Family") hasMember p(HGNC:PPIL6)
 p(SFAM:"Cyclophilin Family") hasMember p(HGNC:PPWD1)
 p(SFAM:"Cyclophilin Family") hasMember p(HGNC:PPIAL4A)
-p(SFAM:"Cyclophilin Family") hasMember p(HGNC:PPIAL4B)
+p(SFAM:"Cyclophilin Family") hasMember p(HGNC:PPIAL4A)
 p(SFAM:"Cyclophilin Family") hasMember p(HGNC:PPIAL4C)
 p(SFAM:"Cyclophilin Family") hasMember p(HGNC:PPIAL4G)
 p(SFAM:"Cyclophilin Family") hasMember p(MGI:Cwc27)
@@ -2452,7 +2451,7 @@ p(SFAM:"MYH Family") hasMember p(RGD:Myh6)
 p(SFAM:"MYH Family") hasMember p(RGD:Myh7)
 p(SFAM:"MYH Family") hasMember p(RGD:Myh7b)
 p(SFAM:"MYH Family") hasMember p(RGD:Myh8)
-p(SFAM:"MYH Family") hasMember p(RGD:Myh9)
+p(SFAM:"MYH Family") hasMember p(RGD:Myh9l1)
 p(SFAM:"MYH Family") hasMember p(RGD:Myo5a)
 p(SFAM:"MYL Alkali Family") hasMember p(HGNC:MYL1)
 p(SFAM:"MYL Alkali Family") hasMember p(HGNC:MYL3)
@@ -3391,7 +3390,7 @@ p(SFAM:"RAB Family") hasMember p(RGD:Rab4a)
 p(SFAM:"RAB Family") hasMember p(RGD:Rab4b)
 p(SFAM:"RAB Family") hasMember p(RGD:Rab6a)
 p(SFAM:"RAB Family") hasMember p(RGD:Rab7a)
-p(SFAM:"RAB Family") hasMember p(RGD:Rab7l1)
+p(SFAM:"RAB Family") hasMember p(RGD:Rab29)
 p(SFAM:"RAB Family") hasMember p(RGD:Rab8a)
 p(SFAM:"RAB Family") hasMember p(RGD:Rab8b)
 p(SFAM:"RAB Family") hasMember p(RGD:Rab9a)
@@ -3589,7 +3588,7 @@ p(SFAM:"SCD Family") hasMember p(MGI:Scd1)
 p(SFAM:"SCD Family") hasMember p(MGI:Scd2)
 p(SFAM:"SCD Family") hasMember p(MGI:Scd3)
 p(SFAM:"SCD Family") hasMember p(MGI:Scd4)
-p(SFAM:"SCD Family") hasMember p(RGD:Scd)
+p(SFAM:"SCD Family") hasMember p(RGD:Scd2)
 p(SFAM:"SCD Family") hasMember p(RGD:Scd1)
 p(SFAM:"SCD Family") hasMember p(RGD:Scd4)
 p(SFAM:"SERPINB Family") hasMember p(MGI:Serpinb11)
