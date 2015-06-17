@@ -1,12 +1,12 @@
 [Equivalence]
 NameString=Selventa Legacy Disease Name Equivalences
 DescriptionString=Selventa Legacy Disease Name equivalences were assigned based on string match to Disease Ontology names. 
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:52:16
 
 [NamespaceReference]
 NameString=Selventa Legacy Disease Names
-VersionString=20150611
+VersionString=testing
 
 [Author]
 NameString=OpenBEL

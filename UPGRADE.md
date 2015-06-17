@@ -94,9 +94,9 @@ Continue with <a href="#install_bel_gem">Install the bel gem</a>.
 1. Type `bel upgrade help` for details on the upgrade command.
 2. Run command
    * Example 1 - convert a BEL file
-     * `bel upgrade --bel small_corpus.bel --changelog "http://resource.belframework.org/belframework/20150611/change_log.json"
+     * `bel upgrade --bel small_corpus.bel --changelog "http://resource.belframework.org/belframework/testing/change_log.json"
    * Example 2 - convert BEL from standard in
-     * `curl "http://resource.belframework.org/belframework/20131211/knowledge/small_corpus.bel" | bel upgrade --changelog "http://resource.belframework.org/belframework/20150611/change_log.json"`
+     * `curl "http://resource.belframework.org/belframework/20131211/knowledge/small_corpus.bel" | bel upgrade --changelog "http://resource.belframework.org/belframework/testing/change_log.json"`
    * More details [here] (https://github.com/OpenBEL/bel.rb).
 3. The upgraded BEL will be written to standard out.  Simply redirect to a file after that.
    * `bel upgrade ... > upgraded-version.bel`

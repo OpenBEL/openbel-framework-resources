@@ -3,7 +3,7 @@ Keyword=Anatomy
 TypeString=list
 DescriptionString=Anatomy terms from Uberon
 UsageString=Use to annotate a statement demonstrated in a specific anatomical entity.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:57:45
 
 [Author]

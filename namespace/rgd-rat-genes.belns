@@ -4,7 +4,7 @@ Keyword=RGD
 DomainString=Gene and Gene Products
 SpeciesString=10116
 DescriptionString=Rat Genome Database (RGD) approved gene symbols. These symbols may be used to specify rat gene, RNA, microRNA and protein abundances. Single character encoding following each value specify which abundance types are valid. 
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:20
 QueryValueURL=http://rgd.mcw.edu/rgdweb/search/genes.html?term=[VALUE]&speciesType=3
 

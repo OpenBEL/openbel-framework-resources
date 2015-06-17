@@ -1,12 +1,12 @@
 SET DOCUMENT Name = "Selventa Protein Families Definitions"
 SET DOCUMENT Description = "Selventa Protein Families and Members"
-SET DOCUMENT Version = 20150611
+SET DOCUMENT Version = testing
 SET DOCUMENT Copyright = "Copyright (c) 2011-2015, Selventa. All rights reserved."
 SET DOCUMENT Authors = Selventa
-DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/20150611/namespace/selventa-protein-families.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/20150611/namespace/hgnc-human-genes.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/20150611/namespace/mgi-mouse-genes.belns"
-DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/20150611/namespace/rgd-rat-genes.belns"
+DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"
 SET STATEMENT_GROUP = "Group 1"
 SET Citation = {"Other","Selventa Protein Family Definitions","Selventa Protein Families","","",""}
 p(SFAM:"14-3-3 Family") hasMember p(HGNC:SFN)

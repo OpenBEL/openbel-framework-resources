@@ -1,12 +1,12 @@
 [Equivalence]
 NameString=MeSH Phenomena and Processes Heading Equivalence (Identifiers)
 DescriptionString=MeSH Phenomena and Processes equivalences were obtained by string match of MeSH headings and synonyms to GO Biological Process names.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:52:16
 
 [NamespaceReference]
 NameString=MeSH Phenomena and Processes Headings
-VersionString=20150611
+VersionString=testing
 
 [Author]
 NameString=OpenBEL

@@ -3,7 +3,7 @@ Keyword=CellLine
 TypeString=list
 DescriptionString=Cell Line Ontology (CLO) and Experimental Factor Ontology (EFO) Cell Lines
 UsageString=Use this annotation to indicate the cell line context of a statement. Use to annotate a statement that was demonstrated in a given cell line.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:57:45
 
 [Author]

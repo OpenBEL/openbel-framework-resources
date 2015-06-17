@@ -1,12 +1,12 @@
 [Equivalence]
 NameString=Chemicals of Biological Interest (Names) Equivalences
 DescriptionString=ChEBI Identifier equivalences. Chemical and small molecule namespace equivalences are rooted to ChEBI, such that each primary ChEBI identifier is assigned a unique UUID.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:36
 
 [NamespaceReference]
 NameString=Chemicals of Biological Interest (Names)
-VersionString=20150611
+VersionString=testing
 
 [Author]
 NameString=OpenBEL

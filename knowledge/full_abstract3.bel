@@ -12,17 +12,17 @@ SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/20150611/namespace/selventa-protein-families.belns"
-DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/20150611/namespace/selventa-named-complexes.belns"
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/20150611/namespace/mgi-mouse-genes.belns"
-DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/20150611/namespace/mesh-diseases.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/20150611/namespace/hgnc-human-genes.belns"
-DEFINE NAMESPACE GOBP AS URL "http://resource.belframework.org/belframework/20150611/namespace/go-biological-process.belns"
-DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/20150611/namespace/chebi.belns"
+DEFINE NAMESPACE SFAM AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns"
+DEFINE NAMESPACE SCOMP AS URL "http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE GOBP AS URL "http://resource.belframework.org/belframework/testing/namespace/go-biological-process.belns"
+DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi.belns"
 
-DEFINE ANNOTATION CellLine AS URL "http://resource.belframework.org/belframework/20150611/annotation/cell-line.belanno"
-DEFINE ANNOTATION MeshDisease AS URL "http://resource.belframework.org/belframework/20150611/annotation/mesh-diseases.belanno"
-DEFINE ANNOTATION Species AS URL "http://resource.belframework.org/belframework/20150611/annotation/species-taxonomy-id.belanno"
+DEFINE ANNOTATION CellLine AS URL "http://resource.belframework.org/belframework/testing/annotation/cell-line.belanno"
+DEFINE ANNOTATION MeshDisease AS URL "http://resource.belframework.org/belframework/testing/annotation/mesh-diseases.belanno"
+DEFINE ANNOTATION Species AS URL "http://resource.belframework.org/belframework/testing/annotation/species-taxonomy-id.belanno"
 
 ##################################################################################
 # Statements Section

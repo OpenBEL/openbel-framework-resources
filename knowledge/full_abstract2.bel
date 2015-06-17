@@ -2,7 +2,7 @@
 # Document Properties Section
 SET DOCUMENT Name = "BEL Framework Example 2 Document"
 SET DOCUMENT Description = "Example of modeling a full abstract taken from the BEL V1.0 Language Overview."
-SET DOCUMENT Version = "20150611"
+SET DOCUMENT Version = "testing"
 SET DOCUMENT Copyright = "Copyright (c) 2011-2015, Selventa. All Rights Reserved."
 SET DOCUMENT ContactInfo = "support@belframework.org"
 SET DOCUMENT Authors = Selventa
@@ -11,11 +11,11 @@ SET DOCUMENT Licenses = "Creative Commons Attribution-Non-Commercial-ShareAlike 
 ##################################################################################
 # Definitions Section
 
-DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/20150611/namespace/mesh-diseases.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/20150611/namespace/hgnc-human-genes.belns"
-DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/20150611/namespace/chebi.belns"
+DEFINE NAMESPACE MESHD AS URL "http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE CHEBI AS URL "http://resource.belframework.org/belframework/testing/namespace/chebi.belns"
 
-DEFINE ANNOTATION CellStructure AS URL "http://resource.belframework.org/belframework/20150611/annotation/cell-structure.belanno"
+DEFINE ANNOTATION CellStructure AS URL "http://resource.belframework.org/belframework/testing/annotation/cell-structure.belanno"
 
 ##################################################################################
 # Statements Section

@@ -4,7 +4,7 @@ Keyword=DOID
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=Disease names from the Disease Ontology (DO). These names may be used to specify pathologies. 
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:19
 
 [Author]

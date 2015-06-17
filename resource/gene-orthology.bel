@@ -8,9 +8,9 @@ SET DOCUMENT Authors = OpenBEL
 
 ##################################################
 # Definitions Section
-DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/20150611/namespace/mgi-mouse-genes.belns"
-DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/20150611/namespace/hgnc-human-genes.belns"
-DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/20150611/namespace/rgd-rat-genes.belns"
+DEFINE NAMESPACE MGI AS URL "http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE RGD AS URL "http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns"
 
 ##################################################
 # Statements Section

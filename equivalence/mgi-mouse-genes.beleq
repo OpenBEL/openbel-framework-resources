@@ -1,12 +1,12 @@
 [Equivalence]
 NameString=MGI Symbol Equivalences
 DescriptionString=MGI symbol equivalences based on the Entrez Gene gene_info file. MGI Symbols without an associated Entrez GeneID are assigned a new UUID.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:32
 
 [NamespaceReference]
 NameString=MGI Approved Gene Symbols
-VersionString=20150611
+VersionString=testing
 
 [Author]
 NameString=OpenBEL

@@ -4,7 +4,7 @@ Keyword=GOCCID
 DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Gene Ontology (GO) cellular component identifiers. These terms may be used to represent cellular components as well as complex abundances. 
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:15
 QueryValueURL=http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:[VALUE]
 
