@@ -78,31 +78,31 @@ Continue with <a href="#install_bel_gem">Install the bel gem</a>.
 3. You should see the following:
 
 <pre>
-    Fetching: bel-0.2.1.gem (100%)
-    Successfully installed bel-0.2.1
-    Parsing documentation for bel-0.2.1
-    Installing ri documentation for bel-0.2.1
+    Fetching: bel-0.3.0.gem (100%)
+    Successfully installed bel-0.3.0
+    Parsing documentation for bel-0.3.0
+    Installing ri documentation for bel-0.3.0
     1 gem installed
 </pre>
-4. Confirm you can access the `bel_upgrade` command.
+4. Confirm you can access the *bel* command by type `bel` followed by the Enter/Return key.
 5. Continue with <a href="#upgrading_bel">Upgrading BEL</a>.
 
 <br><br>
 <div id="upgrading_bel"></div>
 ## Upgrading BEL
 
-1. Type `bel_upgrade --help` for option details.
+1. Type `bel upgrade help` for details on the upgrade command.
 2. Run command
    * Example 1 - convert a BEL file
-     * `bel_upgrade --bel small_corpus.bel --changelog "http://resource.belframework.org/belframework/20131211/change_log.json"
+     * `bel upgrade --bel small_corpus.bel --changelog "http://resource.belframework.org/belframework/20150611/change_log.json"
    * Example 2 - convert BEL from standard in
-     * `curl "http://resource.belframework.org/belframework/1.0/knowledge/small_corpus.bel" | bel_upgrade --changelog "http://resource.belframework.org/belframework/20131211/change_log.json"`
+     * `curl "http://resource.belframework.org/belframework/20131211/knowledge/small_corpus.bel" | bel upgrade --changelog "http://resource.belframework.org/belframework/20150611/change_log.json"`
    * More details [here] (https://github.com/OpenBEL/bel.rb).
 3. The upgraded BEL will be written to standard out.  Simply redirect to a file after that.
-   * `bel_upgrade ... > upgraded-version.bel`
+   * `bel upgrade ... > upgraded-version.bel`
 
 <br><br>
 ## Issues
 
-* If you have questions with `bel_upgrade` or the `bel` gem please post to the [openbel-discuss] (https://groups.google.com/forum/#!forum/openbel-discuss) google group.
+* If you have questions with `bel upgrade` or the `bel` gem please post to the [openbel-discuss] (https://groups.google.com/forum/#!forum/openbel-discuss) google group.
 * If you encounter errors please post an issue to [github issues] (https://github.com/OpenBEL/bel.rb/issues).
