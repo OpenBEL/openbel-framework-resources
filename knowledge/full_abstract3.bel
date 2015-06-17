@@ -35,7 +35,7 @@ malignant human colorectal tumors, whereas K-Ras Val12 (K12V) associates
 with more advanced and metastatic carcinomas, higher recurrence and
 decreased survival."
 SET Species = 9606
-SET Disease = "Colorectal Neoplasms"
+SET MeshDisease = "Colorectal Neoplasms"
 p(HGNC:KRAS,sub(G,12,V)) prognosticBiomarkerFor path(MESHD:"Neoplasm Metastasis")
 p(HGNC:KRAS,sub(G,12,V)) prognosticBiomarkerFor path(MESHD:Recurrence)
 SET Evidence = "Here, we tested, in a nude mouse xenograft model, whether
@@ -46,7 +46,7 @@ tumor histology and growth, apoptotic and mitotic rates, activation of
 signal transduction pathways downstream of Ras and regulation of the cell
 cycle and apoptotic proteins in tumors derived from the implanted transformants."
 # disease "Colorectal Neoplasms" does not apply to this evidence text; need to clear disease annotation
-UNSET Disease
+UNSET MeshDisease
 # note that experiment is expression of human genes in mouse tissue; set species annotation to mouse and cell line to NIH3T3
 SET Species = 10090
 SET CellLine = "NIH-3T3 cell"
