@@ -4,19 +4,19 @@ Keyword=DO
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=Disease names from the Disease Ontology (DO). These names may be used to specify pathologies. 
-VersionString=20131211
-CreatedDateTime=2013-12-11T13:14:12
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:51:16
 
 [Author]
 NameString=OpenBEL
-CopyrightString=Copyright (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+CopyrightString=Copyright (c) 2015, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=Disease Ontology (DO)
 DescriptionString=The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts through collaborative efforts of researchers at Northwestern University, Center for Genetic Medicine and the University of Maryland School of Medicine, Institute for Genome Sciences.
-PublishedVersionString=2013-12-05
-PublishedDate=2013-12-05
+PublishedVersionString=2015-06-11
+PublishedDate=2015-06-11
 ReferenceURL=http://disease-ontology.org/
 
 [Processing]
@@ -26,7 +26,10 @@ CacheableFlag=yes
 
 [Values]
 2-hydroxyglutaric aciduria|O
+3-M syndrome|O
 3-Methylcrotonyl-CoA carboxylase deficiency|O
+3-methylglutaconic aciduria|O
+3MC syndrome|O
 46 XX gonadal dysgenesis|O
 46 XY gonadal dysgenesis|O
 ABCD syndrome|O
@@ -39,6 +42,7 @@ Aagenaes syndrome|O
 Aarskog-Scott syndrome|O
 Achard syndrome|O
 Achenbach syndrome|O
+Adams-Oliver syndrome|O
 Addison's disease|O
 Adie syndrome|O
 African histoplasmosis|O
@@ -72,13 +76,15 @@ Axenfeld-Rieger syndrome|O
 B cell deficiency|O
 B cell linker protein deficiency|O
 B- and T-cell mixed leukemia|O
-B-cell lymphocytic neoplasm|O
+B-cell lymphoma|O
 Baastrup's syndrome|O
 Balkan hemorrhagic fever|O
 Balkan nephropathy|O
 Baller-Gerold syndrome|O
+Balo concentric sclerosis|O
 Bamforth-Lazarus syndrome|O
 Bannayan-Riley-Ruvalcaba syndrome|O
+Baraitser-Winter syndrome|O
 Bardet-Biedl syndrome|O
 Barmah Forest virus disease|O
 Barre-Lieou syndrome|O
@@ -136,13 +142,13 @@ Brucella abortus brucellosis|O
 Brucella canis brucellosis|O
 Brucella melitensis brucellosis|O
 Brucella suis brucellosis|O
+Bruck syndrome|O
 Brugada syndrome|O
 Bruton-type agammaglobulinemia|O
-Burkitt's lymphoma|O
+Burkitt lymphoma|O
 Buruli ulcer disease|O
 C-P angle neurinoma|O
 C1 inhibitor deficiency|O
-C3 deficiency|O
 CD3delta deficiency|O
 CD3epsilon deficiency|O
 CD3gamma deficiency|O
@@ -150,13 +156,18 @@ CD3zeta deficiency|O
 CD40 deficiency|O
 CD40 ligand deficiency|O
 CD45 deficiency|O
+CEDNIK syndrome|O
+CHARGE syndrome|O
 CLL/SLL|O
+CREST syndrome|O
 Caffey disease|O
 Camurati-Engelmann disease|O
 Canavan disease|O
 Capgras syndrome|O
 Caplan's syndrome|O
 Carney complex|O
+Caroli disease|O
+Carpenter syndrome|O
 Carrion's Disease|O
 Cauda equina syndrome|O
 Chagas disease|O
@@ -171,20 +182,25 @@ Charcot-Marie-Tooth disease type 4|O
 Charcot-Marie-Tooth disease type X|O
 Chediak-Higashi syndrome|O
 Churg-Strauss syndrome|O
+Clostridium difficile colitis|O
 Clouston syndrome|O
 Coats disease|O
 Cockayne syndrome|O
 Coffin-Lowry syndrome|O
 Coffin-Siris syndrome|O
+Cogan syndrome|O
+Cogan-Reese syndrome|O
 Colorado tick fever|O
 Conn's syndrome|O
+Cor pulmonale|O
 Cornelia de Lange syndrome|O
 Costello syndrome|O
 Cowden disease|O
-Creutzfeldt-Jakob syndrome|O
+Creutzfeldt-Jakob disease|O
 Cri-Du-Chat syndrome|O
 Crigler-Najjar syndrome|O
 Crimean-Congo hemorrhagic fever|O
+Crohn's colitis|O
 Crohn's disease|O
 Cronkhite-Canada syndrome|O
 Crouzon syndrome|O
@@ -195,11 +211,13 @@ DNA ligase IV deficiency|O
 Dandy-Walker syndrome|O
 Danon disease|O
 De Quervain disease|O
+Dent disease|O
 Denys-Drash syndrome|O
 DiGeorge syndrome|O
 Diamond-Blackfan anemia|O
 Dieulafoy lesion|O
 Donohue Syndrome|O
+Dowling-Degos disease|O
 Down syndrome|O
 Dravet Syndrome|O
 Dressler's syndrome|O
@@ -218,8 +236,9 @@ Emery-Dreifuss muscular dystrophy|O
 Epstein-Barr virus hepatitis|O
 Erdheim-Chester disease|O
 Evans' syndrome|O
-Ewing's family localized tumor|O
 FG syndrome|O
+FTDALS1|O
+FTDALS2|O
 Fabry disease|O
 Fanconi syndrome|O
 Fanconi's anemia|O
@@ -238,9 +257,10 @@ Fuchs' endothelial dystrophy|O
 Fuchs' heterochromic uveitis|O
 Fukuyama congenital muscular dystrophy|O
 GABA aminotransferase deficiency|O
+Gamstorp-Wohlfart syndrome|O
 Gaucher's disease|O
 Gerstmann syndrome|O
-Gerstmann-Straussler-Scheinker disease|O
+Gerstmann-Straussler-Scheinker syndrome|O
 Gilbert syndrome|O
 Gilles de la Tourette syndrome|O
 Gitelman syndrome|O
@@ -274,15 +294,16 @@ Hodgkin's paragranuloma|O
 Horner's syndrome|O
 Human immunodeficiency virus infectious disease|O
 Huntington's disease|O
+IMAGe syndrome|O
 IgA glomerulonephritis|O
 Indian tick typhus|O
-Infective dermatitis of eyelid of types resulting in deformity|O
 Israeli tick typhus|O
 JMP syndrome|O
 Jaccoud's syndrome|O
 Jansen's metaphyseal chondrodysplasia|O
 Japanese encephalitis|O
 Japanese spotted fever|O
+Jensen syndrome|O
 Jervell-Lange Nielsen syndrome|O
 Jewett-Marshall bladder cancer|O
 Job's syndrome|O
@@ -292,6 +313,7 @@ KBG syndrome|O
 Kahrizi syndrome|O
 Kallmann syndrome|O
 Kaposi's sarcoma|O
+Kartagener syndrome|O
 Kawasaki disease|O
 Kearns-Sayre syndrome|O
 Kennedy's disease|O
@@ -305,6 +327,7 @@ Klippel-Trenaunay syndrome|O
 Kluver-Bucy syndrome|O
 Kniest dysplasia|O
 Kohler's disease|O
+Koolen de Vries syndrome|O
 Korean hemorrhagic fever|O
 Krabbe disease|O
 Krukenberg carcinoma|O
@@ -333,7 +356,6 @@ Leigh disease|O
 Lemierre's syndrome|O
 Lennox-Gastaut syndrome|O
 Lesch-Nyhan syndrome|O
-Letterer-Siwe disease|O
 Lewy body dementia|O
 Leydig cell tumor|O
 Li-Fraumeni syndrome|O
@@ -343,24 +365,31 @@ Loeffler endocarditis|O
 Loeffler syndrome|O
 Loeys-Dietz syndrome|O
 Lown-Ganong-Levine syndrome|O
+Ludwig's angina|O
 Lutembacher's syndrome|O
 Lyme disease|O
 Lynch syndrome|O
+MALT lymphoma|O
+MASA syndrome|O
 MELAS syndrome|O
 MERRF syndrome|O
 MHC class I deficiency|O
 MHC class II deficiency|O
 Machado-Joseph disease|O
-Marable's syndrome|O
+Maffucci syndrome|O
 Marburg hemorrhagic fever|O
 Marfan syndrome|O
+Marshall-Smith syndrome|O
+Mast syndrome|O
 Masters-Allen syndrome|O
+Matthew-Wood syndrome|O
 McCune Albright syndrome|O
 McKusick type metaphyseal dysplasia|O
 Meckel syndrome|O
 Meckel's diverticulitis|O
 Meckel's diverticulum|O
 Meckel's diverticulum cancer|O
+Meier-Gorlin syndrome|O
 Meige syndrome|O
 Melkersson-Rosenthal syndrome|O
 Meniere's disease|O
@@ -374,11 +403,14 @@ Monckeberg arteriosclerosis|O
 Mooren's ulcer|O
 Morgagni cataract|O
 Moyamoya disease|O
+Muckle-Wells syndrome|O
 Muir-Torre syndrome|O
 Munchausen by proxy|O
 Murray Valley encephalitis|O
 Mycobacterium avium complex disease|O
 N syndrome|O
+Nager acrofacial dysostosis|O
+Native American myopathy|O
 Nelson syndrome|O
 Netherton syndrome|O
 Newcastle disease|O
@@ -389,6 +421,7 @@ Noonan syndrome|O
 Norum disease|O
 O'nyong'nyong fever|O
 Ogden syndrome|O
+Ohdo syndrome|O
 Ohtahara syndrome|O
 Ollier disease|O
 Omenn syndrome|O
@@ -413,6 +446,7 @@ Pediculus humanus capitis infestation|O
 Pediculus humanus corporis infestation|O
 Pelger-Huet anomaly|O
 Pelizaeus-Merzbacher disease|O
+Perrault syndrome|O
 Peutz-Jeghers syndrome|O
 Peyronie's disease|O
 Pfeiffer syndrome|O
@@ -436,6 +470,7 @@ Q fever|O
 Qazi Markouizos syndrome|O
 Queensland tick typhus|O
 REM sleep behavior disorder|O
+Rapp-Hodgkin syndrome|O
 Raynaud disease|O
 Refsum disease|O
 Renpenning syndrome|O
@@ -450,6 +485,7 @@ Rift Valley fever|O
 Riley-Day syndrome|O
 Ritter's disease|O
 Roberts syndrome|O
+Robinow syndrome|O
 Rocky Mountain spotted fever|O
 Ross River fever|O
 Rothmund-Thomson syndrome|O
@@ -461,6 +497,7 @@ SOST-related sclerosing bone dysplasia|O
 Saethre-Chotzen syndrome|O
 Saldino-Noonan syndrome|O
 Sandhoff disease|O
+Scheie syndrome|O
 Scheuermann's disease|O
 Schmid metaphyseal chondrodysplasia|O
 Schneiderian carcinoma|O
@@ -468,7 +505,6 @@ Schnitzler syndrome|O
 Schwachman Diamond type metaphyseal dysplasia|O
 Schwannian stroma-rich and stroma-poor composite ganglioneuroblastoma|O
 Schwannoma of ureter|O
-Sciatic Neuropathy|O
 Sclerosing liposarcoma|O
 Seckel syndrome|O
 Senile atrophy of choroid|O
@@ -482,14 +518,16 @@ Sheehan syndrome|O
 Shwartzman phenomenon|O
 Siberian tick typhus|O
 Silver-Russell syndrome|O
-Sipple syndrome|O
+Simpson-Golabi-Behmel syndrome|O
 Sjogren's syndrome|O
 Sjogren-Larsson syndrome|O
 Sly syndrome|O
 Smith-Lemli-Opitz syndrome|O
+Smith-McCort dysplasia|O
 Sneddon syndrome|O
 Sotos syndrome|O
 St. Louis encephalitis|O
+Stargardt disease|O
 Stevens-Johnson syndrome|O
 Stickler syndrome|O
 Stiff-Person syndrome|O
@@ -508,30 +546,34 @@ Taylor's syndrome|O
 Thomsen disease|O
 Tietze's syndrome|O
 Timothy syndrome|O
+Townes-Brocks syndrome|O
 Treacher Collins syndrome|O
+Troyer syndrome|O
 Turner syndrome|O
+UV-sensitive syndrome|O
 Ullrich congenital muscular dystrophy|O
 Unverricht-Lundborg syndrome|O
 Usher syndrome|O
 VACTERL association|O
 VIPoma|O
 Vagus nerve disease|O
+Van Maldergem syndrome|O
+Van der Woude syndrome|O
 Venezuelan equine encephalitis|O
 Venezuelan hemorrhagic fever|O
 Vogt-Koyanagi-Harada disease|O
 Volkmann contracture|O
 WAGR syndrome|O
 Waardenburg's syndrome|O
-Wagenmann-Froboese syndrome|O
 Waldeyer's ring cancer|O
 Walker-Warburg syndrome|O
+Warburg micro syndrome|O
 Waterhouse-Friderichsen syndrome|O
 Weaver syndrome|O
 Wegener's granulomatosis|O
 Weill-Marchesani syndrome|O
 Weissenbacher-Zweymüller syndrome|O
 Werdnig-Hoffmann disease|O
-Wermer syndrome|O
 Werner syndrome|O
 Wernicke encephalopathy|O
 Wernicke-Korsakoff syndrome|O
@@ -553,6 +595,7 @@ Wolffian duct adenoma|O
 Wolfram syndrome|O
 Wolman disease|O
 Worth's syndrome|O
+X-linked chondrodysplasia punctata|O
 X-linked disease|O
 X-linked hyper IgM syndrome|O
 X-linked hypophosphatemia|O
@@ -617,14 +660,18 @@ acrocallosal syndrome|O
 acrocapitofemoral dysplasia|O
 acrocephalosyndactylia|O
 acrodermatitis|O
+acrodermatitis chronica atrophicans|O
 acrodermatitis enteropathica|O
 acrodysostosis|O
+acrofrontofacionasal dysostosis|O
 acrokeratosis verruciformis|O
 acromegaly|O
+acromelic frontonasal dysostosis|O
 acromesomelic dysplasia|O
 acromesomelic dysplasia, Grebe type|O
 acromesomelic dysplasia, Hunter-Thompson type|O
 acromesomelic dysplasia, Maroteaux type|O
+acrorenal syndrome|O
 actinic keratosis|O
 actinobacillosis|O
 actinomycosis|O
@@ -693,6 +740,7 @@ acute perichondritis of pinna|O
 acute porphyria|O
 acute poststreptococcal glomerulonephritis|O
 acute proliferative glomerulonephritis|O
+acute promyelocytic leukemia|O
 acute pulmonary heart disease|O
 acute pyelonephritis|O
 acute retinal necrosis syndrome|O
@@ -715,7 +763,7 @@ adenocarcinoma|O
 adenocarcinoma in situ|O
 adenofibroma|O
 adenoid basal cell carcinoma|O
-adenoid cystic carcinoma|O
+adenoid hypertrophy|O
 adenoid squamous cell carcinoma|O
 adenoiditis|O
 adenoma|O
@@ -737,18 +785,19 @@ adhesions of uterus|O
 adiaspiromycosis|O
 adiposis dolorosa|O
 adjustment disorder|O
-adnexa disease|O
 adolescence-adult electroclinical syndrome|O
 adrenal adenoma|O
 adrenal carcinoma|O
 adrenal cortex cancer|O
 adrenal cortex disease|O
 adrenal cortical adenocarcinoma|O
+adrenal cortical adenoma|O
 adrenal cortical hypofunction|O
 adrenal gland cancer|O
 adrenal gland disease|O
 adrenal gland ganglioneuroblastoma|O
 adrenal gland hyperfunction|O
+adrenal gland pheochromocytoma|O
 adrenal medulla cancer|O
 adrenal medulla carcinoma|O
 adrenal neuroblastoma|O
@@ -817,13 +866,14 @@ age related macular degeneration|O
 aggressive digital papillary adenocarcinoma|O
 aggressive periodontitis|O
 aggressive systemic mastocytosis|O
+agnathia-otocephaly complex|O
 agnosia|O
 agoraphobia|O
 agranulocytosis|O
+agraphia|O
 ainhum|O
 akinetic mutism|O
 akinetopsia|O
-alcaptonuria|O
 alcohol abuse|O
 alcohol dependence|O
 alcohol-induced mental disorder|O
@@ -871,6 +921,7 @@ alveoli adenoma|O
 amblyopia|O
 amebiasis|O
 amelanotic melanoma|O
+ameloblastoma|O
 amelogenesis imperfecta|O
 amenorrhea|O
 ametropic amblyopia|O
@@ -891,7 +942,27 @@ amusia|O
 amyloid tumor|O
 amyloidosis|O
 amyotrophic lateral sclerosis|O
+amyotrophic lateral sclerosis type 1|O
+amyotrophic lateral sclerosis type 10|O
+amyotrophic lateral sclerosis type 11|O
+amyotrophic lateral sclerosis type 12|O
+amyotrophic lateral sclerosis type 13|O
+amyotrophic lateral sclerosis type 14|O
+amyotrophic lateral sclerosis type 15|O
+amyotrophic lateral sclerosis type 16|O
+amyotrophic lateral sclerosis type 17|O
+amyotrophic lateral sclerosis type 18|O
+amyotrophic lateral sclerosis type 19|O
+amyotrophic lateral sclerosis type 2|O
+amyotrophic lateral sclerosis type 20|O
+amyotrophic lateral sclerosis type 21|O
+amyotrophic lateral sclerosis type 3|O
+amyotrophic lateral sclerosis type 4|O
+amyotrophic lateral sclerosis type 5|O
+amyotrophic lateral sclerosis type 6|O
+amyotrophic lateral sclerosis type 7|O
 amyotrophic lateral sclerosis type 8|O
+amyotrophic lateral sclerosis type 9|O
 amyotrophic neuralgia|O
 anaerobic meningitis|O
 anaerobic pneumonia|O
@@ -905,6 +976,7 @@ anal canal squamous cell carcinoma|O
 anal carcinoma|O
 anal carcinoma in situ|O
 anal colloid adenocarcinoma|O
+anal fistula|O
 anal gland adenocarcinoma|O
 anal gland neoplasm|O
 anal margin basal cell carcinoma|O
@@ -922,7 +994,6 @@ androgenic alopecia|O
 anemia|O
 anemia of prematurity|O
 aneruptive fever|O
-aneurysm disease|O
 angiodysplasia|O
 angiodysplasia of intestine|O
 angioedema|O
@@ -941,17 +1012,18 @@ angiosarcoma|O
 angiostrongyliasis|O
 angle-closure glaucoma|O
 angular blepharoconjunctivitis|O
+angular cheilitis|O
 anhidrosis|O
 animal phobia|O
 aniridia|O
 anisakiasis|O
 aniseikonia|O
+anismus|O
 anisometropia|O
 ankylosing spondylitis|O
 ankylosis|O
 anodontia|O
 anogenital venereal wart|O
-anomalous atrioventricular excitation|O
 anonychia congenita|O
 anorectal stricture|O
 anorexia nervosa|O
@@ -964,6 +1036,7 @@ anterior cranial fossa meningioma|O
 anterior dislocation of lens|O
 anterior foramen magnum meningioma|O
 anterior horn cell disease|O
+anterior ischemic optic neuropathy|O
 anterior optic tract meningioma|O
 anterior scleritis|O
 anterior spinal artery syndrome|O
@@ -997,7 +1070,6 @@ aorta atresia|O
 aortic aneurysm|O
 aortic atherosclerosis|O
 aortic disease|O
-aortic incompetence|O
 aortic malignant tumor|O
 aortic valve disease|O
 aortic valve insufficiency|O
@@ -1019,6 +1091,7 @@ appendiceal neoplasm|O
 appendicitis|O
 appendix adenocarcinoma|O
 appendix cancer|O
+appendix carcinoid tumor|O
 appendix carcinoma|O
 appendix leiomyoma|O
 appendix lymphoma|O
@@ -1030,15 +1103,17 @@ arachnoiditis|O
 arcus senilis|O
 argininosuccinic aciduria|O
 ariboflavinosis|O
-arrhythmogenic right ventricular dysplasia|O
+arrhythmogenic right ventricular cardiomyopathy|O
 artemis deficiency|O
-arterial occlusive disease|O
+arterial calcification of infancy|O
 arterial tortuosity syndrome|O
 arteriolosclerosis|O
 arteriosclerosis|O
 arteriosclerosis obliterans|O
 arteriosclerotic cardiovascular disease|O
 arteriovenous malformation|O
+arteritic anterior ischemic optic neuropathy|O
+artery disease|O
 arthritis|O
 arthropathy|O
 arthus reaction|O
@@ -1078,10 +1153,13 @@ atheroembolism of kidney|O
 atherosclerosis|O
 atopic dermatitis|O
 atransferrinemia|O
+atrial fibrillation|O
 atrial heart septal defect|O
+atrioventricular block|O
 atrioventricular septal defect|O
 atrophic flaccid tympanic membrane|O
 atrophic gastritis|O
+atrophic glossitis|O
 atrophic muscular disease|O
 atrophic nonflaccid tympanic membrane|O
 atrophic rhinitis|O
@@ -1128,12 +1206,16 @@ autonomic nervous system disease|O
 autonomic nervous system neoplasm|O
 autonomic neuropathy|O
 autonomic peripheral neuropathy|O
+autosomal dominant chondrodysplasia punctata|O
 autosomal dominant disease|O
 autosomal dominant microcephaly|O
+autosomal dominant non-syndromic intellectual disability|O
 autosomal dominant nonsyndromic deafness|O
+autosomal dominant sideroblastic anemia|O
 autosomal dominant type IV Ehlers-Danlos syndrome|O
 autosomal genetic disease|O
 autosomal recessive disease|O
+autosomal recessive non-syndromic intellectual disability|O
 autosomal recessive nonsyndromic deafness|O
 autosomal recessive type IV Ehlers-Danlos syndrome|O
 autotopagnosia|O
@@ -1145,6 +1227,7 @@ axillary lipoma|O
 axonal neuropathy|O
 azoospermia|O
 babesiosis|O
+bacillary angiomatosis|O
 background diabetic retinopathy|O
 bacterial conjunctivitis|O
 bacterial esophagitis|O
@@ -1165,7 +1248,9 @@ band keratopathy|O
 barbiturate abuse|O
 barbiturate dependence|O
 baritosis|O
+bartonellosis|O
 basal cell carcinoma|O
+basal ganglia calcification|O
 basal ganglia cerebrovascular disease|O
 basal ganglia disease|O
 basaloid lung carcinoma|O
@@ -1202,7 +1287,6 @@ benign mediastinal psammomatous neurilemmoma|O
 benign meningioma|O
 benign mesenchymoma|O
 benign mesothelioma|O
-benign migratory glossitis|O
 benign neonatal seizures|O
 benign neoplasm|O
 benign neurilemmoma|O
@@ -1310,6 +1394,7 @@ blepharochalasis|O
 blepharoconjunctivitis|O
 blepharophimosis|O
 blepharophimosis, ptosis, and epicanthus inversus syndrome|O
+blepharophimosis-intellectual disability syndrome, SBBYS type|O
 blepharospasm|O
 blind hypertensive eye|O
 blind hypotensive eye|O
@@ -1327,10 +1412,12 @@ blue toe syndrome|O
 blunt duct adenosis of breast|O
 body dysmorphic disorder|O
 bone Ewing's sarcoma|O
+bone ameloblastoma|O
 bone angioendothelial sarcoma|O
 bone benign neoplasm|O
 bone cancer|O
 bone carcinoma|O
+bone chondrosarcoma|O
 bone deterioration disease|O
 bone development disease|O
 bone disease|O
@@ -1339,7 +1426,6 @@ bone giant cell sarcoma|O
 bone giant cell tumor|O
 bone inflammation disease|O
 bone leiomyosarcoma|O
-bone localized Ewing's sarcoma|O
 bone lymphoma|O
 bone marrow cancer|O
 bone marrow disease|O
@@ -1347,6 +1433,7 @@ bone osteosarcoma|O
 bone peripheral neuroepithelioma|O
 bone remodeling disease|O
 bone resorption disease|O
+bone squamous cell carcinoma|O
 bone structure disease|O
 borderline glaucoma|O
 borderline leprosy|O
@@ -1355,7 +1442,6 @@ borna disease|O
 botryoid rhabdomyosarcoma|O
 botulism|O
 boutonneuse fever|O
-bovine spongiform encephalopathy|O
 bowel dysfunction|O
 brachial plexus lesion|O
 brachial plexus neoplasm|O
@@ -1364,6 +1450,7 @@ brachial plexus neuropathy|O
 brachydactyly|O
 brachydactyly-syndactyly syndrome|O
 brachyolmia|O
+bradyopsia|O
 brain angioma|O
 brain cancer|O
 brain compression|O
@@ -1381,15 +1468,18 @@ brain oligodendroglioma|O
 brain sarcoma|O
 brain stem angioblastoma|O
 brain stem astrocytic neoplasm|O
+brain stem cancer|O
 brain stem ependymoma|O
 brain stem glioma|O
 brain stem infarction|O
-brain stem neoplasm|O
+brain stem medulloblastoma|O
 brainstem intraparenchymal clear cell meningioma|O
 branch retinal artery occlusion|O
 branchiooculofacial syndrome|O
+branchiootic syndrome|O
 branchiootorenal syndrome|O
 brawny scleritis|O
+breast abscess|O
 breast adenocarcinoma|O
 breast adenoid cystic carcinoma|O
 breast adenoma|O
@@ -1411,6 +1501,7 @@ breast cystic hypersecretory carcinoma|O
 breast disease|O
 breast duct papilloma|O
 breast ductal adenoma|O
+breast ductal carcinoma|O
 breast epithelioid hemangioma|O
 breast fibroadenoma|O
 breast fibroadenosis|O
@@ -1429,6 +1520,7 @@ breast leiomyoma|O
 breast leiomyosarcoma|O
 breast lipoma|O
 breast liposarcoma|O
+breast lobular carcinoma|O
 breast lymphoma|O
 breast malignant eccrine spiradenoma|O
 breast malignant phyllodes tumor|O
@@ -1462,13 +1554,13 @@ bronchiolitis obliterans|O
 bronchiolitis obliterans organizing pneumonia|O
 bronchiolo-alveolar adenocarcinoma|O
 bronchitis|O
-bronchogenic carcinoma|O
 bronchogenic lung adenocarcinoma|O
 bronchopneumonia|O
 bronchus adenoma|O
 bronchus cancer|O
+bronchus carcinoma|O
 bronchus carcinoma in situ|O
-brown induration|O
+bronchus mucoepidermoid carcinoma|O
 brucellosis|O
 bruxism|O
 bubonic plague|O
@@ -1512,14 +1604,17 @@ carcinoma arising in nasal papillomatosis|O
 carcinoma of supraglottis|O
 carcinosarcoma|O
 cardia cancer|O
+cardiac arrest|O
 cardiac granular cell neoplasm|O
 cardiac sarcoidosis|O
 cardiac tamponade|O
+cardiofaciocutaneous syndrome|O
 cardiomyopathy|O
 cardiovascular cancer|O
 cardiovascular organ benign neoplasm|O
 cardiovascular syphilis|O
 cardiovascular system disease|O
+carnitine palmitoyltransferase II deficiency|O
 carotenemia|O
 carotid artery disease|O
 carotid artery dissection|O
@@ -1543,9 +1638,10 @@ cavernous hemangioma of face|O
 cavernous hemangioma of orbit|O
 cavernous sinus meningioma|O
 cavernous sinus thrombosis|O
+cecal benign neoplasm|O
 cecal disease|O
-cecal neoplasm|O
 cecum adenocarcinoma|O
+cecum adenoma|O
 cecum cancer|O
 cecum carcinoma|O
 cecum lymphoma|O
@@ -1640,7 +1736,6 @@ cerebral sarcoidosis|O
 cerebral ventricle cancer|O
 cerebritis|O
 cerebrotendinous xanthomatosis|O
-cerebrovascular accident|O
 cerebrovascular disease|O
 cerebrum cancer|O
 ceruminoma|O
@@ -1662,6 +1757,7 @@ cervical benign neoplasm|O
 cervical cancer|O
 cervical carcinosarcoma|O
 cervical clear cell adenocarcinoma|O
+cervical dystonia|O
 cervical endometrial stromal sarcoma|O
 cervical endometrioid adenocarcinoma|O
 cervical incompetence|O
@@ -1670,7 +1766,9 @@ cervical large cell neuroendocrine carcinoma|O
 cervical lymphoepithelioma-like carcinoma|O
 cervical mucinous adenocarcinoma|O
 cervical mullerian papilloma|O
+cervical neuroblastoma|O
 cervical non-keratinizing squamous cell carcinoma|O
+cervical polyp|O
 cervical serous adenocarcinoma|O
 cervical spinal canal and spinal cord meningioma|O
 cervical squamous cell carcinoma|O
@@ -1689,6 +1787,7 @@ cervix uteri carcinoma in situ|O
 chancroid|O
 cheek mucosa cancer|O
 cheilitis|O
+chemical colitis|O
 cherubism|O
 chest wall bone cancer|O
 chest wall lipoma|O
@@ -1773,6 +1872,8 @@ choline deficiency disease|O
 cholinergic urticaria|O
 chondroblastic osteosarcoma|O
 chondroblastoma|O
+chondrocalcinosis|O
+chondrodysplasia punctata|O
 chondroid chordoma|O
 chondroid lipoma|O
 chondroid syringoma of the vulva|O
@@ -1814,6 +1915,7 @@ chromosomal disease|O
 chronic NK-cell lymphocytosis|O
 chronic adhesive otitis media|O
 chronic apical periodontitis|O
+chronic atrial and intestinal dysrhythmia|O
 chronic atticoantral disease|O
 chronic canaliculitis|O
 chronic cervicitis|O
@@ -1874,6 +1976,7 @@ chronic toxic polyneuropathy|O
 chronic tubotympanic suppurative otitis media|O
 chronic tympanitis|O
 chronic ulcer of skin|O
+chronic venous insufficiency|O
 chronic wasting disease|O
 chronobiology disease|O
 chylocele of tunica vaginalis|O
@@ -1886,6 +1989,7 @@ ciliary body disease|O
 ciliary body epithelioid cell melanoma|O
 ciliary body mixed cell melanoma|O
 ciliary body spindle cell melanoma|O
+ciliopathy|O
 citrullinemia|O
 classic congenital mesoblastic nephroma|O
 classic pulmonary blastoma|O
@@ -1924,7 +2028,10 @@ cochlear disease|O
 coenurosis|O
 coenzyme Q10 deficiency disease|O
 cognitive disorder|O
+cold-induced sweating syndrome|O
+colitis|O
 collagen disease|O
+collagenous colitis|O
 collecting duct carcinoma|O
 colloid adenoma|O
 colloid carcinoma of the pancreas|O
@@ -1932,6 +2039,7 @@ coloboma|O
 coloboma of optic nerve|O
 colon Kaposi sarcoma|O
 colon adenocarcinoma|O
+colon adenoma|O
 colon cancer|O
 colon carcinoma|O
 colon carcinoma in situ|O
@@ -1945,16 +2053,19 @@ colon signet ring adenocarcinoma|O
 colon small cell carcinoma|O
 colon squamous cell carcinoma|O
 colonic L-cell glucagon-like peptide producing tumor|O
+colonic benign neoplasm|O
 colonic disease|O
 colonic lymphangioma|O
-colonic neoplasm|O
 colonic pseudo-obstruction|O
 color agnosia|O
 color blindness|O
+colorectal adenocarcinoma|O
+colorectal adenoma|O
 colorectal cancer|O
 columnar cell variant papillary carcinoma|O
 combat disorder|O
 combined T cell and B cell immunodeficiency|O
+combined oxidative phosphorylation deficiency|O
 combined thymoma|O
 comedo carcinoma|O
 commensal bacterial infectious disease|O
@@ -1968,7 +2079,14 @@ communicating hydrocephalus|O
 communication disorder|O
 compartment syndrome|O
 compensatory emphysema|O
+complement component 2 deficiency|O
+complement component 3 deficiency|O
+complement component 4a deficiency|O
+complement component 4b deficiency|O
 complement component 5 deficiency|O
+complement component 6 deficiency|O
+complement component 7 deficiency|O
+complement component 9 deficiency|O
 complement deficiency|O
 complement factor I deficiency|O
 complex partial epilepsy|O
@@ -1992,7 +2110,7 @@ congenital fibrosarcoma|O
 congenital generalized lipodystrophy|O
 congenital granular cell tumor|O
 congenital heart block|O
-congenital heart defect|O
+congenital heart disease|O
 congenital hemolytic anemia|O
 congenital hypogammaglobulinemia|O
 congenital hypoplastic anemia|O
@@ -2000,12 +2118,13 @@ congenital hypothyroidism|O
 congenital ichthyosiform erythroderma|O
 congenital intrinsic factor deficiency|O
 congenital mesoblastic nephroma|O
-congenital mitral regurgitation|O
 congenital muscular dystrophy|O
 congenital myasthenic syndrome|O
 congenital nervous system abnormality|O
 congenital nonspherocytic hemolytic anemia|O
 congenital nystagmus|O
+congenital ptosis|O
+congenital secretory chloride diarrhea 1|O
 congenital stationary night blindness|O
 congenital structural myopathy|O
 congenital syphilis|O
@@ -2021,6 +2140,7 @@ conjunctival deposit|O
 conjunctival disease|O
 conjunctival folliculosis|O
 conjunctival intraepithelial neoplasm|O
+conjunctival nevus|O
 conjunctival pigmentation|O
 conjunctival pterygium|O
 conjunctival vascular disease|O
@@ -2043,9 +2163,9 @@ conventional fibrosarcoma|O
 conventional leiomyosarcoma|O
 conventional malignant hemangiopericytoma|O
 conversion disorder|O
-cor pulmonale|O
 cork-handlers' disease|O
 cornea cancer|O
+cornea plana|O
 cornea squamous cell carcinoma|O
 corneal abscess|O
 corneal argyrosis|O
@@ -2061,15 +2181,15 @@ corneal neovascularization|O
 corneal staphyloma|O
 corneal ulcer|O
 coronary aneurysm|O
-coronary arteriosclerosis|O
 coronary artery anomaly|O
+coronary artery disease|O
 coronary artery vasospasm|O
-coronary heart disease|O
 coronary restenosis|O
 coronary stenosis|O
 coronary thrombosis|O
 coronin-1A deficiency|O
 corpus callosum lipoma|O
+corpus callosum oligodendroglioma|O
 corpus luteum cyst|O
 cortical blindness|O
 cortical deafness|O
@@ -2084,6 +2204,7 @@ cranial nerve malignant neoplasm|O
 cranial nerve neoplasm|O
 cranial nerve palsy|O
 cranial pseudosarcomatous fasciitis|O
+cranio-facial dystonia|O
 craniodiaphyseal dysplasia|O
 craniofrontonasal syndrome|O
 craniometaphyseal dysplasia|O
@@ -2167,6 +2288,7 @@ dendritic cell thymoma|O
 dengue disease|O
 dengue hemorrhagic fever|O
 dengue shock syndrome|O
+dental abscess|O
 dental caries|O
 dental enamel hypoplasia|O
 dental fluorosis|O
@@ -2185,7 +2307,7 @@ depersonalization disorder|O
 dermal unilateral segmental cavernous angioma|O
 dermatitis|O
 dermatitis herpetiformis|O
-dermatofibrosarcoma|O
+dermatofibrosarcoma protuberans|O
 dermatographia|O
 dermatomycosis|O
 dermatomyositis|O
@@ -2206,6 +2328,7 @@ diabetes mellitus|O
 diabetic angiopathy|O
 diabetic autonomic neuropathy|O
 diabetic cataract|O
+diabetic encephalopathy|O
 diabetic ketoacidosis|O
 diabetic macular edema|O
 diabetic neuropathy|O
@@ -2260,7 +2383,6 @@ disease of mental health|O
 disease of metabolism|O
 dislocation of ear ossicle|O
 displacement of cardia through esophageal hiatus|O
-dissecting aortic aneurysm|O
 disseminated chorioretinitis|O
 disseminated eosinophilic collagen disease|O
 disseminated intravascular coagulation|O
@@ -2272,6 +2394,7 @@ distal biliary tract carcinoma|O
 distal hereditary motor neuropathy|O
 distal muscular dystrophy|O
 disuse amblyopia|O
+diversion colitis|O
 diverticulitis|O
 diverticulitis of colon|O
 double outlet right ventricle|O
@@ -2284,18 +2407,21 @@ drug-induced mental disorder|O
 dry eye syndrome|O
 ductal carcinoma in situ|O
 dumping syndrome|O
+duodenal benign neoplasm|O
 duodenal disease|O
 duodenal gastrinoma|O
-duodenal neoplasm|O
 duodenal obstruction|O
 duodenal somatostatinoma|O
 duodenal ulcer|O
 duodenitis|O
 duodenogastric reflux|O
 duodenum adenocarcinoma|O
+duodenum adenoma|O
 duodenum cancer|O
 dysbaric osteonecrosis|O
 dyscalculia|O
+dyschromatosis symmetrica hereditaria|O
+dyschromatosis universalis hereditaria|O
 dysembryoplastic neuroepithelial tumor|O
 dysentery|O
 dysgammaglobulinemia|O
@@ -2313,8 +2439,6 @@ dyspepsia|O
 dysplastic nevus syndrome|O
 dysthymic disorder|O
 dystonia|O
-dystonia musculorum deformans|O
-dystonic disease|O
 dystrophies primarily involving the retinal pigment epithelium|O
 early congenital syphilis|O
 early invasive cervical adenocarcinoma|O
@@ -2336,6 +2460,7 @@ echolalia|O
 eclampsia|O
 ecthyma|O
 ectomesenchymoma|O
+ectopic pregnancy|O
 ectopic thymus|O
 ectothrix infectious disease|O
 ectropion|O
@@ -2370,6 +2495,8 @@ endobronchial lipoma|O
 endocardial fibroelastosis|O
 endocarditis|O
 endocardium cancer|O
+endocardium disease|O
+endocervical adenocarcinoma|O
 endocervical carcinoma|O
 endocervical type cervical adenomyoma|O
 endocervical type cervical mucinous adenocarcinoma|O
@@ -2377,7 +2504,6 @@ endocervicitis|O
 endocrine exophthalmos|O
 endocrine gland cancer|O
 endocrine organ benign neoplasm|O
-endocrine pancreas cancer|O
 endocrine pancreas disease|O
 endocrine system disease|O
 endodermal sinus pattern testicular yolk sac tumor|O
@@ -2552,10 +2678,11 @@ external ear carcinoma|O
 external ear disease|O
 external ear squamous cell carcinoma|O
 external pathological resorption|O
+extra-adrenal pheochromocytoma|O
 extracranial neuroblastoma|O
 extracutaneous mastocytoma|O
 extragonadal germ cell cancer|O
-extragonadal germ cell malignant tumor|O
+extragonadal nonseminomatous germ cell tumor|O
 extragonadal seminoma|O
 extrahepatic bile duct adenocarcinoma|O
 extrahepatic bile duct adenoma|O
@@ -2585,13 +2712,13 @@ extrinsic cardiomyopathy|O
 exudative glomerulonephritis|O
 exudative vitreoretinopathy|O
 eye accommodation disease|O
+eye adnexa disease|O
 eye and adnexa disease|O
 eye carcinoma|O
 eye carcinoma in situ|O
 eye degenerative disease|O
 eye disease|O
 eye lymphoma|O
-eye melanoma|O
 eyelid carcinoma|O
 eyelid degenerative disease|O
 eyelid disease|O
@@ -2640,13 +2767,12 @@ familial Mediterranean fever|O
 familial adenomatous polyposis|O
 familial atrial fibrillation|O
 familial combined hyperlipidemia|O
-familial dystonia|O
+familial encephalopathy with neuroserpin inclusion bodies|O
 familial glomangioma|O
 familial hemiplegic migraine|O
 familial hypercholesterolemia|O
 familial hyperlipidemia|O
 familial hypertriglyceridemia|O
-familial hypertrophic cardiomyopathy|O
 familial juvenile hyperuricemic nephropathy|O
 familial lipoprotein lipase deficiency|O
 familial medullary thyroid carcinoma|O
@@ -2670,7 +2796,6 @@ fat necrosis of breast|O
 fatal familial insomnia|O
 fatal infantile encephalocardiomyopathy|O
 fatty liver disease|O
-favism|O
 female breast axillary tail cancer|O
 female breast cancer|O
 female breast carcinoma|O
@@ -2702,6 +2827,7 @@ fibroepithelial basal cell carcinoma|O
 fibroepithelial polyp of the anus|O
 fibroepithelial polyp of urethra|O
 fibrogenesis imperfecta ossium|O
+fibroma|O
 fibromyalgia|O
 fibroosseous pseudotumor of digits|O
 fibrosarcoma|O
@@ -2719,16 +2845,18 @@ filamentary keratitis|O
 filarial elephantiasis|O
 filariasis|O
 finger agnosia|O
+first-degree atrioventricular block|O
 fissured tongue|O
 flat ductal epithelial atypia|O
 flat retinoschisis|O
 flying phobia|O
 focal chorioretinitis|O
 focal dermal hypoplasia|O
+focal dystonia|O
 focal embolic glomerulonephritis|O
 focal epilepsy|O
 focal epithelial hyperplasia|O
-focal glomerulosclerosis|O
+focal hand dystonia|O
 focal labyrinthitis|O
 focal segmental glomerulosclerosis|O
 folic acid deficiency anemia|O
@@ -2736,6 +2864,7 @@ follicular adenoma|O
 follicular basal cell carcinoma|O
 follicular dendritic cell sarcoma|O
 follicular infundibulum tumor|O
+follicular lymphoma|O
 follicular mucinosis|O
 follicular thyroid carcinoma|O
 folliculitis|O
@@ -2746,7 +2875,7 @@ form agnosia|O
 fourth cranial nerve palsy|O
 fox fordyce disease|O
 fragile X syndrome|O
-fragments of torsion dystonia|O
+fragile X-associated tremor/ataxia syndrome|O
 freemartinism|O
 frontal convexity meningioma|O
 frontal lobe epilepsy|O
@@ -2757,7 +2886,6 @@ frontal sinus inverted papilloma|O
 frontal sinus neoplasm|O
 frontal sinus squamous cell carcinoma|O
 frontal sinusitis|O
-frontalis acne|O
 frontotemporal dementia|O
 frozen shoulder|O
 fructose-1,6-bisphosphatase deficiency|O
@@ -2780,6 +2908,7 @@ galactokinase deficiency|O
 galactosemia|O
 gall bladder carcinoma in situ|O
 gallbladder adenocarcinoma|O
+gallbladder adenoma|O
 gallbladder angiosarcoma|O
 gallbladder cancer|O
 gallbladder carcinoma|O
@@ -2841,15 +2970,17 @@ gastric ulcer|O
 gastrin secretion abnormality|O
 gastrinoma|O
 gastritis|O
+gastroduodenal Crohn's disease|O
 gastroduodenitis|O
 gastroenteritis|O
 gastroesophageal junction adenocarcinoma|O
 gastroesophageal reflux disease|O
 gastrointestinal adenoma|O
 gastrointestinal anthrax|O
+gastrointestinal carcinoma|O
 gastrointestinal lymphoma|O
+gastrointestinal neuroendocrine benign tumor|O
 gastrointestinal neuroendocrine tumor|O
-gastrointestinal neuroendocrine tumor cancer|O
 gastrointestinal stromal tumor|O
 gastrointestinal system benign neoplasm|O
 gastrointestinal system cancer|O
@@ -2862,13 +2993,14 @@ gastroschisis|O
 gemistocytic astrocytoma|O
 gender identity disorder|O
 generalized anxiety disorder|O
-generalized arterial calcification of infancy|O
 generalized atherosclerosis|O
+generalized dystonia|O
 generalized epilepsy with febrile seizures plus|O
 genetic disease|O
 geniculate ganglionitis|O
 geniculate herpes zoster|O
 genital herpes|O
+geographic tongue|O
 geotrichosis|O
 germ cell and embryonal cancer|O
 germ cell cancer|O
@@ -2914,6 +3046,7 @@ glomangiomyoma|O
 glomangiosarcoma|O
 glomeruloid hemangioma|O
 glomerulonephritis|O
+glomerulosclerosis|O
 glomus tumor|O
 glossitis|O
 glossopharyngeal motor neuropathy|O
@@ -2926,9 +3059,11 @@ glottis carcinoma|O
 glottis neoplasm|O
 glottis squamous cell carcinoma|O
 glottis verrucous carcinoma|O
+glucocorticoid-induced osteoporosis|O
 glucocorticoid-remediable aldosteronism|O
 glucose intolerance|O
 glucose metabolism disease|O
+glucose-6-phosphate dehydrogenase deficiency|O
 glucosephosphate dehydrogenase deficiency|O
 gluten allergic reaction|O
 glycine encephalopathy|O
@@ -2959,6 +3094,7 @@ gonococcal spondylitis|O
 gonococcal synovitis|O
 gonorrhea|O
 gout|O
+grade III astrocytoma|O
 granular cell carcinoma|O
 granular cell leiomyosarcoma|O
 granular cell tumor|O
@@ -2993,6 +3129,9 @@ hand dermatosis|O
 hand, foot and mouth disease|O
 hantavirus pulmonary syndrome|O
 hard palate cancer|O
+head and neck cancer|O
+head and neck carcinoma|O
+head and neck squamous cell carcinoma|O
 heart aneurysm|O
 heart cancer|O
 heart conduction disease|O
@@ -3005,7 +3144,6 @@ heart malignant hemangiopericytoma|O
 heart sarcoma|O
 heart septal defect|O
 heart valve disease|O
-heart valve prolapse|O
 heavy chain disease|O
 heel spur|O
 hemangioblastoma|O
@@ -3023,6 +3161,7 @@ hemarthrosis|O
 hematocele of tunica vaginalis testis|O
 hematologic cancer|O
 hematopoietic system disease|O
+hemidystonia|O
 hemiplegia|O
 hemochromatosis|O
 hemoglobin C disease|O
@@ -3037,6 +3176,7 @@ hemopericardium|O
 hemophagocytic lymphohistiocytosis|O
 hemophilia B|O
 hemopneumothorax|O
+hemorrhagic cystitis|O
 hemorrhagic disease|O
 hemorrhagic fever with renal syndrome|O
 hemorrhagic thrombocythemia|O
@@ -3059,6 +3199,7 @@ hepatitis E|O
 hepatobiliary benign neoplasm|O
 hepatobiliary disease|O
 hepatoblastoma|O
+hepatocellular adenoma|O
 hepatocellular carcinoma|O
 hepatocellular clear cell carcinoma|O
 hepatocellular fibrolamellar carcinoma|O
@@ -3229,15 +3370,16 @@ ichthyosis vulgaris|O
 ideomotor apraxia|O
 idiopathic CD4-positive T-lymphocytopenia|O
 idiopathic corneal edema|O
-idiopathic familial dystonia|O
 idiopathic generalized epilepsy|O
 idiopathic interstitial pneumonia|O
 idiopathic juvenile osteoporosis|O
-idiopathic non-familial dystonia|O
 idiopathic peripheral autonomic neuropathy|O
 idiopathic progressive polyneuropathy|O
 idiopathic pulmonary fibrosis|O
+idiopathic scoliosis|O
 ileal neoplasm|O
+ileitis|O
+ileocolitis|O
 ileum cancer|O
 ileus|O
 iliac vein thrombophlebitis|O
@@ -3256,7 +3398,9 @@ impetigo herpetiformis|O
 impotence|O
 impulse control disorder|O
 in situ carcinoma|O
+in situ pulmonary adenocarcinoma|O
 inappropriate ADH syndrome|O
+inclusion body myopathy with Paget disease of bone and frontotemporal dementia|O
 inclusion body myositis|O
 inclusion conjunctivitis|O
 incontinentia pigmenti achromians|O
@@ -3266,6 +3410,7 @@ indolent systemic mastocytosis|O
 infancy electroclinical syndrome|O
 infant botulism|O
 infant gynecomastia|O
+infantile cerebellar-retinal degeneration|O
 infantile epileptic encephalopathy|O
 infantile onset spinocerebellar ataxia|O
 infantile refsum disease|O
@@ -3295,10 +3440,12 @@ inflammatory breast carcinoma|O
 inflammatory diarrhea|O
 inflammatory leiomyosarcoma|O
 inflammatory liposarcoma|O
+inflammatory myofibroblastic tumor|O
 inflammatory spondylopathy|O
 influenza|O
 infratentorial cancer|O
 infundibulocystic basal cell carcinoma|O
+inguinal hernia|O
 inhalation anthrax|O
 inherited blood coagulation disease|O
 inherited metabolic disorder|O
@@ -3339,14 +3486,14 @@ interstitial myocarditis|O
 interstitial nephritis|O
 interval angle-closure glaucoma|O
 intestinal atresia|O
+intestinal benign neoplasm|O
 intestinal botulism|O
 intestinal cancer|O
 intestinal disaccharidase deficiency|O
 intestinal disease|O
 intestinal impaction|O
 intestinal infectious disease|O
-intestinal neoplasm|O
-intestinal neuroendocrine tumor|O
+intestinal neuroendocrine benign tumor|O
 intestinal obstruction|O
 intestinal perforation|O
 intestinal pseudo-obstruction|O
@@ -3362,6 +3509,7 @@ intracranial abscess|O
 intracranial aneurysm|O
 intracranial arterial disease|O
 intracranial arteriosclerosis|O
+intracranial berry aneurysm|O
 intracranial cavernous angioma|O
 intracranial chondrosarcoma|O
 intracranial embolism|O
@@ -3387,7 +3535,6 @@ intrahepatic gall duct cancer|O
 intramuscular hemangioma|O
 intraneural perineurioma|O
 intraocular lymphoma|O
-intraocular melanoma|O
 intraocular mixed cell type melanoma|O
 intraocular retinoblastoma|O
 intraorbital meningioma|O
@@ -3424,19 +3571,20 @@ irritable bowel syndrome|O
 irritant dermatitis|O
 ischemia|O
 ischemic bone disease|O
+ischemic colitis|O
 ischemic fasciitis|O
-ischemic heart disease|O
 ischemic neuropathy|O
-ischemic optic neuropathy|O
 islet cell tumor|O
 isovaleric acidemia|O
 isthmus cancer|O
 janus kinase-3 deficiency|O
 jaw cancer|O
 jaw-winking syndrome|O
+jejunal adenocarcinoma|O
 jejunal cancer|O
 jejunal neoplasm|O
 jejunal somatostatinoma|O
+jejunoileitis|O
 jugular foramen meningioma|O
 junctional epidermolysis bullosa|O
 juvenile absence epilepsy|O
@@ -3488,7 +3636,7 @@ kidney pelvis sarcomatoid transitional cell carcinoma|O
 kidney rhabdoid cancer|O
 kidney sarcoma|O
 kleptomania|O
-kuru encephalopathy|O
+kuru|O
 kwashiorkor|O
 kyphoscoliotic heart disease|O
 labia majora carcinoma|O
@@ -3523,6 +3671,9 @@ large cell carcinoma|O
 large cell carcinoma with rhabdoid phenotype|O
 large cell keratinizing variant squamous cell breast carcinoma|O
 large cell medulloblastoma|O
+large cell neuroendocrine carcinoma|O
+large intestine adenocarcinoma|O
+large intestine adenoma|O
 large intestine cancer|O
 large intestine lipoma|O
 laryngeal adenoid cystic carcinoma|O
@@ -3593,6 +3744,7 @@ lice infestation|O
 lichen disease|O
 lichen nitidus|O
 lichen planus|O
+limb ischemia|O
 limb-girdle muscular dystrophy|O
 limited scleroderma|O
 lingual goiter|O
@@ -3642,12 +3794,10 @@ liver rhabdomyosarcoma|O
 liver sarcoma|O
 lobomycosis|O
 lobular neoplasia|O
-localized Ewing's sarcoma|O
 localized Intraductal papillomatosis|O
 localized anterior staphyloma|O
 localized chondrosarcoma|O
 localized osteosarcoma|O
-localized peripheral primitive neuroectodermal tumor|O
 localized pulmonary fibrosis|O
 localized scleroderma|O
 locked-in syndrome|O
@@ -3665,12 +3815,12 @@ lower gum cancer|O
 lower lip cancer|O
 lower respiratory tract disease|O
 lower urinary tract calculus|O
-ludwig's angina|O
 lujo hemorrhagic fever|O
 lumbar plexus neoplasm|O
 lumbar spinal canal and spinal cord meningioma|O
 lumbosacral lipoma|O
 lumbosacral plexus lesion|O
+lung abscess|O
 lung acinar adenocarcinoma|O
 lung adenocarcinoma|O
 lung adenoid cystic carcinoma|O
@@ -3682,6 +3832,7 @@ lung carcinoma in situ|O
 lung clear cell carcinoma|O
 lung clear cell-sugar-tumor|O
 lung combined large cell neuroendocrine carcinoma|O
+lung combined type small cell adenocarcinoma|O
 lung combined type small cell carcinoma|O
 lung disease|O
 lung giant cell carcinoma|O
@@ -3692,6 +3843,7 @@ lung leiomyosarcoma|O
 lung lymphoma|O
 lung meningioma|O
 lung mixed small cell and squamous cell carcinoma|O
+lung mucoepidermoid carcinoma|O
 lung oat cell carcinoma|O
 lung occult adenocarcinoma|O
 lung occult large cell carcinoma|O
@@ -3705,6 +3857,7 @@ lung superior sulcus carcinoma|O
 lupus erythematosus|O
 luteoma|O
 luxation of globe|O
+lymph node adenoid cystic carcinoma|O
 lymph node cancer|O
 lymph node disease|O
 lymph node palisaded myofibroblastoma|O
@@ -3720,6 +3873,7 @@ lymphedema|O
 lymphoblastic leukemia|O
 lymphocele|O
 lymphocytic choriomeningitis|O
+lymphocytic colitis|O
 lymphocytic gastritis|O
 lymphoepithelioma-like acinar prostate adenocarcinoma|O
 lymphoepithelioma-like carcinoma|O
@@ -3800,6 +3954,7 @@ malignant hypertensive renal disease|O
 malignant hyperthermia|O
 malignant iris melanoma|O
 malignant leptomeningeal tumor|O
+malignant mediastinal neurogenic neoplasm|O
 malignant mediastinum hemangiopericytoma|O
 malignant melanocytic neoplasm of the peripheral nerve sheath|O
 malignant melanocytic peripheral nerve sheath tumor of mediastinum|O
@@ -3816,7 +3971,6 @@ malignant ovarian mixed epithelial neoplasm|O
 malignant ovarian surface epithelial-stromal neoplasm|O
 malignant parietal pleura tumor|O
 malignant peripheral nerve sheath tumor|O
-malignant peritoneal mesothelioma|O
 malignant peritoneal solitary fibrous tumor|O
 malignant pineal area germ cell neoplasm|O
 malignant pleural mesothelioma|O
@@ -3832,7 +3986,6 @@ malignant teratoma|O
 malignant testicular Leydig cell tumor|O
 malignant thyroid stimulating hormone producing neoplasm of pituitary gland|O
 malignant triton tumor|O
-malignant tumor of extragonadal non-seminomatous germ cell|O
 malignant tumor of undescended testis|O
 malignant type A thymoma|O
 malignant type AB thymoma|O
@@ -3853,8 +4006,9 @@ mast-cell leukemia|O
 mast-cell sarcoma|O
 mastitis|O
 mastocytosis|O
+mastoiditis|O
 mature B-cell neoplasm|O
-mature T-cell and NK-cell neoplasm|O
+mature T-cell and NK-cell lymphoma|O
 mature cataract|O
 mature gastric teratoma|O
 mature teratoma|O
@@ -3876,6 +4030,7 @@ mechanical entropion|O
 mechanical lagophthalmos|O
 mechanical strabismus|O
 meconium aspiration syndrome|O
+median arcuate ligament syndrome|O
 median neuropathy|O
 median rhomboid glossitis|O
 mediastinal cancer|O
@@ -3886,7 +4041,6 @@ mediastinal malignant lymphoma|O
 mediastinal melanocytic neurilemmoma|O
 mediastinal mesenchymal tumor|O
 mediastinal neurilemmoma|O
-mediastinal neurogenic neoplasm|O
 mediastinal osteogenic sarcoma|O
 mediastinitis|O
 mediastinum angiosarcoma|O
@@ -3910,6 +4064,7 @@ megaesophagus|O
 megakaryocytic leukemia|O
 megakaryocytic tumor|O
 megaloblastic anemia|O
+megalocornea|O
 meibomian cyst|O
 melancholia|O
 melanoacanthoma|O
@@ -3976,6 +4131,7 @@ micropapillary variant infiltrating bladder urothelial carcinoma|O
 micropapillomatosis labialis|O
 microphthalmia|O
 microscopic breast papilloma|O
+microscopic colitis|O
 microsporidiosis|O
 middle cerebral artery infarction|O
 middle cranial fossa meningioma|O
@@ -4003,6 +4159,9 @@ mineral metabolism disease|O
 minor vestibular glands adenoma|O
 mirror agnosia|O
 mite infestation|O
+mitochondrial complex V (ATP synthase) deficiency nuclear type 2|O
+mitochondrial complex V (ATP synthase) deficiency nuclear type 3|O
+mitochondrial complex V (ATP synthase) deficiency nuclear type 4|O
 mitochondrial complex V (ATP synthase) deficiency, nuclear type 1|O
 mitochondrial encephalomyopathy|O
 mitochondrial metabolism disease|O
@@ -4026,6 +4185,7 @@ mixed eosinophil-basophil adenoma|O
 mixed epithelial stromal tumour|O
 mixed epithelial tumor of ovary|O
 mixed epithelial/mesenchymal metaplastic breast carcinoma|O
+mixed extragonadal germ cell cancer|O
 mixed germ cell cancer|O
 mixed germ cell-sex cord neoplasm|O
 mixed glioma|O
@@ -4097,11 +4257,13 @@ mucopolysaccharidosis III|O
 mucopolysaccharidosis IV|O
 mucopolysaccharidosis IX|O
 mucopolysaccharidosis VI|O
+mucosal melanoma|O
 mucosulfatidosis|O
 mulibrey nanism|O
 multicentric papillary thyroid carcinoma|O
 multicentric reticulohistiocytosis|O
 multidrug-resistant tuberculosis|O
+multifocal dystonia|O
 multifocal osteogenic sarcoma|O
 multilocular clear cell renal cell carcinoma|O
 multinodular goiter|O
@@ -4109,6 +4271,9 @@ multiple carboxylase deficiency|O
 multiple chemical sensitivity|O
 multiple cranial nerve palsy|O
 multiple cutaneous and mucosal venous malformations|O
+multiple endocrine neoplasia type 1|O
+multiple endocrine neoplasia type 2A|O
+multiple endocrine neoplasia type 2B|O
 multiple epiphyseal dysplasia|O
 multiple intestinal atresia|O
 multiple mucosal neuroma|O
@@ -4139,10 +4304,12 @@ mycosis fungoides|O
 mycotic corneal ulcer|O
 myelitis|O
 myelodysplastic myeloproliferative cancer|O
+myelodysplastic syndrome|O
 myelofibrosis|O
 myeloid leukemia|O
 myeloid sarcoma|O
 myeloma|O
+myelomeningocele|O
 myelophthisic anemia|O
 myiasis|O
 myoblastoma|O
@@ -4164,7 +4331,7 @@ myositis fibrosa|O
 myositis ossificans|O
 myotonic cataract|O
 myotonic disease|O
-myotonic dystrophy|O
+myotonic dystrophy type 1|O
 myotonic dystrophy type 2|O
 myringitis bullosa hemorrhagica|O
 myxedema|O
@@ -4212,10 +4379,10 @@ neonatal infective mastitis|O
 neonatal jaundice|O
 neonatal leukemia|O
 neonatal myasthenia gravis|O
+neonatal period electroclinical syndrome|O
 neonatal respiratory failure|O
 neonatal thyrotoxicosis|O
 neonatal urinary tract infectious disease|O
-neonatoal period electroclinical syndrome|O
 neovascular glaucoma|O
 nephritis|O
 nephroblastoma|O
@@ -4305,6 +4472,7 @@ noma|O
 nominal aphasia|O
 non specific chronic endometritis|O
 non-Hodgkin lymphoma|O
+non-arteritic anterior ischemic optic neuropathy|O
 non-congenital cyst of kidney|O
 non-functioning pancreatic endocrine tumor|O
 non-gestational choriocarcinoma|O
@@ -4316,8 +4484,9 @@ non-proliferative fibrocystic change of the breast|O
 non-renal secondary hyperparathyroidism|O
 non-secretory myeloma|O
 non-small cell lung carcinoma|O
-non-specific X-linked mental retardation|O
 non-suppurative otitis media|O
+non-syndromic X-linked intellectual disability|O
+non-syndromic intellectual disability|O
 nonencapsulated sclerosing carcinoma|O
 nonepidermolytic palmoplantar keratoderma|O
 noninfectious dermatoses of eyelid|O
@@ -4348,6 +4517,7 @@ obsessive-compulsive personality disorder|O
 obstructive hydrocephalus|O
 obstructive jaundice|O
 obstructive lung disease|O
+obstructive sleep apnea|O
 occipital lobe neoplasm|O
 occlusion of gallbladder|O
 occlusion precerebral artery|O
@@ -4359,10 +4529,13 @@ ocular cancer|O
 ocular hyperemia|O
 ocular hypertension|O
 ocular hypotension|O
+ocular melanoma|O
 ocular motility disease|O
 oculocerebrorenal syndrome|O
 oculocutaneous albinism|O
+oculodentodigital dysplasia|O
 oculoglandular tularemia|O
+oculogyric crisis|O
 oculomotor nerve paralysis|O
 oculopharyngeal muscular dystrophy|O
 odontoclasia|O
@@ -4377,6 +4550,8 @@ oligodendroglioma|O
 oligohydramnios|O
 oligospermia|O
 olivopontocerebellar atrophy|O
+omodysplasia|O
+omphalocele|O
 onchocerciasis|O
 oncocytic breast carcinoma|O
 oophoritis|O
@@ -4390,6 +4565,7 @@ opioid abuse|O
 opisthorchiasis|O
 opportunistic bacterial infectious disease|O
 opportunistic mycosis|O
+oppositional defiant disorder|O
 optic atrophy|O
 optic disk drusen|O
 optic nerve astrocytoma|O
@@ -4402,8 +4578,10 @@ optic papillitis|O
 oral candidiasis|O
 oral cavity cancer|O
 oral cavity carcinoma in situ|O
+oral hairy leukoplakia|O
 oral leukoedema|O
 oral mucosa leukoplakia|O
+oral squamous cell carcinoma|O
 oral submucous fibrosis|O
 oral tuberculosis|O
 orbit alveolar rhabdomyosarcoma|O
@@ -4424,14 +4602,16 @@ orchitis|O
 organ system benign neoplasm|O
 organ system cancer|O
 organic acidemia|O
-organic writer's cramp|O
 ornithine carbamoyltransferase deficiency|O
 ornithine translocase deficiency|O
 ornithosis|O
 orofacial cleft|O
 orofaciodigital syndrome|O
+orofaciodigital syndrome type I|O
+oromandibular dystonia|O
 oropharyngeal anthrax|O
 oropharynx cancer|O
+orotic aciduria|O
 orthostatic proteinuria|O
 osmotic diarrhea|O
 ossifying fibroma|O
@@ -4473,6 +4653,7 @@ ovarian carcinoma|O
 ovarian carcinosarcoma|O
 ovarian clear cell adenocarcinoma|O
 ovarian clear cell adenofibroma|O
+ovarian clear cell carcinoma|O
 ovarian clear cell cystadenocarcinoma|O
 ovarian clear cell cystadenofibroma|O
 ovarian clear cell malignant adenofibroma|O
@@ -4484,13 +4665,12 @@ ovarian disease|O
 ovarian dysfunction|O
 ovarian embryonal carcinoma|O
 ovarian endodermal sinus tumor|O
+ovarian endometrial cancer|O
 ovarian endometrioid adenofibroma|O
 ovarian endometrioid cystadenofibroma|O
 ovarian endometrioid cystadenoma|O
 ovarian endometrioid malignant adenofibroma|O
-ovarian endometrioid neoplasm|O
 ovarian endometrioid stromal sarcoma|O
-ovarian endometriosis|O
 ovarian fetiform teratoma|O
 ovarian germ cell cancer|O
 ovarian germ cell monodermal and highly specialized teratoma|O
@@ -4500,6 +4680,7 @@ ovarian hyperstimulation syndrome|O
 ovarian large-cell neuroendocrine carcinoma|O
 ovarian lymphoma|O
 ovarian malignant mesothelioma|O
+ovarian melanoma|O
 ovarian mesodermal adenosarcoma|O
 ovarian mixed germ cell neoplasm|O
 ovarian mucinous adenocarcinoma|O
@@ -4512,6 +4693,7 @@ ovarian papillary cystadenoma|O
 ovarian papillary neoplasm|O
 ovarian primitive germ cell tumor|O
 ovarian serous adenofibroma|O
+ovarian serous carcinoma|O
 ovarian serous cystadenocarcinoma|O
 ovarian serous cystadenofibroma|O
 ovarian small cell carcinoma|O
@@ -4544,6 +4726,7 @@ pancreas lymphoma|O
 pancreas sarcoma|O
 pancreatic ACTH hormone producing tumor|O
 pancreatic acinar cell adenocarcinoma|O
+pancreatic agenesis|O
 pancreatic cancer|O
 pancreatic carcinoma|O
 pancreatic cholera|O
@@ -4613,6 +4796,7 @@ paralytic ileus|O
 paralytic lagophthalmos|O
 paralytic poliomyelitis|O
 paralytic squint|O
+parameningeal embryonal rhabdomyosarcoma|O
 parametritis|O
 parametrium malignant neoplasm|O
 paramyloidosis|O
@@ -4647,12 +4831,16 @@ paratyphoid fever|O
 paraurethral gland cancer|O
 paraurethral gland neoplasm|O
 parenchymatous neurosyphilis|O
+parietal foramina|O
+parietal lobe ependymoma|O
 parietal lobe neoplasm|O
 paronychia|O
 parotid disease|O
+parotid gland adenoid cystic carcinoma|O
 parotid gland cancer|O
 parotitis|O
 parovarian cyst|O
+paroxysmal nocturnal hemoglobinuria|O
 pars planitis|O
 partial arterial retinal occlusion|O
 partial central choroid dystrophy|O
@@ -4696,6 +4884,7 @@ pediatric ovarian germ cell tumor|O
 pediatric supratentorial ependymoma|O
 pediatric testicular germ cell tumor|O
 pedophilia|O
+peeling skin syndrome|O
 peliosis hepatis|O
 pellagra|O
 pelvic inflammatory disease|O
@@ -4720,11 +4909,12 @@ penis sarcoma|O
 penis squamous cell carcinoma|O
 penis verrucous carcinoma|O
 peptic esophagitis|O
-peptic ulcer|O
+peptic ulcer disease|O
 peptic ulcer perforation|O
 perforated corneal ulcer|O
 perforation of bile duct|O
 periampullary adenocarcinoma|O
+periampullary adenoma|O
 perianal hematoma|O
 perianal skin Paget's disease|O
 periapical granuloma|O
@@ -4735,6 +4925,7 @@ pericardial mesothelioma|O
 pericardial tuberculosis|O
 pericarditis|O
 pericardium cancer|O
+pericardium disease|O
 pericardium leiomyoma|O
 pericholangitis|O
 perichondritis of auricle|O
@@ -4757,6 +4948,7 @@ periosteal osteogenic sarcoma|O
 periostitis|O
 peripartum cardiomyopathy|O
 peripheral T-cell lymphoma|O
+peripheral artery disease|O
 peripheral degeneration of cornea|O
 peripheral epithelioid sarcoma|O
 peripheral focal chorioretinitis|O
@@ -4774,6 +4966,7 @@ peripheral vascular disease|O
 peripheral vertigo|O
 peritoneal benign neoplasm|O
 peritoneal carcinoma|O
+peritoneal mesothelioma|O
 peritoneal serous adenocarcinoma|O
 peritoneal serous papillary adenocarcinoma|O
 peritoneum cancer|O
@@ -4789,6 +4982,8 @@ peroxisomal acyl-CoA oxidase deficiency|O
 peroxisomal disease|O
 persian gulf syndrome|O
 persistent fetal circulation syndrome|O
+persistent generalized lymphadenopathy|O
+persistent hyperplastic primary vitreous|O
 persistent mullerian duct syndrome|O
 personality disorder|O
 pertussis|O
@@ -4803,10 +4998,12 @@ phacolytic glaucoma|O
 phaeochromocytoma|O
 phaeohyphomycosis|O
 phagocyte bactericidal dysfunction|O
+phalanx chondroma|O
 pharyngitis|O
 pharyngoconjunctival fever|O
 pharynx cancer|O
 pharynx carcinoma in situ|O
+pharynx squamous cell carcinoma|O
 phencyclidine abuse|O
 phenylketonuria|O
 philophthalmiasis|O
@@ -4818,11 +5015,13 @@ phonagnosia|O
 phosphorus metabolism disease|O
 photoallergic dermatitis|O
 photokeratitis|O
+photosensitive epilepsy|O
 photosensitive trichothiodystrophy|O
 photosensitivity disease|O
 phototoxic dermatitis|O
 phthisical cornea|O
 physical disorder|O
+physical urticaria|O
 physiological polycythemia|O
 pica disease|O
 piebaldism|O
@@ -4892,7 +5091,6 @@ pleural cancer|O
 pleural disease|O
 pleural empyema|O
 pleural lipoma|O
-pleural neoplasm|O
 pleural tuberculosis|O
 pleurisy|O
 pleuropneumonia|O
@@ -4932,12 +5130,31 @@ polyradiculoneuropathy|O
 polyradiculopathy|O
 polyvesicular vitelline pattern ovarian yolk sac tumor|O
 polyvesicular vitelline pattern testicular yolk sac tumor|O
+pontocerebellar hypoplasia|O
+pontocerebellar hypoplasia type 10|O
+pontocerebellar hypoplasia type 1A|O
+pontocerebellar hypoplasia type 1B|O
+pontocerebellar hypoplasia type 2A|O
+pontocerebellar hypoplasia type 2B|O
+pontocerebellar hypoplasia type 2C|O
+pontocerebellar hypoplasia type 2D|O
+pontocerebellar hypoplasia type 2E|O
+pontocerebellar hypoplasia type 3|O
+pontocerebellar hypoplasia type 4|O
+pontocerebellar hypoplasia type 5|O
+pontocerebellar hypoplasia type 6|O
+pontocerebellar hypoplasia type 7|O
+pontocerebellar hypoplasia type 8|O
+pontocerebellar hypoplasia type 9|O
+popliteal pterygium syndrome|O
+porencephaly|O
 porokeratosis|O
 porphyria|O
 porphyria cutanea tarda|O
 portal hypertension|O
 portal vein thrombosis|O
 post-surgical hypoinsulinemia|O
+post-thrombotic syndrome|O
 post-traumatic stress disorder|O
 post-vaccinal encephalitis|O
 postauricular lymphadenitis|O
@@ -4945,7 +5162,6 @@ postcholecystectomy syndrome|O
 postcricoid region cancer|O
 postencephalitic Parkinson disease|O
 posterior cerebral artery infarction|O
-posterior choanal atresia|O
 posterior corneal pigmentation|O
 posterior cranial fossa meningioma|O
 posterior dislocation of lens|O
@@ -4965,7 +5181,6 @@ postgerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma|O
 postinflammatory pulmonary fibrosis|O
 postmenopausal atrophic vaginitis|O
 postpartum depression|O
-postphlebitic syndrome|O
 postpoliomyelitis syndrome|O
 postsurgical hypothyroidism|O
 pre-eclampsia|O
@@ -5002,13 +5217,13 @@ primary immunodeficiency disease|O
 primary lacrimal atrophy|O
 primary open angle glaucoma|O
 primary optic atrophy|O
+primary pigmented nodular adrenocortical disease|O
 primary polycythemia|O
 primary progressive multiple sclerosis|O
 primary pulmonary hypertension|O
 primary syphilis|O
 primary systemic mycosis|O
 primary thrombocytopenia|O
-primitive neuroectodermal tumor|O
 prion disease|O
 proctitis|O
 progeria|O
@@ -5079,7 +5294,6 @@ pseudo-TORCH syndrome|O
 pseudoachondroplasia|O
 pseudobulbar palsy|O
 pseudoglandular variant testicular seminoma|O
-pseudogout|O
 pseudohermaphroditism|O
 pseudohypoaldosteronism|O
 pseudohypoparathyroidism|O
@@ -5100,6 +5314,7 @@ psychologic vaginismus|O
 psychosexual disorder|O
 psychotic disorder|O
 pterygium|O
+ptosis|O
 puerperal pulmonary embolism|O
 pulmonary alveolar microlithiasis|O
 pulmonary alveolar proteinosis|O
@@ -5114,6 +5329,7 @@ pulmonary embolism and infarction|O
 pulmonary emphysema|O
 pulmonary eosinophilia|O
 pulmonary fibrosis|O
+pulmonary hemosiderosis|O
 pulmonary hypertension|O
 pulmonary immaturity|O
 pulmonary large cell neuroendocrine carcinoma|O
@@ -5154,6 +5370,7 @@ pylorospasm|O
 pylorus cancer|O
 pyoderma|O
 pyoderma gangrenosum|O
+pyometritis|O
 pyomyositis|O
 pyosalpinx|O
 pyoureter|O
@@ -5161,6 +5378,7 @@ pyridoxine deficiency anemia|O
 pyridoxine-refractory autosomal recessive sideroblastic anemia|O
 pyridoxine-responsive sideroblastic anemia|O
 pyriform sinus cancer|O
+pyrimidine metabolic disorder|O
 pyromania|O
 pyruvate carboxylase deficiency disease|O
 pyruvate decarboxylase deficiency|O
@@ -5189,6 +5407,7 @@ rectosigmoid junction cancer|O
 rectosigmoid junction neoplasm|O
 rectum Kaposi's sarcoma|O
 rectum adenocarcinoma|O
+rectum adenoma|O
 rectum cancer|O
 rectum carcinoma in situ|O
 rectum leiomyoma|O
@@ -5221,10 +5440,12 @@ renal Wilms' tumor|O
 renal adenoma|O
 renal agenesis|O
 renal artery atheroma|O
+renal artery disease|O
 renal artery obstruction|O
 renal carcinoma|O
 renal cell carcinoma|O
 renal clear cell carcinoma|O
+renal fibrosis|O
 renal glycosuria|O
 renal hypertension|O
 renal infectious disease|O
@@ -5241,7 +5462,7 @@ renal pelvis urothelial papilloma|O
 renal tuberculosis|O
 renal tubular acidosis|O
 renal tubular transport disease|O
-renal vascular disease|O
+renal-hepatic-pancreatic dysplasia|O
 renovascular hypertension|O
 reproductive organ benign neoplasm|O
 reproductive organ cancer|O
@@ -5249,7 +5470,6 @@ reproductive system disease|O
 residual stage angle-closure glaucoma|O
 residual stage corticosteroid-induced glaucoma|O
 residual stage of open angle glaucoma|O
-respiratory bronchiolitis-associated interstitial lung disease|O
 respiratory failure|O
 respiratory syncytial virus infectious disease|O
 respiratory system benign neoplasm|O
@@ -5267,6 +5487,7 @@ rete testis adenoma|O
 rete testis neoplasm|O
 reticular dysgenesis|O
 reticular pattern testicular yolk sac tumor|O
+reticulate acropigmentation of Kitamura|O
 reticulohistiocytic granuloma|O
 reticulosarcoma|O
 retina lymphoma|O
@@ -5304,21 +5525,18 @@ retroperitoneal germ cell neoplasm|O
 retroperitoneal hemangiopericytoma|O
 retroperitoneal leiomyosarcoma|O
 retroperitoneal lymphoma|O
+retroperitoneal neuroblastoma|O
 retroperitoneal sarcoma|O
 retroperitoneum carcinoma|O
 rhabdoid cancer|O
 rhabdoid meningioma|O
 rhabdomyosarcoma|O
-rheumatic aortic valve insufficiency|O
-rheumatic aortic valve stenosis|O
 rheumatic congestive heart failure|O
 rheumatic disease|O
-rheumatic disease of mitral valve|O
 rheumatic fever|O
-rheumatic mitral valve incompetence|O
+rheumatic heart disease|O
 rheumatic myocarditis|O
 rheumatic pulmonary valve disease|O
-rheumatic tricuspid valve disease|O
 rheumatoid arthritis|O
 rheumatoid lung disease|O
 rhinitis|O
@@ -5331,6 +5549,7 @@ rickettsialpox|O
 right bundle branch block|O
 ring corneal ulcer|O
 ring staphyloma|O
+rippling muscle disease|O
 root caries|O
 root resorption|O
 rosacea|O
@@ -5339,13 +5558,12 @@ round ligament malignant neoplasm|O
 rubella|O
 rubeosis iridis|O
 rumination disorder|O
-ruptured abdominal aortic aneurysm|O
-ruptured aortic aneurysm|O
-ruptured thoracic aortic aneurysm|O
-ruptured thoracoabdominal aortic aneurysm|O
 sacral spinal canal and spinal cord meningioma|O
+sacrum chordoma|O
 sagittal sinus thrombosis|O
+salivary gland adenoid cystic carcinoma|O
 salivary gland cancer|O
+salivary gland carcinoma|O
 salivary gland disease|O
 salpingitis|O
 salpingitis isthmica nodosa|O
@@ -5366,6 +5584,7 @@ sarcomatosis of the meninges|O
 sarcomatous intrahepatic cholangiocarcinoma|O
 scabies|O
 scalp dermatosis|O
+scapuloperoneal myopathy|O
 scarlet fever|O
 schistosomiasis|O
 schizoaffective disorder|O
@@ -5376,12 +5595,14 @@ schizotypal personality disorder|O
 schneckenbecken dysplasia|O
 schwannoma of jugular foramen|O
 schwannoma of twelfth cranial nerve|O
+sciatic neuropathy|O
 scimitar syndrome|O
 scirrhous adenocarcinoma|O
 scleral disease|O
 scleral staphyloma|O
 scleredema adultorum|O
 scleritis|O
+sclerocornea|O
 scleroderma|O
 scleromalacia perforans|O
 scleroperikeratitis|O
@@ -5391,6 +5612,8 @@ sclerosing cholangitis|O
 sclerosing hemangioma|O
 sclerosing hepatic carcinoma|O
 sclerosing keratitis|O
+sclerosteosis|O
+scoliosis|O
 scotoma|O
 scrapie|O
 screw worm infectious disease|O
@@ -5415,6 +5638,7 @@ sebaceous gland neoplasm|O
 seborrheic dermatitis|O
 seborrheic infantile dermatitis|O
 seborrheic keratosis|O
+second-degree atrioventricular block|O
 secondary Parkinson disease|O
 secondary corneal edema|O
 secondary hyperparathyroidism|O
@@ -5428,6 +5652,7 @@ secondary vitreoretinal degeneration|O
 secretory diarrhea|O
 secretory meningioma|O
 secretory uterine corpus endometrioid adenocarcinoma|O
+segmental dystonia|O
 selective IgA deficiency disease|O
 selective IgD deficiency disease|O
 selective IgE deficiency disease|O
@@ -5506,12 +5731,11 @@ silo filler's disease|O
 simple chronic conjunctivitis|O
 simple partial epilepsy|O
 simultanagnosia|O
+sinoatrial node disease|O
 sinusitis|O
 situs inversus|O
 skeletal muscle cancer|O
 skeletal muscle neoplasm|O
-skeletal system benign neoplasm|O
-skeletal system cancer|O
 skeletal tuberculosis|O
 skene gland carcinoma|O
 skin amelanotic melanoma|O
@@ -5541,10 +5765,12 @@ skull base meningioma|O
 skull base neoplasm|O
 skull cancer|O
 slate pneumoconiosis|O
+sleep apnea|O
 sleep disorder|O
 sleeping sickness|O
 small bowel fibrosarcoma|O
 small cell carcinoma|O
+small cell neuroendocrine carcinoma|O
 small cell osteogenic sarcoma|O
 small cell sarcoma|O
 small intestinal L-cell glucagon-like peptide producing tumor|O
@@ -5552,6 +5778,7 @@ small intestinal sarcoma|O
 small intestinal vasoactive intestinal peptide producing tumor|O
 small intestine adenocarcinoma|O
 small intestine cancer|O
+small intestine carcinoid neuroendocrine tumor|O
 small intestine carcinoma|O
 small intestine diverticulitis|O
 small intestine leiomyoma|O
@@ -5561,7 +5788,6 @@ small intestine neoplasm|O
 small intestine neuroendocrine neoplasm|O
 smallpox|O
 smoldering myeloma|O
-smooth atrophic tongue|O
 smooth muscle cancer|O
 smooth muscle tumor|O
 social emotional agnosia|O
@@ -5579,6 +5805,7 @@ somatoform disorder|O
 somatostatinoma|O
 space motion sickness|O
 sparganosis|O
+spasmodic dystonia|O
 spastic cerebral palsy|O
 spastic diplegia|O
 spastic ectropion|O
@@ -5588,6 +5815,7 @@ spastic monoplegia|O
 spastic quadriplegia|O
 specific bursitis often of occupational origin|O
 specific developmental disorder|O
+specific language impairment|O
 specific phobia|O
 speech disorder|O
 spermatic cord cancer|O
@@ -5615,7 +5843,6 @@ spinal cord disease|O
 spinal cord ependymoma|O
 spinal cord glioma|O
 spinal cord intramedullary teratoma|O
-spinal cord ischemia|O
 spinal cord lipoma|O
 spinal cord lymphoma|O
 spinal cord melanoma|O
@@ -5623,7 +5850,6 @@ spinal cord neuroblastoma|O
 spinal cord oligodendroglioma|O
 spinal cord primitive neuroectodermal neoplasm|O
 spinal cord sarcoma|O
-spinal cord vascular disease|O
 spinal meninges cancer|O
 spinal meningioma|O
 spinal multifocal clear cell meningioma|O
@@ -5640,7 +5866,9 @@ spindle cell sarcoma|O
 spindle cell synovial sarcoma|O
 spindle cell thymoma|O
 spindle cell variant squamous cell breast carcinoma|O
+spindle epithelial tumor with thymus-like differentiation tumor|O
 spinocerebellar ataxia|O
+spinocerebellar ataxia type 5|O
 spinocerebellar degeneration|O
 spiradenoma|O
 spleen angiosarcoma|O
@@ -5711,6 +5939,7 @@ strabismus|O
 strawberry gallbladder|O
 streptococcal meningitis|O
 stress polycythemia|O
+striated muscle rhabdoid tumor|O
 striatonigral degeneration|O
 strictly posterior acute myocardial infarction|O
 stricture or kinking of ureter|O
@@ -5719,6 +5948,7 @@ stromal corneal pigmentation|O
 stromal predominant kidney Wilms' tumor|O
 strongyloidiasis|O
 struma ovarii|O
+stuttering|O
 subacute bacterial endocarditis|O
 subacute delirium|O
 subacute glomerulonephritis|O
@@ -5745,6 +5975,7 @@ subglottis neoplasm|O
 subglottis squamous cell carcinoma|O
 subglottis verrucous carcinoma|O
 subleukemic leukemia|O
+sublingual gland adenoid cystic carcinoma|O
 sublingual gland cancer|O
 submandibular adenitis|O
 submandibular gland cancer|O
@@ -5794,17 +6025,20 @@ sweat gland neoplasm|O
 swine influenza|O
 sympathetic neurilemmoma|O
 sympathetic ophthalmia|O
-symptomatic torsion dystonia|O
 synchronous bilateral breast carcinoma|O
 synchronous multifocal osteogenic sarcoma|O
 syndactyly|O
 syndrome|O
+syndromic X-linked intellectual disability|O
+syndromic intellectual disability|O
 synostosis|O
 synovial angioma|O
 synovial sarcoma|O
 synovitis|O
 synovium cancer|O
 synovium neoplasm|O
+synpolydactyly|O
+synucleinopathy|O
 syphilis|O
 syphilitic encephalitis|O
 syphilitic meningitis|O
@@ -5883,6 +6117,7 @@ theileriasis|O
 thelaziasis|O
 third cranial nerve disease|O
 third ventricle chordoid glioma|O
+third-degree atrioventricular block|O
 thoracic aortic aneurysm|O
 thoracic benign neoplasm|O
 thoracic cancer|O
@@ -5957,7 +6192,9 @@ tinea unguium|O
 tolosa-hunt syndrome|O
 tongue cancer|O
 tongue disease|O
+tongue squamous cell carcinoma|O
 tonsil cancer|O
+tonsil squamous cell carcinoma|O
 tonsillar fossa cancer|O
 tonsillar pillar cancer|O
 tonsillitis|O
@@ -5989,6 +6226,7 @@ trachea adenoid cystic carcinoma|O
 trachea carcinoma|O
 trachea carcinoma in situ|O
 trachea leiomyoma|O
+trachea mucoepidermoid carcinoma|O
 trachea sarcoma|O
 trachea squamous cell carcinoma|O
 tracheal calcification|O
@@ -5997,13 +6235,16 @@ tracheal disease|O
 tracheal lymphoma|O
 tracheal stenosis|O
 tracheitis|O
+tracheomalacia|O
 trachoma|O
+transcobalamin II deficiency|O
 transient arthritis|O
 transient arthropathy|O
 transient cerebral ischemia|O
 transient global amnesia|O
 transient hypogammaglobulinemia|O
 transient hypogammaglobulinemia of infancy|O
+transient neonatal diabetes mellitus|O
 transient neonatal neutropenia|O
 transient neonatal thrombocytopenia|O
 transient refractive change|O
@@ -6027,6 +6268,7 @@ trichostrongyloidiasis|O
 trichostrongylosis|O
 trichotillomania|O
 trichuriasis|O
+tricuspid valve disease|O
 tricuspid valve insufficiency|O
 tricuspid valve prolapse|O
 tricuspid valve stenosis|O
@@ -6035,6 +6277,7 @@ trigeminal nerve neoplasm|O
 trigeminal neuralgia|O
 trigonitis|O
 trilateral retinoblastoma|O
+triosephosphate isomerase deficiency|O
 triple-A syndrome|O
 triple-receptor negative breast cancer|O
 trochlear nerve disease|O
@@ -6068,6 +6311,8 @@ type 2 diabetes mellitus|O
 type 2 papillary adenoma of the kidney|O
 type C thymoma|O
 type I Ehlers-Danlos syndrome|O
+type I complement component 8 deficiency|O
+type II complement component 8 deficiency|O
 type III Ehlers-Danlos syndrome|O
 type VI Ehlers-Danlos syndrome|O
 typhoid fever|O
@@ -6086,6 +6331,7 @@ ulcerative stomatitis|O
 ulceroglandular tularemia|O
 ulnar nerve lesion|O
 ulnar neuropathy|O
+umbilical hernia|O
 unilateral hyperactive labyrinth|O
 unilateral hypoactive labyrinth|O
 unilateral retinoblastoma|O
@@ -6170,6 +6416,7 @@ uterine corpus cellular leiomyoma|O
 uterine corpus choriocarcinoma|O
 uterine corpus diffuse leiomyomatosis|O
 uterine corpus dissecting leiomyoma|O
+uterine corpus endometrial carcinoma|O
 uterine corpus endometrial stromal sarcoma|O
 uterine corpus epithelioid leiomyoma|O
 uterine corpus epithelioid leiomyosarcoma|O
@@ -6198,9 +6445,11 @@ uterus perivascular epithelioid cell tumor|O
 uveal cancer|O
 uveal disease|O
 uveal epithelioid cell melanoma|O
+uveal melanoma|O
 uveitis|O
 uveoparotid fever|O
 uvula cancer|O
+uvulitis|O
 vaccinia|O
 vagina botryoid rhabdomyosarcoma|O
 vagina leiomyoma|O
@@ -6211,6 +6460,7 @@ vaginal adenoma|O
 vaginal adenosarcoma|O
 vaginal benign neoplasm|O
 vaginal cancer|O
+vaginal carcinoma|O
 vaginal carcinosarcoma|O
 vaginal discharge|O
 vaginal disease|O
@@ -6228,6 +6478,7 @@ vaginitis|O
 vagus nerve neoplasm|O
 vallecula cancer|O
 variable age at onset electroclinical syndrome|O
+variant Creutzfeldt-Jakob disease|O
 varicocele|O
 varicose veins|O
 variegate porphyria|O
@@ -6239,7 +6490,6 @@ vascular disease|O
 vascular hemostatic disease|O
 vascular myelopathy|O
 vascular skin disease|O
-vascular tissue disease|O
 vasculitis|O
 vasculogenic impotence|O
 vasomotor rhinitis|O
@@ -6273,6 +6523,7 @@ villoglandular endometrial endometrioid adenocarcinoma|O
 villoglandular variant cervical mucinous adenocarcinoma|O
 villonodular synovitis|O
 villous adenocarcinoma|O
+villous adenoma|O
 viral encephalitis|O
 viral esophagitis|O
 viral exanthem|O
@@ -6351,6 +6602,7 @@ white piedra|O
 withdrawal disorder|O
 wound botulism|O
 writing disorder|O
+xanthinuria|O
 xanthogranulomatous cholecystitis|O
 xanthogranulomatous pyelonephritis|O
 xanthomatosis|O

@@ -1,6 +1,6 @@
 <h1>Upgrading</h1>
 
-<p><em>Note: Presently only namespace values are upgraded in BEL files.</em>
+<p><em>Note: Namespace and annotation values are upgraded in BEL files.</em>
 <br><br></p>
 
 <h2>Install Ruby (Windows)</h2>
@@ -132,15 +132,15 @@
 </ol>
 
 <pre>
-    Fetching: bel-0.2.1.gem (100%)
-    Successfully installed bel-0.2.1
-    Parsing documentation for bel-0.2.1
-    Installing ri documentation for bel-0.2.1
+    Fetching: bel-0.3.0.gem (100%)
+    Successfully installed bel-0.3.0
+    Parsing documentation for bel-0.3.0
+    Installing ri documentation for bel-0.3.0
     1 gem installed
 </pre>
 
 <ol>
-<li>Confirm you can access the <code>bel_upgrade</code> command.</li>
+<li>Confirm you can access the <em>bel</em> command by type <code>bel</code> followed by the Enter/Return key.</li>
 <li>Continue with <a href="#upgrading_bel">Upgrading BEL</a>.</li>
 </ol>
 
@@ -151,22 +151,22 @@
 <h2>Upgrading BEL</h2>
 
 <ol>
-<li>Type <code>bel_upgrade --help</code> for option details.</li>
+<li>Type <code>bel upgrade help</code> for details on the upgrade command.</li>
 <li>Run command
 <ul>
 <li>Example 1 - convert a BEL file
 <ul>
-<li>`bel<em>upgrade --bel small</em>corpus.bel --changelog "http://resource.belframework.org/belframework/20131211/change_log.json"</li>
+<li>`bel upgrade --bel small<em>corpus.bel --changelog "http://resource.belframework.org/belframework/20150611/change</em>log.json"</li>
 </ul></li>
 <li>Example 2 - convert BEL from standard in
 <ul>
-<li><code>curl "http://resource.belframework.org/belframework/1.0/knowledge/small_corpus.bel" | bel_upgrade --changelog "http://resource.belframework.org/belframework/20131211/change_log.json"</code></li>
+<li><code>curl "http://resource.belframework.org/belframework/20131211/knowledge/small_corpus.bel" | bel upgrade --changelog "http://resource.belframework.org/belframework/20150611/change_log.json"</code></li>
 </ul></li>
 <li>More details [here] (https://github.com/OpenBEL/bel.rb).</li>
 </ul></li>
 <li>The upgraded BEL will be written to standard out.  Simply redirect to a file after that.
 <ul>
-<li><code>bel_upgrade ... &gt; upgraded-version.bel</code></li>
+<li><code>bel upgrade ... &gt; upgraded-version.bel</code></li>
 </ul></li>
 </ol>
 
@@ -175,6 +175,6 @@
 <h2>Issues</h2>
 
 <ul>
-<li>If you have questions with <code>bel_upgrade</code> or the <code>bel</code> gem please post to the [openbel-discuss] (https://groups.google.com/forum/#!forum/openbel-discuss) google group.</li>
+<li>If you have questions with <code>bel upgrade</code> or the <code>bel</code> gem please post to the [openbel-discuss] (https://groups.google.com/forum/#!forum/openbel-discuss) google group.</li>
 <li>If you encounter errors please post an issue to [github issues] (https://github.com/OpenBEL/bel.rb/issues).</li>
 </ul>

@@ -3,18 +3,18 @@ Keyword=CellStructure
 TypeString=list
 DescriptionString=The Cell Structures [A11.284] sub-branch of the Medical Subject Headings (MeSH) Anatomy [A] branch.
 UsageString=Use to annotate a statement demonstrated in the context of a specific cellular location.
-VersionString=20131212
-CreatedDateTime=2013-12-12T10:21:52
+VersionString=20150611
+CreatedDateTime=2015-06-11T19:57:45
 
 [Author]
-NameString=OpenBEL
-CopyrightString=OpenBEL (c) 2013, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+NameString=OpenBEL 
+CopyrightString=Copyright (c) 2015, OpenBEL Project. This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 ContactInfoString=info@openbel.org
 
 [Citation]
 NameString=MeSH
 DescriptionString=MeSH (Medical Subject Headings) is a controlled vocabulary thesaurus created, maintained, and provided by the U.S. National Library of Medicine.
-PublishedVersionString=2014
+PublishedVersionString=2015
 ReferenceURL=http://www.nlm.nih.gov/mesh/meshhome.html
 
 [Processing]
@@ -33,6 +33,7 @@ Bacterial Chromatophores|D020130
 Basal Bodies|D064652
 COP-Coated Vesicles|D022181
 Caveolae|D021941
+Cell Body|D066146
 Cell Membrane|D002462
 Cell Membrane Structures|D021961
 Cell Nucleolus|D002466
@@ -127,6 +128,7 @@ Exosomes|D055354
 Extracellular Fluid|D045604
 Extracellular Matrix|D005109
 Extracellular Space|D005110
+Extracellular Traps|D065206
 Filamins|D064448
 Fimbriae, Bacterial|D010861
 Flagella|D005407
@@ -154,6 +156,7 @@ Intranuclear Space|D042581
 Isochromosomes|D018404
 Kinetochores|D018386
 Lewy Bodies|D016631
+Lipid Droplets|D066292
 Lysosomes|D008247
 Macronucleus|D048648
 Magnetosomes|D055944
