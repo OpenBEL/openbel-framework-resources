@@ -1,6 +1,6 @@
 [Namespace]
-NameString=MeSH Cellular Locations (Names)
-Keyword=MESHCL
+NameString=MeSH Cellular Structures (Names)
+Keyword=MESHCS
 DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Medical Subject Headings (MeSH) names for cellular locations [branch A11.284].
