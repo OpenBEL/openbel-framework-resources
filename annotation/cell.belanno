@@ -3,7 +3,7 @@ Keyword=Cell
 TypeString=list
 DescriptionString=Cell types from the Cell Ontology (CL)
 UsageString=Use this annotation to indicate the cell type context of a statement. Use to annotate a statement that was demonstrated in a given cell type or where the facts represented in the statement were shown to be relevant to the cell type.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:57:45
 
 [Author]

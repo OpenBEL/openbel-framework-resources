@@ -4,7 +4,7 @@ Keyword=EGID
 DomainString=Gene and Gene Products
 SpeciesString=9606, 10090, 10116
 DescriptionString=NCBI Entrez Gene identifiers for Homo sapiens, Mus musculus, and Rattus norvegicus. These identifiers may be used to specify gene, RNA, microRNA, or protein abundances. Single character encoding following each value specify which abundance types are valid. 
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:22
 QueryValueURL=http://www.ncbi.nlm.nih.gov/gene/[VALUE]
 

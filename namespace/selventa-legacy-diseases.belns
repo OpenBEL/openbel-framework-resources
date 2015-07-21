@@ -4,7 +4,7 @@ Keyword=SDIS
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=Selventa legacy names for diseases. It is not recommended that new BEL Documents include reference to any of these legacy namespaces.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:23
 
 [Author]

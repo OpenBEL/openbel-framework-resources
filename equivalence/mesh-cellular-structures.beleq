@@ -1,12 +1,12 @@
 [Equivalence]
 NameString=MeSH Cellular Location (Name) Equivalences
 DescriptionString=MeSH  equivalences were obtained by string match of MeSH headings and synonyms to GO Cellular Component names.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:52:16
 
 [NamespaceReference]
 NameString=MeSH Cellular Locations (Names)
-VersionString=20150611
+VersionString=testing
 
 [Author]
 NameString=OpenBEL

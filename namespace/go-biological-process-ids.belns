@@ -4,7 +4,7 @@ Keyword=GOBPID
 DomainString=Biological Process
 SpeciesString=all
 DescriptionString=The Gene Ontology (GO) identifiers for biological process. These IDs may be used to represent biological processes. 
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:23
 QueryValueURL=http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:[VALUE]
 

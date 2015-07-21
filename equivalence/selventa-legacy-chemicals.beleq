@@ -1,12 +1,12 @@
 [Equivalence]
 NameString=Selventa Legacy Chemical Name Equivalences
 DescriptionString=Selventa Legacy Chemical equivalences were assigned based on string match to ChEBI synonyms.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:52:16
 
 [NamespaceReference]
 NameString=Selventa Legacy Chemical Names
-VersionString=20150611
+VersionString=testing
 
 [Author]
 NameString=OpenBEL

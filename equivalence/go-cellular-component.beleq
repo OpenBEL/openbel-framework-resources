@@ -1,12 +1,12 @@
 [Equivalence]
 NameString=GO Cellular Component (Name) Equivalences
 DescriptionString=GO Cellular Component Name equivalences are assigned based on the correpsonding GO Cellular Component identifier. 
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:37
 
 [NamespaceReference]
 NameString=GO Cellular Components (Names)
-VersionString=20150611
+VersionString=testing
 
 [Author]
 NameString=OpenBEL

@@ -4,7 +4,7 @@ Keyword=MESHCS
 DomainString=Cell Components and Complexes
 SpeciesString=all
 DescriptionString=Medical Subject Headings (MeSH) names for cellular locations [branch A11.284].
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:23
 QueryValueURL=http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&term=[VALUE]&field=entry
 

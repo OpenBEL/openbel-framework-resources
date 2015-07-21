@@ -10662,184 +10662,184 @@
         "annotations":{
             "CL":{
                 "new_keyword":"CL", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/annotation/cell.belanno", 
+                "new_url":"http://resource.belframework.org/belframework/testing/annotation/cell.belanno", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/annotation/cell.belanno"
             }, 
             "CLO":{
                 "new_keyword":"CLO", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/annotation/cell-line.belanno", 
+                "new_url":"http://resource.belframework.org/belframework/testing/annotation/cell-line.belanno", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/annotation/cell-line.belanno"
             }, 
             "DO":{
                 "new_keyword":"DO", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/annotation/disease.belanno", 
+                "new_url":"http://resource.belframework.org/belframework/testing/annotation/disease.belanno", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/annotation/disease.belanno"
             }, 
             "EFO":{
                 "new_keyword":"EFO", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/annotation/cell-line.belanno", 
+                "new_url":"http://resource.belframework.org/belframework/testing/annotation/cell-line.belanno", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/annotation/cell-line.belanno"
             }, 
             "MESHA":{
                 "new_keyword":"MESHA", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/annotation/mesh-anatomy.belanno", 
+                "new_url":"http://resource.belframework.org/belframework/testing/annotation/mesh-anatomy.belanno", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/annotation/mesh-anatomy.belanno"
             }, 
             "MESHCS":{
                 "new_keyword":"MESHCS", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/annotation/cell-structure.belanno", 
+                "new_url":"http://resource.belframework.org/belframework/testing/annotation/cell-structure.belanno", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/annotation/cell-structure.belanno"
             }, 
             "MESHD":{
                 "new_keyword":"MESHD", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/annotation/mesh-diseases.belanno", 
+                "new_url":"http://resource.belframework.org/belframework/testing/annotation/mesh-diseases.belanno", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/annotation/mesh-diseases.belanno"
             }, 
             "TAXON":{
                 "new_keyword":"TAXON", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/annotation/species-taxonomy-id.belanno", 
+                "new_url":"http://resource.belframework.org/belframework/testing/annotation/species-taxonomy-id.belanno", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/annotation/species-taxonomy-id.belanno"
             }, 
             "UBERON":{
                 "new_keyword":"UBERON", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/annotation/anatomy.belanno", 
+                "new_url":"http://resource.belframework.org/belframework/testing/annotation/anatomy.belanno", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/annotation/anatomy.belanno"
             }
         }, 
         "namespaces":{
             "AFFX":{
                 "new_keyword":"AFFX", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/affy-probeset-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/affy-probeset-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/affy-probeset-ids.belns"
             }, 
             "CHEBI":{
                 "new_keyword":"CHEBI", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/chebi.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/chebi.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/chebi.belns"
             }, 
             "CHEBIID":{
                 "new_keyword":"CHEBIID", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/chebi-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/chebi-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/chebi-ids.belns"
             }, 
             "DO":{
                 "new_keyword":"DO", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/disease-ontology.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/disease-ontology.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/disease-ontology.belns"
             }, 
             "DOID":{
                 "new_keyword":"DOID", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/disease-ontology-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/disease-ontology-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/disease-ontology-ids.belns"
             }, 
             "EGID":{
                 "new_keyword":"EGID", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/entrez-gene-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/entrez-gene-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/entrez-gene-ids.belns"
             }, 
             "GOBP":{
                 "new_keyword":"GOBP", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/go-biological-process.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/go-biological-process.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/go-biological-process.belns"
             }, 
             "GOBPID":{
                 "new_keyword":"GOBPID", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/go-biological-process-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/go-biological-process-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/go-biological-process-ids.belns"
             }, 
             "GOCC":{
                 "new_keyword":"GOCC", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/go-cellular-component.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/go-cellular-component.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/go-cellular-component.belns"
             }, 
             "GOCCID":{
                 "new_keyword":"GOCCID", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/go-cellular-component-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/go-cellular-component-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/go-cellular-component-ids.belns"
             }, 
             "HGNC":{
                 "new_keyword":"HGNC", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/hgnc-human-genes.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/hgnc-human-genes.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/hgnc-human-genes.belns"
             }, 
             "MESHC":{
                 "new_keyword":"MESHC", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/mesh-chemicals.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/mesh-chemicals.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/mesh-chemicals.belns"
             }, 
             "MESHCID":{
                 "new_keyword":"MESHCID", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/mesh-chemicals-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/mesh-chemicals-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/mesh-chemicals-ids.belns"
             }, 
             "MESHCS":{
                 "new_keyword":"MESHCS", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/mesh-cellular-structures.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-structures.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/mesh-cellular-structures.belns"
             }, 
             "MESHCSID":{
                 "new_keyword":"MESHCSID", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/mesh-cellular-structures-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/mesh-cellular-structures-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/mesh-cellular-structures-ids.belns"
             }, 
             "MESHD":{
                 "new_keyword":"MESHD", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/mesh-diseases.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/mesh-diseases.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/mesh-diseases.belns"
             }, 
             "MESHDID":{
                 "new_keyword":"MESHDID", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/mesh-diseases-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/mesh-diseases-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/mesh-diseases-ids.belns"
             }, 
             "MESHPP":{
                 "new_keyword":"MESHPP", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/mesh-processes.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/mesh-processes.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/mesh-processes.belns"
             }, 
             "MESHPPID":{
                 "new_keyword":"MESHPPID", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/mesh-processes-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/mesh-processes-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/mesh-processes-ids.belns"
             }, 
             "MGI":{
                 "new_keyword":"MGI", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/mgi-mouse-genes.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/mgi-mouse-genes.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/mgi-mouse-genes.belns"
             }, 
             "RGD":{
                 "new_keyword":"RGD", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/rgd-rat-genes.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/rgd-rat-genes.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/rgd-rat-genes.belns"
             }, 
             "SCHEM":{
                 "new_keyword":"SCHEM", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/selventa-legacy-chemicals.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-chemicals.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/selventa-legacy-chemicals.belns"
             }, 
             "SCOMP":{
                 "new_keyword":"SCOMP", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/selventa-named-complexes.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/selventa-named-complexes.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/selventa-named-complexes.belns"
             }, 
             "SDIS":{
                 "new_keyword":"SDIS", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/selventa-legacy-diseases.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/selventa-legacy-diseases.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/selventa-legacy-diseases.belns"
             }, 
             "SFAM":{
                 "new_keyword":"SFAM", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/selventa-protein-families.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/selventa-protein-families.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/selventa-protein-families.belns"
             }, 
             "SP":{
                 "new_keyword":"SP", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/swissprot.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/swissprot.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/swissprot.belns"
             }, 
             "SPID":{
                 "new_keyword":"SPID", 
-                "new_url":"http://resource.belframework.org/belframework/20150611/namespace/swissprot-ids.belns", 
+                "new_url":"http://resource.belframework.org/belframework/testing/namespace/swissprot-ids.belns", 
                 "old_url":"http://resource.belframework.org/belframework/20131211/namespace/swissprot-ids.belns"
             }
         }

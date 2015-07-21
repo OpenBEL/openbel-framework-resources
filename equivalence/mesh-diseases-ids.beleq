@@ -1,12 +1,12 @@
 [Equivalence]
 NameString=MeSH Diseases Heading Identifiers Equivalences
 DescriptionString=MeSH Disease Headings equivalences were obtained from the Disease Ontology cross-references to MeSH.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:52:16
 
 [NamespaceReference]
 NameString=MeSH Diseases Headings (Identifiers)
-VersionString=20150611
+VersionString=testing
 
 [Author]
 NameString=OpenBEL

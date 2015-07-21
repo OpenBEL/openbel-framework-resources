@@ -4,7 +4,7 @@ NameString=Named Protein Families
 DomainString=Gene/Protein
 SpeciesString=9606, 10090, 10116
 DescriptionString=Names of protein families. This Namespace standardizes the representation of protein families by providing a standardized set of names. Each family represents a group of proteins that are closely related by function. Note: A named protein family represents a more abstract concept than its individual members. Its purpose is to represent information when the observation does not distinguish between closely related proteins. For example the "AKT Family" has as members the closely related kinases AKT1, AKT2, and AKT3. Sources often reference "Akt" rather than a specific family member. In these cases the family should be used.
-VersionString=20150611
+VersionString=testing
 CreatedDateTime=2015-06-11T19:51:23
 
 [Author]
