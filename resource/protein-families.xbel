@@ -3,7 +3,7 @@
     <bel:header>
         <bel:name>Selventa Protein Families Definitions</bel:name>
         <bel:description>Selventa Protein Families and Members</bel:description>
-        <bel:version>20150611</bel:version>
+        <bel:version>testing</bel:version>
         <bel:copyright>Copyright (c) 2011-2015, Selventa. All rights reserved.</bel:copyright>
         <bel:authorGroup>
             <bel:author>Selventa</bel:author>

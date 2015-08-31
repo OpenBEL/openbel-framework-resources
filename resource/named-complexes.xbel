@@ -3,7 +3,7 @@
     <bel:header>
         <bel:name>Selventa Named Complexes Definitions</bel:name>
         <bel:description>Selventa Named Complexes and Compoments</bel:description>
-        <bel:version>20150611</bel:version>
+        <bel:version>testing</bel:version>
         <bel:copyright>Copyright (c) 2011-2015, Selventa. All rights reserved.</bel:copyright>
         <bel:authorGroup>
             <bel:author>Selventa</bel:author>
