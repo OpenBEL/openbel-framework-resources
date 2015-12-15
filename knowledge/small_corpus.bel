@@ -309,7 +309,7 @@ complex (Figure 3 and Box 1)."
 
 a(CHEBI:dioxygen) increases p(HGNC:HIF1A,pmod(H,P))
 p(HGNC:HIF1A,pmod(H,P)) directlyIncreases deg(p(HGNC:HIF1A))
-p(HGNC:HIF1A,pmod(P,H)) directlyIncreases (cat(complex(p(HGNC:VHL),p(HGNC:TCEB1),p(HGNC:TCEB2),p(HGNC:RBX1),p(HGNC:CUL2))) directlyIncreases deg(p(HGNC:HIF1A)))
+p(HGNC:HIF1A,pmod(H,P)) directlyIncreases (cat(complex(p(HGNC:VHL),p(HGNC:TCEB1),p(HGNC:TCEB2),p(HGNC:RBX1),p(HGNC:CUL2))) directlyIncreases deg(p(HGNC:HIF1A)))
 
 SET Evidence = "The VHL-mediated proteolytic degradation of HIF suppresses a transcription programme
 that is normally engaged by HIF as part of the adaptive response of the cell
@@ -7513,4 +7513,3 @@ p(HGNC:FGF2) increases bp(MESHPP:"Cell Proliferation")
 p(HGNC:FGF2) increases bp(GOBP:"cell migration")
 
 UNSET STATEMENT_GROUP
-
