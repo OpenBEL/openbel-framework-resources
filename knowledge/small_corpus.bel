@@ -870,12 +870,6 @@ UNSET STATEMENT_GROUP
 SET STATEMENT_GROUP = "Group 5"
 
 SET TextLocation = Review
-SET Evidence = "Originally identified by high-throughput screening of small molecules against C-Raf
-kinase, sorafenib was found to be a potent competitive inhibitor of ATP binding
-in the catalytic domains of C-Raf, wild-type B-Raf, and V599EB-Raf mutant."
-SET Citation = {"PubMed","The Biochemical journal","12444918","","Houslay MD|Adams DR",""}
-
-act(p(HGNC:ADRB2)) directlyIncreases complex(p(HGNC:ADRB2),p(SFAM:"PDE4 Family"),p(SFAM:"ARRB Family"))
 
 SET Evidence = "Long PDE4 isoforms from all four subfamilies can be activated through PKA phosphorylation
 [50,54–57] of a single serine residue[50,56,58–61] found at the extreme
