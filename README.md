@@ -1,9 +1,7 @@
 openbel-framework-resources
 ===========================
 
-This repository contains file resources for the [BEL Framework](https://github.com/OpenBEL/openbel-framework/).
-
-The contents of this repository are mirrored to http://resource.belframework.org/belframework/1.0.
+This repository contains file resources for BEL.
 
 The content consists of:
 
