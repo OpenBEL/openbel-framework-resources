@@ -2,6 +2,7 @@ openbel-framework-resources
 ===========================
 
 This repository contains file resources for BEL.
+The contents of this repository are mirrored to http://resources.openbel.org/belframework/latest-release/
 
 The content consists of:
 
